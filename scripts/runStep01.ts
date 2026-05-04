@@ -46,17 +46,30 @@ async function processBatch() {
   const files = fs.readdirSync(config.dataDir).filter(f => f.endsWith('.txt'));
   console.log(`Found ${files.length} file(s) in ${config.dataDir}`);
 
+  const force = process.env.FORCE === '1' || process.argv.includes('--force');
+  let skipped = 0;
+
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
     const candidateId = path.basename(file, '.txt');
     const filePath = path.join(config.dataDir, file);
+    const outPath = path.join(config.outputDir, `${candidateId}.json`);
+
+    if (!force && fs.existsSync(outPath)) {
+      console.log(`[Skip] ${candidateId} already processed`);
+      skipped++;
+      continue;
+    }
+
     try {
       const candidate = await splitIdeaUnits(filePath, candidateId);
       saveOutput(candidateId, candidate);
     } catch (err) {
       console.error(`[Error] ${file}:`, err);
     }
-    if (i < files.length - 1) {
+
+    const remaining = files.length - i - 1 - skipped;
+    if (remaining > 0) {
       console.log(`[Batch] Waiting ${BATCH_DELAY_MS / 1000}s before next file...`);
       await new Promise(r => setTimeout(r, BATCH_DELAY_MS));
     }

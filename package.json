@@ -9,7 +9,11 @@
     "start": "node dist/index.js",
     "pipeline": "ts-node scripts/runStep01.ts",
     "pipeline:single": "ts-node scripts/runStep01.ts --single",
+    "pipeline:mock": "cross-env DATA_DIR=mock_data OUTPUT_DIR=output_mock CANDIDATE_ID= CANDIDATE_FILE= ts-node scripts/runStep01.ts",
     "step2": "ts-node scripts/runStep02.ts",
+    "step2:mock": "cross-env OUTPUT_DIR=output_mock CANDIDATE_ID= ts-node scripts/runStep02.ts",
+    "step3": "ts-node scripts/runStep03.ts",
+    "step3:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep03.ts",
     "models": "ts-node scripts/listModels.ts"
   },
   "dependencies": {
@@ -22,6 +26,7 @@
     "@types/express": "^4.17.21",
     "@types/node": "^20.14.0",
     "@types/uuid": "^10.0.0",
+    "cross-env": "^10.1.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.0"

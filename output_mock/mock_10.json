@@ -1,0 +1,720 @@
+{
+  "candidate_id": "mock_10",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_10.txt"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n### 關於我\r\n我是[學生姓名]，就讀國立中興大學，主修資訊工程學系並雙主修心理學系。我在資工系四年期間，不僅深入學習了計算機科學的理論與實踐，更透過心理學的薰陶，培養了對人類行為、認知模式及社會互動的深刻理解。在學業表現上，我以系排名前10%的成績畢業，平均GPA達3.75/4.0，這得益於我對知識的熱情與不懈的鑽研精神。我相信，跨領域的學習背景賦予我獨特的視角與解決問題的能力，尤其在面對複雜且以人為本的生醫資訊領域，這份優勢將能發揮關鍵作用。\r\n\r\n### 求學經歷\r\n**[研究專題 - 穿戴式裝置心電圖訊號異常即時偵測系統開發]**\r\n在大三升大四的暑假，我參與了[指導教授姓名]教授指導的「穿戴式裝置心電圖訊號異常即時偵測系統」專題研究。此專案旨在利用小型、低功耗的穿戴式設備採集心電圖 (ECG) 訊號，並透過機器學習模型即時分析，以預警心律不整等心血管疾病。我的主要職責包含：\r\n1. **訊號前處理與特徵工程：** 負責利用 Python 搭配 SciPy 和 `wfdb` 等函式庫，對原始 ECG 訊號進行去噪（如基線漂移濾波、電源線雜訊濾波），並提取時域與頻域特徵，如 QRS 波群偵測、R-R 間期變異性 (HRV) 分析、小波轉換係數等，以量化心跳模式。\r\n2. **深度學習模型開發與優化：** 在 TensorFlow/Keras 框架下，我設計並實作了基於卷積神經網絡 (CNN) 與長短期記憶網絡 (LSTM) 的混合模型。CNN 用於捕捉 ECG 訊號的局部時域特徵，而 LSTM 則擅長處理時間序列的長期依賴關係，以識別複雜的心律不整模式。我利用 PhysioNet 提供的 MIT-BIH Arrhythmia Database 進行模型訓練與驗證，並通過交叉驗證與超參數調優 (Hyperparameter Tuning) 提升模型性能。\r\n3. **系統整合與效能評估：** 最終的模型在嵌入式系統上進行輕量化部署的模擬測試，並針對常見心律不整類型（如心房顫動、室性早搏）進行辨識。在實驗中，我們的模型對於特定心律不整的偵測靈敏度 (Sensitivity) 達到了 92.5%，特異度 (Specificity) 達 88.7%，證明了其在即時監測應用中的潛力。\r\n透過此專案，我深入理解了生物醫學訊號的特性、訊號處理的關鍵技術，並掌握了深度學習模型從設計、訓練到評估的完整流程，尤其在資源受限的環境下優化模型效能的挑戰。\r\n\r\n**[課程專案 - 3D醫學影像腦腫瘤分割與分析]**\r\n在「醫學影像處理」課程中，我主導一個關於「利用深度學習對腦部MRI影像進行腫瘤分割與體積分析」的專案。此專案的目標是透過自動化方法精準地從多模態磁振造影 (MRI) 影像中分割出腦腫瘤，輔助醫師進行診斷與治療規劃。我的貢獻包括：\r\n1. **資料集處理與增強：** 使用 BraTS (Brain Tumor Segmentation) 挑戰賽的公開資料集。由於醫學影像資料量通常有限，我運用了多種資料增強技術，如隨機旋轉、縮放、翻轉、亮度調整以及彈性變形 (Elastic Deformation)，以擴充訓練資料集並提升模型泛化能力。\r\n2. **U-Net架構實作與改良：** 我選擇並實作了經典的 U-Net 卷積網絡架構，該架構因其編碼器-解碼器結構與跳躍連接 (Skip Connections) 而特別適用於醫學影像的語義分割。在實作過程中，我嘗試引入了自注意力機制 (Self-Attention Mechanism) 模組於 U-Net 的跳躍連接中，以更好地整合不同層級的特徵資訊，提升分割精準度。\r\n3. **性能評估與視覺化：** 模型在 PyTorch 框架下開發，並使用 Dice Loss 作為損失函數，Dice Coefficient (F1-score) 和 Hausdorff Distance 作為評估指標。實驗結果顯示，改良後的模型在腦腫瘤核心區域的 Dice Coefficient 達 0.88，相較於基礎 U-Net 提升了約 3%。我亦開發了基於 ITK-SNAP 和 Matplotlib 的視覺化工具，以便於觀察模型的分割結果與原始影像的對比，這對於理解模型決策邊界至關重要。\r\n此專案讓我對醫學影像的特點、深度學習在影像分割上的應用及其評估方法有了深刻的理解，同時也磨練了我在處理高維度、複雜資料上的實作技巧。\r\n\r\n### 跨領域學習\r\n我雙主修心理學的經歷，賦予我一種獨特的跨領域視角。心理學讓我學會了如何從認知、行為、社會等層面去理解人類。這對於生醫訊號與影像分析的研究至關重要。例如，在設計穿戴式裝置時，心理學的「人因工程學」知識能幫助我考慮使用者體驗與依從性，確保設備的易用性和舒適度。在解釋AI模型在醫學影像分析的結果時，心理學中的「認知偏差」理論讓我警惕醫師對AI建議的過度依賴或誤解，促使我思考如何設計更具可解釋性 (Explainable AI, XAI) 的系統，以建立醫護人員對AI的信任。此外，心理學的嚴謹實驗設計與統計分析方法，也讓我能更批判性地評估研究結果，並確保數據處理的科學性。我相信這種結合工程技術與人文關懷的跨域學習，能讓我在資工領域的研究更具深度與廣度，並能開發出真正服務於人類健康福祉的智慧醫療解決方案。\r\n\r\n## 動機\r\n在大學期間，無論是開發穿戴式裝置心電圖監測系統，或是進行腦部MRI影像的腫瘤分割，我深刻體認到資訊科技在醫療領域所蘊含的巨大潛力與迫切需求。隨著人口高齡化及慢性病盛行，傳統醫療體系面臨著前所未有的挑戰。而巨量的生理訊號、醫學影像、電子病歷等資料，如同未經開採的寶藏，等待著先進的演算法與計算技術來轉化為拯救生命的智慧。\r\n\r\n我在專題研究中，親身經歷了從原始、嘈雜的生理訊號中萃取有用資訊的艱鉅，以及如何訓練深度學習模型以在複雜醫學影像中精確定位病灶的挑戰。這些經驗讓我對「如何將理論知識轉化為具備臨床價值的實用工具」充滿熱情。我發現，儘管機器學習模型在某些任務上已能媲美甚至超越人類專家，但其「黑箱」性質、對資料偏差的敏感性以及在真實世界中的泛化能力，仍是限制其廣泛應用於高風險醫療場景的關鍵瓶頸。這些未解的技術與倫理挑戰，激勵我渴望能投身於更深層次的研究。\r\n\r\n國立陽明交通大學資工所，特別是在人工智慧、機器學習、醫學影像分析與生醫訊號處理等領域的卓越聲譽與豐沛資源，正是引領我繼續前行的理想殿堂。我相信貴所不僅能提供我紮實的理論基礎與前瞻的技術訓練，更能提供跨域合作的機會，讓我能與來自不同背景的頂尖學者共同探索智慧醫療的未來，彌補我在理論與實務結合上的不足，並深化對不同類型醫學數據處理方法的掌握。我期許能在貴所的引導下，成為一名能夠貢獻於人類健康的跨領域資訊科學研究者。\r\n\r\n## 研究方向與動機\r\n基於我過去在生醫訊號處理和醫學影像分析的學習與實踐經驗，我期望在國立陽明交通大學資工所深耕於「**可解釋性與穩健性人工智慧於智慧醫療診斷之應用**」此一研究方向。\r\n\r\n**動機：**\r\n1. **可解釋性AI (XAI) 在臨床決策中的必要性：** 在心電圖分析專案中，我意識到模型僅給出「心律不整」的判斷結果，卻無法解釋其判斷依據（例如：是基於哪個波形異常、哪個時間區段的特徵），這在臨床上會降低醫師對AI的信任度與採納意願。醫師需要的不僅是結果，更是能協助其理解病因、制定治療方案的「洞見」。因此，開發能提供透明、可解釋決策過程的AI模型，成為我的重要研究方向。這可能涉及梯度可視化 (Gradient Visualization)、局部可解釋模型 (LIME)、或SHAP值分析等技術，並針對醫學數據特性進行優化。\r\n2. **模型穩健性與泛化能力的挑戰：** 在醫學影像專題中，我發現訓練好的腦腫瘤分割模型，若應用於來自不同醫院、不同機型或不同掃描參數的MRI影像時，其性能會顯著下降。這凸顯了醫學AI模型在面對真實世界數據異質性時，穩健性與泛化能力不足的問題。我希望能探討如何提升模型的抗噪能力、領域適應 (Domain Adaptation) 技術，或是利用聯邦學習 (Federated Learning) 等方法，在保護病人隱私的前提下，整合多源數據以訓練出更具普適性的模型。\r\n3. **多模態數據融合的潛力：** 現今醫療診斷越來越倚重多模態資訊的整合，例如同時考量病人的ECG、MRI、基因檢測報告及臨床病史。我的跨領域背景使我對整合不同模態數據以提供更全面、精準的診斷結果充滿興趣。我希望研究如何有效地融合異質性的生醫數據，例如透過多模態深度學習架構 (如Multi-modal Transformers)，克服數據維度不一、資訊密度不同的挑戰，從而提高診斷的準確性與可靠性。\r\n\r\n我深信，透過在貴所學習先進的機器學習理論、深度學習架構與模式識別技術，並結合我在生醫訊號與影像分析的實作經驗，我能對以下具體研究子方向做出貢獻：\r\n* **發展基於因果推論的可解釋性AI模型，以識別心臟疾病或腦部病變的關鍵生物標誌。**\r\n* **探索對抗性學習 (Adversarial Learning) 或自監督學習 (Self-supervised Learning) 於提升醫學影像模型在小樣本與跨機構數據下的泛化能力。**\r\n* **設計新穎的多模態神經網路架構，有效整合生理訊號、醫學影像與電子病歷，以實現更早期、更精準的疾病預警與預後分析。**\r\n我期望能在貴所師資的指導下，深入探討這些問題，並為智慧醫療的發展貢獻一份心力。\r\n\r\n## 讀書計畫\r\n\r\n### 短期 (碩士班第一年)\r\n* **基礎精進與專業課程修習：** 扎實修習人工智慧與機器學習的核心課程，如「高等演算法」、「深度學習」、「模式識別」、「醫學影像分析」及「生物醫學訊號處理」等，以建構更深厚的理論基礎。我將主動與授課教授互動，並積極參與課堂討論，以加深理解。\r\n* **實驗室研究參與與技能強化：** 盡早參與指導教授的實驗室研究計畫，熟悉實驗室的運作模式、研究主題與資源。學習使用高階的數據分析工具和深度學習框架（如 PyTorch Lightning, MONAI），並提升在 Python 或 C++ 中的高效編程能力，特別是針對 GPU 加速的應用。\r\n* **學術文獻閱讀與導論：** 大量閱讀相關領域的頂尖期刊與會議論文（如 MICCAI, IEEE TMI, Medical Image Analysis, NeurIPS, AAAI），了解當前研究熱點、最新演算法與未解決的挑戰，為我的碩士論文研究方向奠定基礎。\r\n* **英語能力與溝通表達：** 積極參與實驗室或系所舉辦的英文學術報告與研討會，提升學術英文聽說讀寫能力。\r\n\r\n### 中期 (碩士班第二年)\r\n* **碩士論文研究與實作：** 在指導教授的指引下，確定具體研究課題，並深入展開論文研究。我將專注於實作與優化提出的可解釋性AI或穩健性模型，或開發多模態融合演算法，並進行嚴謹的實驗設計、數據採集與分析。\r\n* **學術成果發表：** 積極撰寫研究論文，並爭取將研究成果投稿至國內外重要學術會議（如 MICCAI, ISBI）或期刊。透過發表，不僅能獲得學術界的反饋，也能訓練我的學術寫作與口頭報告能力。\r\n* **產學合作或實習經驗：** 若有機會，我會主動爭取參與校內外的產學合作專案，或至相關醫療科技公司、研究機構實習，將理論知識應用於實際問題，並了解產業前沿技術與需求。\r\n* **跨領域協作：** 積極尋求與醫學院、生科院或心理學系的學者合作機會，以從不同角度審視我的研究，確保研究成果的臨床轉化潛力與倫理考量。\r\n\r\n### 長期 (畢業後)\r\n* **繼續深造或投入業界：** 考慮攻讀博士學位，持續在可解釋性AI、醫學影像處理或生物醫學資訊領域進行更深入、更具影響力的研究。或者，選擇加入國內外頂尖的醫療科技公司、藥廠或研究機構，擔任AI研發工程師或數據科學家，致力於開發創新的智慧醫療產品與服務。\r\n* **貢獻於智慧醫療發展：** 持續關注醫學與科技的最新發展，積極參與學術社群與產業交流，期許能透過我的專業知識與技能，為解決人類健康挑戰，提升醫療品質與效率，做出實質貢獻。\r\n* **終身學習與自我精進：** 保持對新技術、新知識的熱情與好奇心，不斷學習與精進，以適應快速變化的科技環境。\r\n\r\n## 其他加分文件摘要\r\n* **大學成績單：** 我的成績單證明了我在資訊工程與心理學雙主修的優異表現，GPA達3.75/4.0。特別在「高等演算法」、「機器學習」、「深度學習」、「醫學影像處理」、「生物統計學」等核心課程中均取得A以上成績。\r\n* **國科會大專生研究計畫：** 我曾參與[指導教授姓名]教授指導的「利用深度學習模型進行多導程心電圖早期心臟衰竭預警」國科會大專生研究計畫，並完成一份詳細的研究報告。這項經驗讓我更早接觸到獨立研究的流程與挑戰。\r\n* **心理學雙主修證明：** 這份證明文件強調我的跨領域學習背景，展現我結合資訊工程的技術能力與心理學的人文關懷的獨特優勢，這對於理解複雜的醫學倫理與使用者需求極為重要。\r\n* **英語能力證明：** 我曾參加托福測驗，取得[具體分數，例如：95分]的成績，具備良好的英語閱讀與溝通能力，足以應對國際化的學術研究環境。\r\n* **推薦信：** 我已邀請我的專題指導教授[指導教授姓名]以及心理學系[心理學教授姓名]教授為我撰寫推薦信，他們將能從不同角度評價我的學術能力、研究潛力及個人特質。",
+  "idea_units": [
+    {
+      "id": "ab4d6a39-c1a4-484f-994a-4130a3c3d1ed",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "我是[學生姓名]，就讀國立中興大學，主修資訊工程學系並雙主修心理學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5d013abc-40e5-470d-b7a7-a9fb097fcef9",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "我在資工系四年期間，不僅深入學習了計算機科學的理論與實踐，更透過心理學的薰陶，培養了對人類行為、認知模式及社會互動的深刻理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "13774cf0-799b-44e6-ac81-cb2b4d7e9090",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "在學業表現上，我以系排名前10%的成績畢業，平均GPA達3.75/4.0，這得益於我對知識的熱情與不懈的鑽研精神。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2fb0cc9-ed48-40b3-a41a-105745444db9",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "我相信，跨領域的學習背景賦予我獨特的視角與解決問題的能力，尤其在面對複雜且以人為本的生醫資訊領域，這份優勢將能發揮關鍵作用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07a7006a-2bfc-4e4a-ae86-526f06b4428a",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "在大三升大四的暑假，我參與了[指導教授姓名]教授指導的「穿戴式裝置心電圖訊號異常即時偵測系統」專題研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "12b056d5-2782-45a8-8960-ed57490a8a21",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "此專案旨在利用小型、低功耗的穿戴式設備採集心電圖 (ECG) 訊號，並透過機器學習模型即時分析，以預警心律不整等心血管疾病。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eaf6a14e-7ccf-4313-9d5b-4e44a0615485",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "負責利用 Python 搭配 SciPy 和 `wfdb` 等函式庫，對原始 ECG 訊號進行去噪（如基線漂移濾波、電源線雜訊濾波），並提取時域與頻域特徵，如 QRS 波群偵測、R-R 間期變異性 (HRV) 分析、小波轉換係數等，以量化心跳模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8455406c-cc4d-48e8-a9fb-4ca0ab27a57b",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "在 TensorFlow/Keras 框架下，我設計並實作了基於卷積神經網絡 (CNN) 與長短期記憶網絡 (LSTM) 的混合模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "283f0287-ae78-4d35-9705-a5f076dadb20",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "CNN 用於捕捉 ECG 訊號的局部時域特徵，而 LSTM 則擅長處理時間序列的長期依賴關係，以識別複雜的心律不整模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9f3bd2b3-2598-47b8-adf3-1a5d81381d76",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "我利用 PhysioNet 提供的 MIT-BIH Arrhythmia Database 進行模型訓練與驗證，並通過交叉驗證與超參數調優 (Hyperparameter Tuning) 提升模型性能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df41d3cd-8ef7-44a4-8128-8e6532b7d717",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "最終的模型在嵌入式系統上進行輕量化部署的模擬測試，並針對常見心律不整類型（如心房顫動、室性早搏）進行辨識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1ba8534-5167-498f-acf7-ff622158af9a",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "在實驗中，我們的模型對於特定心律不整的偵測靈敏度 (Sensitivity) 達到了 92.5%，特異度 (Specificity) 達 88.7%，證明了其在即時監測應用中的潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "973a80ca-6fad-4b2a-8b94-c1c9825e9dd2",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "透過此專案，我深入理解了生物醫學訊號的特性、訊號處理的關鍵技術，並掌握了深度學習模型從設計、訓練到評估的完整流程，尤其在資源受限的環境下優化模型效能的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "06d5bf67-0095-42fe-a658-5b14091ed864",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "在「醫學影像處理」課程中，我主導一個關於「利用深度學習對腦部MRI影像進行腫瘤分割與體積分析」的專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "253a2d69-655d-4cdb-b584-65ba9a9bb465",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "此專案的目標是透過自動化方法精準地從多模態磁振造影 (MRI) 影像中分割出腦腫瘤，輔助醫師進行診斷與治療規劃。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef33b847-898e-4e25-98ab-0e965e1197c8",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "使用 BraTS (Brain Tumor Segmentation) 挑戰賽的公開資料集。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c47db8a1-6c29-4f30-becb-cd0aa3fa7f20",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "由於醫學影像資料量通常有限，我運用了多種資料增強技術，如隨機旋轉、縮放、翻轉、亮度調整以及彈性變形 (Elastic Deformation)，以擴充訓練資料集並提升模型泛化能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "84756774-1499-46c3-96cb-143db836fbbe",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "我選擇並實作了經典的 U-Net 卷積網絡架構，該架構因其編碼器-解碼器結構與跳躍連接 (Skip Connections) 而特別適用於醫學影像的語義分割。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a8db8c66-5648-44ef-b8c4-9963815d9262",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "在實作過程中，我嘗試引入了自注意力機制 (Self-Attention Mechanism) 模組於 U-Net 的跳躍連接中，以更好地整合不同層級的特徵資訊，提升分割精準度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9fee5f02-5829-4538-8053-673a44da8f98",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "模型在 PyTorch 框架下開發，並使用 Dice Loss 作為損失函數，Dice Coefficient (F1-score) 和 Hausdorff Distance 作為評估指標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fce95afb-ff1e-4dc5-9472-a0011aad6049",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "實驗結果顯示，改良後的模型在腦腫瘤核心區域的 Dice Coefficient 達 0.88，相較於基礎 U-Net 提升了約 3%。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3ab19dc-cca5-4cf8-94cd-a341e45fc349",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "我亦開發了基於 ITK-SNAP 和 Matplotlib 的視覺化工具，以便於觀察模型的分割結果與原始影像的對比，這對於理解模型決策邊界至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e23acf54-113e-4e9b-8d16-e262fe41bd47",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "此專案讓我對醫學影像的特點、深度學習在影像分割上的應用及其評估方法有了深刻的理解，同時也磨練了我在處理高維度、複雜資料上的實作技巧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9ad60ee1-68de-40d2-98f4-fd22103b2b2b",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "我雙主修心理學的經歷，賦予我一種獨特的跨領域視角。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eaa28150-2ad9-4627-9138-87d130e6ed84",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "心理學讓我學會了如何從認知、行為、社會等層面去理解人類。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ecadcc3f-81b6-4c2f-9ac6-98702d218dda",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "這對於生醫訊號與影像分析的研究至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "29e95d0d-a10c-496f-9479-14a07dfe43af",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "例如，在設計穿戴式裝置時，心理學的「人因工程學」知識能幫助我考慮使用者體驗與依從性，確保設備的易用性和舒適度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b7807890-e554-4fd7-b196-01bd3fc42a6a",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "在解釋AI模型在醫學影像分析的結果時，心理學中的「認知偏差」理論讓我警惕醫師對AI建議的過度依賴或誤解，促使我思考如何設計更具可解釋性 (Explainable AI, XAI) 的系統，以建立醫護人員對AI的信任。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d84b16bd-7004-4792-b502-6cc562c436b1",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "此外，心理學的嚴謹實驗設計與統計分析方法，也讓我能更批判性地評估研究結果，並確保數據處理的科學性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd5ee958-a666-4305-8599-09e0435b39a5",
+      "candidate_id": "mock_10",
+      "section": "自傳",
+      "content": "我相信這種結合工程技術與人文關懷的跨域學習，能讓我在資工領域的研究更具深度與廣度，並能開發出真正服務於人類健康福祉的智慧醫療解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a5806857-3ee5-46e5-9d2d-e50d170e8dfd",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "在大學期間，無論是開發穿戴式裝置心電圖監測系統，或是進行腦部MRI影像的腫瘤分割，我深刻體認到資訊科技在醫療領域所蘊含的巨大潛力與迫切需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bac7b3b8-4177-4314-a85e-76a5c69e2f19",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "隨著人口高齡化及慢性病盛行，傳統醫療體系面臨著前所未有的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab601b23-853f-4aef-8f70-75e8deed8325",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "而巨量的生理訊號、醫學影像、電子病歷等資料，如同未經開採的寶藏，等待著先進的演算法與計算技術來轉化為拯救生命的智慧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c7b320ca-424a-4afb-855c-df54dfbb7acb",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我在專題研究中，親身經歷了從原始、嘈雜的生理訊號中萃取有用資訊的艱鉅，以及如何訓練深度學習模型以在複雜醫學影像中精確定位病灶的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9bf1114e-254d-44c4-b727-d2e275b49699",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "這些經驗讓我對「如何將理論知識轉化為具備臨床價值的實用工具」充滿熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "93743d31-aa55-4ffc-95fd-a911424d3fb3",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我發現，儘管機器學習模型在某些任務上已能媲美甚至超越人類專家，但其「黑箱」性質、對資料偏差的敏感性以及在真實世界中的泛化能力，仍是限制其廣泛應用於高風險醫療場景的關鍵瓶頸。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9bd1c1a8-069b-4b22-87da-233b64af9e39",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "這些未解的技術與倫理挑戰，激勵我渴望能投身於更深層次的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "551fe186-016b-433d-9655-3b2cf445582c",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "國立陽明交通大學資工所，特別是在人工智慧、機器學習、醫學影像分析與生醫訊號處理等領域的卓越聲譽與豐沛資源，正是引領我繼續前行的理想殿堂。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f308e573-0f18-40dc-b8e1-ae57d2360629",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我相信貴所不僅能提供我紮實的理論基礎與前瞻的技術訓練，更能提供跨域合作的機會，讓我能與來自不同背景的頂尖學者共同探索智慧醫療的未來，彌補我在理論與實務結合上的不足，並深化對不同類型醫學數據處理方法的掌握。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "29172ed6-e4aa-45fd-b52c-670d909214ee",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我期許能在貴所的引導下，成為一名能夠貢獻於人類健康的跨領域資訊科學研究者。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e3ba5823-be95-4d32-a45a-9284cd8705e4",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "基於我過去在生醫訊號處理和醫學影像分析的學習與實踐經驗，我期望在國立陽明交通大學資工所深耕於「可解釋性與穩健性人工智慧於智慧醫療診斷之應用」此一研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9876f08-8adb-4ea5-b501-8fb3ee07b7f8",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "在心電圖分析專案中，我意識到模型僅給出「心律不整」的判斷結果，卻無法解釋其判斷依據（例如：是基於哪個波形異常、哪個時間區段的特徵），這在臨床上會降低醫師對AI的信任度與採納意願。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "271b7399-b6c8-4083-b912-49eb56e604a5",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "醫師需要的不僅是結果，更是能協助其理解病因、制定治療方案的「洞見」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "af2eb5a1-3b55-4eae-af29-cad35c7b6cc3",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "因此，開發能提供透明、可解釋決策過程的AI模型，成為我的重要研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32b8ae45-df9e-4597-aa3f-dbb5a550029d",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "這可能涉及梯度可視化 (Gradient Visualization)、局部可解釋模型 (LIME)、或SHAP值分析等技術，並針對醫學數據特性進行優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c9cc7dc3-c181-4099-81a4-d576ad2d3a86",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "在醫學影像專題中，我發現訓練好的腦腫瘤分割模型，若應用於來自不同醫院、不同機型或不同掃描參數的MRI影像時，其性能會顯著下降。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f200587c-3365-41b2-9632-d6a9ff414d25",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "這凸顯了醫學AI模型在面對真實世界數據異質性時，穩健性與泛化能力不足的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "22a9056d-2b60-42aa-8362-008820f46467",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我希望能探討如何提升模型的抗噪能力、領域適應 (Domain Adaptation) 技術，或是利用聯邦學習 (Federated Learning) 等方法，在保護病人隱私的前提下，整合多源數據以訓練出更具普適性的模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd792579-8641-4cd0-8759-72d373735794",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "現今醫療診斷越來越倚重多模態資訊的整合，例如同時考量病人的ECG、MRI、基因檢測報告及臨床病史。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "88f50fb3-b976-4f4c-ac0b-e8b088d96786",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我的跨領域背景使我對整合不同模態數據以提供更全面、精準的診斷結果充滿興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7ed215a0-cb67-4e9c-b211-ee62335edf10",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我希望研究如何有效地融合異質性的生醫數據，例如透過多模態深度學習架構 (如Multi-modal Transformers)，克服數據維度不一、資訊密度不同的挑戰，從而提高診斷的準確性與可靠性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "65ea1f39-4da5-4cb9-929b-af819e8bc775",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我深信，透過在貴所學習先進的機器學習理論、深度學習架構與模式識別技術，並結合我在生醫訊號與影像分析的實作經驗，我能對以下具體研究子方向做出貢獻：",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04d985e3-af37-41de-bfed-1dd92243dce0",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "發展基於因果推論的可解釋性AI模型，以識別心臟疾病或腦部病變的關鍵生物標誌。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1fe1abdf-df41-4ebb-bc24-1a451422ee7a",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "探索對抗性學習 (Adversarial Learning) 或自監督學習 (Self-supervised Learning) 於提升醫學影像模型在小樣本與跨機構數據下的泛化能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b8e42cc7-3e6c-412c-b4c6-30e5e1f4b236",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "設計新穎的多模態神經網路架構，有效整合生理訊號、醫學影像與電子病歷，以實現更早期、更精準的疾病預警與預後分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e1431ca1-7c0d-4095-aef3-66215c14ffb5",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我期望能在貴所師資的指導下，深入探討這些問題，並為智慧醫療的發展貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d74fd13d-e73d-4533-a175-c583ebe2efae",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "扎實修習人工智慧與機器學習的核心課程，如「高等演算法」、「深度學習」、「模式識別」、「醫學影像分析」及「生物醫學訊號處理」等，以建構更深厚的理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2528dbb3-b0ba-4ff1-899e-054bf6d65e99",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我將主動與授課教授互動，並積極參與課堂討論，以加深理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58ca70d2-04ec-4c86-afb1-cadb42fbde76",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "盡早參與指導教授的實驗室研究計畫，熟悉實驗室的運作模式、研究主題與資源。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "224ab650-7bde-4a85-8b99-1d0767e7fbf1",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "學習使用高階的數據分析工具和深度學習框架（如 PyTorch Lightning, MONAI），並提升在 Python 或 C++ 中的高效編程能力，特別是針對 GPU 加速的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e2423ed8-10c8-443e-bd4d-cc3e3303368d",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "大量閱讀相關領域的頂尖期刊與會議論文（如 MICCAI, IEEE TMI, Medical Image Analysis, NeurIPS, AAAI），了解當前研究熱點、最新演算法與未解決的挑戰，為我的碩士論文研究方向奠定基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b505ba6d-69f9-4821-ab7f-b3efc6d54017",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室或系所舉辦的英文學術報告與研討會，提升學術英文聽說讀寫能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e39f5f86-b293-4a2d-b0f7-0963bb49e4b2",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "在指導教授的指引下，確定具體研究課題，並深入展開論文研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb04250a-61c2-4d54-9d90-c2dbc8ba52f2",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "我將專注於實作與優化提出的可解釋性AI或穩健性模型，或開發多模態融合演算法，並進行嚴謹的實驗設計、數據採集與分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "330b81c6-c85e-4534-983e-b20732f56a9b",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "積極撰寫研究論文，並爭取將研究成果投稿至國內外重要學術會議（如 MICCAI, ISBI）或期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3aa64c8-9d3d-4289-91cb-6b0f6665b30f",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "透過發表，不僅能獲得學術界的反饋，也能訓練我的學術寫作與口頭報告能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "318e6855-b53b-455a-87e4-8905619d4bcd",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "若有機會，我會主動爭取參與校內外的產學合作專案，或至相關醫療科技公司、研究機構實習，將理論知識應用於實際問題，並了解產業前沿技術與需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eaaa898f-b085-42a1-b6c6-8ed6542d4dce",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "積極尋求與醫學院、生科院或心理學系的學者合作機會，以從不同角度審視我的研究，確保研究成果的臨床轉化潛力與倫理考量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0387c39c-804a-4378-8914-187dac500c0b",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "考慮攻讀博士學位，持續在可解釋性AI、醫學影像處理或生物醫學資訊領域進行更深入、更具影響力的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0c3b9c02-4a32-4291-8c30-c28805038049",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "或者，選擇加入國內外頂尖的醫療科技公司、藥廠或研究機構，擔任AI研發工程師或數據科學家，致力於開發創新的智慧醫療產品與服務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9962af77-7e3c-4fc8-a4c2-aaac51c9481e",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "持續關注醫學與科技的最新發展，積極參與學術社群與產業交流，期許能透過我的專業知識與技能，為解決人類健康挑戰，提升醫療品質與效率，做出實質貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1a8da32a-23a2-4aa3-b145-2946a975775e",
+      "candidate_id": "mock_10",
+      "section": "讀書計畫",
+      "content": "保持對新技術、新知識的熱情與好奇心，不斷學習與精進，以適應快速變化的科技環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "35761080-a6e3-4f89-843c-d8730e1d8e04",
+      "candidate_id": "mock_10",
+      "section": "加分文件",
+      "content": "我的成績單證明了我在資訊工程與心理學雙主修的優異表現，GPA達3.75/4.0。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "17dbf4a4-c470-4838-a572-e9d80cdf29bd",
+      "candidate_id": "mock_10",
+      "section": "加分文件",
+      "content": "特別在「高等演算法」、「機器學習」、「深度學習」、「醫學影像處理」、「生物統計學」等核心課程中均取得A以上成績。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cdca117a-b8f2-46e6-b16c-dd1f7d5ebf72",
+      "candidate_id": "mock_10",
+      "section": "加分文件",
+      "content": "我曾參與[指導教授姓名]教授指導的「利用深度學習模型進行多導程心電圖早期心臟衰竭預警」國科會大專生研究計畫，並完成一份詳細的研究報告。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6960c58f-a71d-4340-a9e2-e5db8efd537e",
+      "candidate_id": "mock_10",
+      "section": "加分文件",
+      "content": "這項經驗讓我更早接觸到獨立研究的流程與挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "89dde3c5-96ec-478b-987e-e1dff120ffc1",
+      "candidate_id": "mock_10",
+      "section": "加分文件",
+      "content": "這份證明文件強調我的跨領域學習背景，展現我結合資訊工程的技術能力與心理學的人文關懷的獨特優勢，這對於理解複雜的醫學倫理與使用者需求極為重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "08dcf9aa-c512-4662-a1c6-72a52f35b730",
+      "candidate_id": "mock_10",
+      "section": "加分文件",
+      "content": "我曾參加托福測驗，取得[具體分數，例如：95分]的成績，具備良好的英語閱讀與溝通能力，足以應對國際化的學術研究環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f4386e4f-1aaa-4d64-8814-5e641451a5f3",
+      "candidate_id": "mock_10",
+      "section": "加分文件",
+      "content": "我已邀請我的專題指導教授[指導教授姓名]以及心理學系[心理學教授姓名]教授為我撰寫推薦信，他們將能從不同角度評價我的學術能力、研究潛力及個人特質。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

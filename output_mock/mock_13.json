@@ -1,0 +1,720 @@
+{
+  "candidate_id": "mock_13",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_13.txt"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n### 關於我\r\n我是王子軒，現就讀於國立陽明交通大學資訊工程學系，主修機器學習與智慧型計算，並積極培養財金領域專長。在大學四年期間，我對學術始終保持高度熱忱與專注，累積了優異的**GPA 4.0/4.3**，尤其在資訊科學與資料分析相關課程中表現突出。我目前擔任量化金融研究社的社長，負責規劃並帶領社團成員探討金融市場的量化分析與智慧投資策略，這不僅讓我深化了資訊與財金的結合應用，也培養了卓越的領導與溝通能力。\r\n\r\n### 求學經歷\r\n\r\n**[產學合作：智慧投資決策系統開發]**\r\n在大三下學期，我參與了一項與某知名金融科技加速器新創團隊合作的產學專案，主題為「**基於強化學習的智慧投資決策系統開發**」。作為核心演算法開發者，我負責設計並實作一套應用**深度強化學習 (Deep Reinforcement Learning, DRL)** 的交易策略模型。我使用 **PyTorch** 深度學習框架，結合 **OpenAI Gym** 模擬環境進行模型的訓練與評估，旨在克服金融市場高噪音、非定態的挑戰。為了提升模型的穩健性，我嘗試了多種 DRL 演算法變體，包括 PPO (Proximal Policy Optimization) 和 A2C (Advantage Actor-Critic)，並針對市場滑價、交易成本等實務約束條件進行參數調整。經過數百小時的訓練與歷史數據回測，該模型在模擬環境中顯示出超越傳統基準策略的表現，成功將**年化報酬率提升至 15%**，同時將最大回撤率降低 5%。此專案讓我深刻體會到將理論演算法應用於複雜現實問題的挑戰與樂趣，也學會了如何處理高維度時序數據，以及在實務限制下優化模型效能。\r\n\r\n**[研究專題：基於圖神經網路的金融詐欺偵測]**\r\n在我的研究專題中，我投入於「**利用圖神經網路 (Graph Neural Networks, GNN) 進行金融詐欺偵測**」。傳統的金融詐欺偵測方法常難以捕捉交易行為間的複雜關聯性，而 GNN 具備處理圖結構數據的天然優勢。我的專題目標是針對銀行交易數據中的多層次關聯，設計並實作一套基於 **Message Passing Neural Network (MPNN)** 架構的 GNN 模型。我利用 **Python** 語言，結合 **NetworkX** 進行交易網絡構建，並使用 **PyTorch Geometric** 庫來實作 GNN 模型。我們使用一個包含 100 萬筆模擬交易紀錄的數據集，將每筆交易視為節點，而交易雙方及時間序列關係則構成邊，以捕捉異常交易模式。相較於傳統的監督式學習模型（如 Random Forest 或 LightGBM），GNN 模型在偵測金融詐欺時，將詐欺交易的 **F1-score 提升了 8%**，並有效降低了誤報率，展現出其在處理複雜關聯數據上的卓越潛力。此經驗讓我熟練了圖數據結構的處理、深度學習模型的調優，並學會了針對特定問題設計評估指標的重要性。\r\n\r\n### 跨領域學習\r\n除了資訊工程領域的專業訓練，我也積極選修了多門財金相關課程，如「財務工程」、「衍生性金融商品」與「風險管理」。這些跨領域的學習讓我得以從不同的視角看待問題，例如在學習「計量經濟學」與「投資學」時，我深刻理解了金融市場的運作機制與數據特性，這對於我在機器學習專案中進行高效的特徵工程、選取合適的模型以及解釋模型結果提供了寶貴的洞察。我學會了如何將抽象的金融理論（如效率市場假說、投資組合理論）轉化為具體的計算模型與演算法，並結合統計學（如時間序列分析、高頻數據處理）和機器學習，更全面地理解金融數據的特徵與行為模式。這種跨領域的融合思維，讓我能夠在資訊與金融的交界處，提出更具創新性與實務價值的解決方案。\r\n\r\n## 動機\r\n我在大學期間的產學合作與研究專題經驗，讓我深刻體會到機器學習與智慧型計算在解決現實問題上的巨大潛力，尤其是在金融領域。然而，我也意識到當前的智慧系統在金融應用中面臨諸多挑戰，例如模型決策的「黑箱性」使得結果難以解釋與信賴，這在高度監管且風險敏感的金融產業中是一個嚴重的限制。此外，數據隱私與模型偏見等議題也日益受到關注。\r\n\r\n國立陽明交通大學資工所長期在機器學習、人工智慧與資訊安全領域引領學術前沿，並擁有多位在**可解釋性人工智慧 (Explainable AI, XAI)**、**聯邦學習 (Federated Learning)** 及**金融科技 (FinTech)** 交叉領域具備卓越研究成果的教授。我特別對貴所**[可提及特定教授或實驗室名稱，例如：人工智慧與資料科學實驗室]** 在「機器學習可解釋性方法論」與「安全可信賴 AI 系統」方面的研究方向深感興趣，這與我期望解決金融 AI 信任危機的目標高度契合。我渴望在貴所深耕，不僅能學習到最前沿的理論知識，更能接觸到先進的研究資源與跨領域合作機會，提升我將理論知識轉化為實務應用的能力，為金融科技的發展貢獻一份力量。\r\n\r\n## 研究方向與動機\r\n基於我對機器學習與金融領域的交叉研究經驗，我未來在碩士班的研究方向將聚焦於「**可解釋性人工智慧 (Explainable AI, XAI) 在金融決策支援系統的應用**」。\r\n\r\n**研究動機：**\r\n金融機構在導入人工智慧系統時，儘管其預測精度可能極高，但由於模型內部運作的「黑箱特性」，常常難以符合監管單位對「透明度」與「可審計性」的要求，也讓內部風險控管人員難以理解與信賴模型的判斷依據。例如，在信用評分或投資策略制定中，如果模型無法提供其決策的解釋，將嚴重限制其在實務中的部署與應用。我的產學專案中，也曾遇到模型雖然預測精準，但難以向合作夥伴解釋其「為什麼」做出某項決策的困境，這促使我深思如何讓 AI 模型不僅「聰明」，更能「說得清楚」。\r\n\r\n**具體研究目標與方法：**\r\n我計劃深入探索如何結合現有的模型解釋方法，如**LIME (Local Interpretable Model-agnostic Explanations)、SHAP (SHapley Additive exPlanations)** 等後驗解釋技術，並針對金融數據（例如信用評分數據、市場波動指標、交易行為序列）的特殊性進行優化與改造。我將著重於以下幾個面向：\r\n1. **金融數據特徵化與解釋性整合：** 研究如何將金融領域知識（如財務比率、經濟指標）與模型內部解釋機制結合，以提供更符合領域專家認知的解釋。\r\n2. **時序數據的解釋性：** 針對金融市場中常見的時序數據，探索如何開發或改進能夠解釋模型在特定時間點或時間段內決策原因的方法，例如結合注意力機制 (Attention Mechanisms) 於時序預測模型。\r\n3. **因果推論與XAI的結合：** 進一步探討如何結合**因果推論 (Causal Inference)** 方法，不僅解釋模型「關聯」了什麼，更深入探討「為什麼」會發生。這對於理解金融市場的潛在驅動因素至關重要。\r\n\r\n我的最終目標是開發一套能夠在保持高預測精度的同時，提供高透明度與可信賴解釋的金融 AI 系統，協助金融分析師與決策者理解模型的判斷依據，從而提升金融服務的效率、公平性與安全性。我深信交大資工所豐富的學術資源與在 AI 領域的深厚根基，將為我實現此研究目標提供最佳的平台。\r\n\r\n## 讀書計畫\r\n\r\n### 短期 (碩士班第一年)\r\n* **學術基礎鞏固：** 重新複習高等數學、機率統計、線性代數等基礎知識，確保具備進階研究所需的數學素養。\r\n* **核心課程修習：** 積極選修交大資工所「高等機器學習」、「深度學習進階應用」、「人工智慧倫理與法規」等核心課程，深化機器學習理論與實務應用能力，並關注 AI 在高風險領域的社會影響。\r\n* **專業技能強化：** 精進 Python 程式能力，熟悉 PyTorch 和 TensorFlow 等深度學習框架，並學習使用如 Ray 或 Horovod 等分散式訓練工具，以應對大規模數據與複雜模型的訓練需求。\r\n* **研究方向聚焦：** 廣泛閱讀關於可解釋性人工智慧 (XAI)、因果推論、聯邦學習以及金融科技相關的最新研究論文，與潛在指導教授會面，了解各實驗室的研究方向與資源，確立具體的碩士論文主題。\r\n\r\n### 中期 (碩士班第二年)\r\n* **深入研究實踐：** 積極參與指導教授的實驗室專案，將研究重心聚焦於 XAI 在金融領域的實踐，學習並實作多種解釋性框架（如 LIME, SHAP, Captum 等），並嘗試將其與金融領域的特有需求結合。\r\n* **論文研究推進：** 根據選定的研究方向，展開實驗設計、數據收集與分析、模型開發與驗證，撰寫研究進度報告，並定期與教授討論。\r\n* **學術交流參與：** 積極參與國內外學術研討會（如 AAAI, KDD, NeurIPS, IJCAI 或相關 FinTech 論壇），發表研究成果，擴展學術視野，並與同行交流學習。\r\n* **實習經驗累積：** 尋求金融科技公司或大型金融機構的數據科學/AI 實習機會，將研究成果與業界需求結合，驗證理論模型的實務有效性，並建立業界人脈。\r\n\r\n### 長期 (碩士畢業後)\r\n* **專業貢獻：** 成功完成具創新性的碩士論文，為可解釋性人工智慧在高風險金融領域的應用做出具體貢獻，並將研究成果發表於頂級期刊或會議。\r\n* **職涯發展：** 期望能進入頂尖金融科技公司、銀行或量化投資機構，擔任資深機器學習工程師、數據科學家或 AI 策略師，領導 AI 團隊開發創新產品與解決方案。\r\n* **持續學習：** 機器學習與人工智慧領域發展迅速，我將保持終身學習的態度，持續關注最新技術趨勢，特別是在 AI 合規性、倫理與安全方面的進展，以應對不斷變化的挑戰。\r\n* **學術深耕 (選擇性)：** 若研究成果卓著且對學術研究保有極大熱忱，不排除繼續攻讀博士學位，在學術界深耕，為 AI 領域的基礎理論與前沿應用持續貢獻。\r\n\r\n## 其他加分文件摘要\r\n\r\n* **獎項與榮譽：**\r\n * **全國大專院校程式設計競賽 (NCPC) 優勝獎**：此獎項證明了我在演算法設計與程式實作上的卓越能力。\r\n * **交大校內書卷獎**：多次獲得書卷獎，顯示我在學術上的持續努力與優異表現。\r\n* **專業證照：**\r\n * **AWS Certified Machine Learning Specialty 認證**：證明我具備在雲端環境中設計、實作與部署機器學習解決方案的專業能力。\r\n* **志工與服務經驗：**\r\n * **資訊工程學系「AI 入門工作坊」助教**：曾擔任為期兩週的 AI 入門工作坊助教，輔導超過百名跨領域學生學習 Python 程式設計與機器學習基礎概念，展現我的教學與協作能力。\r\n* **英文能力證明：**\r\n * **TOEIC 考試 900+ 分**：證明我具備優異的英語溝通與閱讀能力，能流暢閱讀英文學術論文並參與國際學術交流。\r\n* **開源專案與貢獻：**\r\n * 在 **GitHub** 上維護多個機器學習相關開源專案，包括一個實現多種深度強化學習演算法的函式庫，累計獲得超過 500 個 Star。這些專案展現了我將所學應用於實踐、解決實際問題的能力，並積極參與開源社群。",
+  "idea_units": [
+    {
+      "id": "d91e71a8-5339-4f37-bff4-e2914ad1e638",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "我是王子軒，現就讀於國立陽明交通大學資訊工程學系，主修機器學習與智慧型計算，並積極培養財金領域專長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb171198-a488-4407-a899-e74761afa923",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "在大學四年期間，我對學術始終保持高度熱忱與專注，累積了優異的GPA 4.0/4.3，尤其在資訊科學與資料分析相關課程中表現突出。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "17bbb746-d2fc-4444-9319-00473872ca5b",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "我目前擔任量化金融研究社的社長，負責規劃並帶領社團成員探討金融市場的量化分析與智慧投資策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e140a35f-ea14-4e68-a2a3-700644b5dc4f",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "這不僅讓我深化了資訊與財金的結合應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0e9e4891-557c-4a95-85f4-74f9a9266243",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "也培養了卓越的領導與溝通能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0ac458fe-b6de-4042-9235-e5b90ce1c394",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "在大三下學期，我參與了一項與某知名金融科技加速器新創團隊合作的產學專案，主題為「基於強化學習的智慧投資決策系統開發」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "213cc18a-be04-4e4a-9ef2-8afc69d8df09",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "作為核心演算法開發者，我負責設計並實作一套應用深度強化學習 (Deep Reinforcement Learning, DRL) 的交易策略模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5e225be7-35b6-4689-acc8-835ac2d39aca",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "我使用 PyTorch 深度學習框架，結合 OpenAI Gym 模擬環境進行模型的訓練與評估。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ca25d9c-48d8-4ac5-9594-4b0ede4bdfd8",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "旨在克服金融市場高噪音、非定態的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e8c8fc7d-5ed9-4b59-af7b-c2f894f42aa2",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "為了提升模型的穩健性，我嘗試了多種 DRL 演算法變體，包括 PPO (Proximal Policy Optimization) 和 A2C (Advantage Actor-Critic)，並針對市場滑價、交易成本等實務約束條件進行參數調整。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60a67a4f-0ece-4a58-a53a-1588a12afb19",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "經過數百小時的訓練與歷史數據回測，該模型在模擬環境中顯示出超越傳統基準策略的表現，成功將年化報酬率提升至 15%，同時將最大回撤率降低 5%。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "83141a21-ac7d-4562-b5ad-0585fc5edb32",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "此專案讓我深刻體會到將理論演算法應用於複雜現實問題的挑戰與樂趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e89fc07c-1996-4143-8bfa-3bf7bd51452c",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "也學會了如何處理高維度時序數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0eecd8dc-57c3-43b0-ac33-05448b9eb852",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "以及在實務限制下優化模型效能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "99811e5c-ddf8-41d7-af02-0898c7e2446b",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "在我的研究專題中，我投入於「利用圖神經網路 (Graph Neural Networks, GNN) 進行金融詐欺偵測」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "909965c2-4ab4-4b5e-83bb-86c71efbb7a7",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "傳統的金融詐欺偵測方法常難以捕捉交易行為間的複雜關聯性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f01fcfe2-0b63-45f5-9f75-f2f8a6eaa145",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "而 GNN 具備處理圖結構數據的天然優勢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0459fea0-9324-4460-bf7f-b8e8832e900a",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "我的專題目標是針對銀行交易數據中的多層次關聯，設計並實作一套基於 Message Passing Neural Network (MPNN) 架構的 GNN 模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d8527dac-2230-4c51-b11b-673735bbe544",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "我利用 Python 語言，結合 NetworkX 進行交易網絡構建，並使用 PyTorch Geometric 庫來實作 GNN 模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8a2c7d71-6d7e-4ed9-8f76-3418f29caee2",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "我們使用一個包含 100 萬筆模擬交易紀錄的數據集，將每筆交易視為節點，而交易雙方及時間序列關係則構成邊，以捕捉異常交易模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fc899667-ab16-48c4-9a30-06e6f6ea4e44",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "相較於傳統的監督式學習模型（如 Random Forest 或 LightGBM），GNN 模型在偵測金融詐欺時，將詐欺交易的 F1-score 提升了 8%，並有效降低了誤報率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0792c7a6-3ddb-45e0-b416-a5f825eabdd3",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "展現出其在處理複雜關聯數據上的卓越潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "80daa94c-28f3-49ee-bcb1-b9663e61fbd0",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "此經驗讓我熟練了圖數據結構的處理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e49188b5-bb56-4880-8d42-6258beb6d79a",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "並學會了針對特定問題設計評估指標的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d6e65d11-3a4b-4d62-a8e5-88cbac33c1db",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "除了資訊工程領域的專業訓練，我也積極選修了多門財金相關課程，如「財務工程」、「衍生性金融商品」與「風險管理」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "53ceaf3a-abb0-45bd-bb89-73e86348b881",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "這些跨領域的學習讓我得以從不同的視角看待問題，例如在學習「計量經濟學」與「投資學」時，我深刻理解了金融市場的運作機制與數據特性，這對於我在機器學習專案中進行高效的特徵工程、選取合適的模型以及解釋模型結果提供了寶貴的洞察。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a9d9601c-e42e-411e-8e6c-37ab4d18a367",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "我學會了如何將抽象的金融理論（如效率市場假說、投資組合理論）轉化為具體的計算模型與演算法，並結合統計學（如時間序列分析、高頻數據處理）和機器學習，更全面地理解金融數據的特徵與行為模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fc34397e-3a62-4005-a44b-410a9fa56573",
+      "candidate_id": "mock_13",
+      "section": "自傳",
+      "content": "這種跨領域的融合思維，讓我能夠在資訊與金融的交界處，提出更具創新性與實務價值的解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3da60bc-2dc3-4f08-9312-3d94e6b87207",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "我在大學期間的產學合作與研究專題經驗，讓我深刻體會到機器學習與智慧型計算在解決現實問題上的巨大潛力，尤其是在金融領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4fd43770-1824-40a9-8e5f-11614c7cce0e",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "然而，我也意識到當前的智慧系統在金融應用中面臨諸多挑戰，例如模型決策的「黑箱性」使得結果難以解釋與信賴。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9b9bf5f5-af32-48fd-8c6b-5f3bcf5f5516",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "這在高度監管且風險敏感的金融產業中是一個嚴重的限制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d5c65d86-7be0-4310-880a-a20a2be8dd13",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "此外，數據隱私與模型偏見等議題也日益受到關注。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6bd35a14-b88a-42c2-9749-d98cfe16836b",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "國立陽明交通大學資工所長期在機器學習、人工智慧與資訊安全領域引領學術前沿，並擁有多位在可解釋性人工智慧 (Explainable AI, XAI)、聯邦學習 (Federated Learning) 及金融科技 (FinTech) 交叉領域具備卓越研究成果的教授。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f76ad34-3c31-4177-8c02-d72f1f2f81a9",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "我特別對貴所[可提及特定教授或實驗室名稱，例如：人工智慧與資料科學實驗室] 在「機器學習可解釋性方法論」與「安全可信賴 AI 系統」方面的研究方向深感興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c59cbb33-b181-4782-abae-7263b4918b90",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "這與我期望解決金融 AI 信任危機的目標高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "880be352-efc8-4aaf-855a-9bf06c4566d3",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "我渴望在貴所深耕，不僅能學習到最前沿的理論知識，更能接觸到先進的研究資源與跨領域合作機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9a03dca2-f39c-4364-bc1c-51415893d3a8",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "提升我將理論知識轉化為實務應用的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d7023e2b-295b-43fa-976f-0acd1333d808",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "為金融科技的發展貢獻一份力量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da42e869-2918-4ece-a05e-694af071f91e",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "基於我對機器學習與金融領域的交叉研究經驗，我未來在碩士班的研究方向將聚焦於「可解釋性人工智慧 (Explainable AI, XAI) 在金融決策支援系統的應用」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2b41c5e-4ebb-418f-ae10-19d8aff46dc0",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "金融機構在導入人工智慧系統時，儘管其預測精度可能極高，但由於模型內部運作的「黑箱特性」，常常難以符合監管單位對「透明度」與「可審計性」的要求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "29772e41-0169-4656-87e9-995d3f265a15",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "也讓內部風險控管人員難以理解與信賴模型的判斷依據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab845089-c4ac-470d-8b27-52e2c31699f6",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "例如，在信用評分或投資策略制定中，如果模型無法提供其決策的解釋，將嚴重限制其在實務中的部署與應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "842fe177-2d8a-477b-8f44-387c555facfb",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "我的產學專案中，也曾遇到模型雖然預測精準，但難以向合作夥伴解釋其「為什麼」做出某項決策的困境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bdf2142c-f8fa-4db1-a392-0a766c20bde2",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "這促使我深思如何讓 AI 模型不僅「聰明」，更能「說得清楚」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3d538950-4f86-46d5-8472-0ff7cb6ca9ec",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "我計劃深入探索如何結合現有的模型解釋方法，如LIME (Local Interpretable Model-agnostic Explanations)、SHAP (SHapley Additive exPlanations) 等後驗解釋技術，並針對金融數據（例如信用評分數據、市場波動指標、交易行為序列）的特殊性進行優化與改造。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a4aa9f01-b8ef-4f9d-bbce-c0f8235624cf",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "研究如何將金融領域知識（如財務比率、經濟指標）與模型內部解釋機制結合，以提供更符合領域專家認知的解釋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6befec6-2d6b-448c-a102-058f292c3a55",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "針對金融市場中常見的時序數據，探索如何開發或改進能夠解釋模型在特定時間點或時間段內決策原因的方法，例如結合注意力機制 (Attention Mechanisms) 於時序預測模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1524b9be-8ef3-44f1-9d06-4745af2bb864",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "進一步探討如何結合因果推論 (Causal Inference) 方法，不僅解釋模型「關聯」了什麼，更深入探討「為什麼」會發生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "526296c5-b83f-4a0f-9202-d46f0b8b32a7",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "這對於理解金融市場的潛在驅動因素至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6d27f6f1-77b1-47d7-ad90-591af453bbbe",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "我的最終目標是開發一套能夠在保持高預測精度的同時，提供高透明度與可信賴解釋的金融 AI 系統，協助金融分析師與決策者理解模型的判斷依據，從而提升金融服務的效率、公平性與安全性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aa6e6cfd-7cca-4f23-b89b-6fdcdcfb80a1",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "我深信交大資工所豐富的學術資源與在 AI 領域的深厚根基，將為我實現此研究目標提供最佳的平台。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d7938f6-fffa-4183-806c-e387254ef092",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "學術基礎鞏固：重新複習高等數學、機率統計、線性代數等基礎知識，確保具備進階研究所需的數學素養。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "567f0e51-1d75-40dd-9f07-6fe88f7a29f5",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "核心課程修習：積極選修交大資工所「高等機器學習」、「深度學習進階應用」、「人工智慧倫理與法規」等核心課程，深化機器學習理論與實務應用能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "64582074-5e49-4a07-9d05-49e1aa3f8c40",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "並關注 AI 在高風險領域的社會影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ebe7cdf2-048e-4d0d-8a22-8b3c18b3490e",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "專業技能強化：精進 Python 程式能力，熟悉 PyTorch 和 TensorFlow 等深度學習框架，並學習使用如 Ray 或 Horovod 等分散式訓練工具，以應對大規模數據與複雜模型的訓練需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1f9f0948-f278-420d-bedd-b96b90c8a003",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "研究方向聚焦：廣泛閱讀關於可解釋性人工智慧 (XAI)、因果推論、聯邦學習以及金融科技相關的最新研究論文，與潛在指導教授會面，了解各實驗室的研究方向與資源，確立具體的碩士論文主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a1e0d93a-e49c-4b1b-85f1-b112e5aee00e",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "深入研究實踐：積極參與指導教授的實驗室專案，將研究重心聚焦於 XAI 在金融領域的實踐，學習並實作多種解釋性框架（如 LIME, SHAP, Captum 等），並嘗試將其與金融領域的特有需求結合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "54526030-146a-478c-9bbb-7f788e0a6e16",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "論文研究推進：根據選定的研究方向，展開實驗設計、數據收集與分析、模型開發與驗證，撰寫研究進度報告，並定期與教授討論。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "43b66b4d-9db4-415e-b133-f96376d7110c",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "學術交流參與：積極參與國內外學術研討會（如 AAAI, KDD, NeurIPS, IJCAI 或相關 FinTech 論壇），發表研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7242a7d9-b822-435c-9b0d-02a3f7e3ce4b",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "擴展學術視野，並與同行交流學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58a18865-130b-43d8-b760-71a9a16c0438",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "實習經驗累積：尋求金融科技公司或大型金融機構的數據科學/AI 實習機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d6ee0c1e-5735-4c2b-9970-e567bf3475fd",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "將研究成果與業界需求結合，驗證理論模型的實務有效性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31a0ef02-2b8c-4b20-ac9e-46333eb344aa",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "專業貢獻：成功完成具創新性的碩士論文，為可解釋性人工智慧在高風險金融領域的應用做出具體貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f6db6fc-057c-436a-87d0-15a90af53ae5",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "並將研究成果發表於頂級期刊或會議。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab28aaa7-6e99-4fef-8160-784b755e1d6d",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "職涯發展：期望能進入頂尖金融科技公司、銀行或量化投資機構，擔任資深機器學習工程師、數據科學家或 AI 策略師，領導 AI 團隊開發創新產品與解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01b57802-ebc1-4c63-8e72-33b715571f6f",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "持續學習：機器學習與人工智慧領域發展迅速，我將保持終身學習的態度，持續關注最新技術趨勢，特別是在 AI 合規性、倫理與安全方面的進展，以應對不斷變化的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "af6f9137-af63-4f24-a5d8-a79cc045e49b",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "學術深耕 (選擇性)：若研究成果卓著且對學術研究保有極大熱忱，不排除繼續攻讀博士學位，在學術界深耕。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "810d23cc-4efb-4e85-bc62-102dcc56088b",
+      "candidate_id": "mock_13",
+      "section": "讀書計畫",
+      "content": "為 AI 領域的基礎理論與前沿應用持續貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "389719e0-b150-40de-8b49-c96e52cbf593",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "全國大專院校程式設計競賽 (NCPC) 優勝獎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c22aa4df-bebf-4e34-9e1b-9de91ba4613a",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "此獎項證明了我在演算法設計與程式實作上的卓越能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a3c91d37-6a40-4f7e-b038-fa280609c8fd",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "多次獲得書卷獎，顯示我在學術上的持續努力與優異表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16d0a2b1-50e4-4724-b449-ede47b939e3e",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "AWS Certified Machine Learning Specialty 認證。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2a7a1cb4-ee35-42f8-852e-1590d418caa4",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "證明我具備在雲端環境中設計、實作與部署機器學習解決方案的專業能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f21b7e9f-7ab2-48c5-ac7e-eb234c28e5a1",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "資訊工程學系「AI 入門工作坊」助教：曾擔任為期兩週的 AI 入門工作坊助教，輔導超過百名跨領域學生學習 Python 程式設計與機器學習基礎概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5527ac35-c64c-47a2-9d0f-b87b12b10b76",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "展現我的教學與協作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31cf8ca1-ca06-4a19-bf09-0a27ffb5454f",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "TOEIC 考試 900+ 分。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "34da8c43-3d3d-4bb1-9303-cd5eed0cd4b5",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "證明我具備優異的英語溝通與閱讀能力，能流暢閱讀英文學術論文並參與國際學術交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07dbcad7-df78-4c58-ab00-7a81afc44865",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "在 GitHub 上維護多個機器學習相關開源專案，包括一個實現多種深度強化學習演算法的函式庫，累計獲得超過 500 個 Star。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "245325ef-13fc-4530-aebb-d5bc32c9fd9e",
+      "candidate_id": "mock_13",
+      "section": "加分文件",
+      "content": "這些專案展現了我將所學應用於實踐、解決實際問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

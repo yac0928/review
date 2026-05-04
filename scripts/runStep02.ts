@@ -28,17 +28,30 @@ async function processBatch() {
     process.exit(1);
   }
 
-  const files = fs.readdirSync(config.outputDir).filter(f => f.endsWith('.json'));
-  console.log(`Found ${files.length} candidate(s) to annotate`);
+  const allFiles = fs.readdirSync(config.outputDir).filter(f => f.endsWith('.json') && f !== 'standard_dictionary.json');
+  const force = process.env.FORCE === '1' || process.argv.includes('--force');
+  let skipped = 0;
 
-  for (let i = 0; i < files.length; i++) {
-    const candidateId = path.basename(files[i], '.json');
+  console.log(`Found ${allFiles.length} candidate(s) to annotate`);
+
+  for (let i = 0; i < allFiles.length; i++) {
+    const candidateId = path.basename(allFiles[i], '.json');
+    const candidate = loadCandidate(config.outputDir, candidateId);
+
+    if (!force && candidate.idea_units.some(u => u.criteria.length > 0)) {
+      console.log(`[Skip] ${candidateId} already annotated`);
+      skipped++;
+      continue;
+    }
+
     try {
       await processSingle(candidateId);
     } catch (err) {
-      console.error(`[Error] ${files[i]}:`, err);
+      console.error(`[Error] ${allFiles[i]}:`, err);
     }
-    if (i < files.length - 1) {
+
+    const remaining = allFiles.length - i - 1 - skipped;
+    if (remaining > 0) {
       console.log(`[Batch] Waiting ${BATCH_DELAY_MS / 1000}s before next candidate...`);
       await new Promise(r => setTimeout(r, BATCH_DELAY_MS));
     }

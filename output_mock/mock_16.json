@@ -1,0 +1,648 @@
+{
+  "candidate_id": "mock_16",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_16.txt"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n### 關於我\r\n我是王子睿，就讀國立清華大學資訊工程學系，主修軟體工程與資訊安全。大學四年期間，我以嚴謹的邏輯思維與對程式設計的熱情，積極投入各項學術與專案挑戰，並保持優異的學業成績，整體學業平均績點（GPA）為 4.0/4.3。在學術之餘，我擔任清華合唱團的領唱，這不僅培養了我對細節的敏銳度與團隊協作能力，更讓我學會如何在壓力下精準表達，這份特質也延伸至我在資安專案中對程式碼品質與系統穩固性的追求。\r\n\r\n### 求學經歷\r\n**[專題研究 - 容器化應用程式安全分析框架之建構與效能評估]**\r\n在大三下學期，我參與了指導教授的容器化應用程式安全分析專題研究。鑑於現代軟體開發日益採用微服務與容器技術，其安全性議題日益突顯。我的專案旨在建構一個自動化框架，用於檢測基於 Docker 與 Kubernetes 部署的應用程式中的潛在安全漏洞。\r\n\r\n此框架整合了靜態應用程式安全測試 (SAST) 工具如 Semgrep 與 Bandit，進行程式碼層級的弱點掃描；同時也引入動態應用程式安全測試 (DAST) 工具如 OWASP ZAP，在運行時模擬攻擊，檢測常見的 Web 漏洞（例如 Cross-Site Scripting, SQL Injection）。我負責設計並實作一個中央協調模組，使用 Python 語言結合 Ansible 自動化腳本，實現對容器環境的自動部署、掃描工具的調用與掃描結果的整合分析。針對特定新型的 Common Vulnerabilities and Exposures (CVEs) 模式，我還開發了基於抽象語法樹 (AST) 分析的自定義規則。\r\n\r\n透過為期八個月的專案實作，我們成功在一個包含五個微服務的模擬電商平台中，識別出超過 15 個高風險漏洞，包括未經授權的 API 存取與資料庫注入點。與傳統手動檢測相比，此框架將漏洞發現效率提升了約 40%，同時透過智慧型結果聚合，將誤報率降低了 25%，顯著提升了資安分析的效益與準確性。\r\n\r\n**[實作專案 - 量子啟發式混合密碼系統之效率優化]**\r\n在「密碼學與網路安全」課程中，我主導了一個小組專案，探討如何實現一個量子啟發式混合密碼系統。傳統的非對稱加密（如 RSA、ECC）在面對未來的量子計算機時存在潛在風險，而格基密碼學（Lattice-based Cryptography）被認為是具備量子抗性（Post-Quantum Cryptography, PQC）的潛力方案。\r\n\r\n我們的專案目標是設計並實作一個混合密碼系統原型，其中金鑰交換部分採用 CRYSTALS-Kyber 演算法（一種格基密碼演算法），而數據加密則沿用傳統的對稱加密（如 AES-256 GCM）。我主要負責 Kyber 演算法的 C 語言實作與性能調優，包括使用 SIMD 指令集（如 AVX2）優化多項式乘法，並分析其在不同硬體平台上的加解密延遲與資源消耗。\r\n\r\n最終，我們成功地在 Linux 環境下，使用 OpenSSL 庫與自行實作的 Kyber 模組，構建了一個安全的通訊通道。實驗結果顯示，在單次 Kyber 金鑰交換過程中，我們將其計算時間壓縮至約 1.2 毫秒，與參考實作相比，提升了近 15% 的效率，同時保持了與 AES-256 GCM 相當的數據傳輸速率。此專案讓我對量子抗性密碼學的數學基礎與工程實作挑戰有了深刻理解。\r\n\r\n### 跨領域學習\r\n除了資訊工程領域的專業訓練，我也積極參與國立清華大學合唱團並擔任領唱。這份經歷看似與資工專業無關，卻在潛移默化中培養了我多方面的能力。作為領唱，我需要精準理解樂譜的每一個音符、速度與表情符號，並帶領其他聲部達成和諧的共鳴，這與程式設計中對每一個邏輯單元與系統架構的細膩剖析異曲同工。在合唱排練中，即使是微小的音高或節奏偏差，都可能破壞整體的和諧，這讓我對細節的關注度達到極致，就像在資安領域中，一個微小的程式漏洞也可能導致災難性的後果。此外，合唱團的團隊合作要求每一位成員貢獻自己的聲部，並相互傾聽、調整，以達到最佳的整體效果，這使我深刻體會到在複雜系統開發中，有效的溝通與協作對於專案成功的關鍵性。這種將不同元素融合成一個完美整體的能力，也啟發我從更宏觀的角度思考軟體系統的架構與設計，確保其既功能完善又安全可靠。\r\n\r\n## 動機\r\n在清華大學資工系的學習歷程中，我深深著迷於資訊安全與密碼學的精妙之處。從偵測容器化應用程式的漏洞，到實作量子抗性密碼系統，這些專案讓我見識到資安領域的廣闊與其在當代數位社會中的核心地位。然而，我也意識到，儘管我已累積了一定的實務經驗，但在面對層出不窮的資安威脅與快速演進的攻防技術時，理論知識的深度與研究方法的廣度仍有待進一步提升。\r\n\r\n國立陽明交通大學資訊工程學系研究所，特別是在資安、密碼學與系統安全領域的深厚根基與卓越研究成果，成為我追求學術精進的首選。貴所擁有多位在網路安全、密碼學理論、系統安全及人工智慧安全等領域具備國際聲譽的教授，其研究方向與我高度契合。例如，貴所教授在區塊鏈安全、硬體安全與新型加密演算法方面的研究，讓我倍感興奮。我特別關注貴所對「網路安全、網路攻擊偵測與硬體加速技術」以及「系統安全、軟體安全、AI 自動攻防」的研究，這些方向不僅與我過去的學習經驗一脈相承，更能提供我亟需的理論深度與先進研究工具。我相信在交大資工所，我將有機會在頂尖的學術環境中，與優秀的師長及同儕共同探索資安科技的未知疆域，為未來的數位世界貢獻一己之力。\r\n\r\n## 研究方向與動機\r\n鑑於我在容器安全與量子抗性密碼學的實作經驗，我對「後量子密碼學的軟體實作安全與效能優化」以及「基於AI的智能安全攻防技術」這兩個研究方向抱有濃厚的興趣，並期望能在貴所深入探討。\r\n\r\n**研究方向一：後量子密碼學 (PQC) 的軟體實作安全與效能優化**\r\n隨著量子計算的發展，傳統非對稱密碼系統的安全基石受到嚴重挑戰。PQC 的標準化工作正加速進行，其中格基密碼 (Lattice-based Cryptography) 因其較好的效率和安全性被廣泛關注。我的專案經驗讓我體會到 PQC 演算法的複雜性及其對軟體實作性能與安全性的高度要求。我期望能深入研究：\r\n* **安全實作**: 探討 PQC 演算法（如 Kyber, Dilithium）在軟體層面的側通道攻擊 (Side-channel Attacks) 防禦機制，例如恆定時間執行 (Constant-time Implementation)、蒙哥馬利梯子算法 (Montgomery Ladder) 等技術，並評估其在現代處理器架構上的安全性。\r\n* **效能優化**: 針對 PQC 演算法中的核心運算（如多項式乘法、數論變換 NTT），利用處理器特有的指令集（如 ARM Neon, Intel AVX512）進行深度優化，以期在資源受限的嵌入式設備或高吞吐量的伺服器環境中，實現更快的加解密速度與更低的功耗。\r\n* **形式化驗證**: 探索將形式化方法 (Formal Methods) 應用於 PQC 演算法的實作驗證，以數學方式證明其安全性特性，避免引入潛在的實作漏洞。\r\n我的動機源於對未來資訊安全威脅的深切關注，並期望能為全球 PQC 的部署與實用化貢獻一份力量。\r\n\r\n**研究方向二：基於人工智慧的智能安全攻防技術**\r\n隨著網路攻擊日益複雜與自動化，傳統基於規則的資安防禦體系面臨挑戰。人工智慧（特別是機器學習與深度學習）為資安領域帶來了新的機會。我的容器安全專案讓我意識到自動化分析的潛力，但我更希望進一步探討：\r\n* **AI 驅動的漏洞挖掘與利用**: 研究如何利用深度學習模型（如圖神經網路 GNN 或 Transformer）分析程式碼的抽象語法樹 (AST) 或控制流圖 (CFG)，自動識別潛在的零日漏洞模式，甚至自動生成概念驗證 (Proof-of-Concept, PoC) 的攻擊程式碼。這包括探索神經符號 (Neuro-symbolic) 方法，結合 AI 的泛化能力與符號執行的精確性。\r\n* **智能惡意軟體檢測與分析**: 開發基於深度學習的惡意軟體家族分類系統，通過分析惡意軟體的 API 調用序列、行為日誌或二進制代碼的嵌入表示，實現更精準、更具魯棒性的檢測，甚至能夠推斷其攻擊意圖。\r\n* **AI 自動攻防 (AI Red/Blue Teaming)**: 探索基於強化學習的智能代理，使其能夠自主學習攻擊策略（紅隊）或防禦策略（藍隊），並在模擬的網路環境中進行博弈，從而發現系統更深層的脆弱性並提升防禦韌性。\r\n此方向的動機源於對提高資安分析自動化水平的渴望，我希望能夠開發出更智能的工具來應對不斷進化的網路威脅。\r\n\r\n我深信，在交大資工所提供的豐沛學術資源與頂尖研究氛圍下，我將能夠結合我在軟體實作的經驗與對密碼學的熱情，深入鑽研這些前瞻性的資安議題。\r\n\r\n## 讀書計畫\r\n\r\n### 短期 (碩士班第一年)\r\n* **強化理論基礎**: 積極修習國立陽明交通大學資工所提供之核心課程，如「高等密碼學」、「網路安全協議」、「作業系統安全」、「形式化方法」等，為未來的研究奠定堅實的理論基礎。\r\n* **參與研究計畫**: 盡早與指導教授會面，了解實驗室當前的研究方向與進行中的專案。積極參與實驗室討論，熟悉資安領域的最新研究進展，並選定符合自身興趣與系所資源的論文主題。\r\n* **提升實作技能**: 專注於資安相關工具與技術的學習，包括但不限於現代密碼學庫 (如 OpenSSL, BearSSL)、安全分析工具 (如 IDA Pro, Ghidra for逆向工程)、以及 Rust/Go 等高性能、高安全性語言的深入應用。\r\n* **文獻閱讀與撰寫**: 大量閱讀國際頂級資安會議（如 USENIX Security, CCS, NDSS, IEEE S&P）與期刊的最新論文，培養批判性思考與學術論文撰寫能力。\r\n\r\n### 中期 (碩士班第二年)\r\n* **深度研究與論文撰寫**: 在指導教授的指導下，聚焦於選定的研究方向，進行原創性研究。這將包括設計實驗、開發原型系統、執行數據分析、並持續迭代優化。目標是在本學年結束前完成碩士論文的初稿。\r\n* **學術發表**: 積極參與學術會議與研討會，提交研究成果至相關領域的頂級會議或期刊，提升學術影響力，並從同行評審中獲得寶貴反饋。\r\n* **實習或專案合作**: 尋求與業界資安實驗室或研究單位合作的實習機會，將學術研究與產業實務結合，理解資安技術在真實世界中的應用與挑戰。\r\n* **知識分享與社群參與**: 參與資安社群活動，如資安競賽 (CTF)、開源專案貢獻或技術分享會，與同行交流學習，拓展人脈。\r\n\r\n### 長期 (畢業後)\r\n* **持續創新與貢獻**: 期望能進入學術界繼續攻讀博士學位，或在頂尖科技公司的研發部門擔任資安研究科學家，持續投入資訊安全的前沿研究，為構建更安全的數位世界貢獻心力。\r\n* **影響力與領導力**: 透過自身的研究成果與專業知識，積極參與產業標準制定、政策諮詢或教育訓練，推動資安技術的普及與應用，培養下一代資安人才。\r\n* **終身學習**: 資訊安全領域瞬息萬變，我承諾將保持對新技術、新威脅的敏銳度，持續學習與精進，成為資安領域的領導者與創新者。\r\n\r\n## 其他加分文件摘要\r\n* **國立清華大學學業成績單**: 呈現優異的學業表現，證明在資訊工程領域的紮實基礎知識與學習潛力，GPA 4.0/4.3。\r\n* **英語能力檢定證明**: TOEFL iBT 105 分，展現優良的英語聽、說、讀、寫能力，有助於閱讀國際學術文獻與未來國際交流。\r\n* **推薦信**: 來自國立清華大學資訊工程學系指導教授的強烈推薦信，佐證我的學術能力、研究潛力、學習態度與團隊合作精神。\r\n* **專案報告與程式碼庫連結**: 提供「容器化應用程式安全分析框架」與「量子啟發式混合密碼系統」專案的詳細報告、技術規格書及 GitHub 程式碼庫連結，展現我的實作能力與技術深度。\r\n* **獎項證明**: 曾獲「全國大專院校資訊安全實作競賽」優勝獎，證明在實務資安問題解決方面的能力。\r\n* **合唱團領唱證明**: 國立清華大學合唱團領唱證明，展現卓越的領導能力、團隊協作與精準表達能力。\r\n* **專業證照**: 曾考取 CompTIA Security+ 證照，證明對資安基礎知識與最佳實務的理解。",
+  "idea_units": [
+    {
+      "id": "4f210534-a801-4ccb-a72d-99a99e70eb0c",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我是王子睿，就讀國立清華大學資訊工程學系，主修軟體工程與資訊安全。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c02e1f5-1caf-40dc-ba17-a60e95233e36",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "大學四年期間，我以嚴謹的邏輯思維與對程式設計的熱情，積極投入各項學術與專案挑戰，並保持優異的學業成績，整體學業平均績點（GPA）為 4.0/4.3。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bcd5ca47-0b76-4517-bc4e-b1cfcca45351",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "在學術之餘，我擔任清華合唱團的領唱。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5d9d8e8e-7d95-4d6a-997f-40a23d0841a4",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這不僅培養了我對細節的敏銳度與團隊協作能力，更讓我學會如何在壓力下精準表達。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "22f865d6-5551-4406-9107-a6ba74d0393d",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這份特質也延伸至我在資安專案中對程式碼品質與系統穩固性的追求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e0ba87e8-0914-498c-af1f-e0c7c7bd1007",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "在大三下學期，我參與了指導教授的容器化應用程式安全分析專題研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5722e496-8067-4602-80ef-43da373b65c8",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "鑑於現代軟體開發日益採用微服務與容器技術，其安全性議題日益突顯。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a88b8d32-7e0f-4665-85e4-a698cf687d2f",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我的專案旨在建構一個自動化框架，用於檢測基於 Docker 與 Kubernetes 部署的應用程式中的潛在安全漏洞。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e9864f9b-d924-4c74-9088-750e4fd81f69",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "此框架整合了靜態應用程式安全測試 (SAST) 工具如 Semgrep 與 Bandit，進行程式碼層級的弱點掃描；同時也引入動態應用程式安全測試 (DAST) 工具如 OWASP ZAP，在運行時模擬攻擊，檢測常見的 Web 漏洞（例如 Cross-Site Scripting, SQL Injection）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa848814-372c-4979-a897-9122829d83f2",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我負責設計並實作一個中央協調模組，使用 Python 語言結合 Ansible 自動化腳本，實現對容器環境的自動部署、掃描工具的調用與掃描結果的整合分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1575c6b4-9669-4a29-a5d3-84aa2fb86a56",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "針對特定新型的 Common Vulnerabilities and Exposures (CVEs) 模式，我還開發了基於抽象語法樹 (AST) 分析的自定義規則。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe7de1aa-3f2a-410d-88b4-9ead70382851",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "透過為期八個月的專案實作，我們成功在一個包含五個微服務的模擬電商平台中，識別出超過 15 個高風險漏洞，包括未經授權的 API 存取與資料庫注入點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "906b43b2-2ef1-4be4-8657-d549b47056e9",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "與傳統手動檢測相比，此框架將漏洞發現效率提升了約 40%，同時透過智慧型結果聚合，將誤報率降低了 25%，顯著提升了資安分析的效益與準確性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5946149f-0476-4ec5-ace5-cd771f4305f5",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "在「密碼學與網路安全」課程中，我主導了一個小組專案，探討如何實現一個量子啟發式混合密碼系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a83725a-e4a9-4927-8074-138ff4a25d92",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "傳統的非對稱加密（如 RSA、ECC）在面對未來的量子計算機時存在潛在風險，而格基密碼學（Lattice-based Cryptography）被認為是具備量子抗性（Post-Quantum Cryptography, PQC）的潛力方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6fe91d14-d35a-4f83-91ab-fc4677031b7a",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我們的專案目標是設計並實作一個混合密碼系統原型，其中金鑰交換部分採用 CRYSTALS-Kyber 演算法（一種格基密碼演算法），而數據加密則沿用傳統的對稱加密（如 AES-256 GCM）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6ee84930-9240-4580-9e2a-297610842e23",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我主要負責 Kyber 演算法的 C 語言實作與性能調優，包括使用 SIMD 指令集（如 AVX2）優化多項式乘法，並分析其在不同硬體平台上的加解密延遲與資源消耗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a25674da-5850-498f-96a1-c1de1c10329e",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "最終，我們成功地在 Linux 環境下，使用 OpenSSL 庫與自行實作的 Kyber 模組，構建了一個安全的通訊通道。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ff3bb7fa-ade2-4271-a5e8-7cb0a1ba003b",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "實驗結果顯示，在單次 Kyber 金鑰交換過程中，我們將其計算時間壓縮至約 1.2 毫秒，與參考實作相比，提升了近 15% 的效率，同時保持了與 AES-256 GCM 相當的數據傳輸速率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c09a450d-3127-4ae7-92c0-e0687cb79568",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "此專案讓我對量子抗性密碼學的數學基礎與工程實作挑戰有了深刻理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "997c7876-284f-4d60-95f3-0576e17b916e",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "除了資訊工程領域的專業訓練，我也積極參與國立清華大學合唱團並擔任領唱。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3d4472f7-9d78-4e9d-847c-41fc061d3fbc",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這份經歷看似與資工專業無關，卻在潛移默化中培養了我多方面的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "05647863-e196-481b-ae2a-a5ae0da9bc66",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "作為領唱，我需要精準理解樂譜的每一個音符、速度與表情符號，並帶領其他聲部達成和諧的共鳴，這與程式設計中對每一個邏輯單元與系統架構的細膩剖析異曲同工。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3f8e7f98-f09d-4010-838e-5e99e492199d",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "在合唱排練中，即使是微小的音高或節奏偏差，都可能破壞整體的和諧，這讓我對細節的關注度達到極致，就像在資安領域中，一個微小的程式漏洞也可能導致災難性的後果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb43bb96-eb0b-4210-9eb1-bc85a07e4e35",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "此外，合唱團的團隊合作要求每一位成員貢獻自己的聲部，並相互傾聽、調整，以達到最佳的整體效果，這使我深刻體會到在複雜系統開發中，有效的溝通與協作對於專案成功的關鍵性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a8033964-c488-4a6e-b9d6-6355f6c78df9",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這種將不同元素融合成一個完美整體的能力，也啟發我從更宏觀的角度思考軟體系統的架構與設計，確保其既功能完善又安全可靠。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "024fb4cd-1a70-4865-93d7-188ea8eb3dd9",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "在清華大學資工系的學習歷程中，我深深著迷於資訊安全與密碼學的精妙之處。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "046ac14e-da12-4987-8bd9-ded939b327e2",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "從偵測容器化應用程式的漏洞，到實作量子抗性密碼系統，這些專案讓我見識到資安領域的廣闊與其在當代數位社會中的核心地位。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dbe55f0a-6335-49a0-abf8-ebba2b686459",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "然而，我也意識到，儘管我已累積了一定的實務經驗，但在面對層出不窮的資安威脅與快速演進的攻防技術時，理論知識的深度與研究方法的廣度仍有待進一步提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "729af32d-c5c2-4749-b51a-f82c9a0ddde5",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "國立陽明交通大學資訊工程學系研究所，特別是在資安、密碼學與系統安全領域的深厚根基與卓越研究成果，成為我追求學術精進的首選。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb67a460-0d95-4f36-9f53-9811d5c3fdf8",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "貴所擁有多位在網路安全、密碼學理論、系統安全及人工智慧安全等領域具備國際聲譽的教授，其研究方向與我高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b39d383f-8616-46de-b789-1837ca3749f4",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "例如，貴所教授在區塊鏈安全、硬體安全與新型加密演算法方面的研究，讓我倍感興奮。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4d1d0723-2ed6-4533-b5f5-952666dbea39",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "我特別關注貴所對「網路安全、網路攻擊偵測與硬體加速技術」以及「系統安全、軟體安全、AI 自動攻防」的研究，這些方向不僅與我過去的學習經驗一脈相承，更能提供我亟需的理論深度與先進研究工具。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b23ce659-24c8-4a6f-b2b3-2e7578861288",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "我相信在交大資工所，我將有機會在頂尖的學術環境中，與優秀的師長及同儕共同探索資安科技的未知疆域，為未來的數位世界貢獻一己之力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a92be393-3bc0-4629-a90c-bb2c2efa7510",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "鑑於我在容器安全與量子抗性密碼學的實作經驗，我對「後量子密碼學的軟體實作安全與效能優化」以及「基於AI的智能安全攻防技術」這兩個研究方向抱有濃厚的興趣，並期望能在貴所深入探討。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b7dc1c2e-09ae-42e5-b2dd-e43226ac288e",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "隨著量子計算的發展，傳統非對稱密碼系統的安全基石受到嚴重挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb9673e3-1a71-4256-a424-38d8717c733d",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "PQC 的標準化工作正加速進行，其中格基密碼 (Lattice-based Cryptography) 因其較好的效率和安全性被廣泛關注。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "abf8ded1-41bb-487f-8893-821b1d376f90",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "我的專案經驗讓我體會到 PQC 演算法的複雜性及其對軟體實作性能與安全性的高度要求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "86dc9c76-6dd1-4ecc-ba31-168bbbe2ef10",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "我期望能深入研究：安全實作: 探討 PQC 演算法（如 Kyber, Dilithium）在軟體層面的側通道攻擊 (Side-channel Attacks) 防禦機制，例如恆定時間執行 (Constant-time Implementation)、蒙哥馬利梯子算法 (Montgomery Ladder) 等技術，並評估其在現代處理器架構上的安全性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0888f096-4369-4c61-9b5d-8266d4429a45",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "效能優化: 針對 PQC 演算法中的核心運算（如多項式乘法、數論變換 NTT），利用處理器特有的指令集（如 ARM Neon, Intel AVX512）進行深度優化，以期在資源受限的嵌入式設備或高吞吐量的伺服器環境中，實現更快的加解密速度與更低的功耗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "11eff81b-1ef4-424f-8d2a-220f469abb04",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "形式化驗證: 探索將形式化方法 (Formal Methods) 應用於 PQC 演算法的實作驗證，以數學方式證明其安全性特性，避免引入潛在的實作漏洞。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef1fa81e-fb6b-4bc1-9a3a-05184e0ba1b5",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "我的動機源於對未來資訊安全威脅的深切關注，並期望能為全球 PQC 的部署與實用化貢獻一份力量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cea09613-6985-4c38-9c78-9aaac30b79c9",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "隨著網路攻擊日益複雜與自動化，傳統基於規則的資安防禦體系面臨挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ecdc2a0c-407a-4328-b8ab-0244d128ceb0",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "人工智慧（特別是機器學習與深度學習）為資安領域帶來了新的機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "78da831f-7109-4cb4-b75c-2ca9d8d201f7",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "我的容器安全專案讓我意識到自動化分析的潛力，但我更希望進一步探討：AI 驅動的漏洞挖掘與利用: 研究如何利用深度學習模型（如圖神經網路 GNN 或 Transformer）分析程式碼的抽象語法樹 (AST) 或控制流圖 (CFG)，自動識別潛在的零日漏洞模式，甚至自動生成概念驗證 (Proof-of-Concept, PoC) 的攻擊程式碼。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f42633d3-4df8-4e17-a835-d39bfb01d1bb",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "這包括探索神經符號 (Neuro-symbolic) 方法，結合 AI 的泛化能力與符號執行的精確性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "76d39a9a-753f-488f-8e01-9c3238bbaa3d",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "智能惡意軟體檢測與分析: 開發基於深度學習的惡意軟體家族分類系統，通過分析惡意軟體的 API 調用序列、行為日誌或二進制代碼的嵌入表示，實現更精準、更具魯棒性的檢測，甚至能夠推斷其攻擊意圖。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04ec913d-2570-4842-8412-8baad3654e77",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "AI 自動攻防 (AI Red/Blue Teaming): 探索基於強化學習的智能代理，使其能夠自主學習攻擊策略（紅隊）或防禦策略（藍隊），並在模擬的網路環境中進行博弈，從而發現系統更深層的脆弱性並提升防禦韌性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6bb62a53-3503-4ca1-b99d-0d76a44771ca",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "此方向的動機源於對提高資安分析自動化水平的渴望，我希望能夠開發出更智能的工具來應對不斷進化的網路威脅。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f35a4ef7-ec77-4747-8ecc-342ef5983bfb",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "我深信，在交大資工所提供的豐沛學術資源與頂尖研究氛圍下，我將能夠結合我在軟體實作的經驗與對密碼學的熱情，深入鑽研這些前瞻性的資安議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0b36782f-f82b-4117-bd2f-f6b184f7bebc",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "強化理論基礎: 積極修習國立陽明交通大學資工所提供之核心課程，如「高等密碼學」、「網路安全協議」、「作業系統安全」、「形式化方法」等，為未來的研究奠定堅實的理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1a0459b3-baec-428b-a673-2f8691fabdaa",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "參與研究計畫: 盡早與指導教授會面，了解實驗室當前的研究方向與進行中的專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ecd424ce-047a-4e5a-ae42-eaa5a9464644",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室討論，熟悉資安領域的最新研究進展，並選定符合自身興趣與系所資源的論文主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eaf1e841-7cf8-41d6-bdb1-f8bbcb4c0bbe",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "提升實作技能: 專注於資安相關工具與技術的學習，包括但不限於現代密碼學庫 (如 OpenSSL, BearSSL)、安全分析工具 (如 IDA Pro, Ghidra for逆向工程)、以及 Rust/Go 等高性能、高安全性語言的深入應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4af5a812-6eda-4981-a570-9577cfcaa95b",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "文獻閱讀與撰寫: 大量閱讀國際頂級資安會議（如 USENIX Security, CCS, NDSS, IEEE S&P）與期刊的最新論文，培養批判性思考與學術論文撰寫能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2bf83b8f-9d66-4654-a9ac-15e1e48c138b",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "深度研究與論文撰寫: 在指導教授的指導下，聚焦於選定的研究方向，進行原創性研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b01b9430-f911-4a7c-8f2f-5781348e9a59",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "這將包括設計實驗、開發原型系統、執行數據分析、並持續迭代優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a470715-8ee8-43aa-afb6-c5af7e27c1a9",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "目標是在本學年結束前完成碩士論文的初稿。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5fc765be-b31f-4f5d-b8f2-c671cf4aa00b",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "學術發表: 積極參與學術會議與研討會，提交研究成果至相關領域的頂級會議或期刊，提升學術影響力，並從同行評審中獲得寶貴反饋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0a667933-dc52-47e9-adc5-c8101a773983",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "實習或專案合作: 尋求與業界資安實驗室或研究單位合作的實習機會，將學術研究與產業實務結合，理解資安技術在真實世界中的應用與挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "055ba2c5-4fa3-4519-b634-294f592e7422",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "知識分享與社群參與: 參與資安社群活動，如資安競賽 (CTF)、開源專案貢獻或技術分享會，與同行交流學習，拓展人脈。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "248ff6f5-b183-4393-83c6-03c31dbcf0d1",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "持續創新與貢獻: 期望能進入學術界繼續攻讀博士學位，或在頂尖科技公司的研發部門擔任資安研究科學家，持續投入資訊安全的前沿研究，為構建更安全的數位世界貢獻心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fc50e3ec-3bb4-4d53-af60-ad2a7c665e9c",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "影響力與領導力: 透過自身的研究成果與專業知識，積極參與產業標準制定、政策諮詢或教育訓練，推動資安技術的普及與應用，培養下一代資安人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8242daa1-b7a8-4099-8249-50c4a259081b",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "終身學習: 資訊安全領域瞬息萬變，我承諾將保持對新技術、新威脅的敏銳度，持續學習與精進，成為資安領域的領導者與創新者。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a73052f3-c3d2-4764-9976-dbdf6f579f50",
+      "candidate_id": "mock_16",
+      "section": "加分文件",
+      "content": "國立清華大學學業成績單: 呈現優異的學業表現，證明在資訊工程領域的紮實基礎知識與學習潛力，GPA 4.0/4.3。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "115a7fad-fdd6-4278-ba51-6982c26c25ad",
+      "candidate_id": "mock_16",
+      "section": "加分文件",
+      "content": "英語能力檢定證明: TOEFL iBT 105 分，展現優良的英語聽、說、讀、寫能力，有助於閱讀國際學術文獻與未來國際交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "025b4863-373f-4645-a2be-c33182abfc24",
+      "candidate_id": "mock_16",
+      "section": "加分文件",
+      "content": "推薦信: 來自國立清華大學資訊工程學系指導教授的強烈推薦信，佐證我的學術能力、研究潛力、學習態度與團隊合作精神。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42b14412-4c8b-4f9c-ac0a-1f1dfa0bd30b",
+      "candidate_id": "mock_16",
+      "section": "加分文件",
+      "content": "專案報告與程式碼庫連結: 提供「容器化應用程式安全分析框架」與「量子啟發式混合密碼系統」專案的詳細報告、技術規格書及 GitHub 程式碼庫連結，展現我的實作能力與技術深度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be2973ec-70ee-4e7e-89e4-bbd0775ba9ef",
+      "candidate_id": "mock_16",
+      "section": "加分文件",
+      "content": "獎項證明: 曾獲「全國大專院校資訊安全實作競賽」優勝獎，證明在實務資安問題解決方面的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "03ae7cef-7571-4074-8e5c-657a12c06ee0",
+      "candidate_id": "mock_16",
+      "section": "加分文件",
+      "content": "合唱團領唱證明: 國立清華大學合唱團領唱證明，展現卓越的領導能力、團隊協作與精準表達能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4288cd9e-87c5-428d-8672-9d1773c593da",
+      "candidate_id": "mock_16",
+      "section": "加分文件",
+      "content": "專業證照: 曾考取 CompTIA Security+ 證照，證明對資安基礎知識與最佳實務的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

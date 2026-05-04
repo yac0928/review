@@ -1,0 +1,324 @@
+{
+  "candidate_id": "mock_5",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_5.txt"
+  ],
+  "cleaned_text": "【第一部分：個人特質與跨域背景】關於我：科技與藝術的共振\r\n我是吳○璇，目前就讀於國立中央大學資訊工程學系。在學期間我維持了穩定且優異的學術表現，平均 GPA 為 3.85 / 4.0，並在基礎學科如微積分中獲得優異佳作獎項。除了資工背景，我自幼學習鋼琴並具備鋼琴 6 級檢定證明。鋼琴演奏講求指尖觸感的精準度與樂句間的流暢節奏，這份感性特質讓我對人機互動（HCI）中的使用者操作回饋（User Feedback）有著極致的堅持。我認為優秀的軟體不應僅是完成邏輯運算，更應如同樂章般具備動態的生命力。 實踐與教學：從攝影鏡頭到技術引導\r\n在大二至大三期間，我曾擔任程式假日營隊的助教與攝影師。這份雙重身份讓我學會從不同視角觀察使用者：作為助教，我負責引導高中生克服初學程式的挫折感，學會將技術知識透過具體類比清晰傳達給學員；作為攝影師，我學會透過鏡頭捕捉受試者與科技產品互動時最真實的表情回饋。這段經歷讓我明白，技術優化的核心始終來自於對「人」的細緻觀察。 【第二部分：核心專題研究內容】都市迷宮：結合 VR 與生理監測之認知復健系統\r\n我的大學專題研究旨在利用虛擬實境技術延緩失智症患者的認知惡化，這是一項結合虛擬場景設計與生理資訊分析的綜合性研究。 系統建構與硬體整合：我利用 Unity 引擎設計包含數學挑戰與導航任務的虛擬關卡，並成功整合 Pico 腦電設備與 Garmin 穿戴裝置。 數據採集與分析：系統能自動記錄受試者在遊戲過程中的心律、呼吸速率及眼動數據。我負責將這些非線性的生理訊號銜接至實驗室的 AIOT 平台進行儲存與分類，藉此建立量化分析基準。 研究心得：在開發過程中，我學習到要優化一項智慧應用，必須將研究分為資料蒐集、模型選用與評分方法三部分進行迭代研究。我深刻體會到資料集品質對研究結果的深遠影響，尤其是在處理醫療數據時，微小的誤差都可能影響臨床判斷。 【第三部分：跨領域學習與研究動機】探索跨領域的解法多樣性\r\n我積極修習「神經科學」與「老年心理學」等跨領域課程。透過這些課程，我了解到解決技術瓶頸的方式不只一種。例如，在面對 VR 暈眩症（Cyber Sickness）時，傳統做法是提升硬體渲染頻率，但從神經科學角度出發，微調場景中的視差回饋有時更具顯著效果。這種跨領域的視角讓我在面對複雜數據問題時，能跳脫資工思維，從生理本質尋找解答。 為何選擇陽明交大數據所？\r\n在專題實作中，我接觸了心電圖（ECG）與腦電（EEG）等複雜生物數據，意識到自己在處理這類高維度且標註困難的數據時，理論深度尚有不足。陽明交大數據所結合了資訊、統計與理學的專業學科，其專注於巨量資料分析與實際應用實作的課程規劃，正是我期望提升專業能力、掌握數據處理精確方法的理想場域。 【第四部分：未來研究方向：醫療數據的合成與品質強化】我認為「訓練資料的研究」對於智慧醫療應用至關重要。由於生理數據涉及高度隱私，高品質的臨床標註資料常顯匱乏，導致難以構建穩健的預測模型。\r\n我希望能深入探討如何利用有限的生理標記樣本，透過大型語言模型或生成對抗網絡，有效擴充至具備醫學邏輯一致性且品質優良的研究資料庫。我也致力於解決數據生成過程中的幻覺性內容問題，確保生成的結果能真實反映患者的認知狀態與行為模式。 【第五部分：碩士階段讀書計畫】入學前準備 (Short-term)：科技趨勢：觀看 IBM Technology 等專業頻道，掌握巨量資料分析與 AI 技術的最新發展趨勢。 基礎銜接：修習人工智慧與統計學基礎課程，加強在 Python 與 R 語言上的數據分析實力。 碩士在學期間 (Medium-term)：專業深化：修習資料探勘、深度學習與醫療影像處理等進階科目，強化在臨床數據管理上的實作能力。 產學接軌：積極尋取生醫或 AIOT 產業的研習機會，將研究模型應用於真實的智慧醫療系統優化。 長期展望 (Long-term)：持續進修：畢業後投入智慧醫療研發工作，將數據科學用於社會關懷，為失智症患者提供更好的輔助治療解決方案。 【第六部分：加分證明文件摘要】在校成績：歷年 GPA 分佈於 3.8~4.0，微積分成績優異佳作獎狀。 專業作品：都市迷宮 VR 系統專題完整成果報告、AIOT 數據平台上傳紀錄。 其他背景：鋼琴 6 級檢定證明、營隊助教證明、多益聽力閱讀優等證書。",
+  "idea_units": [
+    {
+      "id": "53bbcf66-cad7-404e-a76b-2b7636842884",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "我是吳○璇，目前就讀於國立中央大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3de4a564-8c45-41ad-99fd-7eb2d8645d87",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "在學期間我維持了穩定且優異的學術表現，平均 GPA 為 3.85 / 4.0，並在基礎學科如微積分中獲得優異佳作獎項。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da38c7bd-c9dc-438a-897d-999e43f61153",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "除了資工背景，我自幼學習鋼琴並具備鋼琴 6 級檢定證明。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f470a3d4-f863-423a-9291-8b0b38650305",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "鋼琴演奏講求指尖觸感的精準度與樂句間的流暢節奏，這份感性特質讓我對人機互動（HCI）中的使用者操作回饋（User Feedback）有著極致的堅持。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e5877b34-2c11-4cb6-87db-1e0647de63ea",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "我認為優秀的軟體不應僅是完成邏輯運算，更應如同樂章般具備動態的生命力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "50fc349e-e777-4676-a0a6-68c5013a56a1",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "在大二至大三期間，我曾擔任程式假日營隊的助教與攝影師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1ae3f576-ea83-4885-b695-e0b8f087c3cd",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "這份雙重身份讓我學會從不同視角觀察使用者：",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c5db9e07-eae9-4e49-9f69-77a008a577b1",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "作為助教，我負責引導高中生克服初學程式的挫折感，學會將技術知識透過具體類比清晰傳達給學員；",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7dc9b2f1-20f6-4c4d-b449-f4f9877f7625",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "作為攝影師，我學會透過鏡頭捕捉受試者與科技產品互動時最真實的表情回饋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e0662100-03dc-4ad1-b2a2-18d732422f45",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "這段經歷讓我明白，技術優化的核心始終來自於對「人」的細緻觀察。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6a668179-1924-4192-9faa-d3058aea2573",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "我的大學專題研究旨在利用虛擬實境技術延緩失智症患者的認知惡化，這是一項結合虛擬場景設計與生理資訊分析的綜合性研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "add2a55b-aaa5-4e44-858c-1ff81b0b4af3",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "我利用 Unity 引擎設計包含數學挑戰與導航任務的虛擬關卡，並成功整合 Pico 腦電設備與 Garmin 穿戴裝置。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe4de6b4-8dab-4f4e-a401-ba336f3ccd8d",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "系統能自動記錄受試者在遊戲過程中的心律、呼吸速率及眼動數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "24921306-4f3d-40c2-9c96-8603aa6fd3aa",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "我負責將這些非線性的生理訊號銜接至實驗室的 AIOT 平台進行儲存與分類，藉此建立量化分析基準。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "28623c33-dd63-4baf-8fb0-3fa39929c1d4",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "在開發過程中，我學習到要優化一項智慧應用，必須將研究分為資料蒐集、模型選用與評分方法三部分進行迭代研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5d033b61-0a58-4fa4-b358-ee0002f30005",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "我深刻體會到資料集品質對研究結果的深遠影響，尤其是在處理醫療數據時，微小的誤差都可能影響臨床判斷。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "629693a2-b663-40c1-973c-c1b4e0fed727",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "我積極修習「神經科學」與「老年心理學」等跨領域課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bfb6bef1-d56f-4686-ace3-ebe31d16ded1",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "透過這些課程，我了解到解決技術瓶頸的方式不只一種。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c36672fc-9d27-40b0-86aa-0e6259749432",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "例如，在面對 VR 暈眩症（Cyber Sickness）時，傳統做法是提升硬體渲染頻率，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c1b5b280-45ff-4de0-86f5-c6a35f680233",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "但從神經科學角度出發，微調場景中的視差回饋有時更具顯著效果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f7890ca8-d89e-45c2-9e16-1462607661b2",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "這種跨領域的視角讓我在面對複雜數據問題時，能跳脫資工思維，從生理本質尋找解答。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d57ea987-013a-41d0-8b19-9dd83cacdeba",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "在專題實作中，我接觸了心電圖（ECG）與腦電（EEG）等複雜生物數據，意識到自己在處理這類高維度且標註困難的數據時，理論深度尚有不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d57ac11-534f-4bf9-8164-4b7a6cf89c26",
+      "candidate_id": "mock_5",
+      "section": "自傳",
+      "content": "陽明交大數據所結合了資訊、統計與理學的專業學科，其專注於巨量資料分析與實際應用實作的課程規劃，正是我期望提升專業能力、掌握數據處理精確方法的理想場域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04366bd4-6c1d-4ba3-bae4-4dc60a4c0282",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "我認為「訓練資料的研究」對於智慧醫療應用至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0bc7facd-b95c-4401-8288-20f6d341558c",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "由於生理數據涉及高度隱私，高品質的臨床標註資料常顯匱乏，導致難以構建穩健的預測模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ede4be6-c7b3-49ca-a363-437380ad0e2c",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "我希望能深入探討如何利用有限的生理標記樣本，透過大型語言模型或生成對抗網絡，有效擴充至具備醫學邏輯一致性且品質優良的研究資料庫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cadbf97d-4d06-4de0-a8fe-c0bebe12d91a",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "我也致力於解決數據生成過程中的幻覺性內容問題，確保生成的結果能真實反映患者的認知狀態與行為模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5dc52db4-4b4d-4bf5-9428-de5ce77f5460",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "入學前準備 (Short-term)：科技趨勢：觀看 IBM Technology 等專業頻道，掌握巨量資料分析與 AI 技術的最新發展趨勢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "84b60cd4-7bff-4906-9ec6-93a854f616ea",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "基礎銜接：修習人工智慧與統計學基礎課程，加強在 Python 與 R 語言上的數據分析實力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8ed27274-371e-41bf-bc58-8a56014761e3",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "碩士在學期間 (Medium-term)：專業深化：修習資料探勘、深度學習與醫療影像處理等進階科目，強化在臨床數據管理上的實作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "965f009a-3794-4407-be94-976bdbc43ef3",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "產學接軌：積極尋取生醫或 AIOT 產業的研習機會，將研究模型應用於真實的智慧醫療系統優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d048fd3-f196-4740-9133-72df970e2d3a",
+      "candidate_id": "mock_5",
+      "section": "讀書計畫",
+      "content": "長期展望 (Long-term)：持續進修：畢業後投入智慧醫療研發工作，將數據科學用於社會關懷，為失智症患者提供更好的輔助治療解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "edbd9262-df37-4797-97ba-3bc4fbca7f1e",
+      "candidate_id": "mock_5",
+      "section": "加分文件",
+      "content": "在校成績：歷年 GPA 分佈於 3.8~4.0，微積分成績優異佳作獎狀。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "649739df-92d3-4ea0-9f56-43aae0375fe4",
+      "candidate_id": "mock_5",
+      "section": "加分文件",
+      "content": "專業作品：都市迷宮 VR 系統專題完整成果報告、AIOT 數據平台上傳紀錄。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aaaa355d-2217-43a3-836f-da9d05fe3e4a",
+      "candidate_id": "mock_5",
+      "section": "加分文件",
+      "content": "其他背景：鋼琴 6 級檢定證明、營隊助教證明、多益聽力閱讀優等證書。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

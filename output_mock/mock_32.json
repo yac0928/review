@@ -1,0 +1,711 @@
+{
+  "candidate_id": "mock_32",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_32.txt"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n### 關於我\r\n我是___，就讀國立臺灣大學資訊工程學系，主修作業系統與分散式系統領域。在大學四年的學術旅程中，我努力耕耘，不僅在專業課程中取得優異的學業成績，平均 GPA 達到 3.9/4.3 (約 92 分)，更積極探索跨領域的知識與實踐。課餘時間，我熱衷於獨立電影製作，這項經歷不僅培養了我的敘事能力與美學素養，更讓我學會如何在資源有限的情況下，高效管理複雜的專案，並發揮創意解決問題，這些能力對於軟體系統的開發與設計至關重要。\r\n\r\n### 求學經歷\r\n**[專題研究：高可用分散式鍵值儲存系統的設計與實作]**\r\n在大三升大四的暑假，我參與了系上與某新創公司合作的產學專題，旨在設計並實作一個具備高可用性與強一致性的分散式鍵值儲存系統。該系統需支援每秒處理超過 50,000 次讀寫請求，並確保在單一節點失效時，系統仍能正常運作且資料不丟失。我的主要職責是負責核心的共識演算法（Consensus Algorithm）與資料複製機制（Replication Mechanism）的實作。\r\n\r\n我選擇以 C++ 語言在 Linux 環境下進行開發，並採用 Raft 共識演算法來維護資料的一致性。為達成高可用性，我們設計了三副本（3-replica）的資料複製策略，並透過心跳機制（Heartbeat Mechanism）與領導者選舉（Leader Election）來偵測與恢復失效節點。在實作過程中，我深入研究了非同步網路通訊模型（Asynchronous Network I/O），利用 `epoll` 等系統呼叫來處理高併發的網路事件，並優化了序列化與反序列化（Serialization/Deserialization）的效率，以減少網路傳輸的延遲。透過 `gRPC` 框架，我們實現了不同服務節點間的高效通訊。\r\n\r\n為驗證系統效能，我設計了一系列壓力測試，使用 `YCSB` (Yahoo! Cloud Serving Benchmark) 模擬不同工作負載。最終，我們成功地在模擬的五節點叢集中，達成了平均讀寫延遲在 5 毫秒以內、單節點故障自動恢復時間小於 10 秒的目標，並展示了在單一節點失效時，系統吞吐量僅下降約 25% 的優異表現。這個專案讓我對分散式系統的複雜性、一致性模型、容錯機制以及性能調優有了深刻的理解，並熟練運用了 C++ 在系統級開發中的各種技巧。\r\n\r\n**[課程專案：基於容器化技術的即時作業系統排程器優化]**\r\n在「高等作業系統」課程中，我與團隊成員共同完成了一個課程專案，目標是優化基於 Linux 容器（Docker）的即時作業系統排程器，以滿足物聯網邊緣裝置對低延遲與穩定性的需求。我們聚焦於 `CFS (Completely Fair Scheduler)` 在混合工作負載（Mix Workloads，包含 CPU 密集型與 I/O 密集型任務）下的表現。\r\n\r\n我負責設計並實作一個 C 語言的 Linux 核心模組，引入了一種基於任務權重與歷史資源使用率動態調整的排程策略。我們透過修改 `cgroup` 機制，為不同的容器設定彈性的 CPU 配額與優先級，並監控其在 `per-cpu` 上的運行時間與上下文切換次數。相較於標準的 `CFS`，我們的排程器在處理 10 個容器同時運行、其中 3 個為即時（Real-time）任務（例如影像辨識推論）的場景下，成功將即時任務的平均延遲降低了 15%，最大延遲降低了 20%，同時對非即時任務的影響在可接受範圍內（吞吐量下降約 5%）。此專案讓我對作業系統核心機制、排程演算法、容器化技術及其在邊緣計算中的應用有了實務經驗。\r\n\r\n### 跨領域學習\r\n除了資訊工程的專業訓練，我對獨立電影製作的熱情亦讓我從不同視角理解「系統」與「流程」。一部電影從劇本創作、前製、拍攝、後製到發行，本身就是一個龐大且複雜的「專案系統」。身為獨立製片人，我必須親自協調演員、攝影師、剪輯師等多方資源，規劃嚴謹的拍攝時程與預算，並在有限的資源下，尋找創意性的技術解決方案。\r\n\r\n例如，在後期製作中，我曾為了優化影片轉碼與渲染的效率，自主學習 Python 腳本編程，開發了自動化批次處理工具，將原先需手動操作數小時的流程縮短至數十分鐘。這讓我體會到，一個高效的系統不僅僅是單一模組的卓越，更是各個環節協同運作的結果。電影的敘事結構與觀眾體驗，也啟發我思考軟體系統設計中的「使用者旅程」與「介面直觀性」。這種將複雜問題拆解、協調資源、優化流程並最終呈現產品的跨領域思維，與資訊工程中大型軟體系統的架構設計、開發流程管理及使用者體驗考量不謀而合。這份獨特的經歷，使我具備了更宏觀且具備創新性的問題解決能力。\r\n\r\n## 動機\r\n在大學期間，透過參與分散式系統的專題研究與作業系統排程器的優化專案，我對現代計算基礎設施面臨的挑戰與機會有了深刻體認。隨著雲端原生（Cloud-Native）、邊緣運算（Edge Computing）以及大規模人工智慧應用的普及，如何設計出高效能、高可靠且具備彈性的作業系統與分散式系統，已成為資訊科技發展的基石。我觀察到，當前許多複雜的應用程式，如即時金融交易、智慧城市監控、自動駕駛等，都對系統的吞吐量、延遲和穩定性提出極為嚴苛的要求。\r\n\r\n儘管我已累積了一些實作經驗，但深感在面對未來更龐大、更複雜的系統架構時，現有的知識廣度與深度仍有不足。我渴望能更深入地探索分散式共識演算法的數學基礎、作業系統核心的細緻調優技巧，以及在異構硬體環境下（例如 GPU、TPU）如何實現高效能資源管理與排程。國立陽明交通大學資工所，特別是在「作業系統、分散式與即時系統」領域的卓越研究成果與頂尖師資，如 [特定教授名A] 教授在分散式儲存系統上的領先工作，以及 [特定教授名B] 教授在即時嵌入式系統上的豐富經驗，都與我的研究興趣高度契合。我相信在貴所嚴謹的學術氛圍與先進的研究資源下，能夠系統性地補足我在理論與實務上的缺口，並將我的熱情轉化為解決產業核心挑戰的能力。\r\n\r\n## 研究方向與動機\r\n我期望在交大資工所深耕的研究方向主要聚焦於「**面向雲邊協同（Cloud-Edge Collaboration）的智慧型分散式資源管理與即時排程**」。\r\n\r\n在當前物聯網（IoT）裝置爆炸性增長與人工智慧普及化的趨勢下，傳統的雲端集中式處理模式已逐漸無法滿足所有應用對低延遲和高頻寬的要求。邊緣運算（Edge Computing）因此應運而生，它將計算能力推向資料源頭，顯著降低延遲。然而，邊緣裝置的資源受限性、網路環境的異質性與不穩定性，以及資料在雲端與邊緣之間流動的複雜性，都對現有的作業系統與分散式系統提出了全新的挑戰。\r\n\r\n我的研究動機主要來自於以下觀察：\r\n1. **異構與資源受限環境下的排程挑戰**：邊緣節點通常包含不同類型、算力不一的硬體（如低功耗 ARM 處理器、FPGA 加速器），且記憶體與儲存容量有限。如何有效地在這些異構且資源受限的裝置上，智慧地排程容器化應用程式（如 Docker, k3s）中的任務，並確保關鍵應用（例如即時影像分析、工業控制）的低延遲與穩定性，是一個亟待解決的問題。我曾透過 Linux 核心模組優化 CFS，對此領域有了初步認識，並渴望進一步探索基於強化學習或多目標最佳化的智慧排程演算法，以動態適應不斷變化的邊緣環境。\r\n2. **雲邊協同的資料一致性與容錯機制**：在雲邊協同架構中，資料需要在雲端與多個邊緣節點之間同步與聚合。這不僅涉及到如何設計高效且低耗能的分散式共識協議來保證資料一致性，還需考慮邊緣網路不穩定時的容錯與斷線操作（Offline Operation）能力。我的分散式鍵值儲存系統專案讓我理解了 Raft 演算法的原理，我希望進一步探索針對邊緣環境優化的輕量級共識協議，或基於 CRDTs (Conflict-free Replicated Data Types) 的最終一致性模型，以應對高延遲、低頻寬的邊緣通訊場景。\r\n3. **安全性與隱私保護**：邊緣裝置通常部署在不可信的環境中，且處理敏感資料。如何整合硬體安全模組（如 TPM），設計安全的作業系統架構與分散式存取控制機制，並在系統層面實現同態加密或安全多方計算的基礎設施支援，以保護邊緣資料的隱私，也是我極感興趣的跨領域議題。\r\n\r\n我期待透過在交大資工所的學習與研究，能深入探討這些問題，開發出新一代智慧型的分散式作業系統與資源管理框架，為未來高可靠、低延遲的雲邊協同應用奠定堅實基礎。\r\n\r\n## 讀書計畫\r\n\r\n### 短期 (入學第一年)\r\n* **學術深化與基礎打磨：**\r\n * **密集修習核心課程：** 優先選修「高等作業系統」、「分散式系統」、「高等計算機網路」、「演算法設計與分析」等核心課程，紮實理論基礎。特別是深入理解分散式系統的一致性模型、容錯機制及現代作業系統的記憶體管理、排程策略。\r\n * **參與實驗室研究：** 積極申請加入與「作業系統、分散式與即時系統」相關的實驗室，盡早接觸前瞻研究議題。在指導教授引導下，熟悉學術研究流程、論文閱讀與批判性思考方法。\r\n * **提升專業技能：** 強化 C/C++、Go 語言的系統程式設計能力，熟悉 Linux 核心開發環境與相關工具（如 `perf`, `bcc`）。學習 Docker, Kubernetes 等容器與容器編排技術的進階應用。\r\n* **英文與溝通能力提升：**\r\n * **學術英文訓練：** 積極閱讀國際頂級會議（如 OSDI, SOSP, EuroSys, NSDI）論文，觀看線上研討會（如 USENIX ATC），提升專業英文閱讀與聽力。參與實驗室英文讀書會或報告，鍛鍊學術英文寫作與口語表達能力。\r\n\r\n### 中期 (入學第二年)\r\n* **論文研究與實作：**\r\n * **確立研究主題：** 在指導教授協助下，根據個人興趣與實驗室方向，確立碩士論文具體研究主題，並規劃詳細的實驗設計與進度。\r\n * **深入實作與分析：** 投入大量時間進行系統原型開發、實驗驗證與數據分析。可能涉及開發 Linux 核心模組、設計新的分散式共識協議、實作容器排程器等。\r\n * **論文撰寫與發表：** 將研究成果整理成學術論文，目標是投稿至國內外重要學術會議或期刊。\r\n * **參與學術交流：** 積極參與國內外學術研討會，與同行交流研究心得，拓展學術視野。\r\n* **業界實習機會：**\r\n * **尋求產業連結：** 爭取在國內外頂尖科技公司（如 Google, Microsoft, Amazon, TSMC 或台灣領先的雲服務/邊緣運算公司）的研發部門實習，將學術研究與實際產業需求結合，獲取寶貴的工程實踐經驗。\r\n\r\n### 長期 (畢業後)\r\n* **持續深耕與貢獻：**\r\n * **投身頂尖研究單位或產業：** 期望進入國內外一流的科技公司或研究機構，從事分散式系統架構師、作業系統核心開發工程師、雲端基礎設施工程師等職位，將所學應用於解決真實世界的挑戰。\r\n * **持續學習與創新：** 保持對新技術、新趨勢的敏感度，持續學習並精進專業技能，在專業領域內不斷創新，並思考如何透過技術力量對社會產生正面影響。\r\n * **學術或技術領導：** 累積經驗後，期許能擔任團隊技術領導者或專案負責人，帶領團隊攻克技術難題，為學術界或產業的發展做出貢獻。\r\n\r\n## 其他加分文件摘要\r\n1. **獨立電影作品集（包含短片、紀錄片）**：提供個人製作的數部獨立電影作品，展現從概念發想、劇本撰寫、導演、攝影、後期剪輯到發行宣傳的完整製作流程。作品集將特別強調其中涉及的技術挑戰與解決方案，例如為優化後期渲染效率而開發的 Python 腳本，或是如何運用有限的攝影器材實現特定視覺效果的創意手法。這證明了我在專案管理、跨領域協作、問題解決與創新思維上的獨特能力。\r\n2. **學術競賽與專案成果展示**：提供參與「高可用分散式鍵值儲存系統的設計與實作」專題的詳細技術報告與程式碼庫連結（若無機密限制），以及「基於容器化技術的即時作業系統排程器優化」課程專案的報告。這些文件將進一步展示我在作業系統與分散式系統領域的深度技術能力和實作經驗，並包含具體的性能數據和分析。\r\n3. **英文能力證明**：提交托福 (TOEFL) 或雅思 (IELTS) 考試成績證明，以展現具備良好的英文閱讀、寫作與溝通能力，能適應全英文的學術環境，並閱讀國際前沿的專業文獻。\r\n4. **相關課程成績單與教授推薦信**：提供大學四年成績單，特別標示作業系統、資料結構、演算法、計算機網路、離散數學等核心資工課程的優異表現。並附上曾指導我專題研究或授課的教授所撰寫的推薦信，以佐證我的學術潛力、學習態度與研究能力。",
+  "idea_units": [
+    {
+      "id": "f2d5a587-30fd-4ca2-99d8-8c4ade4d34be",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我是___，就讀國立臺灣大學資訊工程學系，主修作業系統與分散式系統領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5c2dd39c-f325-446b-b0fa-a0201c676a55",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "在大學四年的學術旅程中，我努力耕耘，不僅在專業課程中取得優異的學業成績，平均 GPA 達到 3.9/4.3 (約 92 分)，更積極探索跨領域的知識與實踐。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "62220a66-15c9-4071-8a5c-b8f00c386590",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "課餘時間，我熱衷於獨立電影製作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6830bc7b-cee0-4a94-bf55-0e03642fc072",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這項經歷不僅培養了我的敘事能力與美學素養。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dbdce96e-a680-46ed-9340-378b746f9382",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "更讓我學會如何在資源有限的情況下，高效管理複雜的專案，並發揮創意解決問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ac540f30-4519-411a-b95c-3f86c8519f31",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這些能力對於軟體系統的開發與設計至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2f57b5a9-8c3b-404e-b894-f1bb920bb3e4",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "在大三升大四的暑假，我參與了系上與某新創公司合作的產學專題，旨在設計並實作一個具備高可用性與強一致性的分散式鍵值儲存系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd4fed96-52e0-4843-a304-cedd6b3a6868",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "該系統需支援每秒處理超過 50,000 次讀寫請求，並確保在單一節點失效時，系統仍能正常運作且資料不丟失。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cdad9312-1747-4ec3-aa39-77edd78ecb23",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我的主要職責是負責核心的共識演算法（Consensus Algorithm）與資料複製機制（Replication Mechanism）的實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c7729086-3153-4764-859e-ad5c0edcd69d",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我選擇以 C++ 語言在 Linux 環境下進行開發，並採用 Raft 共識演算法來維護資料的一致性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a6f394fe-27f1-42fb-9eb2-5d94ccccafa8",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "為達成高可用性，我們設計了三副本（3-replica）的資料複製策略，並透過心跳機制（Heartbeat Mechanism）與領導者選舉（Leader Election）來偵測與恢復失效節點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0c21f234-855f-4b34-bc18-e19728a4cf02",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "在實作過程中，我深入研究了非同步網路通訊模型（Asynchronous Network I/O），利用 `epoll` 等系統呼叫來處理高併發的網路事件，並優化了序列化與反序列化（Serialization/Deserialization）的效率，以減少網路傳輸的延遲。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dcd2491a-c02c-409d-a6ea-a97e66066a33",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "透過 `gRPC` 框架，我們實現了不同服務節點間的高效通訊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f63dcaeb-3ed0-4448-a4ae-9cc647cf1c08",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "為驗證系統效能，我設計了一系列壓力測試，使用 `YCSB` (Yahoo! Cloud Serving Benchmark) 模擬不同工作負載。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6d10ee32-f501-4ca8-abc9-20944f44efb0",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "最終，我們成功地在模擬的五節點叢集中，達成了平均讀寫延遲在 5 毫秒以內、單節點故障自動恢復時間小於 10 秒的目標，並展示了在單一節點失效時，系統吞吐量僅下降約 25% 的優異表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b474e784-aebc-4b2c-90ea-dddfc8dc136d",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這個專案讓我對分散式系統的複雜性、一致性模型、容錯機制以及性能調優有了深刻的理解，並熟練運用了 C++ 在系統級開發中的各種技巧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "438644c1-484e-4fa3-9b52-dba3c55b932e",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "在「高等作業系統」課程中，我與團隊成員共同完成了一個課程專案，目標是優化基於 Linux 容器（Docker）的即時作業系統排程器，以滿足物聯網邊緣裝置對低延遲與穩定性的需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dccfd5ac-c633-48d6-a176-3bc67f9631ec",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我們聚焦於 `CFS (Completely Fair Scheduler)` 在混合工作負載（Mix Workloads，包含 CPU 密集型與 I/O 密集型任務）下的表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cf7f3ff7-4b55-482e-a2fb-b4f79996b4fe",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我負責設計並實作一個 C 語言的 Linux 核心模組，引入了一種基於任務權重與歷史資源使用率動態調整的排程策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "147bb6e2-be01-4e09-aff0-01bbf7970678",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我們透過修改 `cgroup` 機制，為不同的容器設定彈性的 CPU 配額與優先級，並監控其在 `per-cpu` 上的運行時間與上下文切換次數。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "17bb6cdd-5be4-4879-b532-fb3f1547d681",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "相較於標準的 `CFS`，我們的排程器在處理 10 個容器同時運行、其中 3 個為即時（Real-time）任務（例如影像辨識推論）的場景下，成功將即時任務的平均延遲降低了 15%，最大延遲降低了 20%，同時對非即時任務的影響在可接受範圍內（吞吐量下降約 5%）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bf15869f-cef9-45b0-b3ae-f7fbc3c8d147",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "此專案讓我對作業系統核心機制、排程演算法、容器化技術及其在邊緣計算中的應用有了實務經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "89fae195-ff84-4433-afd9-2e12e893b162",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "除了資訊工程的專業訓練，我對獨立電影製作的熱情亦讓我從不同視角理解「系統」與「流程」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "47e86f52-93e6-4d01-89f9-6d1dde8fd6c8",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "一部電影從劇本創作、前製、拍攝、後製到發行，本身就是一個龐大且複雜的「專案系統」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3390c15-565c-4abd-8650-3f0bcf21b0ea",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "身為獨立製片人，我必須親自協調演員、攝影師、剪輯師等多方資源，規劃嚴謹的拍攝時程與預算，並在有限的資源下，尋找創意性的技術解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "97e12701-2f4c-430f-a389-6e5030a56130",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "例如，在後期製作中，我曾為了優化影片轉碼與渲染的效率，自主學習 Python 腳本編程，開發了自動化批次處理工具，將原先需手動操作數小時的流程縮短至數十分鐘。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd8e42c9-c0f8-4135-8214-38bfe39afc8d",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這讓我體會到，一個高效的系統不僅僅是單一模組的卓越，更是各個環節協同運作的結果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "af9f286c-90bc-461f-9bef-afdae7c44c94",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "電影的敘事結構與觀眾體驗，也啟發我思考軟體系統設計中的「使用者旅程」與「介面直觀性」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3014214-deab-4386-8431-b2774b746b5e",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這種將複雜問題拆解、協調資源、優化流程並最終呈現產品的跨領域思維，與資訊工程中大型軟體系統的架構設計、開發流程管理及使用者體驗考量不謀而合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7187679d-84bd-4de2-882a-4cebdc90e496",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這份獨特的經歷，使我具備了更宏觀且具備創新性的問題解決能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "519c5c5d-20fa-487c-b7e3-f6937cd8c3a6",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "在大學期間，透過參與分散式系統的專題研究與作業系統排程器的優化專案，我對現代計算基礎設施面臨的挑戰與機會有了深刻體認。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ed56b6c4-8a4b-4f9c-ae08-91e3d39df9a3",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "隨著雲端原生（Cloud-Native）、邊緣運算（Edge Computing）以及大規模人工智慧應用的普及，如何設計出高效能、高可靠且具備彈性的作業系統與分散式系統，已成為資訊科技發展的基石。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "51903839-399c-4533-9cef-8c21855dd0ec",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我觀察到，當前許多複雜的應用程式，如即時金融交易、智慧城市監控、自動駕駛等，都對系統的吞吐量、延遲和穩定性提出極為嚴苛的要求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ddc1fc3-2376-40f0-a09e-7926e2af7473",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "儘管我已累積了一些實作經驗，但深感在面對未來更龐大、更複雜的系統架構時，現有的知識廣度與深度仍有不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c91c0ce8-013c-49c6-a7a8-5278fe56116a",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我渴望能更深入地探索分散式共識演算法的數學基礎、作業系統核心的細緻調優技巧，以及在異構硬體環境下（例如 GPU、TPU）如何實現高效能資源管理與排程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd706335-e70a-48c2-af9a-7fd397b75351",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "國立陽明交通大學資工所，特別是在「作業系統、分散式與即時系統」領域的卓越研究成果與頂尖師資，如 [特定教授名A] 教授在分散式儲存系統上的領先工作，以及 [特定教授名B] 教授在即時嵌入式系統上的豐富經驗，都與我的研究興趣高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bda820f6-1cfe-4458-b7c0-b91a4b76d644",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我相信在貴所嚴謹的學術氛圍與先進的研究資源下，能夠系統性地補足我在理論與實務上的缺口，並將我的熱情轉化為解決產業核心挑戰的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c2d3114d-3806-45e3-8bdb-ac26497e8810",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我期望在交大資工所深耕的研究方向主要聚焦於「**面向雲邊協同（Cloud-Edge Collaboration）的智慧型分散式資源管理與即時排程**」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1be75c3d-028b-4907-bc4b-792a5d33e925",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "在當前物聯網（IoT）裝置爆炸性增長與人工智慧普及化的趨勢下，傳統的雲端集中式處理模式已逐漸無法滿足所有應用對低延遲和高頻寬的要求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0ccb2af-a469-4c3b-9e53-5ef8c460b32a",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "邊緣運算（Edge Computing）因此應運而生，它將計算能力推向資料源頭，顯著降低延遲。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e1d1e20b-f356-4131-83b6-67853876560d",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "然而，邊緣裝置的資源受限性、網路環境的異質性與不穩定性，以及資料在雲端與邊緣之間流動的複雜性，都對現有的作業系統與分散式系統提出了全新的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b3faec06-7063-4994-9af0-e48b6b2feaf4",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我的研究動機主要來自於以下觀察：",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1fd4664f-2e27-415e-a76b-dfbb8944e7cb",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "邊緣節點通常包含不同類型、算力不一的硬體（如低功耗 ARM 處理器、FPGA 加速器），且記憶體與儲存容量有限。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "351e9364-ac29-4fa7-b699-34b836c9b9d8",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "如何有效地在這些異構且資源受限的裝置上，智慧地排程容器化應用程式（如 Docker, k3s）中的任務，並確保關鍵應用（例如即時影像分析、工業控制）的低延遲與穩定性，是一個亟待解決的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "45e1b7d2-c902-41c3-9a4e-c13d42746845",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我曾透過 Linux 核心模組優化 CFS，對此領域有了初步認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "56c0850f-47d2-4a06-9d04-ed76a317f71f",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "並渴望進一步探索基於強化學習或多目標最佳化的智慧排程演算法，以動態適應不斷變化的邊緣環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d62cb574-1baf-4320-99e0-dc9adca831c6",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "在雲邊協同架構中，資料需要在雲端與多個邊緣節點之間同步與聚合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a16b114a-7673-4175-b8f8-b5b84d2eec7e",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "這不僅涉及到如何設計高效且低耗能的分散式共識協議來保證資料一致性，還需考慮邊緣網路不穩定時的容錯與斷線操作（Offline Operation）能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bef9039c-bdb4-4cb5-b4d7-b1c17a62e39a",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我的分散式鍵值儲存系統專案讓我理解了 Raft 演算法的原理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e518a67-b0d1-4543-ab79-2793225308c8",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我希望進一步探索針對邊緣環境優化的輕量級共識協議，或基於 CRDTs (Conflict-free Replicated Data Types) 的最終一致性模型，以應對高延遲、低頻寬的邊緣通訊場景。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f115022e-e996-48ed-a517-c22c2d941804",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "邊緣裝置通常部署在不可信的環境中，且處理敏感資料。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "141b919d-88a1-41b4-af47-06f38d08016c",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "如何整合硬體安全模組（如 TPM），設計安全的作業系統架構與分散式存取控制機制，並在系統層面實現同態加密或安全多方計算的基礎設施支援，以保護邊緣資料的隱私，也是我極感興趣的跨領域議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0bd9f2c5-07f4-4610-8aca-55df467a1323",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我期待透過在交大資工所的學習與研究，能深入探討這些問題，開發出新一代智慧型的分散式作業系統與資源管理框架，為未來高可靠、低延遲的雲邊協同應用奠定堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "92c91bf0-eb67-40e8-8eb1-3472a93902b8",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "優先選修「高等作業系統」、「分散式系統」、「高等計算機網路」、「演算法設計與分析」等核心課程，紮實理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d9df325-d843-4549-b1fa-f1cac08d5663",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "特別是深入理解分散式系統的一致性模型、容錯機制及現代作業系統的記憶體管理、排程策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be111b9b-61f3-46a6-8078-f6f0d77d5316",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "積極申請加入與「作業系統、分散式與即時系統」相關的實驗室，盡早接觸前瞻研究議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef5ab76f-0c59-41f6-bab5-30756f290c22",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "在指導教授引導下，熟悉學術研究流程、論文閱讀與批判性思考方法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e8929117-0a20-4ad0-b5b8-49777ef51fb5",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "強化 C/C++、Go 語言的系統程式設計能力，熟悉 Linux 核心開發環境與相關工具（如 `perf`, `bcc`）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d1899a9-cf15-4fa0-a85f-9ac320eaa6b3",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "學習 Docker, Kubernetes 等容器與容器編排技術的進階應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8df4092a-fc8a-434f-a32a-c50ad800b572",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "積極閱讀國際頂級會議（如 OSDI, SOSP, EuroSys, NSDI）論文，觀看線上研討會（如 USENIX ATC），提升專業英文閱讀與聽力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7ceb981c-c417-47a2-ad08-7f143b06184d",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "參與實驗室英文讀書會或報告，鍛鍊學術英文寫作與口語表達能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ac3d7943-1914-4318-8f2b-86c2c6cbb424",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "在指導教授協助下，根據個人興趣與實驗室方向，確立碩士論文具體研究主題，並規劃詳細的實驗設計與進度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "37625cc1-2f0a-4f26-902e-730e67be19cb",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "投入大量時間進行系統原型開發、實驗驗證與數據分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "185aeff7-cf07-4a83-a014-873597babc78",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "可能涉及開發 Linux 核心模組、設計新的分散式共識協議、實作容器排程器等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b5e7ade5-4cfe-4a7e-9f6c-bc826b4058a6",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "將研究成果整理成學術論文，目標是投稿至國內外重要學術會議或期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4f64fac3-776c-497f-aabd-8d45c4e2507f",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "積極參與國內外學術研討會，與同行交流研究心得，拓展學術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3d8821e0-fa0a-452a-9bb1-cf8e7c2e258e",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "爭取在國內外頂尖科技公司（如 Google, Microsoft, Amazon, TSMC 或台灣領先的雲服務/邊緣運算公司）的研發部門實習，將學術研究與實際產業需求結合，獲取寶貴的工程實踐經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4a51f954-78b9-45a3-b3fb-1bbf840e049d",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "期望進入國內外一流的科技公司或研究機構，從事分散式系統架構師、作業系統核心開發工程師、雲端基礎設施工程師等職位，將所學應用於解決真實世界的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b12aed1d-e135-46bb-996b-710165721380",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "保持對新技術、新趨勢的敏感度，持續學習並精進專業技能，在專業領域內不斷創新，並思考如何透過技術力量對社會產生正面影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "48862e9c-4829-4acd-9ff8-341981a358c5",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "累積經驗後，期許能擔任團隊技術領導者或專案負責人，帶領團隊攻克技術難題，為學術界或產業的發展做出貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7028b1d0-40f3-40fd-9840-4a827fd37173",
+      "candidate_id": "mock_32",
+      "section": "加分文件",
+      "content": "提供個人製作的數部獨立電影作品，展現從概念發想、劇本撰寫、導演、攝影、後期剪輯到發行宣傳的完整製作流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5dfd17c4-3f9d-4e70-97a5-d9832ed28bc5",
+      "candidate_id": "mock_32",
+      "section": "加分文件",
+      "content": "作品集將特別強調其中涉及的技術挑戰與解決方案，例如為優化後期渲染效率而開發的 Python 腳本，或是如何運用有限的攝影器材實現特定視覺效果的創意手法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d1076bc-8f9f-4504-bb7e-9ee6e00a58bf",
+      "candidate_id": "mock_32",
+      "section": "加分文件",
+      "content": "這證明了我在專案管理、跨領域協作、問題解決與創新思維上的獨特能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ebe060a2-53d2-4ec8-8820-98cf369990d9",
+      "candidate_id": "mock_32",
+      "section": "加分文件",
+      "content": "提供參與「高可用分散式鍵值儲存系統的設計與實作」專題的詳細技術報告與程式碼庫連結（若無機密限制），以及「基於容器化技術的即時作業系統排程器優化」課程專案的報告。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f219b01f-b330-4cf9-b165-7876679ecaa1",
+      "candidate_id": "mock_32",
+      "section": "加分文件",
+      "content": "這些文件將進一步展示我在作業系統與分散式系統領域的深度技術能力和實作經驗，並包含具體的性能數據和分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "221e1712-54c6-43b8-8882-8af6b4cf5779",
+      "candidate_id": "mock_32",
+      "section": "加分文件",
+      "content": "提交托福 (TOEFL) 或雅思 (IELTS) 考試成績證明，以展現具備良好的英文閱讀、寫作與溝通能力，能適應全英文的學術環境，並閱讀國際前沿的專業文獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4b5d3911-cf38-4639-bd4a-c7f5a03c1c85",
+      "candidate_id": "mock_32",
+      "section": "加分文件",
+      "content": "提供大學四年成績單，特別標示作業系統、資料結構、演算法、計算機網路、離散數學等核心資工課程的優異表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d52f8644-58d7-4649-913b-a0d87437f4a0",
+      "candidate_id": "mock_32",
+      "section": "加分文件",
+      "content": "並附上曾指導我專題研究或授課的教授所撰寫的推薦信，以佐證我的學術潛力、學習態度與研究能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

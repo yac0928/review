@@ -1,0 +1,693 @@
+{
+  "candidate_id": "mock_8",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_8.txt"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n**關於我**\r\n我是[學生姓名]，來自國立成功大學資訊工程學系，主修硬體設計與電子設計自動化。在大學四年中，我以紮實的理論基礎與豐富的實作經驗，取得了總平均GPA 4.0/4.3的優異成績。課餘時間，我積極參與登山與野外求生社團，擔任裝備組組長，這不僅磨練了我對環境的敏銳觀察力與應變能力，更培養了我在壓力下系統性地分析問題、規劃路徑並優化資源配置的特質，這些能力在複雜的晶片設計領域中同樣至關重要。\r\n\r\n**求學經歷**\r\n\r\n**[產學合作：與半導體設計公司合作開發先進製程記憶體控制器佈局優化工具]**\r\n在大三升大四的暑假，我有幸參與了一項與[假設的半導體設計公司名稱，例如：台積電或聯發科的合作夥伴]合作的產學專案，主題是「先進製程下高效能記憶體控制器的自動化佈局與繞線優化」。此專案旨在解決在7奈米及以下先進製程中，記憶體控制器（Memory Controller）的物理佈局設計面臨的嚴峻挑戰，包括時序收斂困難、功耗過高以及面積效率不佳等問題。\r\n\r\n我的主要職責是針對關鍵的記憶體介面IP區塊，開發並評估高效能的佈局與繞線演算法。我使用 C++ 實現了一套基於網格的放置演算法，結合模擬退火（Simulated Annealing）與漸進式優化（Incremental Optimization）策略，旨在減少連線長度並均勻化單元密度。在繞線階段，我則利用圖論中的最小生成樹概念，結合A*搜尋演算法，開發了多層次繞線器，以有效地解決擁塞問題並確保訊號完整性。\r\n\r\n我利用開源的EDA工具流程（例如OpenROAD的一部分元件，或自寫的LEF/DEF解析器）來載入設計網表與技術庫資訊，並在開發的演算法中進行迭代優化。經過數月的實驗與驗證，針對專案提供的特定記憶體控制器子模組，我們的工具相較於基於傳統貪婪演算法的初始佈局，成功將關鍵路徑延遲（Critical Path Delay）平均縮短了約15%，總線長減少了12%，並將佈局面積效率提升了約10%。此專案讓我深入理解了VLSI物理設計中的PPA (Power, Performance, Area) 權衡，以及將複雜演算法應用於實際晶片設計流程的挑戰與樂趣。同時，我也學會了如何高效地與產業夥伴溝通技術細節，並根據需求快速調整研究方向。\r\n\r\n**[專題研究：基於高階合成 (HLS) 之特殊應用積體電路 (ASIC) 設計流程探討]**\r\n此外，我也參與了另一個探討高階合成 (High-Level Synthesis, HLS) 在特殊應用積體電路 (ASIC) 設計中潛力的專題。我們選定了一個影像處理核心（例如：Sobel濾波器或FFT）作為目標，使用 SystemC 撰寫其行為描述。接著，我們利用商業級HLS工具（例如Xilinx Vivado HLS 或 Cadence Stratus HLS 的學術版本）將其轉換為暫存器傳輸級（RTL）描述。\r\n\r\n在過程中，我負責探索不同的編譯指示（Pragmas，例如`pipeline`、`unroll`、`array_partition`），並分析它們對最終RTL設計的延遲（Latency）、吞吐量（Throughput）與硬體資源利用率的影響。我們系統性地進行了設計空間探索（Design Space Exploration, DSE），記錄並比較了數十種不同HLS設定下的PPA指標。透過此專題，我了解了HLS如何能大幅提升設計效率，但同時也深刻體會到如何智慧地運用Pragmas來引導工具生成高效硬體的複雜性，這為我未來在自動化設計與優化領域的研究奠定了基礎。\r\n\r\n**[跨領域學習]**\r\n在求學過程中，除了資訊工程的專業課程，我也積極修習了「最佳化理論」與「資料結構與演算法」等理論課程，並將其概念應用於實際問題解決。舉例來說，我在登山社籌劃大型野外探險時，需考量路線選擇、物資分配、人員分組等，這與我在EDA專案中進行電路佈局的「組合最佳化」問題有異曲同工之妙。兩者皆需要面對多重限制條件（如地形限制、天氣變化 vs. 晶片面積、功耗預算），並在龐大的解空間中尋找近似最佳解，這促使我學會了如何運用啟發式演算法與系統性思維來解決複雜且多變的問題。此外，我在社團活動中擔任裝備組組長，負責盤點與維護社團所有裝備，這也培養了我對細節的掌握能力，以及將抽象問題具體化為可執行步驟的實務能力，這些經驗都與電子設計自動化領域中精確管理設計流程與細節的要求高度契合。\r\n\r\n## 動機\r\n\r\n從大學時期接觸到VLSI設計與電子設計自動化（EDA）課程以來，我便深深著迷於如何將抽象的邏輯功能轉化為實體的積體電路，並透過精密的軟體工具來實現這一複雜的過程。現代晶片設計的規模與複雜度已達到前所未有的程度，從數十億個電晶體的系統單晶片（SoC），到針對特定應用加速器（如AI、5G）的客製化設計，其成功無不仰賴強大的EDA工具鏈支撐。我在產學合作中親身參與記憶體控制器的佈局優化，以及在專題中探索高階合成的應用，讓我深刻體會到現有EDA工具在面對先進製程挑戰時仍有其瓶頸，尤其是在PPA（功耗、效能、面積）優化與設計效率提升方面，仍有巨大的研究空間。\r\n\r\n我意識到，要應對未來晶片設計的挑戰，例如3D IC、量子運算晶片、或是結合AI技術的智慧型設計，僅憑現有知識遠遠不足。我渴望深入學習最前沿的EDA理論與技術，特別是在演算法、機器學習與高效能運算如何融入EDA流程。國立陽明交通大學資工系在電子設計自動化領域擁有卓越的學術聲譽與堅實的研究基礎，多位教授在物理設計、高階合成、形式驗證及AI for EDA等方向有領先全球的成果。我相信貴所不僅能提供我所需的學術深度與廣度，其與台灣半導體產業的緊密連結，更能提供我寶貴的實務研究機會。我希望能透過貴所的嚴謹訓練，將我的學術熱情轉化為解決產業實際問題的能力，為台灣乃至全球的半導體產業發展貢獻一份心力。\r\n\r\n## 研究方向與動機\r\n\r\n鑑於我在大學時期在電子設計自動化領域的學習經驗與實作成果，我未來在交大資工所攻讀碩士學位期間，希望能聚焦於以下研究方向，並結合機器學習等新興技術，應對晶片設計的挑戰：\r\n\r\n1. **先進製程下之物理設計優化與機器學習應用 (Physical Design Optimization for Advanced Process Nodes with ML Integration)**\r\n * **動機：** 隨著半導體製程推進至7奈米、5奈米甚至更小，物理設計面臨極端複雜的挑戰，如隨機變異性、寄生效應增強、熱點效應（Hot Spot）以及難以預測的可靠性問題。傳統基於規則或幾何的優化演算法已難以有效應對。\r\n * **研究方向：** 我希望探索如何將機器學習模型（例如：深度學習、強化學習）應用於物理設計的各個階段，以實現更精準的預測與優化。\r\n * **智慧型佈局與繞線：** 研究利用深度強化學習（Deep Reinforcement Learning）自動學習佈局與繞線策略，以更有效地優化PPA指標，超越傳統啟發式演算法的性能。例如，訓練模型預測最佳的佈局區域或繞線路徑，以減少擁塞並改善時序。\r\n * **良率與可靠性預測：** 開發基於卷積神經網絡（CNN）的模型，分析佈局圖樣（Layout Pattern）以預測潛在的製程良率問題或可靠性風險（例如：電遷移 EM、熱點），並提供優化建議，實現設計製造協同優化（Design-Technology Co-Optimization, DTCO）。\r\n * **功耗與IR Drop優化：** 利用圖神經網絡（Graph Neural Networks, GNN）分析電源網路結構，精準預測IR Drop，並自動生成優化方案，如電源網格加強或去耦電容放置策略。\r\n\r\n2. **高階合成 (HLS) 與智慧型設計空間探索 (Design Space Exploration, DSE)**\r\n * **動機：** HLS旨在透過將高階語言（如C/C++/SystemC）自動轉換為RTL來加速設計流程。然而， HLS 的品質高度依賴於設計者提供的編譯指示（Pragmas）和設計空間探索，手動調整既耗時又難以達到最佳解，尤其在設計特定加速器（如AI加速器、邊緣運算處理器）時，需要在性能、功耗、面積之間進行複雜的權衡。\r\n * **研究方向：** 我希望探討如何利用智慧型演算法實現HLS的自動化與優化。\r\n * **強化學習驅動的DSE：** 研究運用強化學習代理（RL agent）自動探索HLS的設計空間，學習不同Pragmas組合對PPA的影響，並在給定設計約束下尋找最佳的實現方案，從而顯著縮短設計週期並提升最終硬體品質。\r\n * **特定應用HLS優化：** 針對AI/ML加速器等特殊應用，研究如何在HLS階段融合特定領域知識，例如將資料流圖（Dataflow Graph）與HLS排程器（Scheduler）結合，以生成更適合神經網絡運算的硬體架構。\r\n\r\n我深信，將我對電子設計自動化的熱情與對新興技術的探索精神結合，並藉助陽明交大資工所卓越的師資與研究環境，我能在此領域做出有價值的貢獻。\r\n\r\n## 讀書計畫\r\n\r\n**短期目標（入學第一年）**\r\n\r\n* **學術基礎強化：** 積極修習碩士班核心課程，如「高等演算法」、「VLSI設計自動化」、「高階合成導論」、「機器學習」等，扎實理論基礎。尤其專注於EDA相關演算法、資料結構與機器學習在工程上的應用。\r\n* **研究環境融入：** 盡快熟悉交大資工系的實驗室環境，主動與指導教授及實驗室學長姐交流，了解目前進行中的研究專案與方法論。透過參與實驗室專題討論會（Seminar）與讀書會，拓展學術視野。\r\n* **工具與技能精進：** 深入學習並掌握商業級EDA工具（例如 Cadence Innovus/Genus、Synopsys Design Compiler/ICC2、Mentor Graphics Calibre）以及相關程式語言（C++, Python）與硬體描述語言（SystemVerilog），以應對未來研究的實作需求。同時，熟悉TensorFlow或PyTorch等機器學習框架。\r\n* **文獻回顧：** 針對選定的研究方向（如：AI for Physical Design、HLS DSE），進行廣泛且深入的學術文獻回顧，掌握該領域的最新進展、核心挑戰與未解問題。\r\n\r\n**中期目標（入學第二年）**\r\n\r\n* **專題研究與實作：** 在指導教授的引導下，聚焦於選定的研究方向，設計並實作創新的演算法或框架。例如，開發一個基於深度強化學習的自動佈局優化器，或是一個能自動探索HLS設計空間的智慧型系統。\r\n* **論文撰寫與發表：** 根據研究成果，撰寫高品質的碩士論文。積極參與國內外學術會議（如：ICCAD, DAC, DATE）投稿並發表研究成果，累積學術發表經驗。\r\n* **專業實習：** 爭取到國內外知名半導體設計公司或EDA廠商的實習機會（例如：台積電、聯發科、聯詠、Cadence、Synopsys），將所學理論知識應用於實際產業問題，並深入了解產業趨勢與需求，提升實務能力。\r\n* **持續學習與合作：** 參與跨領域研究專案，與不同領域的學者合作，拓展研究廣度。例如，與人工智慧領域的專家合作，探索AI在更廣泛的晶片設計流程中的應用。\r\n\r\n**長期目標（畢業後）**\r\n\r\n* **學術深耕或產業貢獻：** 選擇繼續攻讀博士學位，在電子設計自動化或相關領域進行更深入的尖端研究，為學術界做出原創性貢獻；或進入頂尖半導體公司或EDA軟體公司，擔任研發工程師或資深設計工程師，將所學知識轉化為具體產品或解決方案，推動產業技術創新。\r\n* **領導與影響：** 隨著經驗的累積，期待能發展成為所屬領域的技術領導者，引領團隊開發下一代EDA工具或晶片設計方法學，持續為台灣的半導體產業鏈注入新動能。\r\n* **終身學習：** 保持對最新技術發展的敏銳度，不斷學習新知識與新技能，應對未來科技發展的快速變化。\r\n\r\n## 其他加分文件摘要\r\n\r\n* **學業成績單：** 呈現國立成功大學資訊工程學系完整成績單，總平均GPA 4.0/4.3，其中在「資料結構」、「演算法」、「計算機組織」、「數位積體電路設計」、「VLSI設計」等核心課程中均獲得優異成績。\r\n* **專題報告與實作成果：** 提交產學合作專案「先進製程下高效能記憶體控制器的自動化佈局與繞線優化工具」與專題研究「基於高階合成 (HLS) 之特殊應用積體電路 (ASIC) 設計流程探討」的詳細報告，包含問題定義、技術選型、演算法設計、實作細節、實驗結果與性能分析。部分關鍵程式碼已整理並附上。\r\n* **英文能力檢定證明：** 提供[例如：TOEFL iBT 105分 或 IELTS 7.5分]之成績單，證明具備良好的英文閱讀、寫作與口說能力，足以應對全英文的學術環境。\r\n* **課外活動證明：** 國立成功大學登山與野外求生社團幹部證明（擔任裝備組組長），並附上參與重要登山活動（例如：玉山主峰單日攻頂計畫、合歡山群峰縱走）的紀錄與心得，展現領導力、團隊合作與堅韌的解決問題能力。\r\n* **榮譽獎項：** 多次榮獲學業成績優異獎，並入選書卷獎名單，證明在學術上的持續努力與卓越表現。",
+  "idea_units": [
+    {
+      "id": "122dc564-9706-4e21-a9d1-253a42f36cd7",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我是[學生姓名]，來自國立成功大學資訊工程學系，主修硬體設計與電子設計自動化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e188ad56-1e64-4eeb-a954-a6083d29bf6a",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "在大學四年中，我以紮實的理論基礎與豐富的實作經驗，取得了總平均GPA 4.0/4.3的優異成績。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9492a471-7f0b-4665-83a1-1bafd8cdc873",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "課餘時間，我積極參與登山與野外求生社團，擔任裝備組組長，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fd324683-4605-46f0-aeb1-48aae997bcff",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "這不僅磨練了我對環境的敏銳觀察力與應變能力，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d8ed6a81-0d31-430d-be3e-f98085f512d0",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "更培養了我在壓力下系統性地分析問題、規劃路徑並優化資源配置的特質，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a546e5a9-fd69-4d25-8aeb-d8a9b079c14e",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "這些能力在複雜的晶片設計領域中同樣至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0f77e12-f9a1-4a1c-9b85-6719baf54d05",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "在大三升大四的暑假，我有幸參與了一項與[假設的半導體設計公司名稱，例如：台積電或聯發科的合作夥伴]合作的產學專案，主題是「先進製程下高效能記憶體控制器的自動化佈局與繞線優化」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f49eb695-9839-4092-b6fe-c5953824f572",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "此專案旨在解決在7奈米及以下先進製程中，記憶體控制器（Memory Controller）的物理佈局設計面臨的嚴峻挑戰，包括時序收斂困難、功耗過高以及面積效率不佳等問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "99749f12-af3b-40aa-99ff-d4bfeaa0be84",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我的主要職責是針對關鍵的記憶體介面IP區塊，開發並評估高效能的佈局與繞線演算法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b4e6a3cb-45f7-4d76-b62a-1eaa10a5c8a4",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我使用 C++ 實現了一套基於網格的放置演算法，結合模擬退火（Simulated Annealing）與漸進式優化（Incremental Optimization）策略，旨在減少連線長度並均勻化單元密度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9b64bd15-c46e-42e6-a838-79cc87833447",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "在繞線階段，我則利用圖論中的最小生成樹概念，結合A*搜尋演算法，開發了多層次繞線器，以有效地解決擁塞問題並確保訊號完整性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "99e07e02-a316-449d-bf2c-73d2deea48cf",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我利用開源的EDA工具流程（例如OpenROAD的一部分元件，或自寫的LEF/DEF解析器）來載入設計網表與技術庫資訊，並在開發的演算法中進行迭代優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab7e03eb-f7cc-47bd-a1ca-2956739ab989",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "經過數月的實驗與驗證，針對專案提供的特定記憶體控制器子模組，我們的工具相較於基於傳統貪婪演算法的初始佈局，成功將關鍵路徑延遲（Critical Path Delay）平均縮短了約15%，總線長減少了12%，並將佈局面積效率提升了約10%。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9244041d-aa9f-4a8a-9c6a-9105bd0580a7",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "此專案讓我深入理解了VLSI物理設計中的PPA (Power, Performance, Area) 權衡，以及將複雜演算法應用於實際晶片設計流程的挑戰與樂趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cd73199b-da84-4ed8-bf4f-2e765147f367",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "同時，我也學會了如何高效地與產業夥伴溝通技術細節，並根據需求快速調整研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d818d809-508d-4560-891e-8a3a171f3649",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "此外，我也參與了另一個探討高階合成 (High-Level Synthesis, HLS) 在特殊應用積體電路 (ASIC) 設計中潛力的專題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a3974657-9d13-44bb-a5e2-e1c067cd54c0",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我們選定了一個影像處理核心（例如：Sobel濾波器或FFT）作為目標，使用 SystemC 撰寫其行為描述。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4bcdecce-ebbc-4541-9af6-ebe199326caf",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "接著，我們利用商業級HLS工具（例如Xilinx Vivado HLS 或 Cadence Stratus HLS 的學術版本）將其轉換為暫存器傳輸級（RTL）描述。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e72fb3cd-fe3d-4c0a-b3e8-784d82101f3e",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "在過程中，我負責探索不同的編譯指示（Pragmas，例如`pipeline`、`unroll`、`array_partition`），並分析它們對最終RTL設計的延遲（Latency）、吞吐量（Throughput）與硬體資源利用率的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0bbdb517-0a6a-44f7-9b7e-4aaf3292658c",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我們系統性地進行了設計空間探索（Design Space Exploration, DSE），記錄並比較了數十種不同HLS設定下的PPA指標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f4189035-fb19-4e6d-9eda-44ceea8fbf79",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "透過此專題，我了解了HLS如何能大幅提升設計效率，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9d3fee47-d0f7-4b2a-bc3a-3ce84d1a6807",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "但同時也深刻體會到如何智慧地運用Pragmas來引導工具生成高效硬體的複雜性，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7e4d5a0e-498b-4e31-9070-db6db485adf6",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "這為我未來在自動化設計與優化領域的研究奠定了基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb25a7be-c7d8-4b7c-8b80-763524af5ed8",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "在求學過程中，除了資訊工程的專業課程，我也積極修習了「最佳化理論」與「資料結構與演算法」等理論課程，並將其概念應用於實際問題解決。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8ee1d0e2-521a-4689-a469-ab0b1a1f87a4",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "舉例來說，我在登山社籌劃大型野外探險時，需考量路線選擇、物資分配、人員分組等，這與我在EDA專案中進行電路佈局的「組合最佳化」問題有異曲同工之妙。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "093042de-a619-4e94-acba-ab90e67b2220",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "兩者皆需要面對多重限制條件（如地形限制、天氣變化 vs. 晶片面積、功耗預算），並在龐大的解空間中尋找近似最佳解，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "25285db8-d87d-4238-962d-266bf9a9d59b",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "這促使我學會了如何運用啟發式演算法與系統性思維來解決複雜且多變的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "73cbefa9-a7f9-40ac-a6f8-3bb16a68b6fd",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "此外，我在社團活動中擔任裝備組組長，負責盤點與維護社團所有裝備，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "63e9cd60-247f-461c-84b6-aec0c6c44872",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "這也培養了我對細節的掌握能力，以及將抽象問題具體化為可執行步驟的實務能力，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "05e14a51-e9f0-4892-a7e3-fa2de7acda05",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "這些經驗都與電子設計自動化領域中精確管理設計流程與細節的要求高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb8d0a51-766e-4d10-a159-911621872a55",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "從大學時期接觸到VLSI設計與電子設計自動化（EDA）課程以來，我便深深著迷於如何將抽象的邏輯功能轉化為實體的積體電路，並透過精密的軟體工具來實現這一複雜的過程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ce0d9577-871a-4913-9b7a-288c8799a89a",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "現代晶片設計的規模與複雜度已達到前所未有的程度，從數十億個電晶體的系統單晶片（SoC），到針對特定應用加速器（如AI、5G）的客製化設計，其成功無不仰賴強大的EDA工具鏈支撐。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3e5c6a6e-ec6c-4401-b1b2-460327423a14",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我在產學合作中親身參與記憶體控制器的佈局優化，以及在專題中探索高階合成的應用，讓我深刻體會到現有EDA工具在面對先進製程挑戰時仍有其瓶頸，尤其是在PPA（功耗、效能、面積）優化與設計效率提升方面，仍有巨大的研究空間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a54921ce-149d-4882-aa59-f1701310ecee",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我意識到，要應對未來晶片設計的挑戰，例如3D IC、量子運算晶片、或是結合AI技術的智慧型設計，僅憑現有知識遠遠不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "726ea106-0adb-44b5-957f-d0c6762f1132",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我渴望深入學習最前沿的EDA理論與技術，特別是在演算法、機器學習與高效能運算如何融入EDA流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0c46cbb2-207f-4f15-92db-3669a9631d05",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "國立陽明交通大學資工系在電子設計自動化領域擁有卓越的學術聲譽與堅實的研究基礎，多位教授在物理設計、高階合成、形式驗證及AI for EDA等方向有領先全球的成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "672d0ebd-9779-4bcd-aa10-31d9bbec6de3",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我相信貴所不僅能提供我所需的學術深度與廣度，其與台灣半導體產業的緊密連結，更能提供我寶貴的實務研究機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d6ebbb2-791c-4064-b246-da245fa8b8b2",
+      "candidate_id": "mock_8",
+      "section": "自傳",
+      "content": "我希望能透過貴所的嚴謹訓練，將我的學術熱情轉化為解決產業實際問題的能力，為台灣乃至全球的半導體產業發展貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b481686c-4490-4a54-a8a6-f908f6bfdf65",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "鑑於我在大學時期在電子設計自動化領域的學習經驗與實作成果，我未來在交大資工所攻讀碩士學位期間，希望能聚焦於以下研究方向，並結合機器學習等新興技術，應對晶片設計的挑戰：",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6fa41c5-acba-4068-b167-63c15f7b690a",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "隨著半導體製程推進至7奈米、5奈米甚至更小，物理設計面臨極端複雜的挑戰，如隨機變異性、寄生效應增強、熱點效應（Hot Spot）以及難以預測的可靠性問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "93d7094b-b62b-4f25-b732-7f1d197695b9",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "傳統基於規則或幾何的優化演算法已難以有效應對。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b39cf1ab-7f8c-4afe-a61f-d62bcaeecff4",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "我希望探索如何將機器學習模型（例如：深度學習、強化學習）應用於物理設計的各個階段，以實現更精準的預測與優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07d4730a-3864-404e-bf27-38736f53e1f5",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "研究利用深度強化學習（Deep Reinforcement Learning）自動學習佈局與繞線策略，以更有效地優化PPA指標，超越傳統啟發式演算法的性能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c7203d66-de27-4e03-aa93-28edad7b8330",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "例如，訓練模型預測最佳的佈局區域或繞線路徑，以減少擁塞並改善時序。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c50dc15b-92dc-40fd-ba6f-c981e2ca2cea",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "開發基於卷積神經網絡（CNN）的模型，分析佈局圖樣（Layout Pattern）以預測潛在的製程良率問題或可靠性風險（例如：電遷移 EM、熱點），並提供優化建議，實現設計製造協同優化（Design-Technology Co-Optimization, DTCO）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2edb254f-efd8-41ea-9ea3-75d370ac11a7",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "利用圖神經網絡（Graph Neural Networks, GNN）分析電源網路結構，精準預測IR Drop，並自動生成優化方案，如電源網格加強或去耦電容放置策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eea97049-e55b-44e6-9404-e5a97eeae2d1",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "HLS旨在透過將高階語言（如C/C++/SystemC）自動轉換為RTL來加速設計流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b51ccb30-dc61-4bae-9eb7-a80d4a803754",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "然而， HLS 的品質高度依賴於設計者提供的編譯指示（Pragmas）和設計空間探索，手動調整既耗時又難以達到最佳解，尤其在設計特定加速器（如AI加速器、邊緣運算處理器）時，需要在性能、功耗、面積之間進行複雜的權衡。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e88f5edf-3362-424a-b6ff-faa34b4492c9",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "我希望探討如何利用智慧型演算法實現HLS的自動化與優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a532e382-deea-4c4a-8fff-2ea543536368",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "研究運用強化學習代理（RL agent）自動探索HLS的設計空間，學習不同Pragmas組合對PPA的影響，並在給定設計約束下尋找最佳的實現方案，從而顯著縮短設計週期並提升最終硬體品質。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ba7fe48d-232e-40ba-a060-8f9302d777a7",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "針對AI/ML加速器等特殊應用，研究如何在HLS階段融合特定領域知識，例如將資料流圖（Dataflow Graph）與HLS排程器（Scheduler）結合，以生成更適合神經網絡運算的硬體架構。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a6518e68-5dc0-4581-a318-f9300e013772",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "我深信，將我對電子設計自動化的熱情與對新興技術的探索精神結合，並藉助陽明交大資工所卓越的師資與研究環境，我能在此領域做出有價值的貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb98721d-23ba-4d3c-ac32-0707dc6399ac",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "學術基礎強化：積極修習碩士班核心課程，如「高等演算法」、「VLSI設計自動化」、「高階合成導論」、「機器學習」等，扎實理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8abe9073-f167-4ae2-94b5-f6b4b0c8b0c0",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "尤其專注於EDA相關演算法、資料結構與機器學習在工程上的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ce919884-179e-465a-964e-aeaf608bebe4",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "研究環境融入：盡快熟悉交大資工系的實驗室環境，主動與指導教授及實驗室學長姐交流，了解目前進行中的研究專案與方法論。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d1e48538-5acd-403f-9fab-52a23ee4d590",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "透過參與實驗室專題討論會（Seminar）與讀書會，拓展學術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f42c5934-c87c-4290-8110-2b6eadfc1e2e",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "工具與技能精進：深入學習並掌握商業級EDA工具（例如 Cadence Innovus/Genus、Synopsys Design Compiler/ICC2、Mentor Graphics Calibre）以及相關程式語言（C++, Python）與硬體描述語言（SystemVerilog），以應對未來研究的實作需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a7cf6d7-c8ea-4b90-a4a3-4279dd2d4504",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "同時，熟悉TensorFlow或PyTorch等機器學習框架。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "97e71d77-d5b2-42a2-a34f-c5bde323dd54",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "文獻回顧：針對選定的研究方向（如：AI for Physical Design、HLS DSE），進行廣泛且深入的學術文獻回顧，掌握該領域的最新進展、核心挑戰與未解問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3c20526a-83b7-4639-8c4b-3ae64ac84f7c",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "專題研究與實作：在指導教授的引導下，聚焦於選定的研究方向，設計並實作創新的演算法或框架。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aa062d22-fe29-4c80-8764-0778a6c505af",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "例如，開發一個基於深度強化學習的自動佈局優化器，或是一個能自動探索HLS設計空間的智慧型系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0d4ba70-0c0d-4fe4-b1d6-bab286848aed",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "論文撰寫與發表：根據研究成果，撰寫高品質的碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "461ed518-7544-47d9-8eee-0507598109d4",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "積極參與國內外學術會議（如：ICCAD, DAC, DATE）投稿並發表研究成果，累積學術發表經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "85764a89-f417-4a1c-b043-e07cf97e78e2",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "專業實習：爭取到國內外知名半導體設計公司或EDA廠商的實習機會（例如：台積電、聯發科、聯詠、Cadence、Synopsys），將所學理論知識應用於實際產業問題，並深入了解產業趨勢與需求，提升實務能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f047e43c-8926-4365-8c3d-f1511bca6525",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "持續學習與合作：參與跨領域研究專案，與不同領域的學者合作，拓展研究廣度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8c4896b2-5951-4f37-befa-3f3e1e06bf17",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "例如，與人工智慧領域的專家合作，探索AI在更廣泛的晶片設計流程中的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c665b9f1-bd41-4942-aceb-30d3a0e79d45",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "學術深耕或產業貢獻：選擇繼續攻讀博士學位，在電子設計自動化或相關領域進行更深入的尖端研究，為學術界做出原創性貢獻；",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3c66e1e7-8d4f-4966-b314-d0adcbdfdeed",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "或進入頂尖半導體公司或EDA軟體公司，擔任研發工程師或資深設計工程師，將所學知識轉化為具體產品或解決方案，推動產業技術創新。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb5c8bf5-dde0-4022-84c8-1b9a5d9353af",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "領導與影響：隨著經驗的累積，期待能發展成為所屬領域的技術領導者，引領團隊開發下一代EDA工具或晶片設計方法學，持續為台灣的半導體產業鏈注入新動能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9329a6ea-7c51-4e94-ad99-9202e7da62a0",
+      "candidate_id": "mock_8",
+      "section": "讀書計畫",
+      "content": "終身學習：保持對最新技術發展的敏銳度，不斷學習新知識與新技能，應對未來科技發展的快速變化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f7012fa3-917d-4b50-8c7d-31dc8eea78fa",
+      "candidate_id": "mock_8",
+      "section": "加分文件",
+      "content": "學業成績單：呈現國立成功大學資訊工程學系完整成績單，總平均GPA 4.0/4.3，其中在「資料結構」、「演算法」、「計算機組織」、「數位積體電路設計」、「VLSI設計」等核心課程中均獲得優異成績。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9ca34f2f-1ea1-43f5-bbb0-cf5a0d028553",
+      "candidate_id": "mock_8",
+      "section": "加分文件",
+      "content": "專題報告與實作成果：提交產學合作專案「先進製程下高效能記憶體控制器的自動化佈局與繞線優化工具」與專題研究「基於高階合成 (HLS) 之特殊應用積體電路 (ASIC) 設計流程探討」的詳細報告，包含問題定義、技術選型、演算法設計、實作細節、實驗結果與性能分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "77f6ed14-2f6c-46f7-aec1-b4fed23e3511",
+      "candidate_id": "mock_8",
+      "section": "加分文件",
+      "content": "部分關鍵程式碼已整理並附上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d8f1efa5-3ed7-4617-8cdd-c1b3b1522550",
+      "candidate_id": "mock_8",
+      "section": "加分文件",
+      "content": "英文能力檢定證明：提供[例如：TOEFL iBT 105分 或 IELTS 7.5分]之成績單，證明具備良好的英文閱讀、寫作與口說能力，足以應對全英文的學術環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42552db3-5d96-4ec1-858d-10421908197b",
+      "candidate_id": "mock_8",
+      "section": "加分文件",
+      "content": "課外活動證明：國立成功大學登山與野外求生社團幹部證明（擔任裝備組組長），並附上參與重要登山活動（例如：玉山主峰單日攻頂計畫、合歡山群峰縱走）的紀錄與心得，展現領導力、團隊合作與堅韌的解決問題能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "82dc2f8e-b2b8-45fc-96f4-2e71b2674180",
+      "candidate_id": "mock_8",
+      "section": "加分文件",
+      "content": "榮譽獎項：多次榮獲學業成績優異獎，並入選書卷獎名單，證明在學術上的持續努力與卓越表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

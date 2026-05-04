@@ -1,0 +1,8 @@
+{
+  "candidate_id": "requirements",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\requirements.txt"
+  ],
+  "cleaned_text": "google-generativeai>=0.8.0\npython-dotenv>=1.0.0",
+  "idea_units": []
+}

@@ -1,0 +1,693 @@
+{
+  "candidate_id": "mock_11",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_11.txt"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n### 關於我\r\n我是[學生姓名]，就讀國立臺灣大學資訊工程學系，專注於軟體系統設計與開發。在學期間，我的學業成績表現優異，總平均GPA達4.0/4.3，尤其在作業系統、網路程式設計與分散式系統等課程中展現出濃厚興趣與卓越能力。同時，我也積極參與開源社群活動，並擔任社群編輯組長，負責協調文檔撰寫與知識分享，致力於推動社群的協同合作與技術交流。\r\n\r\n### 求學經歷\r\n\r\n**[專題研究：高可用性分散式事務處理系統的設計與實現]**\r\n在大三至大四期間，我參與了教授指導的「高可用性分散式事務處理系統」專題研究。該專案旨在解決傳統資料庫在面對高併發與高可用性需求時的瓶頸。我的主要職責是設計並實現系統中的共識機制與資料分片策略。我選用了Raft演算法作為基礎，並針對其Leader選舉與日誌複製過程進行優化，以提升系統在網路延遲或節點故障時的穩定性與復原速度。\r\n\r\n具體而言，我使用Go語言與gRPC框架從零開始建構了系統原型，並實作了基於版本號的MVCC（Multi-Version Concurrency Control）來處理事務衝突。在測試階段，我們搭建了一個由5個節點組成的叢集，透過Jepsen風格的測試工具模擬網路分割與節點失效。實驗結果顯示，該系統在面對單一節點故障時，能在3秒內完成Leader切換，並保證99.99%的讀寫事務一致性。我負責編寫了大量的單元測試與整合測試，並利用Prometheus和Grafana進行系統監控與效能分析，確保了系統的穩定性與可觀測性。此專案讓我深入理解了分散式系統的複雜性，並掌握了從理論設計到實際部署的全棧開發能力。\r\n\r\n**[協同開發：雲原生資料分析平台上的資源調度優化]**\r\n此外，我也參與了與某新創公司合作的雲原生資料分析平台協同開發專案。該平台基於Kubernetes運行，旨在為使用者提供可擴展的巨量資料處理能力。我主要負責研究與實作基於Pod優先級與資源配額的智慧化調度策略。面對高達上百個資料分析任務同時運行時，如何有效利用叢集資源並保證關鍵任務的SLA（Service Level Agreement）是一個巨大挑戰。\r\n\r\n我深入研究了Kubernetes的排程器擴展機制，並開發了一個客製化的Admission Controller，結合Istio的流量管理功能，實現了對不同類型任務的資源動態分配與隔離。為驗證優化效果，我利用Locust模擬了峰值期間每秒超過1000個請求的壓力測試，並透過Kubernetes Metrics Server與Heapster監控CPU、記憶體與網路I/O使用情況。優化後的系統相較於預設排程，能將高優先級任務的平均完成時間縮短25%，同時將叢集整體資源利用率提升了15%，顯著改善了平台效能與穩定性。這個專案讓我掌握了容器化、微服務架構以及在公有雲環境下進行系統優化的實戰經驗。\r\n\r\n**[開源社群編輯組長：促進知識共享與技術交流]**\r\n作為校內開源社群的編輯組長，我主導了社群技術文檔的撰寫與審核流程。我們建立了一套Markdown-based的協同寫作平台，並引入Git-based的版本控制，確保文檔更新的透明與高效。我每月組織兩次工作坊，指導新進成員如何貢獻技術文章，涵蓋從基礎的Git操作到進階的技術概念解釋。在我的領導下，社群文檔庫擴充了超過50篇關於Go語言微服務、Kubernetes部署實踐與分散式系統原理的深度技術文章，累計瀏覽量超過十萬次，有效提升了社群的技術影響力與新成員的學習效率。此經驗不僅鍛鍊了我的溝通協調能力，也加深了我對技術知識體系化與傳播重要性的理解。\r\n\r\n### 跨領域學習\r\n\r\n除了資訊工程專業課程，我也積極探索跨領域知識。我選修了「計算神經科學」與「數理邏輯與語言學」等課程。在計算神經科學中，我了解到人腦如何通過分散式且並行的神經網路處理複雜資訊，這啟發我重新思考分散式系統中訊息傳遞與共識機制的類比可能性，例如神經元激發模式與分佈式事件流的相似性。而在數理邏輯與語言學中，我學習了形式語言與自動機理論，這讓我能夠從更抽象的層面理解程式語言的語法與語義，並應用於分散式系統中協議設計的形式化驗證，以確保協議的正確性與無死鎖特性。這些跨領域的學習不僅拓展了我的視野，更讓我意識到不同學科之間共通的底層邏輯與解決問題的多元視角，為我未來在複雜系統設計上提供了更多元的思考工具。\r\n\r\n## 動機\r\n\r\n在大學期間，無論是專題研究中對高可用性分散式事務處理系統的深度探索，或是協同開發雲原生資料分析平台時對資源調度優化的實踐，都讓我深刻體會到現代計算環境對系統穩定性、可擴展性與效率的極致需求。隨著人工智慧、物聯網與大數據技術的爆炸式發展，背後無一不需要強大且可靠的分散式基礎設施作為支撐。我發現，儘管現有雲端平台提供了豐富的服務，但在處理極端負載、異構環境整合以及確保跨服務一致性等方面，仍存在許多尚未解決的挑戰。\r\n\r\n我對如何設計、建構並優化能夠在數千甚至數萬個節點上穩定運行的軟體系統懷抱著強烈的好奇心。特別是在面對不可預期的網路延遲、硬體故障與軟體錯誤時，如何保證服務的不間斷與資料的完整性，是當今分散式系統領域的核心議題。國立陽明交通大學資工所，以其在分散式系統、雲端計算與高效能運算領域的深厚學術積累與前瞻研究成果聞名。貴所不僅擁有國際頂尖的教授群，其課程設計如「高等分散式系統」、「雲端運算架構」與「軟體定義網路」等，正是我希望深入鑽研的方向。我渴望在貴所的豐富資源與學術氛圍下，將我的實踐經驗昇華為更紮實的理論基礎，並參與到前沿的學術研究中，為解決未來計算世界的挑戰貢獻一份力量。\r\n\r\n## 研究方向與動機\r\n\r\n在大學期間的專題與開源社群經驗，讓我對分散式系統的可靠性與效能有著深刻的體會。我發現，現今雲原生應用雖然普及，但在面對極端負載下的**「自動化彈性伸縮與韌性管理」**方面，仍存在不少待解決的課題。例如，如何精準預測流量模式，在應用程式層面實現無縫的水平擴展與收縮，同時確保在節點故障或網路波動時，服務能快速自我修復並維持預期的SLA，這是一個極具挑戰性的研究方向。\r\n\r\n我希望未來能深入探討**「基於機器學習的雲原生資源調度與故障預測」**。具體而言，我對以下幾個子方向特別感興趣：\r\n\r\n1. **智慧型彈性伸縮機制（Intelligent Auto-scaling）**：現有的自動伸縮多依賴於簡單的CPU或記憶體閾值。我希望能研究如何結合機器學習模型，分析歷史負載數據、應用程式內部指標（如請求佇列長度、資料庫連線數）以及外部環境因素，預測未來的資源需求，實現更精準、前瞻性的資源調度，減少過度配置或資源不足的情況，從而優化雲端資源的利用效率和成本。\r\n2. **分散式系統的故障預測與自動復原**：傳統的故障偵測多為事後反應。我希望能研究如何利用分散式系統中產生的日誌、監控指標與追蹤數據，透過異常偵測與時序分析的機器學習方法，預測潛在的節點故障、網路延遲加劇或服務降級，並自動觸發復原策略（例如，提前遷移工作負載、調整流量路由），從被動應對轉為主動預防。\r\n3. **雲原生環境下的資料一致性與容錯設計優化**：隨著微服務架構的普及，資料在多個服務間的一致性保證變得更加複雜。我希望研究在高度動態且具備彈性伸縮特性的雲原生環境中，如何設計更高效、更具彈性的資料一致性協議，並探索結合區塊鏈或分散式帳本技術，為關鍵業務提供更高層次的可信度與不可竄改性。\r\n\r\n我選擇此研究方向，是受到之前專題中高併發下事務一致性挑戰的啟發，以及雲原生專案中資源調度複雜度的觸動。我深信，將機器學習與分散式系統理論結合，能夠為建構更智能、更堅韌的下一代雲端基礎設施提供創新解決方案。陽明交通大學資工所在此領域擁有豐沛的學術能量與實驗資源，我希望能追隨貴所教授的指導，貢獻我的熱情與能力，攻克這些前沿技術難題。\r\n\r\n## 讀書計畫\r\n\r\n### 短期 (入學第一年)\r\n* **強化基礎理論**：修習「高等演算法」、「高等作業系統」與「分散式演算法」等核心課程，全面補強分散式系統與雲端計算所需的深層理論知識。\r\n* **熟悉研究環境**：積極參與實驗室例會與研討會，了解實驗室現有研究主題、專案進度與研究方法。主動閱讀相關領域的頂級會議論文（如OSDI, SOSP, EuroSys, NSDI），掌握最新學術動態。\r\n* **提升實作能力**：參與實驗室現有專案，或從小型開源專案著手，以Go、Rust或Java等語言，實作分散式系統中的核心組件（如ZooKeeper或etcd的簡化版），熟悉雲端服務API（AWS SDK, GCP SDK）。\r\n* **學術交流**：參與學術研討會或工作坊，擴展學術人脈，並透過與同行交流激發新的研究思路。\r\n\r\n### 中期 (入學第二年)\r\n* **深入研究方向**：選修「高等分散式系統設計」、「雲端運算架構與實作」以及「機器學習在系統中的應用」等進階課程，奠定論文研究的專業基礎。\r\n* **確立論文題目**：與指導教授密切討論，確定具體研究題目，並撰寫詳細的研究計畫書。開始進行相關文獻回顧、系統設計與原型開發。\r\n* **參與研究專案**：在指導教授的帶領下，積極參與實驗室正在進行的產學合作或國科會研究專案，將理論知識應用於實際問題，並累積實務開發經驗。\r\n* **論文初稿與發表**：完成論文核心實驗與分析，撰寫論文初稿，並爭取將研究成果投稿至國內外重要學術會議或期刊。\r\n\r\n### 長期 (畢業後)\r\n* **成為領域專家**：持續關注分散式系統、雲端計算與智慧化系統管理的前沿發展，不斷學習新技術與新思想，立志成為該領域的頂尖專家。\r\n* **投身學術或產業**：選擇在學術界繼續深造（攻讀博士學位），或進入頂尖科技公司（如Google, Microsoft, Amazon等）擔任軟體工程師、系統架構師或研究員，將所學知識與技能應用於解決實際世界的複雜挑戰。\r\n* **貢獻開源社群**：繼續活躍於開源社群，以自己的研究成果回饋社群，推動技術的進步與普及，並 mentorship 更多年輕的工程師。\r\n\r\n## 其他加分文件摘要\r\n\r\n1. **雲端認證：AWS Certified Solutions Architect – Associate**\r\n 此認證證明我具備在Amazon Web Services (AWS) 平台上設計可擴展、高可用性、容錯和成本效益系統的知識。我在準備過程中深入學習了EC2, S3, RDS, Lambda, VPC, IAM等核心服務，並理解了其在分散式系統架構中的應用。\r\n\r\n2. **開源專案貢獻證明 (GitHub Profile)**\r\n 我的GitHub個人頁面展示了多個參與的開源專案，其中包括我在「雲原生資料分析平台」專案中提交的Kubernetes Admission Controller程式碼，以及對Raft共識演算法開源實現的效能優化與Bug修復貢獻。我的commit歷史與Issue回覆紀錄可證明我的程式碼品質、協同合作能力及問題解決能力。\r\n\r\n3. **ACM/ICPC程式設計競賽：區域賽優勝**\r\n 我在大學期間曾代表學校參與ACM國際大學生程式設計競賽，並在區域賽中獲得優勝。此經驗培養了我嚴謹的演算法思維、高效的問題解決能力以及在壓力下團隊協作的能力，這對於複雜分散式系統的設計與調試至關重要。\r\n\r\n4. **校級優秀專題成果獎**\r\n 我的專題研究「高可用性分散式事務處理系統的設計與實現」榮獲系上「優秀專題成果獎」。這證明我的研究成果在學術深度、技術創新與實作完整性方面得到了肯定。\r\n\r\n5. **英語能力證明：TOEFL iBT 108分**\r\n 我具備優異的英語溝通與閱讀寫作能力，TOEFL iBT成績為108分（閱讀30, 聽力28, 口說24, 寫作26）。這將有助於我閱讀國際前沿學術文獻、參與國際學術交流，並在未來的研究生涯中與全球學者合作。",
+  "idea_units": [
+    {
+      "id": "5b0e05a4-07d7-46df-9c01-3c6ea173dc75",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我是[學生姓名]，就讀國立臺灣大學資訊工程學系，專注於軟體系統設計與開發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a88d908e-8e6c-46e2-acb9-5c21fc1587f8",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "在學期間，我的學業成績表現優異，總平均GPA達4.0/4.3",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8362850e-9eac-450d-9086-3b5361e77099",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "尤其在作業系統、網路程式設計與分散式系統等課程中展現出濃厚興趣與卓越能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e3509ded-e8f1-448e-96dc-e3bc20d973d5",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "同時，我也積極參與開源社群活動，並擔任社群編輯組長，負責協調文檔撰寫與知識分享，致力於推動社群的協同合作與技術交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "211068fe-9a78-45bc-9fae-5955539c1535",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "在大三至大四期間，我參與了教授指導的「高可用性分散式事務處理系統」專題研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6cd050f-f207-40cc-bb29-b5c0cdeff0ca",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "該專案旨在解決傳統資料庫在面對高併發與高可用性需求時的瓶頸。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "37e9ee55-0982-4591-b680-df31e8887c3b",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我的主要職責是設計並實現系統中的共識機制與資料分片策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "abdf9234-589e-45d8-9135-0acb7f1afc9e",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我選用了Raft演算法作為基礎，並針對其Leader選舉與日誌複製過程進行優化，以提升系統在網路延遲或節點故障時的穩定性與復原速度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "227a7e0f-bfa9-44bf-bdd2-bb99b6b98ff0",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "具體而言，我使用Go語言與gRPC框架從零開始建構了系統原型，並實作了基於版本號的MVCC（Multi-Version Concurrency Control）來處理事務衝突。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f581a29-41b8-41be-b28d-f92dff7352b4",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "在測試階段，我們搭建了一個由5個節點組成的叢集，透過Jepsen風格的測試工具模擬網路分割與節點失效。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ea721ff-be93-43c0-9582-3600be163631",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "實驗結果顯示，該系統在面對單一節點故障時，能在3秒內完成Leader切換，並保證99.99%的讀寫事務一致性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4164ebfb-c1b5-4d60-ab18-b9dc5a1fcf34",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我負責編寫了大量的單元測試與整合測試，並利用Prometheus和Grafana進行系統監控與效能分析，確保了系統的穩定性與可觀測性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "341eb8dc-d7d9-4653-9357-5dedc6147eba",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "此專案讓我深入理解了分散式系統的複雜性，並掌握了從理論設計到實際部署的全棧開發能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f6971d6-d0b2-4fc2-90a2-1e7a81275f9b",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "此外，我也參與了與某新創公司合作的雲原生資料分析平台協同開發專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7aaf29a6-89c2-4401-8e55-536fc827acb1",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "該平台基於Kubernetes運行，旨在為使用者提供可擴展的巨量資料處理能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4fb607d2-7e22-49ff-9c13-89f5181eed45",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我主要負責研究與實作基於Pod優先級與資源配額的智慧化調度策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "85b88f48-b844-4198-83e1-bbad99efd6e7",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "面對高達上百個資料分析任務同時運行時，如何有效利用叢集資源並保證關鍵任務的SLA（Service Level Agreement）是一個巨大挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "43652be5-80af-421b-ae68-ee8c993d1f5e",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我深入研究了Kubernetes的排程器擴展機制，並開發了一個客製化的Admission Controller，結合Istio的流量管理功能，實現了對不同類型任務的資源動態分配與隔離。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e51b0a69-c227-4443-9bfd-e8359fd16114",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "為驗證優化效果，我利用Locust模擬了峰值期間每秒超過1000個請求的壓力測試，並透過Kubernetes Metrics Server與Heapster監控CPU、記憶體與網路I/O使用情況。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5a7171ee-658a-4ec0-9654-530f17ddecc4",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "優化後的系統相較於預設排程，能將高優先級任務的平均完成時間縮短25%，同時將叢集整體資源利用率提升了15%，顯著改善了平台效能與穩定性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e238d3d2-a38d-416a-84e2-73d95b1f8e32",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "這個專案讓我掌握了容器化、微服務架構以及在公有雲環境下進行系統優化的實戰經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "43bf0756-2dd3-4204-bdc1-9f341b31d017",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "作為校內開源社群的編輯組長，我主導了社群技術文檔的撰寫與審核流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e464706-9818-4650-adb3-577fc9acc480",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我們建立了一套Markdown-based的協同寫作平台，並引入Git-based的版本控制，確保文檔更新的透明與高效。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd103c7e-d0b4-468d-b0c7-e16b0bed52fa",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我每月組織兩次工作坊，指導新進成員如何貢獻技術文章，涵蓋從基礎的Git操作到進階的技術概念解釋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b32521f9-d58a-44b1-a254-490d4a3c142b",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "在我的領導下，社群文檔庫擴充了超過50篇關於Go語言微服務、Kubernetes部署實踐與分散式系統原理的深度技術文章，累計瀏覽量超過十萬次，有效提升了社群的技術影響力與新成員的學習效率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ffb78d8-2353-4656-ba94-d0f3d44dd2b0",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "此經驗不僅鍛鍊了我的溝通協調能力，也加深了我對技術知識體系化與傳播重要性的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "139ab641-b4c5-42af-bc69-ed5a6613ba37",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "除了資訊工程專業課程，我也積極探索跨領域知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42c98e30-1aef-41c4-bd00-5b3486429256",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "我選修了「計算神經科學」與「數理邏輯與語言學」等課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a1107b15-fc45-4d43-b926-ae749586997e",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "在計算神經科學中，我了解到人腦如何通過分散式且並行的神經網路處理複雜資訊",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "299b1b63-64f0-4411-9372-9ca169a20b48",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "這啟發我重新思考分散式系統中訊息傳遞與共識機制的類比可能性，例如神經元激發模式與分佈式事件流的相似性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10a02d70-3f0c-4463-923c-114667c15fe0",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "而在數理邏輯與語言學中，我學習了形式語言與自動機理論",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "989527e3-90db-4b21-a298-aceb4cbe4ab2",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "這讓我能夠從更抽象的層面理解程式語言的語法與語義，並應用於分散式系統中協議設計的形式化驗證，以確保協議的正確性與無死鎖特性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b4444a3-2350-4f1e-947d-a949b5a86694",
+      "candidate_id": "mock_11",
+      "section": "自傳",
+      "content": "這些跨領域的學習不僅拓展了我的視野，更讓我意識到不同學科之間共通的底層邏輯與解決問題的多元視角，為我未來在複雜系統設計上提供了更多元的思考工具。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e482db4e-c56c-44ff-ae3e-34be7d06b4f0",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "在大學期間，無論是專題研究中對高可用性分散式事務處理系統的深度探索，或是協同開發雲原生資料分析平台時對資源調度優化的實踐，都讓我深刻體會到現代計算環境對系統穩定性、可擴展性與效率的極致需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9e9ed557-df49-49b6-aef5-03ce1c70e126",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "隨著人工智慧、物聯網與大數據技術的爆炸式發展，背後無一不需要強大且可靠的分散式基礎設施作為支撐。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cdfd33f1-9523-4d87-afee-f4b019cbfeb3",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我發現，儘管現有雲端平台提供了豐富的服務，但在處理極端負載、異構環境整合以及確保跨服務一致性等方面，仍存在許多尚未解決的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ae5107d8-a143-43ca-a1a8-758c87dcb709",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我對如何設計、建構並優化能夠在數千甚至數萬個節點上穩定運行的軟體系統懷抱著強烈的好奇心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe56971a-fae4-4185-9a8f-9d1c8ce2aa30",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "特別是在面對不可預期的網路延遲、硬體故障與軟體錯誤時，如何保證服務的不間斷與資料的完整性，是當今分散式系統領域的核心議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4466d092-14ea-4c5e-9b1d-82ba18f1f3e0",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "國立陽明交通大學資工所，以其在分散式系統、雲端計算與高效能運算領域的深厚學術積累與前瞻研究成果聞名。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2bb0dc64-c2a2-4dba-ab19-11ce99584f6f",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "貴所不僅擁有國際頂尖的教授群，其課程設計如「高等分散式系統」、「雲端運算架構」與「軟體定義網路」等，正是我希望深入鑽研的方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f800a220-6d83-4777-879f-3f00ec993ae3",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我渴望在貴所的豐富資源與學術氛圍下，將我的實踐經驗昇華為更紮實的理論基礎，並參與到前沿的學術研究中，為解決未來計算世界的挑戰貢獻一份力量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e09912fb-ce6b-47a8-a199-f4740e59ca9a",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "在大學期間的專題與開源社群經驗，讓我對分散式系統的可靠性與效能有著深刻的體會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c5af42d3-c892-4479-8466-5a58f03a52c7",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我發現，現今雲原生應用雖然普及，但在面對極端負載下的**「自動化彈性伸縮與韌性管理」**方面，仍存在不少待解決的課題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58f65ed7-dfa6-43ea-9f71-a677cf16849d",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "例如，如何精準預測流量模式，在應用程式層面實現無縫的水平擴展與收縮，同時確保在節點故障或網路波動時，服務能快速自我修復並維持預期的SLA，這是一個極具挑戰性的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "730678e1-c374-43e8-8f9f-4356223bf0a8",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我希望未來能深入探討**「基於機器學習的雲原生資源調度與故障預測」**。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6542668-1027-4274-8a2d-dc02115dfbdd",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "具體而言，我對以下幾個子方向特別感興趣：",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "921953be-5ded-4080-bb34-1b7cbf73385e",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "現有的自動伸縮多依賴於簡單的CPU或記憶體閾值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58052f42-a21d-43f7-a7c1-4a7ced59ed18",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我希望能研究如何結合機器學習模型，分析歷史負載數據、應用程式內部指標（如請求佇列長度、資料庫連線數）以及外部環境因素，預測未來的資源需求，實現更精準、前瞻性的資源調度，減少過度配置或資源不足的情況，從而優化雲端資源的利用效率和成本。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "699c4445-2050-4e60-93ea-1e5bdb7d194d",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "傳統的故障偵測多為事後反應。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1011aabf-2aed-405f-8491-fcc2d380c4f1",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我希望能研究如何利用分散式系統中產生的日誌、監控指標與追蹤數據，透過異常偵測與時序分析的機器學習方法，預測潛在的節點故障、網路延遲加劇或服務降級，並自動觸發復原策略（例如，提前遷移工作負載、調整流量路由），從被動應對轉為主動預防。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a8f740aa-b407-40ed-8e6e-ebb47aad8bae",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "隨著微服務架構的普及，資料在多個服務間的一致性保證變得更加複雜。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d9cd2f9-73e4-4557-8509-a04e89151c26",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我希望研究在高度動態且具備彈性伸縮特性的雲原生環境中，如何設計更高效、更具彈性的資料一致性協議，並探索結合區塊鏈或分散式帳本技術，為關鍵業務提供更高層次的可信度與不可竄改性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a33b3cb7-cb60-401f-a9a2-16f122b29875",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我選擇此研究方向，是受到之前專題中高併發下事務一致性挑戰的啟發，以及雲原生專案中資源調度複雜度的觸動。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5e65fe47-a2d8-49e0-bf74-42bcbb3eeef2",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "我深信，將機器學習與分散式系統理論結合，能夠為建構更智能、更堅韌的下一代雲端基礎設施提供創新解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "12e3c992-fbe4-41a6-a5e6-fb4fd909a396",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "陽明交通大學資工所在此領域擁有豐沛的學術能量與實驗資源，我希望能追隨貴所教授的指導，貢獻我的熱情與能力，攻克這些前沿技術難題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "23f2b352-b852-4d4d-8a74-90d774cfb240",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**強化基礎理論**：修習「高等演算法」、「高等作業系統」與「分散式演算法」等核心課程，全面補強分散式系統與雲端計算所需的深層理論知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7fd0b555-a70e-4ffd-a028-753194ae8b14",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**熟悉研究環境**：積極參與實驗室例會與研討會，了解實驗室現有研究主題、專案進度與研究方法。主動閱讀相關領域的頂級會議論文（如OSDI, SOSP, EuroSys, NSDI），掌握最新學術動態。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "de3898d8-6c33-471d-9241-8a16f46962a3",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**提升實作能力**：參與實驗室現有專案，或從小型開源專案著手，以Go、Rust或Java等語言，實作分散式系統中的核心組件（如ZooKeeper或etcd的簡化版），熟悉雲端服務API（AWS SDK, GCP SDK）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a8d98e10-a8a5-4cd0-b882-673c02386512",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**學術交流**：參與學術研討會或工作坊，擴展學術人脈，並透過與同行交流激發新的研究思路。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f5864ce7-7782-411d-8c5e-f4b5f788bec6",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**深入研究方向**：選修「高等分散式系統設計」、「雲端運算架構與實作」以及「機器學習在系統中的應用」等進階課程，奠定論文研究的專業基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f1fd626a-0e3a-492e-9272-7556cd98488e",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**確立論文題目**：與指導教授密切討論，確定具體研究題目，並撰寫詳細的研究計畫書。開始進行相關文獻回顧、系統設計與原型開發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6e0e3187-75e9-4870-bd38-6bc2d26d6de0",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**參與研究專案**：在指導教授的帶領下，積極參與實驗室正在進行的產學合作或國科會研究專案，將理論知識應用於實際問題，並累積實務開發經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "56d51e96-8fb2-450a-b13f-76c27be67be6",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**論文初稿與發表**：完成論文核心實驗與分析，撰寫論文初稿，並爭取將研究成果投稿至國內外重要學術會議或期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d2cbbd9-af5c-4362-9931-108e4612f332",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**成為領域專家**：持續關注分散式系統、雲端計算與智慧化系統管理的前沿發展，不斷學習新技術與新思想，立志成為該領域的頂尖專家。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4f61c60c-a9e0-448e-9d8e-03679e885f9c",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**投身學術或產業**：選擇在學術界繼續深造（攻讀博士學位），或進入頂尖科技公司（如Google, Microsoft, Amazon等）擔任軟體工程師、系統架構師或研究員，將所學知識與技能應用於解決實際世界的複雜挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a14b27e4-a43c-4521-8d53-a7327cb35673",
+      "candidate_id": "mock_11",
+      "section": "讀書計畫",
+      "content": "**貢獻開源社群**：繼續活躍於開源社群，以自己的研究成果回饋社群，推動技術的進步與普及，並 mentorship 更多年輕的工程師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "57de710c-fc34-4712-8579-320bf0fd0afc",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "此認證證明我具備在Amazon Web Services (AWS) 平台上設計可擴展、高可用性、容錯和成本效益系統的知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4470cc31-b5cf-435b-acba-93279a2a2193",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "我在準備過程中深入學習了EC2, S3, RDS, Lambda, VPC, IAM等核心服務，並理解了其在分散式系統架構中的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9cbd5be4-24ac-4ce2-80ce-2d84937640db",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "我的GitHub個人頁面展示了多個參與的開源專案，其中包括我在「雲原生資料分析平台」專案中提交的Kubernetes Admission Controller程式碼，以及對Raft共識演算法開源實現的效能優化與Bug修復貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6420a78-e675-48ff-bf5f-b56736a37019",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "我的commit歷史與Issue回覆紀錄可證明我的程式碼品質、協同合作能力及問題解決能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e615414-7ae6-4a19-8a51-726ea204f6d7",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "我在大學期間曾代表學校參與ACM國際大學生程式設計競賽，並在區域賽中獲得優勝。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60f8da81-1ac5-473a-a92d-df4360f9ed26",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "此經驗培養了我嚴謹的演算法思維、高效的問題解決能力以及在壓力下團隊協作的能力，這對於複雜分散式系統的設計與調試至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "810e51c1-8ec7-4d66-a31e-0f79db835a97",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "我的專題研究「高可用性分散式事務處理系統的設計與實現」榮獲系上「優秀專題成果獎」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "22bf3a8e-76bc-4719-8283-db04bf4f4c2c",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "這證明我的研究成果在學術深度、技術創新與實作完整性方面得到了肯定。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "79ff5e4b-ee8c-4d0d-ba9b-b1c702f0f4f3",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "我具備優異的英語溝通與閱讀寫作能力，TOEFL iBT成績為108分（閱讀30, 聽力28, 口說24, 寫作26）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "09e6b38a-9714-476a-87f6-cbabe8776f88",
+      "candidate_id": "mock_11",
+      "section": "加分文件",
+      "content": "這將有助於我閱讀國際前沿學術文獻、參與國際學術交流，並在未來的研究生涯中與全球學者合作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

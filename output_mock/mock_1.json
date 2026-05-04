@@ -1,0 +1,396 @@
+{
+  "candidate_id": "mock_1",
+  "source_files": [
+    "mock_data/mock_1.txt"
+  ],
+  "cleaned_text": "自傳關於我\r\n我是林○宇，就讀國立台灣大學資訊工程學系，同時輔修法律學系。在校期間學業表現優異，平均 GPA 為 4.1 / 4.3。除了專業課程外，我也熱衷於跨領域社團活動，曾擔任台大法律服務社的技術諮詢，並活躍於熱舞社，透過街舞表演磨練團隊協作與高壓下的專注力。 求學經歷[教育部資安人才培育計畫 - 核心基礎課程助教]\r\n在大三期間，我擔任了教育部資安計畫的課程助教，協助指導超過 150 位來自全國各校的學員。我負責撰寫 C++ 與 Python 的資安實作教材，包含緩衝區溢位（Buffer Overflow）的原理示範與修補機制。這份經驗讓我學會如何將深奧的編譯器原理與記憶體配置知識，透過圖像化與具體的 Payload 攻擊範例清晰地傳達給他人。 [專題研究 - 產學合作：智慧化滲透測試框架開發與攻擊路徑分析]\r\n大學專題期間，我參與了兩項與資安廠商合作的產學專案。首先是與科技公司合作開發「基於強化學習的網頁漏洞偵測系統」，我主要負責建構隔離測試環境（Sandboxing），並利用 Actor-Critic 演算法優化攻擊載荷（Payload）的生成效率，確保其能繞過動態偵測系統。\r\n隨後，我轉向研究「大型語言模型於惡意程式代碼分析之應用」，探討 LLM 在自動化反組譯代碼分析中的準確性。我負責整理人工標註的惡意行為特徵，並研究如何過濾模型生成的幻覺性內容（Hallucination），提升靜態分析的自動化程度。在產學過程中，我體會到模型優化需從資料品質、架構調整與評估指標（如 False Positive Rate）三方面同步切入，且資料集的完整性對資安模型至關重要。 [跨領域學習]\r\n除了資工領域，我積極修習法律學系關於科技法與智慧財產權的課程。透過跨域學習，我了解到數位攻防不只是技術競賽，有時也是法條解釋與合規性的碰撞。例如在修習「電腦犯罪偵查」時，我發現技術上可行的採證方式，在法律證據採信上卻有摺積般的複雜邏輯，而非單純的技術判定。這讓我學會從不同角度看待問題，尋求技術與法律的最佳解法。 動機\r\n在參與產學專案的過程中，我發現如何從海量的網路流量與日誌數據中，精準提取出攻擊特徵是一個巨大的挑戰。在當今萬物聯網的時代，數據的消化與有效利用直接影響資安應變的速度。我也意識到自己在大型分散式架構下的資安理論尚有不足，而國立陽明交通大學數據科學與工程研究所的課程，結合了資訊學院的專業技術與跨領域應用，相信能幫助我提升處理異質、巨量數據的能力，以掌握更先進的智慧防禦方法。 研究方向與動機雖然 AI 輔助防禦已成為趨勢，但高品質的資安標註資料（如零日漏洞特徵）依然極為匱乏。當訓練資料不足時，自動化攻防模型難以在真實場景中產生理想結果。此外，資安資料涉及機密性，必須經過細緻的人工處理，但在面對海量攻擊樣本時，單純依賴人力顯得緩慢且容易出錯。 我曾嘗試利用 LLM 將數十筆原始攻擊指令擴展至上千筆生成樣本，但發現模型常出現語法錯誤或指令失效的問題。這讓我深信，訓練資料的品質研究與擴充技術對於模型效能具有關鍵性影響。我希望能深入探討如何利用有限的真實攻擊樣本，透過生成對抗網路（GAN）或提示詞優化技術，構建出高品質、具備多樣性的資安訓練資料庫。 讀書計畫短期（碩士入學前）持續追蹤 OWASP 最新資安趨勢，觀看進階黑客松實戰教學影片以了解攻防技術演進。 加強英文溝通能力，參與資安社群（如 HITCON）的志工活動，拓展技術視野。 修習 Linux Kernel 與網管基礎課程，為進階資安研究銜接準備。 中期（碩士在學期間）修習人工智慧與機器學習進階課程，並強化在「惡意程式自動化偵測」與「入侵防禦系統」上的實作能力。 專注於研究如何管理並從巨量流量中萃取出威脅情報，並將其應用於自動化攻防場景。 積極尋取大型資安公司實習機會，驗證理論於真實企業環境的可行性。 長期（畢業後）從事資安研究員或自動化攻防工程師相關工作。 持續追蹤前瞻加密技術與 AI 安全領域，為台灣資安技術防護貢獻所學。 其他加分文件摘要在校成績：歷年成績單顯示在資料結構、演算法、作業系統等核心學科皆為 A 或 A+。技術證明：具備 OSCP（Offensive Security Certified Professional）證照，熟練使用 Linux 與多種滲透測試工具。社群貢獻：SITCON 學生計算機年會編輯組員，負責技術文案校對與維護。",
+  "idea_units": [
+    {
+      "id": "844fe056-5f4a-4e90-9405-aaf0530d707b",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "我是林○宇，就讀國立台灣大學資訊工程學系，同時輔修法律學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f9700db5-1e6d-4dbf-bc1e-20af3627fcc2",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "在校期間學業表現優異，平均 GPA 為 4.1 / 4.3。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d9b95992-1c6f-48ec-82ba-44383ac346ff",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "除了專業課程外，我也熱衷於跨領域社團活動。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "56fe33d2-dac4-47ba-9a44-da93b134502c",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "曾擔任台大法律服務社的技術諮詢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "461d1ee0-5a63-4329-ad72-b9bb0f8c83c0",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "透過街舞表演磨練團隊協作與高壓下的專注力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "02f01cd0-968b-47d2-9b4a-a193bd394779",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "在大三期間，我擔任了教育部資安計畫的課程助教，協助指導超過 150 位來自全國各校的學員。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f4fc29d6-ee07-4c87-a3f1-b18e6dfa6c48",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "我負責撰寫 C++ 與 Python 的資安實作教材，包含緩衝區溢位（Buffer Overflow）的原理示範與修補機制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3cfb4b52-3421-469f-a56b-7e2ccf7b5eb7",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "這份經驗讓我學會如何將深奧的編譯器原理與記憶體配置知識，透過圖像化與具體的 Payload 攻擊範例清晰地傳達給他人。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0c9a0c7a-ce62-4051-83de-8b44d57b84e2",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "大學專題期間，我參與了兩項與資安廠商合作的產學專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b60b9ee-358a-4381-8356-c0ee58b993af",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "首先是與科技公司合作開發「基於強化學習的網頁漏洞偵測系統」，我主要負責建構隔離測試環境（Sandboxing），並利用 Actor-Critic 演算法優化攻擊載荷（Payload）的生成效率，確保其能繞過動態偵測系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "463ebb4c-f512-4a0d-9207-f43fc0ce90e2",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "隨後，我轉向研究「大型語言模型於惡意程式代碼分析之應用」，探討 LLM 在自動化反組譯代碼分析中的準確性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df83b804-aaa5-4370-85ac-9ed8d514ff7d",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "我負責整理人工標註的惡意行為特徵，並研究如何過濾模型生成的幻覺性內容（Hallucination），提升靜態分析的自動化程度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "90430730-ba3a-4dd8-9950-bc1a3437cfd3",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "在產學過程中，我體會到模型優化需從資料品質、架構調整與評估指標（如 False Positive Rate）三方面同步切入，且資料集的完整性對資安模型至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f9e1e4e1-0daf-4571-afe4-633d2e8a849f",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "除了資工領域，我積極修習法律學系關於科技法與智慧財產權的課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3ce755f1-cc2a-43fc-967b-472f5489631c",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "透過跨域學習，我了解到數位攻防不只是技術競賽，有時也是法條解釋與合規性的碰撞。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "81b6733a-a5cf-47ba-bff6-ad9361dccee1",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "例如在修習「電腦犯罪偵查」時，我發現技術上可行的採證方式，在法律證據採信上卻有摺積般的複雜邏輯，而非單純的技術判定。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d99de360-bbf0-4bf1-8005-4f70d3b7afec",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "這讓我學會從不同角度看待問題，尋求技術與法律的最佳解法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "72dc5ed0-ae80-40a2-a559-83b3f1221c48",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "在參與產學專案的過程中，我發現如何從海量的網路流量與日誌數據中，精準提取出攻擊特徵是一個巨大的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d6987533-7126-4871-9b48-b89fd311dd58",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "在當今萬物聯網的時代，數據的消化與有效利用直接影響資安應變的速度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bbec1c44-695e-40cf-a6e4-a92d4d4b8e18",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "我也意識到自己在大型分散式架構下的資安理論尚有不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "23d3196c-58ee-4169-8fe8-673575216e55",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "而國立陽明交通大學數據科學與工程研究所的課程，結合了資訊學院的專業技術與跨領域應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4e5d842a-d5ce-4318-9588-141452f2960b",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "相信能幫助我提升處理異質、巨量數據的能力，以掌握更先進的智慧防禦方法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a393b56d-44f5-4c05-b411-76e0e78da00f",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "雖然 AI 輔助防禦已成為趨勢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60a79b45-d6f2-488a-a75a-154cf3b4ee57",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "但高品質的資安標註資料（如零日漏洞特徵）依然極為匱乏。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "79bd1b82-8d54-4c41-9f7c-697077b4d2c1",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "當訓練資料不足時，自動化攻防模型難以在真實場景中產生理想結果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "364b1132-3d4d-4aed-bb6c-c477619cafd9",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "此外，資安資料涉及機密性，必須經過細緻的人工處理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9aec33f7-513a-4e06-8175-0c298a6ecbd1",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "但在面對海量攻擊樣本時，單純依賴人力顯得緩慢且容易出錯。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f7d25ec6-c58d-40ce-ab92-8a6807010258",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "我曾嘗試利用 LLM 將數十筆原始攻擊指令擴展至上千筆生成樣本。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "350d46b5-34e2-4f05-bbdf-08911dcb12a2",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "但發現模型常出現語法錯誤或指令失效的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16f50561-6128-45e2-8ece-73f13fb6993a",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "這讓我深信，訓練資料的品質研究與擴充技術對於模型效能具有關鍵性影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1161b4af-7664-4ac8-88f4-c4ca820a234e",
+      "candidate_id": "mock_1",
+      "section": "自傳",
+      "content": "我希望能深入探討如何利用有限的真實攻擊樣本，透過生成對抗網路（GAN）或提示詞優化技術，構建出高品質、具備多樣性的資安訓練資料庫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c38a3354-38da-44da-b9a6-31008212173b",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "持續追蹤 OWASP 最新資安趨勢，觀看進階黑客松實戰教學影片以了解攻防技術演進。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "121259c4-a444-42c4-a8fe-adfad1752646",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "參與資安社群（如 HITCON）的志工活動，拓展技術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a0ad61f8-fa88-4605-bc00-5576186e97cb",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "修習 Linux Kernel 與網管基礎課程，為進階資安研究銜接準備。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d506ba1-214e-4660-98a3-8152a6d7da83",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "修習人工智慧與機器學習進階課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5364d1b5-dd37-442f-bedf-132ad355b95c",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "並強化在「惡意程式自動化偵測」與「入侵防禦系統」上的實作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3c13ad0f-07f5-4cc9-85d3-2703ba6b829a",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "專注於研究如何管理並從巨量流量中萃取出威脅情報，並將其應用於自動化攻防場景。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cf77cfd7-969f-4482-ab87-0706b9d6dade",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "積極尋取大型資安公司實習機會，驗證理論於真實企業環境的可行性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f875822-b19f-4689-8773-f254de8e243f",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "從事資安研究員或自動化攻防工程師相關工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f9a90fab-57ba-4a90-81fa-74c6574726a1",
+      "candidate_id": "mock_1",
+      "section": "讀書計畫",
+      "content": "持續追蹤前瞻加密技術與 AI 安全領域，為台灣資安技術防護貢獻所學。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "14eaedab-77b5-46bc-9e15-fae65ccfe5ed",
+      "candidate_id": "mock_1",
+      "section": "加分文件",
+      "content": "在校成績：歷年成績單顯示在資料結構、演算法、作業系統等核心學科皆為 A 或 A+。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "54c50392-6379-4cd2-bc5a-2c752a32a748",
+      "candidate_id": "mock_1",
+      "section": "加分文件",
+      "content": "技術證明：具備 OSCP（Offensive Security Certified Professional）證照，熟練使用 Linux 與多種滲透測試工具。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a1bef2d4-d991-4ab9-9c17-441398451900",
+      "candidate_id": "mock_1",
+      "section": "加分文件",
+      "content": "社群貢獻：SITCON 學生計算機年會編輯組員，負責技術文案校對與維護。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "candidate_id": "mock_2",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_2.txt"
+  ],
+  "cleaned_text": "自傳關於我\r\n我是陳○宏，就讀國立中山大學資訊工程學系。我在大學期間致力於數據科學與分散式系統的研究，歷年平均 GPA 為 3.9 / 4.0，多次獲得書卷獎肯定。除了專業技術，我曾擔任中山大學桌球校隊的先發球員。桌球是一項需要在極短時間內針對高速來球進行路徑預測與反應的運動，這種競技環境培養了我對數據細微變化的敏銳度，以及在處理海量特徵值時的抗壓性。我習慣在雜亂的數據流中主動尋找隱藏規律，這使我具備成為一名「數據獵人」的人格特質。 求學經歷[中大資工大數據工作坊 - 專案導師與技術講師]\r\n在大三暑假期間，我受邀擔任系上大數據建模工作坊的專案導師，指導約 60 位大學生與高中生進行實作。我主要負責授課內容為「Spark 分散式運算架構」，並設計了關於解決資料傾斜（Data Skew）問題的實驗教材。這是我第一次擔任講師，我發現將抽象的 MapReduce 邏輯透過具體的封包傳輸範例（如桌球戰術分配）進行類比，能讓學員更清楚地掌握資源調度（Resource Scheduling）的關鍵。這次經驗讓我學習到該如何透過舉例，將複雜的技術知識精準傳達給他人。 [專題研究 - 產學合作：電商使用者行為動態分析與即時流失預測]\r\n大學專題期間，我參與了與南部某大型零售電商的產學合作計畫。在專案前期，我主要負責處理高維度的用戶行為日誌（Log Data），針對其中嚴重的樣本不均問題（Imbalanced Data），我嘗試了不同的重採樣技術（如 SMOTE 與 ADASYN）進行實驗。我負責檢視訓練模型的資料特徵是否合乎真實購物場景，避免模型因為錯誤的特徵關聯（如將季節性購買行為誤判為流失徵兆）而產生錯誤學習。\r\n隨後，我改為研究「可解釋性 AI（XAI）」在推薦系統中的應用，利用 SHAP 與 LIME 框架對深度學習模型的預測結果進行定量分析。在產學合作的過程中，我體會到 AI 應用的優化必須從資料清洗、模型架構、以及具備商業意涵的評分方法（如提升轉換率）三方面同步切入。同時，透過固定向教授與廠商進行技術報告，也極大地增進了我的專業報告技巧。 [跨領域學習]\r\n除了資工本科課程，我亦積極修習管理學院的「計量經濟學」與理學院的「統計決策理論」。透過跨領域學習，我了解到數據分析不單單是技術的堆疊，更是不同角度的視野切換。例如在修習訊號與系統時，我發現有些時間序列數據的預測可以用摺積（Convolution）的方法來提取循環特徵，而非僅套用傳統的迴歸公式。修習不同領域的課程，讓我發現解法不只一個，利用多維度的觀點能更精準地捕捉數據背後的真實意圖。 動機\r\n在參與電商產學合作的過程中，我接觸了海量的日誌資訊，我發現如何從雜亂的巨量數據中提取出對營運有實質貢獻的洞察，是一個極其重要且困難的研究課題。尤其在大數據時代，數據的提取結果直接影響企業的競爭力。對許多企業而言，如何挑選並有效利用適合的數據已經相當困難，更不用說其中可能隱藏的偽數據風險。因此，我希望能進一步深入研究這一領域，將理論與實務結合，提升自己在巨量資料處理上的專業能力。國立陽明交通大學數據科學與工程研究所整合了資訊、理學與統計等專業資源，其針對巨量資料實際應用的課程規劃，正是我期望深化數據分析方法論的最佳場域。 研究方向與動機雖然我們身處大數據時代，但在特定場景（如新產品上線或特殊消費族群）下，高品質的標註資料依然十分匱乏。即使想進行預測模型的研究，常因資料量不足而導致模型過度擬合（Overfitting），難以產生理想的結果。 此外，在產學合作中，許多原始資料涉及商業機密，必須經過人工遮蔽處理，這使得可用來訓練模型的有效資料變得更加不足。我曾嘗試將約一百筆原始標籤經由大型語言模型（LLM）擴展至上千筆，但發現生成的結果品質不佳，常出現邏輯不合常理或幻覺性錯誤內容。面對海量且動態變化的資料，完全依賴人工檢驗已不切實際。我認為訓練資料的研究對於模型效能具備決定性影響。結合我的專案經驗，我希望能深入探討如何利用有限的訓練資料，透過半監督學習與資料合成技術，有效擴充至數量足夠且品質優良的研究方向。 讀書計畫短期（碩士入學前）定期觀看 IBM Technology 等專業頻道了解最新的 Data Fabric 技術趨勢，以便銜接未來研究目標。 參與國際開源社群（如 Apache Spark 討論區），加強英文學術討論能力並拓展國際視野。 修習深度學習與資料探勘基礎課程，觀看教學影片以確保基礎知識體系的完整性。 中期（碩士在學期間）修習巨量資料分析與進階機器學習課程，加強專業技術知識並提升處理分散式系統架構的實作能力。 從事「資料可解釋性與品質控管」相關研究，探討如何從巨量資料中萃取出有用部分並有效管理。 爭取至知名科技或電商公司進行實習，將研究所學到的理論模型應用於真實的產業挑戰中。 長期（畢業後）從事數據科學家或大數據工程師相關研發工作。 持續追蹤 AI 領域的最新發展，期望能設計出更符合人性需求且精確的數據驅動解決方案。 其他加分文件摘要GPA 與在校表現：大學四年平均 GPA 3.9/4.0，排名系上前 10%。競賽獲獎：教育部全國大數據競賽入圍證明。專業貢獻：中大資工系產學合作專題佳作獎。",
+  "idea_units": [
+    {
+      "id": "67490211-c31c-4b7c-b6b3-b9c0f83104fb",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我是陳○宏，就讀國立中山大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7a28ee57-be9d-4799-a7eb-f51b2dab55bd",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我在大學期間致力於數據科學與分散式系統的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "33e27a74-17a1-475a-b777-ad551c3c8db1",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "歷年平均 GPA 為 3.9 / 4.0。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "faa49fcd-89aa-4c5c-952c-0890d1285f9c",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我曾擔任中山大學桌球校隊的先發球員。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4abac49f-199f-4fcb-b188-d97f4c493191",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "桌球是一項需要在極短時間內針對高速來球進行路徑預測與反應的運動。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c812c8d6-2382-4e53-bdfe-f18b398555df",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "這種競技環境培養了我對數據細微變化的敏銳度，以及在處理海量特徵值時的抗壓性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "72e3f289-f5d8-4397-bf4b-77aa1504ae01",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我習慣在雜亂的數據流中主動尋找隱藏規律。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "916f3c57-4706-4ce8-ac60-2f9152ee10c1",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "這使我具備成為一名「數據獵人」的人格特質。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e4140480-8ef2-4965-9263-03786a71dc10",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "在大三暑假期間，我受邀擔任系上大數據建模工作坊的專案導師，指導約 60 位大學生與高中生進行實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f023f261-8c4f-47dc-8463-af12936bbd62",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我主要負責授課內容為「Spark 分散式運算架構」，並設計了關於解決資料傾斜（Data Skew）問題的實驗教材。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4d9da179-0ccb-4592-be46-d51b867091cd",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "這是我第一次擔任講師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6972794c-8b55-4728-b6f7-3b7862d92b27",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我發現將抽象的 MapReduce 邏輯透過具體的封包傳輸範例（如桌球戰術分配）進行類比，能讓學員更清楚地掌握資源調度（Resource Scheduling）的關鍵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "50616241-d6bf-4ede-bdb7-5c92ca155369",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "這次經驗讓我學習到該如何透過舉例，將複雜的技術知識精準傳達給他人。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "de03822a-1c67-44b3-ae78-9be59db9078c",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "大學專題期間，我參與了與南部某大型零售電商的產學合作計畫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6cdd86e-d3c7-4040-a970-bedf1527dc20",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "在專案前期，我主要負責處理高維度的用戶行為日誌（Log Data），針對其中嚴重的樣本不均問題（Imbalanced Data），我嘗試了不同的重採樣技術（如 SMOTE 與 ADASYN）進行實驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c8c35412-2299-4e10-bf2c-63570af24ae9",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我負責檢視訓練模型的資料特徵是否合乎真實購物場景，避免模型因為錯誤的特徵關聯（如將季節性購買行為誤判為流失徵兆）而產生錯誤學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b76c7c15-b2af-498f-8276-2011ac100d74",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "隨後，我改為研究「可解釋性 AI（XAI）」在推薦系統中的應用，利用 SHAP 與 LIME 框架對深度學習模型的預測結果進行定量分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "05b7dcec-2a02-462b-a5d6-95237e58c2f5",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "在產學合作的過程中，我體會到 AI 應用的優化必須從資料清洗、模型架構、以及具備商業意涵的評分方法（如提升轉換率）三方面同步切入。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c145af8-8e52-4d88-8346-2b25660b5485",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "同時，透過固定向教授與廠商進行技術報告，也極大地增進了我的專業報告技巧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "853c9172-2bf8-4a81-a6d3-1552c9a1c1d4",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我亦積極修習管理學院的「計量經濟學」與理學院的「統計決策理論」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0951beb9-175c-4175-9ec8-d8b5d71a79f8",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "透過跨領域學習，我了解到數據分析不單單是技術的堆疊，更是不同角度的視野切換。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "03d4851b-b422-4b74-a256-cdf2eb0c36eb",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "例如在修習訊號與系統時，我發現有些時間序列數據的預測可以用摺積（Convolution）的方法來提取循環特徵，而非僅套用傳統的迴歸公式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "909c70fd-a13b-4676-b878-eebf2bf586a9",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "修習不同領域的課程，讓我發現解法不只一個，利用多維度的觀點能更精準地捕捉數據背後的真實意圖。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "259beab4-9d36-4bd0-a17b-10da4294e272",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "在參與電商產學合作的過程中，我接觸了海量的日誌資訊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fc39fa97-46ef-4421-92ac-ff09c2986ad5",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我發現如何從雜亂的巨量數據中提取出對營運有實質貢獻的洞察，是一個極其重要且困難的研究課題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aef36892-168c-467d-9b49-c57448e4dbbf",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "尤其在大數據時代，數據的提取結果直接影響企業的競爭力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8dc409d0-5cc0-4513-83c0-62790933d8a3",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "對許多企業而言，如何挑選並有效利用適合的數據已經相當困難，更不用說其中可能隱藏的偽數據風險。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d2c612d-40ff-41bd-a8e6-bec72db9be32",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "因此，我希望能進一步深入研究這一領域，將理論與實務結合，提升自己在巨量資料處理上的專業能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d227b599-ee56-4cd0-8c9b-e3c525184248",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "國立陽明交通大學數據科學與工程研究所整合了資訊、理學與統計等專業資源，其針對巨量資料實際應用的課程規劃，正是我期望深化數據分析方法論的最佳場域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8088cb44-373f-4114-98f7-d677a735c62b",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "雖然我們身處大數據時代，但在特定場景（如新產品上線或特殊消費族群）下，高品質的標註資料依然十分匱乏。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4976329a-dfcf-42cc-91f5-a703f232b369",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "即使想進行預測模型的研究，常因資料量不足而導致模型過度擬合（Overfitting），難以產生理想的結果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b3f8530-8cd8-4012-8873-316ff0878e94",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "此外，在產學合作中，許多原始資料涉及商業機密，必須經過人工遮蔽處理，這使得可用來訓練模型的有效資料變得更加不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "edabb2cf-e312-4c5d-a9c2-bca37748beff",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我曾嘗試將約一百筆原始標籤經由大型語言模型（LLM）擴展至上千筆。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f009f81d-363c-48f1-92f0-1b726a0d43fa",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "但發現生成的結果品質不佳，常出現邏輯不合常理或幻覺性錯誤內容。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "940f480f-8873-49c5-b213-c1ee9b499c1b",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "面對海量且動態變化的資料，完全依賴人工檢驗已不切實際。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9fafed13-b9c3-41aa-9f0f-658216074976",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我認為訓練資料的研究對於模型效能具備決定性影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "097e5c50-8c7e-4db5-99d9-e416901d6ba4",
+      "candidate_id": "mock_2",
+      "section": "自傳",
+      "content": "我希望能深入探討如何利用有限的訓練資料，透過半監督學習與資料合成技術，有效擴充至數量足夠且品質優良的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0fde371d-6148-4161-93b4-932e119fd0ce",
+      "candidate_id": "mock_2",
+      "section": "讀書計畫",
+      "content": "定期觀看 IBM Technology 等專業頻道了解最新的 Data Fabric 技術趨勢，以便銜接未來研究目標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "539bc104-6500-456d-b681-a28958eaabe7",
+      "candidate_id": "mock_2",
+      "section": "讀書計畫",
+      "content": "參與國際開源社群（如 Apache Spark 討論區），加強英文學術討論能力並拓展國際視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8e4003b3-4f29-4e09-895d-d18995d4aa86",
+      "candidate_id": "mock_2",
+      "section": "讀書計畫",
+      "content": "修習深度學習與資料探勘基礎課程，觀看教學影片以確保基礎知識體系的完整性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f43ffa1a-9b9d-4f5f-9e3f-ccbbf713afb0",
+      "candidate_id": "mock_2",
+      "section": "讀書計畫",
+      "content": "修習巨量資料分析與進階機器學習課程，加強專業技術知識並提升處理分散式系統架構的實作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d52bd05-663e-4085-9fc4-9b8579877a47",
+      "candidate_id": "mock_2",
+      "section": "讀書計畫",
+      "content": "從事「資料可解釋性與品質控管」相關研究，探討如何從巨量資料中萃取出有用部分並有效管理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "37c2780f-6784-4b5d-bcc2-9a5ff16fcf77",
+      "candidate_id": "mock_2",
+      "section": "讀書計畫",
+      "content": "爭取至知名科技或電商公司進行實習，將研究所學到的理論模型應用於真實的產業挑戰中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5583def1-08e8-46dd-b146-afd22a3942ae",
+      "candidate_id": "mock_2",
+      "section": "讀書計畫",
+      "content": "從事數據科學家或大數據工程師相關研發工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e1d9e70c-2988-434e-84ce-cf37ed1e86f0",
+      "candidate_id": "mock_2",
+      "section": "讀書計畫",
+      "content": "持續追蹤 AI 領域的最新發展，期望能設計出更符合人性需求且精確的數據驅動解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4d2a616f-7058-4c5a-b7aa-5de2950f3462",
+      "candidate_id": "mock_2",
+      "section": "加分文件",
+      "content": "大學四年平均 GPA 3.9/4.0。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1c2edd3b-ecd3-4af6-8ffc-000bcde99195",
+      "candidate_id": "mock_2",
+      "section": "加分文件",
+      "content": "教育部全國大數據競賽入圍證明。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bf0a06c8-e3c9-4e3b-9749-ff4139883dcc",
+      "candidate_id": "mock_2",
+      "section": "加分文件",
+      "content": "中大資工系產學合作專題佳作獎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

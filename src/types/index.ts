@@ -44,3 +44,11 @@ export interface PipelineResult {
   idea_unit_count: number;
   idea_units: IdeaUnit[];
 }
+
+export interface StandardSubCriteria {
+  id: string;                 // e.g. "C1_S1"
+  name: string;               // LLM-generated Chinese name, e.g. "跨域學科整合"
+  raw_labels: string[];       // original raw labels that fall into this cluster
+}
+
+export type StandardDictionary = Partial<Record<CriterionId, StandardSubCriteria[]>>;

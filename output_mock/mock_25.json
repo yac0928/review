@@ -1,0 +1,567 @@
+{
+  "candidate_id": "mock_25",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_25.txt"
+  ],
+  "cleaned_text": "### 自傳\r\n\r\n#### 關於我\r\n我是陳俊宏，就讀於國立中山大學資訊工程學系。在學期間，我始終保持對學術的熱忱，平均學業成績達到 3.7/4.0 (約為 85%)，這反映了我對資訊工程領域知識的扎實掌握與持續追求。除了課業之外，我也積極參與課外活動，擔任校園廣播主持人，這不僅鍛鍊了我的溝通表達能力，也培養了我以清晰、引人入勝的方式闡述複雜概念的能力，這對於未來的學術交流與技術推廣至關重要。\r\n\r\n#### 求學經歷\r\n\r\n**[專題研究 — 基於 RISC-V 架構的嵌入式安全模組開發]**\r\n在大三期間，我參與了一項為期一年的專題研究，主題為「基於 RISC-V 架構的嵌入式安全模組開發」。該專案旨在為物聯網 (IoT) 裝置設計並實作一套輕量級、高安全性的硬體信任根 (Hardware Root of Trust, HRoT) 解決方案。我與指導教授及兩位同學合作，主要負責韌體層的設計與實作，以及部分硬體功能驗證。\r\n\r\n我的主要工作包括：\r\n1. **安全啟動 (Secure Boot) 機制的韌體實作：** 使用 C 語言在 RISC-V 微控制器上開發了安全啟動韌體，確保只有經過簽章驗證的程式碼才能執行。我們採用橢圓曲線數位簽章演算法 (ECDSA) 進行驗證，並透過熔絲 (e-fuse) 儲存公鑰雜湊值，以防篡改。在測試中，我們成功在 Xilinx Artix-7 FPGA 開發板上搭建的 RISC-V 核心上實現了秒級啟動驗證，並有效阻擋了未經授權的韌體載入。\r\n2. **硬體亂數產生器 (Hardware Random Number Generator, HRNG) 的韌體介面與測試：** 與硬體組同學協作，設計了 HRNG 的韌體 API，並編寫測試程式驗證其隨機性與吞吐量。我們透過 NIST SP 800-90B 測試套件進行了驗證，確保所產生的亂數能達到加密安全等級，平均每秒產生 1MB 的高品質亂數。\r\n3. **安全儲存區 (Secure Storage) 韌體模組設計：** 為敏感資料（如加密金鑰、憑證）設計了基於加密檔案系統的安全儲存模組，利用 AES-256 GCM 模式進行資料加密，並透過硬體加速器進行加解密操作，平均讀寫延遲控制在毫秒級。\r\n4. **側通道攻擊防護策略評估：** 協助進行了基於功耗分析 (Power Analysis) 的側通道攻擊模擬，並初步評估了韌體層面（如亂數化延遲、常數時間操作）的防護效果。\r\n\r\n透過這個專案，我深入理解了嵌入式系統的硬體與韌體協同設計、安全晶片設計的核心概念，以及在資源受限環境中實施加密與安全機制的挑戰。我學會了如何使用 Verilog 進行硬體介面描述、以 C/C++ 撰寫高效且安全的韌體，並掌握了故障分析 (Fault Injection) 與側通道攻擊 (Side-channel Attack) 的基本概念與防禦策略。\r\n\r\n**[跨領域學習]**\r\n除了資訊工程專業課程，我也積極探索跨領域知識，特別是修習了「資訊法律與倫理」等相關課程。這門課讓我了解到技術實作背後的法律規範與道德責任，尤其在處理敏感數據或設計安全機制時，必須考量到隱私權保護、資料合規性等層面。例如，在嵌入式系統中實作數據加密與儲存時，如何平衡安全性與用戶隱私，確保符合國際法規（如 GDPR），是我在技術之外獲得的深刻啟發。這種跨領域的思維讓我能以更全面的視角看待資訊安全問題，從技術、法律、倫理等多個面向進行權衡與設計。\r\n\r\n#### 動機\r\n在「基於 RISC-V 架構的嵌入式安全模組開發」專題中，我親身參與了從硬體底層到韌體應用的整個安全設計流程。這個經驗讓我深刻體認到，儘管軟體安全日益受到重視，但硬體與韌體層的安全性才是整個系統安全鏈條中最關鍵，也往往是最容易被忽視的一環。當韌體或晶片本身存在漏洞時，上層的軟體防護將形同虛設。物聯網裝置的普及使得這些潛在的脆弱點數量呈爆炸式增長，從智慧家電到工業控制系統，韌體攻擊可能導致嚴重的經濟損失乃至生命威脅。\r\n\r\n國立陽明交通大學資工所，在嵌入式系統、晶片系統與計算機結構、資訊與網路安全等領域擁有領先的研究團隊與豐富的學術資源。我特別關注貴所教授們在「安全晶片軟硬體系統設計」與「硬體特洛伊、安全與硬體特洛伊防護」等方向的研究，這與我的專題經驗和未來志向高度契合。我渴望能在貴所優異的學術氛圍中，進一步深耕韌體安全與安全晶片設計，學習更先進的防護技術與分析方法，例如形式化驗證 (Formal Verification) 於韌體安全中的應用，或是基於機器學習的硬體木馬檢測技術。我相信貴所的頂尖師資和實驗設備，將能幫助我將理論知識與實務能力提升至嶄新的層次，為建構更安全的數位世界貢獻心力。\r\n\r\n#### 研究方向與動機\r\n在物聯網時代，嵌入式裝置的安全性已成為一個刻不容緩的議題。由於這些裝置通常資源有限，且部署環境多變，使得傳統的軟體層安全防護難以全面覆蓋。我的專題經驗讓我深感，從硬體設計初期就融入安全性考量，並結合強健的韌體保護機制，是築建堅不可摧的防線的關鍵。\r\n\r\n我的主要研究方向將聚焦於**「強化基於 RISC-V 的嵌入式系統韌體安全與新型態硬體安全防護」**。具體而言，我對以下子領域充滿熱情：\r\n\r\n1. **輕量級安全啟動與韌體更新機制：** 針對資源受限的 IoT 裝置，探索並設計更高效、更具韌性的安全啟動 (Secure Boot) 和遠端韌體更新 (Firmware Over-The-Air, FOTA) 協定。我希望能研究如何利用硬體安全模組，結合區塊鏈或分散式帳本技術，為韌體更新提供去中心化的信任驗證，從而降低中心化伺服器被攻陷的風險。這將涉及密碼學原語在嵌入式系統上的最佳化實作、韌體版本回溯攻擊 (Rollback Attack) 防護，以及空中介面安全性 (Over-the-Air Interface Security)。\r\n2. **側通道攻擊與故障注入攻擊防護：** 深入研究各種側通道攻擊（如功耗分析、電磁輻射分析）與故障注入攻擊 (Fault Injection Attack) 對於嵌入式系統韌體的威脅。我計畫探索在 RISC-V 處理器上，如何透過指令集擴充 (Instruction Set Extension) 或微架構設計，實現硬體層面的抗攻擊特性。同時，在韌體層面，研究如何引入更多亂數化、遮罩 (Masking) 與常數時間操作 (Constant-Time Operations) 等技術，以抵禦高階分析攻擊。\r\n3. **基於形式化方法的韌體安全驗證：** 傳統的測試方法難以完全覆蓋韌體的所有執行路徑，因此我對運用形式化驗證 (Formal Verification) 技術來證明韌體程式碼的安全性、無漏洞特性深感興趣。這包括使用模型檢查 (Model Checking)、符號執行 (Symbolic Execution) 等工具，對關鍵安全模組（如密碼模組、存取控制模組）進行嚴格驗證，從源頭上消除漏洞。\r\n\r\n我深信，解決這些挑戰將大幅提升未來物聯網裝置的整體安全性。在貴所，我期望能結合現有的 RISC-V 開發經驗，利用貴所豐富的 FPGA/ASIC 設計工具鏈與實驗平台，實作並驗證我提出的安全架構與防護機制。我特別希望能有機會參與到如「安全晶片軟硬體協同設計」相關的研究專案，將我對韌體安全的熱情轉化為具體的技術貢獻。\r\n\r\n### 讀書計畫\r\n\r\n#### 短期 (第一學年)\r\n* **強化基礎理論：** 深入修習高等演算法、高等計算機結構、高等作業系統等課程，鞏固資訊科學核心知識，尤其著重於其在嵌入式系統中的應用與限制。\r\n* **專業課程學習：** 選修「安全晶片設計」、「嵌入式系統設計」、「密碼學」等專業課程，系統性學習硬體與韌體安全的核心技術與最新發展。\r\n* **實驗室探索與論文閱讀：** 積極參與各實驗室的專題討論，了解不同教授的研究方向，並大量閱讀國際頂級會議 (如 NDSS, USENIX Security, CHES) 及期刊 (如 IEEE TC, ACM TECS) 中關於嵌入式安全、韌體安全、RISC-V 安全等領域的最新論文。\r\n* **技能提升：** 熟練掌握 C/C++ 語言於嵌入式開發的進階技巧，並學習 Verilog/SystemVerilog 進行硬體描述與驗證，探索如 Rust 等更具記憶體安全特性的語言在韌體開發中的潛力。\r\n\r\n#### 中期 (第二學年)\r\n* **論文研究與實作：** 確定指導教授並選定碩士論文主題，投入深入研究。根據研究方向，可能涉及 RISC-V ISA 擴展設計、FPGA 上安全模組的原型實作、韌體安全漏洞分析與防護機制開發等。\r\n* **參與研究計畫：** 積極爭取加入實驗室的國家型或產學合作研究計畫，將所學理論應用於實際問題，並從中學習專案管理與團隊協作。\r\n* **發表學術成果：** 努力將研究成果整理成論文，投稿至國內外重要學術會議或期刊，提升學術影響力。\r\n* **技術交流：** 參與國內外學術研討會或工作坊，與同行學者交流，擴展學術視野，並關注產業最新的安全需求。\r\n\r\n#### 長期 (畢業後)\r\n* **持續深耕：** 期望能成為韌體安全與安全晶片領域的專家，持續追蹤最新技術發展，不斷學習與創新。\r\n* **產業應用或學術深造：** 考慮進入半導體設計公司、物聯網安全解決方案供應商，從事安全架構師、韌體安全工程師或資安顧問等職位，將研究成果轉化為實際產品；亦或攻讀博士學位，繼續在學術領域探索更深層次的理論與技術挑戰，為國家在資訊安全領域的發展貢獻力量。\r\n\r\n### 其他加分文件摘要\r\n* **校園廣播主持經驗：** 兩年校園廣播主持人經驗，負責節目內容策劃、腳本撰寫與現場播音，培養了優秀的公眾表達能力、邏輯思維與臨場反應能力，能有效傳達複雜資訊。\r\n* **程式設計競賽：** 曾參與 ACM-ICPC 校內選拔賽，並獲得佳作。透過競賽提升了演算法設計、問題解決與團隊合作能力。\r\n* **軟體開發專案：** 參與開源專案「智慧校園導覽系統」的後端開發，使用 Python (Django) 實作 API 介面與資料庫管理，熟悉版本控制 (Git) 與敏捷開發流程。\r\n* **語文能力證明：** 多益 (TOEIC) 成績 860 分，具備流利的英文閱讀、寫作及溝通能力，能有效閱讀英文學術文獻與參與國際交流。\r\n* **推薦信：** 附上指導教授及專業課程教授的推薦信，詳述我在學術研究、專題表現及個人特質方面的優點。",
+  "idea_units": [
+    {
+      "id": "20bb6550-704a-4d74-8784-ff161f0bd194",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我是陳俊宏，就讀於國立中山大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7ca2f58b-adc8-471a-ac2a-5aae54332a25",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "在學期間，我始終保持對學術的熱忱，平均學業成績達到 3.7/4.0 (約為 85%)",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cd5efa70-95c2-455d-9b0e-155b1d46cd0d",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "這反映了我對資訊工程領域知識的扎實掌握與持續追求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "381a25bb-ee78-47a9-8366-6a8df792db41",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "除了課業之外，我也積極參與課外活動，擔任校園廣播主持人",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4132500b-71c3-44dd-989d-c1c78d15333f",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "這不僅鍛鍊了我的溝通表達能力，也培養了我以清晰、引人入勝的方式闡述複雜概念的能力",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab15c5a8-6119-481a-b2ec-2578480585c1",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "這對於未來的學術交流與技術推廣至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8b18a696-7a9d-4ae8-8552-0e70ede6250e",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "在大三期間，我參與了一項為期一年的專題研究，主題為「基於 RISC-V 架構的嵌入式安全模組開發」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cf74ef83-0eb7-4b4f-90b8-9937610a4182",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "該專案旨在為物聯網 (IoT) 裝置設計並實作一套輕量級、高安全性的硬體信任根 (Hardware Root of Trust, HRoT) 解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f64b5f09-b094-4a5a-8239-6bd5083a6c09",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我與指導教授及兩位同學合作，主要負責韌體層的設計與實作，以及部分硬體功能驗證。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8a334b26-e1c9-46b2-9f8b-8492512c2fc4",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "使用 C 語言在 RISC-V 微控制器上開發了安全啟動韌體，確保只有經過簽章驗證的程式碼才能執行。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0fb4c515-b0c3-4b4e-bf34-b5cdf167d568",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我們採用橢圓曲線數位簽章演算法 (ECDSA) 進行驗證，並透過熔絲 (e-fuse) 儲存公鑰雜湊值，以防篡改。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c7520b46-6417-4a4b-bd1f-8872517d6dc3",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "在測試中，我們成功在 Xilinx Artix-7 FPGA 開發板上搭建的 RISC-V 核心上實現了秒級啟動驗證，並有效阻擋了未經授權的韌體載入。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "accde857-29ba-4b60-9acd-3bcb962c2998",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "與硬體組同學協作，設計了 HRNG 的韌體 API，並編寫測試程式驗證其隨機性與吞吐量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "072070a0-5532-4f91-8513-2991c5fc31aa",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我們透過 NIST SP 800-90B 測試套件進行了驗證，確保所產生的亂數能達到加密安全等級，平均每秒產生 1MB 的高品質亂數。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd3aca4f-3bb4-4a68-be1f-6dfb91b37ca1",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "為敏感資料（如加密金鑰、憑證）設計了基於加密檔案系統的安全儲存模組，利用 AES-256 GCM 模式進行資料加密，並透過硬體加速器進行加解密操作，平均讀寫延遲控制在毫秒級。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "51e8dba9-c2e9-40db-ba95-9a61296992a4",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "協助進行了基於功耗分析 (Power Analysis) 的側通道攻擊模擬，並初步評估了韌體層面（如亂數化延遲、常數時間操作）的防護效果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2c781c56-639d-4864-8ab5-7ddccc261db8",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "透過這個專案，我深入理解了嵌入式系統的硬體與韌體協同設計、安全晶片設計的核心概念，以及在資源受限環境中實施加密與安全機制的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b5c1fa2b-1f6d-4a7e-8b32-38c5c4e4d01a",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我學會了如何使用 Verilog 進行硬體介面描述、以 C/C++ 撰寫高效且安全的韌體，並掌握了故障分析 (Fault Injection) 與側通道攻擊 (Side-channel Attack) 的基本概念與防禦策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fda909e5-944b-4251-8bb6-ca15defdb5cc",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "除了資訊工程專業課程，我也積極探索跨領域知識，特別是修習了「資訊法律與倫理」等相關課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c15959f2-3cd1-4e6b-ac38-bd857849ab54",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "這門課讓我了解到技術實作背後的法律規範與道德責任，尤其在處理敏感數據或設計安全機制時，必須考量到隱私權保護、資料合規性等層面。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5314f6b3-f608-473c-83ed-548540b47c3f",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "例如，在嵌入式系統中實作數據加密與儲存時，如何平衡安全性與用戶隱私，確保符合國際法規（如 GDPR），是我在技術之外獲得的深刻啟發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "92efd138-3bda-4890-ac64-4f497b07a857",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "這種跨領域的思維讓我能以更全面的視角看待資訊安全問題，從技術、法律、倫理等多個面向進行權衡與設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c6d5549-2d3c-40aa-a3e1-184c80f01451",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "在「基於 RISC-V 架構的嵌入式安全模組開發」專題中，我親身參與了從硬體底層到韌體應用的整個安全設計流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0b9029c9-751f-42c6-8643-5f26b3ed106c",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "這個經驗讓我深刻體認到，儘管軟體安全日益受到重視，但硬體與韌體層的安全性才是整個系統安全鏈條中最關鍵，也往往是最容易被忽視的一環。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2433ffe0-f1d0-4f0c-8a48-bbfefa34e18c",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "當韌體或晶片本身存在漏洞時，上層的軟體防護將形同虛設。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ed2f6335-5399-4f12-88d8-4fdc5716eb59",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "物聯網裝置的普及使得這些潛在的脆弱點數量呈爆炸式增長，從智慧家電到工業控制系統，韌體攻擊可能導致嚴重的經濟損失乃至生命威脅。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b8697c7-add2-439e-975c-e6ec6cdc6502",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "國立陽明交通大學資工所，在嵌入式系統、晶片系統與計算機結構、資訊與網路安全等領域擁有領先的研究團隊與豐富的學術資源。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "24b2a3ec-af54-4ea3-aa45-3c2394e1745e",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我特別關注貴所教授們在「安全晶片軟硬體系統設計」與「硬體特洛伊、安全與硬體特洛伊防護」等方向的研究，這與我的專題經驗和未來志向高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9896cfce-44a7-49bd-b853-be81d2d156f4",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我渴望能在貴所優異的學術氛圍中，進一步深耕韌體安全與安全晶片設計，學習更先進的防護技術與分析方法，例如形式化驗證 (Formal Verification) 於韌體安全中的應用，或是基於機器學習的硬體木馬檢測技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9a6f0970-d299-4bb2-9f4e-4157f5bfa4d5",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我相信貴所的頂尖師資和實驗設備，將能幫助我將理論知識與實務能力提升至嶄新的層次，為建構更安全的數位世界貢獻心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "19504376-5a57-429b-a80f-c2d216500482",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "在物聯網時代，嵌入式裝置的安全性已成為一個刻不容緩的議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d13bdd81-241a-4055-ba63-1c72f59b8c29",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "由於這些裝置通常資源有限，且部署環境多變，使得傳統的軟體層安全防護難以全面覆蓋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e6191a9c-e016-4b41-b471-78dfe20f11c3",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我的專題經驗讓我深感，從硬體設計初期就融入安全性考量，並結合強健的韌體保護機制，是築建堅不可摧的防線的關鍵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6920cac-3c95-4c4b-a3d1-4a898f3787d8",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我的主要研究方向將聚焦於「強化基於 RISC-V 的嵌入式系統韌體安全與新型態硬體安全防護」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "224710a4-bc18-4603-968c-8ca321ae5378",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "針對資源受限的 IoT 裝置，探索並設計更高效、更具韌性的安全啟動 (Secure Boot) 和遠端韌體更新 (Firmware Over-The-Air, FOTA) 協定。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "afc27109-a598-4760-b573-d9072a01a646",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我希望能研究如何利用硬體安全模組，結合區塊鏈或分散式帳本技術，為韌體更新提供去中心化的信任驗證，從而降低中心化伺服器被攻陷的風險。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "efd957eb-9868-401d-8c74-3e8ac9753387",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "這將涉及密碼學原語在嵌入式系統上的最佳化實作、韌體版本回溯攻擊 (Rollback Attack) 防護，以及空中介面安全性 (Over-the-Air Interface Security)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b91400e4-0a01-42a0-ab4b-02e08337ab8f",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "深入研究各種側通道攻擊（如功耗分析、電磁輻射分析）與故障注入攻擊 (Fault Injection Attack) 對於嵌入式系統韌體的威脅。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e2978a21-689c-452a-a21f-5a85de216600",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我計畫探索在 RISC-V 處理器上，如何透過指令集擴充 (Instruction Set Extension) 或微架構設計，實現硬體層面的抗攻擊特性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a3953fe5-7bc1-48b6-82f1-d863ccd72d65",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "同時，在韌體層面，研究如何引入更多亂數化、遮罩 (Masking) 與常數時間操作 (Constant-Time Operations) 等技術，以抵禦高階分析攻擊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c402ea50-7c22-4d02-91ea-c7ee62e24ffd",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "傳統的測試方法難以完全覆蓋韌體的所有執行路徑，因此我對運用形式化驗證 (Formal Verification) 技術來證明韌體程式碼的安全性、無漏洞特性深感興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5435c5f0-713d-43f1-bd4e-16fecefbac1b",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "這包括使用模型檢查 (Model Checking)、符號執行 (Symbolic Execution) 等工具，對關鍵安全模組（如密碼模組、存取控制模組）進行嚴格驗證，從源頭上消除漏洞。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b78e6161-6fc6-4288-888d-96fffb825e93",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我深信，解決這些挑戰將大幅提升未來物聯網裝置的整體安全性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f1c64a35-18c2-498b-b1f6-a117e983acf4",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "在貴所，我期望能結合現有的 RISC-V 開發經驗，利用貴所豐富的 FPGA/ASIC 設計工具鏈與實驗平台，實作並驗證我提出的安全架構與防護機制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "86a1f330-8d65-46f3-9484-e133600fdef6",
+      "candidate_id": "mock_25",
+      "section": "自傳",
+      "content": "我特別希望能有機會參與到如「安全晶片軟硬體協同設計」相關的研究專案，將我對韌體安全的熱情轉化為具體的技術貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d4b15462-96c2-4f59-851a-69af9e5f9c9d",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "強化基礎理論：深入修習高等演算法、高等計算機結構、高等作業系統等課程，鞏固資訊科學核心知識，尤其著重於其在嵌入式系統中的應用與限制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1ed9f52-5a07-4087-a1e3-4f415bd757ae",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "專業課程學習：選修「安全晶片設計」、「嵌入式系統設計」、「密碼學」等專業課程，系統性學習硬體與韌體安全的核心技術與最新發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6c82045-af2f-499c-9eb8-ff6538809995",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "實驗室探索與論文閱讀：積極參與各實驗室的專題討論，了解不同教授的研究方向，並大量閱讀國際頂級會議 (如 NDSS, USENIX Security, CHES) 及期刊 (如 IEEE TC, ACM TECS) 中關於嵌入式安全、韌體安全、RISC-V 安全等領域的最新論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fef4debe-7063-4193-960a-3dbb3b58f722",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "技能提升：熟練掌握 C/C++ 語言於嵌入式開發的進階技巧，並學習 Verilog/SystemVerilog 進行硬體描述與驗證，探索如 Rust 等更具記憶體安全特性的語言在韌體開發中的潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ad447956-5a80-45b5-9f48-bdd907a18a65",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "論文研究與實作：確定指導教授並選定碩士論文主題，投入深入研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e028263d-1e1e-4909-95a7-43cb9b99019f",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "根據研究方向，可能涉及 RISC-V ISA 擴展設計、FPGA 上安全模組的原型實作、韌體安全漏洞分析與防護機制開發等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9330df55-7050-4815-99bb-c84645562212",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "參與研究計畫：積極爭取加入實驗室的國家型或產學合作研究計畫，將所學理論應用於實際問題，並從中學習專案管理與團隊協作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "62d56b8b-9aaa-4515-a3af-c896b0b2e1bf",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "發表學術成果：努力將研究成果整理成論文，投稿至國內外重要學術會議或期刊，提升學術影響力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "73337faf-d4c9-498f-9def-393659263aa6",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "技術交流：參與國內外學術研討會或工作坊，與同行學者交流，擴展學術視野，並關注產業最新的安全需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "402dd89b-d9c3-4e86-9a74-056ed5f637be",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "持續深耕：期望能成為韌體安全與安全晶片領域的專家，持續追蹤最新技術發展，不斷學習與創新。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "77f30595-b534-4375-9c57-2c3512cc2f6f",
+      "candidate_id": "mock_25",
+      "section": "讀書計畫",
+      "content": "產業應用或學術深造：考慮進入半導體設計公司、物聯網安全解決方案供應商，從事安全架構師、韌體安全工程師或資安顧問等職位，將研究成果轉化為實際產品；亦或攻讀博士學位，繼續在學術領域探索更深層次的理論與技術挑戰，為國家在資訊安全領域的發展貢獻力量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cf826265-e85d-4a80-9639-4de19ea1f3a4",
+      "candidate_id": "mock_25",
+      "section": "加分文件",
+      "content": "兩年校園廣播主持人經驗，負責節目內容策劃、腳本撰寫與現場播音，培養了優秀的公眾表達能力、邏輯思維與臨場反應能力，能有效傳達複雜資訊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "34fcc1fa-8902-4b3e-8bc6-d848a98da09d",
+      "candidate_id": "mock_25",
+      "section": "加分文件",
+      "content": "曾參與 ACM-ICPC 校內選拔賽，並獲得佳作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2b1170e-aec0-4ec9-a2e8-e5b8f17efd5e",
+      "candidate_id": "mock_25",
+      "section": "加分文件",
+      "content": "透過競賽提升了演算法設計、問題解決與團隊合作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c1851cfb-4c78-4fe6-94eb-6aa6c3a20d96",
+      "candidate_id": "mock_25",
+      "section": "加分文件",
+      "content": "參與開源專案「智慧校園導覽系統」的後端開發，使用 Python (Django) 實作 API 介面與資料庫管理，熟悉版本控制 (Git) 與敏捷開發流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "64bd9402-9ed3-4a5f-ad40-d74ead8e0dbb",
+      "candidate_id": "mock_25",
+      "section": "加分文件",
+      "content": "多益 (TOEIC) 成績 860 分，具備流利的英文閱讀、寫作及溝通能力，能有效閱讀英文學術文獻與參與國際交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a05e2943-2f9c-4180-9e38-6d9edf7613c3",
+      "candidate_id": "mock_25",
+      "section": "加分文件",
+      "content": "附上指導教授及專業課程教授的推薦信，詳述我在學術研究、專題表現及個人特質方面的優點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}
