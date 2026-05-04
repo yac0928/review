@@ -10,26 +10,46 @@
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我是林志明，就讀於國立臺北科技大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景陳述"
+      },
+      "hashtags": [
+        "國立臺北科技大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "649d143b-0b34-4fc1-b1ad-406dfd1da528",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "在學期間，我對於演算法設計與軟體開發展現了高度熱忱。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣展現",
+        "C2": "技術領域熱忱"
+      },
+      "hashtags": [
+        "演算法設計",
+        "軟體開發"
+      ]
     },
     {
       "id": "b86a7ada-f20e-431a-8aa3-d4dddf4f506c",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "透過不斷探索，我深切體認到資訊工程領域的廣闊與無限可能。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域認知與視野"
+      },
       "hashtags": []
     },
     {
@@ -37,8 +57,12 @@
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "憑藉著對學術的嚴謹態度與實作的堅持，我保持了優異的學習表現，平均成績約 87 分 (GPA 3.5/4.3)。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -46,89 +70,168 @@
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "除了學業，我亦擔任天文社社長。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外活動參與"
+      },
+      "hashtags": [
+        "天文社社長"
+      ]
     },
     {
       "id": "f5de77c4-71bc-4b97-85f8-47457ae14292",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "這份經驗不僅培養了我的領導統御與團隊協作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領導與協作能力"
+      },
+      "hashtags": [
+        "領導統御",
+        "團隊協作"
+      ]
     },
     {
       "id": "cfbcfb72-77f5-419f-af83-0dcb80180e1c",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "更啟發了我從巨觀與抽象角度思考複雜問題的習慣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "抽象思考能力"
+      },
+      "hashtags": [
+        "巨觀思考",
+        "抽象思考"
+      ]
     },
     {
       "id": "cd304452-60c8-4632-b2c6-cbf4364a5e3c",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "這與我在自然語言處理中面對語意理解的挑戰時，有著異曲同工之妙。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨領域思維連結",
+        "C1": "NLP學術應用"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "語意理解"
+      ]
     },
     {
       "id": "8ddd96c8-7943-4e85-ae19-731cbc1778e4",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "在大三期間，我與同學合作進行了一項專題研究，旨在優化智慧語音助理在特定領域（如校園資訊查詢）的人機互動體驗及語意理解能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題研究實作",
+        "C3": "人機互動優化"
+      },
+      "hashtags": [
+        "專題研究",
+        "智慧語音助理",
+        "人機互動",
+        "語意理解",
+        "校園資訊查詢"
+      ]
     },
     {
       "id": "72c352f4-10f0-4c22-a5ad-684a510e8d5c",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "此專案核心目標是提升語音助理對用戶意圖的判斷精準度，並減少誤解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術目標設定",
+        "C3": "問題精準解決"
+      },
+      "hashtags": [
+        "用戶意圖判斷",
+        "判斷精準度",
+        "減少誤解"
+      ]
     },
     {
       "id": "54134f7c-906d-404f-a6ba-d52bab5ec398",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我主要負責語意理解模組的設計與實作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "模組設計實作"
+      },
+      "hashtags": [
+        "語意理解模組"
+      ]
     },
     {
       "id": "0c95ada8-f6e3-4768-96d0-9e71ea10d9e5",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我們首先蒐集了約 8,000 條校園相關的常見問題與口語化表達，並進行了細緻的資料清洗與標註，區分出「意圖」與「槽位資訊」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料前處理與標註"
+      },
+      "hashtags": [
+        "資料清洗",
+        "資料標註",
+        "意圖辨識",
+        "槽位填充",
+        "校園常見問題"
+      ]
     },
     {
       "id": "e80883db-68f4-4e90-aebf-35ea8019bb37",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "在語意匹配部分，初期嘗試了基於規則與 TF-IDF 的關鍵詞匹配。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "語意匹配技術應用"
+      },
+      "hashtags": [
+        "規則匹配",
+        "TF-IDF",
+        "關鍵詞匹配"
+      ]
     },
     {
       "id": "53d1c01a-5ddf-4e8f-bb24-c7cea4901fcb",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "但發現其對口語化、多樣化的表達難以有效處理。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術限制分析"
+      },
       "hashtags": []
     },
     {
@@ -136,125 +239,259 @@
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "隨後，我引入了深度學習模型，特別是基於 BERT 的變形金剛架構進行意圖分類（Intent Classification）與槽位填充（Slot Filling）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習模型應用",
+        "C3": "複雜問題解決"
+      },
+      "hashtags": [
+        "深度學習",
+        "BERT",
+        "變形金剛架構",
+        "意圖分類",
+        "槽位填充"
+      ]
     },
     {
       "id": "08ba9823-af2e-40ab-95f5-1d21cbadc6f9",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我運用 PyTorch 框架，並使用 Hugging Face `transformers` 函式庫，對預訓練的中文 BERT 模型進行微調。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習框架操作"
+      },
+      "hashtags": [
+        "PyTorch",
+        "HuggingFace",
+        "transformers",
+        "中文BERT",
+        "模型微調"
+      ]
     },
     {
       "id": "83decdad-3922-47a3-b5f6-209295a81085",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "透過實驗，我們比較了多種模型架構與超參數配置，最終選定了一個優化後的 BERT 模型，並結合 CRF (Conditional Random Field) 層進行槽位填充，將意圖分類的 F1-score 從 75% 提升至 92%，槽位填充的準確度也從 68% 提升至 88%。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型優化與評估",
+        "C3": "實驗設計與成效分析"
+      },
+      "hashtags": [
+        "模型優化",
+        "超參數配置",
+        "CRF",
+        "F1-score",
+        "準確度提升"
+      ]
     },
     {
       "id": "ea903db2-4e84-4b28-96ea-855088e9e394",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "此外，為處理校園特有詞彙，我額外建構了一個包含約 2,000 筆校園專有名詞的詞典，並融入模型訓練前的嵌入層。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "領域知識整合",
+        "C3": "特殊問題處理"
+      },
+      "hashtags": [
+        "校園特有詞彙",
+        "專有名詞詞典",
+        "嵌入層"
+      ]
     },
     {
       "id": "d6d56c02-b123-48ed-be6f-806e1a30aea6",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "進一步提升了對專有名詞的識別能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型識別能力提升"
+      },
+      "hashtags": [
+        "專有名詞識別"
+      ]
     },
     {
       "id": "02ddb5b5-0c3b-4839-ba69-8f7e5e58615a",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "這個專案不僅讓我深入掌握了自然語言處理的核心技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心技術掌握",
+        "C4": "學習成長反思"
+      },
+      "hashtags": [
+        "自然語言處理"
+      ]
     },
     {
       "id": "7e731bb0-c490-41bb-b983-4c036842544f",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "也讓我了解到資料標註的品質、模型架構的選擇以及領域知識的融入對系統效能的關鍵影響。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統效能關鍵洞察",
+        "C2": "模型開發經驗反思"
+      },
+      "hashtags": [
+        "資料標註品質",
+        "模型架構選擇",
+        "領域知識融入",
+        "系統效能影響"
+      ]
     },
     {
       "id": "2849d597-627b-455c-87c9-459ae824185f",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "在《作業系統》課程的進階實作中，我參與開發了一個分散式文件相似度分析系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "分散式系統開發",
+        "C1": "課程專題實作"
+      },
+      "hashtags": [
+        "作業系統課程",
+        "分散式系統",
+        "文件相似度分析"
+      ]
     },
     {
       "id": "84f6e30e-2fa9-4ffb-8f2b-66c7f4b87c66",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "此系統旨在處理大規模文本資料，快速找出相似文件。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "大規模資料處理目標",
+        "C3": "文本相似度問題定義"
+      },
+      "hashtags": [
+        "大規模文本資料",
+        "相似文件查找"
+      ]
     },
     {
       "id": "865bc090-39d7-4ddd-a7e3-53f5e280062d",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我負責設計並實作基於 MapReduce 範式的文本預處理與特徵提取模組。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "MapReduce模組實作"
+      },
+      "hashtags": [
+        "MapReduce",
+        "文本預處理",
+        "特徵提取模組"
+      ]
     },
     {
       "id": "a0f7dbfe-a5d8-49c2-854f-c5fac963d013",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "具體而言，我利用 Python `scikit-learn` 函式庫中的 `TfidfVectorizer` 進行文本向量化，並將這些高維向量分佈到不同的工作節點上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "文本向量化技術應用"
+      },
+      "hashtags": [
+        "Python",
+        "scikit-learn",
+        "TfidfVectorizer",
+        "文本向量化",
+        "高維向量分佈"
+      ]
     },
     {
       "id": "dc7ea285-8a90-42d7-a0e9-0ef00dae408c",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "在相似度計算階段，我採用了 cosine similarity 作為評估指標，並優化了計算流程，使其能夠在多個節點上平行運行，有效縮短了處理 10 萬篇新聞文章的計算時間，從單機的約 30 分鐘縮減至分散式環境下的 5 分鐘。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "效能優化與平行計算",
+        "C3": "系統效率問題解決"
+      },
+      "hashtags": [
+        "cosine similarity",
+        "平行運行",
+        "效能優化",
+        "10萬篇新聞文章",
+        "計算時間縮減"
+      ]
     },
     {
       "id": "fd550ec6-a3bf-4a89-b8b6-ef2e7a66afd0",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "這項實作讓我對分散式系統架構、效能優化以及資源管理有了實際的認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "分散式系統實務認知",
+        "C3": "系統架構理解與反思"
+      },
+      "hashtags": [
+        "分散式系統架構",
+        "效能優化",
+        "資源管理"
+      ]
     },
     {
       "id": "aa28b8d9-4e5b-4068-b5ab-6dcd85a7d547",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "並強化了我運用程式語言解決複雜問題的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "程式問題解決能力",
+        "C2": "程式語言應用強化"
+      },
       "hashtags": []
     },
     {
@@ -262,72 +499,153 @@
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "除了資訊工程專業知識，我也積極探索跨領域的學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域學習探索",
+        "C4": "積極學習態度"
+      },
+      "hashtags": [
+        "跨領域學習"
+      ]
     },
     {
       "id": "416ceb7b-cd5f-4fcf-9096-25cdaadf2e64",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我在大學期間修習了《計算語言學》、《機率與統計》以及《邏輯與思辨》等課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域課程修習"
+      },
+      "hashtags": [
+        "計算語言學",
+        "機率與統計",
+        "邏輯與思辨"
+      ]
     },
     {
       "id": "faa81a58-c3cf-4d3a-9259-cc862150c87b",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "這些跨領域的學習讓我對自然語言處理有了更宏觀的視角。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學習視野拓展"
+      },
+      "hashtags": [
+        "跨領域學習",
+        "自然語言處理"
+      ]
     },
     {
       "id": "c39ef16f-9a88-4d4c-a6de-7b946cdec2d2",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "《計算語言學》讓我從語言學的結構層面理解語法的複雜性與語意的細緻差異，這對我後續在語音助理專案中處理歧義詞和多義詞的挑戰提供了理論依據。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "計算語言學理論基礎",
+        "C2": "語音助理歧義處理"
+      },
+      "hashtags": [
+        "計算語言學",
+        "語音助理專案",
+        "歧義詞",
+        "多義詞"
+      ]
     },
     {
       "id": "937f9f5f-9904-49fb-b61b-acc57e75e19a",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "而《機率與統計》則為我理解機器學習模型的原理，特別是機率圖模型與貝氏推斷在 NLP 中的應用打下了堅實基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "統計機率學術根基",
+        "C2": "NLP模型理論應用"
+      },
+      "hashtags": [
+        "機率與統計",
+        "機器學習模型",
+        "機率圖模型",
+        "貝氏推斷",
+        "NLP應用"
+      ]
     },
     {
       "id": "ccfa3f6d-f4e0-48e7-95b3-2611e3fa0bae",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "作為天文社社長，我也將在天文觀測中培養的資料分析與模式識別能力應用於文本資料。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域能力應用",
+        "C2": "資料分析模式識別"
+      },
+      "hashtags": [
+        "天文社社長",
+        "資料分析",
+        "模式識別",
+        "文本資料應用"
+      ]
     },
     {
       "id": "19f5bbe9-b43f-43e4-8cbb-730bc8ddbef6",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "例如，當我們分析星體的亮度變化曲線時，需要從大量的數據中辨識出週期性模式或異常事件；同樣地，在處理文本資料時，也需要從浩瀚的文字中抽取出關鍵資訊、語意關聯或情感趨勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "跨域資料分析應用",
+        "C3": "模式識別問題解決"
+      },
+      "hashtags": [
+        "星體亮度變化",
+        "週期性模式",
+        "異常事件",
+        "文本資料處理",
+        "關鍵資訊抽取",
+        "語意關聯",
+        "情感趨勢"
+      ]
     },
     {
       "id": "c0c74145-14e1-4d4e-bd69-dc5875eadff5",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "這種從不同領域獲取靈感並應用於資訊科學的思維方式，讓我能更靈活地思考問題，尋找多樣化的解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域思維整合",
+        "C3": "靈活問題解決"
+      },
+      "hashtags": [
+        "跨領域靈感",
+        "資訊科學應用",
+        "多樣化解決方案"
+      ]
     },
     {
       "id": "abf2d75b-cee8-4476-9d5c-4f63664eaa1c",
@@ -343,233 +661,501 @@
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "從智慧語音助理的開發中，我親身經歷了讓機器「理解」人類語言的挑戰與潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "智慧語音助理開發",
+        "C3": "機器語言理解挑戰"
+      },
+      "hashtags": [
+        "智慧語音助理",
+        "機器理解人類語言"
+      ]
     },
     {
       "id": "5b59bf59-655d-417c-9ce0-420a3799a4a1",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我發現，儘管現今的語言模型在生成流暢語句方面表現出色。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "語言模型現況認知",
+        "C3": "技術現況評估"
+      },
+      "hashtags": [
+        "語言模型",
+        "流暢語句生成"
+      ]
     },
     {
       "id": "a9e42d9e-748c-4ebb-b7e3-98aa63150db1",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "但在更深層次的語意理解、上下文推理以及領域知識整合上仍有巨大的進步空間。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "語言模型改進洞察",
+        "C4": "未來研究方向規劃"
+      },
+      "hashtags": [
+        "語意理解",
+        "上下文推理",
+        "領域知識整合",
+        "進步空間"
+      ]
     },
     {
       "id": "be4bae43-8b83-4311-a8bf-bc109c21e87a",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我對於如何使機器不只「看到」文字，而是能夠真正「洞察」其背後意涵的渴望，驅使我希望在研究所階段深入探索此領域。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "深度學術探索意願",
+        "C4": "研究領域規劃"
+      },
+      "hashtags": [
+        "機器語意洞察",
+        "自然語言理解"
+      ]
     },
     {
       "id": "8102a077-118f-436d-b57a-9df568c47ab3",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "國立陽明交通大學資工所，特別是在人工智慧與自然語言處理方面的卓越研究實力，以及其跨領域整合的學術氛圍，深深吸引了我。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所選擇動機",
+        "C1": "跨領域學術認知"
+      },
+      "hashtags": [
+        "陽明交通大學資工所",
+        "人工智慧",
+        "自然語言處理",
+        "跨領域整合"
+      ]
     },
     {
       "id": "85f87cc9-c6ec-4577-8f45-ad83da3beabc",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "貴所不僅擁有多位在自然語言處理、機器學習及語意網路領域享譽盛名的教授。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "師資研究了解"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "機器學習",
+        "語意網路",
+        "知名教授"
+      ]
     },
     {
       "id": "392f7532-43d7-4381-b5bf-68313904468a",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "所提供的課程，如「自然語言處理專題」、「深度學習」、「資訊檢索」等，均與我的研究興趣高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程興趣契合度",
+        "C4": "學術發展規劃"
+      },
+      "hashtags": [
+        "自然語言處理專題",
+        "深度學習",
+        "資訊檢索",
+        "研究興趣契合"
+      ]
     },
     {
       "id": "f6556f5e-35f5-46c1-8400-73b56d09dfc2",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我期盼能在貴所頂尖的學術環境中，學習最新的理論與技術，並在具體研究中應用所學，提升我在語意理解領域的專業能力與實作經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成長目標",
+        "C2": "研究實作應用期望"
+      },
+      "hashtags": [
+        "語意理解",
+        "專業能力提升",
+        "實作經驗"
+      ]
     },
     {
       "id": "f32a9d13-5a90-49ac-9c7d-97d5f5c4c393",
       "candidate_id": "mock_24",
       "section": "自傳",
       "content": "我相信，貴所能提供我一個理想的平台，讓我將大學所累積的基礎與實務經驗，轉化為更具深度與廣度的研究成果，為人工智慧的發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究貢獻",
+        "C1": "基礎經驗轉化"
+      },
+      "hashtags": [
+        "大學基礎",
+        "實務經驗",
+        "研究成果",
+        "人工智慧發展"
+      ]
     },
     {
       "id": "f407fb7f-0e6b-4448-a17b-6ed9c7641fcb",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "在探索自然語言處理的過程中，我對於「低資源語言與特定領域文本的深度語意理解」此一研究方向特別感興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "特定研究興趣",
+        "C4": "研究方向聚焦"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "低資源語言",
+        "特定領域文本",
+        "深度語意理解"
+      ]
     },
     {
       "id": "214a3e62-69df-454b-a244-0fab9c8ebe0a",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "現有的大型語言模型多以高資源語言（如英文、中文）的通用文本作為訓練語料，因此在處理資料稀缺的低資源語言（例如台灣原住民族語、客語等）或高度專業化的特定領域文本（例如科學論文摘要、醫療報告、法律條文等）時，其語意理解與推理能力會大幅下降。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "LLM限制洞察",
+        "C1": "專業知識深度"
+      },
+      "hashtags": [
+        "大型語言模型",
+        "低資源語言",
+        "台灣原住民族語",
+        "客語",
+        "特定領域文本",
+        "語意理解能力下降"
+      ]
     },
     {
       "id": "dce2f766-6d29-4c42-9df4-dba9e978bf1e",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "我過去在智慧語音助理專案中，便曾遇到校園特有詞彙與口語化表達的理解瓶頸。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案實作瓶頸",
+        "C3": "問題情境辨識"
+      },
+      "hashtags": [
+        "智慧語音助理專案",
+        "校園特有詞彙",
+        "口語化表達",
+        "理解瓶頸"
+      ]
     },
     {
       "id": "8c9b498b-dce0-4b71-96e4-157e15ccd944",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "這讓我意識到通用模型對於領域知識的缺乏，導致其無法有效捕捉文本的細微語意。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題分析洞察",
+        "C1": "模型知識理解"
+      },
+      "hashtags": [
+        "通用模型限制",
+        "領域知識缺乏",
+        "細微語意捕捉"
+      ]
     },
     {
       "id": "33ddc819-b3ee-4f32-a9d1-7ac6c39ca98b",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "這促使我思考，如何能在資料量有限的情況下，透過創新的模型架構、有效的資料增強技術，或是結合外部知識圖譜，來提升模型對這些特殊文本的深度理解能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "挑戰分析與技術策略規劃",
+        "C2": "模型優化與資料增強技術"
+      },
+      "hashtags": [
+        "資料量有限",
+        "模型架構",
+        "資料增強技術",
+        "知識圖譜",
+        "深度理解"
+      ]
     },
     {
       "id": "c9e1c958-43c2-455d-a53d-8be2d1018e7a",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "解決資料稀缺性挑戰：許多具有文化或學術價值的語言和領域，因缺乏大規模的數位文本資料，使得相關的 NLP 應用發展受限。我希望探索如「遷移學習 (Transfer Learning)」、「零樣本/少樣本學習 (Zero-shot/Few-shot Learning)」，以及「跨語言對齊 (Cross-lingual Alignment)」等技術，使模型能在有限資料下依然能進行有效的語意理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "資料稀缺挑戰分析",
+        "C2": "低資源NLP技術應用"
+      },
+      "hashtags": [
+        "資料稀缺性",
+        "遷移學習",
+        "零樣本學習",
+        "少樣本學習",
+        "跨語言對齊"
+      ]
     },
     {
       "id": "29f46d56-cc1b-4e85-bd24-e49668b9ebbd",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "提升領域專業知識的擷取與應用：特定領域的文本往往蘊含豐富的專業知識，但其複雜的句法結構與大量專有名詞，對通用模型構成挑戰。我期望結合「知識圖譜 (Knowledge Graph)」與「神經符號系統 (Neuro-symbolic AI)」的方法，將領域專家知識融入模型中，使機器不僅能識別詞彙，更能進行邏輯推理和知識萃取。例如，在科學論文中自動識別研究方法、實驗結果與結論之間的語意關係。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "領域知識擷取挑戰",
+        "C2": "知識圖譜與神經符號應用"
+      },
+      "hashtags": [
+        "知識圖譜",
+        "神經符號系統",
+        "領域專業知識",
+        "邏輯推理",
+        "知識萃取"
+      ]
     },
     {
       "id": "768a8265-55a2-41ec-9b6a-c4f7cded5588",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "促進人機協作效率：透過提升低資源語言與專業領域文本的理解能力，可以開發出更精準的輔助工具，例如智能翻譯、專業文獻摘要、法規智慧檢索等，大幅提升相關領域工作者（如語言學家、科學家、醫療人員）的效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "應用價值與社會影響",
+        "C3": "實際應用問題洞察"
+      },
+      "hashtags": [
+        "人機協作",
+        "智能翻譯",
+        "文獻摘要",
+        "法規檢索",
+        "效率提升"
+      ]
     },
     {
       "id": "66e3c08c-9857-4ee6-9a6c-f79ebbda3037",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "我希望能進入貴所，在相關領域的教授指導下，深入探討如何設計能夠有效適應資料稀缺與領域特異性挑戰的自然語言處理模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向與學習規劃",
+        "C3": "研究挑戰意識"
+      },
+      "hashtags": [
+        "資料稀缺",
+        "領域特異性",
+        "自然語言處理模型"
+      ]
     },
     {
       "id": "f3b798a7-bd02-42c0-9550-ee5c4a9556b3",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "具體研究方向可能包括：利用大型語言模型的上下文學習能力進行指令微調 (Instruction Tuning) 於特定領域文本。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "LLM指令微調應用"
+      },
+      "hashtags": [
+        "大型語言模型",
+        "上下文學習",
+        "指令微調",
+        "特定領域文本"
+      ]
     },
     {
       "id": "8a4e4503-0817-43f7-b1c0-473988039d94",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "結合圖神經網路 (Graph Neural Networks) 實現知識圖譜驅動的語意推理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "GNN與知識圖譜推理"
+      },
+      "hashtags": [
+        "圖神經網路",
+        "知識圖譜",
+        "語意推理"
+      ]
     },
     {
       "id": "95289eb9-307a-47fd-ae2d-a965362f6b4c",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "探索如何從少量標註資料中學習複雜的語意模式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "少量資料學習挑戰",
+        "C2": "語意模式學習探索"
+      },
+      "hashtags": [
+        "少量標註資料",
+        "語意模式學習"
+      ]
     },
     {
       "id": "e2d4618d-4afa-49eb-bf51-78cf0e343c6a",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "我深信這不僅是一個極具挑戰性也深具社會價值的研究方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究價值與動機",
+        "C3": "研究挑戰認知"
+      },
+      "hashtags": [
+        "社會價值",
+        "研究挑戰"
+      ]
     },
     {
       "id": "19caa5ff-39d5-495a-b50d-3b2ef8c92d6d",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "鞏固基礎理論：修習《高等演算法》、《機率與統計》、《深度學習》、《自然語言處理專題》等核心課程，加強數學基礎、機器學習與深度學習理論。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程與理論基礎",
+        "C4": "學術能力提升規劃"
+      },
+      "hashtags": [
+        "高等演算法",
+        "機率與統計",
+        "深度學習",
+        "自然語言處理專題",
+        "數學基礎"
+      ]
     },
     {
       "id": "e5ce0adc-a199-47da-9d43-57bf55031598",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "熟悉研究工具：精進 Python 程式設計能力，深入學習 PyTorch/TensorFlow 等深度學習框架，熟練使用 Hugging Face Transformers 等 NLP 函式庫，以及 Git 版本控制系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "研究工具應用能力"
+      },
+      "hashtags": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Hugging Face Transformers",
+        "Git"
+      ]
     },
     {
       "id": "a08479e7-cae4-4066-b5d2-312a6b58c906",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "文獻探討與選定指導教授：廣泛閱讀自然語言處理、語意理解、遷移學習、知識圖譜等領域的頂尖學術論文 (如 ACL, EMNLP, NeurIPS)，了解最新研究進展與趨勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術文獻探討",
+        "C3": "研究趨勢分析"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "語意理解",
+        "遷移學習",
+        "知識圖譜",
+        "ACL",
+        "EMNLP",
+        "NeurIPS"
+      ]
     },
     {
       "id": "fc11f398-1d58-42f4-88b5-7f41259e3c46",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "積極與貴所教授交流，了解其研究方向，並在第一學期末選定合適的指導教授。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術導師選擇規劃"
+      },
       "hashtags": []
     },
     {
@@ -586,117 +1172,256 @@
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "深入研究與論文撰寫：在指導教授的帶領下，明確碩士論文主題，針對「低資源語言與特定領域文本的深度語意理解」展開深入研究。進行實驗設計、資料蒐集與標註、模型開發與評估，並分析實驗結果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "碩士論文研究規劃",
+        "C2": "研究方法與模型開發"
+      },
+      "hashtags": [
+        "低資源語言",
+        "深度語意理解",
+        "實驗設計",
+        "資料蒐集",
+        "模型開發",
+        "實驗結果分析"
+      ]
     },
     {
       "id": "40007a1c-8016-4730-9cde-5be354712f20",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "發表學術成果：力求將研究成果投稿至國內外重要學術會議（如 TAAI, COLING, EMNLP 或 ACL）或期刊，提升學術視野與論文寫作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表",
+        "C1": "論文寫作能力提升"
+      },
+      "hashtags": [
+        "TAAI",
+        "COLING",
+        "EMNLP",
+        "ACL",
+        "學術會議",
+        "期刊投稿"
+      ]
     },
     {
       "id": "217dbbf3-9c9d-4e12-90f7-40560dbe04fa",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "尋求實習機會：若時間允許，積極尋求相關 AI/NLP 領域的業界實習機會，將學術理論應用於實際問題，並了解產業需求與最新技術發展。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "業界實習應用",
+        "C4": "產業趨勢學習"
+      },
+      "hashtags": [
+        "AI實習",
+        "NLP實習",
+        "業界實習",
+        "產業需求",
+        "技術發展"
+      ]
     },
     {
       "id": "856d0d1a-4f2a-49ae-a22f-37bd562bde4e",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "參與學術交流：參與校內外研討會、工作坊，擴展學術人脈，並學習不同研究團隊的最新成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術交流參與"
+      },
+      "hashtags": [
+        "研討會",
+        "工作坊",
+        "學術人脈",
+        "最新成果"
+      ]
     },
     {
       "id": "acf277f9-8176-4e2f-888c-4a468992a779",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "投身研發領域：期望能進入頂尖科技公司或研究機構，從事 AI 研發工程師或研究科學家職位，專注於自然語言處理、語意理解或智慧人機互動技術的創新與應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃",
+        "C2": "AI技術應用職涯"
+      },
+      "hashtags": [
+        "AI研發工程師",
+        "研究科學家",
+        "自然語言處理",
+        "語意理解",
+        "智慧人機互動",
+        "頂尖科技公司"
+      ]
     },
     {
       "id": "4be7c346-69a9-4f2a-ac29-f94d1e628217",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "持續學習與貢獻：保持對新技術的敏銳度，不斷學習新知識與技能。積極參與開源社群，分享研究成果與實務經驗，為人工智慧領域的發展持續貢獻力量。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習與貢獻",
+        "C1": "新技術敏銳度"
+      },
+      "hashtags": [
+        "開源社群",
+        "研究成果分享",
+        "實務經驗分享",
+        "人工智慧領域貢獻"
+      ]
     },
     {
       "id": "a3c31054-22fa-4b2f-ac2d-8e56668c8b4c",
       "candidate_id": "mock_24",
       "section": "讀書計畫",
       "content": "攻讀博士學位 (可能性)：若研究成果豐碩且對學術研究抱有更高熱忱，不排除繼續攻讀博士學位，在特定研究領域取得更深遠的突破。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      },
+      "hashtags": [
+        "博士學位",
+        "學術研究",
+        "研究突破"
+      ]
     },
     {
       "id": "ab7a2fda-bbfd-43ea-8a0a-9c800caccbab",
       "candidate_id": "mock_24",
       "section": "加分文件",
       "content": "學業成績單：呈現大學四年各科成績，證明紮實的數理與資工基礎，特別是人工智慧、機器學習、演算法等相關課程的優異表現。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "數理資工基礎"
+      },
+      "hashtags": [
+        "人工智慧",
+        "機器學習",
+        "演算法"
+      ]
     },
     {
       "id": "a0256b69-1ac6-455a-aca3-7c01b45f9073",
       "candidate_id": "mock_24",
       "section": "加分文件",
       "content": "智慧語音助理之人機互動與語意理解優化：詳細說明專案背景、我的貢獻（BERT模型微調、F1-score提升至92%等）、技術細節與成果，展現我在 NLP 領域的實作能力與問題解決能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "NLP專案實作",
+        "C3": "語音助理優化"
+      },
+      "hashtags": [
+        "智慧語音助理",
+        "BERT模型微調",
+        "F1-score",
+        "NLP領域",
+        "語意理解"
+      ]
     },
     {
       "id": "f73ea14e-4378-4030-a337-429e37f4a65b",
       "candidate_id": "mock_24",
       "section": "加分文件",
       "content": "分散式文件相似度分析系統：展示在分散式系統、效能優化與大規模數據處理方面的經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "分散式系統實作",
+        "C3": "效能優化經驗"
+      },
+      "hashtags": [
+        "分散式系統",
+        "效能優化",
+        "大規模數據處理",
+        "文件相似度分析"
+      ]
     },
     {
       "id": "7561cd2c-2ede-456e-a298-a31abd52ff46",
       "candidate_id": "mock_24",
       "section": "加分文件",
       "content": "社團經歷證明：天文社社長任職證明，突顯領導力、組織協調能力及團隊合作精神。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領導與團隊合作"
+      },
+      "hashtags": [
+        "天文社社長",
+        "領導力",
+        "組織協調",
+        "團隊合作"
+      ]
     },
     {
       "id": "8d9a9b04-e88c-44c3-9758-9fd4f56a1cdc",
       "candidate_id": "mock_24",
       "section": "加分文件",
       "content": "語言能力證明：TOEIC 成績 (例如 880 分)，證明具備良好的英文閱讀、聽力能力，有助於閱讀英文論文與參與國際學術交流。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "英文學術閱讀",
+        "C4": "國際學術交流"
+      },
+      "hashtags": [
+        "TOEIC 880",
+        "英文閱讀",
+        "國際學術交流"
+      ]
     },
     {
       "id": "bf434194-0d39-429d-98dc-33d42b9a72ab",
       "candidate_id": "mock_24",
       "section": "加分文件",
       "content": "個人作品集 (GitHub)：包含語音助理專案、分散式系統實作等程式碼庫，展現程式設計能力、版本控制使用經驗及對開源精神的參與。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式設計實務"
+      },
+      "hashtags": [
+        "GitHub",
+        "語音助理專案",
+        "分散式系統實作",
+        "程式設計",
+        "開源精神"
+      ]
     },
     {
       "id": "bae3016d-c83f-427b-a7af-728e4298394b",

@@ -10,153 +10,329 @@
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我是___，就讀國立清華大學資訊工程學系，主修資訊安全與人工智慧應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景與專業方向"
+      },
+      "hashtags": [
+        "清華大學",
+        "資訊工程",
+        "資訊安全",
+        "人工智慧"
+      ]
     },
     {
       "id": "524b8a43-e9e7-466c-9ab2-860b39541007",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "在學期間，我的學業表現優異，總平均成績達到 4.0/4.3，尤其在核心課程如「密碼學」、「網路安全」及「機器學習」中取得優異成績。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程學業表現"
+      },
+      "hashtags": [
+        "密碼學",
+        "網路安全",
+        "機器學習"
+      ]
     },
     {
       "id": "dd1760ab-68c3-4652-b483-250cb6b3d9ce",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我深信精準分析與堅韌不拔是解決複雜問題的關鍵，這份特質不僅體現在我的學術追求上，也反映在身為校田徑隊跳高選手的訓練與競賽中，每一次躍起都追求突破自我極限。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決信念",
+        "C4": "自我挑戰與成長"
+      },
+      "hashtags": [
+        "精準分析",
+        "堅韌不拔",
+        "校田徑隊",
+        "跳高選手"
+      ]
     },
     {
       "id": "6e02011d-5f20-4831-b6ab-e12e92312e0f",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "在大三期間，我參與了「基於機器學習之DDoS攻擊行為模式分析與防禦策略研究」專題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題研究參與",
+        "C1": "機器學習研究主題"
+      },
+      "hashtags": [
+        "DDoS攻擊",
+        "機器學習",
+        "防禦策略研究"
+      ]
     },
     {
       "id": "45e469b4-2855-444a-a467-2e39091272d3",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "該專題旨在開發一套能夠即時偵測並預測分散式阻斷服務（DDoS）攻擊的智慧系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統開發目標",
+        "C3": "解決方案設計"
+      },
+      "hashtags": [
+        "DDoS攻擊",
+        "即時偵測",
+        "智慧系統"
+      ]
     },
     {
       "id": "1b6c222c-44cd-444d-8d69-73a00c8644f3",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我主要負責資料前處理與模型選擇，利用 Python 程式語言，結合 scikit-learn 和 TensorFlow 框架，對蒐集自實驗室模擬網路環境中的數十萬筆封包數據（約 50GB）進行清洗、特徵工程與標籤化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料處理與模型技術應用"
+      },
+      "hashtags": [
+        "資料前處理",
+        "Python",
+        "scikit-learn",
+        "TensorFlow",
+        "特徵工程"
+      ]
     },
     {
       "id": "e816af1b-42ee-4403-81de-e2b13f50fad3",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我嘗試了多種機器學習演算法，包括支援向量機 (SVM)、隨機森林 (Random Forest) 和類神經網路 (ANN)，最終在確保模型泛化能力的同時，達到對 Slowloris 與 UDP Flood 等常見DDoS攻擊類型高達 98.5% 的偵測準確率，並將誤報率控制在 1% 以下。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "演算法應用與模型優化",
+        "C3": "模型性能評估與問題解決"
+      },
+      "hashtags": [
+        "SVM",
+        "隨機森林",
+        "類神經網路",
+        "DDoS偵測",
+        "98.5%準確率"
+      ]
     },
     {
       "id": "0557b0b8-6a95-489f-bc51-c06ede65a448",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "這段經驗讓我深刻理解到數據品質對模型性能的決定性影響，以及在真實網路流量中辨識異常模式的挑戰性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "經驗反思與學習",
+        "C3": "問題挑戰認知"
+      },
+      "hashtags": [
+        "數據品質",
+        "模型性能",
+        "異常模式辨識"
+      ]
     },
     {
       "id": "cfeba676-edc3-4340-bc52-faccd7293307",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "大四時，我參與了一項與國內區塊鏈安全公司合作的產學專案，專注於「智慧型合約漏洞自動檢測工具開發」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "產學專案參與",
+        "C1": "區塊鏈安全研究"
+      },
+      "hashtags": [
+        "區塊鏈安全公司",
+        "產學專案",
+        "智慧型合約",
+        "漏洞檢測工具"
+      ]
     },
     {
       "id": "5000ff46-ef0b-4d7a-90b7-1f34ca83e733",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "考量到智慧型合約中常見的 Reentrancy、Integer Overflow/Underflow 等漏洞可能導致巨大的經濟損失，我的任務是運用靜態分析與符號執行技術，搭配 Solidity 語言的抽象語法樹 (AST) 解析，開發一個自動化檢測模組。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "漏洞檢測技術應用",
+        "C3": "智慧合約問題分析"
+      },
+      "hashtags": [
+        "智慧合約漏洞",
+        "Reentrancy",
+        "靜態分析",
+        "符號執行",
+        "Solidity AST"
+      ]
     },
     {
       "id": "f7ed4f20-ce90-4d96-a916-a07ca47d6907",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我使用 Go 語言編寫核心分析邏輯，並整合了 Slither 和 Mythril 等既有工具，進一步提升檢測的覆蓋率和精準度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式語言與工具整合"
+      },
+      "hashtags": [
+        "Go語言",
+        "Slither",
+        "Mythril",
+        "核心分析邏輯",
+        "檢測精準度"
+      ]
     },
     {
       "id": "a830a57d-60eb-4f91-b6bc-51899208e345",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "在為期八個月的合作中，我成功將該工具應用於審查超過 50 份開源的以太坊智慧型合約，發現了平均每份合約 3.2 個潛在漏洞，有效縮短了人工審計的時間並提高了效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "工具應用與成效驗證",
+        "C3": "效率提升與問題發現"
+      },
+      "hashtags": [
+        "以太坊智慧型合約",
+        "漏洞檢測",
+        "人工審計",
+        "效率提升",
+        "開源合約"
+      ]
     },
     {
       "id": "2beecbbb-5e97-4f83-84e2-da2518bcebd2",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "這個專案不僅深化了我對區塊鏈安全機制的理解，更培養了我將理論知識轉化為實用工具的工程實踐能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "理論知識深化",
+        "C2": "理論實踐轉化"
+      },
+      "hashtags": [
+        "區塊鏈安全機制",
+        "工程實踐能力",
+        "理論轉實用"
+      ]
     },
     {
       "id": "8f695dd0-f87b-44b6-b6ef-3d6b50460490",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "除了核心資訊工程知識，我也積極拓展跨領域視野。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域學習意願",
+        "C4": "自我學習拓展"
+      },
+      "hashtags": [
+        "跨領域視野",
+        "資訊工程知識"
+      ]
     },
     {
       "id": "52d5b8ec-b5f3-49d3-8b5f-e3bba4291bf1",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "在修習「應用數論」課程時，我探索了其在密碼學中如 RSA 和橢圓曲線密碼學的應用，理解數學理論如何為資訊安全提供堅實的基石。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "數學理論應用理解"
+      },
+      "hashtags": [
+        "應用數論",
+        "密碼學",
+        "RSA",
+        "橢圓曲線密碼學",
+        "資訊安全基石"
+      ]
     },
     {
       "id": "f6da6026-909f-4eb1-90a9-434ab5e23e92",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "此外，透過旁聽「認知心理學」課程，我開始思考人為因素在資安攻擊（如社交工程）中的作用，並將其與我的資安專題結合，嘗試從使用者行為模式分析的角度來增強防禦。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨學科知識整合",
+        "C3": "多面向問題分析"
+      },
+      "hashtags": [
+        "認知心理學",
+        "人為因素",
+        "資安攻擊",
+        "社交工程",
+        "使用者行為模式"
+      ]
     },
     {
       "id": "8b18ca57-80de-4362-9e27-727fa261a5f3",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "這種跨領域的思維讓我意識到，許多複雜問題的解決方案往往存在於不同學科的交匯點，促使我以更宏觀且多面向的視角來分析與解決問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域思維價值",
+        "C3": "宏觀問題解決"
+      },
+      "hashtags": [
+        "跨領域思維",
+        "複雜問題解決",
+        "多面向視角"
+      ]
     },
     {
       "id": "1e25c72b-a03f-4b9b-b822-0dacecf9e5b3",
@@ -172,89 +348,179 @@
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "然而，這兩者在帶來便利的同時，也衍生出前所未有的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "挑戰與風險洞察",
+        "C4": "專業議題理解"
+      },
+      "hashtags": [
+        "前所未有挑戰",
+        "科技風險"
+      ]
     },
     {
       "id": "b0c192fc-c3ba-4f5e-b3fd-49129fdf894a",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我過去在DDoS攻擊模式分析與智慧型合約漏洞檢測的經驗，讓我深刻體會到現有防禦機制在面對日益複雜且具備高度適應性的攻擊時的脆弱性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "實務經驗洞察",
+        "C3": "現有防禦機制評估"
+      },
+      "hashtags": [
+        "DDoS攻擊模式分析",
+        "智慧型合約漏洞檢測",
+        "防禦機制脆弱性",
+        "高度適應性攻擊"
+      ]
     },
     {
       "id": "945bb039-9a5b-49d3-972b-5940e77da8de",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "特別是人工智慧技術的普及，不僅為資安帶來了新的防禦手段，同時也成為攻擊者的新目標，如對AI模型的對抗性攻擊（Adversarial Attacks）或資料毒害（Data Poisoning）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "資安威脅洞察"
+      },
+      "hashtags": [
+        "人工智慧資安",
+        "對抗性攻擊",
+        "資料毒害",
+        "AI模型攻擊"
+      ]
     },
     {
       "id": "7d766d04-0a96-40e8-9dba-13418ddcdaf7",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我深感現有的資安人才和技術，需具備更深厚的理論基礎與跨領域整合能力，才能有效應對未來的威脅。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業能力認知",
+        "C3": "未來挑戰分析"
+      },
+      "hashtags": [
+        "資安人才需求",
+        "跨領域整合",
+        "理論基礎"
+      ]
     },
     {
       "id": "384d23e7-cd7a-49da-b6c9-c1e6e38e9578",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "國立陽明交通大學資工所，特別是其在網路安全、系統安全與人工智慧安全等領域的卓越研究實力與豐富的學術資源，正是我追求更高層次學術深造的理想環境。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術環境選擇",
+        "C1": "研究領域認知"
+      },
+      "hashtags": [
+        "陽明交通大學資工所",
+        "網路安全",
+        "系統安全",
+        "人工智慧安全"
+      ]
     },
     {
       "id": "3f7533ac-26d7-4bbe-8976-dbd1baad6145",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我渴望能在貴所的引導下，系統性地學習最新的安全技術與AI理論，並將兩者緊密結合，為建構更安全、更智慧的數位世界貢獻心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習目標設定",
+        "C1": "跨域學習意願"
+      },
+      "hashtags": [
+        "安全技術學習",
+        "AI理論學習",
+        "數位世界貢獻"
+      ]
     },
     {
       "id": "5b7abcb9-df05-4c3b-a325-d8bc8973a167",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我對資訊與網路安全、以及人工智慧安全這兩大領域抱持高度熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究領域熱情"
+      },
+      "hashtags": [
+        "資訊網路安全",
+        "人工智慧安全"
+      ]
     },
     {
       "id": "7801d25f-a88a-49ab-a07f-fcb4be1b7b13",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "特別是隨著5G、物聯網(IoT)與邊緣運算等技術的快速發展，傳統集中式的資安防禦模式已難以應付分散、異質且資源受限的環境。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "新興技術挑戰分析"
+      },
+      "hashtags": [
+        "5G資安",
+        "物聯網資安",
+        "邊緣運算資安",
+        "分散式環境"
+      ]
     },
     {
       "id": "2708a4a3-2a2d-40ea-a26b-af48c48976da",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "同時，人工智慧系統的普及，也使其本身成為新的攻擊目標，導致對抗性攻擊、資料偏見與模型解釋性不足等問題日益突出，嚴重影響AI在關鍵安全應用中的可靠性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "AI系統安全問題"
+      },
+      "hashtags": [
+        "人工智慧系統攻擊",
+        "對抗性攻擊",
+        "資料偏見",
+        "模型解釋性不足",
+        "AI可靠性"
+      ]
     },
     {
       "id": "10f2738a-a7e4-4cf2-b961-c3707c006549",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "基於上述觀察，我期望能專注於以下兩個研究方向：",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向確立"
+      },
       "hashtags": []
     },
     {
@@ -262,225 +528,487 @@
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "當前資安威脅如零日攻擊（Zero-day attacks）、進階持續性威脅（APTs）與針對工控系統（ICS/SCADA）的攻擊，其隱蔽性與破壞力日漸增強。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "進階資安威脅認知"
+      },
+      "hashtags": [
+        "零日攻擊",
+        "進階持續性威脅",
+        "工控系統攻擊",
+        "ICS/SCADA"
+      ]
     },
     {
       "id": "3fc83ad0-b989-4c8d-a3af-decdf21d1370",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我希望研究如何利用深度學習（如循環神經網路RNN、變分自編碼器VAE）與強化學習技術，對大規模網路流量、系統日誌與端點行為數據進行實時分析，建立更具彈性與預測能力的異常偵測模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "AI資安應用規劃",
+        "C1": "深度學習技術知識"
+      },
+      "hashtags": [
+        "深度學習",
+        "循環神經網路RNN",
+        "變分自編碼器VAE",
+        "強化學習",
+        "異常偵測模型",
+        "網路流量分析",
+        "系統日誌分析"
+      ]
     },
     {
       "id": "e7b9e57c-db93-4c29-a806-05162e4181fe",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "特別是在針對物聯網環境的輕量級安全方案中，如何在資源有限的邊緣設備上部署高效且低功耗的AI資安模型，將是我的研究重點之一。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "邊緣資安挑戰分析",
+        "C2": "輕量AI模型部署"
+      },
+      "hashtags": [
+        "物聯網環境",
+        "輕量級安全方案",
+        "邊緣設備",
+        "AI資安模型",
+        "低功耗"
+      ]
     },
     {
       "id": "52e28820-13dc-40b3-a827-7d942b1dba01",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我期待能探索聯邦學習（Federated Learning）等技術，實現分散式且隱私保護的威脅情報共享與模型訓練。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "聯邦學習應用探索",
+        "C3": "隱私保護問題解決"
+      },
+      "hashtags": [
+        "聯邦學習",
+        "Federated Learning",
+        "隱私保護",
+        "威脅情報共享",
+        "模型訓練"
+      ]
     },
     {
       "id": "73da619c-7ded-40fc-b98a-38ec46a39e10",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "隨著AI在關鍵基礎設施與決策系統中的應用，其模型的穩健性（Robustness）與安全性至關重要。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "AI模型安全穩健性認知"
+      },
+      "hashtags": [
+        "AI應用",
+        "關鍵基礎設施",
+        "決策系統",
+        "模型穩健性",
+        "模型安全性"
+      ]
     },
     {
       "id": "e11a9aaa-3ee2-4c56-95eb-b426b4a558a4",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我對開發能夠有效抵禦對抗性攻擊的防禦機制充滿興趣，例如透過對抗性訓練（Adversarial Training）、特徵去噪（Feature Denoising）或基於形式驗證（Formal Verification）的AI模型安全驗證。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "AI模型防禦機制開發",
+        "C3": "對抗性攻擊問題解決"
+      },
+      "hashtags": [
+        "對抗性攻擊",
+        "防禦機制",
+        "對抗性訓練",
+        "特徵去噪",
+        "形式驗證"
+      ]
     },
     {
       "id": "9d007aa5-9319-4c22-8951-db150b6c1b5a",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "此外，我也關注AI模型的可解釋性（Explainable AI, XAI）在資安領域的應用，如何讓安全分析人員能理解AI模型做出警報判斷的依據，從而提升對自動化資安系統的信任度與實用性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "XAI資安應用",
+        "C3": "系統信任度提升"
+      },
+      "hashtags": [
+        "可解釋性AI",
+        "Explainable AI",
+        "XAI",
+        "資安領域",
+        "自動化資安系統"
+      ]
     },
     {
       "id": "4a7e56d8-4155-4957-8624-b94b01d5850c",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我希望探討如何建立具備自我修復與適應能力的AI資安系統，以應對不斷演變的攻擊手法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "演變攻擊應對策略",
+        "C2": "自我修復資安系統"
+      },
+      "hashtags": [
+        "自我修復",
+        "適應能力",
+        "AI資安系統",
+        "攻擊手法"
+      ]
     },
     {
       "id": "24932a80-53db-482a-9927-7d8da7341d7f",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我深信國立陽明交通大學資工所擁有頂尖的師資陣容與完善的實驗室資源，特別是在「資訊與網路安全」、「人工智慧安全」相關領域，與我的研究興趣高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所資源契合度"
+      },
+      "hashtags": [
+        "陽明交通大學資工所",
+        "資訊與網路安全",
+        "人工智慧安全"
+      ]
     },
     {
       "id": "64cd581f-e0fa-4939-a659-cfba4f79cb6f",
       "candidate_id": "mock_26",
       "section": "自傳",
       "content": "我渴望能在貴所的指導下，結合我過去在DDoS分析與智慧合約檢測的基礎，進一步探索這些前瞻性的研究課題，為解決當前與未來社會面臨的數位安全挑戰貢獻所學。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "既有技術基礎應用",
+        "C4": "未來研究貢獻規劃"
+      },
+      "hashtags": [
+        "DDoS分析",
+        "智慧合約檢測",
+        "數位安全挑戰"
+      ]
     },
     {
       "id": "8b464bfc-1796-41c1-8756-3ba5554713da",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "學術基礎強化： 積極修習資工所核心課程，如「高等演算法」、「進階密碼學」、「網路攻防實務」與「深度學習理論與應用」，鞏固理論基礎並了解最新學術進展。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程修習規劃",
+        "C4": "理論基礎鞏固"
+      },
+      "hashtags": [
+        "高等演算法",
+        "進階密碼學",
+        "網路攻防實務",
+        "深度學習理論與應用"
+      ]
     },
     {
       "id": "f14d61af-479f-4d02-9057-3559b586e93e",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "研究領域探索： 主動參與各實驗室的專題討論（Seminar），並與教授及學長姐交流，深入了解資訊安全與人工智慧安全相關的研究方向。目標於第一學期末確定指導教授及初步研究主題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索規劃"
+      },
+      "hashtags": [
+        "專題討論",
+        "Seminar",
+        "資訊安全",
+        "人工智慧安全",
+        "指導教授"
+      ]
     },
     {
       "id": "a64b5d38-2cd2-4982-afbf-8a02ecc506c7",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "技能提升： 強化 C++/Python 高效程式設計能力，熟悉 TensorFlow/PyTorch 等深度學習框架，並學習使用如 Wireshark、Kali Linux 等資安工具，為後續研究打下堅實實作基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "基礎程式與框架學習",
+        "C2": "資安工具實作能力"
+      },
+      "hashtags": [
+        "C++",
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Wireshark",
+        "Kali Linux"
+      ]
     },
     {
       "id": "07f183dc-526f-4b9d-bd8b-9fe2d1acd719",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "英語能力精進： 參與學術英文寫作課程與英文論文研讀，提升專業文獻閱讀與撰寫能力，目標是能流暢地進行學術討論與報告。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業文獻閱讀",
+        "C4": "學術英文溝通"
+      },
+      "hashtags": [
+        "學術英文寫作",
+        "英文論文研讀"
+      ]
     },
     {
       "id": "19bf3c2f-7c94-4bbd-b5da-87a3534cbb0e",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "論文研究深入： 在指導教授的引導下，專注於選定的研究主題，進行文獻回顧、實驗設計與實作。目標是針對 AI 驅動之網路威脅偵測或 AI 模型安全與韌性強化方向，提出具創新性的解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "創新研究問題解決",
+        "C2": "實驗設計與實作"
+      },
+      "hashtags": [
+        "AI網路威脅偵測",
+        "AI模型安全",
+        "韌性強化",
+        "創新解決方案"
+      ]
     },
     {
       "id": "86476f3b-eab2-41fe-9b70-845a1f6e6742",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "學術交流： 積極參與國內外學術會議或研討會（如 Black Hat Asia, DEF CON 等），發表初步研究成果，並與業界、學界專家交流，擴展學術視野。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表與交流"
+      },
+      "hashtags": [
+        "Black Hat Asia",
+        "DEF CON",
+        "學術會議",
+        "業界交流"
+      ]
     },
     {
       "id": "2d8ea3af-6017-463e-92c6-01bc9cd93106",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "實習與應用： 爭取至知名資訊安全或人工智慧相關企業（如趨勢科技、聯發科等）進行暑期研究實習，將所學知識應用於實際問題，並了解產業脈動與需求。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "產業實務應用",
+        "C4": "產業脈動理解"
+      },
+      "hashtags": [
+        "趨勢科技",
+        "聯發科",
+        "暑期研究實習",
+        "資訊安全",
+        "人工智慧"
+      ]
     },
     {
       "id": "5aa94bba-c6d8-4f10-8fe1-c3a8253b78d8",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "程式貢獻： 嘗試參與開源資安專案或 AI 安全工具的開發，將自身的程式碼貢獻至社群，提升團隊協作與軟體工程實踐能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "開源專案開發實踐",
+        "C4": "團隊協作與軟體工程"
+      },
+      "hashtags": [
+        "開源資安專案",
+        "AI安全工具",
+        "程式碼貢獻",
+        "團隊協作"
+      ]
     },
     {
       "id": "bc676a76-ea8e-4b72-9cae-ac7023871907",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "持續創新研究： 期望能在資訊安全與人工智慧安全領域持續深耕，成為該領域的頂尖研究人才。若研究成果豐碩且對學術研究保持高度熱情，將考慮攻讀博士學位，持續探索前沿科技。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "長期學術發展規劃",
+        "C3": "創新研究熱情"
+      },
+      "hashtags": [
+        "資訊安全",
+        "人工智慧安全",
+        "博士學位",
+        "前沿科技"
+      ]
     },
     {
       "id": "f006cc0b-4df5-4782-a902-48e90a8240aa",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "產業應用發展： 投入資安研發或人工智慧工程師職位，將理論知識轉化為具體的產品或服務，為企業和社會提供創新的安全解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "理論知識產業轉化",
+        "C4": "職涯發展與社會貢獻"
+      },
+      "hashtags": [
+        "資安研發",
+        "人工智慧工程師",
+        "產品服務開發",
+        "創新安全解決方案"
+      ]
     },
     {
       "id": "febc0873-21fa-4ee9-9a48-6eda29cd7b21",
       "candidate_id": "mock_26",
       "section": "讀書計畫",
       "content": "知識傳承與推廣： 積極參與資安社群活動，分享研究經驗與技術知識，期許能為台灣資安人才的培育與發展盡一份心力，共同提升台灣在國際資安領域的影響力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "知識傳遞與社群貢獻"
+      },
+      "hashtags": [
+        "資安社群活動",
+        "研究經驗分享",
+        "技術知識推廣",
+        "資安人才培育"
+      ]
     },
     {
       "id": "94bb2b27-45ed-4974-9783-a3a861e3ef33",
       "candidate_id": "mock_26",
       "section": "加分文件",
       "content": "我的履歷中包含數次參與資安競賽（CTF）的經歷，其中在「全國大專院校資訊安全技能競賽」中，我所在的團隊在網路鑑識與二進位分析類別中取得全國前八名的佳績，展現我在實戰環境下快速分析與解決問題的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "資安實戰技能",
+        "C3": "實戰問題解決能力"
+      },
+      "hashtags": [
+        "資安競賽",
+        "CTF",
+        "全國大專院校資訊安全技能競賽",
+        "網路鑑識",
+        "二進位分析",
+        "全國前八名"
+      ]
     },
     {
       "id": "899bd545-a299-400d-b0a3-c20c347ac3df",
       "candidate_id": "mock_26",
       "section": "加分文件",
       "content": "此外，我曾獲得「清華大學書卷獎」兩次，證明我對學術的嚴謹態度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術表現優異"
+      },
+      "hashtags": [
+        "清華大學書卷獎"
+      ]
     },
     {
       "id": "e586f76c-71e8-453f-be7d-e16d536df48e",
       "candidate_id": "mock_26",
       "section": "加分文件",
       "content": "作為校田徑隊跳高選手，我連續三年代表學校參與全國大專院校運動會，並在其中一次競賽中獲得前六名，這份經歷培養了我堅忍不拔的意志、高度的專注力以及面對壓力的穩定性，這些特質對於長期且具挑戰性的研究工作至關重要。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "運動員精神與毅力"
+      },
+      "hashtags": [
+        "校田徑隊",
+        "跳高選手",
+        "全國大專院校運動會"
+      ]
     },
     {
       "id": "72eb2e1c-dbda-4431-ab70-ed7ee3837bfc",
       "candidate_id": "mock_26",
       "section": "加分文件",
       "content": "我亦持有 CompTIA Security+ 國際認證，證明我具備紮實的資訊安全基礎知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "資訊安全基礎知識"
+      },
+      "hashtags": [
+        "CompTIA Security+",
+        "國際認證",
+        "資訊安全"
+      ]
     }
   ]
 }

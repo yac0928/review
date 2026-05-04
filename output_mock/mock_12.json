@@ -10,17 +10,30 @@
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我是___，就讀國立中央大學資訊工程學系，主修軟體工程與電腦視覺。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景陳述"
+      },
+      "hashtags": [
+        "國立中央大學",
+        "資訊工程學系",
+        "軟體工程",
+        "電腦視覺"
+      ]
     },
     {
       "id": "3bf11215-e7f2-4c15-b374-c91d8a6eb998",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "在學期間，我努力不懈，維持了優異的學業成績，平均GPA達3.8/4.3。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -28,117 +41,250 @@
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "除了學業，我也積極培養攝影技能，數年來擔任校園活動與獨立接案攝影師。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外技能培養"
+      },
+      "hashtags": [
+        "攝影技能",
+        "校園活動攝影師",
+        "獨立接案攝影師"
+      ]
     },
     {
       "id": "57675ab4-5ee2-4c18-95a8-1d427b1a5a2a",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "這份熱忱不僅是興趣，更是我深入理解影像、光影與構圖的實踐場域，為我在電腦視覺領域的探索奠定了獨特的感性基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域知識整合",
+        "C3": "連結應用思考"
+      },
+      "hashtags": [
+        "影像理解",
+        "光影構圖",
+        "電腦視覺基礎"
+      ]
     },
     {
       "id": "29b82c88-8631-4bb7-af63-629eeed26ec0",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "在大三與大四期間，我參與了指導教授主持的「智慧監控系統下的異常行為辨識與路徑預測」專題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題研究參與"
+      },
+      "hashtags": [
+        "智慧監控系統",
+        "異常行為辨識",
+        "路徑預測",
+        "指導教授專題"
+      ]
     },
     {
       "id": "8e4cfeaf-743c-49c5-8d61-8b38ac0238da",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "此專案旨在開發一套高效能的電腦視覺系統，應用於公共場域安全監控。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案目標理解"
+      },
+      "hashtags": [
+        "電腦視覺系統",
+        "公共場域安全監控"
+      ]
     },
     {
       "id": "f0062c2d-e37b-4b3f-a501-34bd11da0d81",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我主要負責人體姿態估計與異常事件偵測模組的開發與優化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模組開發優化",
+        "C3": "任務職責承擔"
+      },
+      "hashtags": [
+        "人體姿態估計",
+        "異常事件偵測",
+        "模組開發"
+      ]
     },
     {
       "id": "5305d1ad-13f4-47d6-8b8d-f40d133c6bd7",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我們採用了基於OpenPose進行實時多人姿態估計，並結合LSTM網路對骨架序列進行行為分析，偵測如跌倒、徘徊、推擠等潛在異常行為。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術方法應用",
+        "C3": "演算法選擇實踐"
+      },
+      "hashtags": [
+        "OpenPose",
+        "LSTM網路",
+        "骨架序列分析",
+        "異常行為偵測",
+        "實時姿態估計"
+      ]
     },
     {
       "id": "eec2447a-0209-4226-b328-f6b9d156de2e",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "為了提升模型的實用性，我負責收集並標註了超過50小時的模擬監控影片，並引入資料增強技術（如隨機遮蔽、亮度變化）來擴充訓練資料集。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料處理實務",
+        "C3": "模型實用性提升"
+      },
+      "hashtags": [
+        "資料收集標註",
+        "模擬監控影片",
+        "資料增強技術",
+        "隨機遮蔽",
+        "亮度變化"
+      ]
     },
     {
       "id": "710e683e-1c0d-496e-811e-3c5ed9f9d0bc",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "在系統整合階段，我將模型部署至NVIDIA Jetson AGX Xavier開發板上，並利用TensorRT進行模型推理加速，使系統能以每秒30幀的速度處理1080p影像，異常行為偵測準確率達到89%，誤報率控制在5%以下。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統部署優化",
+        "C3": "效能指標達成"
+      },
+      "hashtags": [
+        "NVIDIA Jetson",
+        "TensorRT",
+        "模型推理加速",
+        "1080p影像處理",
+        "異常行為偵測準確率"
+      ]
     },
     {
       "id": "847140e7-41fc-4b2c-afc4-e86869d23b87",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "透過此專案，我深入理解了從資料前處理、模型訓練、硬體部署到效能評估的完整開發流程，並學會如何在資源有限的嵌入式平台上優化深度學習模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習模型優化與部署"
+      },
+      "hashtags": [
+        "資料前處理",
+        "模型訓練",
+        "硬體部署",
+        "效能評估",
+        "嵌入式平台"
+      ]
     },
     {
       "id": "dab46b5b-3cc0-4b73-a3a6-87e8ec8bac95",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "在「深度學習」課程中，我與團隊合作完成了「基於生成對抗網路（GAN）的低光源影像增強」專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "深度學習課程應用",
+        "C2": "生成模型專案實作"
+      },
+      "hashtags": [
+        "深度學習課程",
+        "生成對抗網路",
+        "GAN",
+        "低光源影像增強"
+      ]
     },
     {
       "id": "57b74091-bd9a-49cd-9188-75ca9f37659c",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "鑑於在夜間或室內低光源環境下攝影常面臨影像品質低落的問題，我們旨在開發一個能夠將低光源影像轉換為清晰明亮影像的模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題定義與目標設定",
+        "C2": "影像處理模型開發"
+      },
+      "hashtags": [
+        "低光源影像",
+        "影像品質",
+        "模型開發"
+      ]
     },
     {
       "id": "6e0eb605-c92d-49f3-8d81-f8f20a5a5ef7",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我們採用了EnlightenGAN架構，並嘗試在生成器中引入注意力機制（Attention Mechanism）來更好地捕捉影像細節。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型架構設計與創新",
+        "C3": "技術方案優化嘗試"
+      },
+      "hashtags": [
+        "EnlightenGAN",
+        "注意力機制",
+        "Attention Mechanism",
+        "影像細節捕捉"
+      ]
     },
     {
       "id": "402f465a-2c1b-4fea-adb6-ac85b30de207",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "為此，我們在SID (See-in-the-Dark) dataset上進行訓練，並額外收集了200組不同環境下的低光源/正常光影像對進行微調。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料集應用與擴充",
+        "C3": "實驗數據優化策略"
+      },
+      "hashtags": [
+        "SID dataset",
+        "See-in-the-Dark",
+        "資料收集",
+        "模型微調"
+      ]
     },
     {
       "id": "7794fc8a-ff2e-4e0f-a11c-5f72767f92a7",
@@ -154,63 +300,141 @@
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "這個專案讓我熟悉了PyTorch框架下的模型設計與訓練，並對生成模型的潛力與挑戰有了更深的體會。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習框架應用",
+        "C4": "專業領域體會與成長"
+      },
+      "hashtags": [
+        "PyTorch",
+        "模型設計",
+        "模型訓練",
+        "生成模型"
+      ]
     },
     {
       "id": "b7d8dce1-0ffa-406e-a20f-ba709c00af10",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "作為一位攝影師，我對光學、影像構成與人眼視覺感知有著直觀的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨領域背景優勢",
+        "C1": "影像領域直觀理解"
+      },
+      "hashtags": [
+        "攝影師",
+        "光學",
+        "影像構成",
+        "人眼視覺感知"
+      ]
     },
     {
       "id": "673f2bdb-7955-4033-bee5-a9b6775ab443",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "這份經歷促使我跨足「光電工程概論」與「色彩學」等課程，從物理與藝術的角度探索影像的本質。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域學科修習",
+        "C4": "自主學習與探索"
+      },
+      "hashtags": [
+        "光電工程概論",
+        "色彩學",
+        "物理角度",
+        "藝術角度"
+      ]
     },
     {
       "id": "f01fb2a4-4276-48ac-a8d4-7a80484c1c36",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "例如，在光電課程中學習到的光學成像原理、雜訊形成機制，讓我在設計影像去噪演算法時能更貼近物理現實。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域知識應用",
+        "C3": "物理現實問題分析"
+      },
+      "hashtags": [
+        "光電課程",
+        "光學成像原理",
+        "雜訊形成機制",
+        "影像去噪演算法"
+      ]
     },
     {
       "id": "77d2b4b6-1856-455a-834e-54cc51053c6c",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "而色彩學中對色溫、飽和度與對比的探討，則啟發我思考如何讓電腦視覺模型在處理不同色彩空間時能有更佳的表現，並提升視覺美感。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學科啟發",
+        "C3": "視覺模型優化思考"
+      },
+      "hashtags": [
+        "色彩學",
+        "色溫",
+        "飽和度",
+        "對比",
+        "電腦視覺模型"
+      ]
     },
     {
       "id": "23360d2c-5534-4bf1-92a9-f9e398db00a5",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "這些跨領域的學習，使我理解到電腦視覺不僅是演算法與數據的堆疊，更應結合人類感知與物理世界運作法則，才能開發出更具智慧與實用價值的系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域知識整合",
+        "C3": "電腦視覺洞察"
+      },
+      "hashtags": [
+        "跨領域學習",
+        "電腦視覺",
+        "人類感知",
+        "物理世界法則"
+      ]
     },
     {
       "id": "c223f30e-b21f-40ce-92ee-5f45428ed840",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "在大學期間，無論是專題「智慧監控系統下的異常行為辨識與路徑預測」中處理大量監控影片，抑或是課程專案「基於生成對抗網路的低光源影像增強」中優化影像品質，我都深刻體驗到影像數據在當代科技中的關鍵地位。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題實作經驗"
+      },
+      "hashtags": [
+        "智慧監控系統",
+        "異常行為辨識",
+        "路徑預測",
+        "生成對抗網路",
+        "低光源影像增強",
+        "影像數據"
+      ]
     },
     {
       "id": "1a9fe625-9302-41e2-b276-8b42d2620a3c",
@@ -226,45 +450,88 @@
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "然而，現有的電腦視覺模型在面對真實世界複雜且多變的環境時，仍面臨諸多挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "現有模型挑戰"
+      },
+      "hashtags": [
+        "電腦視覺模型",
+        "真實世界環境",
+        "模型挑戰"
+      ]
     },
     {
       "id": "f1c25786-a2b6-4c04-92f1-3e9425cca8a2",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "例如，在戶外監控系統中，光線、天氣、遮蔽物等因素的變化，常導致模型性能大幅下降。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "戶外監控挑戰"
+      },
+      "hashtags": [
+        "戶外監控系統",
+        "光線變化",
+        "天氣影響",
+        "遮蔽物",
+        "模型性能下降"
+      ]
     },
     {
       "id": "fac64fbe-9b9c-4a6c-b990-c5bb55aaf434",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "在低光源影像增強任務中，模型雖能提升亮度，卻可能產生雜訊或不自然的偽影。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "低光源影像問題"
+      },
+      "hashtags": [
+        "低光源影像增強",
+        "模型雜訊",
+        "不自然偽影"
+      ]
     },
     {
       "id": "bbf6e8b6-7e26-4785-b70a-8f39b0bec913",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "這些問題凸顯出當前模型在泛化能力與魯棒性上的不足。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "模型能力分析"
+      },
+      "hashtags": [
+        "泛化能力不足",
+        "魯棒性不足"
+      ]
     },
     {
       "id": "1104e18d-a13a-4249-a975-0195f9358289",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我的攝影經驗也讓我對這些環境變化的細微影響有著更為敏銳的洞察，我深知一張成功的影像，其背後需要考量多重因素的平衡。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "攝影經驗洞察",
+        "C3": "環境因素分析"
+      },
+      "hashtags": [
+        "攝影經驗",
+        "環境變化影響",
+        "影像多重因素"
+      ]
     },
     {
       "id": "44367d25-2d4a-4fbd-b911-e1ec19b25c71",
@@ -280,81 +547,182 @@
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "國立陽明交通大學資工所，特別是在影像處理與電腦視覺領域的深厚學術積累與豐富研究資源，正是我追求更高學術殿堂的理想選擇。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "領域認知與選擇",
+        "C4": "研究所選擇動機"
+      },
+      "hashtags": [
+        "陽明交通大學",
+        "資工所",
+        "影像處理",
+        "電腦視覺"
+      ]
     },
     {
       "id": "32dc14f6-3a9b-44fd-8fe7-b86fce89c6f6",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "貴所不僅擁有多位在該領域享有盛譽的教授群，其課程設計也兼顧理論深度與實作應用，如「高階電腦視覺」、「深度學習理論與實作」等課程，均能有效彌補我在大學階段未能深入觸及的知識廣度與深度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程與師資理解",
+        "C4": "學習需求與規劃"
+      },
+      "hashtags": [
+        "高階電腦視覺",
+        "深度學習理論與實作",
+        "教授群"
+      ]
     },
     {
       "id": "e704b218-f49a-4e3c-8474-900765e846da",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我期待能在交大資工所這樣頂尖的學術環境中，結合我過往的專案經驗與攝影所培養的視覺素養，進一步鑽研電腦視覺的核心技術，為未來的科技發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究方向",
+        "C2": "專案經驗連結"
+      },
+      "hashtags": [
+        "專案經驗",
+        "攝影",
+        "視覺素養",
+        "電腦視覺核心技術"
+      ]
     },
     {
       "id": "e94d0a6f-be9d-45e0-9a38-7ce016dd930f",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "在目前的電腦視覺應用中，模型在特定訓練資料集上表現優異，但一旦部署到與訓練環境存在差異的真實世界場景（即領域偏移, Domain Shift），其效能往往會顯著下降。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題定義與分析",
+        "C1": "電腦視覺挑戰認知"
+      },
+      "hashtags": [
+        "電腦視覺應用",
+        "領域偏移",
+        "Domain Shift",
+        "模型效能下降"
+      ]
     },
     {
       "id": "f31dc4d0-c0f0-4e7d-9455-ae3d745696cf",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "例如，一個在日間交通影像上訓練的自動駕駛輔助系統，在夜間、雨霧或全新地理環境中可能會失效。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題情境舉例",
+        "C2": "應用情境理解"
+      },
+      "hashtags": [
+        "自動駕駛輔助系統",
+        "日間交通影像",
+        "夜間",
+        "雨霧",
+        "地理環境"
+      ]
     },
     {
       "id": "95ad1826-40ad-46fa-8bc6-c80a5c12e738",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "一個在標準醫療影像上訓練的病灶檢測模型，面對不同儀器、不同病患族群的影像時也可能誤判。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題情境舉例",
+        "C2": "醫療影像應用"
+      },
+      "hashtags": [
+        "醫療影像",
+        "病灶檢測模型",
+        "不同儀器",
+        "不同病患族群"
+      ]
     },
     {
       "id": "b7d223ea-fbed-4ed1-9975-35e00491d65c",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "這種領域適應性不足的問題，嚴重限制了電腦視覺技術在實際應用中的可靠性和普惠性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題影響分析",
+        "C1": "技術限制認知"
+      },
+      "hashtags": [
+        "領域適應性不足",
+        "電腦視覺技術",
+        "可靠性",
+        "普惠性"
+      ]
     },
     {
       "id": "9f16d087-1017-470d-abbc-0dd040e602e7",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我的研究興趣在於「多領域適應性的高效能電腦視覺模型」，特別聚焦於影像處理中自監督學習（Self-supervised Learning）與知識蒸餾（Knowledge Distillation）的融合應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "具體研究興趣",
+        "C4": "研究方向確立"
+      },
+      "hashtags": [
+        "多領域適應性",
+        "高效能電腦視覺模型",
+        "影像處理",
+        "自監督學習",
+        "知識蒸餾"
+      ]
     },
     {
       "id": "b4b52c7a-c31b-4845-a658-f8f9fc231c7a",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我希望探索如何透過自監督學習從大量未標註影像數據中提取豐富的視覺特徵，以降低對昂貴標註資料的依賴，並提升模型在不同領域間的泛化能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "自監督學習理解",
+        "C3": "解決方案構思"
+      },
+      "hashtags": [
+        "自監督學習",
+        "未標註影像數據",
+        "視覺特徵提取",
+        "泛化能力",
+        "標註資料依賴"
+      ]
     },
     {
       "id": "da92023f-126c-42d7-997f-b22e5edfb618",
@@ -370,8 +738,12 @@
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我之所以對此方向抱有濃厚興趣，主要源於兩方面動機：",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機說明"
+      },
       "hashtags": []
     },
     {
@@ -379,54 +751,117 @@
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "在我參與「智慧監控系統」專題時，便深刻體會到模型在不同攝影機角度、光照變化、甚至不同季節行人服飾變化下，其異常行為辨識的魯棒性不足。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題實作經驗",
+        "C3": "技術問題洞察"
+      },
+      "hashtags": [
+        "智慧監控系統",
+        "異常行為辨識",
+        "模型魯棒性"
+      ]
     },
     {
       "id": "f8e8b853-fa37-42ff-836f-dac775058b34",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "每次環境更動，都需耗費大量人力重新收集與標註資料進行模型再訓練。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "實務操作痛點",
+        "C2": "資料處理效率問題"
+      },
+      "hashtags": [
+        "資料收集",
+        "資料標註",
+        "模型再訓練"
+      ]
     },
     {
       "id": "d5637b3c-f604-4b55-a2fc-70b5b5417bed",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "這讓我意識到，開發能夠自動適應新環境、減少人工干預的技術至關重要。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術需求洞察",
+        "C4": "研究方向確立"
+      },
+      "hashtags": [
+        "自動適應技術",
+        "減少人工干預"
+      ]
     },
     {
       "id": "fa88089f-40fd-4ee6-bde5-09fa34169130",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "自監督學習能夠利用大量未標註數據進行預訓練，而知識蒸餾則能實現模型輕量化，兩者結合有望為解決實際應用中的領域適應性與部署效率問題提供有效方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業技術理解",
+        "C3": "解決方案提出"
+      },
+      "hashtags": [
+        "自監督學習",
+        "知識蒸餾",
+        "未標註數據",
+        "模型輕量化",
+        "領域適應性"
+      ]
     },
     {
       "id": "b22f6cfd-b24c-4fdf-bfd2-b7256b6b6145",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我多年的攝影經驗讓我對影像的「真實性」與「細節」有著極高的敏感度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "攝影經驗連結",
+        "C1": "影像感知能力"
+      },
+      "hashtags": [
+        "攝影經驗",
+        "影像真實性",
+        "影像細節"
+      ]
     },
     {
       "id": "16d6e3ea-9c78-47a7-be31-78f970d09be6",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我深知一張影像中蘊含的豐富信息，以及不同光影、色彩與紋理如何共同構成一個視覺場景。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "影像信息理解",
+        "C3": "視覺元素分析"
+      },
+      "hashtags": [
+        "影像信息",
+        "光影",
+        "色彩",
+        "紋理",
+        "視覺場景"
+      ]
     },
     {
       "id": "abbaee41-6952-4db5-9af2-e7e538a0471d",
@@ -442,243 +877,528 @@
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "我期望能開發出不僅「能看懂」影像，更能「理解影像內涵」的電腦視覺模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究願景闡述",
+        "C2": "電腦視覺模型開發"
+      },
+      "hashtags": [
+        "電腦視覺模型",
+        "影像理解"
+      ]
     },
     {
       "id": "26181956-5ae4-4bf1-9ea9-a64993fc32ed",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "因此，我期望能深入研究基於Transformer或EfficientNet等先進架構，結合對比學習（Contrastive Learning）、掩碼圖像建模（Masked Image Modeling）等自監督學習范式，以及多層級特徵蒸餾、中間層激活蒸餾等技術，開發出一套具有強大領域適應能力，且能高效部署的電腦視覺模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "深度學習技術應用",
+        "C4": "未來研究方向"
+      },
+      "hashtags": [
+        "Transformer",
+        "EfficientNet",
+        "對比學習",
+        "掩碼圖像建模",
+        "自監督學習",
+        "特徵蒸餾",
+        "電腦視覺模型",
+        "領域適應能力",
+        "高效部署"
+      ]
     },
     {
       "id": "2da9d13e-681c-46f3-bc85-f566066c4a7d",
       "candidate_id": "mock_12",
       "section": "自傳",
       "content": "這將為智慧監控、自動駕駛、甚至於醫療輔助診斷等領域帶來更可靠、更普惠的解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "應用領域展望",
+        "C2": "技術應用場景"
+      },
+      "hashtags": [
+        "智慧監控",
+        "自動駕駛",
+        "醫療輔助診斷"
+      ]
     },
     {
       "id": "1e8d98d7-a23f-4b23-9758-53239a63739e",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "基礎知識精進：溫習線性代數、機率與統計、最佳化理論等高等數學基礎，加強對演算法原理的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "數學基礎精進"
+      },
+      "hashtags": [
+        "線性代數",
+        "機率與統計",
+        "最佳化理論",
+        "演算法原理"
+      ]
     },
     {
       "id": "375ed062-07dd-4f7c-b5a2-a5567ab57fca",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "程式與框架深化：針對Python高階編程、C++基礎與物件導向程式設計進行複習，並深入學習PyTorch或TensorFlow的底層架構與高效率編程技巧。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式與框架深化",
+        "C1": "深度學習框架原理"
+      },
+      "hashtags": [
+        "Python高階編程",
+        "C++物件導向",
+        "PyTorch",
+        "TensorFlow",
+        "高效率編程"
+      ]
     },
     {
       "id": "d147e47c-dc3e-404b-9ca5-99960ef1085b",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "熟悉NVIDIA CUDA平行運算編程，為未來的GPU加速運算打下基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "平行運算技術掌握"
+      },
+      "hashtags": [
+        "NVIDIA CUDA",
+        "平行運算",
+        "GPU加速運算"
+      ]
     },
     {
       "id": "a2b3b0c1-b78d-4f75-b468-7e449de440b7",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "論文閱讀與研究：積極閱讀近年來CVPR、ICCV、ECCV等頂級會議上關於自監督學習、領域適應、知識蒸餾與高效能電腦視覺的關鍵論文（至少閱讀50篇以上），初步掌握主流方法與研究趨勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "頂會論文研讀",
+        "C4": "研究趨勢掌握"
+      },
+      "hashtags": [
+        "CVPR",
+        "ICCV",
+        "ECCV",
+        "自監督學習",
+        "領域適應",
+        "知識蒸餾",
+        "高效能電腦視覺"
+      ]
     },
     {
       "id": "91a6e997-ea4f-401f-8f59-d4ffb804371a",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "選課與導師交流：預先研究交大資工所課程地圖，規劃第一學期課程，並主動聯繫對相關領域有研究的教授，了解實驗室研究方向與文化，為加入實驗室做準備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所學習規劃"
+      },
+      "hashtags": [
+        "交大資工所",
+        "課程地圖",
+        "導師交流",
+        "實驗室研究方向"
+      ]
     },
     {
       "id": "56e6c441-f6c3-4ffc-90b6-0ce104457e05",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "核心課程學習：修習「高等電腦視覺」、「深度學習理論與實作」、「模式識別」等核心課程，鞏固理論基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程學習"
+      },
+      "hashtags": [
+        "高等電腦視覺",
+        "深度學習理論與實作",
+        "模式識別"
+      ]
     },
     {
       "id": "65ac9142-2786-48f4-9ea9-a89606c7d90b",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "並選修「數位影像處理」、「機器學習系統」等相關課程，拓展專業知識廣度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業知識廣度拓展"
+      },
+      "hashtags": [
+        "數位影像處理",
+        "機器學習系統"
+      ]
     },
     {
       "id": "5fd44f58-ff78-4155-aaf3-163bca671c53",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "實驗室研究參與：正式加入實驗室，在指導教授帶領下，參與實驗室現有專案，從中學習實戰經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗室專案參與",
+        "C4": "實戰經驗學習"
+      },
+      "hashtags": [
+        "實驗室專案",
+        "實戰經驗"
+      ]
     },
     {
       "id": "f740fd44-d6a3-4df6-83e8-2b39776443f2",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "開始進行論文主題的初步探索，如實作現有自監督學習或領域適應模型，並在特定數據集上進行性能分析與比較（例如使用ImageNet-C、PACS、Office-Home等跨領域數據集）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型實作與分析",
+        "C3": "性能評估與比較"
+      },
+      "hashtags": [
+        "論文主題探索",
+        "自監督學習模型",
+        "領域適應模型",
+        "性能分析",
+        "ImageNet-C",
+        "PACS",
+        "Office-Home",
+        "跨領域數據集"
+      ]
     },
     {
       "id": "25b49802-d437-4c66-b0f1-e8280c2d3b01",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "技術實作與探索：深入研究並實作如SimCLR、BYOL、MAE等自監督學習方法，以及DA-GAN、DANN等領域適應技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "自監督學習實作"
+      },
+      "hashtags": [
+        "SimCLR",
+        "BYOL",
+        "MAE",
+        "DA-GAN",
+        "領域適應技術"
+      ]
     },
     {
       "id": "b78ded75-1032-41d3-9ba2-103d97223410",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "嘗試將這些技術融合，並評估其在特定任務（如圖像分類、物件偵測）上的魯棒性與泛化能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術整合應用",
+        "C3": "模型效能評估"
+      },
+      "hashtags": [
+        "技術融合",
+        "魯棒性評估",
+        "泛化能力",
+        "圖像分類",
+        "物件偵測"
+      ]
     },
     {
       "id": "9a28610f-4e95-4572-98d5-c76f68e33866",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "學術交流：積極參與實驗室內部研討會、校內外學術講座，並爭取機會向同學或教授分享閱讀心得與研究進度，提升表達與溝通能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術溝通表達"
+      },
+      "hashtags": [
+        "學術研討會",
+        "學術講座",
+        "研究分享",
+        "溝通能力"
+      ]
     },
     {
       "id": "257f21ad-0bda-49a9-8458-daa0c439a039",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "論文研究與成果發表：專注於碩士論文的研究與撰寫，深入探索「多領域適應性的高效能電腦視覺模型」的特定子方向，例如針對特定應用場景（如交通監控、農業影像分析）設計高效能的自監督領域適應框架。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "碩士論文研究",
+        "C3": "應用場景設計"
+      },
+      "hashtags": [
+        "碩士論文",
+        "電腦視覺模型",
+        "多領域適應性",
+        "交通監控",
+        "農業影像分析"
+      ]
     },
     {
       "id": "298d1f67-28c7-471a-a99c-f352ef7edfc3",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "目標是開發出具有創新性且具備實用價值的模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "創新模型開發目標"
+      },
+      "hashtags": [
+        "創新模型",
+        "實用價值"
+      ]
     },
     {
       "id": "93dd1f85-f794-4b89-81ea-7c245237f034",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "學術論文投稿：根據研究成果，整理撰寫學術論文，目標投稿至國內外重要學術會議（如CVPR、ICCV、ECCV）或期刊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術研究成果",
+        "C4": "學術論文發表"
+      },
+      "hashtags": [
+        "學術論文",
+        "CVPR",
+        "ICCV",
+        "ECCV",
+        "期刊投稿"
+      ]
     },
     {
       "id": "0a94f54e-caa8-42d6-8c13-a22305581f79",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "實習與職涯規劃：積極尋求國內外頂尖科技公司或研究機構的AI/CV相關實習機會，將所學應用於業界，累積實務經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "業界技術應用",
+        "C4": "職涯發展規劃"
+      },
+      "hashtags": [
+        "AI實習",
+        "CV實習",
+        "科技公司",
+        "研究機構",
+        "實務經驗"
+      ]
     },
     {
       "id": "6abc3f0b-aca2-4b45-88c3-37a079386c45",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "畢業後，期許能進入AI領域的研發職位，持續推動電腦視覺技術的創新與應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來職涯展望"
+      },
+      "hashtags": [
+        "AI研發職位",
+        "電腦視覺創新",
+        "技術應用"
+      ]
     },
     {
       "id": "47089b2b-a6c4-4fc9-aa5a-40fa4cc602a0",
       "candidate_id": "mock_12",
       "section": "讀書計畫",
       "content": "終身學習：持續關注人工智慧與電腦視覺領域的最新發展，不斷學習新技術、新方法，保持對學術研究與技術創新的熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習熱情"
+      },
+      "hashtags": [
+        "終身學習",
+        "人工智慧發展",
+        "電腦視覺發展",
+        "技術創新熱情"
+      ]
     },
     {
       "id": "5e50dd24-1c60-49d6-8056-5f307612aec2",
       "candidate_id": "mock_12",
       "section": "加分文件",
       "content": "提供個人攝影網站連結，展示多年來拍攝的風景、人像、紀實等多樣化作品，展現對光影、色彩、構圖的敏銳洞察力與藝術審美，間接證明對影像細節的深層理解與處理能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "影像處理洞察",
+        "C3": "藝術審美與觀察"
+      },
+      "hashtags": [
+        "攝影網站",
+        "風景攝影",
+        "人像攝影",
+        "紀實攝影",
+        "影像細節理解"
+      ]
     },
     {
       "id": "3da4e9b3-edbd-478d-8450-f25d0e3bd899",
       "candidate_id": "mock_12",
       "section": "加分文件",
       "content": "曾參與「全國大專院校軟體設計競賽」，團隊獲得佳作，證明具備良好的程式設計、演算法應用與團隊合作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式設計競賽實力",
+        "C3": "團隊協作解題"
+      },
+      "hashtags": [
+        "全國軟體設計競賽",
+        "程式設計",
+        "演算法應用",
+        "團隊合作",
+        "競賽佳作"
+      ]
     },
     {
       "id": "19f38cf8-ba10-49ba-8951-4e61c9bd0bc9",
       "candidate_id": "mock_12",
       "section": "加分文件",
       "content": "其中一個子任務涉及圖像識別的優化，展現了對視覺計算問題的初步解決能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "圖像識別技術應用",
+        "C3": "視覺計算問題解決"
+      },
+      "hashtags": [
+        "圖像識別優化",
+        "視覺計算問題"
+      ]
     },
     {
       "id": "98a1de5d-2268-4998-8f97-0f29c5a86a3c",
       "candidate_id": "mock_12",
       "section": "加分文件",
       "content": "完成NVIDIA深度學習學院 (DLI) 的「影像分類與物件偵測實作」課程，並取得證書。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "深度學習課程修習",
+        "C2": "影像辨識技術實作"
+      },
+      "hashtags": [
+        "NVIDIA DLI",
+        "深度學習",
+        "影像分類",
+        "物件偵測",
+        "課程證書"
+      ]
     },
     {
       "id": "6ef33b10-3109-46d5-9920-949df02d2465",
       "candidate_id": "mock_12",
       "section": "加分文件",
       "content": "完成Coursera上由Stanford大學提供的「Convolutional Neural Networks」專業課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "深度學習理論學習",
+        "C2": "卷積神經網路知識"
+      },
+      "hashtags": [
+        "Coursera",
+        "Stanford大學",
+        "Convolutional Neural Networks",
+        "專業課程"
+      ]
     },
     {
       "id": "8184c94d-c004-4d5d-85a0-4edbbac8b8ff",
       "candidate_id": "mock_12",
       "section": "加分文件",
       "content": "提供GitHub連結，展示大學期間多個電腦視覺相關專案的程式碼、報告與成果影片，包含上述「智慧監控系統」與「低光源影像增強」專案，詳述各專案中的技術細節、個人貢獻與實驗數據。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "電腦視覺專案實作",
+        "C4": "專案成果展示與說明"
+      },
+      "hashtags": [
+        "GitHub作品集",
+        "電腦視覺專案",
+        "智慧監控系統",
+        "低光源影像增強",
+        "技術細節說明"
+      ]
     }
   ]
 }

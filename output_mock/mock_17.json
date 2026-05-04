@@ -10,135 +10,277 @@
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "我是___，就讀國立中山大學資訊工程學系，主修軟體工程與網路通訊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景陳述"
+      },
+      "hashtags": [
+        "中山大學資工系",
+        "軟體工程",
+        "網路通訊"
+      ]
     },
     {
       "id": "7eb50d01-07b8-4955-a82c-fcb826c19f23",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "在學期間，我的平均成績維持在 3.8/4.3 以上，特別在網路與系統相關課程表現優異。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
+      "hashtags": [
+        "網路課程",
+        "系統課程"
+      ]
     },
     {
       "id": "4f1a88dc-f2cf-421f-8d10-5ee8acfd68f8",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "除了學術上的耕耘，我也積極投入公民科技領域，成為 g0v 社群的活躍參與者",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "社群參與投入",
+        "C2": "跨領域應用興趣"
+      },
+      "hashtags": [
+        "公民科技",
+        "g0v社群"
+      ]
     },
     {
       "id": "7fb39107-13fc-4a0d-ad71-cee65b1ff3ae",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "致力於運用資訊工程專業，解決社會議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "社會議題關懷",
+        "C2": "專業技能應用"
+      },
+      "hashtags": [
+        "社會議題解決",
+        "資工專業應用"
+      ]
     },
     {
       "id": "8583ee6d-d71a-47c0-8997-c744017c32ac",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "在大三升大四期間，我參與了系上的專題研究，開發一套旨在提升農業生產效率與作物健康的智慧環境監測系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題研究參與",
+        "C3": "系統開發目標"
+      },
+      "hashtags": [
+        "系上專題研究",
+        "智慧環境監測系統",
+        "農業生產效率",
+        "作物健康"
+      ]
     },
     {
       "id": "369a1560-223c-4d27-b647-91738dfee37b",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "面對傳統農業數據採集效率低、人工成本高的痛點，我主要負責系統的通訊模組設計與後端數據處理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題痛點分析",
+        "C2": "系統模組開發"
+      },
+      "hashtags": [
+        "農業數據採集",
+        "通訊模組設計",
+        "後端數據處理"
+      ]
     },
     {
       "id": "5b1eed37-12d4-46df-a3f6-e2062edc820c",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "我與團隊成員共同設計並實作了一套基於 LoRaWAN 協議的無線感測器網路。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "無線網路實作"
+      },
+      "hashtags": [
+        "LoRaWAN協議",
+        "無線感測器網路"
+      ]
     },
     {
       "id": "c645fbdc-fc1c-4e07-a44f-f6015cf1a5d7",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "在硬體層面，我們選用 ESP32 微控制器，整合了土壤濕度、環境溫度、濕度及光照強度等感測器，並開發了低功耗的感測器節點韌體，確保在偏遠地區能長時間穩定運行。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體韌體開發",
+        "C3": "系統穩定考量"
+      },
+      "hashtags": [
+        "ESP32微控制器",
+        "土壤濕度感測",
+        "低功耗韌體",
+        "感測器節點"
+      ]
     },
     {
       "id": "341ac43b-7130-49af-ba9a-a699ec4fcbac",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "在通訊層，我負責優化 LoRaWAN 協議的排程機制，以減少封包碰撞並提升數據傳輸可靠性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "通訊協議優化",
+        "C3": "傳輸可靠性提升"
+      },
+      "hashtags": [
+        "LoRaWAN協議",
+        "排程機制優化",
+        "封包碰撞減少",
+        "數據傳輸可靠性"
+      ]
     },
     {
       "id": "66a5812a-a75b-402d-a8a3-9fdb7367c63f",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "我們在學校實驗農場部署了 15 個感測器節點，在實際測試中，系統在 2 公里半徑範圍內，數據傳輸成功率達到 97%，且感測器節點的電池續航能力可達 6 個月。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統部署測試",
+        "C3": "效能指標評估"
+      },
+      "hashtags": [
+        "學校實驗農場",
+        "感測器節點部署",
+        "數據傳輸成功率",
+        "電池續航能力"
+      ]
     },
     {
       "id": "33838a58-a912-41dc-9f0a-45d637df349a",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "在後端部分，我負責設計數據匯流排，將透過 LoRaWAN 閘道器收集到的環境數據，利用 MQTT 協議發布至雲端平台。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "後端系統設計與實作"
+      },
+      "hashtags": [
+        "數據匯流排",
+        "LoRaWAN",
+        "MQTT",
+        "雲端平台"
+      ]
     },
     {
       "id": "674d4d81-7e7e-4c1c-bfae-f4d9fba03797",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "我進一步利用 Python 撰寫數據處理腳本，對原始數據進行清洗、校準，並儲存至時序資料庫 (如 InfluxDB)。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據處理與儲存"
+      },
+      "hashtags": [
+        "Python",
+        "數據清洗",
+        "數據校準",
+        "時序資料庫",
+        "InfluxDB"
+      ]
     },
     {
       "id": "f6b0b9ad-f169-40ad-a583-acd6e825bd4d",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "此外，我還開發了基於機器學習的異常檢測模組，例如使用 Isolation Forest 演算法分析土壤濕度變化，當檢測到異常下降趨勢時，系統能自動發送簡訊通知農戶進行灌溉。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "機器學習模組開發",
+        "C3": "異常偵測問題解決"
+      },
+      "hashtags": [
+        "機器學習",
+        "異常檢測",
+        "Isolation Forest",
+        "土壤濕度分析",
+        "自動灌溉通知"
+      ]
     },
     {
       "id": "2fd39f8a-293e-43be-b32c-dd7396fe4ba5",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "有效降低人力巡檢頻率並預防作物缺水。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "解決方案效益評估"
+      },
+      "hashtags": [
+        "降低人力巡檢",
+        "預防作物缺水"
+      ]
     },
     {
       "id": "0b0ce27e-eb7a-4f76-8c48-2a5b0105d924",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "此專案讓我深入理解了物聯網系統的端到端架構設計、低功耗通訊協議的實作細節，以及數據從採集到應用的完整流程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "物聯網系統理解",
+        "C4": "專案學習反思"
+      },
+      "hashtags": [
+        "物聯網系統架構",
+        "低功耗通訊協議",
+        "數據採集應用流程"
+      ]
     },
     {
       "id": "9dcbb702-672b-4a9a-b637-37db9e2ceffd",
@@ -154,44 +296,89 @@
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "該系統旨在優化家庭電力消耗，提升能源使用效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "能源效率優化目標"
+      },
+      "hashtags": [
+        "家庭電力消耗優化",
+        "能源使用效率提升"
+      ]
     },
     {
       "id": "a14cd19a-274c-42e0-919b-deccbd968777",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "面對多樣的智慧家電與異質的通訊協議，我主要負責系統的架構設計與異質裝置的整合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統架構設計",
+        "C3": "異質裝置整合挑戰"
+      },
+      "hashtags": [
+        "系統架構設計",
+        "異質裝置整合",
+        "智慧家電",
+        "通訊協議"
+      ]
     },
     {
       "id": "acff73ec-c811-4f2b-8bac-8349ca807c3f",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "我們採用微服務架構，將系統功能模塊化，例如數據採集服務、排程最佳化服務和用戶介面服務。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "微服務架構實作"
+      },
+      "hashtags": [
+        "微服務架構",
+        "系統功能模塊化",
+        "數據採集服務",
+        "排程最佳化服務",
+        "用戶介面服務"
+      ]
     },
     {
       "id": "90cb1b6f-5d86-43c0-85ce-e207dc06d549",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "為了整合不同廠牌的智慧家電（如支援 Zigbee、Wi-Fi 的裝置），我設計並實作了通用的轉接層 (Adapter Layer)，將不同協議的數據抽象化為統一的訊息格式，並透過 Apache Kafka 作為訊息佇列進行異步通訊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "異質協議整合實作",
+        "C3": "跨廠牌裝置整合方案"
+      },
+      "hashtags": [
+        "轉接層設計",
+        "Adapter Layer",
+        "Zigbee",
+        "Wi-Fi",
+        "Apache Kafka",
+        "異步通訊"
+      ]
     },
     {
       "id": "5d5dc4a4-34c8-4003-910e-3fb4ec8e1fb6",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "能源管理的核心在於排程最佳化。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題定義與分析"
+      },
       "hashtags": []
     },
     {
@@ -208,9 +395,20 @@
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "透過與模擬器的協同工作，我們在模擬環境中證明，該系統能將尖峰時段的用電量降低 15%，並為用戶節省約 10% 的電費。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統成效驗證",
+        "C3": "解決方案評估"
+      },
+      "hashtags": [
+        "模擬器",
+        "用電量降低15%",
+        "節省電費10%",
+        "尖峰時段"
+      ]
     },
     {
       "id": "4f057f9f-44a6-48ce-9ecf-f473e3ccd6ce",
@@ -226,198 +424,420 @@
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "作為 g0v 社群的活躍成員，我貢獻於一個致力於提升地方政府數據開放透明度的專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社群參與貢獻"
+      },
+      "hashtags": [
+        "g0v社群",
+        "數據開放透明度",
+        "地方政府"
+      ]
     },
     {
       "id": "d3a6418f-9c0f-49d9-9e10-531419ae0985",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "此專案的目標是將政府機關釋出的 CSV 格式原始數據，轉換為更易於大眾理解與互動的視覺化圖表。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "專案目標設定",
+        "C2": "數據轉化應用"
+      },
+      "hashtags": [
+        "CSV數據",
+        "視覺化圖表",
+        "數據轉換"
+      ]
     },
     {
       "id": "660104ec-f327-48df-861b-fbab9247a283",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "1. **數據清洗與標準化：** 針對多個縣市政府提供的不一致數據格式，我開發了自動化腳本（使用 Pandas 函式庫），對約 50 個不同的數據集進行清洗、轉換與標準化，將數據整合為統一的 JSON 格式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據處理實作",
+        "C3": "數據格式問題解決"
+      },
+      "hashtags": [
+        "數據清洗",
+        "數據標準化",
+        "Pandas",
+        "自動化腳本",
+        "JSON格式"
+      ]
     },
     {
       "id": "c88d550d-d1ee-44d1-b619-dbfcfdc32302",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "2. **API 開發與維護：** 協助建立並維護 RESTful API 介面，供前端開發者調用經過處理的數據，確保數據能即時、可靠地呈現。我利用 Node.js 與 Express 框架，實作了高併發處理能力的數據服務。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "後端服務開發"
+      },
+      "hashtags": [
+        "API開發",
+        "RESTful API",
+        "Node.js",
+        "Express框架",
+        "高併發處理"
+      ]
     },
     {
       "id": "21fcdfa0-d54a-4579-83f5-a6109dc32d24",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "3. **前端視覺化協作：** 與設計師及前端開發者合作，利用 D3.js 函式庫將數據轉換為互動式圖表，例如地理資訊圖 (Choropleth Map) 和時間序列圖，讓公民能直觀地了解城市發展指標。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據視覺化實作",
+        "C4": "跨職能團隊協作"
+      },
+      "hashtags": [
+        "D3.js",
+        "互動式圖表",
+        "地理資訊圖",
+        "時間序列圖",
+        "跨職能協作"
+      ]
     },
     {
       "id": "966702ee-a47f-49b3-817b-aba9620e0671",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "透過參與 g0v，我不僅應用了程式開發、數據處理和 API 設計的技能",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "技能應用反思",
+        "C2": "綜合技能應用"
+      },
+      "hashtags": [
+        "g0v",
+        "程式開發",
+        "數據處理",
+        "API設計"
+      ]
     },
     {
       "id": "56db4307-c9b6-4d11-8053-b8a875aa4f82",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "更學會了在非營利與志願性質的環境中，如何與跨領域夥伴（設計師、法律專家、公民記者）有效協作",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "跨領域專案協作",
+        "C4": "團隊溝通與協作"
+      },
+      "hashtags": [
+        "非營利",
+        "跨領域夥伴",
+        "設計師",
+        "法律專家",
+        "公民記者"
+      ]
     },
     {
       "id": "ed43b76d-53f8-4dbf-bc41-930359235648",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "以及如何將技術專長應用於提升公共利益。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術應用於公共利益",
+        "C4": "專業倫理與社會責任"
+      },
+      "hashtags": [
+        "公共利益",
+        "技術專長應用"
+      ]
     },
     {
       "id": "64cf0d4f-84af-495c-ae2e-789011ab2f82",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "這段經歷深刻影響了我對資訊科技社會責任的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "資訊科技社會責任",
+        "C3": "科技倫理理解"
+      },
+      "hashtags": [
+        "資訊科技社會責任"
+      ]
     },
     {
       "id": "dabf9510-b5dd-4436-9e5c-4e8355fc43b9",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "除了資訊工程專業課程，我也積極修習了「科技法律」輔系課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域輔系修習"
+      },
+      "hashtags": [
+        "資訊工程",
+        "科技法律輔系"
+      ]
     },
     {
       "id": "7a241a1f-043b-4821-bd55-5716b60b0ef5",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "在「智慧財產權法」和「個人資料保護法」等課程中，我學習到在技術開發與數據應用過程中，必須面對的法律規範與倫理議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "科技法律課程學習",
+        "C3": "技術開發倫理法規"
+      },
+      "hashtags": [
+        "智慧財產權法",
+        "個人資料保護法",
+        "法律規範",
+        "倫理議題"
+      ]
     },
     {
       "id": "279f87cd-91c2-4bdf-836a-1dc4f8cecbe9",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "例如，在物聯網系統中，大量的感測數據可能涉及個人隱私；在 g0v 專案中，開放政府資料的同時，如何確保去識別化與隱私保護，都是實際應用中不可迴避的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "隱私與倫理挑戰分析",
+        "C2": "物聯網數據應用挑戰"
+      },
+      "hashtags": [
+        "物聯網系統",
+        "個人隱私",
+        "g0v專案",
+        "開放政府資料",
+        "去識別化",
+        "隱私保護"
+      ]
     },
     {
       "id": "7ce8d092-2f5b-4c5d-b72f-78e9bfd20cd9",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "這些跨領域的學習讓我意識到，單純的技術實踐已不足以應對當代複雜問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨領域問題意識",
+        "C4": "專業視野拓展"
+      },
+      "hashtags": [
+        "跨領域學習"
+      ]
     },
     {
       "id": "0b6aa6f6-cce2-49b0-803f-10df670a4a0c",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "技術的發展必須與法律、倫理和社會脈絡緊密結合，才能真正發揮其正面價值。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "科技發展整合思維",
+        "C4": "科技倫理價值觀"
+      },
+      "hashtags": [
+        "法律",
+        "倫理",
+        "社會脈絡",
+        "正面價值"
+      ]
     },
     {
       "id": "836307b1-e6b5-46a7-9421-3ab9f9100503",
       "candidate_id": "mock_17",
       "section": "自傳",
       "content": "這也促使我思考如何設計出不僅技術先進，更能符合社會規範、保障使用者權益的物聯網與網路通訊解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "社會規範整合設計",
+        "C2": "物聯網解決方案設計"
+      },
+      "hashtags": [
+        "社會規範",
+        "使用者權益",
+        "物聯網",
+        "網路通訊解決方案"
+      ]
     },
     {
       "id": "1b4da2c0-0de9-4861-b892-587a58aaa82c",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "在大學期間，無論是智慧農業環境監測系統的開發、分散式能源管理系統的設計，或是參與 g0v 社群的公民科技專案，都讓我深刻體驗到物聯網與無線網路技術在形塑未來智慧生活中的關鍵角色。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "物聯網專案實作",
+        "C4": "智慧生活科技洞察"
+      },
+      "hashtags": [
+        "智慧農業環境監測系統",
+        "分散式能源管理系統",
+        "g0v社群",
+        "公民科技專案",
+        "物聯網",
+        "無線網路技術",
+        "智慧生活"
+      ]
     },
     {
       "id": "a11023a7-b515-40b8-932a-97315fb9ad3c",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "我看到了這些技術如何從根本上改變我們與環境、設備乃至社會的互動方式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術影響洞察"
+      },
+      "hashtags": [
+        "技術影響",
+        "社會互動",
+        "環境互動"
+      ]
     },
     {
       "id": "4f49463a-c548-47d7-99b3-0c2df8051635",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "然而，這些經歷也讓我意識到當前技術面臨的挑戰",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術挑戰認知"
+      },
+      "hashtags": [
+        "技術挑戰",
+        "問題意識"
+      ]
     },
     {
       "id": "dd49faf7-fccd-4ab4-8b7b-a1a37d0e14e7",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "物聯網裝置的大規模部署所帶來的數據洪流如何有效管理？",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "物聯網數據管理挑戰",
+        "C2": "數據管理技術需求"
+      },
+      "hashtags": [
+        "物聯網裝置",
+        "數據洪流",
+        "數據管理"
+      ]
     },
     {
       "id": "b5acb503-d2da-4ec1-be11-d468a4a4f48b",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "資源受限的裝置如何在不犧牲安全性的前提下實現高效通訊？",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "資源受限通訊挑戰",
+        "C2": "安全高效通訊技術"
+      },
+      "hashtags": [
+        "資源受限裝置",
+        "高效通訊",
+        "通訊安全性"
+      ]
     },
     {
       "id": "36a0a35f-171c-476e-b7c9-5e2995fc7213",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "異質網路環境的互通性與穩定性如何保障？",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "異質網路互通挑戰",
+        "C2": "網路穩定技術"
+      },
+      "hashtags": [
+        "異質網路",
+        "互通性",
+        "網路穩定性"
+      ]
     },
     {
       "id": "42ebc9af-5117-4885-aa73-1cbb21f55866",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "這些問題驅使我渴望更深入地探索物聯網通訊與無線網路的奧秘。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機與方向",
+        "C1": "專業領域探索"
+      },
+      "hashtags": [
+        "物聯網通訊",
+        "無線網路",
+        "深入探索"
+      ]
     },
     {
       "id": "1a33b2dd-7f76-4224-bdb6-8177dbd20d5b",
@@ -433,44 +853,98 @@
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "在開放數據的過程中，數據來源的準確性、傳輸的完整性，以及系統本身的穩健性，都是影響其社會效益的關鍵因素。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "開放數據關鍵考量",
+        "C4": "數據社會效益認知"
+      },
+      "hashtags": [
+        "開放數據",
+        "數據準確性",
+        "傳輸完整性",
+        "系統穩健性",
+        "社會效益"
+      ]
     },
     {
       "id": "39aa958f-e30a-48bb-86c1-24096e049889",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "這份對社會影響力的關懷，促使我希望未來能投身於開發更可靠、更安全的通訊技術，確保資訊能夠透明、有效地流通。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "社會關懷與職涯規劃",
+        "C2": "安全通訊技術開發意願"
+      },
+      "hashtags": [
+        "社會影響力",
+        "可靠通訊技術",
+        "安全通訊技術",
+        "資訊透明流通"
+      ]
     },
     {
       "id": "344e7371-eb70-4888-bbea-b83fa640150a",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "國立陽明交通大學資訊工程學系在物聯網通訊與無線網路領域具有卓越的學術聲譽與豐沛的研究資源。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學校資源研究",
+        "C1": "專業領域聲譽認知"
+      },
+      "hashtags": [
+        "陽明交通大學",
+        "資訊工程學系",
+        "物聯網通訊",
+        "無線網路",
+        "研究資源"
+      ]
     },
     {
       "id": "a7d69932-3fe8-4b32-90ff-34cbfedaf6e2",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "貴系多位教授在低功耗廣域網路 (LPWAN)、無線感測網路 (WSN) 以及網路安全等方向皆有領先的研究成果，例如貴所 __[請自行填寫教授姓名]__ 教授在 __[請自行填寫教授研究方向，例如：大規模物聯網的資源管理]__ 方面的研究，與我個人對智慧物聯網系統優化與安全議題的濃厚興趣高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "研究領域認知",
+        "C4": "研究方向契合"
+      },
+      "hashtags": [
+        "低功耗廣域網路",
+        "LPWAN",
+        "無線感測網路",
+        "WSN",
+        "網路安全",
+        "智慧物聯網"
+      ]
     },
     {
       "id": "1e0d6b77-add4-4c26-b82d-33d74575d7ed",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "我深信，在貴系先進的實驗設備與頂尖師資的指導下，我將能夠系統性地學習前沿知識，並將所學應用於解決真實世界的技術挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習成長規劃",
+        "C3": "應用知識解決問題"
+      },
       "hashtags": []
     },
     {
@@ -478,125 +952,279 @@
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "基於大學期間在物聯網通訊與分散式系統的學習與實踐，以及對公民科技中數據可靠性的關注，我對於「**大規模物聯網低功耗廣域網路 (LPWAN) 的效能優化與安全性強化**」這一研究方向抱持著高度熱情與明確動機。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景與興趣",
+        "C4": "研究動機與方向"
+      },
+      "hashtags": [
+        "物聯網通訊",
+        "分散式系統",
+        "公民科技",
+        "數據可靠性",
+        "LPWAN"
+      ]
     },
     {
       "id": "579ee2fa-7875-43f9-bb9b-b20fcbfee7ab",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "當前 LPWAN 技術（如 LoRaWAN, NB-IoT）在面對數以百萬計的裝置連接時，常遭遇網路碰撞、資源分配不均導致的數據延遲與丟包率上升等問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術問題分析",
+        "C1": "專業領域知識"
+      },
+      "hashtags": [
+        "LPWAN",
+        "LoRaWAN",
+        "NB-IoT",
+        "網路碰撞",
+        "數據延遲",
+        "丟包率"
+      ]
     },
     {
       "id": "f50e08d2-67cb-4c6d-9aaf-438d8118bb51",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "尤其在我的智慧農業專案中，感測器節點增加到一定數量時，便開始觀察到數據傳輸的不穩定性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案問題觀察",
+        "C3": "實務問題發現"
+      },
+      "hashtags": [
+        "智慧農業專案",
+        "感測器節點",
+        "數據傳輸不穩定性"
+      ]
     },
     {
       "id": "262efa64-3c5e-4134-83c5-603919c9a984",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "如何設計更高效的媒體存取控制 (MAC) 層協議，以實現大規模裝置的穩定接入與數據傳輸，是亟待解決的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術問題定義",
+        "C1": "網路協議知識"
+      },
+      "hashtags": [
+        "媒體存取控制",
+        "MAC層協議",
+        "大規模裝置接入",
+        "數據傳輸穩定性"
+      ]
     },
     {
       "id": "b6c51717-68dc-4615-b057-89e6a4d9ffde",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "資源受限的物聯網裝置難以部署傳統複雜的加密機制，使得 LPWAN 面臨諸多安全威脅，包括竊聽、數據篡改、裝置偽造等。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "安全挑戰分析",
+        "C1": "專業技術限制認知"
+      },
+      "hashtags": [
+        "資源受限裝置",
+        "LPWAN安全威脅",
+        "竊聽",
+        "數據篡改",
+        "裝置偽造"
+      ]
     },
     {
       "id": "3ad955ee-5285-43f6-ba6c-9e1325bb8e75",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "我的公民科技經驗也提醒我，任何數據的傳輸都必須確保其完整性與真實性，尤其在公共基礎設施應用中更是如此。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "實務經驗連結",
+        "C3": "數據完整性思考"
+      },
+      "hashtags": [
+        "公民科技經驗",
+        "數據完整性",
+        "數據真實性",
+        "公共基礎設施"
+      ]
     },
     {
       "id": "b0c6f47a-eca7-446d-8dc1-04033a200df6",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "如何在有限的計算與能源預算下，為物聯網通訊提供輕量級且足夠強健的安全防護，是一個極具挑戰性的課題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "複雜問題界定",
+        "C1": "資源限制下安全防護"
+      },
+      "hashtags": [
+        "計算預算限制",
+        "能源預算限制",
+        "輕量級安全防護",
+        "物聯網通訊安全"
+      ]
     },
     {
       "id": "eaa2af24-2d52-4b01-9584-e3e6c6132d09",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "探索利用深度強化學習 (DRL) 或聯邦學習 (Federated Learning) 技術，動態調整 LPWAN 網路中的頻率分配、傳輸功率和數據速率，以適應不斷變化的網路負載與環境條件。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "解決方案應用",
+        "C1": "創新技術知識"
+      },
+      "hashtags": [
+        "深度強化學習",
+        "DRL",
+        "聯邦學習",
+        "Federated Learning",
+        "LPWAN網路優化",
+        "頻率分配",
+        "傳輸功率",
+        "數據速率"
+      ]
     },
     {
       "id": "c49924ec-1008-43b5-9a6b-8a5eaa818252",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "目標是開發一套能自主學習並優化網路資源利用率的智能排程機制，進而提升大規模物聯網的吞吐量與服務品質。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "智能排程機制開發",
+        "C3": "物聯網資源優化"
+      },
+      "hashtags": [
+        "智能排程機制",
+        "網路資源優化",
+        "物聯網",
+        "吞吐量",
+        "服務品質"
+      ]
     },
     {
       "id": "0e5cdec9-e6ef-41cf-9bf8-6ce9aaf35cd6",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "我希望能夠將我在分散式系統中對排程最佳化的經驗，應用到無線網路資源管理上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域經驗應用",
+        "C4": "專業經驗轉化"
+      },
+      "hashtags": [
+        "分散式系統",
+        "排程最佳化",
+        "無線網路資源管理"
+      ]
     },
     {
       "id": "d20ca394-b4ea-4f97-9798-40641e081855",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "針對 LPWAN 裝置的資源限制，研究適用於邊緣運算的輕量級密碼學方案（如橢圓曲線密碼學或基於雜湊函數的認證機制）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "輕量級密碼學研究",
+        "C3": "邊緣運算安全方案"
+      },
+      "hashtags": [
+        "LPWAN裝置",
+        "邊緣運算",
+        "輕量級密碼學",
+        "橢圓曲線密碼學",
+        "雜湊函數認證"
+      ]
     },
     {
       "id": "4dfd1d8f-d7ca-4310-9000-1fef757e8246",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "同時，開發基於裝置行為模式的異常偵測演算法（如基於序列模式挖掘或半監督式學習），即時識別惡意裝置的入侵或數據篡改行為，從通訊層面加固物聯網系統的安全性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "異常偵測演算法開發",
+        "C3": "物聯網安全強化"
+      },
+      "hashtags": [
+        "異常偵測演算法",
+        "序列模式挖掘",
+        "半監督式學習",
+        "物聯網安全",
+        "數據篡改"
+      ]
     },
     {
       "id": "54b3a1fd-e3b6-4f04-96c3-a114606f1e7b",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "我在智慧農業專案中嘗試過的異常檢測模型，可以作為這個方向的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案模型應用",
+        "C1": "智慧農業專案經驗"
+      },
+      "hashtags": [
+        "智慧農業專案",
+        "異常檢測模型"
+      ]
     },
     {
       "id": "57626302-3ab1-4df5-a367-32915e10af79",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "我深信，貴所擁有堅實的網路通訊與資訊安全研究基礎，特別是針對物聯網應用領域的深入探討，將為我提供最前沿的知識和最完善的指導。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習資源評估"
+      },
       "hashtags": []
     },
     {
@@ -604,90 +1232,190 @@
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "我渴望在貴所老師的帶領下，運用我在專題與公民科技中所累積的物聯網系統實作經驗與數據處理能力，為建構一個更智能、更安全、更互聯的未來貢獻一份力量。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "物聯網實作經驗",
+        "C4": "專業貢獻願景"
+      },
+      "hashtags": [
+        "物聯網系統實作",
+        "數據處理能力",
+        "公民科技"
+      ]
     },
     {
       "id": "84aaee90-9c5f-4c5a-9341-47b2cc6f84ba",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "積極修習碩士班核心課程，如「高等演算法」、「高等計算機網路」、「高等作業系統」等，紮實理論基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程修習"
+      },
+      "hashtags": [
+        "高等演算法",
+        "高等計算機網路",
+        "高等作業系統",
+        "理論基礎"
+      ]
     },
     {
       "id": "cea47e1e-44bc-402d-bd03-d2c619facd5d",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "特別專注於「無線通訊理論」與「網路安全」等相關課程，補足所需知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業知識補強",
+        "C4": "學習計畫調整"
+      },
+      "hashtags": [
+        "無線通訊理論",
+        "網路安全"
+      ]
     },
     {
       "id": "7119cdc8-e86a-42a6-bcf0-f292532b7933",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "主動參與指導教授實驗室的例行討論、文獻研讀與專題報告。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "研究參與投入",
+        "C4": "主動學習態度"
+      },
+      "hashtags": [
+        "實驗室討論",
+        "文獻研讀",
+        "專題報告"
+      ]
     },
     {
       "id": "5f33058c-fde7-4c90-8d29-eb8ff5e23447",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "快速熟悉實驗室的研究方向與現有專案",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "研究領域掌握",
+        "C4": "環境適應規劃"
+      },
+      "hashtags": [
+        "實驗室研究方向",
+        "現有專案"
+      ]
     },
     {
       "id": "f9e63eb0-2b41-47c7-ade8-60948a516ca3",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "並積極請益學長姐，學習實驗室的工具與方法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "主動學習態度",
+        "C2": "實驗室技能學習"
+      },
+      "hashtags": [
+        "請益學長姐",
+        "實驗室工具",
+        "實驗室方法"
+      ]
     },
     {
       "id": "57c85fd1-42a3-433e-84d1-06147cb99964",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "深入學習無線網路模擬工具（如 NS-3, OMNeT++）與嵌入式系統開發環境（如 PlatformIO），精進 C/C++ 與 Python 程式設計能力",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專業工具掌握"
+      },
+      "hashtags": [
+        "無線網路模擬",
+        "NS-3",
+        "OMNeT++",
+        "嵌入式系統",
+        "PlatformIO",
+        "C/C++",
+        "Python"
+      ]
     },
     {
       "id": "600bc921-7d95-45ba-b012-3ab952c77f5c",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "並熟悉數據分析與機器學習相關函式庫（如 TensorFlow, PyTorch）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "ML函式庫應用"
+      },
+      "hashtags": [
+        "數據分析",
+        "機器學習",
+        "TensorFlow",
+        "PyTorch"
+      ]
     },
     {
       "id": "e71ac0cc-5606-49ed-832a-091f7f4edff0",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "廣泛閱讀物聯網通訊、LPWAN 協定、無線網路安全等領域的頂尖期刊與會議論文，了解該領域的最新進展、開放問題與主流研究方法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "領域知識廣度",
+        "C3": "研究問題洞察"
+      },
+      "hashtags": [
+        "物聯網通訊",
+        "LPWAN協定",
+        "無線網路安全",
+        "頂尖期刊",
+        "會議論文"
+      ]
     },
     {
       "id": "c4bd1f5f-ed9a-43ab-a7b2-d2476ac9fca7",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "在指導教授的指導下，確立具體的碩士論文研究主題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文主題確立",
+        "C3": "研究方向界定"
+      },
+      "hashtags": [
+        "碩士論文",
+        "研究主題確立",
+        "指導教授"
+      ]
     },
     {
       "id": "c36be110-93c0-4cdb-96e4-7fd48b9ba451",
@@ -703,18 +1431,34 @@
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "目標是在第二學年末完成論文初稿。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文進度規劃"
+      },
+      "hashtags": [
+        "論文初稿",
+        "第二學年末"
+      ]
     },
     {
       "id": "aa2d45fb-0bf4-4f3b-b8dc-7daf99c1f6aa",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "選修更進階的專業課程，例如「分散式系統安全」、「物聯網安全專論」、「機器學習於無線網路應用」等，深化研究領域的專業知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階課程修習"
+      },
+      "hashtags": [
+        "分散式系統安全",
+        "物聯網安全專論",
+        "機器學習於無線網路應用",
+        "專業知識深化"
+      ]
     },
     {
       "id": "cee68cb6-73f2-48e2-8acc-1be9114bc8ea",
@@ -730,125 +1474,264 @@
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "積極尋求在相關產業（如電信商、物聯網解決方案供應商、資安公司）的暑期實習機會，將學術研究與業界實務結合，了解技術在產業中的應用與挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界實務結合規劃",
+        "C2": "產業技術應用理解"
+      },
+      "hashtags": [
+        "暑期實習",
+        "電信商",
+        "物聯網解決方案",
+        "資安公司",
+        "業界實務"
+      ]
     },
     {
       "id": "d0dc0a2d-0759-4d73-b3b2-8c7ea0667280",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "期望能成為物聯網通訊或無線網路安全領域的專業人才，持續投入相關技術的研發工作，無論是投身學術界繼續深造攻讀博士，或進入業界擔任 R&D 工程師、資安架構師。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展目標"
+      },
+      "hashtags": [
+        "物聯網通訊",
+        "無線網路安全",
+        "R&D工程師",
+        "資安架構師",
+        "攻讀博士"
+      ]
     },
     {
       "id": "e68f6671-bc77-4cac-af07-186d6a428021",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "網路與通訊技術發展迅速，我將保持終身學習的態度，持續關注 5G/6G 通訊、量子通訊、邊緣運算等前瞻技術的發展",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "終身學習態度",
+        "C1": "前瞻技術關注"
+      },
+      "hashtags": [
+        "終身學習",
+        "5G/6G通訊",
+        "量子通訊",
+        "邊緣運算",
+        "前瞻技術"
+      ]
     },
     {
       "id": "fcaf9d66-3d7d-4aee-879c-a45b46c50382",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "並不斷將新知融入未來的研究與工作中。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "新知應用規劃"
+      },
+      "hashtags": [
+        "新知融入",
+        "未來研究",
+        "未來工作"
+      ]
     },
     {
       "id": "d7875b47-0455-4d1c-9b56-a58cf3f48f78",
       "candidate_id": "mock_17",
       "section": "讀書計畫",
       "content": "延續在 g0v 社群的經驗，持續以所學專業回饋社會，參與公民科技專案，推動科技的透明化與普及化，為社會帶來正向影響。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "公民科技應用",
+        "C4": "社會回饋與影響"
+      },
+      "hashtags": [
+        "g0v社群",
+        "公民科技專案",
+        "科技透明化",
+        "科技普及化",
+        "社會回饋"
+      ]
     },
     {
       "id": "7e83a155-d523-48de-8b73-05737e974a8a",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "大學期間參與 ACM-ICPC 校內賽，獲得佳作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "程式競賽解題",
+        "C2": "演算法實作能力"
+      },
+      "hashtags": [
+        "ACM-ICPC",
+        "校內賽",
+        "程式競賽",
+        "佳作"
+      ]
     },
     {
       "id": "17469cbf-953b-4099-b958-73ddd703f2b3",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "修習「資料結構」、「演算法」等核心課程成績優異（A+）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程學業表現"
+      },
+      "hashtags": [
+        "資料結構",
+        "演算法",
+        "A+成績",
+        "核心課程"
+      ]
     },
     {
       "id": "99db3abc-8c9c-492b-bd61-960f98f41140",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "Github 個人帳號，展示多個個人或團隊專案程式碼，包括智慧農業系統通訊模組、分散式能源管理系統原型及 g0v 社群貢獻的 API 程式碼。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案程式碼展示"
+      },
+      "hashtags": [
+        "Github",
+        "智慧農業系統",
+        "分散式能源管理",
+        "g0v社群",
+        "API程式碼"
+      ]
     },
     {
       "id": "8baba5ad-1ad6-4fdb-b544-1b61a6fe7622",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "TOEIC 考試成績 880 分，證明具備良好的英文閱讀與聽力能力，能順暢閱讀英文學術文獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "英文學術閱讀能力"
+      },
+      "hashtags": [
+        "TOEIC 880",
+        "英文閱讀",
+        "英文聽力",
+        "學術文獻"
+      ]
     },
     {
       "id": "04b060cd-eb78-416c-bfb0-8949a6dd21c9",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "Cisco CCNA: Introduction to Networks 結業證書，具備網路基礎知識與配置能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "網路基礎知識",
+        "C2": "網路配置能力"
+      },
+      "hashtags": [
+        "Cisco CCNA",
+        "Introduction to Networks",
+        "網路基礎知識",
+        "網路配置"
+      ]
     },
     {
       "id": "d7cc84ad-53cf-47b9-a5d0-a412bc61d4b3",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "AWS Cloud Practitioner 認證，對雲端基礎架構與服務有初步認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "雲端基礎知識",
+        "C2": "雲端服務理解"
+      },
+      "hashtags": [
+        "AWS Cloud Practitioner",
+        "雲端基礎架構",
+        "雲端服務"
+      ]
     },
     {
       "id": "7d68d8fb-69b9-4714-a220-ab12540e86e1",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "g0v 專案貢獻紀錄，包含 Pull Request 連結、Issues 回覆及專案協作證明，展現軟體開發協作能力與對公共議題的關懷。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "開源專案實作",
+        "C4": "團隊協作與社會關懷"
+      },
+      "hashtags": [
+        "g0v",
+        "開源專案",
+        "Pull Request",
+        "軟體開發協作",
+        "公共議題"
+      ]
     },
     {
       "id": "41f7ba21-518c-42d3-a1fe-86e6e795e015",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "校內資訊工程專題競賽優選。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題實作成果",
+        "C3": "專題問題解決"
+      },
+      "hashtags": [
+        "資訊工程專題競賽",
+        "校內競賽優選"
+      ]
     },
     {
       "id": "7c28b1d0-ccad-4f00-b721-d948a0538afc",
       "candidate_id": "mock_17",
       "section": "加分文件",
       "content": "曾獲頒系上書卷獎，證明學業表現優異。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     }
   ]

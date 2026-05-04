@@ -10,26 +10,51 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我是[您的姓名]，就讀於淡江大學資訊工程學系，對圖學、動畫、遊戲開發及數位學習領域懷抱著無比熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣領域"
+      },
+      "hashtags": [
+        "淡江大學資工系",
+        "圖學",
+        "動畫",
+        "遊戲開發",
+        "數位學習"
+      ]
     },
     {
       "id": "e977bdce-0e47-4cb8-9ff9-e9dcda4d9919",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "在學期間，我不僅專注於資訊工程的核心課程，更積極參與程式設計競賽，透過實戰驗證所學。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程學習",
+        "C2": "程式實戰驗證"
+      },
+      "hashtags": [
+        "資訊工程核心課程",
+        "程式設計競賽"
+      ]
     },
     {
       "id": "406878a5-68ec-423d-8e62-f31b0d7e82e0",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "並從中培養了強大的問題解決能力與團隊合作精神。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決能力",
+        "C4": "團隊協作能力"
+      },
       "hashtags": []
     },
     {
@@ -37,18 +62,36 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我的學業表現優異，平均成績為 85/100 (GPA 3.6/4.3)，尤其在資料結構、演算法、計算機圖學等核心課程中表現突出。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程成績"
+      },
+      "hashtags": [
+        "資料結構",
+        "演算法",
+        "計算機圖學"
+      ]
     },
     {
       "id": "e570ef03-fa05-4253-860c-b6f62930a17c",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "大學期間，我作為淡江大學代表隊的一員，連續兩年參與國際大學生程式設計競賽 (ICPC) 亞洲區賽，並於 [年份] 年成功晉級亞洲區決賽。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式競賽實戰",
+        "C4": "國際競賽成就"
+      },
+      "hashtags": [
+        "淡江大學代表隊",
+        "ICPC",
+        "亞洲區決賽"
+      ]
     },
     {
       "id": "2d018ff2-c1df-4877-8afe-c719959ebbf6",
@@ -64,405 +107,891 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我主要負責演算法設計與實作，特別擅長動態規劃、圖論及數論相關問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "演算法設計實作",
+        "C1": "演算法專業知識"
+      },
+      "hashtags": [
+        "演算法設計",
+        "動態規劃",
+        "圖論",
+        "數論"
+      ]
     },
     {
       "id": "1c2a658a-ad28-46a7-9748-1caa94ab6a0d",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "例如，在 [某次競賽/模擬賽] 中，我們遇到一個涉及流量最大化與最短路徑的複合問題，我透過整合 Edmonds-Karp 演算法與 Dijkstra 演算法，並進行了多階段的狀態壓縮優化，最終在限時內成功 AC (Accepted)，該解法在時間複雜度上達到了 O(VE^2) 的實用效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "演算法整合優化",
+        "C3": "複雜問題解決"
+      },
+      "hashtags": [
+        "流量最大化",
+        "最短路徑",
+        "Edmonds-Karp演算法",
+        "Dijkstra演算法",
+        "狀態壓縮優化"
+      ]
     },
     {
       "id": "39e7f99c-9a2e-4ac5-9d20-15af10bdfd3e",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "這次經驗極大地磨練了我的演算法思維、資料結構應用能力，以及在壓力下快速除錯與優化的技巧。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "演算法思維應用",
+        "C4": "壓力下學習成長"
+      },
+      "hashtags": [
+        "演算法思維",
+        "資料結構應用",
+        "快速除錯",
+        "壓力下優化"
+      ]
     },
     {
       "id": "71bf1467-1723-4440-8187-6592572986fd",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "在大三的專題研究中，我與三位夥伴共同投入「沉浸式學習環境中基於物理行為的物件互動系統開發」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題系統開發",
+        "C1": "沉浸式學習研究"
+      },
+      "hashtags": [
+        "專題研究",
+        "沉浸式學習環境",
+        "物件互動系統開發",
+        "物理行為"
+      ]
     },
     {
       "id": "c2af991a-2a5d-4fc6-8897-c57d896c9c19",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "此專案旨在為虛擬實境 (VR) 學習平台提供高度真實感的物理模擬與互動機制，以提升學習者在虛擬實驗中的臨場感與學習效果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "VR平台專案規劃",
+        "C1": "跨域學習應用"
+      },
+      "hashtags": [
+        "虛擬實境",
+        "VR學習平台",
+        "物理模擬",
+        "互動機制"
+      ]
     },
     {
       "id": "0cfdc116-9858-4136-afa4-8c5c6b069168",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我主要負責系統的核心物理引擎整合與物件行為邏輯設計。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "物理引擎整合實作"
+      },
+      "hashtags": [
+        "物理引擎整合",
+        "物件行為邏輯"
+      ]
     },
     {
       "id": "15b02caa-f2ef-4c25-a7e9-84c349995278",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我們選用 Unity 引擎作為開發平台，並深度應用其內建的 PhysX 物理引擎，針對 VR 環境的特殊需求進行優化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "遊戲引擎技術應用",
+        "C3": "系統效能優化"
+      },
+      "hashtags": [
+        "Unity引擎",
+        "PhysX物理引擎",
+        "VR環境優化"
+      ]
     },
     {
       "id": "6156b18a-5dc1-421b-a489-61b0edeab723",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我設計了一個基於有限狀態機 (FSM) 的通用物件互動框架，使其能夠處理抓取、碰撞、連接、分解等多種物理行為。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "互動框架設計實作",
+        "C3": "系統架構設計"
+      },
+      "hashtags": [
+        "有限狀態機",
+        "FSM",
+        "物件互動框架",
+        "物理行為處理"
+      ]
     },
     {
       "id": "2b7be8ad-ad12-4ce1-9e57-08f7724fc2aa",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "為了確保物理模擬的穩定性與效能，我實作了多種碰撞檢測演算法的優化，例如基於 AABB (Axis-Aligned Bounding Box) 樹的層次碰撞檢測，將複雜場景的碰撞計算負荷降低了約 30%。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "演算法效能優化",
+        "C2": "碰撞檢測實作"
+      },
+      "hashtags": [
+        "碰撞檢測演算法",
+        "AABB樹",
+        "層次碰撞檢測",
+        "效能優化"
+      ]
     },
     {
       "id": "d0ae4948-a38c-484f-afd4-62bbff1d37cb",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "同時，我亦開發了高精度力的回饋模擬，使學習者透過 VR 控制器能真實感受到虛擬物件的重量與阻力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "力回饋模擬開發",
+        "C3": "VR使用者體驗優化"
+      },
+      "hashtags": [
+        "力回饋模擬",
+        "VR控制器",
+        "虛擬物件重量"
+      ]
     },
     {
       "id": "d1a13df6-b1ba-4c2f-bae2-e7d10f4a359f",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "最終，我們成功開發出一套適用於高中物理實驗（如彈簧振盪、斜面運動）的 VR 模組，並在小規模使用者測試中獲得正面回饋，學生們認為此系統能有效幫助他們理解抽象的物理概念。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案成果展現",
+        "C1": "物理教育應用"
+      },
+      "hashtags": [
+        "高中物理實驗",
+        "VR模組",
+        "使用者測試",
+        "彈簧振盪",
+        "斜面運動"
+      ]
     },
     {
       "id": "0597b0a3-6ac2-471e-90a7-d116939edbfd",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我亦參與了一項校內產學合作專案，與 [某教育科技公司名稱] 共同開發「智慧型教育遊戲AI伴讀系統」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "產學合作專案參與"
+      },
+      "hashtags": [
+        "產學合作",
+        "教育科技公司",
+        "智慧型教育遊戲",
+        "AI伴讀系統"
+      ]
     },
     {
       "id": "a6aecbb1-99bd-484d-9468-ca16123a8a1e",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "此系統旨在透過遊戲化的學習方式，結合人工智慧分析學生的學習進度與難點，提供個人化的輔導。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "AI系統應用規劃",
+        "C3": "個人化學習策略"
+      },
+      "hashtags": [
+        "遊戲化學習",
+        "人工智慧分析",
+        "個人化輔導",
+        "學習進度分析"
+      ]
     },
     {
       "id": "d4bedcf6-0f70-4830-a5bb-6d8ac532bafe",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我在專案中擔任前端互動介面與後端資料整合的角色。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "全端技術實作"
+      },
+      "hashtags": [
+        "前端互動介面",
+        "後端資料整合"
+      ]
     },
     {
       "id": "b7797a0a-029c-4204-9bbf-d3c6fc500a74",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我使用 C# 與 Unity 引擎設計了遊戲化的學習模組，並負責將學生的即時互動數據（如答題時間、錯誤率、操作路徑）傳輸至後端 AI 分析模組。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "遊戲化模組開發"
+      },
+      "hashtags": [
+        "C#",
+        "Unity引擎",
+        "遊戲化學習模組",
+        "即時互動數據",
+        "AI分析模組"
+      ]
     },
     {
       "id": "d4a0a76d-90d2-445a-b6e9-596263e6b0b0",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "為確保資料傳輸的即時性與可靠性，我採用了 WebSocket 協定進行前後端通訊，並設計了基於 JSON 格式的資料結構來封裝學生的學習行為資料。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料傳輸技術應用",
+        "C3": "系統可靠性設計"
+      },
+      "hashtags": [
+        "WebSocket協定",
+        "JSON資料結構",
+        "前後端通訊",
+        "即時性",
+        "可靠性"
+      ]
     },
     {
       "id": "7f80f3e3-8a0b-48ee-9823-5bc41e935c00",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "此外，我也參與了 AI 輔導模組的開發，利用 Python 及 Scikit-learn 函式庫，建立了基於貝葉斯網路的學生知識狀態模型，以預測學生的學習瓶頸並推薦合適的遊戲關卡或輔導內容。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "AI輔導模組開發",
+        "C3": "學習瓶頸預測"
+      },
+      "hashtags": [
+        "AI輔導模組",
+        "Python",
+        "Scikit-learn",
+        "貝葉斯網路",
+        "知識狀態模型"
+      ]
     },
     {
       "id": "4cba9608-4291-4a21-b31e-1d7e74ba2e6b",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "透過此專案，我深入理解了軟體工程的開發流程，學會了如何在高併發情境下處理使用者互動數據，並將人工智慧應用於提升數位學習的效率與個人化體驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案經驗反思",
+        "C3": "高併發數據處理"
+      },
+      "hashtags": [
+        "軟體工程流程",
+        "高併發處理",
+        "數位學習效率",
+        "個人化體驗"
+      ]
     },
     {
       "id": "9e31cbc3-3527-4479-a968-386442c30168",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "除了資訊工程專業知識，我也積極拓展跨領域視野。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域學習意願",
+        "C4": "拓展專業視野"
+      },
+      "hashtags": [
+        "跨領域視野"
+      ]
     },
     {
       "id": "1b42e0a4-a9dc-4565-843c-842372a1b12f",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我曾修習「心理學概論」與「人機互動設計」等課程，深入探討人類感知、認知模式與行為心理學，並將其應用於互動系統的設計。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域課程修習",
+        "C3": "心理學應用設計"
+      },
+      "hashtags": [
+        "心理學概論",
+        "人機互動設計",
+        "人類感知",
+        "認知模式",
+        "行為心理學"
+      ]
     },
     {
       "id": "d96482ab-db0d-410c-ac91-13722668d16c",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "例如，在開發沉浸式學習系統時，我運用了認知心理學中的「負荷理論」原則，避免在 VR 介面中呈現過多的資訊，以降低學習者的認知負擔。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "認知負擔優化",
+        "C1": "認知心理學應用"
+      },
+      "hashtags": [
+        "沉浸式學習系統",
+        "認知心理學",
+        "負荷理論",
+        "VR介面",
+        "認知負擔"
+      ]
     },
     {
       "id": "5981f6e3-845b-4873-b72d-47aa652254f7",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "同時，我參考了「使用者體驗 (UX)」設計原則，確保虛擬物件的互動回饋直觀且符合現實邏輯，大幅提升了系統的易用性與學習效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "使用者體驗優化",
+        "C2": "互動設計實踐"
+      },
+      "hashtags": [
+        "使用者體驗UX",
+        "互動回饋",
+        "系統易用性",
+        "學習效率"
+      ]
     },
     {
       "id": "a9979635-37c8-4b50-9770-00dbf0bbe04e",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "這種將人文科學與工程技術結合的學習方式，讓我意識到優秀的軟體產品不僅需要強大的技術支撐，更需深刻理解使用者的需求與心理，才能創造出真正具有價值的數位體驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域整合洞察",
+        "C3": "產品價值思辨"
+      },
+      "hashtags": [
+        "人文科學結合",
+        "工程技術",
+        "使用者需求",
+        "數位體驗"
+      ]
     },
     {
       "id": "625739f3-f224-4a5c-b21e-1cb68532414d",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我在大學期間對於圖學、動畫、遊戲開發與數位學習等互動式媒體領域產生了濃厚的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "互動媒體興趣",
+        "C4": "學習方向探索"
+      },
+      "hashtags": [
+        "圖學",
+        "動畫",
+        "遊戲開發",
+        "數位學習",
+        "互動式媒體"
+      ]
     },
     {
       "id": "5a8df1ed-939b-49a5-b21a-faef95f15613",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "特別是在參與程式設計競賽與專題研究的過程中，我發現將複雜的演算法與精巧的軟體工程技術結合，能夠創造出極具想像力與影響力的數位產品。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式實作與技術整合",
+        "C3": "演算法應用思維"
+      },
+      "hashtags": [
+        "程式設計競賽",
+        "專題研究",
+        "演算法",
+        "軟體工程技術",
+        "數位產品開發"
+      ]
     },
     {
       "id": "a3d4e62c-7224-484e-9dd5-fbb71dcc2372",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "無論是開發高擬真度的物理模擬環境，或是設計能智慧輔導學生的教育遊戲，都讓我對這個領域的無限潛力充滿嚮往。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "應用領域探索",
+        "C4": "專業領域嚮往"
+      },
+      "hashtags": [
+        "物理模擬環境",
+        "教育遊戲",
+        "智慧輔導",
+        "高擬真度"
+      ]
     },
     {
       "id": "f4972394-5817-47e2-b8cc-5289c6743a0d",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "然而，在實作這些專案時，我也深刻體認到現有技術仍面臨諸多挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術挑戰洞察"
+      },
+      "hashtags": [
+        "技術挑戰",
+        "現有技術限制"
+      ]
     },
     {
       "id": "d142ecc1-0c01-44dc-a62f-b4aa57a5cd80",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "例如，如何在高解析度與複雜場景下，實現流暢且真實的即時渲染；如何讓虛擬角色展現更自然、智慧的行為模式，而非僵硬的腳本驅動；以及如何有效地利用巨量學習數據，為不同學習者提供高度個人化且有效的數位內容。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "具體問題分析",
+        "C2": "前沿技術應用挑戰"
+      },
+      "hashtags": [
+        "即時渲染",
+        "虛擬角色行為",
+        "巨量學習數據",
+        "個人化數位內容",
+        "高解析度場景"
+      ]
     },
     {
       "id": "f7337bca-9769-460f-97d3-3d49c87dae85",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "這些問題都超出了大學課程所能提供的深度，驅使我渴望進入更專業、更具學術研究氛圍的環境，進一步探索這些前沿技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機與深造規劃",
+        "C1": "學術深度追求"
+      },
+      "hashtags": [
+        "前沿技術探索",
+        "學術研究氛圍"
+      ]
     },
     {
       "id": "a51b4d4b-4fb2-46c1-970b-405e85615666",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "國立陽明交通大學資工所，以其卓越的學術聲譽、頂尖的師資陣容以及豐沛的研究資源，特別是在計算機圖學、多媒體資訊系統、人工智慧與機器學習等領域的深耕，成為我理想的深造殿堂。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所選擇動機",
+        "C1": "學術領域契合"
+      },
+      "hashtags": [
+        "陽明交通大學資工所",
+        "計算機圖學",
+        "多媒體資訊系統",
+        "人工智慧",
+        "機器學習"
+      ]
     },
     {
       "id": "cfc6037e-9b3b-436f-b352-13cc97ef42b0",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我深信在交大資工所，我將能接觸到最前沿的研究課題，並在教授們的指導下，系統性地學習先進的理論與實務技術，為我未來在互動式媒體領域的發展奠定堅實的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來發展規劃",
+        "C1": "專業知識深化"
+      },
+      "hashtags": [
+        "前沿研究課題",
+        "互動式媒體",
+        "理論與實務技術"
+      ]
     },
     {
       "id": "c49793b3-2006-4e93-8e40-4b3cb6225dca",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我期望在交大資工所深入研究「AI 驅動的實時渲染與互動智慧體設計」，特別聚焦於將深度學習與強化學習技術應用於提升虛擬環境的真實感與互動體驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "具體研究方向",
+        "C2": "AI技術應用規劃"
+      },
+      "hashtags": [
+        "AI驅動實時渲染",
+        "互動智慧體設計",
+        "深度學習",
+        "強化學習",
+        "虛擬環境真實感"
+      ]
     },
     {
       "id": "b2ce9658-db38-4cf5-8899-ff1bb5695431",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "現今的電腦圖學與遊戲產業對於視覺真實感與智慧互動的需求日益增長。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "產業趨勢洞察",
+        "C4": "專業領域認知"
+      },
+      "hashtags": [
+        "電腦圖學",
+        "遊戲產業",
+        "視覺真實感",
+        "智慧互動"
+      ]
     },
     {
       "id": "149b0ca1-766f-4dc9-af49-3344c61fcc31",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "傳統的即時渲染管線雖然效能優異，但在處理複雜光影、材質與動態細節時，往往需要耗費大量的計算資源，難以兼顧效率與真實度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術限制分析",
+        "C2": "渲染技術瓶頸"
+      },
+      "hashtags": [
+        "即時渲染管線",
+        "複雜光影",
+        "材質細節",
+        "動態細節",
+        "計算資源耗費"
+      ]
     },
     {
       "id": "a47ce19c-540e-4731-be40-f73c1f0a24fd",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "另一方面，虛擬環境中的非玩家角色 (NPC) 或學習導師，其行為模式若能具備更高層次的智慧與適應性，將極大地提升使用者的沉浸感與互動品質。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "虛擬環境問題洞察",
+        "C2": "智慧NPC行為設計"
+      },
+      "hashtags": [
+        "虛擬環境",
+        "非玩家角色",
+        "學習導師",
+        "智慧行為",
+        "互動品質"
+      ]
     },
     {
       "id": "bf04cd06-d4d4-4525-8d3b-da115c28c807",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我希望探討如何運用人工智慧技術，解決以下具體問題：",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "AI問題解決導向",
+        "C2": "人工智慧技術應用"
+      },
+      "hashtags": [
+        "人工智慧技術",
+        "問題解決"
+      ]
     },
     {
       "id": "2f6fae61-4b0f-4bef-9cd3-63e554e61e56",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我對基於神經網路的渲染技術深感興趣，例如 NeRF (Neural Radiance Fields) 及其變體。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "神經網路渲染技術理解"
+      },
+      "hashtags": [
+        "神經網路渲染",
+        "NeRF",
+        "Neural Radiance Fields"
+      ]
     },
     {
       "id": "7dc3fc9f-51f5-4599-b2d1-5ea66ea1ef53",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我的目標是研究如何將這類技術從離線高精度渲染拓展到實時互動應用中，特別是針對動態場景與物件的即時重建與渲染。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "渲染技術應用挑戰",
+        "C2": "實時互動渲染拓展"
+      },
+      "hashtags": [
+        "實時互動應用",
+        "動態場景",
+        "即時重建",
+        "即時渲染"
+      ]
     },
     {
       "id": "a7a81254-038b-4070-87de-fdcd480ece8b",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "這可能涉及模型壓縮、稀疏性優化、或結合傳統渲染管線的混合渲染策略。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "渲染效能優化策略",
+        "C1": "渲染技術知識廣度"
+      },
+      "hashtags": [
+        "模型壓縮",
+        "稀疏性優化",
+        "混合渲染策略",
+        "渲染管線"
+      ]
     },
     {
       "id": "8e1bdb56-a69d-4206-8907-660e58865ddd",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我希望探索如何利用深度學習模型，在有限的訓練數據下，生成高質量且時間一致的視覺效果，同時維持渲染效能。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "深度學習渲染挑戰",
+        "C2": "視覺效果生成優化"
+      },
+      "hashtags": [
+        "深度學習模型",
+        "有限訓練數據",
+        "高質量視覺效果",
+        "時間一致性",
+        "渲染效能"
+      ]
     },
     {
       "id": "838dda58-ae8b-4158-8608-a564cf4978b7",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我期望研究如何設計能夠在虛擬環境中自主學習並展現智慧行為的 AI 伴侶或導師。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "智慧AI伴侶設計",
+        "C2": "虛擬環境自主學習"
+      },
+      "hashtags": [
+        "虛擬環境",
+        "自主學習",
+        "AI伴侶",
+        "AI導師",
+        "智慧行為"
+      ]
     },
     {
       "id": "a8c0cabb-9b95-461d-9923-7d20ea6ecad5",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "這將涉及強化學習 (Reinforcement Learning, RL) 演算法的應用，例如 PPO (Proximal Policy Optimization) 或 SAC (Soft Actor-Critic)。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "強化學習演算法知識",
+        "C2": "RL演算法應用"
+      },
+      "hashtags": [
+        "強化學習",
+        "Reinforcement Learning",
+        "PPO",
+        "Proximal Policy Optimization",
+        "SAC"
+      ]
     },
     {
       "id": "8521e009-2467-4b14-8316-523a25924261",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "透過定義合適的獎勵函數，訓練 AI 在複雜環境中執行特定任務（如輔導學生、與玩家互動、協助解決問題），使其行為更具適應性與人性化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "獎勵函數設計",
+        "C3": "AI行為適應性優化"
+      },
+      "hashtags": [
+        "獎勵函數",
+        "輔導學生",
+        "玩家互動",
+        "問題解決",
+        "適應性行為"
+      ]
     },
     {
       "id": "cd4a4325-0789-4485-97bc-9eb282d3308d",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "這將能突破傳統有限狀態機的限制，為數位學習與遊戲設計帶來更具互動性與反應性的體驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "傳統技術限制突破",
+        "C4": "數位學習遊戲創新"
+      },
+      "hashtags": [
+        "有限狀態機",
+        "數位學習",
+        "遊戲設計",
+        "互動性體驗",
+        "反應性體驗"
+      ]
     },
     {
       "id": "6aee6473-62a9-40a4-99b1-f7d65308bfdf",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "選擇這個研究方向，是基於我在淡江大學資工系所累積的圖學與遊戲開發經驗，以及在程式設計競賽中磨練出的演算法思維。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景與演算法基礎",
+        "C2": "遊戲開發實作經驗"
+      },
+      "hashtags": [
+        "淡江資工",
+        "圖學",
+        "遊戲開發",
+        "程式設計競賽",
+        "演算法思維"
+      ]
     },
     {
       "id": "1346f1cc-20c9-42e6-ab0f-82dc4b55a6c4",
@@ -478,162 +1007,367 @@
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "交大資工所擁有 [提及具體教授姓名或實驗室名稱，例如：xx教授在神經圖學、yy教授在智慧型計算方面有卓越成就]，他們的深厚研究背景與豐富資源，將為我實現這些研究目標提供最佳的平台與指導。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究環境選擇規劃",
+        "C3": "資源評估與運用"
+      },
+      "hashtags": [
+        "交大資工所",
+        "神經圖學",
+        "智慧型計算",
+        "研究資源評估"
+      ]
     },
     {
       "id": "ea64117b-6825-467a-94af-e292b20fd654",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我渴望將所學應用於創造更真實、更智慧的數位世界，為教育、娛樂甚至更廣泛的社會應用帶來創新。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習應用願景",
+        "C3": "創新應用思考"
+      },
+      "hashtags": [
+        "數位世界創新",
+        "教育應用",
+        "娛樂應用",
+        "社會應用"
+      ]
     },
     {
       "id": "7b65237f-50e8-4dbe-a5a2-09b941ea2eff",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "學術基礎鞏固：重新溫習線性代數、高等微積分、離散數學等基礎課程，確保數學工具的運用能力。深入學習高等演算法與資料結構，特別是圖論、動態規劃等在圖學與AI中廣泛應用的方法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "數學與演算法基礎強化"
+      },
+      "hashtags": [
+        "線性代數",
+        "高等微積分",
+        "離散數學",
+        "高等演算法",
+        "資料結構",
+        "圖論",
+        "動態規劃"
+      ]
     },
     {
       "id": "60f8b050-6798-4d67-baae-e7c91dd315d1",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "專業知識強化：修習交大資工所的基礎必修課程，如「高等計算機圖學」、「高等人工智慧」、「高等機器學習」。同時，自學 GPU 編程 (CUDA/OpenCL) 或 Vulkan/DirectX 12 等現代圖形 API，熟悉高效能渲染管線。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業課程修習規劃",
+        "C2": "高效能技術自學"
+      },
+      "hashtags": [
+        "高等計算機圖學",
+        "高等人工智慧",
+        "高等機器學習",
+        "GPU編程",
+        "CUDA",
+        "OpenCL",
+        "Vulkan",
+        "DirectX 12",
+        "高效能渲染"
+      ]
     },
     {
       "id": "91256b07-da8d-429b-8645-2b5b32df387a",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "研究準備：積極參與實驗室例行會議，閱讀相關領域的頂尖期刊論文 (如 SIGGRAPH, NeurIPS, CVPR)，了解前沿研究進展與主流技術。與學長姐交流，熟悉研究工具與環境。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "前沿研究追蹤",
+        "C4": "研究環境適應與交流"
+      },
+      "hashtags": [
+        "實驗室會議",
+        "SIGGRAPH",
+        "NeurIPS",
+        "CVPR",
+        "前沿研究",
+        "研究工具熟悉"
+      ]
     },
     {
       "id": "e1fc85a0-6118-4e5b-ab54-4dd799cb07cf",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "英文能力提升：參與英文學術寫作課程或工作坊，提升論文閱讀與寫作能力。多加練習學術英文口說，為未來國際會議發表做準備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術英文能力提升"
+      },
+      "hashtags": [
+        "英文學術寫作",
+        "論文閱讀",
+        "學術英文口說",
+        "國際會議發表"
+      ]
     },
     {
       "id": "b4fec1af-11c7-43e1-b509-4e3c838ecce9",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "專精領域探索：根據選定研究方向，選修更進階的課程，如「實時渲染」、「深度學習於計算機視覺」、「強化學習」或「虛擬實境系統設計」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業領域進階學習",
+        "C4": "專精方向課程規劃"
+      },
+      "hashtags": [
+        "實時渲染",
+        "深度學習",
+        "計算機視覺",
+        "強化學習",
+        "虛擬實境系統設計"
+      ]
     },
     {
       "id": "06ca1c44-5ff6-4fa2-a34b-26494cfb4b91",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "論文研究啟動：在指導教授的引導下，確定碩士論文主題，進行深入的文獻探討，並著手實驗設計與實作。目標是設計並實現一個初步的原型系統，驗證核心概念。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "文獻探討與研究奠基",
+        "C2": "實驗設計與原型實作",
+        "C3": "論文主題確立與概念驗證"
+      },
+      "hashtags": [
+        "碩士論文主題",
+        "文獻探討",
+        "實驗設計",
+        "原型系統實作",
+        "核心概念驗證"
+      ]
     },
     {
       "id": "6bd4f38d-b143-4003-9670-5ae9c08c082c",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "實務經驗累積：積極尋求在相關研究單位或業界領導公司（如 NVIDIA, Unity Technologies, Epic Games, Meta Reality Labs）的實習機會，將理論知識應用於實際問題，並了解產業最新技術與需求。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "理論應用實務",
+        "C4": "產業趨勢洞察"
+      },
+      "hashtags": [
+        "NVIDIA",
+        "Unity Technologies",
+        "Epic Games",
+        "Meta Reality Labs",
+        "實習經驗"
+      ]
     },
     {
       "id": "2dcc3765-c248-4635-bc6d-b12c8fc2a310",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "參與學術交流：嘗試將研究成果撰寫成論文，投稿至國內外重要學術研討會或期刊，藉由同儕審查與發表，獲得寶貴的反饋並拓展學術視野。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表",
+        "C3": "研究反思精進"
+      },
+      "hashtags": [
+        "論文投稿",
+        "學術研討會",
+        "期刊發表",
+        "同儕審查"
+      ]
     },
     {
       "id": "4a319128-7a96-4a46-b676-28aad8629e4e",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "持續深造或產業貢獻：依據碩士研究成果與個人職涯規劃，選擇攻讀博士學位，繼續在學術領域深耕，成為互動式媒體與 AI 領域的頂尖研究學者；或加入頂尖科技公司，在研究部門或產品開發團隊中，應用所學於實際產品與技術創新。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃"
+      },
+      "hashtags": [
+        "博士學位",
+        "互動式媒體",
+        "AI領域",
+        "科技公司研發",
+        "產品開發"
+      ]
     },
     {
       "id": "a77fd835-a250-4a2d-b131-799b37d3189d",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "回饋社群：積極參與開源專案，分享研究成果與開發經驗，推動圖學、AI與數位學習技術的發展。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "知識分享貢獻",
+        "C2": "開源專案參與"
+      },
+      "hashtags": [
+        "開源專案",
+        "圖學技術",
+        "AI技術",
+        "數位學習技術"
+      ]
     },
     {
       "id": "f79c05ab-baf9-400c-9e11-df73707c9183",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "終身學習：保持對新技術、新工具、新理論的學習熱情，持續追蹤產業與學術界的發展趨勢，確保自身專業能力的領先性與前瞻性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業能力精進"
+      },
+      "hashtags": [
+        "終身學習",
+        "新技術追蹤",
+        "產業趨勢",
+        "學術發展"
+      ]
     },
     {
       "id": "332cc927-8e8d-4fe9-8c1e-43bf7322d576",
       "candidate_id": "mock_27",
       "section": "加分文件",
       "content": "大學成績單：GPA 3.6/4.3，展現我在學期間優異的學業表現，尤其在程式設計、演算法、資料結構、計算機圖學等核心課程中獲得高分。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程表現"
+      },
+      "hashtags": [
+        "程式設計",
+        "演算法",
+        "資料結構",
+        "計算機圖學"
+      ]
     },
     {
       "id": "2536ae13-74eb-4456-b975-8aece39711a5",
       "candidate_id": "mock_27",
       "section": "加分文件",
       "content": "程式設計競賽獲獎證明：國際大學生程式設計競賽 (ICPC) 亞洲區賽晉級證明與獎狀，證明我具備強大的演算法分析、問題解決與團隊協作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "演算法問題解決",
+        "C2": "程式實作能力"
+      },
+      "hashtags": [
+        "ICPC",
+        "亞洲區賽晉級",
+        "演算法分析",
+        "團隊協作"
+      ]
     },
     {
       "id": "ec5ae502-0f95-46f7-b947-ed2c2cdaab1a",
       "candidate_id": "mock_27",
       "section": "加分文件",
       "content": "專題成果報告：包含「沉浸式學習環境中基於物理行為的物件互動系統開發」與「智慧型教育遊戲AI伴讀系統」的完整報告、系統架構圖、實作截圖及部分核心程式碼連結 (GitHub)，詳述專案目標、技術選型、實作方法與成果，展現我的技術深度與專案執行能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案開發實作",
+        "C3": "技術選型與分析"
+      },
+      "hashtags": [
+        "沉浸式學習環境",
+        "物理行為互動系統",
+        "智慧型教育遊戲",
+        "AI伴讀系統",
+        "GitHub",
+        "系統架構"
+      ]
     },
     {
       "id": "a16b3fe4-5b8d-4bd4-85e0-2a2e3fa5f37f",
       "candidate_id": "mock_27",
       "section": "加分文件",
       "content": "推薦信：由 [某位指導教授名稱] 教授與 [某位授課教授名稱] 教授撰寫，兩位教授曾指導我的專題研究與相關課程，對我的學術潛力、學習態度與技術能力有深入了解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "外部能力認證",
+        "C1": "學術潛力證明"
+      },
+      "hashtags": [
+        "指導教授推薦",
+        "授課教授推薦",
+        "學術潛力",
+        "技術能力"
+      ]
     },
     {
       "id": "64c50caf-387c-408f-b478-b9afc57e7912",
       "candidate_id": "mock_27",
       "section": "加分文件",
       "content": "個人作品集：彙整過去在圖學、動畫、遊戲開發相關課程與專案中的視覺成果，例如渲染圖片、動畫短片、遊戲試玩錄影等，以直觀方式展現我的設計與實作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "視覺設計實作"
+      },
+      "hashtags": [
+        "圖學作品",
+        "動畫短片",
+        "遊戲試玩",
+        "渲染圖片",
+        "遊戲開發"
+      ]
     }
   ]
 }

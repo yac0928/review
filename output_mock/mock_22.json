@@ -10,108 +10,220 @@
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "我是 [學生姓名]，就讀於國立中興大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景陳述"
+      },
+      "hashtags": [
+        "國立中興大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "74500f16-5792-4ecd-a259-0baa60319320",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "大學四年來，我深耕於軟體開發與數據分析領域，並以嚴謹的學術態度追求知識，平均成績達 3.8/4.3，展現了我在資訊科學領域的紮實基礎與學習潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術成績表現"
+      },
+      "hashtags": [
+        "軟體開發",
+        "數據分析"
+      ]
     },
     {
       "id": "4c752cd8-9559-4382-b7cf-b9a32b63b1f0",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "在課餘，我擔任吉他社主唱",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外活動參與"
+      },
+      "hashtags": [
+        "吉他社",
+        "社團主唱"
+      ]
     },
     {
       "id": "023e3f36-79c7-417b-bb54-9575e7df7895",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "這份經歷不僅讓我學會如何在團隊中協調與領導，更培養了我面對挑戰時的創造力與堅韌",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "團隊協作領導"
+      },
+      "hashtags": [
+        "團隊協調",
+        "領導能力",
+        "創造力",
+        "堅韌"
+      ]
     },
     {
       "id": "bc0f7893-3fcf-4f08-8dfc-02e4614faa9a",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "這些特質與我在面對複雜程式問題時的解決思路異曲同工。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "程式問題解決",
+        "C4": "軟實力應用"
+      },
+      "hashtags": [
+        "複雜程式問題",
+        "解決思路"
+      ]
     },
     {
       "id": "4ec59bad-43d8-4ec5-8cc8-39aa53d61f34",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "在大三升大四的暑假，我參與了一項與中部某製造業龍頭合作的產學專案，目標是建立一套智慧製造數據分析與異常偵測系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "產學專案參與"
+      },
+      "hashtags": [
+        "產學專案",
+        "製造業龍頭",
+        "智慧製造",
+        "數據分析",
+        "異常偵測系統"
+      ]
     },
     {
       "id": "eec6085b-ce40-4a2b-a3f4-58e834b51d38",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "該公司在生產線上每天產生數 TB 的感測器數據、機器日誌與品質檢測資料，然而缺乏有效的自動化工具進行即時監控與預測。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題情境分析"
+      },
+      "hashtags": [
+        "感測器數據",
+        "機器日誌",
+        "品質檢測資料",
+        "即時監控",
+        "預測系統"
+      ]
     },
     {
       "id": "dc99a287-52ad-49cc-9578-5d3fb1c65e3b",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "我的主要職責是針對這些巨量資料進行前處理、特徵工程以及模型開發。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據處理職責"
+      },
+      "hashtags": [
+        "巨量資料前處理",
+        "特徵工程",
+        "模型開發"
+      ]
     },
     {
       "id": "2083c3a0-0053-4039-89a6-1ef94a8b4454",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "專案初期，我負責整合來自不同異質來源的數據，包括 OPC UA 協定的即時感測器數據、MES 系統的生產批次資訊以及人工檢測的品質報告。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "異質數據整合",
+        "C3": "數據來源分析"
+      },
+      "hashtags": [
+        "OPC UA",
+        "即時感測器數據",
+        "MES系統",
+        "生產批次資訊",
+        "品質報告",
+        "異質數據整合"
+      ]
     },
     {
       "id": "247c2560-1ea6-44b0-806f-9957758a4ca0",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "我使用 Apache Spark 進行分散式數據清洗與轉換，處理了約 5TB 的歷史數據，將原始的半結構化日誌轉換為結構化資料，並設計了一套自動化的 ETL pipeline，將資料載入至基於 Apache Cassandra 的時序資料庫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "分散式數據處理",
+        "C3": "ETL流程設計"
+      },
+      "hashtags": [
+        "Apache Spark",
+        "分散式數據清洗",
+        "5TB歷史數據",
+        "ETL pipeline",
+        "Apache Cassandra",
+        "時序資料庫"
+      ]
     },
     {
       "id": "035b992c-43ae-452d-b024-96112a9815c2",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "在特徵工程階段，我針對機台運轉狀態、溫度、壓力、震動頻率等多達 500 個高維度感測器特徵，設計了滑動視窗聚合統計量（如平均值、標準差、偏度、峰度）以及頻域特徵（透過 FFT 轉換）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "高維感測器特徵工程"
+      },
+      "hashtags": [
+        "特徵工程",
+        "高維感測器數據",
+        "滑動視窗",
+        "FFT轉換",
+        "頻域特徵"
+      ]
     },
     {
       "id": "e5775ebb-82b6-4b03-81d0-fada574c33c0",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "為了實現異常偵測，我首先嘗試了Isolation Forest 與 Local Outlier Factor (LOF) 等無監督學習模型",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "無監督異常偵測應用"
+      },
+      "hashtags": [
+        "異常偵測",
+        "Isolation Forest",
+        "Local Outlier Factor",
+        "無監督學習"
+      ]
     },
     {
       "id": "36fe5400-b4a5-48de-806a-b6988a5eaac3",
@@ -127,90 +239,188 @@
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "隨後，我轉向監督式學習，透過分析歷史的異常事件標籤，並與領域專家合作定義異常類型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決策略調整",
+        "C2": "監督式學習方法應用"
+      },
+      "hashtags": [
+        "監督式學習",
+        "領域專家合作",
+        "異常類型定義"
+      ]
     },
     {
       "id": "2e7ec8a0-370d-426c-8cd1-cc578e5c9d24",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "我採用 XGBoost 框架訓練模型，利用過去 30 分鐘的時序特徵預測未來 5 分鐘內可能發生的設備異常。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "時序異常預測模型建構"
+      },
+      "hashtags": [
+        "XGBoost",
+        "時序特徵",
+        "設備異常預測"
+      ]
     },
     {
       "id": "ff47474c-26a7-46ec-91d8-cf6559a86799",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "為了應對類別不平衡問題（異常事件僅佔約 0.5%），我實施了 SMOTE 過採樣技術並調整了模型權重。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "資料不平衡問題處理",
+        "C2": "模型優化技術應用"
+      },
+      "hashtags": [
+        "類別不平衡",
+        "SMOTE",
+        "過採樣",
+        "模型權重調整"
+      ]
     },
     {
       "id": "58cba07b-3337-4c81-a892-8f7333c91d89",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "最終，該模型在測試集上達到了約 88% 的 F1-score，並成功將產線的異常停機時間減少了約 12%，有效提升了生產效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型成效驗證與應用",
+        "C3": "解決方案效益評估"
+      },
+      "hashtags": [
+        "F1-score",
+        "異常停機時間",
+        "生產效率提升"
+      ]
     },
     {
       "id": "b809c2fe-9c41-4938-83f1-3d11d67f8a87",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "這個專案讓我深刻體會到巨量資料在工業應用中的巨大潛力，也鍛鍊了我從數據整合到模型部署的完整開發能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案經驗反思與成長",
+        "C2": "數據專案開發流程掌握"
+      },
+      "hashtags": [
+        "巨量資料",
+        "工業應用",
+        "數據整合",
+        "模型部署",
+        "完整開發能力"
+      ]
     },
     {
       "id": "4d0e72a6-2b8c-4710-9202-470dd65426bf",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "在「機器學習」課程中，我選擇了高維度數據視覺化作為我的期末專題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程專題選擇與規劃",
+        "C2": "高維數據視覺化專題"
+      },
+      "hashtags": [
+        "機器學習課程",
+        "高維度數據視覺化",
+        "期末專題"
+      ]
     },
     {
       "id": "1712fab3-a33e-441b-a74a-dca1ee073785",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "面對基因表達數據集中數千個基因的表達量特徵，直接分析其模式極具挑戰性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "數據分析挑戰識別",
+        "C1": "生物資訊數據理解"
+      },
+      "hashtags": [
+        "基因表達數據",
+        "高維數據分析",
+        "生物資訊"
+      ]
     },
     {
       "id": "e9335d30-c9dc-4b2a-a90d-2594f1176370",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "我實作並比較了多種降維技術，包括主成分分析 (PCA)、t-分佈隨機鄰近嵌入 (t-SNE) 和均勻流形近似與投影 (UMAP)。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "降維技術實作",
+        "C3": "技術比較分析"
+      },
+      "hashtags": [
+        "降維技術",
+        "主成分分析PCA",
+        "t-SNE",
+        "UMAP"
+      ]
     },
     {
       "id": "c2450d01-8649-4a4c-b047-e57ec8f4dd4b",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "我利用 Python 的 `scikit-learn` 和 `umap-learn` 函式庫，對一份包含 1000 個樣本、5000 個基因特徵的公開癌症基因表達數據集進行處理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據處理與工具應用"
+      },
+      "hashtags": [
+        "Python",
+        "scikit-learn",
+        "umap-learn",
+        "癌症基因數據"
+      ]
     },
     {
       "id": "033c2055-4c5b-4001-8cad-3857389efde6",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "我發現 PCA 能有效捕獲數據中的主要變異方向",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "PCA結果解讀"
+      },
+      "hashtags": [
+        "PCA",
+        "數據變異方向"
+      ]
     },
     {
       "id": "610e0a07-4ae0-4124-a822-49571b483bff",
@@ -226,170 +436,347 @@
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "而 t-SNE 和 UMAP 則在二維投影中展現出更清晰的類別簇狀分佈，尤其 UMAP 在保持全局結構的同時，計算效率也更高。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術效能比較",
+        "C2": "降維結果分析"
+      },
+      "hashtags": [
+        "t-SNE",
+        "UMAP",
+        "類別簇狀分佈",
+        "計算效率"
+      ]
     },
     {
       "id": "66e5e72a-acd6-4011-b2ea-58472ddd4c4a",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "我特別研究了這些方法的參數（如 t-SNE 的 perplexity、UMAP 的 n_neighbors 和 min_dist）對視覺化結果的影響，並撰寫報告分析了不同方法的優缺點及其適用場景。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "參數影響分析",
+        "C4": "技術報告撰寫"
+      },
+      "hashtags": [
+        "t-SNE perplexity",
+        "UMAP n_neighbors",
+        "UMAP min_dist",
+        "視覺化結果",
+        "優缺點分析"
+      ]
     },
     {
       "id": "fe8df54a-986e-4d00-8c55-12a4e858b9ac",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "這次專題讓我對高維度數據的挑戰與處理策略有了更深入的理解，並掌握了運用多種工具解析複雜數據的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "專題學習反思",
+        "C1": "高維數據理解"
+      },
+      "hashtags": [
+        "高維度數據",
+        "複雜數據解析"
+      ]
     },
     {
       "id": "d04f3bc1-50c2-47af-8e10-78eae2b196dd",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "除了資訊工程專業知識，我也積極參與跨領域的學習與活動。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域學習參與"
+      },
+      "hashtags": [
+        "跨領域學習"
+      ]
     },
     {
       "id": "f3e6a7a5-a69e-4912-921f-65d7ea15bd93",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "大學期間，我修習了「應用統計學」與「經濟學原理」等課程",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域課程修習"
+      },
+      "hashtags": [
+        "應用統計學",
+        "經濟學原理"
+      ]
     },
     {
       "id": "37de445c-218e-4f5c-adf9-56128f63aa46",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "這些課程讓我學會以機率統計的視角審視數據背後的意義，並理解商業決策的邏輯。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域知識應用",
+        "C3": "數據決策思維"
+      },
+      "hashtags": [
+        "機率統計視角",
+        "商業決策邏輯"
+      ]
     },
     {
       "id": "1aba2dfb-e526-48ca-8e85-2e0331abb5f8",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "例如，在經濟學中探討市場供需與價格彈性時，我嘗試將其與數據趨勢預測模型結合，思考如何用數據量化這些複雜關係。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學科整合應用",
+        "C3": "數據量化思考"
+      },
+      "hashtags": [
+        "經濟學",
+        "市場供需",
+        "價格彈性",
+        "數據趨勢預測模型",
+        "數據量化"
+      ]
     },
     {
       "id": "229fd0d3-6f0e-4d4e-a9d6-b0b04d618f39",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "此外，擔任吉他社主唱的經歷，讓我與來自不同科系的社員們一同創作、排練和演出。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域團隊協作"
+      },
+      "hashtags": [
+        "吉他社主唱",
+        "跨科系合作",
+        "創作演出"
+      ]
     },
     {
       "id": "106afd79-b1f2-4ded-b99e-e81d84626794",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "這不僅鍛鍊了我的溝通與團隊合作能力，也讓我意識到，就像音樂需要和弦的搭配才能產生美妙的樂章，解決複雜問題也常需要結合不同領域的知識與視角。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "團隊溝通協作",
+        "C3": "跨域問題洞察"
+      },
+      "hashtags": [
+        "溝通能力",
+        "團隊合作",
+        "跨領域知識"
+      ]
     },
     {
       "id": "5a1580cf-3fec-4000-b834-d688bd429753",
       "candidate_id": "mock_22",
       "section": "自傳",
       "content": "這種跨領域的思維模式，使我能夠更開放地探索資訊科學在各行各業的應用，並理解如何將技術與實際需求更緊密地結合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域思維模式",
+        "C3": "技術需求整合"
+      },
+      "hashtags": [
+        "跨領域思維",
+        "資訊科學應用",
+        "技術結合需求"
+      ]
     },
     {
       "id": "af5d4c86-3148-4d0c-b807-e59fcfede257",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "在大學期間，無論是與製造業的產學合作，或是高維度數據視覺化的課程專題，我深刻體驗到巨量資料在現代社會中的雙重性：它既是前所未有的寶藏，也帶來了前所未有的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "產學專題實作",
+        "C1": "巨量資料理解"
+      },
+      "hashtags": [
+        "製造業產學合作",
+        "高維度數據視覺化",
+        "巨量資料"
+      ]
     },
     {
       "id": "76cb3217-7bd2-4ad2-b755-c4e7a8245e79",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "我親身參與了如何從數 TB 的生產數據中提取價值，如何為高維度的感測器數據建立有效的異常偵測模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據價值提取",
+        "C3": "異常偵測模型建構"
+      },
+      "hashtags": [
+        "TB生產數據",
+        "數據價值提取",
+        "高維度感測器數據",
+        "異常偵測模型"
+      ]
     },
     {
       "id": "c75bdceb-5328-4821-a84f-2b2c8aa5fb37",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "這讓我意識到，儘管數據量龐大",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "數據挑戰洞察"
+      },
+      "hashtags": [
+        "數據量龐大"
+      ]
     },
     {
       "id": "0796178e-3b5f-4058-816d-a606b421a6ba",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "但若缺乏高效的處理框架、精準的分析方法以及對數據深層結構的理解，這些「寶藏」便可能變成難以駕馭的「負擔」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "數據處理挑戰分析",
+        "C1": "數據深層結構理解"
+      },
+      "hashtags": [
+        "高效處理框架",
+        "精準分析方法",
+        "數據深層結構"
+      ]
     },
     {
       "id": "72d49d4f-3862-4677-85dc-caf4f6570505",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "特別是在智慧製造專案中，我面對的是感測器數據的「高維度」與「高頻率」特性，這使得傳統的統計分析方法顯得力不從心。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "智慧製造專案經驗",
+        "C3": "傳統方法局限洞察"
+      },
+      "hashtags": [
+        "智慧製造專案",
+        "感測器數據",
+        "高維度數據",
+        "高頻率數據",
+        "傳統統計分析"
+      ]
     },
     {
       "id": "0774cadc-531f-46dd-b7cb-92df64df4a18",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "如何從龐雜且帶有雜訊的高維度數據中，精確地識別出影響系統效能的關鍵因子，並建立穩健的預測模型，成為我極欲深入探究的課題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "複雜數據問題定義",
+        "C1": "預測模型研究興趣"
+      },
+      "hashtags": [
+        "龐雜高維度數據",
+        "雜訊數據",
+        "關鍵因子識別",
+        "穩健預測模型"
+      ]
     },
     {
       "id": "206a8052-0c20-413d-890c-b56f5a60c64b",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "我發現自己對於如何有效地從海量資訊中挖掘知識，並將其轉化為具體的應用價值，抱持著極大的熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習熱情與應用導向",
+        "C3": "知識轉化應用思維"
+      },
+      "hashtags": [
+        "海量資訊挖掘",
+        "知識轉化應用"
+      ]
     },
     {
       "id": "404be5c8-1a34-409f-8094-8f60b000fcd3",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "國立陽明交通大學資工所，特別是在巨量資料與高維度資料分析領域的卓越研究成果與豐富課程資源，深深吸引了我。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所選擇動機",
+        "C1": "巨量資料研究興趣"
+      },
+      "hashtags": [
+        "陽明交大資工所",
+        "巨量資料分析",
+        "高維度資料分析"
+      ]
     },
     {
       "id": "71f4db68-1956-47a7-b1fb-43eb8bedf3fd",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "貴所不僅擁有頂尖的師資團隊",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所選擇動機"
+      },
       "hashtags": []
     },
     {
@@ -397,98 +784,211 @@
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "更提供了諸如「巨量資料分析」、「高等機器學習」、「深度學習」以及「高維度統計推論」等一系列與我興趣高度契合的課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業課程興趣",
+        "C4": "學習路徑規劃"
+      },
+      "hashtags": [
+        "巨量資料分析",
+        "高等機器學習",
+        "深度學習",
+        "高維度統計推論"
+      ]
     },
     {
       "id": "28a0b8d8-153d-4173-a5ec-90b7d4f68294",
       "candidate_id": "mock_22",
       "section": "其他",
       "content": "我相信在貴所嚴謹的學術氛圍與先進的研究平台下，我將能夠進一步深化我在巨量資料處理、高維度數據建模與資料探勘方面的理論基礎，並透過參與尖端研究專案，提升我的實務應用能力，為解決未來數據科學面臨的複雜挑戰做好準備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來學習與研究目標",
+        "C2": "實務應用能力提升",
+        "C3": "數據科學挑戰準備"
+      },
+      "hashtags": [
+        "巨量資料處理",
+        "高維度數據建模",
+        "資料探勘",
+        "尖端研究專案",
+        "數據科學挑戰"
+      ]
     },
     {
       "id": "6e6163cb-a803-4304-9651-a211688c2a15",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "鑑於我在巨量資料處理與高維度數據分析上的學習經驗與濃厚興趣，我希望在研究所階段深入探討以下研究方向：高維度資料的流形學習與非線性降維技術應用於巨量資料分析。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業研究方向確立",
+        "C4": "研究所研究規劃"
+      },
+      "hashtags": [
+        "巨量資料處理",
+        "高維度數據分析",
+        "流形學習",
+        "非線性降維技術"
+      ]
     },
     {
       "id": "29473a17-74b6-4446-84ac-929bda36de03",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "現今各領域生成的數據往往具備「高維度」的特性，例如物聯網感測器網絡、生物醫學數據（如基因表達、蛋白質體學）以及複雜系統的行為日誌。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "高維度數據問題認知",
+        "C1": "跨領域數據特性理解"
+      },
+      "hashtags": [
+        "高維度數據",
+        "物聯網感測器",
+        "生物醫學數據",
+        "基因表達",
+        "蛋白質體學"
+      ]
     },
     {
       "id": "8a5f0434-c9b0-43cf-ba28-9bd51f756d56",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "這些高維度數據經常伴隨著稀疏性、噪音以及潛在的非線性結構。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "高維度數據挑戰分析",
+        "C1": "數據複雜性理解"
+      },
+      "hashtags": [
+        "高維度數據",
+        "稀疏性",
+        "噪音",
+        "非線性結構"
+      ]
     },
     {
       "id": "1743916e-6b3b-4e14-9237-81a3cdb04210",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "但其內在的本質維度可能遠低於其觀測維度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "維度問題本質理解",
+        "C1": "數據維度理論認知"
+      },
+      "hashtags": [
+        "本質維度",
+        "觀測維度"
+      ]
     },
     {
       "id": "88b0eced-623f-4246-b0b0-560395885d69",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "若直接應用傳統的線性方法或維度約減技術，可能無法有效捕捉數據的真實分佈模式，甚至會損失關鍵資訊，導致後續的資料探勘與機器學習模型效能不彰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "傳統方法限制分析",
+        "C2": "模型效能問題認知"
+      },
+      "hashtags": [
+        "線性方法",
+        "維度約減技術",
+        "資料探勘",
+        "機器學習模型"
+      ]
     },
     {
       "id": "77e48a5e-6bde-4b23-a88c-4aadeffd1c6f",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "我的研究動機源於在智慧製造專案中遇到的挑戰：儘管我們使用了多種特徵工程方法",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題情境分析",
+        "C2": "專案挑戰洞察"
+      },
+      "hashtags": [
+        "智慧製造專案",
+        "特徵工程"
+      ]
     },
     {
       "id": "50734304-9773-4bc2-88ad-686544ff21b1",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "但面對數百維度的感測器數據，模型的解釋性與魯棒性仍有提升空間。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "模型限制分析"
+      },
+      "hashtags": [
+        "感測器數據",
+        "模型解釋性",
+        "模型魯棒性",
+        "高維度數據"
+      ]
     },
     {
       "id": "1531af47-0bc5-405b-bfb7-5de7fef48397",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "我意識到，或許數據背後存在著更低維度的流形結構，而透過流形學習等非線性降維技術，能夠在保留數據內在結構的前提下，更有效地提取有意義的潛在特徵，進而改善異常偵測、分類或聚類任務的表現。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術方案構思",
+        "C1": "進階技術應用理解"
+      },
+      "hashtags": [
+        "流形學習",
+        "非線性降維",
+        "異常偵測",
+        "分類",
+        "聚類"
+      ]
     },
     {
       "id": "54499e50-7d2b-4522-9798-a467f71cda60",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "我期望的研究內容包括：",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究規劃概述"
+      },
       "hashtags": []
     },
     {
@@ -496,62 +996,136 @@
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "1. **非線性降維演算法的理論與實踐**：深入研究如 Isomap、LLE (Locally Linear Embedding)、t-SNE、UMAP 以及Autoencoder 等非線性降維方法的數學原理與計算複雜度。比較它們在不同類型高維度巨量資料集（如感測器數據、基因數據、圖像特徵）上的表現與效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "演算法理論探究",
+        "C3": "多方法比較分析"
+      },
+      "hashtags": [
+        "非線性降維",
+        "Isomap",
+        "LLE",
+        "t-SNE",
+        "UMAP",
+        "Autoencoder",
+        "巨量資料集"
+      ]
     },
     {
       "id": "eff6d58c-fe30-416c-ae2f-53d26d505bd2",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "2. **流形學習在巨量資料上的擴展與優化**：探索如何將計算成本較高的流形學習方法應用於巨量資料。這可能涉及結合稀疏化技術、採樣策略、分而治之（Divide and Conquer）的策略，或利用分散式計算框架（如 Spark）來加速這些算法。例如，研究如何為大規模數據設計基於圖的近似鄰近搜索，以實現高效的流形學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "巨量資料演算法優化",
+        "C3": "計算效率提升策略"
+      },
+      "hashtags": [
+        "流形學習",
+        "巨量資料",
+        "稀疏化技術",
+        "採樣策略",
+        "Spark",
+        "分散式計算",
+        "近似鄰近搜索"
+      ]
     },
     {
       "id": "b0aea5d4-cbe7-40aa-8053-c9a89f5d0435",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "3. **高維度數據的解釋性與可視化**：研究如何將流形學習後的低維度嵌入結果，與原始高維度特徵建立可解釋的連結。這對於理解數據的內在機制、進行知識發現至關重要。同時，探索互動式高維度數據可視化工具，幫助領域專家更好地理解複雜數據。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "模型解釋性研究",
+        "C4": "數據可視化溝通"
+      },
+      "hashtags": [
+        "高維度數據",
+        "解釋性",
+        "可視化",
+        "知識發現",
+        "領域專家"
+      ]
     },
     {
       "id": "c2d7a180-7087-4e3d-8998-19ad4e991d1c",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "4. **應用於特定領域問題**：將所開發的高維度資料分析框架應用於具體的巨量資料問題，例如智慧製造中的複雜機台狀態監測、醫療影像分析中的病灶特徵提取、或是社交網路中的使用者行為模式識別，驗證其在真實世界場景中的有效性與優勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "跨領域應用驗證",
+        "C1": "實務場景整合"
+      },
+      "hashtags": [
+        "智慧製造",
+        "機台狀態監測",
+        "醫療影像分析",
+        "病灶特徵提取",
+        "社交網路",
+        "使用者行為識別",
+        "真實世界應用"
+      ]
     },
     {
       "id": "44d3868d-007f-429d-bbfb-af042fcf6248",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "我深信此研究方向與國立陽明交通大學資工所在巨量資料、機器學習與資料探勘領域的豐富研究資源與師資深度高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向契合度"
+      },
+      "hashtags": [
+        "陽明交通大學資工所",
+        "巨量資料",
+        "機器學習",
+        "資料探勘"
+      ]
     },
     {
       "id": "5deb6b9c-ea54-4c9b-9871-99c2bcb98cd2",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "期待能在貴所與學術前輩們一同探索，為解決高維度巨量資料的挑戰貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術貢獻意願"
+      },
+      "hashtags": [
+        "高維度巨量資料",
+        "學術探索"
+      ]
     },
     {
       "id": "19b5553e-a503-4630-b1c6-8dfbb9868551",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "短期計畫（入學前至第一學期）",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習階段規劃"
+      },
       "hashtags": []
     },
     {
@@ -559,53 +1133,107 @@
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**鞏固基礎知識：** 重新溫習高等微積分、線性代數與機率統計，尤其是多變量統計推論與優化理論，為進階課程打下堅實數學基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "數學基礎強化"
+      },
+      "hashtags": [
+        "高等微積分",
+        "線性代數",
+        "機率統計",
+        "多變量統計推論",
+        "優化理論"
+      ]
     },
     {
       "id": "b53fe07b-de78-430f-9c06-ed004a302132",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**強化程式與工具：** 精進 Python 數據科學相關函式庫（如 NumPy, Pandas, Scikit-learn, Matplotlib），並深入學習 PyTorch 或 TensorFlow 深度學習框架，熟悉其 API 與模型建構流程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式工具精進"
+      },
+      "hashtags": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "Scikit-learn",
+        "PyTorch"
+      ]
     },
     {
       "id": "af9114c6-5e3b-4345-bada-bec9a3d2a3d9",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**預習與文獻閱讀：** 預先閱讀交大資工所相關領域（巨量資料、機器學習、高維度分析）的推薦教材與經典論文，例如《The Elements of Statistical Learning》等，了解最新研究進展。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術文獻閱讀",
+        "C4": "研究領域探索"
+      },
+      "hashtags": [
+        "巨量資料",
+        "機器學習",
+        "高維度分析",
+        "The Elements of Statistical Learning"
+      ]
     },
     {
       "id": "32897d94-f9e3-499c-956b-3b27cb207d42",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**實驗室探索與導師交流：** 主動接觸與我研究興趣相符的教授，了解各實驗室的研究方向與專案，並積極參與實驗室例會，尋求擔任研究助理的機會。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究環境探索",
+        "C1": "研究興趣連結"
+      },
+      "hashtags": [
+        "實驗室探索",
+        "研究助理",
+        "導師交流"
+      ]
     },
     {
       "id": "64a30f43-cca3-4583-a6bc-299d7f8a26f8",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**參與研討會與工作坊：** 積極參與校內外的學術研討會或線上工作坊，拓展視野，了解學術前沿。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術視野拓展",
+        "C1": "學術前沿追蹤"
+      },
+      "hashtags": [
+        "學術研討會",
+        "線上工作坊"
+      ]
     },
     {
       "id": "d3552c8d-4134-4726-bca6-50059faa0222",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "中期計畫（第二學期至第二學年上學期）",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習階段規劃"
+      },
       "hashtags": []
     },
     {
@@ -613,53 +1241,111 @@
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**選修核心課程：** 根據選定教授的研究方向，修習如「巨量資料分析」、「高等機器學習」、「高維度統計推論」、「深度學習」等專業課程，深化理論知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業課程修習",
+        "C4": "學術方向深化"
+      },
+      "hashtags": [
+        "巨量資料分析",
+        "高等機器學習",
+        "高維度統計推論",
+        "深度學習"
+      ]
     },
     {
       "id": "1ed6b872-73c8-4db9-8e5b-e4d6e31d7fca",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**投入論文研究：** 在導師指導下，確立碩士論文具體題目，進行深入的文獻回顧，探索研究方法，並著手進行實驗設計與實作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "論文研究規劃",
+        "C3": "研究問題探索"
+      },
+      "hashtags": [
+        "碩士論文",
+        "文獻回顧",
+        "實驗設計"
+      ]
     },
     {
       "id": "69531b84-b3fb-40ab-824e-3c1a5a9dfd0d",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**參與研究專案：** 積極參與實驗室的專案，將所學理論應用於實際問題，例如利用流形學習於特定高維度數據集（如生醫訊號、物聯網數據）進行分析與建模。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "理論應用實作",
+        "C3": "實際問題分析"
+      },
+      "hashtags": [
+        "研究專案",
+        "流形學習",
+        "生醫訊號",
+        "物聯網數據",
+        "數據分析建模"
+      ]
     },
     {
       "id": "a326d83a-7b42-436f-9e2f-e3976c531102",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**提升學術交流能力：** 透過參與實驗室討論、學術報告，提升學術寫作與口頭報告能力，為論文發表與學術會議做準備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術溝通能力提升"
+      },
+      "hashtags": [
+        "學術寫作",
+        "口頭報告",
+        "論文發表",
+        "學術會議"
+      ]
     },
     {
       "id": "f8e14b8c-36ea-43db-9377-2a11183d8054",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**考取專業證照：** 評估考取如 AWS Certified Data Analytics - Specialty 或 Google Professional Data Engineer 等雲端巨量資料相關專業認證，以驗證實務技能。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "實務技能驗證",
+        "C4": "專業技能規劃"
+      },
+      "hashtags": [
+        "AWS認證",
+        "Google認證",
+        "雲端巨量資料",
+        "Data Analytics",
+        "Data Engineer"
+      ]
     },
     {
       "id": "ca03aa5e-96d2-4518-aaa3-4e48e9e31afb",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "長期計畫（第二學年下學期及畢業後）",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "長期發展規劃"
+      },
       "hashtags": []
     },
     {
@@ -667,35 +1353,76 @@
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**完成碩士論文並發表：** 在導師指導下，完成高品質的碩士論文，並爭取將研究成果投稿至國內外重要學術會議（如 KDD, NeurIPS, ICML）或期刊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術研究成果",
+        "C4": "研究成果發表"
+      },
+      "hashtags": [
+        "碩士論文",
+        "KDD",
+        "NeurIPS",
+        "ICML",
+        "學術期刊"
+      ]
     },
     {
       "id": "e67e309b-bc24-4adb-9de0-47de44bbc157",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**持續深耕專業領域：** 畢業後，無論是選擇投入業界擔任資料科學家、機器學習工程師，或是繼續攻讀博士學位，都將持續追蹤巨量資料與高維度分析領域的最新技術與發展。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃",
+        "C1": "專業知識深化"
+      },
+      "hashtags": [
+        "資料科學家",
+        "機器學習工程師",
+        "博士學位",
+        "巨量資料",
+        "高維度分析"
+      ]
     },
     {
       "id": "768b5fa8-e2c4-4084-8777-a324b00dc66c",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**貢獻開源社群：** 若有機會，將積極參與相關開源專案，分享研究成果與程式碼，回饋學術與技術社群。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "社群貢獻與分享",
+        "C2": "開源專案參與"
+      },
+      "hashtags": [
+        "開源社群",
+        "開源專案",
+        "程式碼分享",
+        "學術社群"
+      ]
     },
     {
       "id": "6fd11e93-4b3c-4606-a96b-12ef45817e30",
       "candidate_id": "mock_22",
       "section": "讀書計畫",
       "content": "**終身學習：** 保持對新興技術的好奇心與學習熱情，不斷提升自我，為社會貢獻所長，成為兼具理論與實務能力的頂尖資訊人才。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習態度",
+        "C1": "理論實務兼備"
+      },
       "hashtags": []
     },
     {
@@ -703,63 +1430,141 @@
       "candidate_id": "mock_22",
       "section": "加分文件",
       "content": "1. **成績單與排名證明：** 國立中興大學資訊工程學系完整學年成績單，顯示平均 GPA 3.8/4.3，並附有系排名前 15% 的證明，證明紮實的學術基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
+      "hashtags": [
+        "國立中興大學",
+        "資訊工程學系",
+        "系排前15%"
+      ]
     },
     {
       "id": "95f3a840-c017-4d5a-b754-20193249a101",
       "candidate_id": "mock_22",
       "section": "加分文件",
       "content": "2. **專題報告與程式碼：** 「智慧製造數據分析與異常偵測系統開發」產學合作專案的技術報告、架構圖，以及部分匿名化後的程式碼與 Jupyter Notebook 筆記，展示從數據整合、特徵工程到模型部署的完整實作能力。包含 Apache Spark、Cassandra、XGBoost 等工具的使用細節。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統開發實作",
+        "C3": "數據問題解決"
+      },
+      "hashtags": [
+        "智慧製造",
+        "異常偵測",
+        "產學合作",
+        "Apache Spark",
+        "Cassandra",
+        "XGBoost",
+        "Jupyter Notebook"
+      ]
     },
     {
       "id": "ff5d8df8-8d7e-4e34-9acc-c6c18bbf6f6a",
       "candidate_id": "mock_22",
       "section": "加分文件",
       "content": "3. **課程專題報告：** 「高維度數據視覺化與降維探討」課程專題報告，詳細介紹 PCA, t-SNE, UMAP 等方法的理論與實作比較，並附有基因數據可視化結果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "數據分析理論",
+        "C2": "數據視覺化應用"
+      },
+      "hashtags": [
+        "高維度數據",
+        "數據視覺化",
+        "降維",
+        "PCA",
+        "t-SNE",
+        "UMAP",
+        "基因數據"
+      ]
     },
     {
       "id": "eaa79c18-3526-4261-8a34-1bec2962d4a6",
       "candidate_id": "mock_22",
       "section": "加分文件",
       "content": "4. **語言能力證明：** 多益 (TOEIC) 聽讀測驗 905 分成績單，證明具備良好的英文讀寫能力，有利於國際學術交流與閱讀英文文獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "英文學術文獻閱讀",
+        "C4": "國際學術交流能力"
+      },
+      "hashtags": [
+        "多益905分",
+        "英文讀寫能力",
+        "國際學術交流"
+      ]
     },
     {
       "id": "8507dd35-7e92-4163-829f-fffb45371c05",
       "candidate_id": "mock_22",
       "section": "加分文件",
       "content": "5. **獲獎證明：** 曾獲得「全國大專院校數據分析競賽」佳作，證明在數據分析與問題解決方面的實戰能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據分析實戰能力",
+        "C3": "競賽問題解決能力"
+      },
+      "hashtags": [
+        "全國大專院校數據分析競賽",
+        "數據分析",
+        "問題解決",
+        "競賽佳作"
+      ]
     },
     {
       "id": "a133e39a-9100-46df-abfd-2a086f2e16d9",
       "candidate_id": "mock_22",
       "section": "加分文件",
       "content": "6. **社團參與證明：** 吉他社擔任主唱的證明，展現領導能力、團隊合作與溝通表達能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "團隊協作與溝通"
+      },
+      "hashtags": [
+        "吉他社主唱",
+        "領導能力",
+        "團隊合作",
+        "溝通表達"
+      ]
     },
     {
       "id": "3d25332e-2c06-46d6-bb1c-be4bb8050433",
       "candidate_id": "mock_22",
       "section": "加分文件",
       "content": "7. **線上課程結業證書：** Coursera 上「Deep Learning Specialization (by Andrew Ng)」以及「Big Data Specialization (by University of California, San Diego)」系列課程的結業證書，證明積極自主學習前沿知識的熱忱。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "前沿學術知識學習",
+        "C4": "自主學習熱忱"
+      },
+      "hashtags": [
+        "Coursera",
+        "Deep Learning Specialization",
+        "Andrew Ng",
+        "Big Data Specialization",
+        "UC San Diego"
+      ]
     }
   ]
 }

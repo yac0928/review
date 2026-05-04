@@ -10,621 +10,1337 @@
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "我是 [您的姓名], 就讀國立陽明交通大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景陳述"
+      },
+      "hashtags": [
+        "陽明交通大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "f63b2a15-bdb2-4184-9a39-e0f8a5219cd8",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "在大學四年的學習中，我始終保持對資訊科學的熱情與好奇，學業成績名列前茅，平均GPA達到 3.9/4.3，尤其在數位系統設計、計算機組織與演算法等核心課程表現優異。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程表現"
+      },
+      "hashtags": [
+        "數位系統設計",
+        "計算機組織",
+        "演算法"
+      ]
     },
     {
       "id": "677895ab-aa72-43b3-969b-c29da23b4eb2",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "除了紮實的學術背景，我更是一位街頭塗鴉藝術家。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "多元興趣展現"
+      },
+      "hashtags": [
+        "街頭塗鴉藝術家"
+      ]
     },
     {
       "id": "c8925bdd-87ab-4d16-9f36-73b4544a4a13",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "這項看似與資工領域無關的愛好，卻培養了我獨特的觀察力、創意思維與問題解決能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域能力連結",
+        "C3": "創意問題解決"
+      },
+      "hashtags": [
+        "觀察力",
+        "創意思維",
+        "問題解決能力"
+      ]
     },
     {
       "id": "88867c1b-7f08-4c22-a8e6-d24bf58206ca",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "塗鴉藝術的創作過程，從構思複雜的構圖、精準掌握色彩與空間比例，到在有限的街頭空間中快速執行，這種將抽象概念轉化為具體作品的能力，與硬體設計中將複雜演算法映射至實際電路架構的挑戰，有著異曲同工之妙。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "抽象具象轉化",
+        "C1": "跨域思維應用"
+      },
+      "hashtags": [
+        "塗鴉藝術創作",
+        "硬體設計",
+        "演算法映射電路"
+      ]
     },
     {
       "id": "1b1ad1bc-5f25-4725-9e0b-0f8fbcff25e2",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "我相信這種跨域的思考模式，能為我在未來研究加解密硬體架構與量子密碼計算時，帶來更廣闊的視野與創新的解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究展望",
+        "C1": "跨域研究潛力"
+      },
+      "hashtags": [
+        "加解密硬體架構",
+        "量子密碼計算",
+        "創新解決方案"
+      ]
     },
     {
       "id": "8f3a21a2-9590-4e39-b4c3-d3fee3520e1b",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "在大三至大四期間，我深入參與了實驗室的專題研究，主題為「基於晶格的量子抗性密碼（Post-Quantum Cryptography, PQC）演算法 CRYSTALS-Kyber 於 FPGA 平台之硬體加速器設計與實現」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題研究參與",
+        "C1": "前瞻技術研究"
+      },
+      "hashtags": [
+        "實驗室專題研究",
+        "量子抗性密碼",
+        "CRYSTALS-Kyber",
+        "FPGA平台",
+        "硬體加速器"
+      ]
     },
     {
       "id": "4b6c0c92-6528-455e-8c0e-2bdda71f31be",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "此專案旨在應對未來量子電腦對現有密碼學基礎設施的潛在威脅。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題背景理解",
+        "C2": "技術應用目的"
+      },
+      "hashtags": [
+        "量子電腦威脅",
+        "密碼學基礎設施"
+      ]
     },
     {
       "id": "4cd8bc49-645b-4bc3-8e71-8e6cd74856d9",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "我的主要職責是針對 Kyber 演算法中的核心運算，如多項式乘法（Number Theoretic Transform, NTT）及模運算，進行硬體架構設計與最佳化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體架構設計",
+        "C3": "演算法最佳化"
+      },
+      "hashtags": [
+        "Kyber演算法",
+        "多項式乘法",
+        "NTT",
+        "模運算",
+        "硬體最佳化"
+      ]
     },
     {
       "id": "5d066f40-e987-47dd-a015-b040d9298ce1",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "具體而言，我使用 Verilog HDL 實現了 Kyber-512 版本的鍵生成、加密與解密模組。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體模組實現"
+      },
+      "hashtags": [
+        "Verilog HDL",
+        "Kyber-512",
+        "鍵生成",
+        "加密模組",
+        "解密模組"
+      ]
     },
     {
       "id": "e21a5d01-37a7-4ae7-a6ec-4df04b163026",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "為了提升吞吐量，我設計了一個多級管線化的 NTT 處理單元，將每個蝴蝶（butterfly）運算拆分成多個時脈週期，並在同一時脈週期內處理多個資料對，成功將單次多項式乘法的延遲從約 15000 個時脈週期降低至 3200 個時脈週期。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體架構設計與優化",
+        "C3": "效能瓶頸分析與解決"
+      },
+      "hashtags": [
+        "NTT處理單元",
+        "多級管線化",
+        "多項式乘法",
+        "吞吐量優化",
+        "延遲降低"
+      ]
     },
     {
       "id": "079a3852-3b5f-43c0-860e-7ab228566cb6",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "針對 FPGA 資源限制，我探討了不同乘法器實現方式（例如利用 DSP Slice 或 LUTs），並採用共享資源策略，使不同階段的運算單元得以複用，最終將邏輯資源（LUTs）使用率控制在 25% 以內，而 DSP Slice 使用率則在 60% 左右。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "FPGA資源優化設計",
+        "C3": "硬體資源限制解決"
+      },
+      "hashtags": [
+        "FPGA資源限制",
+        "乘法器實現",
+        "DSP Slice",
+        "LUTs",
+        "共享資源策略"
+      ]
     },
     {
       "id": "8303f50f-8502-45b1-ae68-bfd99238fa43",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "但在設計初期也初步考量了邊信道攻擊（Side-Channel Attacks, SCA）的可能性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "安全風險預先考量",
+        "C1": "資訊安全知識應用"
+      },
+      "hashtags": [
+        "邊信道攻擊",
+        "SCA"
+      ]
     },
     {
       "id": "85108b94-3ff2-4754-bf5d-c89d29959c81",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "我研究了簡單的亂序執行（shuffling）和資料獨立操作（data-independent operations）策略，以減少功耗分析（Power Analysis）的資訊洩露，為未來深入研究打下基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "資訊安全防禦研究",
+        "C3": "功耗分析資訊洩漏防護"
+      },
+      "hashtags": [
+        "亂序執行",
+        "資料獨立操作",
+        "功耗分析",
+        "資訊洩露"
+      ]
     },
     {
       "id": "065cdc32-3c65-450f-b165-e0545e275a60",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "我使用 Xilinx Vivado 設計套件進行了綜合、佈局與路由，並在 ZedBoard Zynq-7000 系列 FPGA 開發板上完成了實測驗證，達到了預期的功能與效能指標，加密吞吐量達到約 50 Mbps。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "FPGA開發與實測驗證"
+      },
+      "hashtags": [
+        "Xilinx Vivado",
+        "ZedBoard Zynq-7000",
+        "FPGA開發板",
+        "實測驗證",
+        "加密吞吐量"
+      ]
     },
     {
       "id": "19dcf24d-054d-4a2a-b1a8-44790fa2da09",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "此外，我也參與了另一個關於安全晶片設計的專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案參與經驗",
+        "C1": "安全晶片設計領域"
+      },
+      "hashtags": [
+        "安全晶片設計專案"
+      ]
     },
     {
       "id": "23f04477-c411-4ce3-b3e5-16e50c5eab75",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "在這個協同研究中，我們目標是為低功耗物聯網（IoT）設備開發一個整合硬體亂數產生器（True Random Number Generator, TRNG）的輕量級加解密模組。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "物聯網安全研究目標",
+        "C2": "協同專案目標設定"
+      },
+      "hashtags": [
+        "低功耗物聯網",
+        "IoT設備",
+        "硬體亂數產生器",
+        "TRNG",
+        "輕量級加解密模組"
+      ]
     },
     {
       "id": "7b206da3-780f-46bb-8bdc-d3f0ee22383e",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "我的主要貢獻在於設計和實現一個高效且符合 NIST SP 800-90B 標準的基於 Ring Oscillator 的 TRNG，並將其與輕量級區塊密碼（如 Speck/Simon）整合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "TRNG設計與整合",
+        "C3": "標準符合性與效率達成"
+      },
+      "hashtags": [
+        "NIST SP 800-90B",
+        "Ring Oscillator",
+        "TRNG",
+        "輕量級區塊密碼",
+        "Speck/Simon"
+      ]
     },
     {
       "id": "9c14613c-6ce9-4e4d-b7ae-5c3e926dfbe2",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "我負責在 Verilog 中實現 TRNG 的熵源採集、後處理（如健康檢查與去偏機制），並通過統計測試（NIST SP 800-22）驗證其亂數品質。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "Verilog硬體實現",
+        "C3": "亂數品質驗證"
+      },
+      "hashtags": [
+        "Verilog",
+        "TRNG熵源採集",
+        "後處理機制",
+        "NIST SP 800-22",
+        "亂數品質驗證"
+      ]
     },
     {
       "id": "5dd4fa9c-e6cd-4754-9d0d-f889d79cf0de",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "最終，我成功在小型 FPGA 上實現了一個面積僅為 500 LUTs 的 TRNG，產生速度可達 2 Mbps，並與一個 64 位元區塊加密器模組成功整合，展示了其在資源受限環境下的實用性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "FPGA實作與整合",
+        "C3": "資源受限環境優化"
+      },
+      "hashtags": [
+        "小型FPGA",
+        "500 LUTs",
+        "TRNG",
+        "2 Mbps",
+        "64位元區塊加密器",
+        "資源受限環境"
+      ]
     },
     {
       "id": "97325f5b-6b03-4827-8287-fb82a57d37f1",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "除了資訊工程的專業訓練，我對跨領域學習一直抱持開放態度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學習態度"
+      },
+      "hashtags": [
+        "資訊工程",
+        "跨領域學習"
+      ]
     },
     {
       "id": "8e485909-ddee-432f-9048-cc9a2d7c9ca6",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "我的街頭塗鴉藝術經驗，讓我對「結構」與「流程」有了更直觀的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域概念理解",
+        "C1": "藝術經驗連結"
+      },
+      "hashtags": [
+        "街頭塗鴉藝術",
+        "結構理解",
+        "流程理解"
+      ]
     },
     {
       "id": "2250f36f-8fe6-4d69-aee8-e7dd4b83604a",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "例如，一幅成功的塗鴉作品，需要預先規劃色彩層次、筆觸走向，以及如何在有限時間內將多個元素協調融合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "專案規劃能力",
+        "C2": "元素協調融合"
+      },
+      "hashtags": [
+        "塗鴉作品規劃",
+        "色彩層次",
+        "筆觸走向",
+        "時間管理",
+        "元素融合"
+      ]
     },
     {
       "id": "91dd4bf5-a70b-4e73-9277-55e28b7d7c04",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "這與硬體設計中，將複雜的運算邏輯分解為獨立模組、定義模組間的介面、並在時序約束下實現整合的過程極為相似。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域類比思考",
+        "C1": "硬體設計連結"
+      },
+      "hashtags": [
+        "硬體設計",
+        "運算邏輯分解",
+        "模組介面",
+        "時序約束",
+        "跨域類比"
+      ]
     },
     {
       "id": "af7e88fa-4a88-46ce-a89e-f690153e8eb4",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "為了深化這種跨領域的思維，我選修了「數位藝術與互動設計」課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域思維深化"
+      },
+      "hashtags": [
+        "數位藝術與互動設計",
+        "跨領域思維"
+      ]
     },
     {
       "id": "bcbdb886-5434-4928-9174-5536563aa1d0",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "學習了色彩理論、構圖原則與使用者體驗設計。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "數位藝術知識"
+      },
+      "hashtags": [
+        "色彩理論",
+        "構圖原則",
+        "使用者體驗設計"
+      ]
     },
     {
       "id": "1cdc12df-3b79-47e9-9080-49b341bb5684",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "這些課程讓我跳脫純粹的程式邏輯，從「人」的角度思考系統設計的「美學」與「可用性」，理解到即使是冰冷的硬體，其設計哲學也能從藝術中汲取靈感——追求效率的同時，也應兼顧其「優雅」與「精巧」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域設計思維",
+        "C1": "人本設計理念"
+      },
+      "hashtags": [
+        "程式邏輯跳脫",
+        "系統設計美學",
+        "系統可用性",
+        "硬體設計哲學",
+        "優雅精巧設計"
+      ]
     },
     {
       "id": "3d3df9f3-617f-479a-ab98-1c7cf0bbbce2",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "例如，在設計 Kyber 加速器時，我不僅追求極致的時脈頻率，也試圖讓其內部資料流線條簡潔，減少不必要的複雜性，這正是藝術中「化繁為簡」的應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體設計實踐",
+        "C3": "簡潔設計應用"
+      },
+      "hashtags": [
+        "Kyber加速器",
+        "時脈頻率優化",
+        "資料流線條簡潔",
+        "化繁為簡",
+        "硬體設計"
+      ]
     },
     {
       "id": "04d7b856-6087-45a5-b2c5-5f1641a6f428",
       "candidate_id": "mock_23",
       "section": "自傳",
       "content": "這些經驗讓我體認到，跨領域的學習不僅是知識的廣度，更是提升解決問題深度與創新的關鍵。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域問題解決",
+        "C1": "創新思維體認"
+      },
+      "hashtags": [
+        "跨領域學習價值",
+        "問題解決深度",
+        "創新關鍵"
+      ]
     },
     {
       "id": "82060981-ee97-41a1-be22-43022df82d35",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "在大學期間，我深入參與了兩項與硬體安全相關的專案，特別是在量子抗性密碼（PQC）硬體加速器與輕量級加密模組的設計與實現上，累積了寶貴的實務經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體安全專案",
+        "C1": "密碼學硬體實務"
+      },
+      "hashtags": [
+        "硬體安全專案",
+        "量子抗性密碼",
+        "PQC硬體加速器",
+        "輕量級加密模組",
+        "實務經驗"
+      ]
     },
     {
       "id": "59fe3e3b-8d2d-4330-8c2e-02540e5b9339",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "這些經歷讓我深切感受到，資訊安全已從純粹的軟體層面，延伸到更底層、更根本的硬體層次。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "資訊安全趨勢洞察",
+        "C3": "資安問題範疇理解"
+      },
+      "hashtags": [
+        "資訊安全",
+        "硬體層次",
+        "軟體層面"
+      ]
     },
     {
       "id": "73f2a385-fa4f-4174-ba47-dea4ce89a618",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "面對日益複雜的網路威脅、側信道攻擊的精進，以及未來量子計算機對現有密碼學基礎的顛覆性挑戰，單純的軟體防護已顯得力不從心，發展強韌、高效且安全的硬體加密解決方案變得刻不容緩。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "資安挑戰分析與對策",
+        "C1": "前瞻技術趨勢理解"
+      },
+      "hashtags": [
+        "網路威脅",
+        "側信道攻擊",
+        "量子計算機",
+        "密碼學",
+        "硬體加密解決方案"
+      ]
     },
     {
       "id": "02bf5e7b-7556-4b8e-884c-6c1cc07bbf00",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "特別是 PQC 硬體加速器的開發，讓我意識到將複雜的數學演算法有效映射到硬體架構中的巨大挑戰與潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體加速器開發挑戰",
+        "C3": "演算法硬體映射思維"
+      },
+      "hashtags": [
+        "PQC硬體加速器",
+        "數學演算法",
+        "硬體架構映射"
+      ]
     },
     {
       "id": "df9e9e12-1ec7-4673-aabe-56dfb820cb31",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "這不僅是性能的提升，更是國家資訊基礎設施安全的保障。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術社會影響認知",
+        "C3": "資安重要性洞察"
+      },
+      "hashtags": [
+        "國家資訊安全",
+        "基礎設施保障"
+      ]
     },
     {
       "id": "6f831421-1433-49a2-83bd-2509e612a849",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "而現有的硬體加密技術，仍存在面積、功耗、吞吐量以及抗攻擊性等多方面的瓶頸，這些都是亟待解決的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "硬體加密技術瓶頸分析",
+        "C1": "現有技術限制理解"
+      },
+      "hashtags": [
+        "硬體加密技術",
+        "面積功耗瓶頸",
+        "吞吐量",
+        "抗攻擊性"
+      ]
     },
     {
       "id": "3c684244-82a2-4184-9a13-88aab018236c",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "國立陽明交通大學資訊工程學系在密碼學、資安與晶片系統設計領域擁有國際頂尖的師資與研究資源，特別是在「加解密硬體架構」、「量子密碼與計算」等領域深耕多年，這與我的研究興趣高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究興趣與系所契合",
+        "C1": "系所研究領域認知"
+      },
+      "hashtags": [
+        "陽明交通大學",
+        "密碼學",
+        "資安",
+        "晶片系統設計",
+        "加解密硬體架構",
+        "量子密碼與計算"
+      ]
     },
     {
       "id": "8019e60d-8fac-4b96-82fc-31f599ff04cc",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我渴望在貴系所的殿堂中，接受更系統、更深入的學術訓練，利用貴所先進的實驗設備與前瞻性的研究方向，突破現有技術限制，為建立更安全的數位世界貢獻一己之力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成長與貢獻願景"
+      },
+      "hashtags": [
+        "學術訓練",
+        "實驗設備",
+        "研究方向",
+        "數位世界安全"
+      ]
     },
     {
       "id": "37b599d1-8c05-4392-8158-80b9f14b8a0f",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我相信貴系所能提供我最佳的平台，將我在硬體安全領域的潛力最大化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "潛力發展平台認同"
+      },
+      "hashtags": [
+        "硬體安全領域",
+        "潛力最大化"
+      ]
     },
     {
       "id": "00239dc3-8582-440d-84c7-8212b2300ea6",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我期望在交大資工所深耕於「加解密硬體架構」與「量子密碼與計算」領域，特別是聚焦於以下兩個具體方向：",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究方向規劃",
+        "C1": "專業領域深耕意願"
+      },
+      "hashtags": [
+        "交大資工所",
+        "加解密硬體架構",
+        "量子密碼與計算"
+      ]
     },
     {
       "id": "1faad1e7-61a7-453f-946f-5671e0893bdc",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "如前所述，我參與了 Kyber 演算法的 FPGA 硬體加速器設計。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "FPGA硬體加速器設計"
+      },
+      "hashtags": [
+        "Kyber演算法",
+        "FPGA",
+        "硬體加速器設計"
+      ]
     },
     {
       "id": "faa31dcc-978c-4849-8cd9-0e4ce7a0de9b",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "但我發現現有 PQC 演算法的硬體實作仍面臨巨大挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題洞察與分析",
+        "C1": "專業知識應用"
+      },
+      "hashtags": [
+        "PQC演算法",
+        "硬體實作"
+      ]
     },
     {
       "id": "53968fd2-e54e-4889-b889-bff7075e6ca2",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "例如，基於晶格的 Kyber 和 Dilithium 演算法，其多項式運算在面積、功耗和延遲方面消耗巨大。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術問題分析",
+        "C1": "專業知識深度"
+      },
+      "hashtags": [
+        "Kyber演算法",
+        "Dilithium演算法",
+        "晶格密碼",
+        "多項式運算",
+        "面積功耗延遲"
+      ]
     },
     {
       "id": "2082fff0-12ae-4898-8244-d4363c75d168",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我希望深入研究如何利用更精巧的微架構設計、異質運算（如整合 RISC-V 核心與客製化指令集）或專用硬體加速器（ASIC）技術，大幅提升 PQC 演算法的運算效率，同時維持其抗邊信道攻擊（Side-Channel Attacks, SCA）的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向規劃",
+        "C2": "硬體技術應用構想"
+      },
+      "hashtags": [
+        "微架構設計",
+        "異質運算",
+        "RISC-V核心",
+        "ASIC",
+        "PQC演算法",
+        "邊信道攻擊"
+      ]
     },
     {
       "id": "a850d059-8be0-40c5-9112-cf3ea50cfcd9",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "具體而言，我對研究如何設計具備隨機延遲、亂序執行、或基於遮罩（masking）技術的 PQC 硬體架構以抵抗差分功耗分析（DPA）和電磁分析（EMA）攻擊極感興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "具體研究興趣",
+        "C1": "硬體安全專業知識"
+      },
+      "hashtags": [
+        "隨機延遲",
+        "亂序執行",
+        "遮罩技術",
+        "PQC硬體架構",
+        "差分功耗分析",
+        "電磁分析"
+      ]
     },
     {
       "id": "ad9ae9d7-9bd8-411f-8d92-4d1511496c82",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "目標是設計出能夠同時滿足高吞吐量與強抗攻擊性的 PQC 加密晶片，使其能在未來各種安全應用中部署，從 IoT 設備到雲端伺服器。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究目標與願景",
+        "C2": "晶片設計應用目標"
+      },
+      "hashtags": [
+        "PQC加密晶片",
+        "高吞吐量",
+        "強抗攻擊性",
+        "IoT設備",
+        "雲端伺服器"
+      ]
     },
     {
       "id": "ba5d9da0-f0cb-4991-aca8-ff270c27de2f",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "隨著量子計算技術的發展，除了量子抗性密碼，量子密碼學本身也提供了絕對安全的通訊可能性，特別是量子金鑰分發（Quantum Key Distribution, QKD）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "量子密碼學知識",
+        "C3": "前瞻技術洞察"
+      },
+      "hashtags": [
+        "量子計算",
+        "量子密碼學",
+        "量子金鑰分發",
+        "QKD"
+      ]
     },
     {
       "id": "f3499374-8b04-45e7-aeea-9480eb0eff65",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我對將量子亂數產生器（Quantum Random Number Generators, QRNG）與QKD相關光學及電子硬體進行系統級整合深感興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "具體研究興趣",
+        "C2": "系統整合能力"
+      },
+      "hashtags": [
+        "量子亂數產生器",
+        "QRNG",
+        "QKD",
+        "光學硬體",
+        "電子硬體",
+        "系統級整合"
+      ]
     },
     {
       "id": "1911db7b-c5c6-4c53-bf6c-06f6a3c9677a",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我的目標是研究如何設計高效能、低功耗且易於集成的 QRNG 硬體模組，並探討其在實際通訊系統中的應用，例如與安全通訊協定（如 TLS/SSL）的硬體加速層結合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究目標與應用",
+        "C2": "硬體模組設計"
+      },
+      "hashtags": [
+        "QRNG硬體模組",
+        "高效能",
+        "低功耗",
+        "TLS/SSL",
+        "硬體加速層"
+      ]
     },
     {
       "id": "6c654d97-676a-47ac-a59f-4d55c2ef84ee",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "這項研究不僅需克服量子物理的工程挑戰，也需在硬體層面實現高效的光電轉換與訊號處理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨領域挑戰分析",
+        "C1": "跨域學科整合"
+      },
+      "hashtags": [
+        "量子物理",
+        "工程挑戰",
+        "光電轉換",
+        "訊號處理"
+      ]
     },
     {
       "id": "4e4f1d42-9b3e-4c76-bc83-1ed51a6b142c",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我認為這將是未來資訊安全領域的關鍵突破，而交大資工所豐富的光電與資通訊研究資源，將為我提供絕佳的研究環境。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域發展願景"
+      },
+      "hashtags": [
+        "資訊安全",
+        "交大資工所",
+        "光電研究",
+        "資通訊研究"
+      ]
     },
     {
       "id": "04323506-f7fa-4de8-b924-8947884ad561",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我深信，我的硬體設計背景、對密碼學的理解，以及獨特的跨領域思維（如街頭塗鴉中對「結構」、「流程」與「藝術性」的結合），將使我在這些前瞻性研究方向上更具潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景整合",
+        "C3": "跨域思維應用"
+      },
+      "hashtags": [
+        "硬體設計",
+        "密碼學",
+        "跨領域思維",
+        "街頭塗鴉"
+      ]
     },
     {
       "id": "44e33f3b-6870-4c96-9998-8106b430215e",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "我期望能與貴所教授合作，一同為構築下一代更安全的數位基礎設施貢獻力量。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究目標規劃"
+      },
+      "hashtags": [
+        "數位基礎設施",
+        "資安貢獻"
+      ]
     },
     {
       "id": "7d2a46cb-2731-41db-ae0d-e1aded899086",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "深入研讀高等離散數學、高等數論、抽象代數等，特別是密碼學所需數學基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "密碼學數學基礎"
+      },
+      "hashtags": [
+        "高等離散數學",
+        "高等數論",
+        "抽象代數",
+        "密碼學數學"
+      ]
     },
     {
       "id": "8d702bed-7af4-420c-9f0e-2c50e5603b85",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "複習計算機結構、數位邏輯設計與編譯器原理，為進階硬體安全課程做準備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "硬體安全基礎"
+      },
+      "hashtags": [
+        "計算機結構",
+        "數位邏輯設計",
+        "編譯器原理",
+        "硬體安全"
+      ]
     },
     {
       "id": "ecef9f33-29bf-4919-b280-6ebc2623c796",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "熟練掌握 SystemVerilog 與 UVM 驗證方法，學習高階綜合（High-Level Synthesis, HLS）工具（如 Xilinx Vitis HLS 或 Cadence Stratus HLS），提升設計效率與驗證能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體設計驗證"
+      },
+      "hashtags": [
+        "SystemVerilog",
+        "UVM驗證",
+        "高階綜合HLS",
+        "Xilinx Vitis HLS",
+        "Cadence Stratus HLS"
+      ]
     },
     {
       "id": "214bb420-aec0-4b23-a709-203392346b2c",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "積極旁聽或選修「高等密碼學」、「量子資訊與計算」、「VLSI設計」等相關課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階課程規劃"
+      },
+      "hashtags": [
+        "高等密碼學",
+        "量子資訊與計算",
+        "VLSI設計"
+      ]
     },
     {
       "id": "616e9064-4238-455b-bf6c-cf0fa99e7c54",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "閱讀指導教授近期發表論文，了解實驗室具體研究方向與專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索"
+      },
+      "hashtags": [
+        "指導教授論文",
+        "實驗室研究",
+        "專案了解"
+      ]
     },
     {
       "id": "554a25a1-caf9-450f-bf97-dca3376ae7d5",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "主動與學長姐交流，熟悉實驗室運作模式與研究工具，並參與校內外資安研討會或讀書會，拓寬學術視野。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術社群參與"
+      },
+      "hashtags": [
+        "學長姐交流",
+        "實驗室運作",
+        "資安研討會",
+        "讀書會"
+      ]
     },
     {
       "id": "33ac6481-6486-4907-8fcd-8bb048b63d65",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "每日閱讀至少一篇英文學術論文，並練習學術口說與寫作，為未來撰寫論文及國際交流打下基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術溝通能力"
+      },
+      "hashtags": [
+        "英文學術論文",
+        "學術口說",
+        "學術寫作",
+        "國際交流準備"
+      ]
     },
     {
       "id": "49b0bad9-545d-405a-bba1-04d4dff235c9",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "選修「密碼硬體實作與攻擊」、「可信任平台模組」、「先進計算機架構」等進階課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階專業課程"
+      },
+      "hashtags": [
+        "密碼硬體實作",
+        "密碼硬體攻擊",
+        "可信任平台模組",
+        "先進計算機架構"
+      ]
     },
     {
       "id": "ff027a5f-d584-4644-bae5-622fc1bde8eb",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "在指導教授指導下，投入特定 PQC 演算法（如 Dilithium 或 FALCON）的硬體加速器設計或抗邊信道攻擊 PQC 實作專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "PQC硬體加速器實作",
+        "C1": "PQC演算法學術應用"
+      },
+      "hashtags": [
+        "PQC演算法",
+        "Dilithium",
+        "FALCON",
+        "硬體加速器",
+        "邊信道攻擊"
+      ]
     },
     {
       "id": "b7103b0e-a3e6-440a-aa86-22a60d45d804",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "積極參與實驗室進行中的產學合作或國科會專案，負責部分模組的設計、驗證與最佳化，累積實際專案經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "模組設計與最佳化",
+        "C4": "產學專案實務經驗"
+      },
+      "hashtags": [
+        "產學合作",
+        "國科會專案",
+        "模組設計",
+        "驗證最佳化"
+      ]
     },
     {
       "id": "d02e23b6-9f8a-46dc-812c-3abbeca73100",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "針對研究成果，撰寫學術論文並投稿至國際重要會議（如 CHES, HOST, AsiaCrypt）或期刊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術論文發表",
+        "C1": "國際學術成果"
+      },
+      "hashtags": [
+        "學術論文",
+        "國際會議",
+        "CHES",
+        "HOST",
+        "AsiaCrypt"
+      ]
     },
     {
       "id": "fe86b54b-7f21-4ab6-87ce-9051bacb6b6a",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "學習如何整合硬體加速器與軟體驅動程式，實現完整的系統級加密解決方案，並評估其在真實世界應用中的性能與安全性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統級加密整合",
+        "C3": "性能安全性評估"
+      },
+      "hashtags": [
+        "硬體加速器",
+        "軟體驅動程式",
+        "系統級加密",
+        "性能評估",
+        "安全性評估"
+      ]
     },
     {
       "id": "49e329e1-b603-4c2f-a091-f7ab892a581a",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "嘗試將藝術思維融入硬體設計，例如探索視覺化工具用於硬體設計錯誤分析，或將演算法的「美感」映射到硬體架構的「優雅」上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "藝術跨域整合",
+        "C3": "創新設計思維"
+      },
+      "hashtags": [
+        "藝術思維",
+        "硬體設計",
+        "視覺化工具",
+        "錯誤分析",
+        "演算法美感"
+      ]
     },
     {
       "id": "0d1ff6a9-4f04-4875-b9f2-124fe8bba19a",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "聚焦於前瞻性的 PQC 硬體安全或量子亂數產生技術，完成具有原創性與學術深度的碩士論文，並達到國際學術發表水準。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "前瞻研究與原創性",
+        "C4": "碩士論文發表水準"
+      },
+      "hashtags": [
+        "PQC硬體安全",
+        "量子亂數產生",
+        "碩士論文",
+        "國際學術發表"
+      ]
     },
     {
       "id": "dd57a5ee-61ac-4ff7-bf5a-5e89a029e1be",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "深入研究特定 PQC 演算法的國際標準化進程，並嘗試提出改進方案或新的硬體加速架構。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "PQC標準化研究",
+        "C3": "創新架構改進"
+      },
+      "hashtags": [
+        "PQC演算法",
+        "國際標準化",
+        "改進方案",
+        "硬體加速架構"
+      ]
     },
     {
       "id": "6ba53da7-a1ae-4b9e-93be-4b3128b8c7ed",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "進入半導體設計公司、資安解決方案供應商或科技大廠的硬體安全研發部門，從事 PQC 晶片設計、安全微控制器開發、或量子安全產品規劃等工作，將研究成果轉化為實際產品。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業職涯規劃",
+        "C2": "研發成果產品化"
+      },
+      "hashtags": [
+        "半導體設計",
+        "資安解決方案",
+        "科技大廠",
+        "硬體安全研發",
+        "PQC晶片設計",
+        "量子安全產品"
+      ]
     },
     {
       "id": "4d173d46-e85f-49a0-b715-edf83b1ef818",
       "candidate_id": "mock_23",
       "section": "讀書計畫",
       "content": "考量攻讀博士學位，持續在密碼學硬體與量子計算領域進行前瞻性研究，為人類資訊安全與量子科技的發展貢獻長期心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "博士學位規劃",
+        "C1": "前瞻學術研究"
+      },
+      "hashtags": [
+        "博士學位",
+        "密碼學硬體",
+        "量子計算",
+        "前瞻研究",
+        "資訊安全"
+      ]
     },
     {
       "id": "9b9ceed9-f5fd-4dbf-8c6f-68ef6b14decb",
@@ -640,72 +1356,161 @@
       "candidate_id": "mock_23",
       "section": "加分文件",
       "content": "我將提供一份數位作品集，展示我多年來的塗鴉藝術作品。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "藝術作品呈現"
+      },
+      "hashtags": [
+        "塗鴉藝術作品",
+        "數位作品集"
+      ]
     },
     {
       "id": "7ca5cb6f-4eb7-4f0f-abab-5ccf63b75c17",
       "candidate_id": "mock_23",
       "section": "加分文件",
       "content": "這不僅是展現個人興趣，更重要的是，我會附上詳細的創作理念說明，闡述如何將這些藝術創作中所需的空間規劃、色彩搭配、抽象概念具象化、在時間壓力下高效完成等能力，類比並應用於複雜的硬體系統設計與問題解決。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域能力轉化應用",
+        "C3": "抽象概念具象化"
+      },
+      "hashtags": [
+        "空間規劃",
+        "色彩搭配",
+        "抽象概念具象化",
+        "硬體系統設計",
+        "跨域應用"
+      ]
     },
     {
       "id": "73c96735-ba0d-465f-aa6c-37161ec22322",
       "candidate_id": "mock_23",
       "section": "加分文件",
       "content": "這份作品集證明我具備卓越的視覺思考能力、創意思維以及將抽象概念轉化為具體實踐的執行力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "視覺思考與創意實踐",
+        "C4": "專案執行能力"
+      },
+      "hashtags": [
+        "視覺思考",
+        "創意思維",
+        "抽象具體轉化",
+        "執行力"
+      ]
     },
     {
       "id": "9427e4fe-61d5-4b75-8977-563c6d382f49",
       "candidate_id": "mock_23",
       "section": "加分文件",
       "content": "我曾參與 TICD 數位IC設計組，團隊設計了一款用於邊緣運算的輕量級神經網路推論加速器。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "IC設計專案參與",
+        "C1": "邊緣運算知識"
+      },
+      "hashtags": [
+        "TICD",
+        "數位IC設計",
+        "邊緣運算",
+        "神經網路加速器"
+      ]
     },
     {
       "id": "2fc91168-71f1-4b1b-ad0b-7995bc69a136",
       "candidate_id": "mock_23",
       "section": "加分文件",
       "content": "我的主要貢獻是實現了乘加單元（MAC Unit）的低功耗最佳化設計，並使用後量化（post-quantization）技術，將 8-bit 量化模型實作於硬體，成功在面積與功耗受限的情況下，達到與 16-bit 模型相近的推論準確度，獲得佳作肯定。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體最佳化實作",
+        "C3": "資源限制下問題解決"
+      },
+      "hashtags": [
+        "乘加單元",
+        "MAC Unit",
+        "低功耗設計",
+        "後量化",
+        "8-bit 量化",
+        "硬體實作"
+      ]
     },
     {
       "id": "941e8202-d610-4516-a381-c8c89303c075",
       "candidate_id": "mock_23",
       "section": "加分文件",
       "content": "除了硬體描述語言，我熟練掌握 Python、C++ 等程式語言，並提供 LeetCode 上百題的刷題紀錄與個人 GitHub 儲存庫連結，展示我在演算法與資料結構方面的實作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "程式語言與演算法基礎",
+        "C2": "演算法實作能力"
+      },
+      "hashtags": [
+        "Python",
+        "C++",
+        "LeetCode",
+        "演算法",
+        "資料結構",
+        "GitHub"
+      ]
     },
     {
       "id": "9ac0bb5b-318f-4104-9b67-14ca10894c20",
       "candidate_id": "mock_23",
       "section": "加分文件",
       "content": "GitHub 專案包括數個小型軟體工具，如一個基於 Python 實現的簡單密碼學演算法模擬器，以輔助理解硬體實現前的演算法行為。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "軟體工具開發",
+        "C1": "演算法行為理解"
+      },
+      "hashtags": [
+        "GitHub 專案",
+        "Python",
+        "密碼學演算法",
+        "演算法模擬器"
+      ]
     },
     {
       "id": "bf696493-49c6-4dfa-acb8-94f90be3d7e8",
       "candidate_id": "mock_23",
       "section": "加分文件",
       "content": "提供成績單證明學業成績名列前茅，並附上校內書卷獎、資訊工程學系專題成果發表競賽特優獎狀等證明，展現我在學術上的努力與卓越表現。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績與榮譽",
+        "C2": "專題競賽成果"
+      },
+      "hashtags": [
+        "學業名列前茅",
+        "書卷獎",
+        "資工系專題競賽",
+        "特優獎狀"
+      ]
     }
   ]
 }

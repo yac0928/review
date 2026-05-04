@@ -10,243 +10,513 @@
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "我是張○豪，就讀於國立陽明交通大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景介紹"
+      },
+      "hashtags": [
+        "陽明交通大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "5e3aa482-47c8-402f-ab43-bd70877937b6",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "在校期間，我對計算機架構與數位電路設計產生了極大熱忱。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣展現",
+        "C4": "學習熱忱與方向"
+      },
+      "hashtags": [
+        "計算機架構",
+        "數位電路設計"
+      ]
     },
     {
       "id": "7fba3c39-0fa3-478d-ae30-bbc9da5e2062",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "歷年平均成績為 92 分，其中數位邏輯、計算機組織與微處理器等核心科目皆取得 A+。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心科目表現"
+      },
+      "hashtags": [
+        "數位邏輯",
+        "計算機組織",
+        "微處理器"
+      ]
     },
     {
       "id": "25a68d72-9206-4515-827e-e65c5991ed8b",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "除了專業學術，我長期擔任交大管樂團的長號手。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外活動參與"
+      },
+      "hashtags": [
+        "交大管樂團",
+        "長號手"
+      ]
     },
     {
       "id": "3052a409-7a91-47ca-92e9-71b48f837533",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "在樂團合奏中，每一聲部必須在極其精確的時序（Timing）內精準切入，這種對節奏與平衡的病態追求，深刻影響了我對硬體電路時序設計（Timing Closure）的嚴謹態度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域經驗連結",
+        "C4": "專業態度養成"
+      },
+      "hashtags": [
+        "樂團合奏",
+        "時序設計",
+        "Timing Closure"
+      ]
     },
     {
       "id": "6aa8b0ba-a430-4924-98b2-615d9fa37ccb",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "我認為一個優秀的硬體架構，應如同完美的交響樂章，資料流（Dataflow）的每一拍動都需經過嚴格計算與優化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "硬體架構理解",
+        "C3": "設計理念闡述"
+      },
+      "hashtags": [
+        "硬體架構",
+        "資料流",
+        "Dataflow"
+      ]
     },
     {
       "id": "f8dcff10-0336-4845-948d-4c379783a0b2",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "在大三期間，我因優異的專題表現被選為課程助教，協助管理超過 100 位學生的 FPGA 開發實驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題成果認可",
+        "C4": "助教經驗與領導"
+      },
+      "hashtags": [
+        "課程助教",
+        "FPGA開發實驗",
+        "專題表現優異"
+      ]
     },
     {
       "id": "25e79df9-87dd-40d0-b6c2-84edf2ba5f6c",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "我負責編寫 Verilog 教材，引導學生理解如何透過管線化（Pipelining）技術與數據前饋（Data Forwarding）機制來優化處理器的時序路徑。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體優化技術應用",
+        "C4": "技術教材編寫"
+      },
+      "hashtags": [
+        "Verilog教材",
+        "管線化",
+        "Pipelining",
+        "數據前饋",
+        "Data Forwarding",
+        "處理器優化"
+      ]
     },
     {
       "id": "24b78bb3-84f9-4285-9283-d7f1d55db655",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "這是我第一次嘗試將複雜的硬體邏輯透過具體的圖形化範例清楚傳達給他人。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "溝通策略應用",
+        "C4": "複雜概念傳達"
+      },
+      "hashtags": [
+        "硬體邏輯",
+        "圖形化範例",
+        "資訊傳達"
+      ]
     },
     {
       "id": "43098c51-74d6-4ecf-99d9-2b5c9d7dc0e9",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "透過此次經驗，我學習到教學相長的價值，並了解如何針對不同程度的學員調整技術深度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "學習策略調整",
+        "C4": "教學經驗反思"
+      },
+      "hashtags": [
+        "教學相長",
+        "技術深度調整",
+        "學員差異化教學"
+      ]
     },
     {
       "id": "5a491973-1611-4f47-81fd-ac5727ec8a2d",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "在專題期間，我參與了與國內知名 IC 設計廠的產學合作專案，重點探討抗量子加密（PQC）演算法在硬體層級的映射優化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "產學專案參與與技術應用"
+      },
+      "hashtags": [
+        "IC設計廠",
+        "產學合作",
+        "抗量子加密",
+        "PQC演算法",
+        "硬體映射優化"
+      ]
     },
     {
       "id": "6c794670-10f5-483d-8e26-82936ff022f1",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "我主要負責設計一套具備物理抗攻擊性（Side-channel Resistance）的加法器架構。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體架構設計與實作"
+      },
+      "hashtags": [
+        "物理抗攻擊性",
+        "Side-channel Resistance",
+        "加法器架構"
+      ]
     },
     {
       "id": "078868ab-fd80-4414-833a-f2080b6d6564",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "在實作過程中，我發現傳統架構在面對大數據吞吐時，常因組合邏輯過長導致頻率無法提升。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術問題洞察與分析"
+      },
+      "hashtags": [
+        "傳統架構限制",
+        "大數據吞吐",
+        "組合邏輯過長",
+        "頻率提升瓶頸"
+      ]
     },
     {
       "id": "1144210d-3367-4c7a-a0c6-ed9b9e131d43",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "我嘗試將整個運算單元拆解為多個時鐘週期處理，並透過細緻的關鍵路徑分析（Critical Path Analysis），在不顯著增加功耗的前提下，成功將系統運作頻率提升了 30%。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "創新解決方案實踐",
+        "C2": "效能優化與技術應用"
+      },
+      "hashtags": [
+        "運算單元拆解",
+        "時鐘週期處理",
+        "關鍵路徑分析",
+        "Critical Path Analysis",
+        "系統頻率提升"
+      ]
     },
     {
       "id": "ee0e70a9-f20a-40a5-a0be-1964217c547b",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "這段專案經歷讓我學習到，硬體應用的優化需從資料流向、運算邏輯與評分指標（如面積與延遲的權衡）三部分去進行深入研究。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業知識深化與反思",
+        "C3": "優化策略思維"
+      },
+      "hashtags": [
+        "硬體應用優化",
+        "資料流向",
+        "運算邏輯",
+        "面積延遲權衡"
+      ]
     },
     {
       "id": "09d8a709-507f-41b1-86c0-752dc6c676ad",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "除了硬體工程，我亦主動修習理學院的「量子力學基礎」與「線性代數進階」等課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨領域學術修習"
+      },
+      "hashtags": [
+        "量子力學基礎",
+        "線性代數進階",
+        "理學院課程",
+        "跨領域學習"
+      ]
     },
     {
       "id": "63aedfef-d71c-48af-b8d4-2bdb4301b8c6",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "透過跨領域學習，我了解到跨領域不單是知識的結合，更是換位思考的過程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習方法論反思",
+        "C1": "跨域學習認知"
+      },
+      "hashtags": [
+        "跨領域學習",
+        "換位思考"
+      ]
     },
     {
       "id": "caa43528-874a-41ff-9d61-b94fdba3ccae",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "例如在解決加解密電路的面積優化問題時，我發現解答可以用線性代數中的矩陣變換方法來簡化，而非單純套用既有的硬體庫公式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域知識應用",
+        "C3": "創新問題解決"
+      },
+      "hashtags": [
+        "加解密電路",
+        "面積優化",
+        "線性代數",
+        "矩陣變換",
+        "硬體庫公式"
+      ]
     },
     {
       "id": "f51cec4c-8148-4090-923a-1e7feef2e0f9",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "這種修習不同領域課程的經驗，讓我發現解決硬體瓶頸的方法不只一個，利用多維度的觀點能更精準地挑戰技術極限。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學習效益認知",
+        "C3": "多維度問題分析"
+      },
+      "hashtags": [
+        "硬體瓶頸",
+        "多維度觀點",
+        "技術極限挑戰"
+      ]
     },
     {
       "id": "e05d0668-3d3d-482f-95b0-f8a24a16b005",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "在參與晶片設計專案時，我意識到現有的對稱與非對稱加密硬體，在未來量子計算衝擊下將面臨毀滅性的脆弱性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "未來技術趨勢洞察",
+        "C4": "產業前瞻性思考"
+      },
+      "hashtags": [
+        "晶片設計專案",
+        "對稱加密",
+        "非對稱加密",
+        "量子計算衝擊",
+        "硬體脆弱性"
+      ]
     },
     {
       "id": "78f9b3fa-6735-4043-8dea-94704f846691",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "尤其在當今大數據時代，保護海量隱私數據的安全性已成為一個極為重要的研究課題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "研究議題洞察",
+        "C3": "議題重要性分析"
+      },
+      "hashtags": [
+        "大數據時代",
+        "隱私數據安全",
+        "研究課題"
+      ]
     },
     {
       "id": "31f711ae-cab7-442f-ba80-7b68194429d0",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "不僅企業面臨挑戰，我們日常生活中儲存的數位資產也需具備更強韌的底層保護機制。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "應用場景理解",
+        "C3": "問題影響範圍分析"
+      },
+      "hashtags": [
+        "企業挑戰",
+        "數位資產保護",
+        "底層保護機制"
+      ]
     },
     {
       "id": "c5c94319-69b6-483a-9b15-144938c010a8",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "因此，如何設計出既能處理大量數據、又具備高度安全性的抗量子硬體架構，成為我希望能進一步深入探討的方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向確立",
+        "C3": "技術解決方案構想"
+      },
+      "hashtags": [
+        "抗量子硬體架構",
+        "數據處理",
+        "高度安全性"
+      ]
     },
     {
       "id": "dfb6cf18-399e-4808-9b5d-277ae337c0ff",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "國立陽明交通大學數據科學與工程研究所整合了資訊與理學的專業學科資源，這將幫助我學習如何在數據科學的核心技術中，實踐更具前瞻性的安全硬體應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習目標與系所連結",
+        "C1": "跨域資源整合理解"
+      },
+      "hashtags": [
+        "陽明交通大學",
+        "數據科學與工程",
+        "資訊理學整合",
+        "安全硬體應用"
+      ]
     },
     {
       "id": "9962c449-33b5-47d3-be71-92942af061ab",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "雖然我們身處大數據時代，但在硬體安全領域，關於側寫攻擊（SCA）的標籤化資料庫依然十分匱乏。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術瓶頸分析",
+        "C1": "領域知識深度"
+      },
+      "hashtags": [
+        "硬體安全",
+        "側寫攻擊",
+        "SCA",
+        "標籤化資料庫匱乏"
+      ]
     },
     {
       "id": "644ccd94-d64a-4792-9268-00ed375d0bdc",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "即使想利用機器學習來優化硬體防禦模型，卻常因真實攻擊樣本不足，難以構建有效的預測邏輯。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術應用限制分析",
+        "C2": "ML模型構建挑戰"
+      },
+      "hashtags": [
+        "機器學習",
+        "硬體防禦模型",
+        "真實攻擊樣本不足",
+        "預測邏輯"
+      ]
     },
     {
       "id": "dd8e3547-a94c-4a26-ae7c-d6135cbfedc6",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "此外，在產學合作的驗證階段，資料涉及高度機密性，必須透過人工進行採集與標註。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "實務資料採集挑戰",
+        "C2": "產學合作資料處理"
+      },
+      "hashtags": [
+        "產學合作",
+        "資料機密性",
+        "人工採集",
+        "資料標註"
+      ]
     },
     {
       "id": "cf895d58-ae9d-4d5e-a94f-7f4261755366",
@@ -262,126 +532,263 @@
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "我曾嘗試將約一百筆波形資料經由大型語言模型擴展，但發現生成的結果在物理特性的準確度上品質不佳，甚至出現與硬體運作邏輯相左的幻覺性錯誤內容。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "LLM應用嘗試與評估",
+        "C3": "實驗結果批判性分析"
+      },
+      "hashtags": [
+        "波形資料擴展",
+        "大型語言模型",
+        "LLM",
+        "物理特性準確度",
+        "幻覺性錯誤",
+        "硬體運作邏輯"
+      ]
     },
     {
       "id": "7be8a81a-1587-4f53-a01d-2de7683d914b",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "在模型訓練過程中，資料的數量與品質對安全性判斷有顯著影響。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "ML基礎原理理解",
+        "C3": "模型效能關鍵因素分析"
+      },
+      "hashtags": [
+        "模型訓練",
+        "資料數量",
+        "資料品質",
+        "安全性判斷"
+      ]
     },
     {
       "id": "7ebb9629-c63a-4e7b-9865-da4a612ba962",
       "candidate_id": "mock_3",
       "section": "自傳",
       "content": "因此，我希望能深入探討如何利用有限的硬體實測資料，透過合成數據技術有效擴充至高品質的研究方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向規劃",
+        "C3": "資料擴充策略"
+      },
+      "hashtags": [
+        "有限硬體資料",
+        "合成數據技術",
+        "研究方向"
+      ]
     },
     {
       "id": "d28b6104-6150-4de3-bed1-451aec85074e",
       "candidate_id": "mock_3",
       "section": "讀書計畫",
       "content": "觀看 IBM Technology 關於量子密碼學的最新技術影片，了解全球 PQC 標準化的演進趨勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業趨勢追蹤"
+      },
+      "hashtags": [
+        "IBM Technology",
+        "量子密碼學",
+        "PQC標準化"
+      ]
     },
     {
       "id": "88adfed9-e7d7-4e02-91bd-713f834e5066",
       "candidate_id": "mock_3",
       "section": "讀書計畫",
       "content": "參與國際性硬體安全社群（如 OpenTitan 計畫），加強英文文獻閱讀能力並與國際開發者進行技術校稿。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "國際社群參與"
+      },
+      "hashtags": [
+        "OpenTitan計畫",
+        "國際開發者",
+        "技術校稿",
+        "英文文獻閱讀"
+      ]
     },
     {
       "id": "78ac3f4c-c371-4859-9212-ac957ff565da",
       "candidate_id": "mock_3",
       "section": "讀書計畫",
       "content": "修習人工智慧與統計基礎課程，為碩士階段的智慧化硬體分析打下基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "基礎學科修習",
+        "C4": "碩士學程準備"
+      },
+      "hashtags": [
+        "人工智慧課程",
+        "統計基礎課程",
+        "智慧化硬體分析"
+      ]
     },
     {
       "id": "237a20b3-4dd2-4e09-9e2d-ddddfdbd3b13",
       "candidate_id": "mock_3",
       "section": "讀書計畫",
       "content": "修習人工智慧相關進階課程，加強在「硬體安全分析」與「高效能計算系統」上的實作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階學科修習",
+        "C2": "專業實作能力"
+      },
+      "hashtags": [
+        "人工智慧進階課程",
+        "硬體安全分析",
+        "高效能計算系統"
+      ]
     },
     {
       "id": "393fb0a8-06a1-4f5e-a694-67446340d13c",
       "candidate_id": "mock_3",
       "section": "讀書計畫",
       "content": "從事資料科學應用於硬體漏洞偵測的研究，研究如何管理海量的模擬數據並萃取出關鍵的安全弱點。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料科學應用",
+        "C3": "漏洞偵測研究"
+      },
+      "hashtags": [
+        "資料科學",
+        "硬體漏洞偵測",
+        "海量模擬數據",
+        "安全弱點萃取"
+      ]
     },
     {
       "id": "54f0ed2c-f6f9-403e-9cd1-83ee8f735740",
       "candidate_id": "mock_3",
       "section": "讀書計畫",
       "content": "爭取至晶圓代工或 IC 設計大廠進行產學實習，將所學架構應用於真實晶片設計流程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "產業實務應用",
+        "C4": "職涯實習規劃"
+      },
+      "hashtags": [
+        "晶圓代工",
+        "IC設計大廠",
+        "產學實習",
+        "晶片設計流程"
+      ]
     },
     {
       "id": "d01bf9d2-3eda-43ce-a20f-365e9700e03a",
       "candidate_id": "mock_3",
       "section": "讀書計畫",
       "content": "從事安全晶片研發工程師或系統架構師相關工作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯目標設定"
+      },
+      "hashtags": [
+        "安全晶片研發",
+        "系統架構師"
+      ]
     },
     {
       "id": "03330fcc-a263-4b59-80d5-09cbcb44ac6c",
       "candidate_id": "mock_3",
       "section": "讀書計畫",
       "content": "持續精進技術，期許能引導台灣半導體產業在抗量子安全領域達成超乎期待的研發成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業貢獻願景"
+      },
+      "hashtags": [
+        "台灣半導體產業",
+        "抗量子安全",
+        "研發成果"
+      ]
     },
     {
       "id": "48fbd81b-8eb6-4832-b08c-4f8c5ca8b380",
       "candidate_id": "mock_3",
       "section": "加分文件",
       "content": "核心成績：計算機組織 A+、數位電路設計 98 分、微處理器應用 A。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程表現"
+      },
+      "hashtags": [
+        "計算機組織",
+        "數位電路設計",
+        "微處理器應用"
+      ]
     },
     {
       "id": "bf939a3b-2ce6-4e5c-96a0-1245a7964d25",
       "candidate_id": "mock_3",
       "section": "加分文件",
       "content": "專業榮譽：交大資工專案研究佳作獎、管樂團 70 週年紀念音樂會校友團演出紀錄與網站維護證明。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案實作成果",
+        "C4": "多元課外參與"
+      },
+      "hashtags": [
+        "交大資工",
+        "專案研究",
+        "管樂團",
+        "網站維護"
+      ]
     },
     {
       "id": "94fd42b4-d3d5-4121-a2df-6dd4593600d5",
       "candidate_id": "mock_3",
       "section": "加分文件",
       "content": "技術能力：精通 Verilog、SystemVerilog、FPGA 原型開發及 Python 數據分析。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體開發與數據分析"
+      },
+      "hashtags": [
+        "Verilog",
+        "SystemVerilog",
+        "FPGA",
+        "Python",
+        "數據分析"
+      ]
     }
   ]
 }
