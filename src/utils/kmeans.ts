@@ -91,24 +91,22 @@ export function kMeans(vectors: number[][], k: number, maxIter = 150): KMeansRes
   return { labels, centroids, inertia };
 }
 
-// Average silhouette score: higher is better (range [-1, 1])
-export function silhouetteScore(vectors: number[][], labels: number[]): number {
+// Per-sample silhouette scores (range [-1, 1]; negative = likely in wrong cluster)
+export function perSampleSilhouetteScores(vectors: number[][], labels: number[]): number[] {
   const normalized = normalizeVectors(vectors);
   const n = normalized.length;
   const k = Math.max(...labels) + 1;
 
-  if (k < 2 || k >= n) return 0;
+  if (k < 2 || k >= n) return new Array(n).fill(0);
 
   const scores: number[] = [];
 
   for (let i = 0; i < n; i++) {
-    // intra-cluster mean distance
     const sameCluster = normalized.filter((_, j) => j !== i && labels[j] === labels[i]);
     const a = sameCluster.length === 0
       ? 0
       : sameCluster.reduce((s, v) => s + Math.sqrt(euclideanSq(normalized[i], v)), 0) / sameCluster.length;
 
-    // nearest other-cluster mean distance
     let b = Infinity;
     for (let c = 0; c < k; c++) {
       if (c === labels[i]) continue;
@@ -118,10 +116,18 @@ export function silhouetteScore(vectors: number[][], labels: number[]): number {
       if (meanDist < b) b = meanDist;
     }
 
-    const maxAB = Math.max(a, b);
-    scores.push(maxAB === 0 ? 0 : (b - a) / maxAB);
+    const bVal = b === Infinity ? 0 : b;
+    const maxAB = Math.max(a, bVal);
+    scores.push(maxAB === 0 ? 0 : (bVal - a) / maxAB);
   }
 
+  return scores;
+}
+
+// Average silhouette score: higher is better (range [-1, 1])
+export function silhouetteScore(vectors: number[][], labels: number[]): number {
+  const scores = perSampleSilhouetteScores(vectors, labels);
+  if (scores.length === 0) return 0;
   return scores.reduce((s, x) => s + x, 0) / scores.length;
 }
 

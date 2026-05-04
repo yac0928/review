@@ -9,8 +9,8 @@
  *   npm run step3
  *
  * Options (env vars):
- *   MIN_K   minimum number of clusters to try (default: 2)
- *   MAX_K   maximum number of clusters to try (default: 6)
+ *   MIN_K   minimum number of clusters to try (default: 3)
+ *   MAX_K   maximum number of clusters to try (default: 10)
  *
  * After this step runs, **human review** is recommended:
  *   1. Open output/standard_dictionary.json
@@ -44,8 +44,8 @@ function printDictionarySummary(dict: StandardDictionary) {
 }
 
 async function main() {
-  const minK = parseInt(process.env.MIN_K ?? '2', 10);
-  const maxK = parseInt(process.env.MAX_K ?? '6', 10);
+  const minK = parseInt(process.env.MIN_K ?? '3', 10);
+  const maxK = parseInt(process.env.MAX_K ?? '10', 10);
 
   console.log(`[Step 3] Starting Sub-criteria convergence (K range: ${minK}–${maxK})`);
   console.log(`[Step 3] Reading from: ${config.outputDir}`);

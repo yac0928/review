@@ -2,12 +2,13 @@ import fs from 'fs';
 import path from 'path';
 import { callGeminiJSON } from './gemini';
 import { embedTexts } from './embedder';
-import { findBestK } from '../utils/kmeans';
-import { CLUSTER_NAMING_SYSTEM_PROMPT, buildClusterNamingPrompt } from '../prompts/clusterNaming';
+import { findBestK, perSampleSilhouetteScores } from '../utils/kmeans';
+import { CLUSTER_NAMING_SYSTEM_PROMPT, buildAllClustersNamingPrompt } from '../prompts/clusterNaming';
 import { Candidate, CriterionId, StandardSubCriteria, StandardDictionary, CRITERIA } from '../types';
 
 const INTER_CRITERION_DELAY_MS = 2_000;
-const INTER_CLUSTER_DELAY_MS = 1_500;
+// Labels with per-sample silhouette below this go to the "others" bucket
+const OUTLIER_SILHOUETTE_THRESHOLD = 0.0;
 
 // ── Step 3a: collect raw labels per criterion ──────────────────────────────
 
@@ -19,7 +20,7 @@ interface LabelEntry {
 function collectRawLabels(
   outputDir: string
 ): Record<CriterionId, LabelEntry[]> {
-  const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.json'));
+  const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.json') && f !== 'standard_dictionary.json');
   const freq: Partial<Record<CriterionId, Map<string, number>>> = {};
 
   for (const criterionId of Object.keys(CRITERIA) as CriterionId[]) {
@@ -49,29 +50,31 @@ function collectRawLabels(
   return result;
 }
 
-// ── Step 3c: name a single cluster via LLM ─────────────────────────────────
+// ── Step 3c: name all clusters in one LLM call ────────────────────────────
 
-async function nameCluster(
+async function nameAllClusters(
   criterionId: CriterionId,
-  rawLabels: string[]
-): Promise<string> {
-  const userPrompt = buildClusterNamingPrompt(criterionId, rawLabels);
-  const result = await callGeminiJSON<{ name: string }>(
+  clusters: Array<{ labels: string[] }>
+): Promise<string[]> {
+  const userPrompt = buildAllClustersNamingPrompt(criterionId, clusters);
+  const result = await callGeminiJSON<{ names: string[] }>(
     CLUSTER_NAMING_SYSTEM_PROMPT,
     userPrompt
   );
-  if (typeof result?.name !== 'string' || result.name.trim().length === 0) {
-    throw new Error(`Cluster naming returned invalid result for ${criterionId}`);
+  if (!Array.isArray(result?.names) || result.names.length !== clusters.length) {
+    throw new Error(
+      `Cluster naming returned invalid result for ${criterionId}: expected ${clusters.length} names, got ${JSON.stringify(result)}`
+    );
   }
-  return result.name.trim();
+  return result.names.map((n: string) => n.trim());
 }
 
 // ── Step 3 main orchestrator ───────────────────────────────────────────────
 
 export async function buildStandardDictionary(
   outputDir: string,
-  minK = 2,
-  maxK = 6
+  minK = 3,
+  maxK = 10
 ): Promise<StandardDictionary> {
   console.log('\n[Step 3] Collecting raw sub-criteria labels from output files...');
   const rawByC = collectRawLabels(outputDir);
@@ -100,33 +103,47 @@ export async function buildStandardDictionary(
     const { k, result: clusterResult } = findBestK(embeddings, minK, maxK);
     console.log(`[Step 3] ${criterionId}: best K=${k}`);
 
-    // Group labels by cluster
-    const clusters: Map<number, string[]> = new Map();
+    // Identify outliers via per-sample silhouette
+    const sampleScores = perSampleSilhouetteScores(embeddings, clusterResult.labels);
+    const outlierLabels: string[] = [];
+    const mainClusterMap: Map<number, string[]> = new Map();
+
     for (let i = 0; i < labels.length; i++) {
-      const cid = clusterResult.labels[i];
-      if (!clusters.has(cid)) clusters.set(cid, []);
-      clusters.get(cid)!.push(labels[i]);
+      if (sampleScores[i] < OUTLIER_SILHOUETTE_THRESHOLD) {
+        outlierLabels.push(labels[i]);
+      } else {
+        const cid = clusterResult.labels[i];
+        if (!mainClusterMap.has(cid)) mainClusterMap.set(cid, []);
+        mainClusterMap.get(cid)!.push(labels[i]);
+      }
     }
 
-    // Step 3c: name each cluster
+    // Remove empty clusters (all members became outliers)
+    const mainClusters = Array.from(mainClusterMap.entries())
+      .filter(([, clusterLabels]) => clusterLabels.length > 0)
+      .sort(([a], [b]) => a - b)
+      .map(([, clusterLabels]) => ({ labels: clusterLabels }));
+
+    console.log(`[Step 3] ${criterionId}: ${mainClusters.length} main cluster(s), ${outlierLabels.length} outlier(s)`);
+
     const subCriteria: StandardSubCriteria[] = [];
 
-    const clusterEntries = Array.from(clusters.entries())
-      .sort(([a], [b]) => a - b);
+    if (mainClusters.length > 0) {
+      console.log(`[Step 3] Naming all ${mainClusters.length} cluster(s) for ${criterionId}...`);
+      const names = await nameAllClusters(criterionId, mainClusters);
 
-    for (let si = 0; si < clusterEntries.length; si++) {
-      const [, clusterLabels] = clusterEntries[si];
-      const subId = `${criterionId}_S${si + 1}`;
-
-      console.log(`[Step 3] Naming cluster ${subId} (${clusterLabels.length} labels)...`);
-      const name = await nameCluster(criterionId, clusterLabels);
-      console.log(`  → ${subId}: "${name}"`);
-
-      subCriteria.push({ id: subId, name, raw_labels: clusterLabels });
-
-      if (si < clusterEntries.length - 1) {
-        await new Promise(r => setTimeout(r, INTER_CLUSTER_DELAY_MS));
+      for (let si = 0; si < mainClusters.length; si++) {
+        const subId = `${criterionId}_S${si + 1}`;
+        console.log(`  → ${subId}: "${names[si]}" (${mainClusters[si].labels.length} labels)`);
+        subCriteria.push({ id: subId, name: names[si], raw_labels: mainClusters[si].labels });
       }
+    }
+
+    // Append "others" bucket for outliers
+    if (outlierLabels.length > 0) {
+      const othersId = `${criterionId}_others`;
+      console.log(`  → ${othersId}: "其他面向" (${outlierLabels.length} labels)`);
+      subCriteria.push({ id: othersId, name: '其他面向', raw_labels: outlierLabels });
     }
 
     dictionary[criterionId] = subCriteria;
