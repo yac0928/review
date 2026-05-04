@@ -10,8 +10,12 @@
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "我是[學生姓名]，就讀國立台灣科技大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景介紹"
+      },
       "hashtags": []
     },
     {
@@ -19,180 +23,389 @@
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "大學期間，我專注於系統軟體與嵌入式系統的學習與實作，累積了紮實的程式設計能力與硬體互動經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業領域專注",
+        "C2": "程式與硬體實作"
+      },
+      "hashtags": [
+        "系統軟體",
+        "嵌入式系統",
+        "程式設計",
+        "硬體互動"
+      ]
     },
     {
       "id": "db4462b7-b8ef-4e82-895f-ffd960156b8f",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "我的學業成績表現優異，GPA 達到 3.6/4.3 (約 85/100 分)，尤其在作業系統、計算機結構及嵌入式系統相關課程中表現突出。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績與專業課程"
+      },
+      "hashtags": [
+        "作業系統",
+        "計算機結構",
+        "嵌入式系統"
+      ]
     },
     {
       "id": "0bafc466-52db-4005-8bd0-8bd938c08c79",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "除了學術追求，我對咖啡沖煮藝術也有深入研究，並取得了專業咖啡沖煮師執照",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "多元興趣與專業認證"
+      },
+      "hashtags": [
+        "咖啡沖煮藝術",
+        "咖啡沖煮師執照"
+      ]
     },
     {
       "id": "d843e13f-4421-4df2-8824-06c06239f9c6",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "這讓我學會了對細節的極致追求與流程的最佳化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "流程優化思維",
+        "C4": "自我反思與成長"
+      },
+      "hashtags": [
+        "細節追求",
+        "流程最佳化"
+      ]
     },
     {
       "id": "6dec976a-4125-4048-b08a-a899c6d38bd6",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "在大學的畢業專題中，我與團隊成員共同投入一項關於「高效能即時作業系統於異質多核 SoC 的排程與功耗最佳化」的研究。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "研究主題確立",
+        "C2": "專題研究參與"
+      },
+      "hashtags": [
+        "畢業專題",
+        "高效能即時作業系統",
+        "異質多核SoC",
+        "排程與功耗最佳化"
+      ]
     },
     {
       "id": "d19b8278-5f77-4987-8ef6-eeb828c5a5e2",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "該專案旨在解決嵌入式裝置日益複雜且對即時性要求嚴苛的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案目標設定",
+        "C3": "問題情境分析"
+      },
+      "hashtags": [
+        "嵌入式裝置",
+        "即時性挑戰"
+      ]
     },
     {
       "id": "b7e56e61-9566-4de0-b281-284f3684de98",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "我們選擇了基於 ARM Cortex-A53 與 Cortex-M4 異質架構的 Xilinx Zynq UltraScale+ MPSoC 作為硬體平台，並將重點放在 FreeRTOS 在 Cortex-M4 上的任務排程優化，以及 Linux Kernel 在 Cortex-A53 上的資源管理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "技術架構理解",
+        "C2": "技術選型與應用"
+      },
+      "hashtags": [
+        "ARM Cortex-A53",
+        "Cortex-M4",
+        "Xilinx Zynq",
+        "FreeRTOS",
+        "Linux Kernel"
+      ]
     },
     {
       "id": "2fbc31c8-90aa-4ab2-bf14-082c26ec2810",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "在專案初期，我負責研究並實作 FreeRTOS 任務的優先級繼承協議 (Priority Inheritance Protocol) 和天井協議 (Ceiling Protocol)，以減少多任務環境中的優先級反轉問題，確保關鍵即時任務的確定性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "核心技術實作",
+        "C3": "即時系統問題解決"
+      },
+      "hashtags": [
+        "FreeRTOS",
+        "優先級繼承協議",
+        "天井協議",
+        "優先級反轉",
+        "即時任務確定性"
+      ]
     },
     {
       "id": "4c979ad5-9e3d-40e0-a7b9-62c53883bdfd",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "透過示波器量測與系統追蹤工具 (如 SEGGER SystemView)，我們成功將一組具時限性的感測器資料處理任務的平均最差執行時間 (Worst-Case Execution Time, WCET) 從 500 微秒降低至 350 微秒，提升了約 30% 的即時響應性能。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗驗證與成效",
+        "C3": "量化成果分析"
+      },
+      "hashtags": [
+        "示波器量測",
+        "SEGGER SystemView",
+        "WCET",
+        "即時響應性能",
+        "30%性能提升"
+      ]
     },
     {
       "id": "1f09589e-b835-46b4-b0e8-6071dfa42e98",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "專案中期，我進一步探索了在異質多核架構下，如何透過電源管理單元 (PMU) 協同 Linux 進行動態電壓頻率調整 (DVFS) 與電源閘控 (Power Gating)，以達成功耗最佳化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "功耗最佳化技術應用",
+        "C1": "異質多核架構理解"
+      },
+      "hashtags": [
+        "異質多核架構",
+        "電源管理單元PMU",
+        "動態電壓頻率調整DVFS",
+        "電源閘控PowerGating",
+        "功耗最佳化"
+      ]
     },
     {
       "id": "293b8db6-984d-4e5e-9c1c-3c9fc940804c",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "我利用 LibPMU 函式庫開發了一套輕量級的跨核心通訊機制，使 Cortex-M4 能根據即時負載需求，向 Cortex-A53 核心發送功耗調整指令。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "跨核心通訊機制開發",
+        "C3": "系統設計與問題解決"
+      },
+      "hashtags": [
+        "LibPMU函式庫",
+        "跨核心通訊機制",
+        "Cortex-M4",
+        "Cortex-A53",
+        "功耗調整指令"
+      ]
     },
     {
       "id": "54d0f967-ee7b-4a37-a694-e4ad857532db",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "經過多組基準測試，在維持既定性能水準的前提下，我們成功使系統在輕負載模式下平均功耗降低了約 15%。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案成果驗證",
+        "C3": "效能評估與分析"
+      },
+      "hashtags": [
+        "基準測試",
+        "功耗降低15%",
+        "輕負載模式",
+        "系統效能維持"
+      ]
     },
     {
       "id": "79611e63-2d17-4cdb-b4c1-69cdc32ee364",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "透過此專題，我不僅熟練掌握了 FreeRTOS、Linux Kernel 的底層運作原理、SoC 的硬體設計與除錯技術，也學會了如何使用 JTAG、GDB 等工具進行低階除錯，並透過效能分析器 (profiler) 找出系統瓶頸。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "嵌入式系統底層知識",
+        "C2": "硬體除錯與效能分析"
+      },
+      "hashtags": [
+        "FreeRTOS",
+        "LinuxKernel",
+        "SoC硬體設計",
+        "JTAG",
+        "GDB",
+        "效能分析器profiler"
+      ]
     },
     {
       "id": "5d3b3fed-550e-40c9-9b45-1ef81a29eeff",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "更重要的是，我學會了如何在理論知識與實際硬體限制之間取得平衡，並在多變的專案需求中保持敏銳的問題解決能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "理論實務整合與問題解決"
+      },
+      "hashtags": [
+        "理論實務平衡",
+        "硬體限制",
+        "問題解決能力",
+        "專案需求適應"
+      ]
     },
     {
       "id": "a00718cc-2a35-4424-9ff9-5b87a814358a",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "在課餘時間，我積極參與 OpenWrt 開源路由器韌體開發社群。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "開源社群參與",
+        "C2": "韌體開發實踐"
+      },
+      "hashtags": [
+        "OpenWrt",
+        "開源社群",
+        "路由器韌體開發"
+      ]
     },
     {
       "id": "f17627ea-2443-4603-915a-6fd1ee00243f",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "我主要貢獻於針對特定路由器型號的 Wi-Fi 驅動程式移植與最佳化，以及網路封包處理模組的性能調校。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "驅動程式開發與最佳化",
+        "C3": "網路模組性能調校"
+      },
+      "hashtags": [
+        "Wi-Fi驅動程式移植",
+        "網路封包處理",
+        "性能調校",
+        "路由器韌體"
+      ]
     },
     {
       "id": "e3638671-326a-4f49-99d0-9f3fb6e7dc2f",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "我曾協助修正一個導致特定型號路由器在 IPv6 封包處理時出現記憶體洩漏的 bug，並提交了 patch 成功被合併",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "軟體錯誤偵測與修正",
+        "C2": "開源專案貢獻"
+      },
+      "hashtags": [
+        "IPv6封包處理",
+        "記憶體洩漏bug",
+        "patch提交",
+        "開源貢獻"
+      ]
     },
     {
       "id": "ac6978ed-c6e9-414b-8f76-a3655a110249",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "這讓我對韌體的穩定性與長期維護有了更深的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "韌體維護與品質理解"
+      },
+      "hashtags": [
+        "韌體穩定性",
+        "長期維護",
+        "軟體品質"
+      ]
     },
     {
       "id": "098e6a61-0c0c-411d-8606-58c0c5a6de6e",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "此經驗讓我學會了閱讀大型開源專案的程式碼、遵循社群開發規範，並透過版本控制系統 (Git) 與全球開發者協作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "開源協作與規範遵循",
+        "C2": "大型程式碼理解與工具應用"
+      },
+      "hashtags": [
+        "開源專案程式碼閱讀",
+        "社群開發規範",
+        "版本控制Git",
+        "全球開發者協作"
+      ]
     },
     {
       "id": "33cc2d80-7347-43b1-9d82-84124b4964bd",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "除了資訊工程專業，我對精準的流程控制與結果品質有著獨特的熱情，這部分體現在我對咖啡沖煮的深入探索與實踐上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域興趣探索",
+        "C3": "流程品質思維"
+      },
+      "hashtags": [
+        "咖啡沖煮",
+        "流程控制",
+        "結果品質"
+      ]
     },
     {
       "id": "51fbbbc6-816b-4733-b3f1-0597f33174aa",
@@ -208,80 +421,181 @@
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "這份對細節的執著、對流程的系統性分析以及對結果的量化評估，與韌體開發中對時序、資源管理及性能優化的要求異曲同工。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域能力連結",
+        "C4": "專業素養展現"
+      },
+      "hashtags": [
+        "細節執著",
+        "系統性分析",
+        "量化評估",
+        "韌體開發",
+        "性能優化"
+      ]
     },
     {
       "id": "26cf3902-3273-4371-9e66-9897df2459c7",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "我發現，無論是編寫即時作業系統的排程器，抑或沖煮一杯風味平衡的咖啡，都離不開精準的控制與對目標的清晰理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "核心原理洞察",
+        "C4": "專業理解深度"
+      },
+      "hashtags": [
+        "即時作業系統",
+        "排程器",
+        "精準控制",
+        "目標理解"
+      ]
     },
     {
       "id": "74dc9743-3d37-48c0-a805-f34fa39392cc",
       "candidate_id": "mock_31",
       "section": "自傳",
       "content": "此外，我也選修了幾門電機工程系的課程，如「數位電路設計」與「微處理機實習」，讓我對底層的硬體邏輯設計與電路板佈局有更直觀的認識，這有助於我在進行韌體開發時，更能從硬體層面思考效能瓶頸與限制，實現軟硬體整合的最佳化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學術修課",
+        "C2": "軟硬體整合優化"
+      },
+      "hashtags": [
+        "電機工程系",
+        "數位電路設計",
+        "微處理機實習",
+        "硬體邏輯設計",
+        "韌體開發",
+        "軟硬體整合"
+      ]
     },
     {
       "id": "cc151640-963f-498f-a392-a83a9908d73f",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "隨著物聯網 (IoT)、人工智慧邊緣運算及自動駕駛技術的蓬勃發展，嵌入式系統在現代科技中扮演的角色日益關鍵。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業趨勢洞察"
+      },
+      "hashtags": [
+        "物聯網",
+        "人工智慧邊緣運算",
+        "自動駕駛技術",
+        "嵌入式系統"
+      ]
     },
     {
       "id": "396e3d22-3a13-475b-a4a0-779cc2c65272",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "這些系統的穩定性、即時響應能力與資源效率，往往直接決定了產品的成敗甚至使用者的安全。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統關鍵要求",
+        "C4": "專業挑戰認知"
+      },
+      "hashtags": [
+        "系統穩定性",
+        "即時響應",
+        "資源效率",
+        "使用者安全"
+      ]
     },
     {
       "id": "dcc9c0b7-48a6-4b73-8b91-f2fac226acbf",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "我在大學期間的專題與課外實踐，讓我對即時作業系統 (RTOS) 及系統晶片 (SoC) 設計中韌體的複雜性與重要性有了深刻體會。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題實作經驗",
+        "C1": "專業知識應用"
+      },
+      "hashtags": [
+        "大學專題",
+        "課外實踐",
+        "即時作業系統",
+        "RTOS",
+        "系統晶片",
+        "SoC",
+        "韌體複雜性"
+      ]
     },
     {
       "id": "a8dc7631-6d2b-4dd3-9867-87914dffe7b7",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "從單純的邏輯實現到面對嚴苛的時序要求、資源限制和功耗預算，韌體工程師需要具備整合軟硬體、精準調校系統的綜合能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "韌體工程師能力",
+        "C3": "系統整合挑戰"
+      },
+      "hashtags": [
+        "韌體工程師",
+        "軟硬體整合",
+        "精準調校",
+        "時序要求",
+        "資源限制",
+        "功耗預算"
+      ]
     },
     {
       "id": "07a2d47b-c720-4dc4-bb46-d115eb79f2dc",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "然而，現有知識體系在面對超大規模集成電路 (VLSI) 的複雜性、異質多核架構的協同難題，以及日益嚴峻的資訊安全挑戰時，仍有許多未解之題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "領域未解難題",
+        "C4": "未來研究方向"
+      },
+      "hashtags": [
+        "超大規模集成電路",
+        "VLSI",
+        "異質多核架構",
+        "資訊安全挑戰",
+        "研究難題"
+      ]
     },
     {
       "id": "93fd9166-f0b4-46f8-ad39-3d1bfbd3364a",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "我渴望能夠在學術殿堂中，更系統、更深入地探討這些前瞻性的議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術深耕意願",
+        "C1": "深度學術探討"
+      },
       "hashtags": []
     },
     {
@@ -289,17 +603,34 @@
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "國立陽明交通大學資工所，在嵌入式系統、計算機結構與即時系統領域享有卓越聲譽，擁有多位在這些領域深耕的頂尖教授與先進實驗設備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學校資源認知"
+      },
+      "hashtags": [
+        "陽明交大資工所",
+        "嵌入式系統",
+        "計算機結構",
+        "即時系統"
+      ]
     },
     {
       "id": "6e0d204c-1514-40c9-b789-c209af2fa56c",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "其課程規劃不僅涵蓋了理論基礎，更強調實務應用與前瞻研究，這與我期望提升理論深度並強化實作能力的目標高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1",
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "理論深度提升",
+        "C2": "實作能力強化",
+        "C4": "學習目標契合"
+      },
       "hashtags": []
     },
     {
@@ -307,35 +638,67 @@
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "特別是貴所積極投入於次世代嵌入式運算平台、安全韌體設計等領域的研究，這正是吸引我前來深造的重要原因。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向契合",
+        "C1": "特定學術興趣"
+      },
+      "hashtags": [
+        "次世代嵌入式運算平台",
+        "安全韌體設計"
+      ]
     },
     {
       "id": "d12a692e-e651-466e-afe4-733a0d353596",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "我相信在貴所的豐富資源與引導下，我能將現有經驗昇華，成為未來嵌入式與韌體領域的領航者。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展願景"
+      },
+      "hashtags": [
+        "嵌入式領域",
+        "韌體領域"
+      ]
     },
     {
       "id": "ea08236e-cf01-47c4-9258-32e8e58761cd",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "鑒於物聯網與邊緣計算的快速發展，我對即時作業系統在多核與異質架構下的性能優化與可靠性保障，以及安全韌體設計在 SoC 整合中的應用，抱有濃厚的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "特定研究興趣",
+        "C2": "技術應用方向"
+      },
+      "hashtags": [
+        "物聯網",
+        "邊緣計算",
+        "即時作業系統",
+        "多核異質架構",
+        "安全韌體設計"
+      ]
     },
     {
       "id": "2d200522-044a-495a-b5c3-c371885022ae",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "我預計未來研究方向將聚焦於以下兩個主要領域：",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向規劃"
+      },
       "hashtags": []
     },
     {
@@ -343,108 +706,245 @@
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "目前的嵌入式系統越來越傾向於採用異質多核架構，如整合 CPU、GPU、FPGA 或專用加速器。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "領域趨勢認知",
+        "C2": "系統架構理解"
+      },
+      "hashtags": [
+        "嵌入式系統",
+        "異質多核架構",
+        "CPU",
+        "GPU",
+        "FPGA"
+      ]
     },
     {
       "id": "b70a476b-73b6-4b22-be8a-e41354ccf332",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "這種架構雖然提供了強大的運算能力，但也帶來了嚴峻的排程挑戰，特別是在需要混合關鍵性 (Mixed-Criticality) 任務的應用場景中，如自動駕駛與醫療設備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統挑戰分析",
+        "C1": "複雜系統理解"
+      },
+      "hashtags": [
+        "排程挑戰",
+        "混合關鍵性",
+        "Mixed-Criticality",
+        "自動駕駛",
+        "醫療設備"
+      ]
     },
     {
       "id": "685c3e96-c48a-44ed-a5f6-ce69ce3222c2",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "開發新的混合關鍵性排程演算法：針對多核與異質架構特性，設計能夠同時滿足高優先級即時任務的確定性需求，並最大化低優先級任務吞吐量的排程策略。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "演算法設計規劃",
+        "C2": "系統排程策略"
+      },
+      "hashtags": [
+        "混合關鍵性排程演算法",
+        "多核異質架構",
+        "即時任務",
+        "確定性需求",
+        "吞吐量優化"
+      ]
     },
     {
       "id": "3e7942d5-30ab-4c03-b1da-30da072207ab",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "我將探索基於機器學習的自適應排程技術，根據系統負載動態調整任務優先級和核心分配。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "機器學習研究興趣",
+        "C2": "系統排程技術應用"
+      },
+      "hashtags": [
+        "機器學習",
+        "自適應排程",
+        "任務優先級",
+        "核心分配"
+      ]
     },
     {
       "id": "0e6f5e88-2457-4774-b4c1-572cf10020cc",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "共享資源爭用分析與優化：在多核環境中，對共享記憶體、匯流排等資源的爭用是影響即時性能的關鍵因素。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "多核系統架構理解",
+        "C3": "系統性能問題分析"
+      },
+      "hashtags": [
+        "共享資源爭用",
+        "多核環境",
+        "即時性能",
+        "共享記憶體",
+        "匯流排"
+      ]
     },
     {
       "id": "fb8ba981-ea44-4138-b8e8-1be5623ac500",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "我希望研究如何透過更精細的鎖定機制、無鎖定資料結構 (lock-free data structures) 或軟體層面的快取一致性管理，來降低爭用開銷，並提供可預測的資源存取延遲。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階資料結構研究",
+        "C3": "系統優化策略規劃"
+      },
+      "hashtags": [
+        "鎖定機制",
+        "無鎖定資料結構",
+        "快取一致性",
+        "爭用開銷",
+        "資源存取延遲"
+      ]
     },
     {
       "id": "3bba5843-d2e1-4c76-9516-e37d48be8aab",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "虛擬化技術在即時系統的應用：探討如何將輕量級虛擬化 (Hypervisor) 技術應用於即時系統，以在同一 SoC 上安全隔離不同關鍵性的應用，同時保證即時任務的嚴格時序要求。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "虛擬化技術研究",
+        "C2": "即時系統應用開發"
+      },
+      "hashtags": [
+        "虛擬化技術",
+        "Hypervisor",
+        "即時系統",
+        "SoC",
+        "安全隔離"
+      ]
     },
     {
       "id": "87c47b9a-5184-4acf-adf3-a674ec2bbe5e",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "韌體是系統安全的基石，一旦韌體被惡意篡改，整個系統的安全性將受到威脅。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "韌體安全基礎認知"
+      },
+      "hashtags": [
+        "韌體安全",
+        "系統安全",
+        "惡意篡改"
+      ]
     },
     {
       "id": "eb2dd752-d23d-40d5-8ea4-8d7800118e5a",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "隨著安全威片 (Secure Element) 和信任根 (Root of Trust) 技術的普及，如何在 SoC 設計中有效整合韌體層級的安全機制變得至關重要。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "新興安全技術認知",
+        "C3": "SoC安全整合挑戰"
+      },
+      "hashtags": [
+        "安全威片",
+        "信任根",
+        "SoC設計",
+        "韌體安全機制"
+      ]
     },
     {
       "id": "fefca275-735a-4193-972c-ed0f1af4caa3",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "安全啟動 (Secure Boot) 與韌體更新機制：探討如何在基於硬體信任根的基礎上，設計一套端到端的安全啟動流程，確保只有經過數位簽章的合法韌體才能載入執行。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "安全協議研究",
+        "C2": "安全啟動機制設計"
+      },
+      "hashtags": [
+        "安全啟動",
+        "韌體更新",
+        "硬體信任根",
+        "數位簽章",
+        "端到端流程"
+      ]
     },
     {
       "id": "f51285c8-139b-4f94-98c0-fa4c321856cc",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "同時，研究安全的空中下載 (Over-The-Air, OTA) 韌體更新協議，防止更新過程中遭受攻擊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "安全協議研究",
+        "C2": "OTA更新機制設計"
+      },
+      "hashtags": [
+        "空中下載",
+        "OTA",
+        "韌體更新協議",
+        "更新攻擊防護"
+      ]
     },
     {
       "id": "d228b78b-494c-4103-88ba-97a4910a757b",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "側通道攻擊防護韌體：針對功耗分析 (Power Analysis) 和電磁輻射分析 (Electromagnetic Analysis) 等側通道攻擊，研究如何在韌體層面實施對策，例如隨機化執行路徑、插入虛假操作或採用常數時間演算法，以降低資訊洩漏風險。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "側通道攻擊研究",
+        "C2": "韌體安全對策實施"
+      },
+      "hashtags": [
+        "側通道攻擊",
+        "功耗分析",
+        "電磁輻射分析",
+        "韌體防護",
+        "常數時間演算法"
+      ]
     },
     {
       "id": "7a44e6d2-2254-4a72-85fe-6ff307e4e762",
@@ -460,54 +960,117 @@
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "我的畢業專題經驗讓我深刻體會到，儘管即時系統的性能優化和穩定性至關重要",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題實作經驗",
+        "C3": "系統性能優化"
+      },
+      "hashtags": [
+        "畢業專題",
+        "即時系統",
+        "性能優化",
+        "系統穩定性"
+      ]
     },
     {
       "id": "f2714079-3c8b-4911-908c-b03d4d271d62",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "但其安全層面也同等關鍵。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統安全意識"
+      },
+      "hashtags": [
+        "系統安全"
+      ]
     },
     {
       "id": "b8c280fb-d978-46c7-bd49-fec1dad8965f",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "我發現自己對於如何將軟體層面的安全策略下沉到韌體甚至硬體層次來實現更強固的保護有著強烈的好奇心與探索欲。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨層次安全思考",
+        "C1": "軟硬體整合安全"
+      },
+      "hashtags": [
+        "軟體安全",
+        "韌體安全",
+        "硬體安全",
+        "跨層次保護"
+      ]
     },
     {
       "id": "9f79160b-3889-4d5f-906c-dda2f5920042",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "陽明交通大學資工所的「嵌入式系統實驗室」和「硬體安全實驗室」在這些領域皆有深厚的研究基礎與豐碩成果，我期待能夠在貴所的指導下，貢獻所學並深入研究，為下一代智慧嵌入式系統的發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向規劃",
+        "C1": "實驗室研究興趣"
+      },
+      "hashtags": [
+        "陽明交通大學資工所",
+        "嵌入式系統實驗室",
+        "硬體安全實驗室",
+        "智慧嵌入式系統"
+      ]
     },
     {
       "id": "be11637b-5076-4e55-8b11-6d20780db565",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "強化基礎理論：利用暑假期間，重溫高等作業系統、計算機結構進階、數位邏輯設計等核心課程，尤其著重於多核心架構、快取一致性協議、虛擬記憶體管理等複雜議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心理論強化",
+        "C4": "學術能力提升計畫"
+      },
+      "hashtags": [
+        "高等作業系統",
+        "計算機結構進階",
+        "數位邏輯設計",
+        "多核心架構",
+        "虛擬記憶體管理"
+      ]
     },
     {
       "id": "a4058b57-2c83-4bf7-abf1-d6100f292f1a",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "深入學習即時系統原理：研讀經典即時作業系統的書籍 (如 Liu & Layland 的研究、Jane W.S. Liu 的 *Real-Time Systems*)，並熟悉 FreeRTOS、Zephyr 等主流 RTOS 的原始碼，理解其任務管理、排程器及中斷處理機制。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "即時系統理論",
+        "C2": "RTOS原始碼分析"
+      },
+      "hashtags": [
+        "即時系統原理",
+        "Liu & Layland",
+        "FreeRTOS",
+        "Zephyr",
+        "RTOS原始碼"
+      ]
     },
     {
       "id": "c28dbe7d-39a3-4fcc-9aac-0826a4088944",
@@ -523,18 +1086,42 @@
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "同時，學習使用 GDB、Valgrind、Perf 等工具進行系統級性能分析與除錯。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統分析工具應用",
+        "C3": "性能除錯能力"
+      },
+      "hashtags": [
+        "GDB",
+        "Valgrind",
+        "Perf",
+        "性能分析",
+        "系統除錯"
+      ]
     },
     {
       "id": "1cd827b8-79fa-4ccd-b4ea-f371b38cdfb7",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "了解研究趨勢：積極參與貴所舉辦的學術研討會、專題演講，並閱讀近期相關領域的頂會論文 (如 RTSS, ECRTS, DAC, DATE)，初步掌握當前研究熱點與未解問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究趨勢掌握",
+        "C1": "頂會論文研讀"
+      },
+      "hashtags": [
+        "學術研討會",
+        "頂會論文",
+        "RTSS",
+        "ECRTS",
+        "DAC"
+      ]
     },
     {
       "id": "4c3a8e64-2706-4e5d-bbed-d6af5532cf6d",
@@ -550,9 +1137,18 @@
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "修習進階專業課程：選修貴所開設的「即時系統設計與實作」、「嵌入式系統安全」、「高階計算機結構」、「編譯器最佳化」等課程，深化專業知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階專業課程修習"
+      },
+      "hashtags": [
+        "即時系統設計",
+        "嵌入式系統安全",
+        "高階計算機結構",
+        "編譯器最佳化"
+      ]
     },
     {
       "id": "cd43f56a-ebe4-47ad-a97c-696b131984a6",
@@ -568,108 +1164,230 @@
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "預計在教授指導下，針對特定研究問題進行探索，並從事原型系統開發與驗證。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "研究問題探索",
+        "C2": "原型系統開發驗證"
+      },
+      "hashtags": [
+        "特定研究問題",
+        "原型系統開發",
+        "系統驗證"
+      ]
     },
     {
       "id": "769c80dc-0518-4f6c-8425-8c51b2944895",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "論文研究與撰寫：根據所參與的專案，進行相關文獻回顧，形成獨特的研究議題，並開始規劃實驗設計與數據分析，準備撰寫碩士論文初稿。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "研究議題規劃",
+        "C4": "學術論文撰寫"
+      },
+      "hashtags": [
+        "文獻回顧",
+        "研究議題",
+        "實驗設計",
+        "數據分析",
+        "碩士論文"
+      ]
     },
     {
       "id": "69499622-ac1f-48db-a2c3-79c9e46e4e19",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "技術發表：爭取將研究成果投稿至國內外學術會議或期刊，提升學術交流與發表經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表"
+      },
+      "hashtags": [
+        "學術會議投稿",
+        "期刊發表",
+        "學術交流"
+      ]
     },
     {
       "id": "724e7be2-fd27-4b14-b11e-c7d7894edbbe",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "實務應用探索：尋找與韌體或嵌入式系統相關的暑期實習機會，將學術理論應用於業界實際問題，累積產業經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "學術理論應用",
+        "C4": "產業經驗累積"
+      },
+      "hashtags": [
+        "韌體實習",
+        "嵌入式系統實習",
+        "暑期實習",
+        "業界問題解決"
+      ]
     },
     {
       "id": "6e90a9f0-566c-4e41-9744-d74363f8006f",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "持續深耕專業：畢業後，我期望能進入國內外頂尖科技公司的研發部門，從事嵌入式系統、SoC 韌體開發、即時作業系統或硬體安全相關的工程師或研究員工作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃"
+      },
+      "hashtags": [
+        "頂尖科技公司",
+        "研發部門",
+        "嵌入式系統",
+        "SoC韌體開發",
+        "硬體安全"
+      ]
     },
     {
       "id": "483df3bf-22a1-4227-a786-521b16c474eb",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "學術或產業貢獻：繼續關注韌體與嵌入式系統領域的最新發展，積極參與開源社群貢獻，或持續進行技術創新與專利申請，為產業技術進步做出貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業技術貢獻",
+        "C3": "技術創新發展"
+      },
+      "hashtags": [
+        "開源社群貢獻",
+        "技術創新",
+        "專利申請",
+        "韌體領域發展",
+        "嵌入式系統發展"
+      ]
     },
     {
       "id": "02d6355c-9638-4eca-8764-2d59cc62a9e1",
       "candidate_id": "mock_31",
       "section": "讀書計畫",
       "content": "成為領域專家：透過不斷的學習與實踐，逐步成為韌體與嵌入式系統領域的專家，並期待未來能夠引領相關技術的發展方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域專家目標"
+      },
+      "hashtags": [
+        "韌體領域專家",
+        "嵌入式系統專家",
+        "技術發展引導"
+      ]
     },
     {
       "id": "b635b2a0-9e3a-40f2-b99a-cd9c3107cf1f",
       "candidate_id": "mock_31",
       "section": "加分文件",
       "content": "國立台灣科技大學畢業專題報告：《高效能即時作業系統於異質多核 SoC 的排程與功耗最佳化》，詳述研究方法、實驗結果與性能分析。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題實作成果",
+        "C3": "研究問題分析"
+      },
+      "hashtags": [
+        "畢業專題報告",
+        "高效能即時作業系統",
+        "異質多核SoC",
+        "排程功耗最佳化",
+        "性能分析"
+      ]
     },
     {
       "id": "a07063c1-2302-489f-88c9-be7ddb9b0f2a",
       "candidate_id": "mock_31",
       "section": "加分文件",
       "content": "OpenWrt 社群貢獻記錄：提供 Git Commit 記錄與 Patch 連結，顯示對 Wi-Fi 驅動程式與網路封包處理模組的實質貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "開源專案技術貢獻",
+        "C3": "網路系統問題解決"
+      },
+      "hashtags": [
+        "OpenWrt",
+        "Git Commit",
+        "Wi-Fi驅動程式",
+        "網路封包處理"
+      ]
     },
     {
       "id": "6386bf4b-5b65-4a26-85b3-3a73fe90cde3",
       "candidate_id": "mock_31",
       "section": "加分文件",
       "content": "全國嵌入式系統設計競賽 優等獎 (20XX年)：參賽作品為「基於 ARM Cortex-M4 的智慧家庭能源管理系統韌體」，強調低功耗與高可靠性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "嵌入式系統開發實作",
+        "C3": "系統設計優化思維"
+      },
+      "hashtags": [
+        "全國嵌入式系統競賽",
+        "ARM Cortex-M4",
+        "智慧家庭",
+        "能源管理韌體",
+        "低功耗設計"
+      ]
     },
     {
       "id": "b8141314-b624-4c46-9683-d523cf74e833",
       "candidate_id": "mock_31",
       "section": "加分文件",
       "content": "咖啡沖煮師執照：證明我對細節、精準流程控制與結果品質的追求，展現跨領域學習與對自我精進的熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨領域學習與精進"
+      },
+      "hashtags": [
+        "咖啡沖煮師執照",
+        "跨領域學習",
+        "自我精進"
+      ]
     },
     {
       "id": "8a5bff4d-d6e4-4816-bbf0-af6fa65e42a1",
       "candidate_id": "mock_31",
       "section": "加分文件",
       "content": "TOEFL iBT 成績：[分數]，展現具備良好的英語溝通與學術閱讀能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術英語能力"
+      },
+      "hashtags": [
+        "TOEFL iBT",
+        "英語溝通",
+        "學術閱讀"
+      ]
     }
   ]
 }
