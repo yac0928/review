@@ -23,6 +23,8 @@ export interface IdeaUnit {
   criteria: CriterionId[];
   sub_criteria_map: Partial<Record<CriterionId, string>>;
   hashtags: string[];
+  // Filled in Step 4:
+  standard_sub_criteria_map?: Partial<Record<CriterionId, string>>;
   // Filled later:
   embedding?: number[];
 }

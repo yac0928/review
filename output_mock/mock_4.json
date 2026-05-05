@@ -1,0 +1,694 @@
+{
+  "candidate_id": "mock_4",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_4.txt"
+  ],
+  "cleaned_text": "【自傳：技術與溫度的結合】關於我：跨越代碼的語言橋樑\r\n我是黃○玲，目前就讀於台北科技大學資訊工程系。在校 GPA 為 3.8 / 4.3，曾獲得多次校內獎學金。對我而言，資工不只是關於演算法的運算，更是一門「溝通」的藝術。我曾擔任校內英語導覽社負責人，這份經驗讓我深刻體會到語言語義的細微差別（Nuance）如何影響資訊的傳遞。我致力於結合 AI 技術與人文關懷，消弭因語境與專業知識屏障所產生的資訊落差。 社會實踐：從偏鄉教室到數位教育深耕教育：偏鄉程式邏輯啟蒙\r\n在大三寒假，我主動報名教育部偏鄉教育計畫，擔任 Python 程式設計講師。面對資源相對匱乏的學員，我學習到如何將複雜的迴圈與條件判斷邏輯，轉化為貼近生活的採買清單舉例，讓 20 位學員能順利完成基礎邏輯挑戰。這段經歷讓我明白，技術的價值在於它能被多少人理解並使用，而非其本身的深奧程度。 跨域協作：導覽資源數位化專案\r\n身為導覽社社團負責人，我主導了導覽教材的數位化轉型，開發了一套輔助英語口說練習的系統。我負責定義語音辨識的回饋邏輯，這是我第一次將教學需求與軟體設計結合，讓我體會到如何透過結構化的方式引導使用者解決問題。 專題研究：醫療諮詢系統中的自然語言理解\r\n在大學畢業專題中，我與醫療顧問公司合作，研究開發「針對低資源語言語境的智慧診斷輔助系統」。 挑戰與解決：由於專業醫療方言的標註資料極度缺乏，我嘗試利用大型語言模型（LLM）進行提示詞優化（Prompt Engineering），藉此擴展訓練樣本。 品質控管：我深入研究如何建立自動化過濾機制，篩選掉模型生成的幻覺性內容（Hallucination），避免錯誤的醫學建議誤導診斷。 研究體悟：在產學合作的過程中，我發現資料集（Dataset）的深度與準確性直接決定了模型的生命力，而有效的評分方法則是優化模型必不可少的指南針。 【申請動機：為何選擇數據科學？】資訊爆炸時代下的內容荒漠\r\n在參與醫療專案時，我發現儘管我們身處大數據時代，但針對「特定專業領域」或「非主流方言」的優質數位內容仍像荒漠一般匱乏。對於不擅長搜尋的人而言，從海量資訊中提取準確內容已成為巨大的挑戰。 追求理論與實務的深度融合\r\n我發現自己在處理非結構化文字數據的理論基礎上仍有進步空間。國立陽明交通大學數據科學與工程研究所整合了資訊與語言統計的學科資源，特別是針對巨量數據實際應用的課程，將幫助我提升處理複雜語義的能力。我期望能在此環境中，學習如何將有限的訓練樣本有效擴充為高品質的研究資源，並掌握數據科學在多元社會領域的實際應用技巧。 【未來研究方向：稀缺語料的質量擴增技術】雖然目前的 LLM 展示了強大的生成能力，但在面對醫療規章、少數方言或專業客服紀錄時，生成的結果往往品質不佳，甚至出現繁簡轉換錯誤。我認為訓練資料的研究是未來 AI 發展的重中之重。結合我的專題經驗，我希望能深入探討如何利用少量的真實標註資料，透過數據清洗與生成技術，建構出具備高度邏輯一致性的訓練集，以解決現今模型在低資源領域的限制。 【讀書計畫：逐步精進之路】入學前準備 (Short-term)技術視野：觀看 IBM Technology 關於大型模型參數量化與微調的影片，了解目前 NLP 領域的最前沿技術。 語言能力：參與國際學生論壇，提升英文討論深度，並計畫在大四下取得日檢 N5 證照以拓展國際視野。 碩士期間 (Medium-term)專業深化：修習「資料探勘」與「自然語言理解進階」課程，強化在非結構化數據萃取上的實作能力。 實習驗證：尋找語音對話或內容推薦相關的 AI 實習，驗證研究模型在真實巨量資料環境下的韌性。 長遠目標 (Long-term)社會貢獻：投身於開發具備多元文化理解力的 AI 系統，持續學習最新技術，為消除社會資訊鴻溝貢獻科技成果。 【其他有利審查資料】學術表現：自然語言處理 A+、機器學習導論 95 分。具體事蹟：全國 AI 應用競賽入圍證明、台北科技大學優秀學生社團負責人獎狀。語言證明：TOEIC 總分 920 分、具備英語導覽員培訓合格證明。",
+  "idea_units": [
+    {
+      "id": "ed0e3ff5-7a8e-4fd1-b7b1-09fa9ee4a28b",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "我是黃○玲，目前就讀於台北科技大學資訊工程系。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景陳述"
+      },
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景與潛力"
+      }
+    },
+    {
+      "id": "2f6c76d9-cde9-483a-861a-f952e20bd8af",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "在校 GPA 為 3.8 / 4.3，曾獲得多次校內獎學金。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
+    },
+    {
+      "id": "b66a2d53-3ef5-43c3-82f9-0f4ea61aa124",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "對我而言，資工不只是關於演算法的運算，更是一門「溝通」的藝術。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業理念闡述"
+      },
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業素養精進"
+      }
+    },
+    {
+      "id": "025c73a7-ceaa-45a0-ac13-d7a2e6fbcf19",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "我曾擔任校內英語導覽社負責人。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社團領導經驗"
+      },
+      "hashtags": [
+        "英語導覽社",
+        "社團負責人"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊領導協作"
+      }
+    },
+    {
+      "id": "931b5757-65d2-478b-ac46-1c44712292a6",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "這份經驗讓我深刻體會到語言語義的細微差別（Nuance）如何影響資訊的傳遞。",
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "語義理解洞察",
+        "C4": "資訊傳遞反思"
+      },
+      "hashtags": [
+        "語言語義",
+        "資訊傳遞"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "數據分析與模型評估",
+        "C4": "經驗反思成長"
+      }
+    },
+    {
+      "id": "eb0d27c3-c358-42c3-8387-17fdcb697304",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "我致力於結合 AI 技術與人文關懷，消弭因語境與專業知識屏障所產生的資訊落差。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "AI技術應用願景",
+        "C3": "資訊落差問題意識"
+      },
+      "hashtags": [
+        "AI技術",
+        "人文關懷",
+        "資訊落差"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作",
+        "C3": "實務問題解決"
+      }
+    },
+    {
+      "id": "6a606260-7b4f-445f-bf5e-93e1ba29af9e",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "在大三寒假，我主動報名教育部偏鄉教育計畫，擔任 Python 程式設計講師。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "程式教學經驗"
+      },
+      "hashtags": [
+        "教育部偏鄉教育計畫",
+        "Python程式設計講師"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "經驗反思成長"
+      }
+    },
+    {
+      "id": "dc6ad572-8351-42f4-8c02-4430c433601d",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "面對資源相對匱乏的學員，我學習到如何將複雜的迴圈與條件判斷邏輯，轉化為貼近生活的採買清單舉例，讓 20 位學員能順利完成基礎邏輯挑戰。",
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "教學策略調整",
+        "C4": "複雜概念簡化"
+      },
+      "hashtags": [
+        "迴圈",
+        "條件判斷",
+        "程式邏輯教學"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判思辨與跨域學習",
+        "C4": "知識傳達溝通"
+      }
+    },
+    {
+      "id": "95f1d611-f73c-4c4c-bf96-0bc1043ce067",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "這段經歷讓我明白，技術的價值在於它能被多少人理解並使用，而非其本身的深奧程度。",
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術價值觀反思",
+        "C4": "技術普及化理念"
+      },
+      "hashtags": [
+        "技術普及",
+        "使用者理解"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "科技倫理與社會關懷",
+        "C4": "科技趨勢洞察"
+      }
+    },
+    {
+      "id": "a6232f2c-5ccc-4c13-8695-91880440a315",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "身為導覽社社團負責人，我主導了導覽教材的數位化轉型，開發了一套輔助英語口說練習的系統。",
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統開發實作",
+        "C4": "數位轉型領導"
+      },
+      "hashtags": [
+        "導覽教材數位化",
+        "英語口說練習系統",
+        "社團負責人"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發",
+        "C4": "團隊領導協作"
+      }
+    },
+    {
+      "id": "0d325f23-0ddd-48d3-82dd-b43ae6a2838f",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "我負責定義語音辨識的回饋邏輯。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "語音辨識邏輯設計",
+        "C3": "系統回饋機制規劃"
+      },
+      "hashtags": [
+        "語音辨識",
+        "回饋邏輯定義"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "硬體韌體系統開發",
+        "C3": "系統設計與驗證"
+      }
+    },
+    {
+      "id": "7a6f2e2c-e5df-4e80-adfd-8096a9639181",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "這是我第一次將教學需求與軟體設計結合，讓我體會到如何透過結構化的方式引導使用者解決問題。",
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域知識整合應用",
+        "C4": "軟體設計學習反思"
+      },
+      "hashtags": [
+        "教學需求",
+        "軟體設計結合",
+        "使用者引導"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨領域知識整合",
+        "C4": "經驗反思成長"
+      }
+    },
+    {
+      "id": "5b74ed6a-aaff-4d04-8964-2b5ba784438f",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "在大學畢業專題中，我與醫療顧問公司合作，研究開發「針對低資源語言語境的智慧診斷輔助系統」。",
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "智慧診斷系統開發",
+        "C1": "醫療跨域專題研究"
+      },
+      "hashtags": [
+        "大學畢業專題",
+        "醫療顧問公司",
+        "低資源語言",
+        "智慧診斷輔助系統"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發",
+        "C1": "跨領域知識整合"
+      }
+    },
+    {
+      "id": "d473e54a-d922-410c-bd9e-bff87fb4d4c0",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "由於專業醫療方言的標註資料極度缺乏，我嘗試利用大型語言模型（LLM）進行提示詞優化（Prompt Engineering），藉此擴展訓練樣本。",
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "數據稀缺問題解決",
+        "C2": "LLM提示詞優化應用"
+      },
+      "hashtags": [
+        "醫療方言",
+        "標註資料缺乏",
+        "大型語言模型",
+        "提示詞優化",
+        "Prompt Engineering"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "數據分析與模型評估",
+        "C2": "AI/ML模型應用實作"
+      }
+    },
+    {
+      "id": "08e2ca26-355c-4ef2-b499-fd62ed9936ff",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "我深入研究如何建立自動化過濾機制，篩選掉模型生成的幻覺性內容（Hallucination），避免錯誤的醫學建議誤導診斷。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型幻覺內容過濾",
+        "C3": "醫學建議風險控管"
+      },
+      "hashtags": [
+        "自動化過濾機制",
+        "模型幻覺",
+        "Hallucination",
+        "醫學建議"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "模型設計優化與驗證",
+        "C3": "資安漏洞防禦"
+      }
+    },
+    {
+      "id": "6b80670a-3450-4dd9-95be-368ab387878e",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "在產學合作的過程中，我發現資料集（Dataset）的深度與準確性直接決定了模型的生命力，而有效的評分方法則是優化模型必不可少的指南針。",
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "模型評估方法洞察",
+        "C4": "產學合作經驗反思"
+      },
+      "hashtags": [
+        "產學合作",
+        "資料集深度",
+        "模型評分方法",
+        "模型優化"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "數據分析與模型評估",
+        "C4": "經驗反思成長"
+      }
+    },
+    {
+      "id": "90646623-f85a-46bd-ade1-ebdef3ea8239",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "在參與醫療專案時，我發現儘管我們身處大數據時代，但針對「特定專業領域」或「非主流方言」的優質數位內容仍像荒漠一般匱乏。",
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "專業領域數據洞察",
+        "C1": "非主流方言數據挑戰"
+      },
+      "hashtags": [
+        "醫療專案",
+        "特定專業領域",
+        "非主流方言",
+        "數位內容匱乏"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "數據分析與模型評估",
+        "C1": "AI數據分析應用"
+      }
+    },
+    {
+      "id": "96f39303-da6f-4299-9668-6905312a62f8",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "對於不擅長搜尋的人而言，從海量資訊中提取準確內容已成為巨大的挑戰。",
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "資訊檢索挑戰洞察"
+      },
+      "hashtags": [
+        "海量資訊",
+        "準確內容提取",
+        "資訊搜尋挑戰"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "其他面向"
+      }
+    },
+    {
+      "id": "04e5e9f5-c4f2-481f-8990-01ccba9c582a",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "我發現自己在處理非結構化文字數據的理論基礎上仍有進步空間。",
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "自我學習成長規劃",
+        "C1": "非結構化數據理論基礎"
+      },
+      "hashtags": [
+        "非結構化文字數據",
+        "理論基礎",
+        "進步空間"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習目標規劃",
+        "C1": "其他面向"
+      }
+    },
+    {
+      "id": "e545a9ce-1252-4ab9-b651-989d68887e43",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "國立陽明交通大學數據科學與工程研究所整合了資訊與語言統計的學科資源，特別是針對巨量數據實際應用的課程，將幫助我提升處理複雜語義的能力。",
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所申請動機",
+        "C1": "跨領域學科資源需求"
+      },
+      "hashtags": [
+        "陽明交通大學",
+        "數據科學與工程研究所",
+        "資訊與語言統計",
+        "巨量數據應用",
+        "複雜語義處理"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "研究方向規劃",
+        "C1": "跨領域知識整合"
+      }
+    },
+    {
+      "id": "1d599f85-75ea-4bab-8a5c-65e41c3081f7",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "我期望能在此環境中，學習如何將有限的訓練樣本有效擴充為高品質的研究資源，並掌握數據科學在多元社會領域的實際應用技巧。",
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來學習規劃",
+        "C1": "數據科學應用學習"
+      },
+      "hashtags": [
+        "有限訓練樣本擴充",
+        "數據科學應用",
+        "多元社會領域"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習目標規劃",
+        "C1": "AI數據分析應用"
+      }
+    },
+    {
+      "id": "07ee78e2-1cdd-4037-8fba-ba1ae8bbadd2",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "雖然目前的 LLM 展示了強大的生成能力。",
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術現況認知"
+      },
+      "hashtags": [
+        "大型語言模型",
+        "LLM生成能力"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "其他面向"
+      }
+    },
+    {
+      "id": "b988f612-603c-4c6c-b0ab-de7dc8e341bc",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "但在面對醫療規章、少數方言或專業客服紀錄時，生成的結果往往品質不佳，甚至出現繁簡轉換錯誤。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
+    },
+    {
+      "id": "2e1069dd-f0e6-420e-ac33-54d6d731b1d7",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "我認為訓練資料的研究是未來 AI 發展的重中之重。",
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "AI發展洞察"
+      },
+      "hashtags": [
+        "訓練資料研究",
+        "AI發展趨勢"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "其他面向"
+      }
+    },
+    {
+      "id": "1b7e741a-0d8e-4a90-9b98-99f20ddeba0a",
+      "candidate_id": "mock_4",
+      "section": "自傳",
+      "content": "結合我的專題經驗，我希望能深入探討如何利用少量的真實標註資料，透過數據清洗與生成技術，建構出具備高度邏輯一致性的訓練集，以解決現今模型在低資源領域的限制。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據生成技術應用",
+        "C3": "低資源模型優化"
+      },
+      "hashtags": [
+        "專題經驗",
+        "少量標註資料",
+        "數據清洗",
+        "數據生成技術",
+        "低資源領域"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "數據處理與分析應用",
+        "C3": "系統效能與資源優化"
+      }
+    },
+    {
+      "id": "0246797c-b819-4ecf-9760-dcff76a149ce",
+      "candidate_id": "mock_4",
+      "section": "讀書計畫",
+      "content": "技術視野：觀看 IBM Technology 關於大型模型參數量化與微調的影片，了解目前 NLP 領域的最前沿技術。",
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術趨勢追蹤",
+        "C1": "NLP前沿知識"
+      },
+      "hashtags": [
+        "IBM Technology",
+        "大型模型參數量化",
+        "模型微調",
+        "NLP前沿技術"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "科技趨勢洞察",
+        "C1": "AI數據分析應用"
+      }
+    },
+    {
+      "id": "3952730b-c857-4686-8ff7-a86fdde89776",
+      "candidate_id": "mock_4",
+      "section": "讀書計畫",
+      "content": "語言能力：參與國際學生論壇，提升英文討論深度，並計畫在大四下取得日檢 N5 證照以拓展國際視野。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "國際視野拓展"
+      },
+      "hashtags": [
+        "國際學生論壇",
+        "英文討論",
+        "日檢N5證照"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術發表交流"
+      }
+    },
+    {
+      "id": "c3abde80-0ef8-496f-b5f6-eb4965432462",
+      "candidate_id": "mock_4",
+      "section": "讀書計畫",
+      "content": "專業深化：修習「資料探勘」與「自然語言理解進階」課程，強化在非結構化數據萃取上的實作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
+    },
+    {
+      "id": "fe279788-fee9-44b9-838e-e63edc1b0f94",
+      "candidate_id": "mock_4",
+      "section": "讀書計畫",
+      "content": "實習驗證：尋找語音對話或內容推薦相關的 AI 實習，驗證研究模型在真實巨量資料環境下的韌性。",
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "實務經驗規劃",
+        "C2": "模型實務驗證"
+      },
+      "hashtags": [
+        "AI實習",
+        "語音對話",
+        "內容推薦",
+        "巨量資料環境"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "職涯發展規劃",
+        "C2": "模型設計優化與驗證"
+      }
+    },
+    {
+      "id": "19dc9e48-fa8c-4dbc-b0d1-86166d37076d",
+      "candidate_id": "mock_4",
+      "section": "讀書計畫",
+      "content": "社會貢獻：投身於開發具備多元文化理解力的 AI 系統，持續學習最新技術，為消除社會資訊鴻溝貢獻科技成果。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社會影響願景"
+      },
+      "hashtags": [
+        "多元文化AI系統",
+        "社會資訊鴻溝",
+        "科技貢獻"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "社群參與貢獻"
+      }
+    },
+    {
+      "id": "e04abd03-060f-418a-916e-96c36c50c686",
+      "candidate_id": "mock_4",
+      "section": "加分文件",
+      "content": "學術表現：自然語言處理 A+、機器學習導論 95 分。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業科目成績優異"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "機器學習導論"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業領域深耕"
+      }
+    },
+    {
+      "id": "ae2b1449-451c-4155-9459-efc1d5346422",
+      "candidate_id": "mock_4",
+      "section": "加分文件",
+      "content": "具體事蹟：全國 AI 應用競賽入圍證明、台北科技大學優秀學生社團負責人獎狀。",
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "AI應用實作能力",
+        "C4": "社團領導組織能力"
+      },
+      "hashtags": [
+        "全國AI應用競賽",
+        "社團負責人",
+        "台北科技大學"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作",
+        "C4": "團隊領導協作"
+      }
+    },
+    {
+      "id": "8e39047f-6fde-41a0-93ab-c9aab0005a03",
+      "candidate_id": "mock_4",
+      "section": "加分文件",
+      "content": "語言證明：TOEIC 總分 920 分、具備英語導覽員培訓合格證明。",
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "英語溝通表達",
+        "C1": "國際學術準備"
+      },
+      "hashtags": [
+        "TOEIC 920",
+        "英語導覽員"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "知識傳達溝通",
+        "C1": "學術背景與潛力"
+      }
+    }
+  ]
+}
