@@ -1,0 +1,64 @@
+{
+  "algorithm": "kmeans",
+  "k": 3,
+  "silhouette": 0.43980861981628555,
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "size": 20,
+      "medoid": "mock_35",
+      "members": [
+        "mock_10",
+        "mock_11",
+        "mock_12",
+        "mock_13",
+        "mock_14",
+        "mock_16",
+        "mock_17",
+        "mock_18",
+        "mock_19",
+        "mock_21",
+        "mock_22",
+        "mock_24",
+        "mock_26",
+        "mock_27",
+        "mock_28",
+        "mock_29",
+        "mock_30",
+        "mock_32",
+        "mock_34",
+        "mock_35"
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "size": 6,
+      "medoid": "mock_20",
+      "members": [
+        "mock_15",
+        "mock_20",
+        "mock_23",
+        "mock_25",
+        "mock_31",
+        "mock_33"
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "size": 10,
+      "medoid": "mock_1",
+      "members": [
+        "mock_1",
+        "mock_2",
+        "mock_3",
+        "mock_4",
+        "mock_5",
+        "mock_6",
+        "mock_7",
+        "mock_8",
+        "mock_9",
+        "requirements"
+      ]
+    }
+  ]
+}

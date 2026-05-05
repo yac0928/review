@@ -54,5 +54,7 @@
     "C2": 0,
     "C3": 0,
     "C4": 0
-  }
+  },
+  "cluster_id": 2,
+  "is_medoid": false
 }

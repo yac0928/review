@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<title>Candidate Clustering</title>
+<script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+<style>body { margin: 0; font-family: sans-serif; } #plot { width: 100vw; height: 100vh; }</style>
+</head>
+<body>
+<div id="plot"></div>
+<script>
+Plotly.newPlot('plot', [{"x":[3.0841129420308717,4.230473025400308,3.228342855310241,4.110389365169924,4.728822904469433,5.500947950224155,3.971594494637228,3.1862362153926047,3.230328237113752,3.537889376324922,2.0413164083501,3.575750283326437,4.8826546757966485,3.3828757909932703,3.70832974014502,4.667204968275313,2.596199140782269,4.045227297511242,2.101619132227325],"y":[-8.22847372392671,-6.0954940099824055,-7.432599914852358,-7.796108741488954,-6.345280228734775,-6.898928866270103,-6.696930478684323,-8.695259870832519,-6.438028385774305,-8.063414868255435,-9.013202240896767,-7.668093734221582,-7.3708887853353176,-6.8401852286811895,-7.034702215272256,-6.0056807600368405,-8.7472046085207,-6.297521306679245,-7.513531030455124],"text":["mock_10","mock_11","mock_12","mock_13","mock_14","mock_16","mock_17","mock_18","mock_19","mock_21","mock_22","mock_24","mock_26","mock_27","mock_28","mock_29","mock_30","mock_32","mock_34"],"mode":"markers","type":"scatter","name":"Cluster 0","marker":{"color":"#e6194b","size":10,"symbol":"circle"},"hovertemplate":"%{text}<extra></extra>"},{"x":[4.322935115839495],"y":[-6.858391945094852],"text":["mock_35 ★"],"mode":"markers","type":"scatter","name":"Cluster 0 (medoid)","marker":{"color":"#e6194b","size":16,"symbol":"star","line":{"color":"#000","width":1}},"hovertemplate":"%{text}<extra></extra>","showlegend":false},{"x":[6.68658758115516,6.940430991561241,6.566841871282818,7.181374766607645,7.1440531217331955],"y":[-6.20469356267667,-6.956022625283087,-6.679806077665361,-6.602079398968997,-6.323675921902521],"text":["mock_15","mock_23","mock_25","mock_31","mock_33"],"mode":"markers","type":"scatter","name":"Cluster 1","marker":{"color":"#3cb44b","size":10,"symbol":"circle"},"hovertemplate":"%{text}<extra></extra>"},{"x":[6.804075965662044],"y":[-6.6189437861646505],"text":["mock_20 ★"],"mode":"markers","type":"scatter","name":"Cluster 1 (medoid)","marker":{"color":"#3cb44b","size":16,"symbol":"star","line":{"color":"#000","width":1}},"hovertemplate":"%{text}<extra></extra>","showlegend":false},{"x":[1.4963892187281012,1.250164447369533,1.6279938775961216,0.6714701255424165,0.8295734332737243,1.511834482695041,1.2568936268071091,0.9073272118765368,1.4563717871712547],"y":[-8.84533037910264,-9.37967969241706,-9.481942706828033,-8.865700246965948,-8.553448246201823,-9.192774653323395,-8.79019000782812,-9.148415360246583,-8.50535942311932],"text":["mock_2","mock_3","mock_4","mock_5","mock_6","mock_7","mock_8","mock_9","requirements"],"mode":"markers","type":"scatter","name":"Cluster 2","marker":{"color":"#4363d8","size":10,"symbol":"circle"},"hovertemplate":"%{text}<extra></extra>"},{"x":[0.955078550309333],"y":[-9.633176694051436],"text":["mock_1 ★"],"mode":"markers","type":"scatter","name":"Cluster 2 (medoid)","marker":{"color":"#4363d8","size":16,"symbol":"star","line":{"color":"#000","width":1}},"hovertemplate":"%{text}<extra></extra>","showlegend":false}], {
+  title: { text: "Candidate Clustering — KMEANS K=3  |  Silhouette=0.440", font: { size: 15 } },
+  xaxis: { title: 'UMAP-1', zeroline: false },
+  yaxis: { title: 'UMAP-2', zeroline: false },
+  hovermode: 'closest',
+  legend: { orientation: 'v' },
+});
+</script>
+</body>
+</html>

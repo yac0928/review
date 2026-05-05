@@ -1999,5 +1999,7 @@
     "C2": 39,
     "C3": 34,
     "C4": 36
-  }
+  },
+  "cluster_id": 0,
+  "is_medoid": false
 }

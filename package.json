@@ -18,12 +18,15 @@
     "step4:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep04.ts",
     "step6": "ts-node scripts/runStep06.ts",
     "step6:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep06.ts",
+    "step7": "ts-node scripts/runStep07.ts",
+    "step7:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep07.ts",
     "models": "ts-node scripts/listModels.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "umap-js": "^1.4.0",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
