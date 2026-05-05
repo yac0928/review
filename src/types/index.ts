@@ -35,8 +35,12 @@ export interface Candidate {
   raw_text?: string;
   cleaned_text?: string;
   idea_units: IdeaUnit[];
-  // Filled in Step 4+:
+  // Filled in Step 6:
+  feature_vector?: number[];
+  radar_chart_data?: Record<CriterionId, number>;
+  // Filled in Step 7+:
   cluster_id?: number;
+  cluster_name?: string;
   is_medoid?: boolean;
   distinctive_hashtags?: string[];
 }
