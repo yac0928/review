@@ -1799,5 +1799,6 @@
     "C4": 26
   },
   "cluster_id": 1,
-  "is_medoid": false
+  "is_medoid": false,
+  "cluster_name": "嵌入式系統安全"
 }

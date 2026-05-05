@@ -1799,5 +1799,6 @@
     "C4": 30
   },
   "cluster_id": 0,
-  "is_medoid": false
+  "is_medoid": false,
+  "cluster_name": "智慧系統研究與應用"
 }

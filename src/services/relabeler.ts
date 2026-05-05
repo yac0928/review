@@ -84,7 +84,7 @@ export async function relabelAll(outputDir: string): Promise<void> {
   const dictionary = loadStandardDictionary(outputDir);
   const reverseMap = buildReverseMap(dictionary);
 
-  const EXCLUDED = new Set(['standard_dictionary.json', 'embeddings_cache.json']);
+  const EXCLUDED = new Set(['standard_dictionary.json', 'embeddings_cache.json', 'clusters.json']);
   const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.json') && !EXCLUDED.has(f));
 
   console.log(`[Step 4] ${files.length} candidate(s) to relabel`);

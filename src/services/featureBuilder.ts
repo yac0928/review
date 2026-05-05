@@ -3,7 +3,7 @@ import path from 'path';
 import { Candidate, CriterionId, CRITERIA, StandardDictionary } from '../types';
 import { loadStandardDictionary } from './subCriteriaClusterer';
 
-const EXCLUDED = new Set(['standard_dictionary.json', 'embeddings_cache.json']);
+const EXCLUDED = new Set(['standard_dictionary.json', 'embeddings_cache.json', 'clusters.json']);
 
 // Returns ordered list of sub-criteria IDs from the dictionary (C1 first, others last per criterion)
 function buildSubCriteriaIndex(dictionary: StandardDictionary): string[] {
@@ -74,7 +74,7 @@ function saveCandidate(outputDir: string, candidate: Candidate) {
   );
 }
 
-export async function buildAllFeatureVectors(outputDir: string): Promise<void> {
+export async function buildAllFeatureVectors(outputDir: string, force = false): Promise<void> {
   const dictionary = loadStandardDictionary(outputDir);
   const index = buildSubCriteriaIndex(dictionary);
   const nameToId = buildNameToIdMap(dictionary);
@@ -91,7 +91,7 @@ export async function buildAllFeatureVectors(outputDir: string): Promise<void> {
   for (const file of files) {
     const candidate = loadCandidate(outputDir, file);
 
-    if (candidate.feature_vector) {
+    if (!force && candidate.feature_vector) {
       skipped++;
       continue;
     }

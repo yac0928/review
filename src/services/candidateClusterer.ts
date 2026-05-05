@@ -5,7 +5,7 @@ import { Candidate, CriterionId } from '../types';
 import { findBestK, silhouetteScore } from '../utils/kmeans';
 import { findBestGMMK } from '../utils/gmm';
 
-const EXCLUDED = new Set(['standard_dictionary.json', 'embeddings_cache.json']);
+const EXCLUDED = new Set(['standard_dictionary.json', 'embeddings_cache.json', 'clusters.json']);
 
 // ── Data loading ───────────────────────────────────────────────────────────
 
@@ -152,6 +152,9 @@ export interface ClusterSummary {
     size: number;
     medoid: string;
     members: string[];
+    cluster_name?: string;
+    top_sub_criteria?: Array<{ name: string; count: number }>;
+    top_hashtags?: Array<{ tag: string; count: number }>;
   }>;
 }
 

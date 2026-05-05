@@ -19,7 +19,7 @@ async function main() {
   const force = process.env.FORCE === '1';
   if (force) console.log('[Step 6] FORCE mode — rebuilding all feature vectors');
   console.log(`[Step 6] Reading from: ${config.outputDir}`);
-  await buildAllFeatureVectors(config.outputDir);
+  await buildAllFeatureVectors(config.outputDir, force);
 }
 
 main().catch(err => {

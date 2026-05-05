@@ -1,19 +1,25 @@
 {
   "algorithm": "kmeans",
-  "k": 3,
-  "silhouette": 0.43980861981628555,
+  "k": 2,
+  "silhouette": 0.20366563990559436,
   "clusters": [
     {
       "cluster_id": 0,
-      "size": 20,
-      "medoid": "mock_35",
+      "size": 26,
+      "medoid": "mock_24",
       "members": [
+        "mock_01",
+        "mock_02",
+        "mock_03",
+        "mock_04",
+        "mock_05",
+        "mock_07",
+        "mock_08",
         "mock_10",
         "mock_11",
         "mock_12",
         "mock_13",
         "mock_14",
-        "mock_16",
         "mock_17",
         "mock_18",
         "mock_19",
@@ -28,36 +34,152 @@
         "mock_32",
         "mock_34",
         "mock_35"
+      ],
+      "cluster_name": "智慧系統研究與應用",
+      "top_sub_criteria": [
+        {
+          "name": "其他面向",
+          "count": 347
+        },
+        {
+          "name": "實務問題解決",
+          "count": 167
+        },
+        {
+          "name": "學術背景與潛力",
+          "count": 143
+        },
+        {
+          "name": "專題專案實作管理",
+          "count": 137
+        },
+        {
+          "name": "研究方向規劃",
+          "count": 136
+        }
+      ],
+      "top_hashtags": [
+        {
+          "tag": "資訊工程學系",
+          "count": 21
+        },
+        {
+          "tag": "機器學習",
+          "count": 21
+        },
+        {
+          "tag": "Python",
+          "count": 17
+        },
+        {
+          "tag": "人工智慧",
+          "count": 15
+        },
+        {
+          "tag": "深度學習",
+          "count": 15
+        },
+        {
+          "tag": "博士學位",
+          "count": 14
+        },
+        {
+          "tag": "跨領域學習",
+          "count": 13
+        },
+        {
+          "tag": "PyTorch",
+          "count": 13
+        },
+        {
+          "tag": "強化學習",
+          "count": 12
+        },
+        {
+          "tag": "產學合作",
+          "count": 12
+        }
       ]
     },
     {
       "cluster_id": 1,
-      "size": 6,
+      "size": 9,
       "medoid": "mock_20",
       "members": [
+        "mock_06",
+        "mock_09",
         "mock_15",
+        "mock_16",
         "mock_20",
         "mock_23",
         "mock_25",
         "mock_31",
         "mock_33"
-      ]
-    },
-    {
-      "cluster_id": 2,
-      "size": 10,
-      "medoid": "mock_1",
-      "members": [
-        "mock_1",
-        "mock_2",
-        "mock_3",
-        "mock_4",
-        "mock_5",
-        "mock_6",
-        "mock_7",
-        "mock_8",
-        "mock_9",
-        "requirements"
+      ],
+      "cluster_name": "嵌入式系統安全",
+      "top_sub_criteria": [
+        {
+          "name": "硬體韌體系統開發",
+          "count": 123
+        },
+        {
+          "name": "其他面向",
+          "count": 106
+        },
+        {
+          "name": "資安漏洞防禦",
+          "count": 57
+        },
+        {
+          "name": "研究方向規劃",
+          "count": 52
+        },
+        {
+          "name": "學術背景與潛力",
+          "count": 51
+        }
+      ],
+      "top_hashtags": [
+        {
+          "tag": "資訊工程學系",
+          "count": 7
+        },
+        {
+          "tag": "嵌入式系統",
+          "count": 7
+        },
+        {
+          "tag": "陽明交通大學資工所",
+          "count": 7
+        },
+        {
+          "tag": "硬體安全",
+          "count": 6
+        },
+        {
+          "tag": "專題研究",
+          "count": 6
+        },
+        {
+          "tag": "計算機結構",
+          "count": 6
+        },
+        {
+          "tag": "數位邏輯設計",
+          "count": 6
+        },
+        {
+          "tag": "FPGA",
+          "count": 6
+        },
+        {
+          "tag": "Python",
+          "count": 6
+        },
+        {
+          "tag": "學術研討會",
+          "count": 6
+        }
       ]
     }
   ]

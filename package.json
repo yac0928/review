@@ -20,6 +20,8 @@
     "step6:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep06.ts",
     "step7": "ts-node scripts/runStep07.ts",
     "step7:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep07.ts",
+    "step8": "ts-node scripts/runStep08.ts",
+    "step8:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep08.ts",
     "models": "ts-node scripts/listModels.ts"
   },
   "dependencies": {

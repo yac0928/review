@@ -1,5 +1,5 @@
 {
-  "candidate_id": "mock_7",
+  "candidate_id": "mock_07",
   "source_files": [
     "D:\\研究\\審查系統\\app\\mock_data\\mock_7.txt"
   ],
@@ -7,7 +7,7 @@
   "idea_units": [
     {
       "id": "40165128-a4ea-498a-9d34-fbaa2b127408",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "我是 [學生姓名]，就讀於國立中正大學資訊工程學系。",
       "criteria": [
@@ -19,11 +19,14 @@
       "hashtags": [
         "國立中正大學",
         "資訊工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景與潛力"
+      }
     },
     {
       "id": "8cad3993-22c2-4ee1-9888-5e72b36edcd1",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "大學四年期間，我對資訊工程的熱情日益增長，尤其在軟體開發與系統安全領域投入大量心力。",
       "criteria": [
@@ -37,11 +40,15 @@
       "hashtags": [
         "軟體開發",
         "系統安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景與潛力",
+        "C4": "學習目標規劃"
+      }
     },
     {
       "id": "22994134-d1e2-4d41-9c32-bd5024abf7b8",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "我的平均學業成績達到3.7/4.3 (約88分)，在理論學習與實務應用中皆積極探索。",
       "criteria": [
@@ -52,11 +59,15 @@
         "C1": "學業成績表現",
         "C4": "學習態度積極"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景與潛力",
+        "C4": "學習目標規劃"
+      }
     },
     {
       "id": "9a0dba0a-61f9-43d4-b301-b5d10a4d2f7c",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "課餘時間，我參與熱舞社並專攻 Poping 舞風。",
       "criteria": [
@@ -68,11 +79,14 @@
       "hashtags": [
         "熱舞社",
         "Poping舞風"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "社群參與貢獻"
+      }
     },
     {
       "id": "7cc8be51-37a3-438a-a986-7ef83fcfb0cb",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "透過身體律動與節奏感訓練，不僅培養了高度專注力與毅力，更學會如何在團隊中協作與展現個人風格。",
       "criteria": [
@@ -87,11 +101,15 @@
         "專注力",
         "毅力",
         "團隊協作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業素養精進",
+        "C3": "批判思辨與跨域學習"
+      }
     },
     {
       "id": "f56e074c-7db6-456a-ae70-b95c3bf25717",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "這份對細節的掌握與堅持，也反映在我的程式設計與問題解決上。",
       "criteria": [
@@ -105,11 +123,15 @@
       "hashtags": [
         "程式設計",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實務問題解決",
+        "C2": "程式演算法效能優化"
+      }
     },
     {
       "id": "eb8ea473-a706-45b2-8c86-5a74f77b511d",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "在大三期間，我參與了「基於機器學習的物聯網入侵偵測系統」專題。",
       "criteria": [
@@ -121,11 +143,14 @@
       "hashtags": [
         "機器學習",
         "物聯網入侵偵測系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專題專案實作管理"
+      }
     },
     {
       "id": "43bfbd15-8ad8-4722-b4cb-e9cd32bec55a",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "旨在應對日益增長的IoT設備安全威脅。",
       "criteria": [
@@ -136,11 +161,14 @@
       },
       "hashtags": [
         "IoT設備安全威脅"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實務問題解決"
+      }
     },
     {
       "id": "378fe4da-09e2-4105-832b-f4cbb0b18ef9",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "該專題與本校資訊安全實驗室合作，我主要負責資料前處理、特徵工程以及模型訓練與評估。",
       "criteria": [
@@ -156,11 +184,15 @@
         "資料前處理",
         "特徵工程",
         "模型訓練與評估"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專題專案實作管理",
+        "C1": "其他面向"
+      }
     },
     {
       "id": "75a8e1d1-a203-46a4-837a-0edd4313c605",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "我們使用了公開的 IoT Botnet 攻擊數據集（如 UNSW-NB15 或 N-BaIoT），透過 Python 與 Scikit-learn 框架，對原始網路流量數據進行清理與轉換，提取了包括封包大小、時間間隔、連接狀態等超過 30 個特徵。",
       "criteria": [
@@ -177,11 +209,14 @@
         "Scikit-learn",
         "網路流量數據",
         "特徵提取"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作"
+      }
     },
     {
       "id": "3af2a200-8793-4944-8e62-3295863b94dd",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "我深入比較了多種分類演算法，包括支援向量機 (SVM)、隨機森林 (Random Forest) 和梯度提升樹 (XGBoost)，並透過交叉驗證與網格搜索優化模型參數。",
       "criteria": [
@@ -198,11 +233,15 @@
         "梯度提升樹",
         "交叉驗證",
         "網格搜索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作",
+        "C3": "系統效能與資源優化"
+      }
     },
     {
       "id": "36a24d86-af8e-46d8-af82-92aba483f6fe",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "最終，我們在特定攻擊類型的檢測上，成功使系統的準確率達到 96% 以上，召回率也維持在 90% 以上。",
       "criteria": [
@@ -215,11 +254,14 @@
         "準確率96%",
         "召回率90%",
         "攻擊類型檢測"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式演算法效能優化"
+      }
     },
     {
       "id": "72c61f34-07ba-45db-9baa-bec6855db097",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "透過此專題，我不僅熟練掌握了機器學習在網路安全領域的應用。",
       "criteria": [
@@ -233,11 +275,15 @@
       "hashtags": [
         "機器學習",
         "網路安全應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作",
+        "C1": "跨領域知識整合"
+      }
     },
     {
       "id": "a4ec4907-7482-487e-a447-b898238ef559",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "也深刻體會到資料品質與特徵選擇對模型效能的關鍵影響。",
       "criteria": [
@@ -250,11 +296,14 @@
         "資料品質",
         "特徵選擇",
         "模型效能"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "數據分析與模型評估"
+      }
     },
     {
       "id": "16969cd6-6ecc-4dd7-a70d-281dd8cc44f6",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "並累積了處理大規模網路數據的實戰經驗。",
       "criteria": [
@@ -266,11 +315,14 @@
       "hashtags": [
         "大規模網路數據",
         "實戰經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "數據處理與分析應用"
+      }
     },
     {
       "id": "6db6090b-1d23-4b8d-a8f9-01713435e623",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "在大四上學期，我主導了一個課程專題。",
       "criteria": [
@@ -284,11 +336,15 @@
       "hashtags": [
         "課程專題",
         "專題主導"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊領導協作",
+        "C2": "專題專案實作管理"
+      }
     },
     {
       "id": "3543eb16-18a2-426b-a64b-633096a2b489",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "目標是開發一個基於區塊鏈的去中心化資產登記平台。",
       "criteria": [
@@ -300,11 +356,14 @@
       "hashtags": [
         "區塊鏈",
         "去中心化資產登記平台"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發"
+      }
     },
     {
       "id": "d2ac6bed-468d-442e-88cc-9871facfbf3a",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "這個平台旨在解決傳統資產登記中存在的中心化風險與效率問題。",
       "criteria": [
@@ -317,11 +376,14 @@
         "中心化風險",
         "效率問題",
         "資產登記"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實務問題解決"
+      }
     },
     {
       "id": "90c126ae-5709-4873-af81-d47e6da21395",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "我負責設計智能合約（Smart Contracts）的架構，使用 Solidity 語言在 Ethereum 區塊鏈上實現了資產創建、轉移與查詢的核心邏輯，並確保交易的不可篡改性與透明性。",
       "criteria": [
@@ -339,11 +401,15 @@
         "資產創建轉移查詢",
         "不可篡改性",
         "透明性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發",
+        "C3": "資安漏洞防禦"
+      }
     },
     {
       "id": "8bd70f5a-f1d6-4a7b-9140-b76d3be98903",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "開發過程中，我利用 Truffle 框架進行合約測試與部署，並搭配 Ganache 模擬器加速開發流程。",
       "criteria": [
@@ -357,11 +423,14 @@
         "Ganache模擬器",
         "合約測試部署",
         "加速開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發"
+      }
     },
     {
       "id": "b058200a-003a-488c-858d-b9443728295f",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "同時，我也使用 Web3.js 庫建構了前端使用者介面，使用戶能透過 MetaMask 錢包與智能合約進行互動。",
       "criteria": [
@@ -375,11 +444,14 @@
         "前端介面",
         "MetaMask",
         "智能合約互動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發"
+      }
     },
     {
       "id": "a089ab21-489d-44c4-888e-8b7e59bd521b",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "在安全方面，我仔細考量了重入攻擊 (Reentrancy Attack) 和整數溢出 (Integer Overflow) 等常見智能合約漏洞，並採用 OpenZeppelin 庫提供的安全模組進行防範。",
       "criteria": [
@@ -396,11 +468,15 @@
         "整數溢出",
         "OpenZeppelin",
         "安全模組"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "硬體韌體系統開發",
+        "C3": "資安漏洞防禦"
+      }
     },
     {
       "id": "3d122b69-bc3c-411c-97bf-caf3999dc663",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "此專題讓我深入了解區塊鏈底層技術、智能合約的開發生命週期及潛在的安全挑戰。",
       "criteria": [
@@ -415,11 +491,15 @@
         "區塊鏈底層技術",
         "智能合約開發",
         "安全挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "軟硬體系統架構",
+        "C2": "專題專案實作管理"
+      }
     },
     {
       "id": "6e9b29d0-b95d-441e-947a-633d4c02773e",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "也體認到分散式系統在確保數據完整性與抗審查方面的巨大潛力。",
       "criteria": [
@@ -434,11 +514,15 @@
         "分散式系統",
         "數據完整性",
         "抗審查"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "軟硬體系統架構",
+        "C3": "創新方案與趨勢洞察"
+      }
     },
     {
       "id": "eb83b188-b3e5-44b6-ab87-816971b29655",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "除了資訊工程領域的專業訓練，我也積極修習跨領域課程。",
       "criteria": [
@@ -447,11 +531,14 @@
       "sub_criteria_map": {
         "C1": "跨領域課程修習"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "跨領域知識整合"
+      }
     },
     {
       "id": "fbe6e8e0-cb9f-4078-b209-ebab47412281",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "以拓展視野並培養多角度思維。",
       "criteria": [
@@ -462,11 +549,15 @@
         "C4": "自我成長動機",
         "C3": "多角度思維培養"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習目標規劃",
+        "C3": "批判思辨與跨域學習"
+      }
     },
     {
       "id": "ee18ed7f-1476-4ace-b4b6-5cd02465d783",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "我選修了「科技法律導論」與「賽局理論」。",
       "criteria": [
@@ -478,11 +569,14 @@
       "hashtags": [
         "科技法律導論",
         "賽局理論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨領域知識整合"
+      }
     },
     {
       "id": "2bedf713-b09e-4cd7-be9b-3b8e68a7fe54",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "在「科技法律導論」中，我學習了數位隱私權、智慧財產權以及網路犯罪相關的法律框架，理解了技術發展與法規限制之間的互動。",
       "criteria": [
@@ -499,11 +593,15 @@
         "智慧財產權",
         "網路犯罪",
         "法律框架"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "資安攻防與防護",
+        "C3": "其他面向"
+      }
     },
     {
       "id": "ed6d46b2-4333-41b0-8d8b-a142379dacb4",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "這對於未來在網路安全和區塊鏈應用中考量合規性與倫理議題至關重要。",
       "criteria": [
@@ -519,11 +617,15 @@
         "區塊鏈應用",
         "合規性",
         "倫理議題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "其他面向",
+        "C3": "科技倫理與社會關懷"
+      }
     },
     {
       "id": "7b4a9dd0-cf32-49f7-8e2b-87a6074e18ac",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "而「賽局理論」則讓我從數學和經濟學的角度，分析了多方參與者在策略互動中的決策過程。",
       "criteria": [
@@ -540,11 +642,15 @@
         "經濟學",
         "策略互動",
         "決策過程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "資工理論與應用",
+        "C3": "創新方案與趨勢洞察"
+      }
     },
     {
       "id": "edb3b874-e6fb-402e-a8c3-7b8a61ed0004",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "這對理解網路攻擊者的動機、設計更具韌性的防禦機制，乃至於區塊鏈共識機制的激勵設計，都提供了全新的思考框架。",
       "criteria": [
@@ -560,11 +666,15 @@
         "韌性防禦機制",
         "區塊鏈共識機制",
         "激勵設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實務問題解決",
+        "C2": "硬體韌體系統開發"
+      }
     },
     {
       "id": "c5390931-8cf9-4ee5-bb69-931a8a1a89bc",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "透過這些跨領域學習，我發現許多看似獨立的問題，往往能透過不同學科的視角找到更全面、更創新的解決方案。",
       "criteria": [
@@ -578,11 +688,15 @@
       "hashtags": [
         "跨領域學習",
         "創新解決方案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨領域知識整合",
+        "C3": "實務問題解決"
+      }
     },
     {
       "id": "decbf73f-a7bf-417d-9914-fcd4a2bb40a5",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "大學期間，兩項專題的經驗讓我對網路安全與區塊鏈技術產生了濃厚的興趣。",
       "criteria": [
@@ -597,11 +711,15 @@
         "網路安全",
         "區塊鏈技術",
         "專題經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專題專案實作管理",
+        "C1": "專業領域深耕"
+      }
     },
     {
       "id": "ff8d4bd7-d981-4609-9f87-dc4fb7c87d48",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "在物聯網入侵偵測系統的開發中，我見證了惡意攻擊手法的快速演進，以及傳統防禦機制的不足。",
       "criteria": [
@@ -616,11 +734,15 @@
         "物聯網入侵偵測",
         "惡意攻擊手法",
         "傳統防禦機制"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發",
+        "C3": "實務問題解決"
+      }
     },
     {
       "id": "5a6ed9d8-be67-49d6-aca0-786f774e82f2",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "儘管機器學習能有效提升偵測率。",
       "criteria": [
@@ -632,11 +754,14 @@
       "hashtags": [
         "機器學習",
         "偵測率提升"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作"
+      }
     },
     {
       "id": "919cc79c-c6a3-4c86-b336-d06b187b5421",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "但我意識到現有的模型在面對新型態、零日攻擊時，仍面臨泛化能力與即時反應的挑戰。",
       "criteria": [
@@ -650,11 +775,14 @@
         "零日攻擊",
         "模型泛化能力",
         "即時反應挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "研究問題與限制分析"
+      }
     },
     {
       "id": "08c6dab7-646d-439d-bda4-1f04ae4e1883",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "這促使我渴望深入研究更進階的深度學習、強化學習技術，以建構更具彈性與智能的防禦系統。",
       "criteria": [
@@ -670,11 +798,15 @@
         "強化學習",
         "彈性防禦系統",
         "智能防禦系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業領域深耕",
+        "C4": "研究方向規劃"
+      }
     },
     {
       "id": "ce2e1e1a-71cc-46ce-b7f2-b631e47c042a",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "另一方面，區塊鏈資產登記平台的開發讓我親身體驗到分散式帳本技術在數據不可篡改、透明化與去中心化方面的革命性潛力。",
       "criteria": [
@@ -690,11 +822,15 @@
         "分散式帳本技術",
         "數據不可篡改",
         "去中心化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發",
+        "C1": "軟硬體系統架構"
+      }
     },
     {
       "id": "8846b5aa-0b41-448f-ac81-e39682d74ad3",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "然而，我也觀察到公共區塊鏈在擴展性、交易吞吐量以及隱私保護方面的限制。",
       "criteria": [
@@ -708,11 +844,14 @@
         "擴展性限制",
         "交易吞吐量",
         "隱私保護"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "創新方案與趨勢洞察"
+      }
     },
     {
       "id": "52949984-c10a-45fd-bb55-3de0850efbb7",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "這對於其在企業級應用中的普及構成挑戰。",
       "criteria": [
@@ -726,11 +865,15 @@
       "hashtags": [
         "企業級應用",
         "普及挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "創新方案與趨勢洞察",
+        "C4": "其他面向"
+      }
     },
     {
       "id": "544011e1-b6fe-463a-80e7-7d4a955820dd",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "我希望能進一步探索如何優化區塊鏈的共識機制、開發隱私保護方案（如零知識證明），並研究跨鏈技術以實現更廣泛的互操作性。",
       "criteria": [
@@ -747,11 +890,15 @@
         "零知識證明",
         "跨鏈技術",
         "互操作性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "研究方向規劃",
+        "C1": "軟硬體系統架構"
+      }
     },
     {
       "id": "e2dbe4b6-d2d9-4f08-8ae0-837a061c4121",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "國立陽明交通大學資訊工程學系在網路安全與分散式系統領域享有盛譽，其資訊安全研究中心在密碼學、系統安全、網路攻防等方向的研究成果豐碩。",
       "criteria": [
@@ -768,11 +915,15 @@
         "密碼學",
         "系統安全",
         "網路攻防"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習目標規劃",
+        "C1": "學術背景與潛力"
+      }
     },
     {
       "id": "ed7ea440-4647-422f-ad34-74df531ceba9",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "貴所不僅擁有頂尖的師資陣容。",
       "criteria": [
@@ -781,11 +932,14 @@
       "sub_criteria_map": {
         "C4": "申請動機與認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習目標規劃"
+      }
     },
     {
       "id": "f5bd890d-74fa-4f23-8991-3dbc42ced8f7",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "更提供了豐富多元的專業課程與先進的實驗設備。",
       "criteria": [
@@ -794,11 +948,14 @@
       "sub_criteria_map": {
         "C4": "申請動機與認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習目標規劃"
+      }
     },
     {
       "id": "63c656fe-adf8-4923-8056-86c08e3f9d95",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "自傳",
       "content": "我相信，在貴所深厚的學術底蘊與實作導向的環境下，我將能夠系統性地學習最新的安全技術與區塊鏈理論，彌補我在大學階段因知識廣度所限的不足，並在教授們的指導下，將我的研究興趣轉化為具體且有影響力的研究成果。",
       "criteria": [
@@ -814,11 +971,15 @@
         "區塊鏈理論學習",
         "研究成果轉化",
         "知識廣度補強"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "研究方向規劃",
+        "C1": "學術背景與潛力"
+      }
     },
     {
       "id": "3db25745-45c7-4886-bbce-33ee1bce8f98",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "我對於網路安全和區塊鏈技術的交叉應用特別感興趣，並希望深入研究以下兩個主要方向：",
       "criteria": [
@@ -833,11 +994,15 @@
         "網路安全",
         "區塊鏈技術",
         "交叉應用研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨領域知識整合",
+        "C4": "研究方向規劃"
+      }
     },
     {
       "id": "6b88a47c-3ee6-436e-8758-61748fd20e59",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "儘管我已在大學專題中實作了基於機器學習的入侵偵測系統。",
       "criteria": [
@@ -850,11 +1015,14 @@
         "大學專題",
         "機器學習",
         "入侵偵測系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作"
+      }
     },
     {
       "id": "6d9789c0-1cab-4def-92f1-162873e87044",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "但我意識到傳統機器學習模型在面對高度動態、多變的網路威脅（如APT攻擊、多態性惡意軟體）時，其學習效率和適應性仍有提升空間。",
       "criteria": [
@@ -870,11 +1038,15 @@
         "網路威脅",
         "APT攻擊",
         "多態性惡意軟體"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "數據分析與模型評估",
+        "C1": "資安攻防與防護"
+      }
     },
     {
       "id": "d7016b84-f0d5-4164-814a-3cdec0ca4031",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "因此，我希望進一步探討如何整合深度學習（如循環神經網路RNN、卷積神經網路CNN）和強化學習 (Reinforcement Learning) 技術，來建構更具預測性和自適應能力的智能網路安全防禦系統。",
       "criteria": [
@@ -891,20 +1063,25 @@
         "卷積神經網路CNN",
         "強化學習",
         "智能安全防禦系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "資安漏洞防禦",
+        "C2": "AI/ML模型應用實作"
+      }
     },
     {
       "id": "9d41b4e3-9062-4d0c-84b4-ada3823ebc48",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "我感興趣的研究議題包括：",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "458a8425-ce34-4b67-8724-6a3ba3c7c1fe",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**零日攻擊與未知威脅偵測：** 運用深度學習從原始網路流量中自動提取抽象特徵，以識別傳統簽名或淺層機器學習模型難以捕捉的新型威脅模式。",
       "criteria": [
@@ -921,11 +1098,15 @@
         "深度學習",
         "網路流量分析",
         "新型威脅模式"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作",
+        "C3": "資安漏洞防禦"
+      }
     },
     {
       "id": "dd021410-0f27-47c3-acce-796f8374c283",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**行為模式分析與異常檢測：** 透過學習使用者或系統的正常行為基準，利用時間序列分析和異常偵測演算法，即時發現偏離常態的惡意行為。",
       "criteria": [
@@ -941,11 +1122,15 @@
         "異常檢測",
         "時間序列分析",
         "惡意行為偵測"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "AI/ML模型應用實作",
+        "C3": "資安漏洞防禦"
+      }
     },
     {
       "id": "15d42e3b-6952-484f-bbc4-b4ea48e9fb77",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**AI 自動攻防與對抗性機器學習：** 探索攻擊者利用對抗性樣本規避AI防禦的技術，以及如何設計具備韌性的模型以抵禦這些攻擊，形成攻防演進的良性循環。",
       "criteria": [
@@ -961,11 +1146,15 @@
         "對抗性機器學習",
         "對抗性樣本",
         "韌性模型設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "其他面向",
+        "C3": "資安漏洞防禦"
+      }
     },
     {
       "id": "21df8233-6c32-4ed6-a61d-40489a9429be",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "我的動機源於對當前網路安全挑戰的深切關注，我相信結合AI的智慧化防禦將是未來趨勢，我也期待能為此做出貢獻。",
       "criteria": [
@@ -977,11 +1166,14 @@
       "hashtags": [
         "網路安全挑戰",
         "AI智慧化防禦"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "研究方向規劃"
+      }
     },
     {
       "id": "4b61dd43-d517-41f5-87f3-43b27d134380",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "我在開發區塊鏈資產登記平台時，深刻體會到區塊鏈技術在去中心化與數據完整性方面的優勢。",
       "criteria": [
@@ -996,11 +1188,15 @@
         "區塊鏈資產登記平台",
         "去中心化",
         "數據完整性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發",
+        "C3": "創新方案與趨勢洞察"
+      }
     },
     {
       "id": "51a96b15-67ae-44b8-80b5-0c525b0fba4d",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "但也同時認識到其在實際應用中面臨的可擴展性（Scalability）和隱私保護（Privacy Preservation）挑戰。",
       "criteria": [
@@ -1014,11 +1210,14 @@
         "隱私保護挑戰",
         "Scalability",
         "Privacy Preservation"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "創新方案與趨勢洞察"
+      }
     },
     {
       "id": "21590fa3-f9d9-44a2-b327-e9afe1976169",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "我希望專注於研究如何克服這些瓶頸，使區塊鏈技術能夠更廣泛地應用於企業級和大規模場景。",
       "criteria": [
@@ -1033,11 +1232,15 @@
         "區塊鏈瓶頸克服",
         "企業級應用",
         "大規模場景"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "研究方向規劃",
+        "C3": "創新方案與趨勢洞察"
+      }
     },
     {
       "id": "76064e92-1c0a-4d71-96e4-7f96a29c991f",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "我感興趣的研究議題包括：",
       "criteria": [
@@ -1046,11 +1249,14 @@
       "sub_criteria_map": {
         "C4": "研究議題引導"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "研究方向規劃"
+      }
     },
     {
       "id": "badc2804-b2ed-4a02-8cf6-bc87e9fd7fbd",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**新型共識機制研究：** 探索超越傳統工作量證明（PoW）和權益證明（PoS）的新型高效共識演算法，如拜占庭容錯 (BFT) 變體、分片 (Sharding) 技術或鏈下擴展方案 (Layer 2 Solutions)，以提高交易吞吐量和降低延遲。",
       "criteria": [
@@ -1067,11 +1273,15 @@
         "分片Sharding",
         "鏈下擴展Layer2",
         "交易吞吐量"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "資工理論與應用",
+        "C3": "系統效能與資源優化"
+      }
     },
     {
       "id": "301e8499-436c-4db1-a7cf-87eac8cdda2c",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**隱私保護方案的整合：** 研究零知識證明 (Zero-Knowledge Proofs, ZKP)、同態加密 (Homomorphic Encryption) 或安全多方計算 (Secure Multi-Party Computation, MPC) 等密碼學技術，如何在區塊鏈交易中實現數據隱私保護，同時維持驗證的透明性。",
       "criteria": [
@@ -1088,11 +1298,15 @@
         "同態加密",
         "安全多方計算MPC",
         "密碼學技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "資安攻防與防護",
+        "C3": "科技倫理與社會關懷"
+      }
     },
     {
       "id": "d5834adc-837e-41ca-915a-befba77dcdb4",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**區塊鏈與傳統系統的集成與安全互操作：** 探討如何安全有效地將區塊鏈與現有的資訊系統結合，並確保跨鏈通信與數據交換的安全性。",
       "criteria": [
@@ -1108,11 +1322,15 @@
         "資訊系統整合",
         "跨鏈通信",
         "數據交換安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟體系統設計開發",
+        "C3": "資安漏洞防禦"
+      }
     },
     {
       "id": "becf6979-ee01-4434-b2e3-679ee76af358",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "我的動機在於堅信區塊鏈將重塑多個產業的運作模式，而解決其核心技術挑戰是推動其大規模採用的關鍵。",
       "criteria": [
@@ -1125,11 +1343,14 @@
         "區塊鏈應用",
         "產業重塑",
         "技術挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "其他面向"
+      }
     },
     {
       "id": "99e87ce3-5dc6-42ca-b993-894540258112",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "我希望能為構建更高效、更安全的去中心化信任基礎貢獻一份心力。",
       "criteria": [
@@ -1141,11 +1362,14 @@
       "hashtags": [
         "去中心化信任",
         "區塊鏈安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "其他面向"
+      }
     },
     {
       "id": "03a96565-ad5c-4463-bba9-47a257e65198",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**課程學習與基礎鞏固：** 積極修習貴所開設的進階課程，如「高等密碼學」、「分散式系統」、「高等網路安全」、「機器學習理論」與「區塊鏈技術與應用」。特別注重對底層理論、演算法和系統架構的理解。",
       "criteria": [
@@ -1160,11 +1384,14 @@
         "高等網路安全",
         "機器學習理論",
         "區塊鏈技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "其他面向"
+      }
     },
     {
       "id": "145f74cc-45f2-4c9d-b7a8-3849bc782395",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**實驗室參與與文獻研讀：** 主動參與實驗室專題討論會，了解實驗室的最新研究方向。大量閱讀相關領域的學術論文（如 IEEE S&P, USENIX Security, CCS, Eurocrypt, FC 等頂級會議），建立扎實的學術基礎。",
       "criteria": [
@@ -1181,11 +1408,15 @@
         "IEEE S&P",
         "USENIX Security",
         "CCS"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景與潛力",
+        "C3": "研究問題與限制分析"
+      }
     },
     {
       "id": "8ccdcdbb-c21f-4a7e-976e-9adb84e2fb0a",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**技能強化：** 提升對 Go、Rust 等現代程式語言的掌握度，這些語言在區塊鏈與高效能網路安全工具開發中日益重要。熟悉常見的虛擬化與容器技術（如 Docker, Kubernetes）以進行實驗環境部署。",
       "criteria": [
@@ -1201,11 +1432,14 @@
         "網路安全工具",
         "Docker",
         "Kubernetes"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式演算法效能優化"
+      }
     },
     {
       "id": "ebffd8cd-95e9-4558-addd-01743c7351bf",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**研究方向初步探索：** 根據所學知識與文獻回顧，與指導教授深入討論並確立碩士論文的具體研究方向與範疇，進行初步的問題定義與文獻梳理。",
       "criteria": [
@@ -1221,11 +1455,15 @@
         "指導教授討論",
         "問題定義",
         "文獻梳理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨領域知識整合",
+        "C3": "研究問題與限制分析"
+      }
     },
     {
       "id": "cfa4bba8-bdab-483a-9d8f-3131f2e4ac40",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**深入研究與論文撰寫：** 專注於碩士論文的研究工作，包括系統設計、原型實作、實驗驗證與數據分析。目標是開發出具有創新性、在學術上具影響力且在實踐中具可行性的解決方案。",
       "criteria": [
@@ -1242,20 +1480,25 @@
         "原型實作",
         "實驗驗證",
         "數據分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "其他面向",
+        "C3": "創新方案與趨勢洞察"
+      }
     },
     {
       "id": "13806ec1-f3e3-482a-ab38-397c6d184ab8",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**國際學術交流：** 積極參與國內外相關領域的學術研討會或工作坊，如 Black Hat 或 Def Con，藉此拓展學術視野，學習前沿技術，並與同行交流思想。若研究成果達到發表水準，將努力投稿至國際一流會議或期刊。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "2cb6631e-060c-4a02-a226-a6fba00dc3dd",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**實務經驗累積：** 爭取到相關的產學合作專案或研究實習機會，例如在資安公司、金融科技公司或大型科技企業的區塊鏈部門，將理論知識應用於實際問題，提升實作與協作能力。",
       "criteria": [
@@ -1272,11 +1515,15 @@
         "資安公司",
         "金融科技",
         "區塊鏈部門"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "產學實務應用轉化",
+        "C4": "團隊領導協作"
+      }
     },
     {
       "id": "ef3a85fa-f641-461c-8d4c-f83886986d5a",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**研究指導與傳承：** 在實驗室中積極協助指導學弟妹，分享研究經驗與技術知識，鍛鍊表達與領導能力。",
       "criteria": [
@@ -1290,11 +1537,14 @@
         "研究經驗分享",
         "技術知識傳遞",
         "領導能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "研究方向規劃"
+      }
     },
     {
       "id": "fc607038-6ea7-40e2-8992-1322b2bd9f8d",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**投身產業研發或學術研究：** 畢業後希望進入頂尖科技公司或資安企業，擔任網路安全架構師、區塊鏈開發工程師或資安研究員，持續投入於網路安全與區塊鏈技術的創新與應用。",
       "criteria": [
@@ -1309,11 +1559,14 @@
         "資安研究員",
         "網路安全",
         "區塊鏈技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "職涯發展規劃"
+      }
     },
     {
       "id": "ebac0f6c-248f-4d61-8d39-fbeb95a25116",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**持續學習與貢獻：** 資訊科技領域日新月異，將保持終身學習的態度，追蹤最新技術趨勢與安全威脅。積極參與開源社群，為開源專案貢獻力量，回饋社會。",
       "criteria": [
@@ -1327,11 +1580,14 @@
         "開源社群",
         "開源專案貢獻",
         "最新技術趨勢"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "社群參與貢獻"
+      }
     },
     {
       "id": "4df4ef65-bf36-4484-abaa-065098763064",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "讀書計畫",
       "content": "**追求更高學位（視情況而定）：** 若在碩士期間發現對特定研究領域有極大熱情，並渴望做出更深遠的學術貢獻，不排除繼續攻讀博士學位。",
       "criteria": [
@@ -1344,11 +1600,14 @@
         "博士學位",
         "學術貢獻",
         "研究熱情"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術發表交流"
+      }
     },
     {
       "id": "fad30c55-e913-49e3-be75-52d6aa85f282",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "加分文件",
       "content": "**資訊安全相關競賽獎項：** 曾參與全國大學院校資安技能金盾獎，隊伍於初賽中成功突破多項弱點並完成數位鑑識任務，展現優異的網路攻防與實作能力。",
       "criteria": [
@@ -1364,11 +1623,15 @@
         "網路攻防",
         "數位鑑識",
         "弱點突破"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "產學實務應用轉化",
+        "C3": "實務問題解決"
+      }
     },
     {
       "id": "c07d340d-8c67-430d-ad3c-3aacf12c48c3",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "加分文件",
       "content": "**程式設計競賽榮譽：** 曾獲校內程式設計競賽佳作，證明扎實的演算法基礎與問題解決能力。",
       "criteria": [
@@ -1383,11 +1646,15 @@
         "程式設計競賽",
         "演算法基礎",
         "問題解決能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "資工理論與應用",
+        "C3": "實務問題解決"
+      }
     },
     {
       "id": "c8ad4555-132c-456c-8502-85dda4ebd337",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "加分文件",
       "content": "**線上課程與證照：** 完成 Coursera 上「Applied Cryptography」與「Blockchain Specialization」系列課程，並獲得修業證明。",
       "criteria": [
@@ -1401,11 +1668,14 @@
         "Applied Cryptography",
         "Blockchain Specialization",
         "修業證明"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業領域深耕"
+      }
     },
     {
       "id": "996582da-77d0-4ac9-94cc-5601f71080b5",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "加分文件",
       "content": "此外，正在準備 CompTIA Security+ 認證，以系統化學習資訊安全基礎知識。",
       "criteria": [
@@ -1418,11 +1688,14 @@
         "CompTIA Security+",
         "資訊安全基礎知識",
         "認證準備"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "資安攻防與防護"
+      }
     },
     {
       "id": "98ed6e76-365a-46a9-a289-448f13551db0",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "加分文件",
       "content": "**GitHub 個人專案：** 個人 GitHub 頁面維護多個開源專案，包括一個輕量級的網路流量分析工具（使用 Python Scapy 庫）及一個基於 IPFS 的去中心化檔案共享概念驗證系統。",
       "criteria": [
@@ -1440,11 +1713,15 @@
         "Python Scapy",
         "IPFS",
         "去中心化檔案共享"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "其他面向",
+        "C1": "軟硬體系統架構"
+      }
     },
     {
       "id": "a8370297-7246-471d-ba86-4d5bada44864",
-      "candidate_id": "mock_7",
+      "candidate_id": "mock_07",
       "section": "加分文件",
       "content": "這些專案展示了我的獨立開發能力與對新技術的探索熱情。",
       "criteria": [
@@ -1458,7 +1735,64 @@
       "hashtags": [
         "獨立開發能力",
         "新技術探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "其他面向",
+        "C4": "其他面向"
+      }
     }
-  ]
+  ],
+  "feature_vector": [
+    0.14519080172812554,
+    0,
+    0,
+    0,
+    0.18148850216015694,
+    0,
+    0.10889310129609417,
+    0.10889310129609417,
+    0.21778620259218834,
+    0.21778620259218834,
+    0,
+    0.2903816034562511,
+    0.07259540086406277,
+    0.07259540086406277,
+    0.18148850216015694,
+    0.2903816034562511,
+    0.10889310129609417,
+    0,
+    0,
+    0.036297700432031385,
+    0,
+    0.25408390302421974,
+    0,
+    0.07259540086406277,
+    0.2903816034562511,
+    0.10889310129609417,
+    0.07259540086406277,
+    0.07259540086406277,
+    0.07259540086406277,
+    0.2903816034562511,
+    0,
+    0.036297700432031385,
+    0.07259540086406277,
+    0.036297700432031385,
+    0.2903816034562511,
+    0.21778620259218834,
+    0.036297700432031385,
+    0,
+    0,
+    0,
+    0.07259540086406277,
+    0.4355724051843767
+  ],
+  "radar_chart_data": {
+    "C1": 30,
+    "C2": 32,
+    "C3": 35,
+    "C4": 26
+  },
+  "cluster_id": 0,
+  "is_medoid": false,
+  "cluster_name": "智慧系統研究與應用"
 }
