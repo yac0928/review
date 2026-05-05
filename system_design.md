@@ -83,13 +83,13 @@
 
 兩種方案皆實作，比較 Silhouette Score 後選用：
 
-**方案 A：Embedding + PCA**
+<!-- **方案 A：Embedding + PCA** (跟教授討論過後暫時不用做)
 
 1. 對每個 Idea Unit，組合文字：`"Sub-criteria: [標準名稱], Tags: [#tag1, #tag2]"`，送入 Gemini Embedding → 1536 維向量
 2. 按候選人 × Criterion 分組，對組內所有向量取平均（Mean Pooling）
 3. 若某 Criterion 下完全沒有 Idea Unit，以該 Criterion 所有候選人的全局均值補值
 4. 4 個 Criterion 均值向量串接 → 6144 維
-5. PCA 降維至 60–100 維（保留 80–90% 變異量）後用於分群
+5. PCA 降維至 60–100 維（保留 80–90% 變異量）後用於分群 -->
 
 **方案 B：Sub-criteria 計數矩陣**
 

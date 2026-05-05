@@ -12,7 +12,7 @@ const TEXT_GENERATION_CONFIG: GenerationConfig = {
   temperature: 0.2,
 };
 
-const MAX_RETRIES = 5;
+const MAX_RETRIES = 8;
 const BASE_DELAY_MS = 20_000; // 429 retry hints suggest ~19s
 
 function sleep(ms: number) {
@@ -52,8 +52,10 @@ async function withRetry<T>(fn: () => Promise<T>): Promise<T> {
       const isRetryable = status === 429 || status === 503;
 
       if (isRetryable && attempt < MAX_RETRIES) {
-        const delay = status === 429 ? parseRetryDelay(err) : BASE_DELAY_MS;
-        console.warn(`[Gemini] ${status} error. Retry ${attempt}/${MAX_RETRIES - 1} in ${delay / 1000}s...`);
+        const delay = status === 429
+          ? parseRetryDelay(err)
+          : BASE_DELAY_MS * Math.pow(1.5, attempt - 1); // exponential backoff for 503
+        console.warn(`[Gemini] ${status} error. Retry ${attempt}/${MAX_RETRIES - 1} in ${Math.round(delay / 1000)}s...`);
         await sleep(delay);
       } else {
         throw err;

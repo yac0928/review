@@ -24,16 +24,25 @@ async function main() {
   }
 
   const data = (await res.json()) as ListModelsResponse;
-  const generateModels = (data.models ?? []).filter(m =>
+  const allModels = data.models ?? [];
+
+  const generateModels = allModels.filter(m =>
     m.supportedGenerationMethods?.includes('generateContent')
+  );
+  const embedModels = allModels.filter(m =>
+    m.supportedGenerationMethods?.includes('embedContent')
   );
 
   console.log('\nModels that support generateContent:\n');
   for (const m of generateModels) {
-    const id = m.name.replace('models/', '');
-    console.log(`  ${id}  (${m.displayName})`);
+    console.log(`  ${m.name.replace('models/', '')}  (${m.displayName})`);
   }
-  console.log('\nCopy the model ID you want into GEMINI_MODEL in your .env');
+
+  console.log('\nModels that support embedContent:\n');
+  for (const m of embedModels) {
+    console.log(`  ${m.name.replace('models/', '')}  (${m.displayName})`);
+  }
+  console.log('\nCopy embedding model ID into GEMINI_EMBEDDING_MODEL in your .env');
 }
 
 main().catch(err => {

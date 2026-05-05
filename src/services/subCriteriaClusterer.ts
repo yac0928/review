@@ -20,7 +20,8 @@ interface LabelEntry {
 function collectRawLabels(
   outputDir: string
 ): Record<CriterionId, LabelEntry[]> {
-  const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.json') && f !== 'standard_dictionary.json');
+  const EXCLUDED = new Set(['standard_dictionary.json', 'embeddings_cache.json']);
+  const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.json') && !EXCLUDED.has(f));
   const freq: Partial<Record<CriterionId, Map<string, number>>> = {};
 
   for (const criterionId of Object.keys(CRITERIA) as CriterionId[]) {
@@ -79,7 +80,13 @@ export async function buildStandardDictionary(
   console.log('\n[Step 3] Collecting raw sub-criteria labels from output files...');
   const rawByC = collectRawLabels(outputDir);
 
-  const dictionary: StandardDictionary = {};
+  // Resume: load existing dictionary so completed criteria are skipped
+  let dictionary: StandardDictionary = {};
+  const dictPath = path.join(outputDir, 'standard_dictionary.json');
+  if (fs.existsSync(dictPath)) {
+    dictionary = JSON.parse(fs.readFileSync(dictPath, 'utf-8')) as StandardDictionary;
+    console.log('[Step 3] Found existing dictionary — will skip completed criteria.');
+  }
   const criteria = Object.keys(CRITERIA) as CriterionId[];
 
   for (let ci = 0; ci < criteria.length; ci++) {
@@ -87,6 +94,11 @@ export async function buildStandardDictionary(
     const entries = rawByC[criterionId];
 
     console.log(`\n[Step 3] ${criterionId}: ${entries.length} unique labels`);
+
+    if (dictionary[criterionId] !== undefined) {
+      console.log(`[Step 3] ${criterionId}: already in dictionary, skipping`);
+      continue;
+    }
 
     if (entries.length === 0) {
       console.warn(`[Step 3] ${criterionId}: no labels found, skipping`);
@@ -97,7 +109,8 @@ export async function buildStandardDictionary(
     // Step 3b: embed + cluster
     console.log(`[Step 3] ${criterionId}: embedding ${entries.length} labels...`);
     const labels = entries.map(e => e.label);
-    const embeddings = await embedTexts(labels);
+    const cachePath = path.join(outputDir, 'embeddings_cache.json');
+    const embeddings = await embedTexts(labels, cachePath);
 
     console.log(`[Step 3] ${criterionId}: finding best K (${minK}–${maxK})...`);
     const { k, result: clusterResult } = findBestK(embeddings, minK, maxK);
@@ -147,6 +160,9 @@ export async function buildStandardDictionary(
     }
 
     dictionary[criterionId] = subCriteria;
+
+    // Save incrementally so partial results are visible even if a later criterion fails
+    saveStandardDictionary(outputDir, dictionary);
 
     if (ci < criteria.length - 1) {
       await new Promise(r => setTimeout(r, INTER_CRITERION_DELAY_MS));
