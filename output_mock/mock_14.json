@@ -2121,5 +2121,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "編譯器設計",
+    "C++靜態分析工具",
+    "形式化驗證",
+    "Minecraft大型開源專案核心開發者"
+  ]
 }

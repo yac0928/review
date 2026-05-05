@@ -2002,5 +2002,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "生成式AI",
+    "多模態互動",
+    "SIGGRAPH",
+    "動漫評論自媒體"
+  ]
 }

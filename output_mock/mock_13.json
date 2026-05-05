@@ -1800,5 +1800,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "深度強化學習",
+    "圖神經網路 (GNN)",
+    "可解釋性AI (XAI)",
+    "AAAI"
+  ]
 }

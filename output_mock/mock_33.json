@@ -1800,5 +1800,11 @@
   },
   "cluster_id": 1,
   "is_medoid": false,
-  "cluster_name": "嵌入式系統安全"
+  "cluster_name": "嵌入式系統安全",
+  "distinctive_hashtags": [
+    "HLS AI加速器設計",
+    "RISC-V指令集架構設計",
+    "記憶體內運算 (IMC)",
+    "全國大學程式設計競賽"
+  ]
 }

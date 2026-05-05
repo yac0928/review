@@ -1098,5 +1098,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "大型語言模型 (LLM)",
+    "可解釋性AI (XAI)",
+    "Spark",
+    "全國大數據競賽"
+  ]
 }

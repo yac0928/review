@@ -995,5 +995,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "抗量子硬體架構",
+    "OpenTitan計畫",
+    "Side-channel Resistance",
+    "關鍵路徑分析"
+  ]
 }

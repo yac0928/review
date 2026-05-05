@@ -1698,5 +1698,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "智慧型資源排程",
+    "OSDI",
+    "Google",
+    "大規模遊戲後端"
+  ]
 }

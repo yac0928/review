@@ -1683,5 +1683,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "ICPC亞洲區決賽",
+    "VR學習平台",
+    "物理模擬",
+    "神經圖學"
+  ]
 }

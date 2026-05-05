@@ -1819,5 +1819,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "跨領域研究者 (心理學雙主修)",
+    "生醫訊號處理 (ECG/穿戴式裝置)",
+    "醫學影像語義分割 (MRI/腦腫瘤)",
+    "可解釋AI與多模態深度學習"
+  ]
 }

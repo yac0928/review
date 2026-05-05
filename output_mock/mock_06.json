@@ -1487,5 +1487,11 @@
   },
   "cluster_id": 1,
   "is_medoid": false,
-  "cluster_name": "嵌入式系統安全"
+  "cluster_name": "嵌入式系統安全",
+  "distinctive_hashtags": [
+    "韌體安全",
+    "硬體安全",
+    "RISC-V架構",
+    "形式化驗證"
+  ]
 }

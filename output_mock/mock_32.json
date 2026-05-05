@@ -1809,5 +1809,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "分散式鍵值儲存系統",
+    "作業系統排程器優化",
+    "雲邊協同",
+    "獨立電影製作"
+  ]
 }

@@ -1724,5 +1724,11 @@
   },
   "cluster_id": 1,
   "is_medoid": true,
-  "cluster_name": "嵌入式系統安全"
+  "cluster_name": "嵌入式系統安全",
+  "distinctive_hashtags": [
+    "硬體特洛伊檢測",
+    "側通道分析",
+    "信任根 (Root-of-Trust)",
+    "ACM CCS"
+  ]
 }

@@ -995,5 +995,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "技術與法律整合",
+    "自動化攻防模型",
+    "LLM應用",
+    "OSCP證照"
+  ]
 }

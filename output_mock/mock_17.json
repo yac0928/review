@@ -2119,5 +2119,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "LPWAN網路優化",
+    "物聯網通訊安全",
+    "公民科技專案 (g0v社群)",
+    "科技法律輔系"
+  ]
 }

@@ -1716,5 +1716,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "攝影師",
+    "領域適應性",
+    "自監督學習",
+    "嵌入式平台部署"
+  ]
 }

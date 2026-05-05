@@ -1679,5 +1679,11 @@
   },
   "cluster_id": 1,
   "is_medoid": false,
-  "cluster_name": "嵌入式系統安全"
+  "cluster_name": "嵌入式系統安全",
+  "distinctive_hashtags": [
+    "FPGA深度學習加速器",
+    "硬體安全架構",
+    "半導體公司實習",
+    "RISC-V處理器"
+  ]
 }

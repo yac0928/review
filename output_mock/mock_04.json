@@ -743,5 +743,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "Prompt Engineering",
+    "智慧診斷輔助系統",
+    "低資源語言",
+    "全國AI應用競賽"
+  ]
 }

@@ -1794,5 +1794,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "物聯網入侵偵測系統",
+    "區塊鏈資產登記平台",
+    "智能合約漏洞",
+    "資安技能金盾獎"
+  ]
 }

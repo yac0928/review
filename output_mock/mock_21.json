@@ -1548,5 +1548,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "非洲數位教育平台",
+    "工業異常預警系統",
+    "可解釋人工智慧 (XAI)",
+    "邊緣AI部署與優化"
+  ]
 }

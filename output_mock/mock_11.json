@@ -1779,5 +1779,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "高可用性分散式事務處理系統",
+    "Kubernetes Admission Controller",
+    "OSDI、SOSP、EuroSys、NSDI",
+    "ACM國際大學生程式設計競賽、區域賽優勝"
+  ]
 }

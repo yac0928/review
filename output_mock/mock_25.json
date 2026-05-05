@@ -1468,5 +1468,11 @@
   },
   "cluster_id": 1,
   "is_medoid": false,
-  "cluster_name": "嵌入式系統安全"
+  "cluster_name": "嵌入式系統安全",
+  "distinctive_hashtags": [
+    "RISC-V安全",
+    "側通道攻擊防禦",
+    "形式化驗證",
+    "ACM-ICPC"
+  ]
 }

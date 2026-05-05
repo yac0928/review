@@ -1762,5 +1762,11 @@
   },
   "cluster_id": 0,
   "is_medoid": true,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "BERT模型微調",
+    "分散式系統",
+    "智慧語音助理專案",
+    "期刊投稿"
+  ]
 }

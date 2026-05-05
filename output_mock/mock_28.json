@@ -2121,5 +2121,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "GNN物理佈局優化",
+    "韌體功耗優化",
+    "科普寫作與五萬瀏覽量",
+    "研究論文發表"
+  ]
 }

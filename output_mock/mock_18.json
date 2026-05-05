@@ -1626,5 +1626,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "醫療影像判讀挑戰賽",
+    "高維度數據降維專案",
+    "可解釋性",
+    "NeurIPS"
+  ]
 }

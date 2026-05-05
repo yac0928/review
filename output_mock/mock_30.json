@@ -2051,5 +2051,10 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "生醫訊號與影像多模態融合分析",
+    "可解釋性人工智慧 (XAI) 於醫療診斷輔助",
+    "高中數學奧林匹亞"
+  ]
 }

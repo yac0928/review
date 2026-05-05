@@ -1921,5 +1921,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "高維度巨量資料分析",
+    "智慧製造異常偵測系統",
+    "流形學習",
+    "全國大專院校數據分析競賽"
+  ]
 }

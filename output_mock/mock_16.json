@@ -1673,5 +1673,11 @@
   },
   "cluster_id": 1,
   "is_medoid": false,
-  "cluster_name": "嵌入式系統安全"
+  "cluster_name": "嵌入式系統安全",
+  "distinctive_hashtags": [
+    "後量子密碼學實作與優化",
+    "容器化應用程式安全分析框架",
+    "AI智能安全攻防與漏洞挖掘",
+    "全國大專院校資訊安全實作競賽優勝"
+  ]
 }

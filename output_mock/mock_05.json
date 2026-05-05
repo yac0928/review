@@ -814,5 +814,11 @@
   },
   "cluster_id": 0,
   "is_medoid": false,
-  "cluster_name": "智慧系統研究與應用"
+  "cluster_name": "智慧系統研究與應用",
+  "distinctive_hashtags": [
+    "生理訊號處理",
+    "虛擬實境技術",
+    "失智症輔助治療",
+    "都市迷宮VR系統"
+  ]
 }

@@ -1707,5 +1707,11 @@
   },
   "cluster_id": 1,
   "is_medoid": false,
-  "cluster_name": "嵌入式系統安全"
+  "cluster_name": "嵌入式系統安全",
+  "distinctive_hashtags": [
+    "異質多核SoC",
+    "混合關鍵性排程演算法",
+    "開源貢獻",
+    "頂會論文"
+  ]
 }
