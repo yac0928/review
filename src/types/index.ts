@@ -54,7 +54,8 @@ export interface PipelineResult {
 export interface StandardSubCriteria {
   id: string;                 // e.g. "C1_S1"
   name: string;               // LLM-generated Chinese name, e.g. "跨域學科整合"
-  raw_labels: string[];       // original raw labels that fall into this cluster
+  description: string;        // LLM-generated description, used for Phase 2 embedding similarity
+  raw_labels: string[];       // raw labels assigned to this sub-criterion via embedding similarity
 }
 
 export type StandardDictionary = Partial<Record<CriterionId, StandardSubCriteria[]>>;

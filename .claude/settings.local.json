@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(claude:*)"
+      "Bash(claude:*)",
+      "Bash(ls \"d:\\\\研究\\\\審查系統\" && echo \"---\" && ls \"d:\\\\研究\\\\審查系統\\\\app\" | grep -v node_modules)",
+      "Bash(ls \"d:\\\\研究\\\\審查系統\\\\Project\")"
     ]
   }
 }

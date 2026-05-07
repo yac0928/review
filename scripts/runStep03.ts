@@ -1,20 +1,17 @@
 /**
- * CLI runner for Step 3: Sub-criteria convergence (Hybrid Clustering).
+ * CLI runner for Step 3: Sub-criteria convergence (LLM definition + embedding assignment).
  *
  * Reads all annotated candidates from output/ (produced by Step 2),
- * embeds raw sub-criteria labels, clusters them per Criterion,
- * and asks LLM to name each cluster → writes output/standard_dictionary.json.
+ * sends all raw sub-criteria labels per Criterion to LLM to define ≤10 standard sub-criteria,
+ * then assigns each raw label to the closest sub-criterion via embedding similarity.
+ * Writes output/standard_dictionary.json.
  *
  * Usage:
  *   npm run step3
  *
- * Options (env vars):
- *   MIN_K   minimum number of clusters to try (default: 3)
- *   MAX_K   maximum number of clusters to try (default: 10)
- *
  * After this step runs, **human review** is recommended:
  *   1. Open output/standard_dictionary.json
- *   2. Rename any cluster name that doesn't fit
+ *   2. Rename any sub-criteria name/description that doesn't fit
  *   3. Save — the file is used as-is by Steps 4 and 5
  */
 import { config } from '../src/config';
@@ -44,13 +41,10 @@ function printDictionarySummary(dict: StandardDictionary) {
 }
 
 async function main() {
-  const minK = parseInt(process.env.MIN_K ?? '3', 10);
-  const maxK = parseInt(process.env.MAX_K ?? '10', 10);
-
-  console.log(`[Step 3] Starting Sub-criteria convergence (K range: ${minK}–${maxK})`);
+  console.log(`[Step 3] Starting Sub-criteria convergence (LLM definition + embedding assignment)`);
   console.log(`[Step 3] Reading from: ${config.outputDir}`);
 
-  const dictionary = await buildStandardDictionary(config.outputDir, minK, maxK);
+  const dictionary = await buildStandardDictionary(config.outputDir);
   saveStandardDictionary(config.outputDir, dictionary);
   printDictionarySummary(dictionary);
 }
