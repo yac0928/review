@@ -1,0 +1,900 @@
+{
+  "candidate_id": "mock_46",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_46.md"
+  ],
+  "cleaned_text": "# 自傳\r\n\r\n## 引言：從中山資工到交大資工所的轉向與渴望\r\n\r\n您好，我是蔡思婷，目前就讀於國立中山大學資訊工程學系。一直以來，我對電腦科學與工程領域懷抱著深厚的熱情，特別是對於底層的系統運作、硬體與軟體之間的巧妙互動，以及如何將這些知識應用於實際的產品開發上。申請國立陽明交通大學資訊工程學系碩士班，對我而言，不僅是學術生涯的下一階段，更是我實踐技術理想、深化專業能力的關鍵一步。\r\n\r\n坦白說，我的學業成績並非頂尖，大學修課平均約 2.6。這或許反映出我不是傳統意義上的「考試型」學生。大學期間，我更傾向於將時間投入到課外實作與個人專案中，這些經歷讓我對技術的理解與掌握方式，有了不同於課本的體悟。我的技術學習路徑，可以說是一段充滿實戰與挑戰的旅程，從中我學會了快速學習、解決問題，並將想法付諸實踐。正是這些寶貴的經驗，讓我深切感受到理論基礎的重要性，也因此更堅定了我進入貴所深造的決心。\r\n\r\n## 我的學習歷程與韌體開發的啟蒙\r\n\r\n我在中山資工系的學習，讓我對資訊工程的核心概念有了初步的認識。特別是「計算機結構」、「作業系統」以及「嵌入式系統」等課程，深深吸引了我。我記得在大三的時候，修習「微處理機應用」這門課時，首次接觸到微控制器如何與感測器、致動器溝通，並執行特定任務。當時，我被這種將軟體指令轉化為實體動作的能力所震撼，這也啟發了我對韌體（firmware）開發的濃厚興趣。\r\n\r\n我沒有正式參與研究室的專案，主要透過課程專題和個人Side Project來累積實作經驗。例如，在某個課程專題中，我們需要開發一個基於STM32微控制器的環境監測系統。我負責韌體層的設計與實現，從感測器資料讀取、ADC轉換、I2C/SPI通訊協定，到將資料透過UART傳輸至PC端進行顯示。雖然過程中遇到了不少挑戰，例如驅動程式的撰寫、中斷處理的時序問題，以及記憶體管理等，但每一次成功解決問題，都讓我對韌體開發的精髓有更深入的理解。這些實作經驗讓我明白，韌體開發不僅需要對硬體架構有透徹的了解，更要掌握精巧的程式設計技巧，才能在有限的資源下，實現高效且穩定的系統功能。\r\n\r\n## 創業與實戰磨練：從概念到產品的挑戰\r\n\r\n大學後期，我嘗試將所學應用於實際商業場景，這是我大學生涯中最具代表性的經歷之一。那是一段嘗試創業的過程，我與幾位志同道合的朋友組成了一個小團隊，試圖開發一款名為「智感生活助手」的智慧寵物餵食器。這個專案的目標是透過整合嵌入式系統、雲端平台和行動應用程式，讓飼主能遠端監控寵物狀態並定時定量餵食。\r\n\r\n在「智感生活助手」的開發中，我主要負責核心韌體的設計與實作。我使用了ESP32作為主控制器，利用其Wi-Fi連線能力實現了設備與雲端的通訊。韌體部分包含了多項功能：\r\n* **馬達控制模組：** 精確控制步進馬達，確保每次出糧的份量準確。我撰寫了多執行緒的韌體邏輯，確保馬達動作不會阻礙其他感測器的資料讀取。\r\n* **感測器整合：** 整合了紅外線感測器偵測飼料存量、環境光感測器判斷日夜模式。我花費了許多時間在感測器的校準和濾波上，以確保數據的可靠性。\r\n* **Wi-Fi連線管理與MQTT協定實作：** 開發穩定的Wi-Fi重連機制，並使用MQTT協定與後端伺服器進行數據交換。這是整個系統最關鍵的環節，確保了指令能即時送達、狀態能即時回報。\r\n* **OTA (Over-The-Air) 韌體更新機制：** 為了方便日後維護與功能擴充，我們設計了一套基於HTTP的OTA更新方案。\r\n\r\n這段創業旅程充滿了考驗。我們面臨著資金有限、技術門檻高、市場競爭激烈等多重壓力。印象最深刻的是，在測試初期，韌體經常因為不明原因而崩潰，導致設備無法連線或馬達卡住。當時我們團隊缺乏經驗，沒有系統性的調試方法，只能土法煉鋼，一行一行程式碼去追蹤問題。經過數週的努力，我才發現是記憶體管理不當和某些通訊協定處理的時序問題導致的。這次經驗讓我深刻體會到，雖然我能寫出功能，但在面對複雜系統時，缺乏對作業系統排程、記憶體保護、錯誤處理等底層理論的深入理解，會讓開發過程事倍功半，甚至可能導致產品無法穩定運行。\r\n\r\n除了創業專案，我也曾以兼職工程師的身份，為一家新創公司「智匯物聯科技」開發IoT設備的韌體。這份兼職經驗，讓我接觸到更為標準化的開發流程與版本控制工具 (Git)。我參與了智慧農業感測節點的韌體開發，負責NBIoT模組的通訊協定堆疊優化，並處理超低功耗模式下的資料採集與傳輸。這段經歷讓我對業界的韌體開發要求有了更實際的認識，學會了在資源限制下，如何平衡功能、效能與功耗。\r\n\r\n## 跨領域的熱情：音樂與程式的交響\r\n\r\n除了資訊工程，我的另一個熱情所在是音樂製作，特別是編曲與混音。對我而言，音樂製作與程式設計之間存在著奇妙的共通性。編曲的過程，就像是設計一個複雜的系統架構，需要將不同的樂器、音色巧妙地組合在一起，形成和諧且有層次的整體。而混音，則像是在進行系統的優化與調試，需要精確地調整每個音軌的音量、頻率、空間感，讓最終的聲音輸出達到最佳狀態。\r\n\r\n從創作靈感發想、旋律編排、到和聲配置，再到使用DAW（Digital Audio Workstation）軟體進行錄製、剪輯、效果處理，每一步都需要細心與耐心。我會嘗試不同的編曲風格，例如電子音樂、爵士融合等，並學習使用各種音源與效果器。這份對音樂的投入，不僅培養了我解決問題的創造性思維，也讓我學會了如何從宏觀的角度規劃，再到微觀的細節調整，這與韌體開發中對整體架構的掌握與底層邏輯的精修有異曲同工之妙。我相信，這種跨領域的學習與實踐，豐富了我對事物的理解角度，也提升了我在工程設計上的細膩度與藝術性。\r\n\r\n## 申請動機與未來展望\r\n\r\n回顧我的創業與實作經歷，我獲得了許多寶貴的產品開發與專案管理經驗，也累積了韌體開發的廣泛技術。然而，我深知自身在學術深度與系統化知識上的不足。在創業過程中，我多次面對因缺乏扎實理論基礎而導致的技術瓶頸，例如在設計高可靠度即時系統時，對RTOS核心原理理解不夠透徹；在優化低功耗設計時，對晶片底層電源管理缺乏系統性認知；以及在規劃韌體架構時，對軟體工程的設計模式與驗證方法不夠熟悉。這些挫折讓我意識到，僅憑實作經驗很難在技術上達到更高層次，我需要更嚴謹的學術訓練來補足這些缺失，讓我的技術能力更加系統化與理論化。\r\n\r\n選擇國立陽明交通大學資訊工程學系碩士班，是經過深思熟慮的決定。貴所不僅在資訊工程領域享有盛譽，更在嵌入式系統、晶片系統與計算機結構等領域具有領先的研究實力。特別是貴所擁有多位在韌體安全、硬體軟體協同設計、即時作業系統等領域的頂尖教授，這些研究方向與我過去的實作經驗高度契合，也正是我未來希望深入探索的領域。我渴望在貴所的豐富資源和嚴謹學術氛圍中，補足我的理論短板，將我分散的技術點串聯成堅實的知識網。\r\n\r\n我希望未來能深入研究韌體層面的安全性議題、低功耗嵌入式系統設計，以及如何利用軟硬體協同設計來提升系統效能與可靠度。我相信，透過貴所的碩士訓練，我將能從底層原理、前沿技術到研究方法論，獲得全面的提升。畢業後，我希望能成為一名卓越的韌體或嵌入式系統研發工程師，將所學應用於開發更創新、更安全、更高效的智慧產品，甚至再次嘗試將我的技術理念付諸於創業實踐，為產業帶來實際貢獻。\r\n\r\n## 讀書計畫\r\n\r\n進入國立陽明交通大學資訊工程學系碩士班後，我將秉持積極學習、嚴謹研究的態度，規劃短、中、長期的學習與研究目標，希望能充分利用貴所的資源，達成我的學術與職涯願景。\r\n\r\n### 短程目標 (入學第一年)\r\n\r\n- **補強理論基礎：**\r\n - 優先修習「高等計算機結構」、「高等作業系統」、「嵌入式系統設計」等核心課程，加強對底層原理與進階概念的理解。\r\n - 旁聽或修習相關的數學與演算法課程，彌補大學期間因實作導向而可能忽略的理論知識。\r\n - 針對大學時期修課平均較低的科目，我會利用課餘時間重新研讀，確保基礎知識的紮實度。\r\n- **熟悉研究環境與工具：**\r\n - 主動接觸實驗室的研究方向與專案，學習常用的研究工具與軟體，例如FPGA開發環境、RTOS核心調試工具、或模擬器等。\r\n - 閱讀相關領域的學術論文，了解最新的研究進展與趨勢，培養學術閱讀與批判性思考的能力。\r\n- **探索研究主題與導師：**\r\n - 積極與教授交流，參與實驗室的討論，了解不同教授的研究專長。\r\n - 根據我的興趣（韌體安全、低功耗嵌入式系統、軟硬體協同設計），選擇與我研究方向最契合的指導教授，並開始進行文獻回顧。\r\n\r\n### 中程目標 (第二年)\r\n\r\n- **深入研究與論文撰寫：**\r\n - 在指導教授的帶領下，選擇具體的研究主題，並投入深入的實驗設計與實作。我希望能將我過去的韌體開發經驗與新的學術理論結合，解決實際問題。\r\n - 例如，我對「利用硬體安全機制增強嵌入式韌體防護」或「基於形式化方法的韌體驗證」等議題有高度興趣，期望能有所成果。\r\n - 積極參與學術會議或研討會，發表我的研究成果，鍛鍊學術表達能力。目標是在畢業前，至少發表一篇會議論文或投稿期刊。\r\n- **強化專業技能：**\r\n - 進一步鑽研特定技術領域，如：利用LLVM進行特定架構的韌體優化、學習使用高階綜合工具進行SoC設計的探索，或是研究新的RTOS核心架構。\r\n - 參與校內外的相關工作坊或研習，持續拓展我的技術視野。\r\n\r\n### 長程目標 (畢業後)\r\n\r\n- **投入產業研發：**\r\n - 畢業後，我期望能進入國內外頂尖的半導體公司、IC設計公司或專精於嵌入式系統開發的科技公司，擔任韌體或硬體軟體協同設計的研發工程師。\r\n - 我將運用在交大資工所學習到的專業知識、研究方法與解決問題的能力，投入於新一代智慧裝置、物聯網核心晶片或車用電子系統的開發，為產品的穩定性、安全性與創新性做出貢獻。\r\n- **持續學習與創新：**\r\n - 秉持終身學習的精神，不斷追蹤產業前沿技術，學習新的程式語言、開發框架與研究方向。\r\n - 若有機會，我也希望未來能再次結合我的創業精神與所學，開發出具有市場潛力且能解決實際痛點的智慧產品，甚至成立自己的公司，將創新的技術理念轉化為實際的商業價值，回饋社會。\r\n\r\n我堅信，透過在國立陽明交通大學資訊工程學系的嚴謹訓練，我將能彌補過去在學術深度上的不足，並將我實戰累積的經驗提升到一個全新的層次。我期待能成為貴所的一份子，貢獻我的熱情與努力，與師長、同學們一同學習成長。",
+  "idea_units": [
+    {
+      "id": "dc36404e-88d3-48c5-ae05-15de17ec6ceb",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "您好，我是蔡思婷，目前就讀於國立中山大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4771baa4-e28d-4d6d-96cf-439a0b45c7d4",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "一直以來，我對電腦科學與工程領域懷抱著深厚的熱情，特別是對於底層的系統運作、硬體與軟體之間的巧妙互動，以及如何將這些知識應用於實際的產品開發上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3bf2d6f7-a679-4b13-b7b9-921c06230756",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "申請國立陽明交通大學資訊工程學系碩士班，對我而言，不僅是學術生涯的下一階段，更是我實踐技術理想、深化專業能力的關鍵一步。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9448db73-ff74-4423-b281-28580e2d79d1",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "坦白說，我的學業成績並非頂尖，大學修課平均約 2.6。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5697b233-b302-49e8-aa7a-2541a965ed87",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這或許反映出我不是傳統意義上的「考試型」學生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e9ed27b0-2615-4713-aef9-be52387c5a96",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "大學期間，我更傾向於將時間投入到課外實作與個人專案中",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c382b83d-b5fe-4573-954c-2df4166cbe27",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這些經歷讓我對技術的理解與掌握方式，有了不同於課本的體悟。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d56dc0b5-cd0e-4763-b6ae-b8b93aa7e67b",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我的技術學習路徑，可以說是一段充滿實戰與挑戰的旅程",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f1a1dc7-0624-446c-8bc5-b81c8039c0ac",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "從中我學會了快速學習、解決問題，並將想法付諸實踐。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aa18be90-7f28-4fce-b4a3-80cb6ea7d3fd",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "正是這些寶貴的經驗，讓我深切感受到理論基礎的重要性",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b6efcddc-6039-4280-ae20-781321be3993",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "也因此更堅定了我進入貴所深造的決心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "93a79e1e-5904-43c2-bea7-d77c1f4b4704",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我在中山資工系的學習，讓我對資訊工程的核心概念有了初步的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3c86608-31dd-4cc6-8033-f812b05a388b",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "特別是「計算機結構」、「作業系統」以及「嵌入式系統」等課程，深深吸引了我。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7c05d5d7-eb20-433e-942e-911a9c03b69a",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我記得在大三的時候，修習「微處理機應用」這門課時，首次接觸到微控制器如何與感測器、致動器溝通，並執行特定任務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6ec6a4ff-4a9f-416d-bf21-1ecfb4612492",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "當時，我被這種將軟體指令轉化為實體動作的能力所震撼",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6b862fc2-7370-4d03-b026-f8c346d4b6d5",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這也啟發了我對韌體（firmware）開發的濃厚興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a28581cf-9c6f-4297-844b-d76642d60cce",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我沒有正式參與研究室的專案，主要透過課程專題和個人Side Project來累積實作經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dc3e7c25-ea24-4aa3-acbf-2f7daace0847",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "例如，在某個課程專題中，我們需要開發一個基於STM32微控制器的環境監測系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c9c67dc6-bbe0-48d5-8b69-9638c3d4466d",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我負責韌體層的設計與實現，從感測器資料讀取、ADC轉換、I2C/SPI通訊協定，到將資料透過UART傳輸至PC端進行顯示。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fd15c5a0-305b-4d88-b0a4-1c811d548a8d",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "雖然過程中遇到了不少挑戰，例如驅動程式的撰寫、中斷處理的時序問題，以及記憶體管理等",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "25cc82ba-1091-4155-920a-6729c10f0151",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "但每一次成功解決問題，都讓我對韌體開發的精髓有更深入的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "94cc380c-ffd8-4a37-bdb1-193805104cf6",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這些實作經驗讓我明白，韌體開發不僅需要對硬體架構有透徹的了解，更要掌握精巧的程式設計技巧，才能在有限的資源下，實現高效且穩定的系統功能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0f9e0db0-0b2f-48a4-98b8-0b438cee8577",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "大學後期，我嘗試將所學應用於實際商業場景，這是我大學生涯中最具代表性的經歷之一。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d9dc6898-0828-4f91-bd68-8e0b87fbf608",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "那是一段嘗試創業的過程，我與幾位志同道合的朋友組成了一個小團隊，試圖開發一款名為「智感生活助手」的智慧寵物餵食器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "614b7c26-bd64-4bca-b3e9-817aa033e618",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這個專案的目標是透過整合嵌入式系統、雲端平台和行動應用程式，讓飼主能遠端監控寵物狀態並定時定量餵食。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e63d18cc-e30e-4206-bcfc-41a46d6339cf",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "在「智感生活助手」的開發中，我主要負責核心韌體的設計與實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9e2ed1a0-41dc-42cf-982d-d0d378ea52a4",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我使用了ESP32作為主控制器，利用其Wi-Fi連線能力實現了設備與雲端的通訊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "40605229-eed2-4153-8cdf-cacdb3cddddf",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "韌體部分包含了多項功能：",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d5e0281a-3545-49a5-a02e-a619a68f217f",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "馬達控制模組：精確控制步進馬達，確保每次出糧的份量準確。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c63f8947-4998-4067-a267-f16ce10c9f07",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我撰寫了多執行緒的韌體邏輯，確保馬達動作不會阻礙其他感測器的資料讀取。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0344e85d-c554-49a4-a82a-fc797de1b69c",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "感測器整合：整合了紅外線感測器偵測飼料存量、環境光感測器判斷日夜模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fadb9ecd-d678-4fd4-a5bb-e07c54cef816",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我花費了許多時間在感測器的校準和濾波上，以確保數據的可靠性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "de8ebdf0-693c-49f4-9c91-df188c42a933",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "Wi-Fi連線管理與MQTT協定實作：開發穩定的Wi-Fi重連機制，並使用MQTT協定與後端伺服器進行數據交換。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a0c0c547-82d3-4784-ad85-37a84939c1c1",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這是整個系統最關鍵的環節，確保了指令能即時送達、狀態能即時回報。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cbe59fca-ab78-45fc-8643-0ed5fc4e4fcf",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "OTA (Over-The-Air) 韌體更新機制：我們設計了一套基於HTTP的OTA更新方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e9d10601-d81c-469e-90b8-c2ea3a019359",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "為了方便日後維護與功能擴充",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cf96fd00-1702-47c1-a0e1-c7ac19b912ce",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這段創業旅程充滿了考驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0eeb544a-b885-4510-92b7-9ec0cb3671e0",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我們面臨著資金有限、技術門檻高、市場競爭激烈等多重壓力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "177229ff-769c-469e-8b27-f6c5b6dec014",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "印象最深刻的是，在測試初期，韌體經常因為不明原因而崩潰，導致設備無法連線或馬達卡住。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9bef676a-82a6-4509-8af2-3523a98ba906",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "當時我們團隊缺乏經驗，沒有系統性的調試方法，只能土法煉鋼，一行一行程式碼去追蹤問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31178d98-a5ff-45f9-bbbf-f5bca611e1e2",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "經過數週的努力，我才發現是記憶體管理不當和某些通訊協定處理的時序問題導致的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bc610bc1-fbf2-48ff-8df7-1c13b27011ef",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這次經驗讓我深刻體會到，雖然我能寫出功能，但在面對複雜系統時，缺乏對作業系統排程、記憶體保護、錯誤處理等底層理論的深入理解，會讓開發過程事倍功半，甚至可能導致產品無法穩定運行。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe65201b-798d-4791-9ed3-66629929598e",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "除了創業專案，我也曾以兼職工程師的身份，為一家新創公司「智匯物聯科技」開發IoT設備的韌體。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab07b997-5370-4821-80b2-bf34176b4881",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這份兼職經驗，讓我接觸到更為標準化的開發流程與版本控制工具 (Git)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "28161d03-c7a3-431d-948e-bba448b6186c",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我參與了智慧農業感測節點的韌體開發，負責NBIoT模組的通訊協定堆疊優化，並處理超低功耗模式下的資料採集與傳輸。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd3f438a-14ce-4022-ad61-2aef883f1b25",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這段經歷讓我對業界的韌體開發要求有了更實際的認識",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "34ece7e4-3560-436f-9ee3-fe5a4f2f2480",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "學會了在資源限制下，如何平衡功能、效能與功耗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "06a7c0c7-004b-4678-87b9-305e21c0e3e7",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "除了資訊工程，我的另一個熱情所在是音樂製作，特別是編曲與混音。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4179ea27-c733-4109-98ff-078b57edee30",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "對我而言，音樂製作與程式設計之間存在著奇妙的共通性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e725bf6f-c773-4b75-babc-28ab4cdb7e83",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "編曲的過程，就像是設計一個複雜的系統架構，需要將不同的樂器、音色巧妙地組合在一起，形成和諧且有層次的整體。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16e71c42-cb1a-4158-b630-0257f6b8b7ac",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "而混音，則像是在進行系統的優化與調試，需要精確地調整每個音軌的音量、頻率、空間感，讓最終的聲音輸出達到最佳狀態。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0fd8260b-9b12-4a77-a1e0-9e9e8d071659",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "從創作靈感發想、旋律編排、到和聲配置，再到使用DAW（Digital Audio Workstation）軟體進行錄製、剪輯、效果處理，每一步都需要細心與耐心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a94fe8b8-1753-4410-8ee3-fd0b2ff638d6",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我會嘗試不同的編曲風格，例如電子音樂、爵士融合等，並學習使用各種音源與效果器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f8ee4b45-f937-4f83-b82c-90422b3c5dfa",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這份對音樂的投入，不僅培養了我解決問題的創造性思維",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bc53f010-ef5e-4c62-8430-7a471afa6d02",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "也讓我學會了如何從宏觀的角度規劃，再到微觀的細節調整",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4510318d-9406-413d-93f0-27169e4b3d9b",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這與韌體開發中對整體架構的掌握與底層邏輯的精修有異曲同工之妙。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d9e0d87-cec5-46cb-a8ba-b387b4487430",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我相信，這種跨領域的學習與實踐，豐富了我對事物的理解角度",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16e23aa4-17aa-4207-af33-d5922ad5273a",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "也提升了我在工程設計上的細膩度與藝術性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "863840e3-132d-4482-8900-d30e973380f1",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "回顧我的創業與實作經歷，我獲得了許多寶貴的產品開發與專案管理經驗",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fdc9d76f-cf96-43b5-b382-0ea6fb54026c",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "也累積了韌體開發的廣泛技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "73d097e4-a407-4f6a-a9d2-308290d4e150",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "然而，我深知自身在學術深度與系統化知識上的不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "304895ed-3dff-495b-b8a9-2ba4a0f7ce92",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "在創業過程中，我多次面對因缺乏扎實理論基礎而導致的技術瓶頸，例如在設計高可靠度即時系統時，對RTOS核心原理理解不夠透徹；在優化低功耗設計時，對晶片底層電源管理缺乏系統性認知；以及在規劃韌體架構時，對軟體工程的設計模式與驗證方法不夠熟悉。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "29387c2e-a659-48d8-b6b6-ea41c5251262",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這些挫折讓我意識到，僅憑實作經驗很難在技術上達到更高層次",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1fbdfa3-a508-45e3-86ba-d3c23e8e572a",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我需要更嚴謹的學術訓練來補足這些缺失，讓我的技術能力更加系統化與理論化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2640eeda-0059-4abf-8a03-f9e8b6a3309c",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "選擇國立陽明交通大學資訊工程學系碩士班，是經過深思熟慮的決定。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4c52376b-143f-4371-b4b5-5705dd46da2b",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "貴所不僅在資訊工程領域享有盛譽",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "75a20cf0-addb-4ba5-96b9-96e01afa1cfc",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "更在嵌入式系統、晶片系統與計算機結構等領域具有領先的研究實力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "079d3316-24b2-45fe-b319-cc66fd2ec204",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "特別是貴所擁有多位在韌體安全、硬體軟體協同設計、即時作業系統等領域的頂尖教授",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe8c549d-c89a-4dc8-b9ff-82b1e2c5cb67",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "這些研究方向與我過去的實作經驗高度契合",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0e3019fd-0eda-4452-9a1d-7649da87a7a6",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "也正是我未來希望深入探索的領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27bb3f3f-bc27-428d-a909-deabc0afb347",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我渴望在貴所的豐富資源和嚴謹學術氛圍中，補足我的理論短板，將我分散的技術點串聯成堅實的知識網。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f28aa0d5-052f-478f-bea4-7c8e0c8eeefb",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我希望未來能深入研究韌體層面的安全性議題、低功耗嵌入式系統設計，以及如何利用軟硬體協同設計來提升系統效能與可靠度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "82ce557f-4d89-49a5-abb6-c36fa4855537",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "我相信，透過貴所的碩士訓練，我將能從底層原理、前沿技術到研究方法論，獲得全面的提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d8b6619-7f78-468e-a97d-449c58b58442",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "畢業後，我希望能成為一名卓越的韌體或嵌入式系統研發工程師",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "74b2e1f5-19ff-4cad-8139-95b9024e67e1",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "將所學應用於開發更創新、更安全、更高效的智慧產品",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e78715f0-fc9b-4ada-b2bc-8d1b5f604c87",
+      "candidate_id": "mock_46",
+      "section": "自傳",
+      "content": "甚至再次嘗試將我的技術理念付諸於創業實踐，為產業帶來實際貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fbb42937-0585-4e31-a60c-00ee84c2d83a",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "進入國立陽明交通大學資訊工程學系碩士班後，我將秉持積極學習、嚴謹研究的態度，規劃短、中、長期的學習與研究目標，希望能充分利用貴所的資源，達成我的學術與職涯願景。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "187f9717-a15e-4eaf-982f-3bf3ae98fa8c",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "優先修習「高等計算機結構」、「高等作業系統」、「嵌入式系統設計」等核心課程，加強對底層原理與進階概念的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "920a7d00-d1a7-4f95-ac9c-a3240c8fca94",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "旁聽或修習相關的數學與演算法課程，彌補大學期間因實作導向而可能忽略的理論知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "87134cc3-a6b3-49e0-8298-2dc6c0edef7c",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "針對大學時期修課平均較低的科目，我會利用課餘時間重新研讀，確保基礎知識的紮實度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42533aa2-0fd2-4fb5-8198-c0bd6690a175",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "主動接觸實驗室的研究方向與專案，學習常用的研究工具與軟體，例如FPGA開發環境、RTOS核心調試工具、或模擬器等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9fd34225-e72d-47a0-bf35-36415efa59f2",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "閱讀相關領域的學術論文，了解最新的研究進展與趨勢，培養學術閱讀與批判性思考的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "72239ad5-3f71-4768-a1e2-1eaeeb907f42",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "積極與教授交流，參與實驗室的討論，了解不同教授的研究專長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07db75dc-10d4-42d6-8aa8-0a2001d412f8",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "根據我的興趣（韌體安全、低功耗嵌入式系統、軟硬體協同設計），選擇與我研究方向最契合的指導教授，並開始進行文獻回顧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "839bb1f5-16d2-46bd-8a96-8c2f161c0405",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "在指導教授的帶領下，選擇具體的研究主題，並投入深入的實驗設計與實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e31ae076-770d-4eac-9226-c2541965b944",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "我希望能將我過去的韌體開發經驗與新的學術理論結合，解決實際問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "51509230-4757-475c-a25d-099873b6f13a",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "例如，我對「利用硬體安全機制增強嵌入式韌體防護」或「基於形式化方法的韌體驗證」等議題有高度興趣，期望能有所成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "02c06a8a-5a64-4609-84e7-142cfa911d89",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "積極參與學術會議或研討會，發表我的研究成果，鍛鍊學術表達能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e5898959-4f9a-4f3d-bc91-e1695c1b442c",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "目標是在畢業前，至少發表一篇會議論文或投稿期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3223ec59-8727-44b7-9ea4-23a896eadece",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "進一步鑽研特定技術領域，如：利用LLVM進行特定架構的韌體優化、學習使用高階綜合工具進行SoC設計的探索，或是研究新的RTOS核心架構。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5eb11b43-0819-4e70-a3d7-5874578ef1d2",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "參與校內外的相關工作坊或研習，持續拓展我的技術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cbcdee4d-8398-4f7a-89c9-6bb773e5a9a3",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "畢業後，我期望能進入國內外頂尖的半導體公司、IC設計公司或專精於嵌入式系統開發的科技公司，擔任韌體或硬體軟體協同設計的研發工程師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e0e6a052-2f2f-4ccc-8a0f-901232c52ba6",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "我將運用在交大資工所學習到的專業知識、研究方法與解決問題的能力，投入於新一代智慧裝置、物聯網核心晶片或車用電子系統的開發，為產品的穩定性、安全性與創新性做出貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b59be4a8-f6d7-4950-949b-8de4b0888a4f",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "秉持終身學習的精神，不斷追蹤產業前沿技術，學習新的程式語言、開發框架與研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10e0f2de-48ed-4c03-a65f-cb37721443c2",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "若有機會，我也希望未來能再次結合我的創業精神與所學，開發出具有市場潛力且能解決實際痛點的智慧產品",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3021b0c3-8b15-4b15-80db-d3c178446c83",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "甚至成立自己的公司，將創新的技術理念轉化為實際的商業價值，回饋社會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1f672e13-e2ef-4617-871c-d4e882947c4a",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "我堅信，透過在國立陽明交通大學資訊工程學系的嚴謹訓練，我將能彌補過去在學術深度上的不足",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10c28e5a-84b7-402b-abdd-80e858433737",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "並將我實戰累積的經驗提升到一個全新的層次。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb89ff97-410f-4e88-8d2a-f921a34a043c",
+      "candidate_id": "mock_46",
+      "section": "讀書計畫",
+      "content": "我期待能成為貴所的一份子，貢獻我的熱情與努力，與師長、同學們一同學習成長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

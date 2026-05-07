@@ -1,0 +1,432 @@
+{
+  "candidate_id": "mock_61",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_61.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n## 成長背景與學習動機\r\n\r\n我是董亭妤，來自成功大學資訊工程學系。從小便對電腦科技充滿好奇，覺得程式語言很有趣，可以透過邏輯創造出很多東西，所以大學選擇了資訊工程這個領域。在大學期間，我除了專業課程的學習，也對劇本創作很有熱情，這讓我學到怎麼把一個想法視覺化、組織故事，雖然跟資工看似不同，但我覺得它培養了我一種看事情的角度，對之後解決問題也蠻有幫助的。\r\n\r\n剛開始接觸資訊工程，其實有點手忙腳亂，畢竟東西很多元。但我很喜歡那種從零開始，把抽象概念轉化成實際成果的感覺。尤其是當我開始接觸到電腦視覺與影像處理的課程，我發現這就是我一直以來想要探索的領域，它不只技術很酷，還能應用在很多生活情境中，讓我更有動力去投入。\r\n\r\n## 大學期間的學習與技術探索\r\n\r\n在成功大學資訊工程學系這幾年，我努力修習了各種基礎與進階的課程，從程式設計、演算法、資料結構，到後來更專業的機器學習、影像處理等。我的學業成績大概是 3.29，雖然不算特別突出，但我相信自己在這些課程中獲益良多，尤其是對於解決問題的能力有很大的提升。\r\n\r\n由於沒有機會參與正式的研究室計畫或產學合作，我主要透過修課專題和個人 side project 來累積實作經驗。記得有一次在「影像處理」這門課的專題中，我們嘗試用程式去分析一些圖片，做了一些物件辨識的基礎嘗試。過程中遇到很多困難，像是資料處理不夠順暢、模型跑出來的結果不如預期等等，做完才發現原來電腦視覺真的蠻難的，但這也讓我對這個領域更感興趣，更想深入了解背後的原理。\r\n\r\n另外，我自己也曾試著用一些開源工具，去處理和分析影像資料，雖然很多時候都是摸索學習，但透過這些實作，真的培養了我獨立解決問題和查找資料的能力。我覺得這些經驗讓我對電腦視覺的實際應用有了初步的認識，也更清楚自己未來想要往哪個方向努力。這些過程雖然辛苦，但真的讓我學到很多，對我來說是很有意義的成長。\r\n\r\n## 申請動機與未來展望\r\n\r\n我選擇申請貴校資訊工程學系碩士班，主要有幾個原因。首先，交通大學在電腦視覺和影像處理領域的研究成果非常卓越，很多論文我都讀過，覺得很受啟發。再來，我知道貴校在學術資源和研究氛圍上都很好，我相信在這裡能夠找到最適合我的研究方向和指導教授。\r\n\r\n我希望能在研究所階段，更深入地探索電腦視覺中的特定主題，例如深度學習在影像辨識上的應用，或是如何提升影像處理的效率。我過去在大學雖然沒有正式的研究經驗，但那些課程專題和自學的過程，讓我對影像處理的基本概念有了掌握，也讓我了解到這個領域的無限可能。我希望將我對於視覺化和故事結構的興趣，與電腦視覺的技術結合，或許能發想出一些特別的應用。我會盡力學習，跟著教授做研究，希望能做出一些有意義的貢獻。\r\n\r\n我深信在交大資工系所的訓練下，我能將過去所學的基礎知識與個人對影像的熱情，轉化為更具深度的研究成果。我期待未來能在這裡，與優秀的師生一同學習成長，為這個領域帶來我的貢獻。\r\n\r\n---\r\n\r\n## 讀書計畫\r\n\r\n### 近程目標（入學第一年）\r\n* 努力適應研究所的學習步調，多跟同學和學長姐交流。\r\n* 加強基礎理論知識，特別是高等線性代數、機率統計、機器學習等課程。\r\n* 多選修幾門關於電腦視覺、影像處理或深度學習的進階課程，希望能對不同研究方向有更全面的了解。\r\n* 積極參與實驗室的專題討論，開始閱讀相關領域的論文，初步確定碩士論文的研究方向。\r\n* 培養好自己的程式能力，多練習不同框架，讓自己在實作上更順暢。\r\n\r\n### 中程目標（入學第二年）\r\n* 與指導教授確認碩士論文主題，並開始進行深入的研究與實作。\r\n* 嘗試將一些新的想法，或是過去劇本創作中學到的視覺思考方式，應用到電腦視覺的研究中。\r\n* 多參與學術研討會或工作坊，聽聽別人的研究，拓展自己的視野。\r\n* 希望能在研發過程中，解決一些之前覺得困難的問題，並從中學到更多。\r\n* 將研究成果整理成論文，並努力投稿到一些會議或期刊。\r\n\r\n### 長程目標（畢業後）\r\n* 希望能夠將在研究所學到的專業知識和研究經驗，應用到業界的實際問題中。\r\n* 持續關注電腦視覺與人工智慧領域的發展，不斷學習新的技術。\r\n* 希望能在未來的職涯中，貢獻我在影像處理和視覺化方面的能力，為社會帶來一些正面的影響。\r\n* 保持對新事物的學習熱情，讓自己一直進步。",
+  "idea_units": [
+    {
+      "id": "fbc930fc-240d-4441-ae67-4366d65c4b04",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我是董亭妤，來自成功大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be847bd9-6737-42bd-92de-6531fc3ef410",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "從小便對電腦科技充滿好奇，覺得程式語言很有趣，可以透過邏輯創造出很多東西，所以大學選擇了資訊工程這個領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "336a98c1-2c8c-4f47-8561-2290f5ab9538",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "在大學期間，我除了專業課程的學習，也對劇本創作很有熱情",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b8f0bd45-fa07-405f-9908-2a4bd78f9019",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "這讓我學到怎麼把一個想法視覺化、組織故事",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb9dfaf4-8ff5-4a98-a4f2-77f97ca759c7",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "雖然跟資工看似不同，但我覺得它培養了我一種看事情的角度，對之後解決問題也蠻有幫助的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8e0d40c2-8754-4fe3-a4d6-dfc0be763f17",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "剛開始接觸資訊工程，其實有點手忙腳亂，畢竟東西很多元。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "90a579d9-84bf-40ec-bf4e-4916c82a99f8",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "但我很喜歡那種從零開始，把抽象概念轉化成實際成果的感覺。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0297a20-9034-426f-864f-3f4b46b7818e",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "尤其是當我開始接觸到電腦視覺與影像處理的課程，我發現這就是我一直以來想要探索的領域",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "abf54159-5a68-42a3-a25a-f3b267db1247",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "它不只技術很酷，還能應用在很多生活情境中，讓我更有動力去投入。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c26e7bd8-5a5f-41f8-a567-e259783b7aa2",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "在成功大學資訊工程學系這幾年，我努力修習了各種基礎與進階的課程，從程式設計、演算法、資料結構，到後來更專業的機器學習、影像處理等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a287ef49-5ccd-422f-beff-3e88ec43d93b",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我的學業成績大概是 3.29",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "66081603-8f1f-47be-b37a-3352a089fc2f",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "雖然不算特別突出，但我相信自己在這些課程中獲益良多，尤其是對於解決問題的能力有很大的提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9dbb3ab-3da3-4d3e-ab9c-73eef0144f5a",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "由於沒有機會參與正式的研究室計畫或產學合作，我主要透過修課專題和個人 side project 來累積實作經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ebb0c758-732b-4abd-9f6f-5687479b18e8",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "記得有一次在「影像處理」這門課的專題中，我們嘗試用程式去分析一些圖片，做了一些物件辨識的基礎嘗試。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "549457ba-e247-4d8a-8b13-7005a38667e1",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "過程中遇到很多困難，像是資料處理不夠順暢、模型跑出來的結果不如預期等等",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "65068852-7067-4270-86a6-93321784b291",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "做完才發現原來電腦視覺真的蠻難的",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d051880c-c81b-4bc8-b809-e2e6d01410e9",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "但這也讓我對這個領域更感興趣，更想深入了解背後的原理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "49e7f57e-d914-4645-bbb2-a5027a635dc5",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "另外，我自己也曾試著用一些開源工具，去處理和分析影像資料",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "febf595d-b654-4eb8-bfe9-c0a5025c4d76",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "雖然很多時候都是摸索學習，但透過這些實作，真的培養了我獨立解決問題和查找資料的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6f8bb1f9-f392-41e7-92e4-c583b2029d97",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我覺得這些經驗讓我對電腦視覺的實際應用有了初步的認識，也更清楚自己未來想要往哪個方向努力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7797d7f5-2f90-442f-aa38-7291071795d3",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "但真的讓我學到很多，對我來說是很有意義的成長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b71a722-6858-436d-87ea-8f29a9a9d5ba",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我選擇申請貴校資訊工程學系碩士班，主要有幾個原因。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "caf346bb-e26a-4bd7-911e-04dee09d8ef5",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "首先，交通大學在電腦視覺和影像處理領域的研究成果非常卓越，很多論文我都讀過，覺得很受啟發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "149d1b59-cd5c-409d-b9fe-5a161e2002d7",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "再來，我知道貴校在學術資源和研究氛圍上都很好，我相信在這裡能夠找到最適合我的研究方向和指導教授。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e5941549-0f0c-4592-bc52-e18e1da8e44f",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我希望能在研究所階段，更深入地探索電腦視覺中的特定主題，例如深度學習在影像辨識上的應用，或是如何提升影像處理的效率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2874ee60-1509-4e9f-a95e-aa96873f1450",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我過去在大學雖然沒有正式的研究經驗",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f5d969ef-5064-48e1-82bc-c1aecb68b9c4",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "但那些課程專題和自學的過程，讓我對影像處理的基本概念有了掌握，也讓我了解到這個領域的無限可能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60b7a4ce-d747-4009-b662-31f7206bb25b",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我希望將我對於視覺化和故事結構的興趣，與電腦視覺的技術結合，或許能發想出一些特別的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c99a6733-0ce0-49ea-a353-fafbbf7fea66",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我會盡力學習，跟著教授做研究，希望能做出一些有意義的貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2a2c863e-d28f-4980-931e-d2474fed7181",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我深信在交大資工系所的訓練下，我能將過去所學的基礎知識與個人對影像的熱情，轉化為更具深度的研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db9152f3-3950-4677-98b9-00c5ec17c2b9",
+      "candidate_id": "mock_61",
+      "section": "自傳",
+      "content": "我期待未來能在這裡，與優秀的師生一同學習成長，為這個領域帶來我的貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "41123121-8b6f-4fa9-bcd5-5a6482a5ba3c",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "努力適應研究所的學習步調，多跟同學和學長姐交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6d67bf98-5403-46de-9b48-608ae98b8e56",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "加強基礎理論知識，特別是高等線性代數、機率統計、機器學習等課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "87d68c9c-bd4c-4922-b9ee-fab4c5bce897",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "多選修幾門關於電腦視覺、影像處理或深度學習的進階課程",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d231335-1d23-4430-89c3-398a5aff30d8",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "希望能對不同研究方向有更全面的了解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "091f3e86-5a81-4ac1-a9f7-eaa5efdf949a",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室的專題討論，開始閱讀相關領域的論文，初步確定碩士論文的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e35a6a7f-64ce-471f-a6b8-954c0fcbde46",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "培養好自己的程式能力，多練習不同框架",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9c2f8278-076e-4a87-980b-904e422c47b3",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "讓自己在實作上更順暢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "250ab050-b986-4c5b-a1d4-1550aa3750a7",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "與指導教授確認碩士論文主題，並開始進行深入的研究與實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38e005e7-58ed-4d76-9d7a-a147ee403c7f",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "嘗試將一些新的想法，或是過去劇本創作中學到的視覺思考方式，應用到電腦視覺的研究中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "57e7fd51-56dd-48ae-a970-ea4f98cc6f07",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "多參與學術研討會或工作坊，聽聽別人的研究",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "55a1ca41-63a0-4970-8cc8-0eb728485403",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "希望能在研發過程中，解決一些之前覺得困難的問題",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e0b4740e-05f7-43c9-8c8c-0dd89db4d6e9",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "將研究成果整理成論文，並努力投稿到一些會議或期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "41762d05-1e0c-4a49-b532-945b30177594",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "希望能夠將在研究所學到的專業知識和研究經驗，應用到業界的實際問題中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d02a6148-0bc8-4193-aa97-9132911e5da9",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "持續關注電腦視覺與人工智慧領域的發展，不斷學習新的技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "096c1d47-39ec-401d-86e3-d6c1078cbfb8",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "希望能在未來的職涯中，貢獻我在影像處理和視覺化方面的能力，為社會帶來一些正面的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "45b48f5b-c657-45bd-a0bb-70b946b40be2",
+      "candidate_id": "mock_61",
+      "section": "讀書計畫",
+      "content": "保持對新事物的學習熱情，讓自己一直進步。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

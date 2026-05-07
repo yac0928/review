@@ -1,0 +1,567 @@
+{
+  "candidate_id": "mock_16",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_16.md"
+  ],
+  "cleaned_text": "# 自傳\r\n\r\n## 個人簡介\r\n\r\n我叫姚柔安，來自國立清華大學資訊工程學系。從小，我就對電腦世界充滿好奇，總是被那些複雜的程式碼和系統運作原理深深吸引。在清華資工的四年大學生涯中，我努力學習資訊領域的基礎知識與核心技術，並逐步將學習重心放在我最感興趣的資訊安全與加密技術上。我的學業成績雖然稱不上頂尖，但修課平均仍維持在 3.69，顯示我在學習上的投入與基本掌握。\r\n\r\n## 求學經歷與學習動機\r\n\r\n大學四年，我嚴謹地完成了系上所要求的所有核心課程，像是「資料結構」、「演算法」、「計算機組織」和「作業系統」。這些課程為我打下了堅實的程式設計與系統知識基礎，讓我對電腦科學的廣度有了全面的認識。我特別享受那些需要邏輯思考和問題解決的挑戰，像是演算法課程中優化時間複雜度的練習，或是作業系統專題中實作記憶體管理模組。這些經驗不僅提升了我的程式能力，也培養了我面對複雜問題時的耐心與細心。\r\n\r\n大三開始，我對於資訊安全的領域產生了濃厚的興趣，尤其是加密技術如何保障資訊傳輸的隱私與完整性。我發現這是一個既具挑戰性又充滿實際應用價值的領域。儘管系上沒有專門的資安研究室經驗，我仍透過修習相關課程和自主學習，努力在這方面耕耘。我深刻體會到，資安防護的環節環環相扣，任何一處的疏忽都可能導致嚴重的後果。這種責任感也促使我希望能更深入地學習。\r\n\r\n## 資訊安全領域的探索與實作\r\n\r\n在大學期間，我主要透過課程專題和個人自學專案來探索資訊安全與加密技術。例如，在「計算機網路」課程的期末專題中，我與組員們一同設計並實作了一個簡易的加密通訊系統。我們使用了 Python 語言，並嘗試實作了 AES 加密演算法來保護傳輸的文字訊息，同時利用 Socket Programming 建立了點對點的通訊連線。雖然系統功能相對基礎，但這個專案讓我第一次親手將抽象的加密理論轉化為實際可運作的程式碼，並理解到網路傳輸安全的重要性，以及如何防範中間人攻擊的基本概念。這段經驗讓我對對稱式加密有了初步的認識，也學到了如何處理資料序列化與反序列化。\r\n\r\n另一個讓我有深刻印象的專案是在「網路安全」課程中，我們被要求分析常見的網路攻擊手法。我選擇了針對 SQL Injection 進行研究，並模擬攻擊情境，探討如何透過程式碼修改來避免這類漏洞。我閱讀了 OWASP Top 10 的相關內容，學習到許多網站安全開發的實務建議。透過實際撰寫一個易受攻擊的網頁應用程式，再逐步修復其安全漏洞，我了解到輸入驗證和參數化查詢對於防止 SQL Injection 的關鍵作用。這個過程讓我對網路安全有了更具體的理解，也發現資訊安全並非單純的技術問題，更是需要綜合考量系統設計、開發流程以及使用者習慣的複雜挑戰。\r\n\r\n除了課程專題外，我也會利用課餘時間自學一些資安工具和知識，例如透過 CTF (Capture The Flag) 平台練習一些基本的逆向工程、網頁漏洞分析和密碼學挑戰，嘗試使用 Linux 環境下的工具如 `Wireshark` 進行封包分析，以理解網路協定運作與潛在的安全風險。這些零散的學習雖然不夠系統，但卻讓我保持對資安領域的好奇心與熱情，並初步培養了解決資安問題的直覺。\r\n\r\n## 課外活動與個人特質\r\n\r\n除了學業之外，我也積極參與了大學合唱團，並在大三時擔任了領唱的職務。作為領唱，我需要協調不同聲部的練習進度，確保大家能夠和諧地合作，共同呈現出最完美的演出。這份經驗讓我學會了如何在團隊中有效溝通、傾聽他人的意見，並在壓力下保持冷靜，帶領團隊克服困難。合唱團的每一次演出都讓我體驗到團結合作的重要性，這與資工領域中團隊開發專案的需求不謀而合。我相信這些軟實力對於未來在學術研究或業界合作上都將是寶貴的資產。\r\n\r\n## 申請動機與未來展望\r\n\r\n我對資訊工程的熱情與對資訊安全的興趣，促使我希望能繼續深造。交大資工所在國內外都享有卓越的聲譽，特別是在資訊安全領域的研究成果，更是我嚮往的目標。我深信在貴所的豐富資源與優質學習環境下，我能更系統性地學習資安領域的先進知識，並深入參與前瞻性的研究。我期許自己能在碩士班期間，不僅強化專業技能，更能培養獨立思考與解決複雜問題的能力。雖然目前的研究方向還不是非常明確，但渴望在資安領域貢獻一份心力、成為資安領域的一份子的熱情，驅使我邁向這一步。希望有機會進入貴所就讀，為我的資安專業之路開啟新的篇章。\r\n\r\n---\r\n\r\n# 讀書計畫\r\n\r\n# 讀書計畫\r\n\r\n## 短期目標 (入學前至碩一上學期)\r\n\r\n* **基礎知識鞏固與預備：**\r\n * 複習大學期間的資訊工程核心課程，特別是「資料結構」、「演算法」與「計算機網路」等，確保基礎穩固。\r\n * 加強 Python 與 C/C++ 程式設計能力，熟悉常用的函式庫與工具。\r\n * 閱讀資訊安全領域的入門書籍與經典論文，對常見的攻擊手法、防禦機制與加密技術有更全面的認識。\r\n * 主動了解交大資工所資安相關實驗室的研究方向與教授專長，初步探索未來可能的指導教授人選。\r\n* **課程修習與學術適應：**\r\n * 規劃修習「高等密碼學」、「網路安全」、「作業系統安全」等核心資安課程，深入學習密碼學原理與網路防禦機制。\r\n * 旁聽或選修一些與資訊安全相關的選修課程，例如「區塊鏈技術」或「惡意程式分析」，擴展知識廣度。\r\n * 積極參與實驗室討論、研討會與專題演講，學習研究方法，並與學長姐及教授交流，了解學術界的研究前沿。\r\n * 逐步適應碩士班的研究型學習模式，提升文獻閱讀、分析與報告能力。\r\n\r\n## 中期目標 (碩一下學期至碩二上學期)\r\n\r\n* **研究方向聚焦與專題實作：**\r\n * 確定具體的研究領域，例如軟體安全、密碼應用、網路攻防或區塊鏈安全等，並在指導教授的協助下選定碩士論文題目。\r\n * 參與實驗室的研究專案，學習如何在實際問題中應用所學知識，並從中培養解決問題的能力。\r\n * 若有機會，將積極尋找與研究領域相關的校外實習機會，將理論知識與業界實務結合，累積實戰經驗。\r\n * 開始撰寫碩士論文初稿，並定期與指導教授討論研究進度，接受意見回饋並持續改進。\r\n* **技術能力深化與論文撰寫：**\r\n * 針對論文題目所需的專業技能進行強化，例如學習新的程式語言、開發框架或分析工具。\r\n * 深入閱讀與論文相關的學術論文與研究報告，了解最新的研究進展，並探索創新的研究方向。\r\n * 積極參與學術研討會或國內外會議，發表研究成果，並從同行交流中獲得啟發與建議。\r\n * 在教授指導下，持續完善論文內容，確保研究成果的深度與廣度。\r\n\r\n## 長期目標 (畢業後)\r\n\r\n* **貢獻資訊安全領域：**\r\n * 希望未來能投入資訊安全相關的產業或研究單位，成為一名專業的資安工程師或研究員，為保護數位世界貢獻心力。\r\n * 持續學習與自我提升，追蹤資訊安全領域的最新發展與技術趨勢，不斷更新知識技能。\r\n * 若有機會，也希望能參與開源專案或社群，與同行分享知識與經驗，共同推動資安技術的進步。\r\n * 期許自己能在特定資安領域中深耕，成為該領域的專家，並能為社會帶來正面的影響。",
+  "idea_units": [
+    {
+      "id": "7238deb4-aeb4-4fa8-8974-aabbaa114085",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我叫姚柔安，來自國立清華大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ac701a7b-c767-4470-968e-b9cb5a0dcfa8",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "從小，我就對電腦世界充滿好奇，總是被那些複雜的程式碼和系統運作原理深深吸引。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d1a8560-cf00-4397-8102-900ae1728ab3",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "在清華資工的四年大學生涯中，我努力學習資訊領域的基礎知識與核心技術，並逐步將學習重心放在我最感興趣的資訊安全與加密技術上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f890396-9939-4ffc-a648-57c4acef2c8e",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我的學業成績雖然稱不上頂尖",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01cc7855-7b6d-4518-b1d3-60699ec31e92",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "但修課平均仍維持在 3.69，顯示我在學習上的投入與基本掌握。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ea4d9898-9105-4644-924b-e5a049d2daca",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "大學四年，我嚴謹地完成了系上所要求的所有核心課程，像是「資料結構」、「演算法」、「計算機組織」和「作業系統」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "afadd57a-7f93-444a-9dd3-9b2878aef11a",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這些課程為我打下了堅實的程式設計與系統知識基礎，讓我對電腦科學的廣度有了全面的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "03d40e60-3cbb-4e7c-b981-973a6688aba2",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我特別享受那些需要邏輯思考和問題解決的挑戰，像是演算法課程中優化時間複雜度的練習，或是作業系統專題中實作記憶體管理模組。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8c0fc1b9-3fe8-4341-9c41-f5a74cebbfb0",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這些經驗不僅提升了我的程式能力，也培養了我面對複雜問題時的耐心與細心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e58a6cdd-6fc8-412d-aff7-9c27cc89b0b6",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "大三開始，我對於資訊安全的領域產生了濃厚的興趣，尤其是加密技術如何保障資訊傳輸的隱私與完整性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1e59597-1ecc-4f5c-b22d-76ba6e14d710",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我發現這是一個既具挑戰性又充滿實際應用價值的領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "00d7a2a7-cd66-4bd7-b01d-0cb11a631a2d",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "儘管系上沒有專門的資安研究室經驗",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a946c8c2-af46-45ab-b907-8df8750f7e4e",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我仍透過修習相關課程和自主學習，努力在這方面耕耘。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1bc05de2-1f97-42d6-bcc6-9cf2b199b112",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我深刻體會到，資安防護的環節環環相扣，任何一處的疏忽都可能導致嚴重的後果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8aed4fd9-59e9-4ebb-bad5-6ce7b5fcd60e",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這種責任感也促使我希望能更深入地學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e53d5724-94ae-4160-952e-aeed84165fd7",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "在大學期間，我主要透過課程專題和個人自學專案來探索資訊安全與加密技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6b372f8-016b-4dae-a53b-05585f8d48f5",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "例如，在「計算機網路」課程的期末專題中，我與組員們一同設計並實作了一個簡易的加密通訊系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "53d3897b-43bd-452f-bf59-345f8765c528",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我們使用了 Python 語言，並嘗試實作了 AES 加密演算法來保護傳輸的文字訊息，同時利用 Socket Programming 建立了點對點的通訊連線。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a921c031-fb20-4cda-8652-9c38eeef359d",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "但這個專案讓我第一次親手將抽象的加密理論轉化為實際可運作的程式碼",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be94b3b1-410c-41a4-8e40-604d6c9f39f0",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "並理解到網路傳輸安全的重要性，以及如何防範中間人攻擊的基本概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4b1248bc-fb8b-4a40-8403-ec537e3914d6",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這段經驗讓我對對稱式加密有了初步的認識，也學到了如何處理資料序列化與反序列化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e3c8d112-5ac3-4d1b-88a9-10d22ee3abcf",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "另一個讓我有深刻印象的專案是在「網路安全」課程中，我們被要求分析常見的網路攻擊手法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "95764cd4-74fb-4ebd-a4ee-455ba7b845fe",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我選擇了針對 SQL Injection 進行研究，並模擬攻擊情境，探討如何透過程式碼修改來避免這類漏洞。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4b4fe6b7-d289-4442-9c4c-511648d46771",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我閱讀了 OWASP Top 10 的相關內容，學習到許多網站安全開發的實務建議。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a1780d65-a683-4b0d-86af-75b08a84ca5a",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "透過實際撰寫一個易受攻擊的網頁應用程式，再逐步修復其安全漏洞",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10ab0d3e-4756-45d3-a09a-ba1e7c974e69",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我了解到輸入驗證和參數化查詢對於防止 SQL Injection 的關鍵作用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "357b6b8c-92eb-4031-a2f9-34a34b65d5a9",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這個過程讓我對網路安全有了更具體的理解，也發現資訊安全並非單純的技術問題，更是需要綜合考量系統設計、開發流程以及使用者習慣的複雜挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "08161fdb-85d4-4e1d-80af-e11a983b2608",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "除了課程專題外，我也會利用課餘時間自學一些資安工具和知識，例如透過 CTF (Capture The Flag) 平台練習一些基本的逆向工程、網頁漏洞分析和密碼學挑戰，嘗試使用 Linux 環境下的工具如 `Wireshark` 進行封包分析，以理解網路協定運作與潛在的安全風險。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38366c64-66d4-4c56-80c0-092f80c00fc2",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這些零散的學習雖然不夠系統",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8730ecd0-608f-4a17-a9fe-3300e7dec4c4",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "但卻讓我保持對資安領域的好奇心與熱情，並初步培養了解決資安問題的直覺。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4e70de25-0101-4fcd-b524-2d4ba182dd8b",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "除了學業之外，我也積極參與了大學合唱團，並在大三時擔任了領唱的職務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6a93dc19-52fe-4059-ad3b-afaa7d708853",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "作為領唱，我需要協調不同聲部的練習進度，確保大家能夠和諧地合作，共同呈現出最完美的演出。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2124b4e5-d6ac-4222-9cf3-4bed6e988d4c",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "這份經驗讓我學會了如何在團隊中有效溝通、傾聽他人的意見，並在壓力下保持冷靜，帶領團隊克服困難。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31834ffa-f648-4dcd-bcfe-d0fb91824fcc",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "合唱團的每一次演出都讓我體驗到團結合作的重要性，這與資工領域中團隊開發專案的需求不謀而合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c5cd9f6c-3712-4303-b2c4-acce82aa9349",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我相信這些軟實力對於未來在學術研究或業界合作上都將是寶貴的資產。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "165ea03b-f0a9-4604-9332-ffda8ce646d5",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我對資訊工程的熱情與對資訊安全的興趣，促使我希望能繼續深造。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "90b7c3c9-5a80-4772-8a2d-f8206376f0f9",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "交大資工所在國內外都享有卓越的聲譽，特別是在資訊安全領域的研究成果，更是我嚮往的目標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "11a56ac1-b340-4dab-bcaa-d35ee5df6120",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我深信在貴所的豐富資源與優質學習環境下，我能更系統性地學習資安領域的先進知識，並深入參與前瞻性的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ad81f2c7-fc34-405c-96b5-bb84e3bd584f",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "我期許自己能在碩士班期間，不僅強化專業技能，更能培養獨立思考與解決複雜問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1a0dbcf-16ac-47ba-9604-e3aaa7111357",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "雖然目前的研究方向還不是非常明確",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "65a39757-9de8-4e38-b61f-ca572f056e32",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "但渴望在資安領域貢獻一份心力、成為資安領域的一份子的熱情，驅使我邁向這一步。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cca5e8fd-0e20-4d84-8d96-04491199c3ba",
+      "candidate_id": "mock_16",
+      "section": "自傳",
+      "content": "希望有機會進入貴所就讀，為我的資安專業之路開啟新的篇章。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "90f45c96-62d1-4a65-957a-2c307f3d7610",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "複習大學期間的資訊工程核心課程，特別是「資料結構」、「演算法」與「計算機網路」等，確保基礎穩固。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3656dbf2-f203-42c4-8e5d-3dbcf7c394b1",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "加強 Python 與 C/C++ 程式設計能力，熟悉常用的函式庫與工具。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1f30586-a504-4ace-8ba1-ad7675dc84ff",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "閱讀資訊安全領域的入門書籍與經典論文，對常見的攻擊手法、防禦機制與加密技術有更全面的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8977f9f8-7f5e-4f7a-bfc1-12181ef5433b",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "主動了解交大資工所資安相關實驗室的研究方向與教授專長，初步探索未來可能的指導教授人選。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d45a58ca-4bab-452f-86d0-7083077a1a8d",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "規劃修習「高等密碼學」、「網路安全」、「作業系統安全」等核心資安課程，深入學習密碼學原理與網路防禦機制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32ec16fe-2082-4bc3-9cfb-dc9135a5a591",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "旁聽或選修一些與資訊安全相關的選修課程，例如「區塊鏈技術」或「惡意程式分析」，擴展知識廣度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d11c5d4-5720-415a-aa23-c83ff1889c33",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室討論、研討會與專題演講，學習研究方法，並與學長姐及教授交流，了解學術界的研究前沿。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8eea5a9b-2109-4f01-aaa1-0d13766d654a",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "逐步適應碩士班的研究型學習模式，提升文獻閱讀、分析與報告能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ca51656f-7aa4-4983-aa2b-fa5705556577",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "確定具體的研究領域，例如軟體安全、密碼應用、網路攻防或區塊鏈安全等，並在指導教授的協助下選定碩士論文題目。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c0c987b9-b3dd-4312-a9b0-fdd378fe3cfb",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "參與實驗室的研究專案，學習如何在實際問題中應用所學知識，並從中培養解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "19a63f8a-91e8-41d8-8df0-65551d2ce150",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "若有機會，將積極尋找與研究領域相關的校外實習機會，將理論知識與業界實務結合，累積實戰經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "800d19eb-1e9c-478b-a81c-8caebf869e04",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "開始撰寫碩士論文初稿，並定期與指導教授討論研究進度，接受意見回饋並持續改進。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d5651604-6346-41f7-9c44-9028a98a7444",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "針對論文題目所需的專業技能進行強化，例如學習新的程式語言、開發框架或分析工具。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6748dd45-75df-4dfa-83de-81aa9744c95a",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "深入閱讀與論文相關的學術論文與研究報告，了解最新的研究進展，並探索創新的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e699a10d-3528-4b46-9b92-7159fefd50c1",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "積極參與學術研討會或國內外會議，發表研究成果，並從同行交流中獲得啟發與建議。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "182567d0-56a6-4c4c-ab71-c4213ba0fb13",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "在教授指導下，持續完善論文內容，確保研究成果的深度與廣度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e5cc4e97-1412-4ba3-83e2-4c08726fe8d5",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "希望未來能投入資訊安全相關的產業或研究單位，成為一名專業的資安工程師或研究員，為保護數位世界貢獻心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8be7fb39-e0b3-4b8c-bb19-de8d9b6aa263",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "持續學習與自我提升，追蹤資訊安全領域的最新發展與技術趨勢，不斷更新知識技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58a0786e-f60a-42e7-9b02-e7deb89194e7",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "若有機會，也希望能參與開源專案或社群，與同行分享知識與經驗，共同推動資安技術的進步。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fd0f0094-efbc-4927-b6cb-b3dcb3195967",
+      "candidate_id": "mock_16",
+      "section": "讀書計畫",
+      "content": "期許自己能在特定資安領域中深耕，成為該領域的專家，並能為社會帶來正面的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

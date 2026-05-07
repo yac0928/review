@@ -1,0 +1,765 @@
+{
+  "candidate_id": "mock_20",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_20.md"
+  ],
+  "cleaned_text": "# 曹靖雯 申請國立交通大學資訊工程學系碩士班 推甄文件\r\n\r\n## 自傳\r\n\r\n我是曹靖雯，目前就讀於中興大學資訊工程學系。從大學時期開始，我便對低階系統操作、韌體安全以及嵌入式系統的硬體交互作用懷抱著濃厚的興趣。我在學業上力求表現，大學至今的學業成績維持在 3.85/4.00，在系上名列前茅，這不僅是我對知識追求的展現，也為我奠定扎實的資訊工程基礎。我深信，正是這些基礎訓練與我對硬體與安全領域的熱情，促使我決心投入交大資工所，繼續探索嵌入式系統的無限可能與其背後的資安挑戰。\r\n\r\n### 學術背景與研究動機\r\n\r\n我在中興大學資工系的課程學習中，不斷深化對計算機科學的理解。大二時修習「計算機組織」與「數位邏輯設計」時，我對CPU如何執行指令、記憶體如何存取資料等底層機制產生了強烈好奇。隨後在「作業系統」與「嵌入式系統」等課程中，更進一步接觸到韌體如何與硬體協同運作、管理系統資源的細節。特別是課程中提到嵌入式系統因資源限制與部署環境的特殊性，導致其面臨獨特的資安威脅，例如硬體特洛伊木馬（Hardware Trojan）攻擊，這徹底點燃了我對這個領域的研究熱情。我意識到，要確保這些無處不在的智慧裝置安全可靠，必須從韌體與硬體的結合點下手。\r\n\r\n### 研究經歷與實務專案\r\n\r\n為了將理論知識付諸實踐，我積極投入實驗室與專題研究，累積了寶貴的實務經驗。\r\n\r\n- **基於功耗側通道分析的硬體特洛伊木馬偵測**\r\n 大三下學期起，我加入了實驗室（虛構名稱：嵌入式系統安全實驗室），在指導教授帶領下，參與了為期一年的「基於功耗側通道分析的硬體特洛伊木馬偵測」研究專案。\r\n - **專案目標：** 旨在開發一種非侵入式方法，透過分析嵌入式裝置的功耗側通道資訊，偵測潛藏於硬體電路中的惡意特洛伊木馬。\r\n - **我的職責：** 主要負責功耗數據採集系統的建置、數據前處理演算法的開發，以及機器學習模型的訓練與評估。\r\n - **技術細節：**\r\n - 利用 **Keysight DSOX2004A 示波器** 搭配電流探棒，成功從 **STM32F4** 微控制器執行特定加密演算法（AES）的過程中，精準採集了約 **10,000 筆** 的功耗波形數據。\r\n - 在數據前處理階段，我使用 **Python 搭配 NumPy 與 SciPy 函式庫** 實現了平滑濾波、同步化與降噪等演算法，有效提升了數據品質。\r\n - 在特洛伊木馬偵測模型方面，我嘗試了多種機器學習演算法，最終選擇以 **scikit-learn 框架下的 Support Vector Machine (SVM)** 與 **TensorFlow 框架下的 Convolutional Neural Network (CNN)** 進行模型訓練。透過反覆調校參數，我們成功在模擬含有特洛伊木馬的資料集中，達到了 **92% 的偵測準確度**。\r\n - **學到與反思：** 在這個專案中，我深刻體會到側通道資訊的複雜性與其在安全性分析上的巨大潛力。第一次意識到，即便是看似微小的功耗波動，背後都可能隱藏著惡意行為的蹤跡。專案讓我熟練掌握了嵌入式裝置的低階操作、數據採集與分析技能，並學會了如何將機器學習應用於資安問題。\r\n\r\n- **基於 FreeRTOS 的智慧家居閘道器韌體開發**\r\n 在大三下的「嵌入式系統設計」課程專題中，我與組員共同完成了「基於 FreeRTOS 的智慧家居閘道器韌體開發」專案。\r\n - **專案目標：** 設計並實作一個能連接多種智慧感測器（如溫濕度、光照）的物聯網閘道器，並透過韌體實現數據採集、本地處理與雲端通訊。\r\n - **我的職責：** 負責 **ESP32 微控制器** 上的 **FreeRTOS 即時作業系統** 任務排程、感測器驅動程式開發以及 **MQTT** 協定通訊模組的實作。\r\n - **技術細節：**\r\n - 利用 **C/C++** 語言開發韌體，成功整合了 DHT11 溫濕度感測器與 BH1750 光照感測器，並確保數據採集的即時性與穩定性。\r\n - 設計了多個 FreeRTOS 任務，包括感測器數據讀取任務、數據處理任務和 MQTT 雲端上傳任務，並透過佇列（Queue）實現任務間的同步通訊。\r\n - 實現了基於 **TLS 的 MQTT 安全連線**，確保數據傳輸的機密性與完整性。\r\n - **學到與反思：** 這個專案讓我對即時作業系統的運作機制有了深入了解，尤其是在有限資源下進行多任務協調的挑戰。我第一次體會到，在資源受限的嵌入式環境中，韌體設計的效率與穩定性對整體系統效能至關重要，也意識到在 IoT 裝置上實作安全通訊的複雜性。\r\n\r\n### 未來展望與申請動機\r\n\r\n我的求學與研究經歷，讓我對韌體安全、嵌入式系統設計以及硬體特洛伊防護領域充滿了探索的渴望。國立交通大學資訊工程學系在這些領域的研究實力與豐沛資源，正是我追求更高學術目標的理想環境。交大資工所不僅擁有多位在資訊安全、嵌入式系統及計算機結構方面享譽國際的教授，其與產業的緊密連結及優良的學術氛圍，都讓我心嚮往之。我期望能進入交大資工所，在更具挑戰性的研究環境中，磨練我的專業技能，擴展我的學術視野，並最終為韌體安全領域貢獻一份心力。\r\n\r\n---\r\n\r\n## 讀書計畫\r\n\r\n進入國立交通大學資訊工程學系碩士班，我將以「韌體安全與硬體特洛伊防護」作為主要研究方向，並規劃以下短、中、長期目標，確保我能有效且深入地完成學業與研究。\r\n\r\n### 短期目標（碩一上學期）\r\n\r\n我將優先熟悉交大的研究環境、課程資源，並積極融入實驗室文化。\r\n\r\n- **學術基礎鞏固：**\r\n - 選修相關進階課程，例如：「**進階計算機結構**」、「**作業系統核心設計**」、「**資訊安全專論**」及「**嵌入式系統安全**」。透過這些課程，深化我在底層系統、作業系統機制及資訊安全領域的理論知識。\r\n - 重新溫習 **VHDL/Verilog 語言**，並熟悉 **FPGA 開發環境**，為硬體層面的研究打下基礎。\r\n- **研究室融入：**\r\n - 主動接觸對韌體安全、硬體安全或嵌入式系統研究有興趣的教授，積極參與實驗室討論，尋找合適的指導教授與研究方向。我特別關注在側通道分析、信任根（Root of Trust）及韌體鑑識方面有深入研究的實驗室。\r\n - 大量閱讀相關領域的頂級會議論文（如 NDSS, USENIX Security, CHES, DATE），全面了解當前研究熱點、未解決的問題及主流解決方案。\r\n\r\n### 中期目標（碩一下至碩二上學期）\r\n\r\n此階段將是確立論文主題並深入研究的關鍵時期。\r\n\r\n- **論文主題確立與研究：**\r\n - 與指導教授討論後，確立碩士論文題目，預計將圍繞「**基於軟硬體協同設計的嵌入式系統韌體完整性驗證機制**」或「**利用機器學習技術提升硬體特洛伊木馬偵測的抗干擾能力**」等方向展開。\r\n - 開始進行初步的系統設計與實驗環境建置。例如，在韌體完整性驗證方面，可能會利用 **RISC-V 處理器平台** 搭配可信執行環境（TEE）技術進行實作；在硬體特洛伊偵測方面，則可能探索更為複雜的深度學習模型（如 **Transformer-based 模型**）來分析多模態側通道數據。\r\n - 學習並應用 **形式化驗證工具** (如 SPIN 或 TLA+) 於韌體邏輯的安全性分析，以期提升韌體設計的嚴謹性。\r\n- **成果發表：**\r\n - 積極參與實驗室內部報告與研討會，定期分享研究進度與遇到的挑戰，從同儕與教授的回饋中學習與改進。\r\n - 爭取將初步研究成果撰寫成論文，投稿至國內或國際相關研討會（如全國資訊安全會議、VLSI Design/CAD Symposium），累積學術發表經驗。\r\n\r\n### 長期目標（碩二下學期畢業前與未來發展）\r\n\r\n我的最終目標是完成具有創新性與實用價值的碩士論文，並為未來的職涯發展奠定堅實基礎。\r\n\r\n- **論文完成與發表：**\r\n - 完善實驗設計、數據分析與結果驗證，高品質地完成碩士論文。\r\n - 將研究成果整理並投稿至國際頂級會議或期刊（如 IEEE Transactions on Dependable and Secure Computing, DAC, ICCAD 等），力求發表。\r\n- **專業技能強化：**\r\n - 培養獨立思考與解決問題的能力，從發現問題、提出假設到驗證解決方案，形成一套完整的科研思維模式。\r\n - 透過參與產學合作專案或實習，將學術研究與實際產業需求連結，了解嵌入式安全在業界的最新挑戰與應用。\r\n- **未來發展：**\r\n - 畢業後，期望能進入半導體設計、物聯網安全或先進製造等領域的 R&D 部門，從事韌體安全架構設計、硬體安全評估或威脅分析等工作，為台灣的科技產業貢獻一份心力。\r\n - 若研究過程激發更深厚的熱情，不排除攻讀博士學位，持續在嵌入式系統安全領域深耕。\r\n\r\n我深信，在交大資工所提供的優越環境中，我將能充分發揮我的潛力，實現我的學術與職涯目標。我已做好準備迎接挑戰，並期待能為貴所的研究社群帶來新的活力。",
+  "idea_units": [
+    {
+      "id": "ce5dab36-fa5b-4565-b95b-01289e5d7736",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "我是曹靖雯，目前就讀於中興大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e5121eb5-f5fb-4be6-bdc7-f72c799683c8",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "從大學時期開始，我便對低階系統操作、韌體安全以及嵌入式系統的硬體交互作用懷抱著濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "70abdd20-0ebe-4ebe-a750-263c904d8830",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "我在學業上力求表現，大學至今的學業成績維持在 3.85/4.00，在系上名列前茅。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d0bab10-b27d-4f9f-9659-fa612117c313",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "這不僅是我對知識追求的展現，也為我奠定扎實的資訊工程基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "11a9d8b9-b739-455c-af57-be44597c650a",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "我深信，正是這些基礎訓練與我對硬體與安全領域的熱情，促使我決心投入交大資工所。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "91cfc726-a995-416b-a553-f6acc63fa082",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "繼續探索嵌入式系統的無限可能與其背後的資安挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "830c4d64-3448-4364-b348-b4ea2be354bb",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "我在中興大學資工系的課程學習中，不斷深化對計算機科學的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d834744a-fe43-455e-a0ab-d35321932ecc",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "大二時修習「計算機組織」與「數位邏輯設計」時，我對CPU如何執行指令、記憶體如何存取資料等底層機制產生了強烈好奇。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b8442b3c-e4e5-4c68-a7cb-fb375f2c8179",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "隨後在「作業系統」與「嵌入式系統」等課程中，更進一步接觸到韌體如何與硬體協同運作、管理系統資源的細節。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e0b0e5ed-9d39-4ab6-901a-14c2f7bec353",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "特別是課程中提到嵌入式系統因資源限制與部署環境的特殊性，導致其面臨獨特的資安威脅，例如硬體特洛伊木馬（Hardware Trojan）攻擊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "75cb4b6a-bfff-4ff8-8173-43facaa9ecd9",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "這徹底點燃了我對這個領域的研究熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d2e1efc6-e1ea-4da4-8115-1c0961cf621d",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "我意識到，要確保這些無處不在的智慧裝置安全可靠，必須從韌體與硬體的結合點下手。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d0a8bc4b-c5c3-4a5e-a8df-37b6d2c0fdc4",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "為了將理論知識付諸實踐，我積極投入實驗室與專題研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7931d6a8-caec-4699-a33c-95bad8f2ca86",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "累積了寶貴的實務經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31a59ffa-62c5-4332-8083-72a82cd3492e",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "大三下學期起，我加入了實驗室（虛構名稱：嵌入式系統安全實驗室），在指導教授帶領下，參與了為期一年的「基於功耗側通道分析的硬體特洛伊木馬偵測」研究專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ce440ef1-b8c3-456a-9eb1-8a33ca60bd13",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "旨在開發一種非侵入式方法，透過分析嵌入式裝置的功耗側通道資訊，偵測潛藏於硬體電路中的惡意特洛伊木馬。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db60014a-d933-4b9a-b351-961d21890bde",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "主要負責功耗數據採集系統的建置、數據前處理演算法的開發，以及機器學習模型的訓練與評估。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ff663d66-e43b-468a-8a42-73e1da6239a8",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "利用 Keysight DSOX2004A 示波器 搭配電流探棒，成功從 STM32F4 微控制器執行特定加密演算法（AES）的過程中，精準採集了約 10,000 筆 的功耗波形數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "59f7d931-8199-4f1f-9130-dc3cfddf7838",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "在數據前處理階段，我使用 Python 搭配 NumPy 與 SciPy 函式庫 實現了平滑濾波、同步化與降噪等演算法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db6c096f-2e2d-4d93-856a-510d64744272",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "在特洛伊木馬偵測模型方面，我嘗試了多種機器學習演算法，最終選擇以 scikit-learn 框架下的 Support Vector Machine (SVM) 與 TensorFlow 框架下的 Convolutional Neural Network (CNN) 進行模型訓練。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3be3c373-2f16-4dd4-9149-a229fd6fbb7d",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "透過反覆調校參數，我們成功在模擬含有特洛伊木馬的資料集中，達到了 92% 的偵測準確度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb85bc63-7eff-4c88-bcb7-1c2cfbad1d87",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "在這個專案中，我深刻體會到側通道資訊的複雜性與其在安全性分析上的巨大潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "485a55b3-bf7a-4ae6-8842-080396099702",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "第一次意識到，即便是看似微小的功耗波動，背後都可能隱藏著惡意行為的蹤跡。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0594494-7c36-412a-a8d8-12053ce04f31",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "專案讓我熟練掌握了嵌入式裝置的低階操作、數據採集與分析技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27bf24c3-0812-4c27-8137-f29da0f41dd4",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "並學會了如何將機器學習應用於資安問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "205db816-e374-4d03-bc97-6add34bb3c38",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "在大三下的「嵌入式系統設計」課程專題中，我與組員共同完成了「基於 FreeRTOS 的智慧家居閘道器韌體開發」專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "419a40b3-d7b3-4469-986e-9392bd4e0d15",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "設計並實作一個能連接多種智慧感測器（如溫濕度、光照）的物聯網閘道器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ac5f5e4d-bb15-42b0-ae69-56ca85ee10e0",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "並透過韌體實現數據採集、本地處理與雲端通訊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7adb04bf-408f-448c-b6f9-d8a427dce994",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "負責 ESP32 微控制器 上的 FreeRTOS 即時作業系統 任務排程、感測器驅動程式開發以及 MQTT 協定通訊模組的實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07ce5e9b-22ca-47af-8e60-0dce6f027a77",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "利用 C/C++ 語言開發韌體，成功整合了 DHT11 溫濕度感測器與 BH1750 光照感測器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9030aa19-5b7c-49c4-93cd-9f84b2e40de6",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "並確保數據採集的即時性與穩定性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c918216a-d1ca-4a89-98b4-e3b7776ece59",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "設計了多個 FreeRTOS 任務，包括感測器數據讀取任務、數據處理任務和 MQTT 雲端上傳任務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "80826656-c4a5-4ece-ac58-d95e78571b90",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "並透過佇列（Queue）實現任務間的同步通訊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0100a625-01a7-4d1c-b0ae-42fb2f6224f1",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "實現了基於 TLS 的 MQTT 安全連線。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58d9bbea-1cb7-4e54-a1a7-05afdc4277ff",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "確保數據傳輸的機密性與完整性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6cbaf893-1a91-43b0-8755-f798bc05d219",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "這個專案讓我對即時作業系統的運作機制有了深入了解，尤其是在有限資源下進行多任務協調的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3f2a0ce-2070-4cee-b4c9-7372c9b8704f",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "我第一次體會到，在資源受限的嵌入式環境中，韌體設計的效率與穩定性對整體系統效能至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a17b9709-af60-4172-8db6-e6a16ae921b9",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "也意識到在 IoT 裝置上實作安全通訊的複雜性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e7c8e47a-8e51-4004-98d7-4715e73d73f1",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "我的求學與研究經歷，讓我對韌體安全、嵌入式系統設計以及硬體特洛伊防護領域充滿了探索的渴望。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "98b9be22-1b09-468f-a401-3ab028d004b8",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "國立交通大學資訊工程學系在這些領域的研究實力與豐沛資源，正是我追求更高學術目標的理想環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a44fb486-022e-49fb-adbb-a4418d130659",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "交大資工所不僅擁有多位在資訊安全、嵌入式系統及計算機結構方面享譽國際的教授。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0af0ce63-ecc3-4d89-9ecb-6c4de6faa907",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "其與產業的緊密連結及優良的學術氛圍，都讓我心嚮往之。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "06d2857c-f435-4571-a4ff-d26d3ebb70f1",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "我期望能進入交大資工所，在更具挑戰性的研究環境中，磨練我的專業技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f1d01be-6222-47a6-b929-22fba699ca12",
+      "candidate_id": "mock_20",
+      "section": "自傳",
+      "content": "並最終為韌體安全領域貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "36b67c0e-3bd7-46b2-bdc6-a0e689da6ded",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "進入國立交通大學資訊工程學系碩士班，我將以「韌體安全與硬體特洛伊防護」作為主要研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3d0630e-6712-4fbb-8fb9-66eb362beb76",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "並規劃以下短、中、長期目標，確保我能有效且深入地完成學業與研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "999d414f-0cfe-48e0-8060-5d676c513738",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "我將優先熟悉交大的研究環境、課程資源。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bda7cd60-5a07-4e84-a520-62e936188987",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "並積極融入實驗室文化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0e2c6093-be88-48a1-a370-7986870abf24",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "選修相關進階課程，例如：「進階計算機結構」、「作業系統核心設計」、「資訊安全專論」及「嵌入式系統安全」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8407b7d1-3341-4699-acec-14b316066c86",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "透過這些課程，深化我在底層系統、作業系統機制及資訊安全領域的理論知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4d72a8ab-ec87-44fd-bf85-56ec6bd62696",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "重新溫習 VHDL/Verilog 語言，並熟悉 FPGA 開發環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "52047515-222e-459f-bb21-c21d363b907c",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "為硬體層面的研究打下基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f4e4123d-a68f-455e-b5d0-46c227836a30",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "主動接觸對韌體安全、硬體安全或嵌入式系統研究有興趣的教授。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4d46d8cc-cc4a-486b-be27-ae3cbbbbed38",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室討論，尋找合適的指導教授與研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "83952d9e-fc7a-45cf-9831-daad1f43f245",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "我特別關注在側通道分析、信任根（Root of Trust）及韌體鑑識方面有深入研究的實驗室。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "451f94f4-4363-4026-b448-f8e6226fef20",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "大量閱讀相關領域的頂級會議論文（如 NDSS, USENIX Security, CHES, DATE）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "701b7175-9125-4dd2-965a-fb12a5d264fe",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "全面了解當前研究熱點、未解決的問題及主流解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f0326ff-3a23-4da0-a65d-c634f5c1475c",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "此階段將是確立論文主題並深入研究的關鍵時期。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0fc4dd36-fc98-4e59-80c0-106ce08c33e3",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "與指導教授討論後，確立碩士論文題目。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aaf1f584-5783-48da-a4aa-d17b91bebced",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "預計將圍繞「基於軟硬體協同設計的嵌入式系統韌體完整性驗證機制」或「利用機器學習技術提升硬體特洛伊木馬偵測的抗干擾能力」等方向展開。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c67dec5d-14a2-43bf-bc0c-cb2fe5f720cb",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "開始進行初步的系統設計與實驗環境建置。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "755ffdf1-a9be-43de-84f8-ff8e7bf5bdc8",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "在韌體完整性驗證方面，可能會利用 RISC-V 處理器平台 搭配可信執行環境（TEE）技術進行實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4349c100-e05a-4203-85da-0cb7e24d17c1",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "在硬體特洛伊偵測方面，則可能探索更為複雜的深度學習模型（如 Transformer-based 模型）來分析多模態側通道數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e391e45-1717-4227-a73b-3c10fead43b0",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "學習並應用 形式化驗證工具 (如 SPIN 或 TLA+) 於韌體邏輯的安全性分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "61b57f8e-68c3-4db5-82cf-5e1780afe877",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "以期提升韌體設計的嚴謹性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "726f6da2-ad11-4717-be9b-1cfac306dd62",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室內部報告與研討會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "93e8a3ea-5865-4060-a6f1-ed402caad492",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "定期分享研究進度與遇到的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b83a04f1-033e-4b74-91c8-7ffd94cac76b",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "從同儕與教授的回饋中學習與改進。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4551f104-b3c5-4b68-abef-9fa6d82ef4ff",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "爭取將初步研究成果撰寫成論文，投稿至國內或國際相關研討會（如全國資訊安全會議、VLSI Design/CAD Symposium）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "00c21cee-6de9-48b5-a696-08e35f72e0a0",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "我的最終目標是完成具有創新性與實用價值的碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "162976f1-f16b-4efb-a4be-44d14ab95940",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "並為未來的職涯發展奠定堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dde21057-2188-472c-a341-92a92fdac675",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "完善實驗設計、數據分析與結果驗證，高品質地完成碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d0d3cba-7625-447f-bab6-2457ed7a3b94",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "將研究成果整理並投稿至國際頂級會議或期刊（如 IEEE Transactions on Dependable and Secure Computing, DAC, ICCAD 等），力求發表。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "add5900f-2375-47ba-8126-52816b3a3dc3",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "培養獨立思考與解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2324dfc8-5b2c-44a6-bac0-4ca5f837a7c1",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "從發現問題、提出假設到驗證解決方案，形成一套完整的科研思維模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9c6f3f92-3866-45bf-bc1c-c4bd7300ec66",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "透過參與產學合作專案或實習，將學術研究與實際產業需求連結。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1bf4f99a-aba8-443e-8841-2606e77a33f4",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "了解嵌入式安全在業界的最新挑戰與應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07686b85-209e-43cb-b23f-7e11cb844a72",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "畢業後，期望能進入半導體設計、物聯網安全或先進製造等領域的 R&D 部門，從事韌體安全架構設計、硬體安全評估或威脅分析等工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb1df1e7-80e8-4d37-9b11-3ead45ebe485",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "為台灣的科技產業貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6c9f6a8-7a62-453d-9635-1a2964f78ff6",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "若研究過程激發更深厚的熱情，不排除攻讀博士學位，持續在嵌入式系統安全領域深耕。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd01c1f6-d624-434d-a5d6-34b0f13135aa",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "我深信，在交大資工所提供的優越環境中，我將能充分發揮我的潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3ea1f748-6d25-43b8-8459-e2a95ce57e9e",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "實現我的學術與職涯目標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "76830fc0-faa7-44cc-9dc4-8b50b5eff765",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "我已做好準備迎接挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "85848df4-0401-4a6a-bdc5-121334e89a91",
+      "candidate_id": "mock_20",
+      "section": "讀書計畫",
+      "content": "並期待能為貴所的研究社群帶來新的活力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

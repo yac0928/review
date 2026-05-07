@@ -1,0 +1,567 @@
+{
+  "candidate_id": "mock_81",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_81.md"
+  ],
+  "cleaned_text": "**自傳**\r\n\r\n大家好，我是曹家銘，目前就讀於元智大學軟體工程學系。從大學以來，我就對電腦科學領域充滿了興趣，特別是軟體開發這一塊。在我大學四年級的時候，我決定申請貴所，希望能進入更深層次的學習，精進我的能力。\r\n\r\n大學期間，我在軟體工程學系學習了蠻多東西，從程式設計的基礎到一些進階的演算法都有涉獵。不過，坦白說，我的學業成績並不是特別突出，修課平均大約落在 2.74 左右，這讓我知道自己還有很大的進步空間。雖然成績不是最好，但我總覺得實作和應用才是最重要的。我從這些經驗中學到，學術知識固然重要，但如何將它應用在實際問題上，才是真正有價值的部分。\r\n\r\n我覺得自己是一個蠻喜歡跨領域學習的人。在大學的某段時間，我參加了一個金融交易模擬競賽，那段經驗對我影響很大。原本我對金融交易沒什麼概念，但透過這個競賽，我發現原來可以用程式去模擬市場變化，甚至嘗試預測一些趨勢。這讓我很興奮，覺得把資訊技術跟其他領域結合起來，會有很不一樣的火花。這個競賽讓我開始思考，除了純粹的軟體開發，是不是能用電腦的能力去分析更多元的資料，例如影像等等。\r\n\r\n後來，我發現電腦視覺跟影像處理這個領域好像很有趣。它不只可以拿來辨識人臉，也可以分析圖表、甚至是市場資料的視覺呈現。這剛好跟我在金融交易模擬競賽中產生的興趣有了連結，我覺得如果能用影像處理的方式來分析金融圖表或市場數據，說不定能找到一些以前沒注意到的東西。因此，我在大學後期，就進入了我們系的智慧影像處理實驗室，跟著一位教授做了一些研究。在實驗室裡面，我主要是負責用程式去跑一些深度學習模型，處理一些影像辨識的任務。我們做的專案大概是關於某個特定場景的物件辨識，我花了很多時間收集資料、訓練模型，然後看模型跑出來的結果。過程中真的學到很多東西，也遇到不少困難，像是模型效果不如預期啦，或是資料準備不夠完善等等。那時候覺得做完一個專案真的不容易，有很多細節要顧，但這也培養了我解決問題的能力。雖然最終的成果可能沒有非常亮眼，但整個過程對我來說獲益良多，也讓我對電腦視覺有了更深的理解和興趣。\r\n\r\n這些經歷都讓我深深體會到，資訊科技不應該只侷限在單一領域，它有潛力去改變很多事情。我對交大資工所仰慕已久，知道貴所在電腦視覺和人工智慧領域有很卓越的成就，也看到很多老師的研究方向都非常吸引我。特別是貴所的教授們在影像分析與深度學習上的研究成果，讓我覺得這正是我未來想要投入的方向。我希望能進入一個資源豐富、學術氛圍濃厚的環境，繼續我的學習旅程，也希望能在跨域應用上，探索出更多可能性。\r\n\r\n---\r\n\r\n**讀書計畫**\r\n\r\n我很榮幸能有機會申請交通大學資訊工程學系碩士班。基於我在元智大學軟體工程學系的學習背景，以及在電腦視覺和金融交易模擬競賽中的經驗，我對人工智慧特別是電腦視覺與影像處理在跨域應用，尤其是金融領域的潛力充滿期待。\r\n\r\n如果能順利進入貴所，我會非常努力地規劃我的碩士生涯：\r\n\r\n**短期目標（入學第一年）**\r\n\r\n在碩士班的第一年，我會把重心放在打穩基礎，並盡快適應研究所的學習步調。我會認真修習貴所開設的相關核心課程，例如進階演算法、深度學習、高等影像處理等，補強我大學期間可能沒那麼深入的地方。雖然我的學業成績不是非常高，但這也讓我意識到紮實的理論基礎有多重要，所以我會非常努力去學習。同時，我也會積極參與實驗室的專題討論，多聽聽其他學長姐的研究分享，希望能從中找到自己更明確的研究方向。我會努力去瞭解各個老師的研究領域，特別是那些專注於電腦視覺、影像處理，或是將這些技術應用到其他領域的老師。我希望能盡快找到一位指導教授，並開始參與實驗室的專案。\r\n\r\n**中期目標（入學第二年）**\r\n\r\n進入第二年後，在累積了足夠的基礎知識和實驗室經驗後，我會更專注於我的碩士論文研究。我希望能將我在大學期間對金融交易和電腦視覺的興趣結合起來，例如探索如何利用深度學習分析金融數據的視覺呈現，或者從影像資訊中提取對市場有用的情報。雖然這是一個比較新的想法，但我相信這會是一個很有意思的方向。我會跟隨指導教授的指導，訂定具體的研究計畫，並著手進行實驗與數據分析。過程中，我會學習如何寫論文，學習如何清晰地表達自己的研究成果。我希望能在這一年內，做出一些有價值的成果，並且將這些成果發表出來，對學術界或業界能有一點點貢獻。\r\n\r\n**長期目標（畢業後）**\r\n\r\n畢業後，我希望能成為一名在人工智慧或電腦視覺領域有所專長的人才。我期望能進入業界，將我在研究所學到的知識和技能應用到實際的產品開發或問題解決上，特別是那些需要跨領域整合的挑戰。當然，如果未來有機會，我也希望能夠繼續深造，攻讀博士學位，持續在學術界探索更深奧的知識。我相信在交大資工所的兩年學習，將會為我未來的職涯發展奠定一個非常堅實的基礎，讓我能夠在這個快速變化的世界中，持續學習和成長。我非常期待能夠成為交大的一份子，貢獻我的熱情與努力。",
+  "idea_units": [
+    {
+      "id": "3fc3f2d8-735e-4867-bd38-a05f065ab0ab",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "大家好，我是曹家銘，目前就讀於元智大學軟體工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dfa05e34-1d97-4f77-b404-671f9e9d65d4",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "從大學以來，我就對電腦科學領域充滿了興趣，特別是軟體開發這一塊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "245770f3-f48f-4371-9b1e-6b35dd99101e",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "在我大學四年級的時候，我決定申請貴所。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c1dc7b8f-6db2-4596-b0e6-90a6ce496853",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "希望能進入更深層次的學習，精進我的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "56b2488f-8732-442b-91ed-2c6067c76b2a",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "大學期間，我在軟體工程學系學習了蠻多東西，從程式設計的基礎到一些進階的演算法都有涉獵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b6674652-ebae-4c9a-b483-ab768a2a2dea",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "不過，坦白說，我的學業成績並不是特別突出，修課平均大約落在 2.74 左右。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "530bf0d2-c78e-463b-a78f-773ab0ebba6f",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "這讓我知道自己還有很大的進步空間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c78e822f-30ab-4349-8f73-99737d1a94e1",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "但我總覺得實作和應用才是最重要的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eaf9b74e-dcf5-43a9-8732-0d71cfbd0f23",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "我從這些經驗中學到，學術知識固然重要，但如何將它應用在實際問題上，才是真正有價值的部分。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4274f26e-0012-4a06-a1c0-a0ee60b6477e",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "我覺得自己是一個蠻喜歡跨領域學習的人。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38411135-089f-42e9-8c87-346984f91292",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "在大學的某段時間，我參加了一個金融交易模擬競賽。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "accddd04-880a-4ee1-8f2b-7b6e9a3824ed",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "那段經驗對我影響很大。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9e366be4-d998-4e40-b044-0b07e32948b0",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "原本我對金融交易沒什麼概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd4ea359-587a-4629-b9e1-7f92eef5db7b",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "但透過這個競賽，我發現原來可以用程式去模擬市場變化，甚至嘗試預測一些趨勢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "93270da4-1374-434c-ad83-66b14a994ee7",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "這讓我很興奮，覺得把資訊技術跟其他領域結合起來，會有很不一樣的火花。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a08baf21-bded-4bd7-91d7-a6e7d3f03157",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "這個競賽讓我開始思考，除了純粹的軟體開發，是不是能用電腦的能力去分析更多元的資料，例如影像等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d7787d3d-635c-404b-8afa-bec38096e755",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "後來，我發現電腦視覺跟影像處理這個領域好像很有趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "11954113-a291-4619-ae74-eb772bbe84aa",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "它不只可以拿來辨識人臉，也可以分析圖表、甚至是市場資料的視覺呈現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ceefcbe2-d423-453f-a81e-5ea119c76f3b",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "這剛好跟我在金融交易模擬競賽中產生的興趣有了連結。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e5799d99-641b-4a61-a2fd-997bc77acbd3",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "我覺得如果能用影像處理的方式來分析金融圖表或市場數據，說不定能找到一些以前沒注意到的東西。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8705a299-0f09-458e-b951-1ed9d572c5e4",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "因此，我在大學後期，就進入了我們系的智慧影像處理實驗室，跟著一位教授做了一些研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "79caa351-106d-4ec8-ab14-0e47dd69205e",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "在實驗室裡面，我主要是負責用程式去跑一些深度學習模型，處理一些影像辨識的任務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd15afd7-c736-465b-8035-2440a6e74d19",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "我們做的專案大概是關於某個特定場景的物件辨識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c0a26e9c-ecc7-4ffa-a152-c9eef8d7dd12",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "我花了很多時間收集資料、訓練模型，然後看模型跑出來的結果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6320ce50-f386-4ddd-a717-b49a45e5a76a",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "過程中真的學到很多東西。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "36905f7a-d095-4b61-84b1-35f836d89e46",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "也遇到不少困難，像是模型效果不如預期啦，或是資料準備不夠完善等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dacd009b-36d2-49b9-be3f-7edb75cc6a8b",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "那時候覺得做完一個專案真的不容易，有很多細節要顧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4233d8bd-dec0-4b60-87c7-5b70a191c740",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "但這也培養了我解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6fb3d4d-c3a3-4570-9816-b31f4c50fba6",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "雖然最終的成果可能沒有非常亮眼。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f25695f6-1965-4f33-91f0-ce02f05c3d75",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "但整個過程對我來說獲益良多，也讓我對電腦視覺有了更深的理解和興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "54207878-b428-466e-9901-0587496a4c39",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "這些經歷都讓我深深體會到，資訊科技不應該只侷限在單一領域，它有潛力去改變很多事情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f92e455-f1ad-4daf-a4d8-b8e3155d365c",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "我對交大資工所仰慕已久，知道貴所在電腦視覺和人工智慧領域有很卓越的成就。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb3350bc-3aa4-4d91-bec7-739d70b03596",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "也看到很多老師的研究方向都非常吸引我。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b3a43397-ae08-4b4e-ba34-edbe4796fa95",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "特別是貴所的教授們在影像分析與深度學習上的研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1fa0cb2a-4559-4d4c-9ce4-c94e4a042cec",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "讓我覺得這正是我未來想要投入的方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1402d521-3225-4b44-896f-5c39308bfa69",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "我希望能進入一個資源豐富、學術氛圍濃厚的環境，繼續我的學習旅程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e21c7889-3dcd-45f3-a3d0-32c398b8d6bd",
+      "candidate_id": "mock_81",
+      "section": "自傳",
+      "content": "也希望能在跨域應用上，探索出更多可能性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c4527af-7ee3-4c08-ba3d-0ef1a61ee3dd",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我很榮幸能有機會申請交通大學資訊工程學系碩士班。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa529aba-7e20-452e-b271-22f7474fbdf9",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "基於我在元智大學軟體工程學系的學習背景，以及在電腦視覺和金融交易模擬競賽中的經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db243f1a-cee7-4155-aff4-bf058d267bbf",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我對人工智慧特別是電腦視覺與影像處理在跨域應用，尤其是金融領域的潛力充滿期待。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3920b759-625d-4ff3-a25d-74e71c708681",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "如果能順利進入貴所，我會非常努力地規劃我的碩士生涯。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0df0b591-8d05-4e42-b899-5209fac06391",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "在碩士班的第一年，我會把重心放在打穩基礎，並盡快適應研究所的學習步調。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "af6f902f-72e3-4cde-8165-3aa4ef63d4a6",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我會認真修習貴所開設的相關核心課程，例如進階演算法、深度學習、高等影像處理等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "79db1ae4-433f-4f39-a436-1ce7714de333",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "補強我大學期間可能沒那麼深入的地方。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "55254107-5d0e-46be-ab93-f52683bfe733",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "雖然我的學業成績不是非常高。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eca34089-4930-4ba9-b230-24642056904b",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "但這也讓我意識到紮實的理論基礎有多重要，所以我會非常努力去學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5564dea5-d2c2-48ac-9ff4-bc0f1dd0c8b4",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "同時，我也會積極參與實驗室的專題討論，多聽聽其他學長姐的研究分享。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ba7c7e9-7dd0-4c40-9c1b-e1fc3dcf8d7a",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "希望能從中找到自己更明確的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "961a6cb3-8648-4c31-9b63-36e6c0eb3368",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我會努力去瞭解各個老師的研究領域，特別是那些專注於電腦視覺、影像處理，或是將這些技術應用到其他領域的老師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "48a1e858-92de-48ec-aee7-7cb6b3bdac35",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我希望能盡快找到一位指導教授，並開始參與實驗室的專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9c6c9059-d4ba-438d-b700-a8371e5dc14b",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "進入第二年後，在累積了足夠的基礎知識和實驗室經驗後，我會更專注於我的碩士論文研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cbaadade-d372-4c53-badd-d573ff010c0b",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我希望能將我在大學期間對金融交易和電腦視覺的興趣結合起來，例如探索如何利用深度學習分析金融數據的視覺呈現，或者從影像資訊中提取對市場有用的情報。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "53d071aa-c7ff-4e49-b0ec-5d2802223791",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "雖然這是一個比較新的想法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "422f9e15-e3c8-4b1f-8548-9d1784408a27",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "但我相信這會是一個很有意思的方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fecaa5c9-500b-4676-9795-b7999923a667",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我會跟隨指導教授的指導，訂定具體的研究計畫，並著手進行實驗與數據分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32101fe8-4f3a-499f-ba5d-43dcfb24b379",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "過程中，我會學習如何寫論文，學習如何清晰地表達自己的研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c62d204b-bd42-4a29-9802-11ced89fe02d",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我希望能在這一年內，做出一些有價值的成果，並且將這些成果發表出來，對學術界或業界能有一點點貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "deba9885-764e-406d-bdec-55f16b9d708e",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "畢業後，我希望能成為一名在人工智慧或電腦視覺領域有所專長的人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "796cba4f-6c44-44ac-9722-7eeb8e8d570f",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我期望能進入業界，將我在研究所學到的知識和技能應用到實際的產品開發或問題解決上，特別是那些需要跨領域整合的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "290131a0-e0c0-4dbd-87e1-ef353e23c070",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "當然，如果未來有機會，我也希望能夠繼續深造，攻讀博士學位，持續在學術界探索更深奧的知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e45ff414-e9a5-4140-84ed-83506e291a39",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我相信在交大資工所的兩年學習，將會為我未來的職涯發展奠定一個非常堅實的基礎，讓我能夠在這個快速變化的世界中，持續學習和成長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "182884b5-8ee8-4333-8c2d-f76143a89c31",
+      "candidate_id": "mock_81",
+      "section": "讀書計畫",
+      "content": "我非常期待能夠成為交大的一份子，貢獻我的熱情與努力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

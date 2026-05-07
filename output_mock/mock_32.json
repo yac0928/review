@@ -1,0 +1,540 @@
+{
+  "candidate_id": "mock_32",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_32.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n我的名字是董宥彤，來自國立臺灣大學資訊工程學系。從小便對電腦軟體和系統運作原理充滿好奇，這份熱情驅使我在大學期間深入探索資訊工程的奧秘，特別是對底層系統架構與分散式運算深感興趣。在台大資工系的扎實訓練下，我的學業成績表現優異，修課平均達 4.21/4.3，這不僅反映了我對學術的投入，也證明了我在學習新知與解決問題上的能力。\r\n\r\n### 學術與技術成長歷程\r\n\r\n在大學四年中，我積極修習多門核心課程，為我的軟體技術奠定堅實基礎。\r\n\r\n- **核心課程學習與實作**\r\n - 我在「作業系統」課程中，深入理解了行程管理、記憶體管理及檔案系統等核心概念，並在期末專案中與組員共同完成一個簡化版的記憶體配置器，讓我們對系統資源分配有了更具體的認識。\r\n - 「分散式系統」則讓我了解到跨網路節點協同工作的複雜性與挑戰，學習了如兩階段提交、容錯機制等關鍵技術，並以 Java 實作了簡單的訊息佇列系統。\r\n - 此外，我也修習了「計算機組織」、「資料結構與演算法」等課程，這些都為我在軟體開發與系統設計上提供了不可或缺的知識背景。\r\n\r\n### 研究經驗與技術實踐\r\n\r\n為了將課堂所學應用於實務，我在大三下學期加入了系上「高效能系統實驗室」，在陳教授的指導下，參與了分散式系統相關的研究專案。\r\n\r\n- **分散式任務排程優化研究**\r\n - **專案主題**：針對邊緣運算環境下的分散式任務排程進行優化，以降低延遲並提升資源利用率。\r\n - **技術應用**：我主要負責開發與測試排程演算法，使用 **GoLang** 進行後端服務的開發，利用其輕量級協程 (goroutine) 特性處理高併發任務。透過 **Prometheus** 監控系統效能指標，並利用 **Grafana** 進行視覺化分析。\r\n - **挑戰與解決**：在專案初期，我們發現任務在跨節點分配時常因網路延遲導致執行效率不彰。為此，我參與設計並實作了一套基於「一致性哈希」的任務分配策略，有效減少了資料搬移與通訊開銷。這個過程讓我理解到分散式系統中效能瓶頸往往錯綜複雜，需要細緻的資料分析與演算法調整。\r\n - **心得體會**：這段研究經驗不僅讓我的程式設計能力更上一層樓，也培養了我在複雜系統中進行問題定位與解決的思維模式。透過實際操作，我更深刻地體會到理論知識如何轉化為解決實際問題的有效方案，並從中學習到許多關於系統穩定性與擴展性的重要觀念。\r\n\r\n### 跨領域興趣與個人特質\r\n\r\n在資訊工程的專業學習之餘，我還有一個獨特的愛好：獨立電影製作。\r\n\r\n- **獨立電影製作的啟發**\r\n - 從劇本發想到拍攝、剪輯，我曾參與過幾部短片的製作。這項興趣看似與資工領域不相關，但它卻意外地培養了我多方面的能力，包括創意發想、專案管理、團隊協作，以及在有限資源下達成目標的應變能力。\r\n - 例如，在影片剪輯過程中，我需要掌握不同軟體的特性並有效運用，這與撰寫程式碼解決問題有異曲同工之妙。獨立電影製作也讓我學會以不同的視角觀察世界，並從宏觀與微觀兩個層面進行思考，我相信這對未來在研究領域面對複雜問題時將有所助益。\r\n\r\n### 申請動機\r\n\r\n我選擇交通大學資訊工程學系研究所作為我深造的目標，原因有三。首先，貴所的「系統與網路」組在作業系統、分散式系統與即時系統領域有著卓越的學術聲譽與深厚的師資陣容，這與我大學時期的研究興趣高度契合。特別是貴所多位教授在「雲端計算資源管理」與「高效能系統」上的前瞻研究，令我深受啟發。其次，交大資工所與業界的緊密連結，以及豐富的產學合作機會，提供了一個理論與實務並重的學習環境，這對我未來發展有著極大的吸引力。\r\n\r\n我渴望能在貴所繼續探索分散式系統的奧秘，特別是針對邊緣運算環境下的資源調度與安全性議題。我相信我的技術背景、研究經驗，以及跨領域的思考能力，能讓我更好地融入貴所的研究氛圍，並為相關領域貢獻一份心力。\r\n\r\n## 讀書計畫\r\n\r\n我期望在交通大學資訊工程學系研究所的兩年學習期間，能持續精進我在系統軟體與分散式運算領域的專業知識與研究能力，並將獨立電影製作所培養的創意與解決問題能力，應用於更具挑戰性的研究主題。\r\n\r\n### 短期計畫（入學前至入學第一學年）\r\n\r\n在入學前與第一學年，我將著重於基礎知識的複習與加深，並逐步建立研究方向。\r\n\r\n- **入學前準備**\r\n - **複習與強化**：溫習作業系統、分散式系統的經典論文與教科書內容，尤其關注一致性、容錯性、排程等核心議題。\r\n - **程式語言精進**：加強 C++ 與 GoLang 的高階使用技巧，特別是在並行與網路程式設計方面的實作能力。\r\n - **初步文獻探討**：瀏覽交大資工所教授在系統與網路領域的近期論文，尤其是與邊緣運算、雲原生技術、即時系統相關的研究，縮小未來研究方向。\r\n- **入學第一學年**\r\n - **課程修習**：積極選修與研究方向相關的課程，例如「高等作業系統」、「分散式演算法」、「雲端計算」、「容器化技術與實作」等。這些課程將為我打下更堅實的理論基礎。\r\n - **實驗室參與**：主動參與實驗室專題討論會，了解不同研究計畫的進展，並積極參與其中，希望能盡早投入研究，並找到我的指導教授。\r\n - **技術實作**：開始嘗試實作一些開源的系統組件或工具，例如基於 Kubernetes 的自動化部署工具，或是開發一個模擬分散式任務排程的平台，將理論知識轉化為實際應用。\r\n\r\n### 中期計畫（入學第二學年）\r\n\r\n第二學年將是碩士研究的核心階段，我將專注於論文主題的深入研究與成果發表。\r\n\r\n- **確立研究主題與論文寫作**\r\n - **深入研究**：在指導教授的帶領下，鎖定具體的研究主題，例如「異構邊緣運算環境下的即時任務排程優化」，或「基於區塊鏈的分散式系統安全與資料一致性探討」。\r\n - **實驗設計與實作**：設計並實作實驗原型，進行詳細的性能評估與分析。運用如 Docker、Kubernetes 等容器化技術，搭建測試環境。\r\n - **撰寫論文**：根據實驗結果與分析，逐步撰寫碩士論文，並持續與指導教授討論、修正。\r\n - **學術發表**：爭取將研究成果投稿至國內外重要學術會議或期刊，提升我的研究視野與學術影響力。\r\n- **研討會與交流**\r\n - 積極參與校內外學術研討會、工作坊，擴展人脈，並與其他研究人員交流學習，了解最新的研究趨勢。\r\n\r\n### 長期計畫（畢業後）\r\n\r\n畢業後，我希望將所學應用於產業或進一步深造。\r\n\r\n- **投入產業研發**：我的目標是進入大型科技公司的系統架構、雲端服務或分散式系統研發團隊，從事與高效能、高可靠性系統相關的技術開發工作，將研究成果轉化為實際產品。\r\n- **考慮博士班深造**：若在碩士期間，我對特定研究領域產生更濃厚的研究興趣，並期望能為學術界做出更大的貢獻，我會積極考慮申請博士班，繼續在相關領域進行更深入的探索與研究。我相信不論是進入業界還是學術界，交大資工所的訓練都能為我提供紮實的基礎和廣闊的發展空間。",
+  "idea_units": [
+    {
+      "id": "5b72358d-d25d-404d-9809-7df05e489dbc",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我的名字是董宥彤，來自國立臺灣大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bc936a96-5a2d-42cd-9c34-f776b62b1c80",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "從小便對電腦軟體和系統運作原理充滿好奇。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "76c46e12-40f0-44ac-9352-ff13a3034e4e",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這份熱情驅使我在大學期間深入探索資訊工程的奧秘，特別是對底層系統架構與分散式運算深感興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8053536c-b19f-441a-bf2e-68891241225e",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "在台大資工系的扎實訓練下，我的學業成績表現優異，修課平均達 4.21/4.3。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1e3eddb5-638a-4fe9-aad0-9f45d750739f",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這不僅反映了我對學術的投入，也證明了我在學習新知與解決問題上的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "74bd6825-e9b5-407b-a1e9-66160d21efec",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "在大學四年中，我積極修習多門核心課程，為我的軟體技術奠定堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb1f71bc-c98e-43da-b295-afd517cde2e9",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我在「作業系統」課程中，深入理解了行程管理、記憶體管理及檔案系統等核心概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7180ddf2-47eb-496f-a6cc-65ccd776294e",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "並在期末專案中與組員共同完成一個簡化版的記憶體配置器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "701b1bdd-4201-4368-8ad3-68832e40ab93",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "讓我們對系統資源分配有了更具體的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4f022a55-5bbc-4469-b34a-22fb6f8bc45c",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "「分散式系統」則讓我了解到跨網路節點協同工作的複雜性與挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2a1d2ddc-f19f-495e-b133-a04f2167526c",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "學習了如兩階段提交、容錯機制等關鍵技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fdef691a-929e-4839-91e1-f53e35fcbeb5",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "並以 Java 實作了簡單的訊息佇列系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ca057bbe-916e-4e23-a2cc-cd63d6c9e5e3",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "此外，我也修習了「計算機組織」、「資料結構與演算法」等課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "231f5be1-475e-47a7-b8b2-aa0e4034e8f2",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這些都為我在軟體開發與系統設計上提供了不可或缺的知識背景。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2318da73-2615-4eb6-b08d-d7c24e01e92a",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "為了將課堂所學應用於實務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a0651b97-c1dc-4c4e-8633-f6fb26c98174",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我在大三下學期加入了系上「高效能系統實驗室」，在陳教授的指導下，參與了分散式系統相關的研究專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "203374a5-5a01-49ec-95bd-636a491baef2",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "針對邊緣運算環境下的分散式任務排程進行優化，以降低延遲並提升資源利用率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4955c42f-85d7-4b1a-a1f5-a7bc9ee6d28d",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我主要負責開發與測試排程演算法，使用 **GoLang** 進行後端服務的開發，利用其輕量級協程 (goroutine) 特性處理高併發任務。透過 **Prometheus** 監控系統效能指標，並利用 **Grafana** 進行視覺化分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9cfa2b6a-9714-4d1c-afae-01c54ce497ac",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "在專案初期，我們發現任務在跨節點分配時常因網路延遲導致執行效率不彰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2a6a1c98-2dc1-40b3-86df-6d5392b6ed24",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "為此，我參與設計並實作了一套基於「一致性哈希」的任務分配策略，有效減少了資料搬移與通訊開銷。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "314621a5-8a98-4d10-be1a-1a81f40b7cda",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這個過程讓我理解到分散式系統中效能瓶頸往往錯綜複雜，需要細緻的資料分析與演算法調整。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7ee1e231-382e-4e00-909a-9d17447bf61c",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這段研究經驗不僅讓我的程式設計能力更上一層樓，也培養了我在複雜系統中進行問題定位與解決的思維模式。透過實際操作，我更深刻地體會到理論知識如何轉化為解決實際問題的有效方案，並從中學習到許多關於系統穩定性與擴展性的重要觀念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "91a89422-14e3-4b94-89e9-88c6b014fb73",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "在資訊工程的專業學習之餘，我還有一個獨特的愛好：獨立電影製作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "33e791aa-db3e-4871-bc0a-b96119750f3e",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "從劇本發想到拍攝、剪輯，我曾參與過幾部短片的製作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8cc0bdcf-a220-4631-81e2-20afcdf2166a",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這項興趣看似與資工領域不相關，但它卻意外地培養了我多方面的能力，包括創意發想、專案管理、團隊協作，以及在有限資源下達成目標的應變能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1624a508-9cfe-4373-b577-b4cb0afb4546",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "例如，在影片剪輯過程中，我需要掌握不同軟體的特性並有效運用，這與撰寫程式碼解決問題有異曲同工之妙。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a1f06428-2f14-433b-8d78-f607dee52224",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "獨立電影製作也讓我學會以不同的視角觀察世界，並從宏觀與微觀兩個層面進行思考。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "907f68ef-87d2-4b0f-8d7f-df0b5c77cfcf",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我相信這對未來在研究領域面對複雜問題時將有所助益。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "007184c6-a82d-4b18-a603-223a8bab565a",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我選擇交通大學資訊工程學系研究所作為我深造的目標，原因有三。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "506e473e-ed80-4316-b941-88e70f65637a",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "首先，貴所的「系統與網路」組在作業系統、分散式系統與即時系統領域有著卓越的學術聲譽與深厚的師資陣容。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb0ad4f9-7bbb-4267-9b0f-0f82c10be628",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這與我大學時期的研究興趣高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7c001cd6-5ba5-4c01-8d10-1fe16362f817",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "特別是貴所多位教授在「雲端計算資源管理」與「高效能系統」上的前瞻研究，令我深受啟發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "14d64954-c9d1-4f5d-82f6-13fd6a2ecb04",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "其次，交大資工所與業界的緊密連結，以及豐富的產學合作機會，提供了一個理論與實務並重的學習環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb2f46d2-1569-456a-b905-4e8c3afd2bb1",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "這對我未來發展有著極大的吸引力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f38faadc-14bb-447f-b90d-d3da42cf215d",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我渴望能在貴所繼續探索分散式系統的奧秘，特別是針對邊緣運算環境下的資源調度與安全性議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e8aa3446-30e8-48b7-a5c3-cf20da4503e0",
+      "candidate_id": "mock_32",
+      "section": "自傳",
+      "content": "我相信我的技術背景、研究經驗，以及跨領域的思考能力，能讓我更好地融入貴所的研究氛圍，並為相關領域貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cc1d3028-2d71-4111-9544-fdf9a8a031ac",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我期望在交通大學資訊工程學系研究所的兩年學習期間，能持續精進我在系統軟體與分散式運算領域的專業知識與研究能力，並將獨立電影製作所培養的創意與解決問題能力，應用於更具挑戰性的研究主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "421eeae7-b222-4bf0-ab1f-5b702038a5da",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "在入學前與第一學年，我將著重於基礎知識的複習與加深，並逐步建立研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a3f63bbd-56bd-4e32-851d-4a51f6287cfb",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "溫習作業系統、分散式系統的經典論文與教科書內容，尤其關注一致性、容錯性、排程等核心議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ff7d5c76-22c6-4a1b-9795-a18adf94b224",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "加強 C++ 與 GoLang 的高階使用技巧，特別是在並行與網路程式設計方面的實作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5522e897-c5d8-46fc-af6f-a4648e7c8d7d",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "瀏覽交大資工所教授在系統與網路領域的近期論文，尤其是與邊緣運算、雲原生技術、即時系統相關的研究，縮小未來研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "91a21f6f-379e-4f87-bf15-de7825d1e08a",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "積極選修與研究方向相關的課程，例如「高等作業系統」、「分散式演算法」、「雲端計算」、「容器化技術與實作」等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "719423c9-296c-4fb4-ad42-7d8cc675c8d1",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "這些課程將為我打下更堅實的理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "592e1b65-6f46-4692-91c9-8d7badc4a1ee",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "主動參與實驗室專題討論會，了解不同研究計畫的進展，並積極參與其中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f734bedb-3019-479d-8794-18b0e9d83d9d",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "希望能盡早投入研究，並找到我的指導教授。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4ca1a0d2-b4d0-4600-8a1b-cb6e22421de8",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "開始嘗試實作一些開源的系統組件或工具，例如基於 Kubernetes 的自動化部署工具，或是開發一個模擬分散式任務排程的平台。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9d74f1cf-a1d3-41de-8793-339565dbdc8d",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "將理論知識轉化為實際應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3ff8907a-5024-4cce-a364-b0ce1ffdabf6",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "第二學年將是碩士研究的核心階段，我將專注於論文主題的深入研究與成果發表。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a7da4af4-7856-494c-92f2-e81f407e78e1",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "在指導教授的帶領下，鎖定具體的研究主題，例如「異構邊緣運算環境下的即時任務排程優化」，或「基於區塊鏈的分散式系統安全與資料一致性探討」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "970751f8-d0f7-4c48-9002-652e6ab39298",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "設計並實作實驗原型，進行詳細的性能評估與分析。運用如 Docker、Kubernetes 等容器化技術，搭建測試環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "53a455ef-40ff-4c45-bd62-77afb0f3437b",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "根據實驗結果與分析，逐步撰寫碩士論文，並持續與指導教授討論、修正。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a5aa477e-ae38-4c7b-b4b7-9244cd462e0f",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "爭取將研究成果投稿至國內外重要學術會議或期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd0bd561-8437-44b7-bdd0-a6a41b81210c",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "提升我的研究視野與學術影響力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d406643c-7c27-4b36-ba59-e67ef97555da",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "積極參與校內外學術研討會、工作坊，擴展人脈，並與其他研究人員交流學習，了解最新的研究趨勢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "67f0ca06-8dbb-4988-9db0-817f097b3413",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "畢業後，我希望將所學應用於產業或進一步深造。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1a01c2ca-a954-437e-ba90-75c98af980a5",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我的目標是進入大型科技公司的系統架構、雲端服務或分散式系統研發團隊，從事與高效能、高可靠性系統相關的技術開發工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e01dfe62-d533-4403-aef4-c78520cc8be0",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "將研究成果轉化為實際產品。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ad80019d-a485-4637-8a62-43c85c34a04d",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "若在碩士期間，我對特定研究領域產生更濃厚的研究興趣，並期望能為學術界做出更大的貢獻，我會積極考慮申請博士班，繼續在相關領域進行更深入的探索與研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "122baced-e2b9-4aee-a5ae-222b12f1eda5",
+      "candidate_id": "mock_32",
+      "section": "讀書計畫",
+      "content": "我相信不論是進入業界還是學術界，交大資工所的訓練都能為我提供紮實的基礎和廣闊的發展空間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

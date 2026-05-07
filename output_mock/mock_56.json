@@ -1,0 +1,612 @@
+{
+  "candidate_id": "mock_56",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_56.md"
+  ],
+  "cleaned_text": "鄭承佑\r\n國立臺北科技大學資訊工程系\r\n申請交大資工所\r\n\r\n---\r\n\r\n## 自傳\r\n\r\n親愛的審查委員：\r\n\r\n我是鄭承佑，來自國立臺北科技大學資訊工程系。我深信資訊工程是推動社會進步的關鍵力量，而其中自然語言處理（Natural Language Processing, NLP）與語意理解領域，不僅展現了人工智慧的巨大潛力，更觸及了人類溝通與思維的深層奧秘，這讓我對其產生了無比的熱情。申請貴所，是希望能在一流的學術環境中，深化我對NLP技術的理解，特別是在AI倫理框架下，探索更負責任且高效的語意智慧應用。\r\n\r\n## 學術背景與技術成長歷程\r\n\r\n我在北科資工系的學習旅程，雖然我的學業成績（修課平均 2.87）在初期未能盡如人意，但在後續的專題與研究實作中，我找到了真正熱愛的領域，並投入了比課堂學習更多的時間與精力，透過實際解決問題來深化理解。我將所學融會貫通於多項技術專案中，致力於培養紮實的軟體開發能力與研究思維。\r\n\r\n- **自然語言處理專題：中文政治文本情緒與議題探測系統**\r\n * **時間：** 111學年度下學期至112學年度上學期\r\n * **地點：** 「語意智能研究室」\r\n * **內容：** 在研究室指導下，我負責開發一套能夠自動分析中文政治新聞與社群媒體文本，並探測其情緒極性（正向、負向、中立）與核心議題的系統。\r\n * **技術細節：**\r\n * 使用 Python 進行網路爬蟲獲取公開文本資料，並導入 `jieba` 進行中文斷詞處理。\r\n * 以 PyTorch 框架，利用 Hugging Face Transformers 函式庫，微調了 BERT-base-chinese 預訓練模型進行文本分類任務。\r\n * 為解決特定政治領域資料標註成本高、小樣本問題，嘗試導入資料增強技術（如 Synonym Replacement, EDA）與遷移學習策略。\r\n * **成果與反思：** 經過模型迭代與參數優化，系統在自行建立的政治文本資料集上，F1-score 達到了 0.82。這次專題讓我第一次體會到中文語意的複雜性與預訓練模型在特定領域微調的巨大潛力，也意識到資料品質對模型效能的決定性影響。\r\n\r\n- **自學開發專案：社群媒體假訊息之倫理風險評估原型系統**\r\n * **時間：** 112年暑假\r\n * **內容：** 基於對AI倫理的關注，我與兩位同學自發合作，開發了一個用於評估社群媒體假訊息潛在倫理風險的原型系統。這個系統旨在從資訊透明度、偏見風險和社群影響等角度，提供初步的倫理評估。\r\n * **技術細節：**\r\n * 利用 `spaCy` 進行關鍵詞提取與命名實體識別，並結合 TF-IDF 算法評估文本中特定詞彙的重要性。\r\n * 設計一套基於預設倫理準則（如：「是否包含煽動性語言」、「資訊來源是否不明確」、「是否可能引發群體對立」）的評分機制，對假訊息內容進行量化分析。\r\n * 遇到最大的挑戰是如何將抽象的「倫理原則」轉化為可量化的技術指標，以及如何識別模型自身可能帶有的偏見源頭。\r\n * **成果與反思：** 儘管仍為原型階段，該系統已能初步標示出具有高倫理風險的文本段落。這次經驗讓我深刻認識到AI技術在應用層面的巨大潛力與隨之而來的社會責任，促使我更積極地思考如何將AI倫理融入技術開發的每一個環節。\r\n\r\n## 跨領域亮點：AI倫理讀書會發起人\r\n\r\n在111學年度上學期，我發起了「AI倫理讀書會」，匯集了系上與外系對此議題感興趣的十餘位同學。我們每雙週舉行一次討論，旨在探討人工智慧發展過程中的倫理挑戰與社會影響。\r\n\r\n- **活動內容：**\r\n * 共同閱讀並討論相關學術論文（如關於演算法偏見、數據隱私權、AI公平性等主題）。\r\n * 分析實務案例，例如臉部辨識技術的隱私爭議、大型語言模型可能產生的不當言論等。\r\n * 觀看並討論與AI倫理相關的紀錄片，如《Coded Bias》。\r\n- **影響與學習：**\r\n * 透過讀書會，我培養了批判性思維與跨領域溝通的能力，學會從技術、法律、社會等多重角度審視AI議題。\r\n * 深化了我對負責任AI開發的理解，堅定了我將技術能力與倫理考量相結合的志向，尤其是在NLP與語意理解領域，如何確保模型在處理語言時不帶有歧視或偏見。\r\n\r\n## 申請動機與未來展望\r\n\r\n交大資工所一直是我心中的學術殿堂，貴所不僅在資訊工程領域具有卓越聲譽，更在自然語言處理與機器學習方面有深厚的學術積累與領先的研究成果。我特別嚮往貴所「智慧計算組」中，在語意理解與可解釋性AI領域的相關研究。我渴望能在貴所優異的師資與豐富的資源支持下，精進我的NLP技術，並將AI倫理的思維融入未來的研究中。\r\n\r\n我期待能將我在語意分析與AI倫理上的興趣與經驗，貢獻於貴所的研究團隊，共同探索開發出更具智慧、更公平且更值得信賴的AI系統。我相信我的技術熱情、實作經驗，以及對AI倫理的獨特視角，將使我成為交大資工所值得栽培的研究生。\r\n\r\n---\r\n\r\n## 讀書計畫\r\n\r\n我對自然語言處理領域充滿熱忱，尤其關注如何提升語意理解的精準度與模型的倫理健全性。入學交大資工所後，我將以此為核心，規劃我的研究與學習路徑。\r\n\r\n## 研究方向與目標\r\n\r\n我計畫投入**進階自然語言處理**的研究，特別是**語意理解與其在AI倫理框架下的應用**。我的目標是：\r\n- 深入探討大型語言模型（LLM）的內在偏見來源與其對語意理解的影響。\r\n- 研究開發具備更高可解釋性與公平性的語意理解模型，探索如何量化並減輕模型在處理文本時可能產生的倫理風險。\r\n\r\n## 短期目標（入學第一年）\r\n\r\n我將以紮實的理論基礎與實作技能為首要目標，積極融入貴所研究環境。\r\n\r\n- **課程修習：**\r\n * **進階自然語言處理 (CS5XXX)：** 深入學習最前沿的NLP模型架構，如Transformer及其變體，理解其原理與應用。\r\n * **機器學習 (CS5XXX) 與 深度學習 (CS5XXX)：** 鞏固機器學習與深度學習的理論基礎，精通多種模型訓練與優化技巧。\r\n * **資訊倫理與社會 (CS5XXX)：** 結合過往經驗，更系統地學習AI倫理的理論框架、法律規範與社會影響，為我的研究提供堅實的倫理基礎。\r\n * **計算語言學：** 強化對語言學理論與計算方法結合的理解。\r\n- **實驗室參與：**\r\n * 積極尋求加入與語意理解、可解釋性AI或AI倫理相關的實驗室（例如「智慧計算實驗室」或「可信賴人工智慧研究室」），熟悉實驗室的研究方向與工具。\r\n * 參與實驗室例行討論，從碩博士生與教授的交流中學習研究方法、問題定義與論文寫作技巧。\r\n * 協助實驗室的專案，熟悉資料處理流程、模型部署與效能評估。\r\n- **基礎技能強化：**\r\n * 精進 Python 程式設計能力，特別是 PyTorch 或 TensorFlow 等深度學習框架的應用。\r\n * 研讀 NLP 領域的經典論文與最新研究成果，擴展知識廣度。\r\n\r\n## 中期目標（入學第二年，論文準備階段）\r\n\r\n在建立穩固基礎後，我將聚焦於個人論文研究，並力求在學術界發聲。\r\n\r\n- **論文主題確立與研究：**\r\n * 在指導教授的建議下，確立具體論文題目，例如：「基於多模態資訊的語意偏見偵測與校正」或「可解釋性AI倫理原則融入自然語言理解模型之研究」。\r\n * 設計嚴謹的實驗方案，從數據收集、前處理、模型選擇、實驗驗證到結果分析，全面執行研究計畫。\r\n * 例如，嘗試利用注意力機制（Attention Mechanism）或梯度分析（Gradient-based methods）來提升模型的可解釋性，並探討如何將公平性指標融入模型訓練的損失函數中。\r\n- **技術實踐與創新：**\r\n * 實作並優化所提出的模型，利用交大豐富的計算資源進行大規模訓練與驗證。\r\n * 積極探索創新的語意理解方法，如結合圖神經網路（GNN）處理複雜語意關係，或引入對抗生成網路（GAN）來生成去偏見的訓練資料。\r\n- **學術交流與發表：**\r\n * 將研究成果撰寫成學術論文，目標投稿至國內外重要學術研討會（如 ACL, EMNLP, COLING 或 TAAI）或期刊。\r\n * 主動參與學術研討會與工作坊，擴展人脈，汲取不同領域的視角與回饋。\r\n\r\n## 長期目標（畢業後）\r\n\r\n畢業後，我期望能成為一名在人工智慧領域，特別是自然語言處理與負責任AI方向的專業研究員或工程師。我將持續關注AI技術的發展與其倫理挑戰，致力於開發不僅技術領先，更具社會責任感的AI產品與服務。我深信在交大資工所的嚴謹訓練與啟發下，我將能為社會貢獻我的知識與技能，推動人工智慧技術朝向更光明與普惠的方向發展。",
+  "idea_units": [
+    {
+      "id": "f35d299e-791c-4c5f-b942-a175ae9dd916",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我是鄭承佑，來自國立臺北科技大學資訊工程系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2b286c37-d48a-44a8-8277-8061c57f238d",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我深信資訊工程是推動社會進步的關鍵力量",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7dba2a5d-ee80-4a24-b830-4d08ec2e5ef4",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "而其中自然語言處理（Natural Language Processing, NLP）與語意理解領域，不僅展現了人工智慧的巨大潛力，更觸及了人類溝通與思維的深層奧秘，這讓我對其產生了無比的熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ce91a5d-0c53-47b2-8d93-84ffe1169f94",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "申請貴所，是希望能在一流的學術環境中，深化我對NLP技術的理解，特別是在AI倫理框架下，探索更負責任且高效的語意智慧應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e41b5ca5-ed71-48b6-9f5a-92f193ff8dc1",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我在北科資工系的學習旅程，雖然我的學業成績（修課平均 2.87）在初期未能盡如人意",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fd3379da-6224-4cbf-8c04-5c13d43704cd",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "但在後續的專題與研究實作中，我找到了真正熱愛的領域，並投入了比課堂學習更多的時間與精力，透過實際解決問題來深化理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef46b4f8-116e-4605-8609-2b8939734393",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我將所學融會貫通於多項技術專案中，致力於培養紮實的軟體開發能力與研究思維。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d455e9db-5b24-4cdc-ab3c-af0d3a11bd3c",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "自然語言處理專題：中文政治文本情緒與議題探測系統",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f999863c-1a15-40a5-976b-5843f0f86f7a",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "時間：111學年度下學期至112學年度上學期",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "679962df-7d88-424d-8c8c-e7060248f834",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "地點：「語意智能研究室」",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1e4d0532-0012-4cdb-8b6b-210083f3754e",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "在研究室指導下，我負責開發一套能夠自動分析中文政治新聞與社群媒體文本，並探測其情緒極性（正向、負向、中立）與核心議題的系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b7ec0494-3356-44cf-ba32-87cf93402fc4",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "使用 Python 進行網路爬蟲獲取公開文本資料，並導入 `jieba` 進行中文斷詞處理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dc0b98bc-9741-40c5-a27a-cbb49485b130",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "以 PyTorch 框架，利用 Hugging Face Transformers 函式庫，微調了 BERT-base-chinese 預訓練模型進行文本分類任務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "05b37c7b-0bab-44eb-89e5-c4f40600e63a",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "為解決特定政治領域資料標註成本高、小樣本問題，嘗試導入資料增強技術（如 Synonym Replacement, EDA）與遷移學習策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "74a0d669-e663-4399-acfa-d8ce0aa5773f",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "經過模型迭代與參數優化，系統在自行建立的政治文本資料集上，F1-score 達到了 0.82。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32eabe92-94a2-42f9-8f33-f9517c052e46",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "這次專題讓我第一次體會到中文語意的複雜性與預訓練模型在特定領域微調的巨大潛力",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe39cd0c-27a6-4ae9-9cf4-0595036c3f4b",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "也意識到資料品質對模型效能的決定性影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6212d680-3e96-4332-90cb-ebface2ac92d",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "自學開發專案：社群媒體假訊息之倫理風險評估原型系統",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b089afde-6f6b-49eb-9dab-2e1a1ee600ee",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "基於對AI倫理的關注，我與兩位同學自發合作，開發了一個用於評估社群媒體假訊息潛在倫理風險的原型系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d48551f9-d521-459b-aa22-12a83d37901e",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "這個系統旨在從資訊透明度、偏見風險和社群影響等角度，提供初步的倫理評估。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bc0c1ad2-afac-45aa-848c-2b07837d585a",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "利用 `spaCy` 進行關鍵詞提取與命名實體識別，並結合 TF-IDF 算法評估文本中特定詞彙的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4b231efc-c652-4024-bd5a-43d3f463d641",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "設計一套基於預設倫理準則（如：「是否包含煽動性語言」、「資訊來源是否不明確」、「是否可能引發群體對立」）的評分機制，對假訊息內容進行量化分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1559dcc1-8963-47fb-8094-400d33506d43",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "遇到最大的挑戰是如何將抽象的「倫理原則」轉化為可量化的技術指標",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "75a2d160-d141-458d-bb01-b286ea0126e8",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "以及如何識別模型自身可能帶有的偏見源頭。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "54b9632b-e96b-4ec2-87c5-eeafe9985fa6",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "儘管仍為原型階段，該系統已能初步標示出具有高倫理風險的文本段落。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ebb940c4-ecd3-43df-96f6-6b0973287efe",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "這次經驗讓我深刻認識到AI技術在應用層面的巨大潛力與隨之而來的社會責任",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d3f4288b-8bb9-4d10-ba31-dc327e384c6a",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "促使我更積極地思考如何將AI倫理融入技術開發的每一個環節。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d66755b1-ec74-4d63-8f22-95598effae48",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "在111學年度上學期，我發起了「AI倫理讀書會」，匯集了系上與外系對此議題感興趣的十餘位同學。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6ad72f9f-fe11-4987-b721-556c7b7fb7f4",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我們每雙週舉行一次討論，旨在探討人工智慧發展過程中的倫理挑戰與社會影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d714199-4bc1-478c-be76-03a0ccc0a21c",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "共同閱讀並討論相關學術論文（如關於演算法偏見、數據隱私權、AI公平性等主題）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d4f48027-3faa-4b7e-9794-dff8c0f938a2",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "分析實務案例，例如臉部辨識技術的隱私爭議、大型語言模型可能產生的不當言論等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d071a905-79d0-4c0d-9b6f-f86b47504e52",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "觀看並討論與AI倫理相關的紀錄片，如《Coded Bias》。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "37b70e5d-0625-4ab3-969d-281ef9b7543c",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "透過讀書會，我培養了批判性思維與跨領域溝通的能力，學會從技術、法律、社會等多重角度審視AI議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da89783a-541c-49a1-9749-2239fcbdc70d",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "深化了我對負責任AI開發的理解，堅定了我將技術能力與倫理考量相結合的志向",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd2a9e67-0bc9-414d-b9c1-2cc8ba1b9373",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "尤其是在NLP與語意理解領域，如何確保模型在處理語言時不帶有歧視或偏見。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "897ea33f-78dc-463e-a7a9-1f85dbca8d82",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "交大資工所一直是我心中的學術殿堂",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8c88392c-bae5-4b01-a832-51e54eb52db7",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "貴所不僅在資訊工程領域具有卓越聲譽，更在自然語言處理與機器學習方面有深厚的學術積累與領先的研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a5280b8c-87a6-430b-aec9-d8896de6af90",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我特別嚮往貴所「智慧計算組」中，在語意理解與可解釋性AI領域的相關研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6276ad82-c9b7-4ea3-881e-22af4b4208b0",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我渴望能在貴所優異的師資與豐富的資源支持下，精進我的NLP技術，並將AI倫理的思維融入未來的研究中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dedc0946-b017-4c12-942c-1eb9d002e40e",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我期待能將我在語意分析與AI倫理上的興趣與經驗，貢獻於貴所的研究團隊，共同探索開發出更具智慧、更公平且更值得信賴的AI系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9268a3b5-8b18-4a14-918f-548f2c2bd360",
+      "candidate_id": "mock_56",
+      "section": "自傳",
+      "content": "我相信我的技術熱情、實作經驗，以及對AI倫理的獨特視角，將使我成為交大資工所值得栽培的研究生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9105cc7a-c6ae-403b-aee9-0892a2b87960",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "我對自然語言處理領域充滿熱忱，尤其關注如何提升語意理解的精準度與模型的倫理健全性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c7847d33-a6b5-4c8d-9974-0df4fb67392a",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "入學交大資工所後，我將以此為核心，規劃我的研究與學習路徑。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38854f67-f9e3-4d1b-b7b3-f1dcd57d8493",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "我計畫投入進階自然語言處理的研究，特別是語意理解與其在AI倫理框架下的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a4d1234b-d731-47c7-8d74-e3069a4e20f0",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "我的目標是：深入探討大型語言模型（LLM）的內在偏見來源與其對語意理解的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0933b756-55b5-4b3a-a08b-971f256ea94b",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "研究開發具備更高可解釋性與公平性的語意理解模型，探索如何量化並減輕模型在處理文本時可能產生的倫理風險。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be2375e0-5e6b-4e14-a11c-55a84877111f",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "我將以紮實的理論基礎與實作技能為首要目標，積極融入貴所研究環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d476f3ed-330d-42aa-ba1b-66745a592e38",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "進階自然語言處理 (CS5XXX)：深入學習最前沿的NLP模型架構，如Transformer及其變體，理解其原理與應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cfc0b57b-9d75-483e-acda-03bb91e453c6",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "機器學習 (CS5XXX) 與 深度學習 (CS5XXX)：鞏固機器學習與深度學習的理論基礎，精通多種模型訓練與優化技巧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16376920-54b9-45f9-9c27-f5d2c6aaafad",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "資訊倫理與社會 (CS5XXX)：結合過往經驗，更系統地學習AI倫理的理論框架、法律規範與社會影響，為我的研究提供堅實的倫理基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "369cbac2-3c94-4dc7-a8bc-5c2e0aefd369",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "計算語言學：強化對語言學理論與計算方法結合的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ca2710c5-0073-497b-81a6-1550ceb546e7",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "積極尋求加入與語意理解、可解釋性AI或AI倫理相關的實驗室（例如「智慧計算實驗室」或「可信賴人工智慧研究室」），熟悉實驗室的研究方向與工具。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "55bea060-d5df-4c7b-a7ad-1ad5dd239324",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "參與實驗室例行討論，從碩博士生與教授的交流中學習研究方法、問題定義與論文寫作技巧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5a3f26b6-eefd-469a-ba99-d859eb2a4bae",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "協助實驗室的專案，熟悉資料處理流程、模型部署與效能評估。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d339432-f1e5-4afe-b89d-b0f2edd3fdca",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "精進 Python 程式設計能力，特別是 PyTorch 或 TensorFlow 等深度學習框架的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "576d704d-7113-49bb-aa08-ed59f93bbd57",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "研讀 NLP 領域的經典論文與最新研究成果，擴展知識廣度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e1c6dea3-daab-4685-b0d1-0e989d6011a4",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "在建立穩固基礎後，我將聚焦於個人論文研究，並力求在學術界發聲。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eea12fc7-08c0-426c-891d-130697651fec",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "在指導教授的建議下，確立具體論文題目，例如：「基於多模態資訊的語意偏見偵測與校正」或「可解釋性AI倫理原則融入自然語言理解模型之研究」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10cd7cb6-1d07-416f-b1dd-6c7e024000f2",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "設計嚴謹的實驗方案，從數據收集、前處理、模型選擇、實驗驗證到結果分析，全面執行研究計畫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "26460e22-97c1-48a2-90f9-b07e833cdf79",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "例如，嘗試利用注意力機制（Attention Mechanism）或梯度分析（Gradient-based methods）來提升模型的可解釋性，並探討如何將公平性指標融入模型訓練的損失函數中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b3d37903-edbc-49f6-b215-a3799e5b7288",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "實作並優化所提出的模型，利用交大豐富的計算資源進行大規模訓練與驗證。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8547824c-b754-4844-8ebb-62dd9495debc",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "積極探索創新的語意理解方法，如結合圖神經網路（GNN）處理複雜語意關係，或引入對抗生成網路（GAN）來生成去偏見的訓練資料。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0671d9b2-c02e-4781-8976-f67f2737a4a6",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "將研究成果撰寫成學術論文，目標投稿至國內外重要學術研討會（如 ACL, EMNLP, COLING 或 TAAI）或期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5c1a3fc8-e046-4038-b3fc-2b48927fadbc",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "主動參與學術研討會與工作坊，擴展人脈，汲取不同領域的視角與回饋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b964c00-9314-447a-b611-c1f86ffc5d81",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "畢業後，我期望能成為一名在人工智慧領域，特別是自然語言處理與負責任AI方向的專業研究員或工程師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "40a9574c-ace4-41b0-a6b5-d10ee67fedcb",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "我將持續關注AI技術的發展與其倫理挑戰，致力於開發不僅技術領先，更具社會責任感的AI產品與服務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6933271d-dfcd-40af-9234-5d857ab2c0c0",
+      "candidate_id": "mock_56",
+      "section": "讀書計畫",
+      "content": "我深信在交大資工所的嚴謹訓練與啟發下，我將能為社會貢獻我的知識與技能，推動人工智慧技術朝向更光明與普惠的方向發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

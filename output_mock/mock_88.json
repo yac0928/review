@@ -1,0 +1,378 @@
+{
+  "candidate_id": "mock_88",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_88.md"
+  ],
+  "cleaned_text": "**自傳**\r\n\r\n我是韓正威，目前就讀於國立陽明交通大學資訊工程學系。大學期間，我對軟體領域一直抱有濃厚興趣，特別是機器學習和智慧型計算這塊。我的學業成績約為 4.19，在系上努力學習，希望能打下紮實的基礎。\r\n\r\n在大學裡，我修了很多資工相關的課程，從程式設計到演算法，再到一些比較進階的機器學習概論，都讓我學到很多。我覺得這些課程對我建立技術能力很有幫助，也讓我開始思考如何應用這些知識。後來，我進入了學校的智慧系統實驗室，參與了一個跟智慧推薦有關的產學合作專案。那時候，我們主要在研究怎麼讓推薦系統更準確，需要處理大量的資料，然後用程式去跑模型做分析。過程中確實遇到不少問題，像是資料清洗啦、模型怎麼選啦，有時候跑出來的結果不盡理想，也花了不少時間去調整。從一開始的茫然，到後來一點一點解決問題，真的培養了不少實作能力，也讓我更了解研究是怎麼一回事。雖然過程很辛苦，但獲益良多。\r\n\r\n除了實驗室的經驗，我私下也對獨立遊戲設計很有興趣，有自己嘗試做過一些小遊戲。雖然只是興趣，但我覺得這也能培養一些解決問題的直覺和創造力，把學到的程式技巧應用在不同的地方。這些經驗讓我對資訊工程有了更全面的認識，也更確定自己未來想走的路。\r\n\r\n**讀書計畫**\r\n\r\n申請貴所，主要是希望能繼續在機器學習和智慧型計算領域深造，覺得還有很多東西可以學習。我希望未來能更深入地了解這個領域的理論與實務，培養更專業的能力。\r\n\r\n**短期目標**：進入貴所後，我會先努力適應研究所的學習步調。多修一些跟機器學習、深度學習相關的課程，打好更堅實的基礎。我覺得有很多新的技術和方法需要去學習，所以會努力吸收新知。同時，也會多了解實驗室的運作，看看哪個研究方向比較適合我，然後找指導教授。\r\n\r\n**中期目標**：在找到感興趣的指導教授後，我會積極參與教授的研究計畫。希望能找到一個有挑戰性的研究主題，然後投入心力去探索。我希望可以將大學期間學到的知識應用到實際的研究問題上，並學習如何撰寫論文和發表成果。當然，過程中肯定會遇到很多困難，但我覺得這也是成長的機會，會努力克服。\r\n\r\n**長期目標**：我期望未來能在機器學習或智慧型計算領域成為一個專業的人才。無論是繼續學術研究，或是投入業界，都希望自己的所學能夠對社會產生一些貢獻。我會持續關注這個領域的最新發展，不斷學習新的技術，讓自己具備更強的競爭力。希望貴所能給我這個機會。",
+  "idea_units": [
+    {
+      "id": "f148ea19-020f-4c11-be51-1c52f84320ff",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "我是韓正威，目前就讀於國立陽明交通大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "08ff55da-6dd0-4c67-a247-38f951b015fb",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "大學期間，我對軟體領域一直抱有濃厚興趣，特別是機器學習和智慧型計算這塊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8cc2d000-cdfe-4cf2-afcc-b07615e5ff89",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "我的學業成績約為 4.19。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5085140a-dd8e-4465-9c04-cb4135d2885c",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "在系上努力學習，希望能打下紮實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e8e8fe1c-3bc4-497f-affc-19fe7bff73e6",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "在大學裡，我修了很多資工相關的課程，從程式設計到演算法，再到一些比較進階的機器學習概論。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d48400ff-0174-45f9-895c-c5ee6625e8c6",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "這些課程都讓我學到很多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb537e4b-b6af-4382-9749-24ccce4ed2dd",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "我覺得這些課程對我建立技術能力很有幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0988ed74-04f9-4f53-a767-6499910013b3",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "這些課程也讓我開始思考如何應用這些知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b43c7991-3c57-426c-b08a-d541b84212dd",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "後來，我進入了學校的智慧系統實驗室，參與了一個跟智慧推薦有關的產學合作專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "68b8a4d2-e1db-416d-881d-1a7b71d2270e",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "那時候，我們主要在研究怎麼讓推薦系統更準確。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "731cdb22-baa8-440f-b715-905d73102c2a",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "需要處理大量的資料，然後用程式去跑模型做分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dbbee54a-0141-4fec-b1b5-0782271824f9",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "過程中確實遇到不少問題，像是資料清洗啦、模型怎麼選啦。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f105330a-61c5-4822-bfa2-1883bac4e1b5",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "有時候跑出來的結果不盡理想，也花了不少時間去調整。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "71a95b32-4fd6-4810-990b-0f8d6085fa6c",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "從一開始的茫然，到後來一點一點解決問題，真的培養了不少實作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a3bd695d-5372-4e2d-b606-e8823a975fed",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "這也讓我更了解研究是怎麼一回事。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "deb721ae-d813-4c4f-a730-faf0cfef21d3",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "除了實驗室的經驗，我私下也對獨立遊戲設計很有興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa120eb8-d0fb-4dc1-a900-d00a85e4f04e",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "有自己嘗試做過一些小遊戲。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1b14a94c-b240-4cce-b83d-5e0c27f85a4e",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "但我覺得這也能培養一些解決問題的直覺和創造力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1ad91919-1ae9-415a-a854-73d1cdff5771",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "這也能把學到的程式技巧應用在不同的地方。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "76daf7d2-7eb3-44d3-8bdd-85b6724e3951",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "這些經驗讓我對資訊工程有了更全面的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b0a7bf62-1727-48e5-8159-bea60556d794",
+      "candidate_id": "mock_88",
+      "section": "自傳",
+      "content": "這些經驗也讓我更確定自己未來想走的路。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "17b95c6c-de03-429c-8883-a0427e5d765a",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "申請貴所，主要是希望能繼續在機器學習和智慧型計算領域深造。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3bcf4058-3e23-4363-bfee-50948b304a73",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "覺得還有很多東西可以學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1ab48e4e-ea8b-4935-9e88-f9196080d5a6",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "我希望未來能更深入地了解這個領域的理論與實務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "13c76125-f7c8-44bd-8745-5543fe5815de",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "我希望未來能培養更專業的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ae9c0306-6708-4a1d-b825-c75422f98294",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "進入貴所後，我會先努力適應研究所的學習步調。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5d65b855-dc35-4f21-861a-b7ceb5761694",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "多修一些跟機器學習、深度學習相關的課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6dc510e5-4e2a-4a38-a44c-fe5c42c1e9f3",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "我覺得有很多新的技術和方法需要去學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aae24c12-b43f-4fb3-8212-c9807c32ae58",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "同時，也會多了解實驗室的運作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "740344ca-85e7-4600-95c7-2937b7e8b503",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "看看哪個研究方向比較適合我。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3324a828-61c6-46d0-8fcc-8cf303e165c4",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "在找到感興趣的指導教授後，我會積極參與教授的研究計畫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb77a371-a0fb-45f0-8beb-73956d99730a",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "希望能找到一個有挑戰性的研究主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d35a680-cd29-4ae9-8943-532a24f9ef9d",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "我希望可以將大學期間學到的知識應用到實際的研究問題上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f080345a-0668-41c1-9527-aed12461866e",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "並學習如何撰寫論文和發表成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b0f2bb77-e050-44ad-aaef-dee32a5991b6",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "當然，過程中肯定會遇到很多困難。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1b20bb73-1e51-4ead-9e39-7f0b36a1b6c5",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "但我覺得這也是成長的機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fca187a7-14b6-4360-b3f2-2632b850d1bd",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "我期望未來能在機器學習或智慧型計算領域成為一個專業的人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "20641334-23b0-4267-8b8d-08c01ffed185",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "無論是繼續學術研究，或是投入業界，都希望自己的所學能夠對社會產生一些貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f40a3166-23ca-4fc6-b431-4335f7af23eb",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "我會持續關注這個領域的最新發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27406097-1eae-4f2c-945a-30d6c8ce77db",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "讓自己具備更強的競爭力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "43ec5838-a2a4-4da1-8aa7-22200bafc102",
+      "candidate_id": "mock_88",
+      "section": "讀書計畫",
+      "content": "希望貴所能給我這個機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

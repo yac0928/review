@@ -1,0 +1,432 @@
+{
+  "candidate_id": "mock_98",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_98.md"
+  ],
+  "cleaned_text": "## 自傳\r\n我是林怡君，目前就讀於國立中興大學資訊工程學系。從小我就對科技抱持著好奇心，覺得資訊科技能改變世界是一件很酷的事情，因此選擇了資工系。大學四年下來，雖然我的學業成績不算特別突出，修課平均大約是2.83左右，但我認為自己在其他方面，特別是社團活動中，學到了很多寶貴的經驗。\r\n\r\n## 大學生活與社團經驗\r\n大學生活對我來說，最重要的部分其實是社團活動。我投入了大量的時間在學生會服務，從一開始的活動組組員，到後來有機會擔任幹部，負責籌劃了好幾場大型活動，像是校園演唱會和新生迎新宿營。這些經驗讓我有機會學習如何與不同背景的同學溝通協調，從初期發想、經費申請、人力分工到現場執行，每一個環節都讓我獲益良多。我發現當一個活動從零到有被實踐出來時，那種成就感是非常大的。過程中也難免遇到各種突發狀況，但我們團隊總能一起想辦法解決，這也培養了我處理問題和應變的能力。\r\n\r\n除了學生會，我也加入了系上的排球隊，雖然我不是什麼主力球員，但跟隊友們一起訓練、比賽，讓我學到了團隊合作的重要性。在球場上，每個人都為了共同的目標努力，互相補位、鼓勵，我覺得這種凝聚力對我的人生觀產生了很大的影響。參加排球隊讓我在課業之餘也能保持身心健康，並認識了一群志同道合的朋友。\r\n\r\n## 課業學習與未來展望\r\n在課業方面，我對嵌入式系統和韌體開發一直都很有興趣。修過像是「嵌入式系統導論」、「計算機組織」等課程，雖然分數不見得非常高，但每次實作課程都會讓我感到很有趣。例如在嵌入式系統的課堂專題中，我們曾經嘗試用微控制器開發一個簡單的智慧家居裝置，雖然功能很陽春，但從硬體接線、撰寫驅動程式到應用層的邏輯，整個流程跑下來，讓我對韌體和硬體之間的整合有了初步的概念，也讓我體會到實際動手做跟書本理論的差異。此外，我也對區塊鏈的技術感到好奇，覺得它的應用潛力很大，自己有花一些時間稍微了解了相關的基礎原理。對於資安議題，特別是硬體層面的安全，像是硬體特洛伊的防護，也一直覺得很有挑戰性，覺得這塊領域很值得探索。\r\n\r\n大學四年下來，我發現自己雖然在技術的廣度上有所涉獵，但深度上仍有不足。許多時候都是學到皮毛，沒有機會深入研究。我希望能繼續提升自己的專業能力，特別是在嵌入式系統、韌體、資安以及區塊鏈這些領域。我知道交大資工所是國內頂尖的學術殿堂，擁有非常豐富的資源和優秀的師資，我覺得這裡的環境非常適合我繼續深造。我希望能透過研究所的訓練，彌補我在技術上的不足，並且找到自己未來明確的研究方向。\r\n\r\n## 讀書計畫\r\n針對申請貴所，我粗略規劃了以下的讀書計畫：\r\n\r\n### 近程目標（入學第一年）\r\n- **基礎補強**：我會努力修習系上開設的各類核心課程，特別是與嵌入式系統、作業系統、演算法、計算機結構等相關的課程。我知道自己的學業基礎有待加強，所以會投入更多時間在這些課程上，希望能把大學時期沒有學扎實的部分重新打好基礎。\r\n- **探索研究方向**：積極旁聽或參與實驗室的專題討論，了解不同教授的研究領域和實驗室文化。特別會關注與韌體、嵌入式系統、資安或區塊鏈相關的研究方向。\r\n- **提升程式能力**：針對自己比較不熟練的程式語言或開發工具，會利用課餘時間多加練習，並嘗試做一些小型的 side project 來磨練實作能力。\r\n\r\n### 中程目標（入學第二年）\r\n- **專題研究**：在第一年了解各實驗室的研究方向後，我希望能找到一位有興趣的指導教授，並加入實驗室，從專題生開始做起。我會努力學習如何閱讀學術論文、參與研究討論，並嘗試在教授的指導下，參與一些初步的研究工作。\r\n- **深化專業知識**：針對自己選定的研究方向，修習更進階的專業課程，例如進階嵌入式系統、網路安全、分散式系統或區塊鏈技術應用等。\r\n- **培養解決問題能力**：學習從研究問題的定義、資料蒐集與分析、實驗設計到結果呈現的整個研究流程。雖然目前對研究還沒有很具體的想法，但希望能跟著教授和學長姐們一起學習，慢慢培養自己獨立解決問題的能力。\r\n\r\n### 長程目標（碩士畢業後）\r\n- **學術或業界發展**：順利完成碩士學位後，我希望能夠將所學應用於實際產業。我對未來想從事韌體工程師、嵌入式系統開發工程師或資安相關的工作。也希望能持續關注區塊鏈技術的發展，或許能將其應用到嵌入式系統的資安防護上。\r\n- **持續學習**：我知道科技領域日新月異，所以未來不論在哪個領域，都會抱持著持續學習的態度，不斷充實自己的專業知識和技能。\r\n\r\n我深知自己在學術表現上仍有許多進步空間，但我對學習的熱情和願意投入時間努力的態度是不會改變的。我期待有機會進入貴所就讀，相信在交大資工所的栽培下，我能成為一個更有專業能力、對社會有貢獻的資訊人才。謝謝老師們撥冗閱讀我的申請資料。",
+  "idea_units": [
+    {
+      "id": "087c20f1-818a-43f7-a406-46c2c1e61217",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "我是林怡君，目前就讀於國立中興大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "147bb3a8-5863-42ad-8a75-05ebff9f1402",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "從小我就對科技抱持著好奇心，覺得資訊科技能改變世界是一件很酷的事情",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6784b3cf-87a6-4037-9b28-a8b00183326e",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "大學四年下來，雖然我的學業成績不算特別突出，修課平均大約是2.83左右",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d770bbbb-67c9-4b47-95f0-890f780a1f99",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "但我認為自己在其他方面，特別是社團活動中，學到了很多寶貴的經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "225a4874-08f9-4961-b920-5ea074b3ae5a",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "大學生活對我來說，最重要的部分其實是社團活動。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c45d15de-fcf1-4008-9b90-f0fe908e6726",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "我投入了大量的時間在學生會服務，從一開始的活動組組員，到後來有機會擔任幹部，負責籌劃了好幾場大型活動，像是校園演唱會和新生迎新宿營。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb0a1a1c-e27b-4c7a-ba86-91b3215e4b3a",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "這些經驗讓我有機會學習如何與不同背景的同學溝通協調，從初期發想、經費申請、人力分工到現場執行，每一個環節都讓我獲益良多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "faf9b474-f0da-49f3-a66a-efbb392dc357",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "我發現當一個活動從零到有被實踐出來時，那種成就感是非常大的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "af980ba2-7e2a-4830-b7b1-72c8947d7523",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "過程中也難免遇到各種突發狀況",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04fabe7d-1951-4d2e-a6ac-eaddffbe9b16",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "但我們團隊總能一起想辦法解決，這也培養了我處理問題和應變的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2b485d93-4023-43df-bd26-b31e0434a998",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "除了學生會，我也加入了系上的排球隊",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6cd066c9-3556-4437-87a4-8207bbcc42d6",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "雖然我不是什麼主力球員，但跟隊友們一起訓練、比賽，讓我學到了團隊合作的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5dbb57af-b496-42bb-95a5-ddc3ad789ee6",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "在球場上，每個人都為了共同的目標努力，互相補位、鼓勵，我覺得這種凝聚力對我的人生觀產生了很大的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1b8a1b69-8ff4-4de0-b7ad-05351a9e92e7",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "參加排球隊讓我在課業之餘也能保持身心健康，並認識了一群志同道合的朋友。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b34403ea-5584-4fff-8fdc-e8a5d08d77e1",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "在課業方面，我對嵌入式系統和韌體開發一直都很有興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a33b2b7a-f8b5-45f3-ace9-3ef033e44f92",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "修過像是「嵌入式系統導論」、「計算機組織」等課程，雖然分數不見得非常高",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cac2ebc6-cabc-4fe0-beb6-b7e680c115ae",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "但每次實作課程都會讓我感到很有趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "261e0b43-d273-47a9-a181-0e10325fa405",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "例如在嵌入式系統的課堂專題中，我們曾經嘗試用微控制器開發一個簡單的智慧家居裝置，雖然功能很陽春，但從硬體接線、撰寫驅動程式到應用層的邏輯，整個流程跑下來",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b2931c8-71b7-4fcf-abaf-e9ac91c50633",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "讓我對韌體和硬體之間的整合有了初步的概念，也讓我體會到實際動手做跟書本理論的差異。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7cb70a1d-5207-4054-9831-f60fa9bbf5e0",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "此外，我也對區塊鏈的技術感到好奇，覺得它的應用潛力很大",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3077b506-da85-4b01-b297-947990d5dea1",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "自己有花一些時間稍微了解了相關的基礎原理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "514340cf-ba6e-467e-ae44-10facd332d2a",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "對於資安議題，特別是硬體層面的安全，像是硬體特洛伊的防護，也一直覺得很有挑戰性，覺得這塊領域很值得探索。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "130c299f-2000-44eb-9b19-236d646b4c20",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "大學四年下來，我發現自己雖然在技術的廣度上有所涉獵",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8d890a6c-fe14-48ea-abff-f9160789f6e8",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "許多時候都是學到皮毛，沒有機會深入研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58185eff-06e6-43ed-ab26-1337ab0df622",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "我希望能繼續提升自己的專業能力，特別是在嵌入式系統、韌體、資安以及區塊鏈這些領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a874089b-1e07-458a-9e5b-c74646505bdb",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "我知道交大資工所是國內頂尖的學術殿堂，擁有非常豐富的資源和優秀的師資，我覺得這裡的環境非常適合我繼續深造。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb85c312-3654-4e36-93e2-13b193ce4a22",
+      "candidate_id": "mock_98",
+      "section": "自傳",
+      "content": "我希望能透過研究所的訓練，彌補我在技術上的不足，並且找到自己未來明確的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2cde0705-d001-4b57-a917-4783ddfb8bbd",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "我會努力修習系上開設的各類核心課程，特別是與嵌入式系統、作業系統、演算法、計算機結構等相關的課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2364e69a-123d-4217-b45c-2c5a17413b4a",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "我知道自己的學業基礎有待加強",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fae45385-a022-47e2-aff0-c4e209157dab",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "所以會投入更多時間在這些課程上，希望能把大學時期沒有學扎實的部分重新打好基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "82af89be-3c0c-47f8-a26a-2613156bdb75",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "積極旁聽或參與實驗室的專題討論，了解不同教授的研究領域和實驗室文化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bc7bd6d2-ed38-4e27-8808-6a9663186cd7",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "特別會關注與韌體、嵌入式系統、資安或區塊鏈相關的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c2133621-3de2-4d3b-a5f0-c1119194772a",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "針對自己比較不熟練的程式語言或開發工具，會利用課餘時間多加練習，並嘗試做一些小型的 side project 來磨練實作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a5539aae-61d0-457a-b818-66a64b855fa9",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "在第一年了解各實驗室的研究方向後，我希望能找到一位有興趣的指導教授，並加入實驗室，從專題生開始做起。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0c0acbe4-33c3-4a40-b700-0401f6e1515a",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "我會努力學習如何閱讀學術論文、參與研究討論，並嘗試在教授的指導下，參與一些初步的研究工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3903e7b-23e8-4881-9760-519ef1050bfb",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "針對自己選定的研究方向，修習更進階的專業課程，例如進階嵌入式系統、網路安全、分散式系統或區塊鏈技術應用等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9728cee4-477d-436c-9f8f-380490522c50",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "學習從研究問題的定義、資料蒐集與分析、實驗設計到結果呈現的整個研究流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "97ba63ff-ce48-4fe1-ac38-7975080db95f",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "雖然目前對研究還沒有很具體的想法",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "54bf9f2c-ae94-45dc-8645-513327b6bf5e",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "但希望能跟著教授和學長姐們一起學習，慢慢培養自己獨立解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "98b8bc90-a516-4ba4-a37c-cbc4f8b959dc",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "順利完成碩士學位後，我希望能夠將所學應用於實際產業。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5a257137-c007-478c-a46c-445af7cba859",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "我對未來想從事韌體工程師、嵌入式系統開發工程師或資安相關的工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "af070d84-988f-41d9-a008-0ede64056517",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "也希望能持續關注區塊鏈技術的發展，或許能將其應用到嵌入式系統的資安防護上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d2148da2-46a9-42bf-8a45-ed571e121857",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "我知道科技領域日新月異",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f7bd7d4-e097-43d4-8ecb-676195f37406",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "所以未來不論在哪個領域，都會抱持著持續學習的態度，不斷充實自己的專業知識和技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c2551aa9-bec6-4c41-b33d-c684a62b1fde",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "我深知自己在學術表現上仍有許多進步空間",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "19f6979f-eb31-467a-8e83-b0c118cfbc76",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "但我對學習的熱情和願意投入時間努力的態度是不會改變的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "88e690dc-b9fa-464c-af6e-360814f3c25f",
+      "candidate_id": "mock_98",
+      "section": "讀書計畫",
+      "content": "我期待有機會進入貴所就讀，相信在交大資工所的栽培下，我能成為一個更有專業能力、對社會有貢獻的資訊人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

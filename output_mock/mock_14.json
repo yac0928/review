@@ -1,0 +1,333 @@
+{
+  "candidate_id": "mock_14",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_14.md"
+  ],
+  "cleaned_text": "# 自傳\r\n\r\n## 起點：對軟體開發與遊戲世界的熱情\r\n\r\n我是李羿晨，來自元智大學資訊工程學系。從小便對電腦程式和遊戲的內部運作方式充滿好奇，這份好奇心驅使我踏上資工之路。大學四年期間，我努力學習基礎學科，修課平均維持在3.72左右，特別喜歡程式語言與軟體工程相關課程。我深信，好的軟體設計和高效能的程式碼，是創造卓越數位體驗的關鍵，尤其是在遊戲開發這個充滿挑戰與樂趣的領域。\r\n\r\n## 技術成長：從程式語言到模組開發\r\n\r\n在大學期間，我積極投入於各項技術能力的培養。除了紮實的課程學習，如資料結構、演算法、物件導向程式設計，我更花費許多時間在實作專案上。我熟練運用 C++、Python 和 Java 進行開發，特別是在遊戲相關專案中，我主要使用 C# 搭配 Unity 引擎。\r\n\r\n大三下學期，我加入了「遊戲軟體設計實驗室」，這是我技術成長的重要階段。我在實驗室裡的主要任務是參與一個線上合作 RPG 遊戲的開發計畫。我負責其中一個核心的「AI NPC 行為模組」。這個專案要求我設計一套可擴展的行為樹系統，讓遊戲中的非玩家角色能根據情境做出不同反應。我與團隊成員利用 Git 進行版本控制，並遵循一些敏捷開發的原則，每週進行進度討論與功能疊代。\r\n\r\n在開發過程中，我遇到了不少挑戰。最大的困難是確保 AI 行為邏輯的複雜性與遊戲效能之間的平衡。一開始，我設計的行為樹因為過於龐大，導致 NPC 在某些情況下會出現明顯的延遲。為了解決這個問題，我花了許多時間研究 Unity 的 Profiler 工具，並學習了如何優化 C# 程式碼，例如減少不必要的記憶體分配、利用物件池來重用頻繁生成的遊戲物件。這次經驗讓我深刻體會到，軟體架構的設計彈性以及效能最佳化在遊戲開發中的重要性，而不僅僅是功能實現而已。\r\n\r\n## 展望未來：挑戰與精進\r\n\r\n這些實戰經驗讓我對軟體工程和遊戲模組開發有了更深層次的理解。我學到了如何將抽象的設計理念轉化為實際可運作的程式碼，並在團隊協作中學習溝通與解決問題。我渴望能進入更具挑戰性的學術環境，深入探索軟體開發的尖端技術，特別是在複雜系統的設計與優化上。\r\n\r\n# 讀書計畫\r\n\r\n- 我選擇申請國立交通大學資訊工程學系碩士班，主要原因在於貴系在軟體工程、系統設計以及人工智慧領域的卓越聲譽與豐富資源。我的大學背景著重於軟體開發與遊戲模組實作，希望能在交大資工所找到更專業的指導，將我的技術能力提升至新的層次，並能接觸到更具前瞻性的研究課題。\r\n\r\n- 我對如何運用更先進的軟體工程方法論、更高效能的程式語言特性，以及人工智慧技術來開發複雜且具互動性的遊戲模組或智慧系統，抱持著高度熱情。特別是對於在分散式環境下，如何確保遊戲或即時互動系統的穩定性與效能，我很感興趣。\r\n\r\n## 近程目標（入學第一年）\r\n\r\n- 積極參與所上課程，特別是關於「高等演算法」、「機器學習」、「分散式系統」以及「軟體架構與設計」等課程。\r\n- 熟悉研究室環境與研究工具，盡快融入指導教授的研究團隊，並了解研究室現有的專案進度與方向。\r\n- 深入鑽研學術論文，了解目前在軟體工程與遊戲 AI 領域的最新進展與未解之題，為未來的研究打下堅實基礎。\r\n\r\n## 中程目標（入學第二年）\r\n\r\n- 選定明確的研究主題，並在指導教授的協助下，專注於研究計畫的執行。我希望我的研究能結合過去在遊戲模組開發的經驗，探討如何利用機器學習優化遊戲中的 AI 行為，或開發一套更具彈性與可擴展性的通用遊戲模組框架。\r\n- 積極與研究室成員交流，參與學術研討會，學習如何有效地進行學術寫作與口頭報告。\r\n- 逐步完成碩士論文的各項實驗與撰寫工作，並力求發表具學術價值的成果。\r\n\r\n## 長程目標（未來展望）\r\n\r\n- 希望能將在交大資工所學到的扎實理論基礎與實務經驗，應用於軟體開發或遊戲產業。\r\n- 目標是成為一名能夠獨立設計與開發複雜系統，並解決實際工程問題的專業人士。我期望能持續學習，追蹤技術趨勢，為台灣的軟體產業貢獻一份心力。",
+  "idea_units": [
+    {
+      "id": "d50e702d-787d-415e-8b3f-3930ec906f93",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "我是李羿晨，來自元智大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "92ef5cd2-0ec8-4c56-81c4-09da6c780785",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "從小便對電腦程式和遊戲的內部運作方式充滿好奇，這份好奇心驅使我踏上資工之路。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3c23d993-c235-4aa8-bd39-00651fb85dd9",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "大學四年期間，我努力學習基礎學科，修課平均維持在3.72左右，特別喜歡程式語言與軟體工程相關課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb959e1e-7173-4a72-b394-f79a1d208ed4",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "我深信，好的軟體設計和高效能的程式碼，是創造卓越數位體驗的關鍵，尤其是在遊戲開發這個充滿挑戰與樂趣的領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dbbef570-f4dc-4806-8ca8-5a7461880fee",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "在大學期間，我積極投入於各項技術能力的培養。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7685a0c0-682a-4afd-8581-76d0b893e419",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "除了紮實的課程學習，如資料結構、演算法、物件導向程式設計，我更花費許多時間在實作專案上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "348e0230-3f5d-4a1c-a12e-9646e9a695a7",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "我熟練運用 C++、Python 和 Java 進行開發，特別是在遊戲相關專案中，我主要使用 C# 搭配 Unity 引擎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d48969b5-6a7f-4370-ad54-614664c25f5b",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "大三下學期，我加入了「遊戲軟體設計實驗室」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fc46e9fc-1a65-4e66-b1ab-6d60ce07a9db",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "這是我技術成長的重要階段。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb72cea0-0e9c-4d2d-8733-adaaf1bd83a0",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "我在實驗室裡的主要任務是參與一個線上合作 RPG 遊戲的開發計畫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "99e4d006-8a21-401e-ae6e-c1b1cf741aa9",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "我負責其中一個核心的「AI NPC 行為模組」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3995e76-de73-4b48-8938-a229b0ef86e7",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "這個專案要求我設計一套可擴展的行為樹系統，讓遊戲中的非玩家角色能根據情境做出不同反應。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd0d5e90-05f6-42dd-ba50-e7df203b5608",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "我與團隊成員利用 Git 進行版本控制，並遵循一些敏捷開發的原則，每週進行進度討論與功能疊代。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3ec6c62e-3fd3-4d6e-ad13-1f1b85f00d16",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "在開發過程中，我遇到了不少挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "93e0fa5e-8bfb-454a-94ce-ba9cb4f4478a",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "最大的困難是確保 AI 行為邏輯的複雜性與遊戲效能之間的平衡。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8ab8a67f-e207-4b1c-944e-3a644a200a68",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "一開始，我設計的行為樹因為過於龐大，導致 NPC 在某些情況下會出現明顯的延遲。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c8d97186-bfe7-474d-b6ab-f4ae90346bd9",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "為了解決這個問題，我花了許多時間研究 Unity 的 Profiler 工具，並學習了如何優化 C# 程式碼，例如減少不必要的記憶體分配、利用物件池來重用頻繁生成的遊戲物件。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "59e1300b-bbf9-41a5-8b36-7b3160fc2da1",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "這次經驗讓我深刻體會到，軟體架構的設計彈性以及效能最佳化在遊戲開發中的重要性，而不僅僅是功能實現而已。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4468df67-4739-4590-ab39-e10ada24e426",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "這些實戰經驗讓我對軟體工程和遊戲模組開發有了更深層次的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "714b7fe1-5a2c-42f6-ab46-e7d6ebe5399c",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "我學到了如何將抽象的設計理念轉化為實際可運作的程式碼，並在團隊協作中學習溝通與解決問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "abd4be5c-38d0-4578-a8ed-44e3ec60e6de",
+      "candidate_id": "mock_14",
+      "section": "自傳",
+      "content": "我渴望能進入更具挑戰性的學術環境，深入探索軟體開發的尖端技術，特別是在複雜系統的設計與優化上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8dfd4328-543c-4784-b45e-ea98a3fa3440",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "我選擇申請國立交通大學資訊工程學系碩士班，主要原因在於貴系在軟體工程、系統設計以及人工智慧領域的卓越聲譽與豐富資源。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "18468356-eb66-497f-b2aa-430121ada670",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "我的大學背景著重於軟體開發與遊戲模組實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "33c06987-d5ee-49b4-8a80-cf21d7fc6c6c",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "希望能在交大資工所找到更專業的指導，將我的技術能力提升至新的層次，並能接觸到更具前瞻性的研究課題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b2ede441-9b2b-4069-9a9d-b39387849d79",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "我對如何運用更先進的軟體工程方法論、更高效能的程式語言特性，以及人工智慧技術來開發複雜且具互動性的遊戲模組或智慧系統，抱持著高度熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb7f4ebd-5bc3-49c9-8438-3d9c570377fe",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "特別是對於在分散式環境下，如何確保遊戲或即時互動系統的穩定性與效能，我很感興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b47e596e-03d0-42ee-9c1f-044cbf9b6117",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "積極參與所上課程，特別是關於「高等演算法」、「機器學習」、「分散式系統」以及「軟體架構與設計」等課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8d6e4aef-3b70-4843-bfb8-b26f4a3d8544",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "熟悉研究室環境與研究工具，盡快融入指導教授的研究團隊，並了解研究室現有的專案進度與方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9ec5b30d-14e9-4be3-afb6-c7adcd4415cb",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "深入鑽研學術論文，了解目前在軟體工程與遊戲 AI 領域的最新進展與未解之題，為未來的研究打下堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "883d10c8-8890-4524-8c58-5ceb26814e73",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "選定明確的研究主題，並在指導教授的協助下，專注於研究計畫的執行。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "87f8029b-39f4-47c2-bc42-54e821c10286",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "我希望我的研究能結合過去在遊戲模組開發的經驗，探討如何利用機器學習優化遊戲中的 AI 行為，或開發一套更具彈性與可擴展性的通用遊戲模組框架。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4a532fac-e8f6-4031-937f-f4a4fc07b257",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "積極與研究室成員交流，參與學術研討會，學習如何有效地進行學術寫作與口頭報告。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7786e81a-315e-424a-88db-b1310e7c5e2b",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "逐步完成碩士論文的各項實驗與撰寫工作，並力求發表具學術價值的成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a8d316c5-e945-4767-9f97-7fd4f5faad48",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "希望能將在交大資工所學到的扎實理論基礎與實務經驗，應用於軟體開發或遊戲產業。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "380510fe-e6de-41f1-9d54-bb3778a31bcc",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "目標是成為一名能夠獨立設計與開發複雜系統，並解決實際工程問題的專業人士。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e34f1b57-4769-49c8-a5e3-ff96f55f5e42",
+      "candidate_id": "mock_14",
+      "section": "讀書計畫",
+      "content": "我期望能持續學習，追蹤技術趨勢，為台灣的軟體產業貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

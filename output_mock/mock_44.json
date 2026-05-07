@@ -1,0 +1,459 @@
+{
+  "candidate_id": "mock_44",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_44.md"
+  ],
+  "cleaned_text": "**自傳**\r\n\r\n我是沈子揚，來自國立臺灣科技大學資訊工程學系。從小我就對資訊科技這個領域充滿好奇，特別是看到軟體如何改變我們的生活，這讓我對程式設計與系統開發產生了濃厚的興趣。大學期間，我一直都很努力，雖然我的學業成績不算特別突出，修課平均大約落在 3.08 左右，但我一直都相信實作經驗才是最重要的，也因此花了很多時間在專案與研究上。\r\n\r\n在大學裡，我接觸了許多資訊工程的基礎知識，從程式語言到資料結構，還有演算法等等，這些都為我後來的實作打下了基礎。我記得那時候上一些比較難的課，真的覺得很吃力，但每次解決問題的成就感都讓我覺得很值得。尤其是在一些分組專題上，我們常常為了完成一個功能，花很多時間去研究不同的技術，雖然結果不一定完美，但過程中真的學到很多。\r\n\r\n後來我進入了學校的「多媒體區塊鏈應用實驗室」，這對我的技術成長來說是一個很重要的轉捩點。在實驗室裡，我主要參與一個關於「基於區塊鏈的多媒體內容防偽與分享系統」的專案。我們的目標是想辦法利用區塊鏈技術來確保數位多媒體內容的真實性，並且讓分享過程更安全。這其實是一個很有挑戰性的題目，因為多媒體檔案通常都很大，要怎麼跟區塊鏈結合，真的是一個很大的問題。我主要負責的是前端介面的設計與後端資料庫的整合，還有一些智能合約的撰寫。在過程中，我們遇到很多關於資料處理效率的問題，因為區塊鏈的特性，有時候會覺得處理速度很慢，這讓我們不斷去思考如何最佳化。這段經驗讓我對區塊鏈的運作原理以及多媒體內容處理有了更深入的理解，也培養了我解決實際問題的能力。做完才發現原來這麼多眉角。\r\n\r\n除了研究室的經驗，我也曾經在一家叫做「未來視野科技工作室」的新創公司兼職開發。在那裡，我主要負責協助開發一個行動應用程式，用於管理用戶的多媒體內容，並且嘗試導入一些去中心化的概念。這個經驗讓我實際接觸到業界的開發流程，學會如何在時間壓力下完成任務，並且跟團隊成員協作。雖然只是兼職，但從概念發想到實際部署，整個過程都讓我獲益良多，也更清楚軟體產品開發是怎麼一回事。我在大學期間也參加了區塊鏈技術研究社，跟社團的大家一起研究最新的區塊鏈應用，互相交流，對我的視野很有幫助。\r\n\r\n回顧這些經歷，我發現自己對資工領域的熱情越來越深，尤其是對於怎麼將新興技術應用到實際問題上特別感興趣。我想繼續深造，進一步探索這些技術的潛力，因此決定申請貴所，希望能有機會在更專業的環境中學習與成長。\r\n\r\n**讀書計畫**\r\n\r\n進入交通大學資訊工程學系碩士班，我已經做好準備，將全力投入學術研究與專業能力的提升。我會將我的學習計畫分成短、中、長期三個階段來規劃。\r\n\r\n**短期計畫（入學後第一學期）**\r\n在這個階段，我會專注在碩士班的核心課程上，努力把基礎打好。我相信基礎知識對於未來的深入研究非常重要，所以會認真上課、複習。像是高等演算法、高等資料結構這些課程，我會特別加強，希望能補足自己在大學期間可能還有一些不足的地方。同時，我也會主動去了解系上教授們的研究方向，特別是那些與多媒體、區塊鏈或是網路安全相關的實驗室。我會多方請教系上的學長姐，盡早找到符合自己興趣，又能發揮我過去經驗的指導教授，並且希望能盡快加入實驗室，開始參與研究。我也會多花時間在圖書館，翻閱相關的學術期刊，了解最新的研究發展。\r\n\r\n**中期計畫（入學後第二、三學期）**\r\n當我選定指導教授並加入實驗室後，我會積極投入教授所指導的專案研究。我希望能將我在大學期間接觸的多媒體、區塊鏈相關知識應用到實際的研究中，並且在這個過程中學習更多新的技術和研究方法。我會努力跟上實驗室的進度，主動提出問題、思考解決方案，並且積極與實驗室的成員討論交流，互相學習。在這個階段，我也會開始思考我的碩士論文題目，希望能找到一個有深度且有潛力的研究方向。我會大量閱讀相關的學術論文，並在教授的指導下，逐步進行實驗設計、資料分析、模型建構等工作。同時，如果時間允許，我也會考慮修習一些進階的專業選修課程，或是參與一些工作坊、研討會，拓展自己的專業視野。我希望能在這段時間內，累積足夠的研究經驗，培養獨立思考與解決問題的能力。\r\n\r\n**長期計畫（畢業後展望）**\r\n完成碩士學位後，我希望能夠將我在交通大學所學到的知識和經驗，應用到未來的職涯發展上。我對資工領域的未來充滿期待，無論是投入業界，在軟體開發、系統架構等職位上發揮所長，或是考慮繼續攻讀博士學位，在學術領域持續深耕，我都抱持開放的態度。我希望能成為一個能夠不斷學習、適應新技術的專業人才，為社會和科技進步貢獻一份心力。我期許自己未來能夠持續關注多媒體與區塊鏈技術的發展，並且持續提升自己的專業能力，為未來的科技創新貢獻自己的力量。",
+  "idea_units": [
+    {
+      "id": "2d420974-c487-4696-9120-f4fc15fc41ce",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "我是沈子揚，來自國立臺灣科技大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1a27670a-bab7-4619-9900-a31398c6c48f",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "從小我就對資訊科技這個領域充滿好奇，特別是看到軟體如何改變我們的生活，這讓我對程式設計與系統開發產生了濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b472b104-7e25-495c-a66e-2c69dc2bf5dd",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "大學期間，我一直都很努力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "35799267-f463-493f-aa97-df93b1f98ba8",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "雖然我的學業成績不算特別突出，修課平均大約落在 3.08 左右。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "51792014-ff36-44e1-a301-685d53afccae",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "但我一直都相信實作經驗才是最重要的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7e264335-dbfb-4b2c-af24-ce96ff33e0c1",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "也因此花了很多時間在專案與研究上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d2c87be7-b77c-495e-b6aa-b942c619b09b",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "在大學裡，我接觸了許多資訊工程的基礎知識，從程式語言到資料結構，還有演算法等等，這些都為我後來的實作打下了基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "17bdb0b4-7d56-42b2-9d17-6b82066ee9cc",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "我記得那時候上一些比較難的課，真的覺得很吃力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "17bb8347-23b3-4580-809f-147467525e5f",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "但每次解決問題的成就感都讓我覺得很值得。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "efb516c1-0d1f-46ad-a40d-8becaaaa85b2",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "尤其是在一些分組專題上，我們常常為了完成一個功能，花很多時間去研究不同的技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04b1ef54-0997-4e0d-8d62-737824b38817",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "雖然結果不一定完美，但過程中真的學到很多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "594638f3-0f8b-427d-b644-b3129e974645",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "後來我進入了學校的「多媒體區塊鏈應用實驗室」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f69ce052-8591-4efb-b5ac-d5914f3b207c",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "這對我的技術成長來說是一個很重要的轉捩點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fdd8e2dd-0e82-4189-87c5-49fd2e6a2860",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "在實驗室裡，我主要參與一個關於「基於區塊鏈的多媒體內容防偽與分享系統」的專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8613a53a-b555-4e9a-bf67-d75d6ea5c5c5",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "我們的目標是想辦法利用區塊鏈技術來確保數位多媒體內容的真實性，並且讓分享過程更安全。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa3e5b8d-cbf4-40f5-9ee3-995e755dbf72",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "這其實是一個很有挑戰性的題目。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a44353b4-6f19-4a4f-93f0-5164b442d7a1",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "因為多媒體檔案通常都很大，要怎麼跟區塊鏈結合，真的是一個很大的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b97d6914-1a07-489e-9395-7b60cd82c7a0",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "我主要負責的是前端介面的設計與後端資料庫的整合，還有一些智能合約的撰寫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9456ec0f-321b-41c7-834f-b0055f279c9b",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "在過程中，我們遇到很多關於資料處理效率的問題，因為區塊鏈的特性，有時候會覺得處理速度很慢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "30976b41-a1c8-4647-9d58-baee0881e4a8",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "這讓我們不斷去思考如何最佳化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c1184e68-44b9-435c-8759-2d5f207c27ba",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "這段經驗讓我對區塊鏈的運作原理以及多媒體內容處理有了更深入的理解，也培養了我解決實際問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f63e4abd-f0b9-4433-b6f9-0b22d022f5c7",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "做完才發現原來這麼多眉角。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0a6e5989-a498-4e37-9649-31c387556ffb",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "除了研究室的經驗，我也曾經在一家叫做「未來視野科技工作室」的新創公司兼職開發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "22a955ba-9b78-4332-8dd4-b99be17d0b8d",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "在那裡，我主要負責協助開發一個行動應用程式，用於管理用戶的多媒體內容，並且嘗試導入一些去中心化的概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "282424e0-5825-4179-ab55-b514609b1b8e",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "這個經驗讓我實際接觸到業界的開發流程，學會如何在時間壓力下完成任務，並且跟團隊成員協作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b3eb3da3-32df-4b7b-b473-bcdfddbe0a14",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "但從概念發想到實際部署，整個過程都讓我獲益良多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c97aee92-528d-4d08-8229-69ef8b18cb02",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "也更清楚軟體產品開發是怎麼一回事。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dc15ebd8-3c62-43cb-8ba0-d8bc488391de",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "我在大學期間也參加了區塊鏈技術研究社，跟社團的大家一起研究最新的區塊鏈應用，互相交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "629fae4d-1a3d-4c2e-b66d-cad1bb50a467",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "回顧這些經歷，我發現自己對資工領域的熱情越來越深，尤其是對於怎麼將新興技術應用到實際問題上特別感興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4718a25e-5892-4117-8d42-dc267eb511d0",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "我想繼續深造，進一步探索這些技術的潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "96422bd0-4bc4-4df6-803b-c7bebe536755",
+      "candidate_id": "mock_44",
+      "section": "自傳",
+      "content": "因此決定申請貴所，希望能有機會在更專業的環境中學習與成長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f2a5de7-591a-4faf-954c-dfc557921219",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "進入交通大學資訊工程學系碩士班，我已經做好準備，將全力投入學術研究與專業能力的提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "26767bae-03a3-496c-83e8-ea4b42aa84d6",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我會將我的學習計畫分成短、中、長期三個階段來規劃。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da81e03c-b3b0-452d-ac30-3666c85d6065",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "在這個階段，我會專注在碩士班的核心課程上，努力把基礎打好。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9a83793c-127d-4e85-8d9d-2e26cf71fb6c",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我相信基礎知識對於未來的深入研究非常重要，所以會認真上課、複習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "187e73e7-0dca-4c12-a66c-8b44b4896d98",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "像是高等演算法、高等資料結構這些課程，我會特別加強，希望能補足自己在大學期間可能還有一些不足的地方。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "91057acc-65db-4234-a2f0-8fd76891d3ac",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "同時，我也會主動去了解系上教授們的研究方向，特別是那些與多媒體、區塊鏈或是網路安全相關的實驗室。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0bd2d814-2207-4d89-9370-db6a1ebf23ab",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我會多方請教系上的學長姐，盡早找到符合自己興趣，又能發揮我過去經驗的指導教授，並且希望能盡快加入實驗室，開始參與研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "19d3bfe0-08cd-46a3-b1ae-acdad22cd4ff",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我也會多花時間在圖書館，翻閱相關的學術期刊，了解最新的研究發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "818a9672-85d9-49a0-86e4-4814cdc1d611",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "當我選定指導教授並加入實驗室後，我會積極投入教授所指導的專案研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dfb1aa64-9097-425e-adbf-18cefd564def",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我希望能將我在大學期間接觸的多媒體、區塊鏈相關知識應用到實際的研究中，並且在這個過程中學習更多新的技術和研究方法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3cdde6d0-8177-4606-bd14-b3c238bd3056",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我會努力跟上實驗室的進度，主動提出問題、思考解決方案，並且積極與實驗室的成員討論交流，互相學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6ef3b1c5-4fda-4ace-bf63-d2c7a8950bdc",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "在這個階段，我也會開始思考我的碩士論文題目，希望能找到一個有深度且有潛力的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb76fd11-41fe-42dd-8234-3c901d83538c",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我會大量閱讀相關的學術論文，並在教授的指導下，逐步進行實驗設計、資料分析、模型建構等工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5d768b49-c40b-4f1c-b5ad-3be73ebba372",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "同時，如果時間允許，我也會考慮修習一些進階的專業選修課程，或是參與一些工作坊、研討會，拓展自己的專業視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4aac1de5-92ce-4be8-bc6e-d2a9d7b75ddf",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我希望能在這段時間內，累積足夠的研究經驗，培養獨立思考與解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1ee1dc5b-9ded-4387-865a-d3504760feb4",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "完成碩士學位後，我希望能夠將我在交通大學所學到的知識和經驗，應用到未來的職涯發展上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "48e37747-3dc3-4e13-bfd2-2fee1f05e758",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我對資工領域的未來充滿期待，無論是投入業界，在軟體開發、系統架構等職位上發揮所長，或是考慮繼續攻讀博士學位，在學術領域持續深耕，我都抱持開放的態度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b6d2ffcb-d1eb-4627-9e48-806d81e88571",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我希望能成為一個能夠不斷學習、適應新技術的專業人才，為社會和科技進步貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db36b258-635e-4127-8af1-a42da8b599e8",
+      "candidate_id": "mock_44",
+      "section": "讀書計畫",
+      "content": "我期許自己未來能夠持續關注多媒體與區塊鏈技術的發展，並且持續提升自己的專業能力，為未來的科技創新貢獻自己的力量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "candidate_id": "mock_3",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_3.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n我在交大資工系的求學歷程，如同我所熱愛的長號演奏，起初雖從基礎的音符與指法學起，但在不斷的練習與挑戰中，我逐漸掌握了複雜的樂章，並從中找到屬於自己的獨特聲響。在大學四年中，我深深著迷於硬體架構的精巧設計與其背後所蘊含的強大潛力，尤其在加解密硬體架構及量子計算領域，我發現了將硬體效率與資訊安全完美結合的無限可能，這也驅使我申請本所，期許能在交大資工所頂尖的學術環境中，進一步深耕於這些前瞻性研究。\r\n\r\n### 學術背景與硬體熱忱\r\n\r\n回顧我的大學學業成績，整體修課平均維持在 3.69，這不僅反映了我對學術的投入，更凸顯我在硬體相關課程的卓越表現。在大一、大二時，我便對計算機組織與數位邏輯設計產生濃厚的興趣，透過「數位邏輯設計與實驗」及「計算機組織」等課程，我紮實地掌握了組合邏輯與循序邏輯電路的設計原理，並在實驗課中，首次接觸到 FPGA 實作。這些初期經驗，讓我意識到硬體設計不僅是理論推導，更是將抽象概念轉化為實際運作系統的藝術。\r\n\r\n升上大三後，我選修了「數位積體電路設計」與「超大型積體電路設計」，這兩門課程為我的硬體知識體系打下堅實基礎。在「數位積體電路設計」中，我學會了使用 Verilog HDL 進行電路描述，並透過 Synopsys Design Compiler 進行邏輯合成，利用 Cadence Virtuoso 進行版圖設計。我深刻理解了時序分析、功耗優化、面積壓縮等關鍵指標對晶片效能的影響。課程專題期間，我與組員一同設計了一個 8 位元的 RISC-V 處理器核心，我們從指令集架構定義、RTL 設計到功能驗證，全程參與。為確保處理器能高效執行，我們在 pipelining 設計上投入大量精力，最終成功地在 Altera Cyclone IV FPGA 上實現，並通過多組測試程式的驗證。這項專案讓我第一次體會到從零開始構建複雜硬體系統的成就感，也意識到系統測試的重要性，因為一個微小的時序問題都可能導致整個系統崩潰。\r\n\r\n### 密碼學硬體與個人專題\r\n\r\n我對加解密硬體架構的興趣，起源於大三上學期修習的「密碼學原理」。這門課讓我對資訊安全背後數學原理與演算法之美深深著迷。課程中，當學習到 AES、RSA 等非對稱加密演算法的理論時，我便開始思考如何在硬體層面實現這些複雜的計算，以達到更高的效率與安全性。\r\n\r\n缺乏研究室的機會，我決定透過課程專題與個人 side project 來彌補。在「數位積體電路設計」的期末專題中，我主動選擇了「AES-128 硬體加密模組」作為挑戰。我負責設計模組的 RTL 架構與控制邏輯，並使用 Verilog HDL 進行編寫。為了達到高效能，我採用了多級管線化 (pipelining) 設計，將 AES 加密過程中的輪函數分解，使其能同時處理不同階段的資料。此外，我還引入了查找表 (Look-up Table) 來加速 S-box 運算。透過 Xilinx Vivado 工具進行綜合與實作，最終在 Xilinx Artix-7 FPGA 上驗證，該模組在 125 MHz 的工作頻率下，達成了約 1.5 Gbps 的加密吞吐量，並成功通過 NIST 推薦的測試向量。這次經驗讓我深刻理解到密碼演算法在硬體實現上的挑戰與優化技巧，也才意識到資源限制與效能之間的權衡是硬體設計中不可避免的難題。\r\n\r\n在大三下的空檔，我進一步自學了輕量級密碼學 (Lightweight Cryptography) 的相關知識，並嘗試在個人專案中，以 Verilog 實作了 PRESENT 演算法的硬體加速器。我特別關注於如何最小化邏輯閘數量與功耗，這對於物聯網 (IoT) 裝置等資源受限的應用至關重要。我透過不斷調整架構，並使用 Synopsys DC 進行功耗與面積分析，雖然最終版本仍有優化空間，但這讓我對低功耗密碼硬體的設計原則有了初步的認識。\r\n\r\n### 量子計算的啟蒙與探索\r\n\r\n除了傳統密碼學硬體，我對量子計算的未來潛力也充滿了好奇。大二下學期，在修習了「線性代數」與「離散數學」後，我對量子力學中疊加態與糾纏的概念產生了強烈的興趣。我利用課餘時間，大量閱讀科普書籍與線上資源，初步理解了量子計算的基本原理。\r\n\r\n大三寒假，我利用 IBM Qiskit 平台，開始我的量子計算自學之旅。我從最基礎的 Hadamard 門、CNOT 門開始，逐步實作了 Deutsch-Jozsa 演算法和 Grover's 搜尋演算法的簡化版本。我還嘗試了建構一些基本的量子電路，例如量子傅立葉變換 (QFT)，並在模擬器上觀察其輸出結果。這些實作讓我第一次體會到量子位元獨特的運算模式，並深入了解了量子態如何透過邏輯閘進行轉換，以及量子糾纏在演算法中的關鍵角色。透過這些經驗，我開始思考，當量子計算技術成熟時，如何設計高效能的量子安全密碼學 (Post-Quantum Cryptography, PQC) 硬體，以抵禦未來量子電腦的威脅，這也將成為我未來研究的重要方向。\r\n\r\n### 管樂團的磨練與成長\r\n\r\n除了學術上的追求，我大學四年來一直活躍於交大管樂團，擔任長號手。音樂對我而言，不僅是興趣，更是磨練心性與培養團隊精神的重要場域。管樂團的排練與演出，要求高度的專注力、紀律性以及與團員間的默契。我曾在校慶音樂會中擔任小組首席，負責協調長號聲部與其他銅管聲部之間的配合。這段經歷讓我學會了如何在壓力下保持冷靜，如何在複雜的樂譜中找出自己的定位，以及如何與不同聲部的團員有效溝通，共同完成一場完美的演出。這些能力，我相信在未來研究室的團隊合作中，將會是寶貴的資產。\r\n\r\n### 選擇交大資工所的動機\r\n\r\n我選擇申請交大資工所，特別是資工系，是因為本系在硬體設計、積體電路與資訊安全領域，擁有國內外頂尖的師資與完善的研究資源。身為交大校友，我深知這裡濃厚的研究氛圍與卓越的學術表現，這使我對留在本校攻讀碩士充滿信心與期待。\r\n\r\n我的研究興趣明確地聚焦於加解密硬體架構與量子計算的交叉領域。我期盼能在本所，結合現有硬體設計的堅實基礎，深入探索高效能、低功耗的量子安全密碼硬體實作，以及量子錯誤修正碼的硬體架構設計。我特別關注於本系在 VLSI 設計、電腦架構與資訊安全等領域的卓越研究團隊，相信能在這些領域找到契合的指導教授，並在他們的指導下，將我的學術熱情轉化為具體的科研成果。\r\n\r\n展望未來，我希望能夠在交大資工所的兩年碩士學程中，不僅深化專業知識，更能培養獨立思考與解決問題的能力，最終將我的研究貢獻於資訊安全與未來計算技術的發展。我堅信我的學術背景、對硬體的熱情以及對前瞻科技的探索精神，使我成為交大資工所的理想人選，我已準備好迎接挑戰，為本所帶來活力與貢獻。\r\n\r\n## 讀書計畫\r\n\r\n進入交大資工所攻讀碩士學位，我為自己設定了一套清晰且有條理的學習與研究計畫，旨在深度探索加解密硬體架構與量子計算領域，並最終完成具創新性的碩士論文。我計畫將碩士生涯分為短期、中期與長期目標，循序漸進地達成我的學術抱負。\r\n\r\n### 短期目標 (碩士班第一學年，113-1 學期至 113-2 學期)\r\n\r\n這一年將是打穩理論基礎、適應研究生活、並確定研究方向的關鍵時期。\r\n\r\n1. **深化專業知識與補足背景**：\r\n * **密集修課**：我計畫在第一學年修習至少 18 學分的課程，主要集中在以下幾個方向：\r\n * **密碼學相關**：選修「高等密碼學」、「應用密碼學」等課程，深入學習數論、橢圓曲線密碼學 (ECC)、格點密碼學 (Lattice-based Cryptography) 等進階理論，特別關注量子安全密碼學 (PQC) 的各類候選演算法及其數學基礎。\r\n * **硬體設計相關**：選修「高等電腦架構」、「VLSI 設計與實現」、「硬體安全」等課程，學習進階的晶片設計流程、時序收斂、低功耗設計技巧，並了解硬體木馬、側通道攻擊與其防禦機制。\r\n * **量子計算入門**：若有開設「量子計算導論」或「量子資訊」相關課程，我會優先選修；若無，則會更深入地自學，利用線上資源如 Coursera 上的量子計算課程，並持續精進 IBM Qiskit 的實作能力，目標是能理解與實作 Shor's algorithm 及 Grover's algorithm 的完整流程。\r\n * **論文閱讀**：積極閱讀 ACM/IEEE T-CAD, TC, TVLSI, DAC, ICCAD, CHES, DATE 等頂級會議與期刊上關於密碼學硬體、硬體安全、以及量子計算硬體實現的最新論文，追蹤技術前沿，了解當前研究熱點與未解決的挑戰。\r\n\r\n2. **融入研究室與尋找指導教授**：\r\n * **參與實驗室活動**：主動參與本系相關研究領域的實驗室會議、專題討論與研討會，了解各實驗室的研究方向、氛圍與資源。\r\n * **拜訪教授**：在對實驗室有初步了解後，我將積極拜訪在加解密硬體、硬體安全或量子計算領域有研究的教授，表達我的研究興趣與過去經驗。我希望能在資工系找到能指導我將硬體設計與密碼學/量子計算結合的教授，例如專注於高效率密碼硬體實作、安全處理器設計或量子電路最佳化等方向的老師。\r\n * **熟悉工具**：進入實驗室後，快速熟悉實驗室常用的 EDA 工具（如 Cadence Virtuoso, Synopsys Design Compiler, PrimeTime, VCS）以及 FPGA 開發套件（如 Xilinx Vivado, Vitis HLS）和驗證環境。\r\n\r\n3. **小型研究專案啟動**：在選定指導教授後，我將與教授討論並開始進行一個小型的研究專案，可能是對某個 PQC 演算法的硬體實現進行初步探索，或是針對現有密碼硬體的某個部分進行優化與分析，以此熟悉研究流程與方法。\r\n\r\n### 中期目標 (碩士班第二學年，114-1 學期至 114-2 學期)\r\n\r\n這一年將是研究成果產出、論文撰寫的衝刺階段。\r\n\r\n1. **專注論文研究與實作**：\r\n * **確立研究主題**：結合短期目標的學習與小型專案經驗，與指導教授共同確立碩士論文的具體研究主題。我目前傾向於以下方向：\r\n * **高效能量子安全密碼學 (PQC) 硬體實作**：研究如何將格點密碼 (Lattice-based Cryptography) 或基於雜湊的簽章 (Hash-based Signatures) 等 PQC 演算法，在 ASIC 或 FPGA 上實現最佳的效能 (throughput)、功耗與面積。例如，專注於 FrodoKEM 或 Dilithium 演算法的數乘模組與多項式運算的硬體加速。\r\n * **輕量級加密硬體的側通道攻擊防禦**：研究在資源受限環境下，如何設計具備抗側通道攻擊能力 (如功耗分析攻擊) 的輕量級密碼硬體。\r\n * **量子錯誤修正碼的硬體架構探索**：探討表面碼 (Surface Code) 或其他量子錯誤修正碼在物理層面的硬體實現方案，以及如何設計高效的解碼器。\r\n * **系統設計與實現**：根據選定的主題，進行詳細的硬體架構設計、RTL 編碼、邏輯合成、佈局繞線，並利用模擬器進行功能驗證與時序分析。針對 PQC 硬體，我將特別關注其數論運算元的硬體最佳化。\r\n * **實驗與評估**：在 FPGA 開發板或模擬環境中進行實作與驗證，並對設計成果進行嚴格的效能、功耗、面積分析與安全性評估，與現有研究成果進行比較。\r\n\r\n2. **論文撰寫與發表**：\r\n * **定期報告**：定期向指導教授與實驗室成員報告研究進度，接受意見與建議，不斷修正研究方向與方法。\r\n * **撰寫論文**：根據研究成果，逐步撰寫碩士學位論文，確保研究的嚴謹性與完整性。\r\n * **投稿發表**：將具備創新性的研究成果整理成學術論文，目標投稿至相關領域的國際會議 (如 CHES, HOST, DAC, ICCAD) 或期刊 (如 IEEE TC, TVLSI, TIFS)，積極與學術界交流。\r\n\r\n### 長期目標 (碩士畢業後)\r\n\r\n完成碩士學位後，我對未來的發展充滿期待，並有兩種主要方向：\r\n\r\n1. **攻讀博士學位**：如果碩士期間的研究成果豐碩，且我對學術研究保持著高度熱情，我將考慮繼續攻讀博士學位，在加解密硬體或量子計算領域進行更深入、更具突破性的研究。我期許未來能成為該領域的頂尖研究者，為台灣乃至全球的資訊安全技術發展貢獻心力。\r\n\r\n2. **投入產業研發**：若選擇進入業界，我希望能夠加入頂尖的半導體公司、資安公司或研究機構的研發團隊，從事與安全晶片設計、密碼加速器開發、或量子安全硬體相關的工作。我期待能將在交大資工所學習到的專業知識與實作經驗應用於產業中，參與開發下一代安全高效的計算系統。\r\n\r\n### 結語\r\n\r\n我深信交大資工所提供的豐富資源與卓越師資，將是我實現這些學術與職涯目標的最佳平台。我已經準備好投入百分之百的熱情與努力，為本所的研究貢獻我的所學與創意。我期待能成為貴所的一份子，與師長同學們共同探索資訊科技的無盡前沿。",
+  "idea_units": [
+    {
+      "id": "9bbc995b-b14d-4b1b-b39b-4fb9fe74b063",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我在交大資工系的求學歷程，如同我所熱愛的長號演奏，起初雖從基礎的音符與指法學起，但在不斷的練習與挑戰中，我逐漸掌握了複雜的樂章，並從中找到屬於自己的獨特聲響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4eeaf58f-e35a-48ea-9e14-b403ffe693bc",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "在大學四年中，我深深著迷於硬體架構的精巧設計與其背後所蘊含的強大潛力，尤其在加解密硬體架構及量子計算領域，我發現了將硬體效率與資訊安全完美結合的無限可能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4a11a78e-669e-4ad9-8712-e14f06e88bad",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "期許能在交大資工所頂尖的學術環境中，進一步深耕於這些前瞻性研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d9263069-d9c4-4c26-81aa-35c748b6e97c",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "回顧我的大學學業成績，整體修課平均維持在 3.69。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bbebfd29-a5c9-45f0-b25e-d0483da30a67",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這不僅反映了我對學術的投入，更凸顯我在硬體相關課程的卓越表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3c7e2798-caf1-4cba-95ed-66a74abb21ed",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "在大一、大二時，我便對計算機組織與數位邏輯設計產生濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "005c166f-20f5-4134-9d9f-fbe2dffc26ad",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "透過「數位邏輯設計與實驗」及「計算機組織」等課程，我紮實地掌握了組合邏輯與循序邏輯電路的設計原理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a64d8f21-eba5-4878-8251-c8b31b13d21d",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "並在實驗課中，首次接觸到 FPGA 實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1db319bf-4c5c-4bf3-9c47-e791507d97c3",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這些初期經驗，讓我意識到硬體設計不僅是理論推導，更是將抽象概念轉化為實際運作系統的藝術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd7f35d4-805a-4e76-8bd5-0fdec5e33b50",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "升上大三後，我選修了「數位積體電路設計」與「超大型積體電路設計」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d281f630-0e24-4834-be95-c24291b4a98e",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這兩門課程為我的硬體知識體系打下堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2a7e4ef2-8518-457d-b3cc-0cc41a8cbbd5",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "在「數位積體電路設計」中，我學會了使用 Verilog HDL 進行電路描述，並透過 Synopsys Design Compiler 進行邏輯合成，利用 Cadence Virtuoso 進行版圖設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6205e301-fd2f-4095-acf9-6c344b67e83f",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我深刻理解了時序分析、功耗優化、面積壓縮等關鍵指標對晶片效能的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "535723a3-85f3-4b5b-b315-9c9a2c6bc87b",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "課程專題期間，我與組員一同設計了一個 8 位元的 RISC-V 處理器核心，我們從指令集架構定義、RTL 設計到功能驗證，全程參與。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df848be4-5699-42e5-b467-31a3374053ef",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "為確保處理器能高效執行，我們在 pipelining 設計上投入大量精力，最終成功地在 Altera Cyclone IV FPGA 上實現，並通過多組測試程式的驗證。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c2c05fb5-d0d3-4c40-b4ad-320d424eb901",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這項專案讓我第一次體會到從零開始構建複雜硬體系統的成就感。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4ec36a1d-a217-4938-8073-e4cafc989fb1",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "也意識到系統測試的重要性，因為一個微小的時序問題都可能導致整個系統崩潰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "03de2741-af7c-46c8-9df0-9d9ebff7b13b",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我對加解密硬體架構的興趣，起源於大三上學期修習的「密碼學原理」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3662ec09-3a89-47f6-b1d7-efc9bdaaa8ab",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這門課讓我對資訊安全背後數學原理與演算法之美深深著迷。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7fa9e534-8982-4c1c-b60a-c6964d507321",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "課程中，當學習到 AES、RSA 等非對稱加密演算法的理論時，我便開始思考如何在硬體層面實現這些複雜的計算，以達到更高的效率與安全性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e6d40b31-348c-49b8-8f80-8c8b7fc5aa69",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "缺乏研究室的機會，我決定透過課程專題與個人 side project 來彌補。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f7198e7d-4bb5-4f90-b417-282a977c0034",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "在「數位積體電路設計」的期末專題中，我主動選擇了「AES-128 硬體加密模組」作為挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f5ce7f6-1f7b-48fa-b260-cbb1323f56f6",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我負責設計模組的 RTL 架構與控制邏輯，並使用 Verilog HDL 進行編寫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cbcac99d-3b2c-4c23-bf75-920e6e916dba",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "為了達到高效能，我採用了多級管線化 (pipelining) 設計，將 AES 加密過程中的輪函數分解，使其能同時處理不同階段的資料。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58b008f5-7bb5-4df9-ac53-5c74f7bf7b65",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "此外，我還引入了查找表 (Look-up Table) 來加速 S-box 運算。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7e72c78f-4b9d-485a-b427-ff63b9b12478",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "透過 Xilinx Vivado 工具進行綜合與實作，最終在 Xilinx Artix-7 FPGA 上驗證，該模組在 125 MHz 的工作頻率下，達成了約 1.5 Gbps 的加密吞吐量，並成功通過 NIST 推薦的測試向量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "99fd1271-59fb-4240-abc6-1911adb2c533",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這次經驗讓我深刻理解到密碼演算法在硬體實現上的挑戰與優化技巧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "77b04698-1cbc-4b5d-b481-d91df0b4134a",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "也才意識到資源限制與效能之間的權衡是硬體設計中不可避免的難題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aa177898-bfe2-4918-a633-487e69e27c6a",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "在大三下的空檔，我進一步自學了輕量級密碼學 (Lightweight Cryptography) 的相關知識，並嘗試在個人專案中，以 Verilog 實作了 PRESENT 演算法的硬體加速器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f66261dc-97c7-4e8d-b159-0a070646a63d",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我特別關注於如何最小化邏輯閘數量與功耗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2dbfba4-b8e3-4648-97da-0589d83ca6ce",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這對於物聯網 (IoT) 裝置等資源受限的應用至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7640ecd9-181a-44d1-bf74-ae9f0b669844",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我透過不斷調整架構，並使用 Synopsys DC 進行功耗與面積分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "882f3f46-73a3-4a81-8214-e9a35972ac3e",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "雖然最終版本仍有優化空間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "80e01c70-a827-49f7-b14f-60d27d7a3c7a",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "但這讓我對低功耗密碼硬體的設計原則有了初步的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e3b0c61a-8388-4403-849f-ae7c3ded7d9a",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "除了傳統密碼學硬體，我對量子計算的未來潛力也充滿了好奇。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bee349d7-56a5-4023-8a49-8da5845a86cb",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "大二下學期，在修習了「線性代數」與「離散數學」後，我對量子力學中疊加態與糾纏的概念產生了強烈的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "240aaa4d-f3e3-479b-97c2-7e0c2c315458",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我利用課餘時間，大量閱讀科普書籍與線上資源，初步理解了量子計算的基本原理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2bc64191-49b8-49de-b2f8-3ea2c7786123",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "大三寒假，我利用 IBM Qiskit 平台，開始我的量子計算自學之旅。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be8edb02-848c-4088-8507-9afdcedb0c4d",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我從最基礎的 Hadamard 門、CNOT 門開始，逐步實作了 Deutsch-Jozsa 演算法和 Grover's 搜尋演算法的簡化版本。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5e361c5b-5269-4c89-84f4-036a2582c603",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我還嘗試了建構一些基本的量子電路，例如量子傅立葉變換 (QFT)，並在模擬器上觀察其輸出結果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d143074-2288-453a-a365-9d5f4c7ee217",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這些實作讓我第一次體會到量子位元獨特的運算模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "216b1660-5e78-44a9-a34c-63c658eb05b0",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "並深入了解了量子態如何透過邏輯閘進行轉換，以及量子糾纏在演算法中的關鍵角色。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "676a03db-8392-480a-bf00-3dd53c2b1c29",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "透過這些經驗，我開始思考，當量子計算技術成熟時，如何設計高效能的量子安全密碼學 (Post-Quantum Cryptography, PQC) 硬體，以抵禦未來量子電腦的威脅。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "859e1815-0c62-4118-8434-3407c5f9731c",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這也將成為我未來研究的重要方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fff886ba-a884-45d7-af14-96f3d272f6e9",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "除了學術上的追求，我大學四年來一直活躍於交大管樂團，擔任長號手。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3c787671-d763-4795-979b-db325292d1e5",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "音樂對我而言，不僅是興趣，更是磨練心性與培養團隊精神的重要場域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e5bb25ef-6f0a-4278-99f3-6c8b19d82f8f",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "管樂團的排練與演出，要求高度的專注力、紀律性以及與團員間的默契。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d11beda-f01d-4d2e-9d6d-452c4f145b04",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我曾在校慶音樂會中擔任小組首席，負責協調長號聲部與其他銅管聲部之間的配合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c2962733-6681-43fe-af99-53aa19c1fac6",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這段經歷讓我學會了如何在壓力下保持冷靜，如何在複雜的樂譜中找出自己的定位，以及如何與不同聲部的團員有效溝通，共同完成一場完美的演出。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a5b6b440-85ee-4dbd-a817-ded4f320cba8",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這些能力，我相信在未來研究室的團隊合作中，將會是寶貴的資產。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "52146df6-af23-4e13-9343-9cf8797ef94d",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我選擇申請交大資工所，特別是資工系，是因為本系在硬體設計、積體電路與資訊安全領域，擁有國內外頂尖的師資與完善的研究資源。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9d53357-f53b-4e30-80c3-abdc4c2e0d60",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "身為交大校友，我深知這裡濃厚的研究氛圍與卓越的學術表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "547a976f-f682-4a27-867b-56403ccee3dd",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "這使我對留在本校攻讀碩士充滿信心與期待。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "15b70adc-8d2f-40fc-8b92-81dd8a5b4c3b",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我的研究興趣明確地聚焦於加解密硬體架構與量子計算的交叉領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1c011b66-070e-4d5f-a6b6-bed1d434cd9f",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我期盼能在本所，結合現有硬體設計的堅實基礎，深入探索高效能、低功耗的量子安全密碼硬體實作，以及量子錯誤修正碼的硬體架構設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0b69cb14-e861-4a51-98b4-fdf8d36596f3",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我特別關注於本系在 VLSI 設計、電腦架構與資訊安全等領域的卓越研究團隊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ca9c23d2-cdbe-4bd6-9063-5a5e3f209805",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "相信能在這些領域找到契合的指導教授，並在他們的指導下，將我的學術熱情轉化為具體的科研成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1bbc26ac-70c3-4fde-96b0-8bf068154c4f",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "展望未來，我希望能夠在交大資工所的兩年碩士學程中，不僅深化專業知識，更能培養獨立思考與解決問題的能力，最終將我的研究貢獻於資訊安全與未來計算技術的發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a29db67b-70cf-4141-b18d-c525083f2a4c",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我堅信我的學術背景、對硬體的熱情以及對前瞻科技的探索精神，使我成為交大資工所的理想人選。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "adffcf65-243a-42a2-82bb-f51a94bb54be",
+      "candidate_id": "mock_3",
+      "section": "自傳",
+      "content": "我已準備好迎接挑戰，為本所帶來活力與貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d16c06e7-e340-4c05-a1c5-fe89e943bf16",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "進入交大資工所攻讀碩士學位，我為自己設定了一套清晰且有條理的學習與研究計畫，旨在深度探索加解密硬體架構與量子計算領域，並最終完成具創新性的碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa3084b2-8054-4d20-a72d-aedd704d1571",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "我計畫將碩士生涯分為短期、中期與長期目標，循序漸進地達成我的學術抱負。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "809f9cc0-6e74-4d88-b347-4c5ba588017e",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "這一年將是打穩理論基礎、適應研究生活、並確定研究方向的關鍵時期。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c26dc40d-ca77-4c87-bb8e-5b309d36b057",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "我計畫在第一學年修習至少 18 學分的課程，主要集中在以下幾個方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb9db497-451c-4924-be6d-1f38845586fa",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "選修「高等密碼學」、「應用密碼學」等課程，深入學習數論、橢圓曲線密碼學 (ECC)、格點密碼學 (Lattice-based Cryptography) 等進階理論，特別關注量子安全密碼學 (PQC) 的各類候選演算法及其數學基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "926fb380-f2f1-40d9-90c9-af0f4d7623e9",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "選修「高等電腦架構」、「VLSI 設計與實現」、「硬體安全」等課程，學習進階的晶片設計流程、時序收斂、低功耗設計技巧，並了解硬體木馬、側通道攻擊與其防禦機制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "152c572f-6f28-440d-8c21-504bfe6b3d00",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "若有開設「量子計算導論」或「量子資訊」相關課程，我會優先選修。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d2bdd588-21e2-49f0-a96f-0cc59ff06d86",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "若無，則會更深入地自學，利用線上資源如 Coursera 上的量子計算課程，並持續精進 IBM Qiskit 的實作能力，目標是能理解與實作 Shor's algorithm 及 Grover's algorithm 的完整流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ca7bb899-eb39-427a-997f-b0b1d4c92745",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "積極閱讀 ACM/IEEE T-CAD, TC, TVLSI, DAC, ICCAD, CHES, DATE 等頂級會議與期刊上關於密碼學硬體、硬體安全、以及量子計算硬體實現的最新論文，追蹤技術前沿，了解當前研究熱點與未解決的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cc2a74f3-c2e8-4ee8-9067-2589f1eb0cab",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "主動參與本系相關研究領域的實驗室會議、專題討論與研討會，了解各實驗室的研究方向、氛圍與資源。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38d4b892-c44b-41e8-bdd6-0fcff6a3f76d",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "在對實驗室有初步了解後，我將積極拜訪在加解密硬體、硬體安全或量子計算領域有研究的教授，表達我的研究興趣與過去經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c9bb2957-ecec-4b15-8204-75c5db1576f1",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "我希望能在資工系找到能指導我將硬體設計與密碼學/量子計算結合的教授，例如專注於高效率密碼硬體實作、安全處理器設計或量子電路最佳化等方向的老師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c454ab18-5ca0-46c9-bbb2-4166bd5294d1",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "進入實驗室後，快速熟悉實驗室常用的 EDA 工具（如 Cadence Virtuoso, Synopsys Design Compiler, PrimeTime, VCS）以及 FPGA 開發套件（如 Xilinx Vivado, Vitis HLS）和驗證環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "361e6541-9b9d-4f0b-a83f-42361df768bf",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "在選定指導教授後，我將與教授討論並開始進行一個小型的研究專案，可能是對某個 PQC 演算法的硬體實現進行初步探索，或是針對現有密碼硬體的某個部分進行優化與分析，以此熟悉研究流程與方法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a45306cc-f580-4bbb-bfed-6c4f71848295",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "這一年將是研究成果產出、論文撰寫的衝刺階段。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "967583c1-2c7b-4c07-9abf-56724fc7b772",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "結合短期目標的學習與小型專案經驗，與指導教授共同確立碩士論文的具體研究主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0213f06-6ec2-4c2c-9142-8dcddd5722d4",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "研究如何將格點密碼 (Lattice-based Cryptography) 或基於雜湊的簽章 (Hash-based Signatures) 等 PQC 演算法，在 ASIC 或 FPGA 上實現最佳的效能 (throughput)、功耗與面積。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0449e4e7-79b0-41a8-94cb-85bf90eeab56",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "例如，專注於 FrodoKEM 或 Dilithium 演算法的數乘模組與多項式運算的硬體加速。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fc55dba7-7dc1-4da9-90e3-5d9b10874a0b",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "研究在資源受限環境下，如何設計具備抗側通道攻擊能力 (如功耗分析攻擊) 的輕量級密碼硬體。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7ddc0e4b-2bbd-4365-8854-87878a6f05b5",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "探討表面碼 (Surface Code) 或其他量子錯誤修正碼在物理層面的硬體實現方案，以及如何設計高效的解碼器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e25c6d2a-d36b-41bc-a9f3-0017fa5fd80a",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "根據選定的主題，進行詳細的硬體架構設計、RTL 編碼、邏輯合成、佈局繞線，並利用模擬器進行功能驗證與時序分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "13c74590-aea0-4f9c-8d2d-d44592f34d4d",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "針對 PQC 硬體，我將特別關注其數論運算元的硬體最佳化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dcc7a3a6-4fb6-4bff-ba77-9c5c36d9a3ad",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "在 FPGA 開發板或模擬環境中進行實作與驗證，並對設計成果進行嚴格的效能、功耗、面積分析與安全性評估，與現有研究成果進行比較。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5dcb8f0f-109a-425f-803f-7b3bb4f83fbf",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "定期向指導教授與實驗室成員報告研究進度，接受意見與建議，不斷修正研究方向與方法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8a52cace-5752-4bd4-a522-c970e38a1372",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "根據研究成果，逐步撰寫碩士學位論文，確保研究的嚴謹性與完整性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df54cd22-cc70-46c6-8ac8-6a74421ef6b6",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "將具備創新性的研究成果整理成學術論文，目標投稿至相關領域的國際會議 (如 CHES, HOST, DAC, ICCAD) 或期刊 (如 IEEE TC, TVLSI, TIFS)，積極與學術界交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b10deacc-c5d0-4b2b-84e1-864e66d1fb3d",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "完成碩士學位後，我對未來的發展充滿期待，並有兩種主要方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6a012010-1848-4c95-af1b-875a3608b680",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "如果碩士期間的研究成果豐碩，且我對學術研究保持著高度熱情，我將考慮繼續攻讀博士學位，在加解密硬體或量子計算領域進行更深入、更具突破性的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4855fa1e-ad27-48e0-bf76-be1ae2d2d4cc",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "我期許未來能成為該領域的頂尖研究者，為台灣乃至全球的資訊安全技術發展貢獻心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b75737c-a96f-48f0-b52d-92878270a1ac",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "若選擇進入業界，我希望能夠加入頂尖的半導體公司、資安公司或研究機構的研發團隊，從事與安全晶片設計、密碼加速器開發、或量子安全硬體相關的工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "20b1704a-7220-4457-974d-74ee1a49ba9b",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "我期待能將在交大資工所學習到的專業知識與實作經驗應用於產業中，參與開發下一代安全高效的計算系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1a831c7-4819-42ae-83f6-3ddc02146a1f",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "我深信交大資工所提供的豐富資源與卓越師資，將是我實現這些學術與職涯目標的最佳平台。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1fdbbcec-6997-4e80-9b6e-ef88a1aaca6b",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "我已經準備好投入百分之百的熱情與努力，為本所的研究貢獻我的所學與創意。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58310c92-2087-4aee-80d9-ec3a1381d5d4",
+      "candidate_id": "mock_3",
+      "section": "讀書計畫",
+      "content": "我期待能成為貴所的一份子，與師長同學們共同探索資訊科技的無盡前沿。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

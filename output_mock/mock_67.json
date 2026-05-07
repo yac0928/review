@@ -1,0 +1,459 @@
+{
+  "candidate_id": "mock_67",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_67.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n梁韋翰，我是國立交通大學電機工程學系的大學部學生。從小我就對一些很精密的系統特別有興趣，會一直想知道它們是怎麼運作的。在電機系讀書的時候，我學到很多基礎的電機知識，像電路啊、電子學這些，對我後來理解一些通訊原理很有幫助。\r\n\r\n**學習歷程與能力培養**\r\n我大學的學業成績大約是 3.04，我知道這個數字可能不是最亮眼的，但我在電機系的這段時間，其實發現自己對軟體、對程式設計的興趣越來越濃。一開始是修了幾堂程式設計的課，覺得用程式來解決問題很有趣。後來又接觸到一些通訊技術的課程，才慢慢發現了密碼學這個領域。我覺得這是一個結合了數學、資訊安全還有通訊技術的很有挑戰性的方向。\r\n\r\n我尤其對量子密碼和一些通訊安全的問題很感興趣。我發現電機系的課程雖然有教通訊原理，但對背後的軟體實作和更深層的密碼學理論，我還是想學更多。這種跨領域的感覺，讓我下定決心要往資工所發展，特別是像交大資工這樣有很強的師資和資源的地方。\r\n\r\n**研究與實作經驗**\r\n在大三的時候，我有幸加入了系上一個叫「智慧通訊安全實驗室」的實驗室。雖然主要還是以電機系的老師為主，但裡面有很多專案都跟資工領域很靠近。我參與了一個關於安全通訊協定的研究專案。主要是幫忙研究一些量子密碼的初步概念，然後試著用程式去模擬一些簡單的量子通訊過程。我們用了一些常用的程式語言，然後跑了一些數據分析，雖然結果還在初期階段，但我從中學到很多關於如何設計安全的通訊機制，還有處理一些實驗數據。這個經驗讓我發現，理論跟實作真的差很多，很多時候都會遇到預期外的問題，需要一直去調整。\r\n\r\n另外，我也曾經在一家叫「安訊科技」的新創公司兼職過一段時間。他們主要是在做一些網路安全的解決方案。我在那裡主要負責一些後端開發的工作，像是幫忙維護他們的資料庫，還有處理一些使用者資料的加密。雖然不是核心的演算法開發，但讓我對業界的軟體開發流程，還有實際遇到的資安挑戰，有了更具體的認識，真的獲益良多。這讓我更確定我對資訊安全的熱情。\r\n\r\n**個人特質與課外活動**\r\n除了學術上的探索，我也會利用課餘時間發展一些興趣。我大學時考取了寵物訓練師證照。這個經驗其實也培養了我很大的耐心和觀察力，因為訓練小動物需要很仔細地去了解牠們的行為模式，還要很有技巧地引導牠們。我覺得這跟做研究很像，都需要細心觀察、耐心嘗試，然後不斷調整方法，最後才能解決問題。這也讓我學到，解決問題不一定只有一種方法，有時候換個角度思考會有意想不到的結果。\r\n\r\n## 讀書計畫\r\n\r\n我申請交大資工所是希望能夠更深入地學習量子密碼、通訊技術和密碼學這些領域。我的目標是成為一個能夠在資訊安全領域有所貢獻的工程師或研究人員。我知道這條路不容易，但我已經準備好投入所有的精力去學習。\r\n\r\n**短期計畫（入學後第一年）**\r\n入學之後，我會先盡快適應研究所的學習節奏。首先，我會把重心放在補強資工基礎知識上，特別是那些我在電機系可能沒有深入學習的課程，像是高等演算法、作業系統、網路概論這些核心課程。我會努力修習相關的專業課程，像是密碼學專題、資訊安全導論、量子計算導論等。我會積極地找指導教授，希望能夠跟隨在量子密碼、通訊安全或密碼學相關領域有專長的老師。我希望能盡快參與到實驗室的專案中，從實際操作中學習，培養自己的研究能力，多問多學。\r\n\r\n**中期計畫（第二年到畢業）**\r\n在打好基礎之後，我會更專注於我的研究主題。我希望能在指導教授的帶領下，深入研究量子密碼在實際通訊系統中的應用，或者是探索更有效率的密碼學演算法。我會努力閱讀相關的學術論文，了解最新的研究進展，並且試著提出一些自己的想法。我也會積極參與實驗室的討論，跟學長姐還有老師多交流，希望我的研究能有些具體的成果出來。如果研究順利，我希望可以把研究成果整理出來，有機會的話投稿到一些研討會。同時，我也會持續精進我的程式實作能力，因為我知道要實現這些複雜的理論，很強的程式能力是不可或缺的。\r\n\r\n**長期計畫（畢業後）**\r\n畢業後，我希望能將我在交大資工所學到的知識和技能，應用在實際的產業上。無論是進入高科技公司從事資訊安全的研發工作，或是繼續深造攻讀博士學位，我都會以成為該領域的專家為目標。我特別對開發安全的通訊系統或是保護敏感資料的加密技術很有熱情。我希望未來能夠將我電機系的背景，結合資工所學習到的專業知識，在跨領域的資訊安全應用中發揮我的專長，為社會的安全通訊貢獻一份心力。我相信交大資工所能提供我最棒的學習環境和資源，幫助我達成我的理想。",
+  "idea_units": [
+    {
+      "id": "b82f205c-0184-4cf7-ae4f-3c9c5fb4dec1",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "梁韋翰，我是國立交通大學電機工程學系的大學部學生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4e32ca2e-33cc-4a66-a8fc-10c721c03c11",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "從小我就對一些很精密的系統特別有興趣，會一直想知道它們是怎麼運作的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a2db0c2f-feaa-47ef-8cc1-b0ffe7350634",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "在電機系讀書的時候，我學到很多基礎的電機知識，像電路啊、電子學這些，對我後來理解一些通訊原理很有幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1fb384f1-45a5-4bd3-b882-39ae2433ef07",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我大學的學業成績大約是 3.04，我知道這個數字可能不是最亮眼的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "86f9cd07-5455-4755-9c98-a7b8eba6453d",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "但我在電機系的這段時間，其實發現自己對軟體、對程式設計的興趣越來越濃。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4c7c370e-868b-4a80-8891-251a50c2a6c0",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "一開始是修了幾堂程式設計的課，覺得用程式來解決問題很有趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "724f3b25-6633-4ff8-bd06-d27c42a6d993",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "後來又接觸到一些通訊技術的課程，才慢慢發現了密碼學這個領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3d058005-fd0a-4670-ab43-ec6bf8021a23",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我覺得這是一個結合了數學、資訊安全還有通訊技術的很有挑戰性的方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df5c8848-268f-472f-a423-2b0973508213",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我尤其對量子密碼和一些通訊安全的問題很感興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9adb2421-176a-4e35-9eff-a83be686410f",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我發現電機系的課程雖然有教通訊原理",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01d0ccce-89a6-4594-abf4-8bd2b5e01a86",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "但對背後的軟體實作和更深層的密碼學理論，我還是想學更多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4be29fcd-25fb-4848-b498-907d4cfc71c1",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "這種跨領域的感覺，讓我下定決心要往資工所發展，特別是像交大資工這樣有很強的師資和資源的地方。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e606bbeb-4184-4c5a-8062-e9119aa49ad9",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "在大三的時候，我有幸加入了系上一個叫「智慧通訊安全實驗室」的實驗室。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d4c27dff-d8a9-499a-bd03-253ce69c398d",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "雖然主要還是以電機系的老師為主",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cd0b8111-4ba3-4691-9e5d-52a50b753af1",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "但裡面有很多專案都跟資工領域很靠近。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db911f65-2ccb-4983-93ee-953fec00c977",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我參與了一個關於安全通訊協定的研究專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eae393c6-ef34-4d85-bdac-5642bbd9970e",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "主要是幫忙研究一些量子密碼的初步概念，然後試著用程式去模擬一些簡單的量子通訊過程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "feb34e37-1a8a-40c3-a780-f305c0bb3807",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我們用了一些常用的程式語言，然後跑了一些數據分析，雖然結果還在初期階段",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "834d82bb-99a2-4fac-ab3d-3575d984f75d",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "但我從中學到很多關於如何設計安全的通訊機制，還有處理一些實驗數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9f394e7f-2c76-4bf4-81f4-6079f5b2de19",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "這個經驗讓我發現，理論跟實作真的差很多，很多時候都會遇到預期外的問題，需要一直去調整。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "de65846d-9e36-4d68-8c3d-2836b6d23982",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "另外，我也曾經在一家叫「安訊科技」的新創公司兼職過一段時間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6b3739f7-3be8-45b5-ac0a-027dfb155b3a",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "他們主要是在做一些網路安全的解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "78d308cd-11f6-495b-adf9-06c4cb9cb398",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我在那裡主要負責一些後端開發的工作，像是幫忙維護他們的資料庫，還有處理一些使用者資料的加密。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "516c2f5e-4ab2-467d-9336-31bc61cd9b92",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "雖然不是核心的演算法開發",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f367e20-e848-4ee1-8af2-fcc5c4609ca3",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "但讓我對業界的軟體開發流程，還有實際遇到的資安挑戰，有了更具體的認識，真的獲益良多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9a6c3bb8-47f4-4d8e-adde-97aff6f5ab70",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "這讓我更確定我對資訊安全的熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "95b924b4-83ff-4112-ac45-78528f89f7d4",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "除了學術上的探索，我也會利用課餘時間發展一些興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d0bdab6-83d1-4b9e-9bea-6168cdee8e06",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我大學時考取了寵物訓練師證照。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bf450eab-27c4-474e-9c44-975fe3e549f5",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "這個經驗其實也培養了我很大的耐心和觀察力，因為訓練小動物需要很仔細地去了解牠們的行為模式，還要很有技巧地引導牠們。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "34e16cf9-82d9-42b7-b4e2-38a10793b822",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "我覺得這跟做研究很像，都需要細心觀察、耐心嘗試，然後不斷調整方法，最後才能解決問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d395a54-27c3-487f-a225-7b5979ca1241",
+      "candidate_id": "mock_67",
+      "section": "自傳",
+      "content": "這也讓我學到，解決問題不一定只有一種方法，有時候換個角度思考會有意想不到的結果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b0df0ea1-d712-44a2-96e2-a7bcbc574521",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我申請交大資工所是希望能夠更深入地學習量子密碼、通訊技術和密碼學這些領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d6c97617-dad6-4f4c-a376-1980259cc544",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我的目標是成為一個能夠在資訊安全領域有所貢獻的工程師或研究人員。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b34087f5-8d77-40c8-899e-e89778d7deb7",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "但我已經準備好投入所有的精力去學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2d064d9-db6f-478c-a702-47a306a70f36",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "入學之後，我會先盡快適應研究所的學習節奏。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3649fb54-b5b6-4e4d-bf0e-42692a547bcd",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "首先，我會把重心放在補強資工基礎知識上，特別是那些我在電機系可能沒有深入學習的課程，像是高等演算法、作業系統、網路概論這些核心課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ba006f2b-b7c8-4019-9a7c-89b6cdf8443f",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我會努力修習相關的專業課程，像是密碼學專題、資訊安全導論、量子計算導論等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "921d6411-228d-4829-883a-e89a047c6096",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我會積極地找指導教授，希望能夠跟隨在量子密碼、通訊安全或密碼學相關領域有專長的老師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "85822317-2e2c-4264-8d32-dd2052628b1a",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我希望能盡快參與到實驗室的專案中，從實際操作中學習，培養自己的研究能力，多問多學。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "64f92c7c-19a0-431b-909a-8ad3f9b57b1f",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "在打好基礎之後，我會更專注於我的研究主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "978b72d8-9759-4d25-8363-af167b1de726",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我希望能在指導教授的帶領下，深入研究量子密碼在實際通訊系統中的應用，或者是探索更有效率的密碼學演算法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "62efc959-bf01-42df-b30b-af8a80bf255f",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我會努力閱讀相關的學術論文，了解最新的研究進展，並且試著提出一些自己的想法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e3ae1b16-d915-4fac-9e71-8c7110ed8ec7",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我也會積極參與實驗室的討論，跟學長姐還有老師多交流，希望我的研究能有些具體的成果出來。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9811c9d3-95ba-437f-b34e-7039f4786945",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "如果研究順利，我希望可以把研究成果整理出來，有機會的話投稿到一些研討會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "220cf65f-6155-45e2-add4-6fd18bb21ed6",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "同時，我也會持續精進我的程式實作能力，因為我知道要實現這些複雜的理論，很強的程式能力是不可或缺的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d5f13a9d-a5de-44b6-bff1-2d222099ed5c",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "畢業後，我希望能將我在交大資工所學到的知識和技能，應用在實際的產業上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "676927fd-6bc7-4e52-bdfe-2e57bf7d843a",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "無論是進入高科技公司從事資訊安全的研發工作，或是繼續深造攻讀博士學位，我都會以成為該領域的專家為目標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "94cfe1d2-4a3e-4dab-8400-afac7a5a4fe4",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我特別對開發安全的通訊系統或是保護敏感資料的加密技術很有熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bfc050f7-8687-4b6a-bdc9-a53b458e84a2",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我希望未來能夠將我電機系的背景，結合資工所學習到的專業知識，在跨領域的資訊安全應用中發揮我的專長，為社會的安全通訊貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5756f419-19d0-41fe-a47e-273d565a2c2a",
+      "candidate_id": "mock_67",
+      "section": "讀書計畫",
+      "content": "我相信交大資工所能提供我最棒的學習環境和資源，幫助我達成我的理想。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

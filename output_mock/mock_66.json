@@ -1,0 +1,495 @@
+{
+  "candidate_id": "mock_66",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_66.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n### 緣起：對資訊世界的好奇與探索\r\n\r\n我是江昀霖，來自元智大學資訊工程學系。從小，我就對電腦與網路充滿了好奇，特別是當我意識到網際網路如何連結全世界、以及背後的龐大系統如何運作時，這份好奇心便逐漸轉化為我投身資訊工程領域的動力。大學四年，我在資訊工程的專業訓練中不斷成長，不僅累積了紮實的技術基礎，更培養了解決問題與持續學習的能力。\r\n\r\n### 學海無涯：紮實的學術基礎與實務淬鍊\r\n\r\n在元智大學資訊工程學系求學期間，我的修課平均達到 **3.68**，其中在《資料結構》、《演算法》、《計算機網路》、《作業系統》等核心課程上表現優異。這些課程奠定了我對軟體與系統設計的基礎認知，並引導我深入探索網路通訊與分散式系統的奧秘。\r\n\r\n大三下學期，我進入了學校的「**新世代網路智慧實驗室**」，開始接觸軟體定義網路（SDN）與多媒體通訊相關的研究。在實驗室中，我參與了一項名為「**基於 SDN 的多媒體串流流量最佳化**」的專案。我們的目標是透過 SDN 技術，動態調整網路資源，以提升高畫質多媒體內容傳輸的穩定性與低延遲表現。\r\n\r\n在這個專案中，我負責使用 **Open vSwitch (OVS)** 建構虛擬網路環境，並以 **Ryu 控制器** 開發流量監控與轉發策略。我主要使用 **Python** 語言編寫控制邏輯，透過 **Mininet** 模擬不同拓撲結構下的網路行為。記得在初期測試時，我們遇到的最大挑戰是如何有效識別並優先處理實時多媒體串流，因為傳統的基於 IP/Port 的識別方式在動態環境中效果不彰。為此，我花費了大量時間研究 **DPI (Deep Packet Inspection)** 技術的應用潛力，並嘗試整合部分開源 DPI 模組到我們的 SDN 控制器中，以更精確地辨識多媒體流量類型。雖然最終因時間與資源限制未能全面實施 DPI，但這次經歷讓我深刻體會到，網路協議的複雜性遠超書本所學，實務上任何一個細節都可能影響系統效能，也讓我更加理解底層網路設計的重要性。這段經驗使我對網路架構與通訊協定有了更深層次的理解，並培養了我將理論知識應用於實際問題解決的能力。\r\n\r\n除了學術研究，我也積極尋求業界實務經驗。在升大三的暑假，我曾在一家新創公司「**智聯軟體科技**」擔任後端開發實習生。我在這裡主要負責開發基於 **Python Django** 框架的 RESTful API，用於處理 IoT 裝置的資料上傳與管理。當時最大的挑戰是確保 API 的高併發處理能力和資料一致性，因為有數百個裝置會同時回傳數據。為了解決這個問題，我學習了如何使用 **Celery** 進行異步任務處理，並與團隊成員共同設計了資料庫索引策略。這段為期三個月的實習，讓我第一次體會到軟體工程的標準流程、版本控制（Git）的重要性，以及團隊合作在專案開發中的關鍵作用。我協助優化了部分資料處理邏輯，使得每日資料處理量提升了約 **15%**，這不僅讓我對後端開發有了實質的掌握，也讓我對軟體開發生命週期有了更全面的認識。\r\n\r\n### 跨域視野：數位行銷社團的啟發\r\n\r\n在忙碌的學業與研究之餘，我也參與了「**數位行銷社團**」。雖然這與資工領域看似無關，但在社團中，我曾負責協助架設活動宣傳網站並分析社群媒體數據。我利用所學的程式設計能力，撰寫小型腳本自動抓取公開的社群貼文互動數據，並學習使用 **Google Analytics** 追蹤網站流量。這段經驗讓我理解到，即使是技術開發，最終目的也是要解決實際需求、與人溝通。它培養了我跨領域溝通的能力，也讓我看到資工專業在不同領域中應用的廣闊前景。\r\n\r\n### 展望未來：深造的動力\r\n\r\n大學期間的學習與實踐，讓我對資訊工程，特別是網路通訊與軟體系統方面，有了濃厚的興趣。我深知，要成為一名頂尖的資訊工程師或研究者，必須不斷地學習與挑戰自我。國立陽明交通大學資訊工程學系在相關領域的卓越聲譽、豐富的學術資源與頂尖的師資陣容，都讓我深感嚮往。我希望能在這裡，汲取更深奧的知識，探索更前瞻的技術，並與更多優秀的同學與教授交流，拓展我的學術視野。我期待能將大學所學與實務經驗帶入研究所，並在未來的研究中，貢獻自己的一份心力。\r\n\r\n## 讀書計畫\r\n\r\n### 前言\r\n\r\n對於資訊工程的熱情與大學期間在軟體定義網路（SDN）及多媒體通訊領域的探索，促使我渴望進入國立陽明交通大學資訊工程學系深造。我深信交大資工所能提供我所需的學術深度與廣度，讓我能更深入地鑽研網路通訊與系統設計，為未來的職涯發展奠定堅實基礎。\r\n\r\n### 短期目標 (碩士班第一年)\r\n\r\n* **學術基礎強化與拓展**\r\n * **修習核心課程**：入學後，我將優先選修《**高等計算機網路 (Advanced Computer Networks)**》、《**分散式系統 (Distributed Systems)**》、《**多媒體系統 (Multimedia Systems)**》等課程，以補強和深化我在網路架構、分散式運算以及多媒體資料處理方面的理論知識。\r\n * **選修進階課程**：針對個人興趣，將選修《**網路程式設計 (Network Programming)**》與《**雲端運算 (Cloud Computing)**》，學習如何在高階網路環境中設計與實作應用，並理解雲端架構對現代通訊的影響。\r\n * **參與實驗室專題**：積極參與教授的研究會議與專題討論，深入了解實驗室當前研究方向與議題。透過實際參與，我期望能盡快掌握研究方法與流程，並將大學階段的 SDN 經驗帶入新的研究課題。\r\n* **研究方向探索與確認**\r\n * **文獻閱讀與探討**：大量閱讀相關領域的頂尖期刊與會議論文，特別是關於 5G/6G 網路、邊緣運算在多媒體串流中的應用、以及基於 AI/ML 的網路資源管理等方向。\r\n * **教授諮詢**：主動與可能的研究指導教授會面，請益研究方向與指導，尋找與我興趣最契合的議題，並確立碩士論文的研究主題。\r\n\r\n### 中期目標 (碩士班第二年)\r\n\r\n* **碩士論文研究與實作**\r\n * **深入研究**：在確認論文題目後，我將制定詳細的研究計畫，並著手進行資料收集、模型建立與實驗設計。例如，若選擇「**基於強化學習的 SDN 視訊串流 QoS 優化**」，我將利用 Python 實作強化學習演算法，並在 Mininet 或實際網路模擬環境中進行效能評估。\r\n * **工具與技術應用**：期望能熟練運用如 **NS-3** 網路模擬器、**Docker/Kubernetes** 容器化技術，或更進階的網路數據分析工具，以提升研究效率與成果的可靠性。\r\n * **論文撰寫與發表**：根據研究成果，撰寫碩士論文。同時，我會積極爭取將研究成果投稿至國內外重要學術會議或期刊，提升研究能見度，並從學術交流中獲取寶貴反饋。\r\n* **提升實務經驗**\r\n * **參與產學合作**：若實驗室有相關產學合作計畫，我會積極爭取參與，將學術研究與業界需求結合，解決實際問題，擴展實務經驗。\r\n * **TA 經驗**：若有機會，將申請擔任助教，透過教學相長，加深對專業知識的理解，並培養表達與溝通能力。\r\n\r\n### 長期目標 (畢業後)\r\n\r\n* **職涯發展**：我期望能進入資訊產業，特別是電信營運商、雲端服務提供商或網路設備商，擔任網路工程師、軟體開發工程師或系統架構師，將在研究所習得的先進技術應用於實際網路系統的設計與優化。\r\n* **持續學習**：資訊科技日新月異，我將持續關注網路通訊、人工智慧等領域的最新發展，不斷學習新技術，保持競爭力。我也期待能將所學回饋社會，貢獻一己之力。\r\n\r\n我深信，在交大資工所的培育下，我將能成為一名具備紮實理論基礎、豐富實務經驗和開闊國際視野的資訊工程專業人才。我已準備好迎接挑戰，並為學術研究貢獻我的熱情與努力。",
+  "idea_units": [
+    {
+      "id": "cbfa9669-f321-4412-9c0c-df6d14563ee9",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我是江昀霖，來自元智大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "43bfb8bd-608c-4032-9063-8d8e97b76e7f",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "從小，我就對電腦與網路充滿了好奇，特別是當我意識到網際網路如何連結全世界、以及背後的龐大系統如何運作時，這份好奇心便逐漸轉化為我投身資訊工程領域的動力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "677f5ad3-78f1-40fe-84b1-b16e95d603b3",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "大學四年，我在資訊工程的專業訓練中不斷成長，不僅累積了紮實的技術基礎，更培養了解決問題與持續學習的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b0bf5f95-8072-4164-a684-1b0791be143f",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "在元智大學資訊工程學系求學期間，我的修課平均達到 3.68，其中在《資料結構》、《演算法》、《計算機網路》、《作業系統》等核心課程上表現優異。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8cb6f320-6824-4686-a316-0d7dfcd95654",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "這些課程奠定了我對軟體與系統設計的基礎認知，並引導我深入探索網路通訊與分散式系統的奧秘。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ebccbe93-55a2-48e9-915f-17aa60b9914f",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "大三下學期，我進入了學校的「新世代網路智慧實驗室」，開始接觸軟體定義網路（SDN）與多媒體通訊相關的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3f6a523-7941-4b56-bcc2-7732920d85d1",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "在實驗室中，我參與了一項名為「基於 SDN 的多媒體串流流量最佳化」的專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d183ef6c-2358-408c-8bb0-c900559cab18",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我們的目標是透過 SDN 技術，動態調整網路資源，以提升高畫質多媒體內容傳輸的穩定性與低延遲表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1f232f6a-5e20-4a8d-95cf-e51911752ee2",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "在這個專案中，我負責使用 Open vSwitch (OVS) 建構虛擬網路環境，並以 Ryu 控制器 開發流量監控與轉發策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eeb6b9d4-a0e8-49f8-95ae-4184322c3eff",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我主要使用 Python 語言編寫控制邏輯，透過 Mininet 模擬不同拓撲結構下的網路行為。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "405028c8-ee23-4a94-8060-0d6fcb3e20cc",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "記得在初期測試時，我們遇到的最大挑戰是如何有效識別並優先處理實時多媒體串流，因為傳統的基於 IP/Port 的識別方式在動態環境中效果不彰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "83d78713-8dc9-400e-81a6-1f192b039572",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "為此，我花費了大量時間研究 DPI (Deep Packet Inspection) 技術的應用潛力，並嘗試整合部分開源 DPI 模組到我們的 SDN 控制器中，以更精確地辨識多媒體流量類型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f8c2930-1111-46ed-a874-75af25c75990",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "雖然最終因時間與資源限制未能全面實施 DPI",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dbcd88f4-76af-4e15-9551-7f6d677da2f0",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "但這次經歷讓我深刻體會到，網路協議的複雜性遠超書本所學，實務上任何一個細節都可能影響系統效能，也讓我更加理解底層網路設計的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6a986eaf-2028-45e9-ba78-2bb985e8ae9f",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "這段經驗使我對網路架構與通訊協定有了更深層次的理解，並培養了我將理論知識應用於實際問題解決的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a0bb6c50-b053-4a8a-93b5-83a7b757d32c",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "除了學術研究，我也積極尋求業界實務經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "547009a6-47c7-43c2-927f-69bbaa384435",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "在升大三的暑假，我曾在一家新創公司「智聯軟體科技」擔任後端開發實習生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd4552c8-5810-4348-b2de-1283616a6e91",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我在這裡主要負責開發基於 Python Django 框架的 RESTful API，用於處理 IoT 裝置的資料上傳與管理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c674b44c-616f-4229-b68e-e90051ac35fd",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "當時最大的挑戰是確保 API 的高併發處理能力和資料一致性，因為有數百個裝置會同時回傳數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "83b1e17b-ec01-45d1-b67e-c4fef0cf4cb9",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "為了解決這個問題，我學習了如何使用 Celery 進行異步任務處理，並與團隊成員共同設計了資料庫索引策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "67f06197-750d-4a8a-ba32-a0a16aa36c56",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "這段為期三個月的實習，讓我第一次體會到軟體工程的標準流程、版本控制（Git）的重要性，以及團隊合作在專案開發中的關鍵作用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8ef72f91-6023-4137-8d8c-4d622ba388cc",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我協助優化了部分資料處理邏輯，使得每日資料處理量提升了約 15%",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "402588e7-3e73-4c8a-a48a-03cb364fbbf9",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "這不僅讓我對後端開發有了實質的掌握，也讓我對軟體開發生命週期有了更全面的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d2ba6bb8-c500-4df5-b3f4-d34acdf0d33f",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "在忙碌的學業與研究之餘，我也參與了「數位行銷社團」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da6511c4-8972-4914-b0ca-19ebf0cb61ce",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "雖然這與資工領域看似無關",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d88e4ad-e677-43a2-9eb9-feca929720c1",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "但在社團中，我曾負責協助架設活動宣傳網站並分析社群媒體數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b5afd2f-a69c-4acd-ac73-53905c991dc2",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我利用所學的程式設計能力，撰寫小型腳本自動抓取公開的社群貼文互動數據，並學習使用 Google Analytics 追蹤網站流量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9640710f-e15a-4197-9f64-b668bcbb6860",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "這段經驗讓我理解到，即使是技術開發，最終目的也是要解決實際需求、與人溝通。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d034c01-3dce-4619-ad4e-0381ed376ac2",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "它培養了我跨領域溝通的能力，也讓我看到資工專業在不同領域中應用的廣闊前景。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4f62abe8-db6c-4a4c-9544-cfe25617c17e",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "大學期間的學習與實踐，讓我對資訊工程，特別是網路通訊與軟體系統方面，有了濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3307da10-cfc3-4e47-8578-03a651fe7563",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我深知，要成為一名頂尖的資訊工程師或研究者，必須不斷地學習與挑戰自我。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c15d3719-5805-4cd0-8f76-fe9f9db5a794",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "國立陽明交通大學資訊工程學系在相關領域的卓越聲譽、豐富的學術資源與頂尖的師資陣容，都讓我深感嚮往。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d55eaa17-0067-47f6-abe0-88c5d8631aec",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我希望能在這裡，汲取更深奧的知識，探索更前瞻的技術，並與更多優秀的同學與教授交流，拓展我的學術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ccd77aa8-a2b1-452e-a2ef-cf56a9a11aa4",
+      "candidate_id": "mock_66",
+      "section": "自傳",
+      "content": "我期待能將大學所學與實務經驗帶入研究所，並在未來的研究中，貢獻自己的一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cc918a2c-8a0d-4904-b240-935941b9f7f6",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "對於資訊工程的熱情與大學期間在軟體定義網路（SDN）及多媒體通訊領域的探索，促使我渴望進入國立陽明交通大學資訊工程學系深造。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8676107c-dce3-4e8b-9a41-6c1ce85a34cd",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "我深信交大資工所能提供我所需的學術深度與廣度，讓我能更深入地鑽研網路通訊與系統設計，為未來的職涯發展奠定堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e0dab394-c964-44d7-a917-ebba90a3ae64",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "入學後，我將優先選修《高等計算機網路 (Advanced Computer Networks)》、《分散式系統 (Distributed Systems)》、《多媒體系統 (Multimedia Systems)》等課程，以補強和深化我在網路架構、分散式運算以及多媒體資料處理方面的理論知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b012b996-fc70-413b-b451-066f132dcc6e",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "針對個人興趣，將選修《網路程式設計 (Network Programming)》與《雲端運算 (Cloud Computing)》，學習如何在高階網路環境中設計與實作應用，並理解雲端架構對現代通訊的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b64c4596-fef4-4bc1-8173-e485e3fe0c46",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "積極參與教授的研究會議與專題討論，深入了解實驗室當前研究方向與議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7fdf9892-f09b-454f-90b5-b719763e10c6",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "透過實際參與，我期望能盡快掌握研究方法與流程，並將大學階段的 SDN 經驗帶入新的研究課題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a14d75fb-a5af-4266-b4ea-224411141a61",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "大量閱讀相關領域的頂尖期刊與會議論文，特別是關於 5G/6G 網路、邊緣運算在多媒體串流中的應用、以及基於 AI/ML 的網路資源管理等方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "93076700-d4de-4147-b221-6e62559ab593",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "主動與可能的研究指導教授會面，請益研究方向與指導，尋找與我興趣最契合的議題，並確立碩士論文的研究主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7c1e72aa-6a1a-4942-8c9a-78424dbd9ce7",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "在確認論文題目後，我將制定詳細的研究計畫，並著手進行資料收集、模型建立與實驗設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1706bb80-87d3-4da5-a73a-eb242175eee1",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "例如，若選擇「基於強化學習的 SDN 視訊串流 QoS 優化」，我將利用 Python 實作強化學習演算法，並在 Mininet 或實際網路模擬環境中進行效能評估。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3303180b-4e59-4214-bc00-3722e9fdc2e6",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "期望能熟練運用如 NS-3 網路模擬器、Docker/Kubernetes 容器化技術，或更進階的網路數據分析工具，以提升研究效率與成果的可靠性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cd87b9e1-c354-4dee-a94a-c505f3dd94a8",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "根據研究成果，撰寫碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ec9965c8-4b5a-4247-aa45-5b01e9d97d6c",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "同時，我會積極爭取將研究成果投稿至國內外重要學術會議或期刊，提升研究能見度，並從學術交流中獲取寶貴反饋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "110822f7-860e-4bee-abe5-489ee619bd02",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "若實驗室有相關產學合作計畫，我會積極爭取參與，將學術研究與業界需求結合，解決實際問題，擴展實務經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da900d70-9b5c-4523-8cf9-855891ec1386",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "若有機會，將申請擔任助教，透過教學相長，加深對專業知識的理解，並培養表達與溝通能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "69eb262b-9fe1-4495-a98c-c364109520b1",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "我期望能進入資訊產業，特別是電信營運商、雲端服務提供商或網路設備商，擔任網路工程師、軟體開發工程師或系統架構師，將在研究所習得的先進技術應用於實際網路系統的設計與優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4cde2789-6127-4d8f-9cae-5e90d372415b",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "資訊科技日新月異，我將持續關注網路通訊、人工智慧等領域的最新發展，不斷學習新技術，保持競爭力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aa726adb-d754-48e2-9ef0-5b7f418ce6c1",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "我也期待能將所學回饋社會，貢獻一己之力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e2882b9f-6924-4ed1-a693-995147f0a46d",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "我深信，在交大資工所的培育下，我將能成為一名具備紮實理論基礎、豐富實務經驗和開闊國際視野的資訊工程專業人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9e76f3e8-354c-4825-baa0-f74052f8d930",
+      "candidate_id": "mock_66",
+      "section": "讀書計畫",
+      "content": "我已準備好迎接挑戰，並為學術研究貢獻我的熱情與努力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

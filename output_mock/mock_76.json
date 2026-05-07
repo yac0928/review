@@ -1,0 +1,666 @@
+{
+  "candidate_id": "mock_76",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_76.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n親愛的交通大學資訊工程學系招生委員會：\r\n\r\n我是洪哲維，目前就讀於中興大學電機工程學系。自大學生涯開始，我便對資訊科技與硬體設計領域抱持著濃厚的興趣，尤其著迷於數位系統與安全架構的精密奧秘。透過紮實的學術訓練與積極的實作經驗，我期望能進入貴系所深造，進一步探索在加解密硬體架構領域的知識前沿。\r\n\r\n### 學業表現與核心能力\r\n\r\n我的學業成績始終保持在班上前段，整體修課平均達 **3.82** 分。這不僅反映了我對學術的熱忱，更證明了我具備獨立學習與解決問題的能力。在多門核心課程中，我打下了堅實的硬體基礎：\r\n\r\n- **數位邏輯設計與實習**：深入理解布林代數、組合邏輯與循序邏輯電路設計。在大二寒假，我與同學合作完成一個具備狀態機控制的簡易計數器專題，首次體驗到從概念到實體電路的完整流程，對 Verilog HDL 的基礎語法及 FPGA 開發環境 **Xilinx Vivado** 有初步的認識。\r\n- **計算機組織**：學習處理器內部結構、指令集架構 (ISA)、記憶體階層等。透過分析 RISC-V 架構，我對 CPU 的運作原理有了更宏觀的理解，並在期末專題中，利用 **Logisim-evolution** 模擬實現了一個簡化版的單週期處理器。\r\n- **微處理機系統**：掌握嵌入式系統的硬體與軟體協同設計。在 112-1 學期，我們以 **ARM Cortex-M0** 為核心，完成了一個智能環境監測系統，負責感測器資料的採集與 SPI/I2C 介面的驅動程式撰寫。\r\n\r\n這些課程不僅讓我掌握了硬體設計的理論知識，更透過多次實作，培養了我嚴謹的邏輯思維與除錯能力。\r\n\r\n### 研究經驗與技術成長\r\n\r\n大學期間，我積極投入研究室，希望將所學知識應用於實際問題。自大三下學期起，我加入「**高速安全硬體實驗室**」，師從王教授，專注於加解密硬體加速器的設計與優化。\r\n\r\n- **輕量化加密加速器之 FPGA 實作**\r\n * **專案目標**：針對物聯網裝置的資源受限特性，設計並實作一個高效能、低功耗的輕量化區塊加密演算法 (如 Simon 或 Speck) 硬體加速器。\r\n * **我的職責**：主要負責演算法的 RTL (Register-Transfer Level) 設計與 FPGA 整合。我研讀了多篇關於輕量化密碼學的論文，並選擇了 Speck 演算法作為實作基礎。\r\n * **技術細節**：\r\n * 使用 **Verilog HDL** 進行模組化設計，實現加密核心、金鑰排程器及輸入輸出介面。\r\n * 運用 **Xilinx Vivado HLS** (High-Level Synthesis) 探索不同的平行化策略，以在有限的 FPGA 資源下達到最佳吞吐量。\r\n * 在 **Xilinx Zynq-7000 系列 FPGA** 上進行硬體部署與測試。我設計了一套測試平台，透過 UART 介面傳送測試向量，並比較硬體輸出與軟體參考實作的結果。\r\n * **面臨挑戰與學習**：\r\n * 初期在時序收斂 (timing closure) 上遇到困難，透過修改 RTL 結構、調整流水線深度、運用 Vivado 內建的時序分析工具，最終在 **100MHz** 工作頻率下達到穩定的運行。\r\n * 學習到如何權衡面積、功耗與效能，例如，增加流水線深度可提升頻率，但會增加延遲及資源消耗。\r\n * 意識到在硬體設計中，**模組化與可重用性**的重要性，以及完善的測試計畫對於驗證硬體功能正確性的關鍵作用。\r\n * **成果**：成功在 FPGA 上實作 Speck-64/128 加速器，達到約 **1.5 Gbps** 的吞吐量，邏輯資源使用率約 **18%**，相較於軟體實作有顯著加速。此成果亦成為實驗室後續研究的基礎。\r\n\r\n### 業界實習經驗\r\n\r\n為了更貼近業界需求，我在大三暑假期間於「**晨星半導體**」擔任硬體驗證實習生。\r\n\r\n- **實習職責**：協助驗證一部份低功耗微控制器 (MCU) 的通用非同步收發器 (UART) IP。\r\n- **技術內容**：\r\n * 我學習並使用了 **SystemVerilog UVM (Universal Verification Methodology)** 框架，撰寫了測試序列 (sequences) 與計分板 (scoreboard) 的部分模組。\r\n * 協助開發一系列涵蓋各種傳輸速度、資料格式與錯誤注入的測試案例。\r\n * 運用 **Cadence Verdi** 進行波形分析，協助定位由驗證團隊發現的幾個潛在功能性錯誤。\r\n- **收穫與反思**：\r\n * 第一次體會到大規模積體電路設計中，驗證階段的複雜性與重要性，以及嚴謹的測試計畫對於確保產品品質的決定性影響。\r\n * 學習到如何閱讀大型專案的設計規格文件，並在團隊中有效地溝通協作。\r\n\r\n### 跨領域亮點與個人特質\r\n\r\n除了嚴謹的學術與技術訓練，我自大三起也投入手工藝品製作與網路販售。我主要專注於**木工微型建築模型**的製作，從設計圖繪製、木材切割、精細組裝到塗裝上色，每一個環節都需極致的精準與耐心。\r\n\r\n- 這項看似與資工領域不甚相關的嗜好，實則訓練了我嚴謹的態度、細緻的觀察力與專案管理能力。\r\n- 從原物料選擇、設計草圖、製程規劃、實作、品管到最終產品呈現，都需如同硬體設計般，一絲不苟、反覆測試與最佳化，才能產出高品質的成品。例如，在製作一座約 **15x15x20 公分** 的木造模型時，需要處理超過 **200 個** 微小零件，每個零件的切割與組裝誤差都必須控制在 **0.1 毫米** 以內，這與晶片設計對線寬與尺寸的嚴苛要求有異曲同工之妙。\r\n- 在網路販售過程中，我還學會了市場分析、成本控制與客戶溝通，這讓我對產品從開發到推廣的整個生命週期有了更全面的視角。我相信這種將抽象設計轉化為具體成品的能力與對細節的執著，將有助於我在資工領域的研究工作。\r\n\r\n### 申請動機\r\n\r\n我深知資訊工程領域發展迅速，唯有持續學習與精進，方能跟上時代脈動。我渴望在資訊工程這片廣闊的知識海洋中繼續深造，尤其對硬體層面的資訊安全議題抱有濃厚的興趣。交通大學資工系在學術研究、師資陣容與軟硬體資源上均享譽國際，特別是在資訊安全、計算機結構與嵌入式系統等領域的卓越成果，更是我心之所向。我期望能在貴系獲得更前瞻的研究視野與更系統的訓練，為未來的學術研究或產業發展奠定堅實基礎。\r\n\r\n---\r\n\r\n## 讀書計畫\r\n\r\n進入交通大學資訊工程學系深造，是我對學術探索與專業精進的堅定承諾。我已為此規劃了清晰的短、中、長期目標，期望在貴系所的優越環境中，實現我的學術抱負。\r\n\r\n### 研究方向\r\n\r\n我未來的研究方向將聚焦於「**加解密硬體架構的設計與優化**」，特別是針對高效能、低功耗的安全晶片實作。這包括但不限於輕量化密碼演算法的硬體加速、防範側通道攻擊 (Side-Channel Attack) 的安全硬體設計、以及硬體亂數產生器 (True Random Number Generator, TRNG) 的開發與驗證。\r\n\r\n### 短程目標（入學後第一年）\r\n\r\n第一年將著重於打穩碩士階段的理論基礎，並深入了解研究領域前沿。\r\n\r\n- **課程學習**：\r\n - **高等計算機結構**：深入理解現代處理器的微架構、平行處理、快取設計等，為設計高性能硬體加速器打下更堅實的基礎。\r\n - **密碼學概論**：系統學習對稱/非對稱密碼、雜湊函數、數位簽章等基礎知識，了解各種密碼演算法的數學原理與安全性分析。\r\n - **VLSI設計導論**：學習積體電路設計流程，包括邏輯合成、佈局繞線、時序分析等，提升硬體設計的專業度。\r\n - **嵌入式系統設計**：了解在資源受限環境下，如何整合軟硬體以實現特定功能，這對於安全晶片的應用場景至關重要。\r\n- **實驗室參與與文獻研讀**：\r\n - 積極參與實驗室專題討論與研究生會議，迅速融入研究環境。\r\n - 廣泛閱讀相關領域的國際頂尖會議論文 (如 DAC, HOST, CHES) 與期刊文獻，追蹤最新的研究進展，了解目前存在的技術瓶頸與待解決問題。\r\n - 學習並熟悉實驗室常用之進階 EDA 工具，例如 **Synopsys Design Compiler** 進行邏輯合成、**Cadence Innovus** 進行佈局繞線，以及 **ModelSim/VCS** 進行進階驗證。\r\n- **程式與腳本技能提升**：\r\n - 精進 **Python** 程式設計能力，用於資料分析、測試腳本撰寫及自動化設計流程。\r\n - 熟悉 **C/C++** 語言，以便進行軟硬體協同設計與效能評估。\r\n\r\n### 中程目標（碩士第二年）\r\n\r\n第二年將是論文研究的核心階段，期望能取得具體的創新成果。\r\n\r\n- **確定論文主題與深入研究**：\r\n - 在教授指導下，根據前一年的文獻研讀與實驗室專案，確定具體的碩士論文研究主題，例如：「基於新型輕量化區塊密碼的側通道攻擊防禦硬體架構設計」。\r\n - 針對選定主題，進行創新性演算法或架構的設計與實現。\r\n - 利用 FPGA 或 ASIC 設計流程，實際進行設計、驗證與最佳化，並進行嚴格的安全性評估與效能分析。\r\n- **學術成果發表**：\r\n - 將研究成果撰寫成學術論文，目標投遞至國際知名會議 (如 **HOST**, **CHES**, **DAC**) 或期刊 (如 **IEEE Transactions on Computers**, **IEEE Transactions on VLSI Systems**)。\r\n - 積極參與學術研討會，與國內外同行交流，拓展學術視野。\r\n- **合作與交流**：\r\n - 主動與實驗室內外同學進行技術交流，共同解決研究難題。\r\n - 若有機會，尋求與業界的合作機會，將理論研究與產業需求結合，提升研究的應用價值。\r\n\r\n### 長程目標（畢業後）\r\n\r\n完成碩士學位後，我規劃持續在資訊工程領域深耕。\r\n\r\n- **學術深造**：若研究成果豐碩且對學術研究保有極大熱情，我將考慮繼續攻讀博士學位，在加解密硬體安全領域進行更深入、更前瞻的探索，為學術界做出更大的貢獻。\r\n- **產業發展**：若選擇進入業界，我期望能投身於IC設計公司、資安解決方案提供商或大型科技公司的研發部門，從事安全晶片設計、硬體安全架構師或嵌入式安全系統工程師等職位。我希望能將在交大所學的先進知識與實作技能，應用於開發新一代的安全硬體產品，提升資訊系統的整體安全性。\r\n\r\n我深信，憑藉我在中興大學電機系的紮實訓練、研究室的實作經驗，以及對硬體設計的熱忱與對細節的執著，我能迅速適應貴系所的學習與研究節奏。我渴望在交通大學資工系所這個頂尖的學術殿堂，接受挑戰、突破自我，貢獻所長。懇請招生委員會給予我這個寶貴的機會。",
+  "idea_units": [
+    {
+      "id": "d54ae0de-8567-4ddd-aef5-a2ffa85ebbbd",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我是洪哲維，目前就讀於中興大學電機工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7ec3af00-7437-4b2d-8f46-253f3e832f0c",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "自大學生涯開始，我便對資訊科技與硬體設計領域抱持著濃厚的興趣，尤其著迷於數位系統與安全架構的精密奧秘。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d77130d4-975f-48af-b56b-0435da9304f0",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "透過紮實的學術訓練與積極的實作經驗，我期望能進入貴系所深造，進一步探索在加解密硬體架構領域的知識前沿。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2286c081-204b-4e8a-a1da-75c583331b94",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我的學業成績始終保持在班上前段，整體修課平均達 **3.82** 分。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "270d8db9-17c8-4eb0-a28f-a54921c79503",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "這不僅反映了我對學術的熱忱，更證明了我具備獨立學習與解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c61085a7-ab9d-4efd-9b40-9e95ac0e7733",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "深入理解布林代數、組合邏輯與循序邏輯電路設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0a6684e7-61f8-4bda-8ef6-39b97f5d5b91",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "在大二寒假，我與同學合作完成一個具備狀態機控制的簡易計數器專題，首次體驗到從概念到實體電路的完整流程，對 Verilog HDL 的基礎語法及 FPGA 開發環境 **Xilinx Vivado** 有初步的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58d3c862-aef1-42b1-b064-2ac40e06d449",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "學習處理器內部結構、指令集架構 (ISA)、記憶體階層等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5c441778-37df-44fb-9946-9be96be61f58",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "透過分析 RISC-V 架構，我對 CPU 的運作原理有了更宏觀的理解，並在期末專題中，利用 **Logisim-evolution** 模擬實現了一個簡化版的單週期處理器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2579dad4-6343-437e-9e4f-f3b061144bf2",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "掌握嵌入式系統的硬體與軟體協同設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a667cffe-007b-4afb-b862-4d9901a3f35d",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "在 112-1 學期，我們以 **ARM Cortex-M0** 為核心，完成了一個智能環境監測系統，負責感測器資料的採集與 SPI/I2C 介面的驅動程式撰寫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "90a00226-dd9f-46d9-bfc0-de8d6c449a72",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "這些課程不僅讓我掌握了硬體設計的理論知識，更透過多次實作，培養了我嚴謹的邏輯思維與除錯能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "586c6dbc-7264-48b5-a95f-4dfceb6028b2",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "大學期間，我積極投入研究室，希望將所學知識應用於實際問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d52e9dc-9da1-4b0c-ac2b-535f4c3c042e",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "自大三下學期起，我加入「**高速安全硬體實驗室**」，師從王教授，專注於加解密硬體加速器的設計與優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3dedb554-b390-4049-be45-955d88095083",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "針對物聯網裝置的資源受限特性，設計並實作一個高效能、低功耗的輕量化區塊加密演算法 (如 Simon 或 Speck) 硬體加速器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2a61751e-9d1e-45bd-bc6c-1a291e08fbdc",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "主要負責演算法的 RTL (Register-Transfer Level) 設計與 FPGA 整合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8e53e03f-d2de-464f-86de-0477ce048c57",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我研讀了多篇關於輕量化密碼學的論文，並選擇了 Speck 演算法作為實作基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "630b22c2-d1e0-4304-9ad8-7e1a7c505560",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "使用 **Verilog HDL** 進行模組化設計，實現加密核心、金鑰排程器及輸入輸出介面。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da61a2db-69ed-43cd-a29f-0c24279c6da0",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "運用 **Xilinx Vivado HLS** (High-Level Synthesis) 探索不同的平行化策略，以在有限的 FPGA 資源下達到最佳吞吐量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bc82aced-9f1a-4de0-8e29-43e501a479e4",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "在 **Xilinx Zynq-7000 系列 FPGA** 上進行硬體部署與測試。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "245a5f6c-491a-481a-803d-5c446162c639",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我設計了一套測試平台，透過 UART 介面傳送測試向量，並比較硬體輸出與軟體參考實作的結果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "91751dbb-24ba-49f8-9fa1-10ae15aa83be",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "初期在時序收斂 (timing closure) 上遇到困難，透過修改 RTL 結構、調整流水線深度、運用 Vivado 內建的時序分析工具，最終在 **100MHz** 工作頻率下達到穩定的運行。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6f92483f-1e4f-4771-9bab-d317327d1bf9",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "學習到如何權衡面積、功耗與效能，例如，增加流水線深度可提升頻率，但會增加延遲及資源消耗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a22d7b5a-854d-4347-8570-307d53490bfb",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "意識到在硬體設計中，**模組化與可重用性**的重要性，以及完善的測試計畫對於驗證硬體功能正確性的關鍵作用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "51ff1c5e-853e-43d8-be95-e77dcc6c1bf4",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "成功在 FPGA 上實作 Speck-64/128 加速器，達到約 **1.5 Gbps** 的吞吐量，邏輯資源使用率約 **18%**，相較於軟體實作有顯著加速。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d7f9144-5e40-47e8-9bf3-cd2bc10a9694",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "此成果亦成為實驗室後續研究的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f0f1df1-d155-43e0-bdea-42e700fefca1",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "為了更貼近業界需求，我在大三暑假期間於「**晨星半導體**」擔任硬體驗證實習生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "59c5f013-8181-4476-8a6b-e18cab36a97f",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "協助驗證一部份低功耗微控制器 (MCU) 的通用非同步收發器 (UART) IP。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b76e3023-9aa5-4bab-8755-622547460f01",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我學習並使用了 **SystemVerilog UVM (Universal Verification Methodology)** 框架，撰寫了測試序列 (sequences) 與計分板 (scoreboard) 的部分模組。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8aa28f8d-746f-47e7-b070-4d963de96f9c",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "協助開發一系列涵蓋各種傳輸速度、資料格式與錯誤注入的測試案例。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dbff4354-23e3-4371-b474-e5b0785b103e",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "運用 **Cadence Verdi** 進行波形分析，協助定位由驗證團隊發現的幾個潛在功能性錯誤。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e4c9c32-9e63-47d6-b026-83b966c9a8f7",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "第一次體會到大規模積體電路設計中，驗證階段的複雜性與重要性，以及嚴謹的測試計畫對於確保產品品質的決定性影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f33e645-9f76-4550-9e3f-859f20b4e5b4",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "學習到如何閱讀大型專案的設計規格文件，並在團隊中有效地溝通協作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "72938a85-147f-437e-9c84-4f349c3eead4",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "除了嚴謹的學術與技術訓練，我自大三起也投入手工藝品製作與網路販售。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e2a2faf6-daa5-4c3b-a47a-16675f97dea2",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我主要專注於**木工微型建築模型**的製作，從設計圖繪製、木材切割、精細組裝到塗裝上色，每一個環節都需極致的精準與耐心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58d7f33b-ed1e-4bcb-82cd-d88a35ab80a7",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "這項看似與資工領域不甚相關的嗜好，實則訓練了我嚴謹的態度、細緻的觀察力與專案管理能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e5c1fba9-482a-4f8a-acca-03e6ebc6057c",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "從原物料選擇、設計草圖、製程規劃、實作、品管到最終產品呈現，都需如同硬體設計般，一絲不苟、反覆測試與最佳化，才能產出高品質的成品。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "22654169-79ec-43b2-9fde-91fae36d257d",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "例如，在製作一座約 **15x15x20 公分** 的木造模型時，需要處理超過 **200 個** 微小零件，每個零件的切割與組裝誤差都必須控制在 **0.1 毫米** 以內，這與晶片設計對線寬與尺寸的嚴苛要求有異曲同工之妙。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "44cc99dd-812c-425e-8bb9-41739a95e626",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "在網路販售過程中，我還學會了市場分析、成本控制與客戶溝通，這讓我對產品從開發到推廣的整個生命週期有了更全面的視角。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8133fe8c-1c12-4f0c-8f08-c5b0aeaeb654",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我相信這種將抽象設計轉化為具體成品的能力與對細節的執著，將有助於我在資工領域的研究工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb08132b-6aab-4b5b-9aef-cd2fcffdd30d",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我深知資訊工程領域發展迅速，唯有持續學習與精進，方能跟上時代脈動。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0aa3197a-98c9-4fa2-994a-53ed89e2ff69",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我渴望在資訊工程這片廣闊的知識海洋中繼續深造，尤其對硬體層面的資訊安全議題抱有濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bf70b019-6beb-4aaf-9cdb-6d53cde09a48",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "交通大學資工系在學術研究、師資陣容與軟硬體資源上均享譽國際，特別是在資訊安全、計算機結構與嵌入式系統等領域的卓越成果，更是我心之所向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef87c281-53b6-4a67-9815-7ddcb9c49300",
+      "candidate_id": "mock_76",
+      "section": "自傳",
+      "content": "我期望能在貴系獲得更前瞻的研究視野與更系統的訓練，為未來的學術研究或產業發展奠定堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b926ce7-e065-4698-9386-b7e0fa47caa6",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "進入交通大學資訊工程學系深造，是我對學術探索與專業精進的堅定承諾。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "34503335-873c-4f3e-9c94-201381f5af7c",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "我已為此規劃了清晰的短、中、長期目標，期望在貴系所的優越環境中，實現我的學術抱負。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1eb60ae5-dd16-490c-bdeb-26577ed0a492",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "我未來的研究方向將聚焦於「**加解密硬體架構的設計與優化**」，特別是針對高效能、低功耗的安全晶片實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "79e7312b-f32f-497a-ab92-2adec0a7c2d7",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "這包括但不限於輕量化密碼演算法的硬體加速、防範側通道攻擊 (Side-Channel Attack) 的安全硬體設計、以及硬體亂數產生器 (True Random Number Generator, TRNG) 的開發與驗證。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "43287414-1e7a-4739-80a9-978247e57ece",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "第一年將著重於打穩碩士階段的理論基礎，並深入了解研究領域前沿。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aa88d0b1-2a1c-4c29-9b39-c13d991c7ffd",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "深入理解現代處理器的微架構、平行處理、快取設計等，為設計高性能硬體加速器打下更堅實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d59607dd-9235-4f1f-95fd-3cca6c577d8f",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "系統學習對稱/非對稱密碼、雜湊函數、數位簽章等基礎知識，了解各種密碼演算法的數學原理與安全性分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa040150-8955-4971-9192-4e37d575d987",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "學習積體電路設計流程，包括邏輯合成、佈局繞線、時序分析等，提升硬體設計的專業度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d3fa0d22-5b12-48fa-9ffe-cc7cbe7fead7",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "了解在資源受限環境下，如何整合軟硬體以實現特定功能，這對於安全晶片的應用場景至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0775dd5b-8b14-49f8-a1e0-561b06c9b521",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室專題討論與研究生會議，迅速融入研究環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "86c8a8b1-9aa7-4daf-8cf0-782d94e5f1a9",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "廣泛閱讀相關領域的國際頂尖會議論文 (如 DAC, HOST, CHES) 與期刊文獻，追蹤最新的研究進展，了解目前存在的技術瓶頸與待解決問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c08f9078-fb5b-4105-88a3-caa2bd4e5e94",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "學習並熟悉實驗室常用之進階 EDA 工具，例如 **Synopsys Design Compiler** 進行邏輯合成、**Cadence Innovus** 進行佈局繞線，以及 **ModelSim/VCS** 進行進階驗證。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b2d04d60-ce1f-4d0c-84c0-8e9d21db01ab",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "精進 **Python** 程式設計能力，用於資料分析、測試腳本撰寫及自動化設計流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27a64c53-a256-4dea-9fc4-f7d62779dccd",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "熟悉 **C/C++** 語言，以便進行軟硬體協同設計與效能評估。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7ba652c0-47fa-477e-8491-72f65d169eaf",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "第二年將是論文研究的核心階段，期望能取得具體的創新成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df08da6e-b67a-4bc2-a715-76a1be4d4d75",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "在教授指導下，根據前一年的文獻研讀與實驗室專案，確定具體的碩士論文研究主題，例如：「基於新型輕量化區塊密碼的側通道攻擊防禦硬體架構設計」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6f919461-bac8-401a-af75-6268d2e1a13e",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "針對選定主題，進行創新性演算法或架構的設計與實現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "757e62c8-79ba-4595-a471-ac25926e3392",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "利用 FPGA 或 ASIC 設計流程，實際進行設計、驗證與最佳化，並進行嚴格的安全性評估與效能分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4eb33d5b-8554-43d5-bd87-8a1f63a77083",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "將研究成果撰寫成學術論文，目標投遞至國際知名會議 (如 **HOST**, **CHES**, **DAC**) 或期刊 (如 **IEEE Transactions on Computers**, **IEEE Transactions on VLSI Systems**)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5369530e-0592-4753-b00b-c9b35179af4f",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "積極參與學術研討會，與國內外同行交流，拓展學術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ca898bc3-f4d9-476a-850c-7d48c4b17e5b",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "主動與實驗室內外同學進行技術交流，共同解決研究難題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "56cd8545-613c-463b-bc1a-0f8a0c6be5c0",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "若有機會，尋求與業界的合作機會，將理論研究與產業需求結合，提升研究的應用價值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e24da4ca-ac50-4fa3-a49b-9f7f37a1f748",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "完成碩士學位後，我規劃持續在資訊工程領域深耕。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0efcf456-21fc-4d4b-bb86-07f49ec1cab9",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "若研究成果豐碩且對學術研究保有極大熱情，我將考慮繼續攻讀博士學位，在加解密硬體安全領域進行更深入、更前瞻的探索，為學術界做出更大的貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "92c48202-6f22-4530-822a-c0875d563eba",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "若選擇進入業界，我期望能投身於IC設計公司、資安解決方案提供商或大型科技公司的研發部門，從事安全晶片設計、硬體安全架構師或嵌入式安全系統工程師等職位。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c10ee345-05a2-419c-8093-98ff5cddef6d",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "我希望能將在交大所學的先進知識與實作技能，應用於開發新一代的安全硬體產品，提升資訊系統的整體安全性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "078fbdc2-7386-4fba-8295-0ed1615e6d86",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "我深信，憑藉我在中興大學電機系的紮實訓練、研究室的實作經驗，以及對硬體設計的熱忱與對細節的執著，我能迅速適應貴系所的學習與研究節奏。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "971830f5-3d5a-44d3-89ab-ff9607fa2b8e",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "我渴望在交通大學資工系所這個頂尖的學術殿堂，接受挑戰、突破自我，貢獻所長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "20953485-1049-4dee-b452-2bbecde4e964",
+      "candidate_id": "mock_76",
+      "section": "讀書計畫",
+      "content": "懇請招生委員會給予我這個寶貴的機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

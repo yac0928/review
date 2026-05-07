@@ -1,0 +1,423 @@
+{
+  "candidate_id": "mock_77",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_77.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n各位審查委員好，我是廖薇安，畢業於台灣科技大學資訊工程學系。一直以來，我對科技如何改善我們的生活充滿好奇，尤其是在物聯網通訊和智慧環境的應用方面，更讓我看到無窮的潛力，這也是我申請貴所最主要的動機。\r\n\r\n大學期間，雖然我的修課平均不算特別突出，大概是 2.26 左右，但這不代表我對學習沒有熱情。其實，我花了很多時間去摸索自己真正的興趣所在。一開始我可能對純粹的程式碼鑽研還沒有那麼深厚的體會，但當我開始接觸到資工技術在真實世界中的應用時，我就像被打開了新世界的大門。特別是參加模擬聯合國的經驗，讓我學會如何從不同的角度看問題，思考全球性的挑戰，也讓我意識到，光靠單一領域的知識是遠遠不夠的。這種跨領域的思維方式，讓我更堅定地想要結合軟體技術，來解決像環境監測、智慧生活這類實際問題。\r\n\r\n在學期間，我修習過一些物聯網相關的課程，也曾嘗試做過課程專題。之前我們有個專題，是想用一些感測器去收集環境資料，然後再用程式做一些初步的分析。當時我們遇到很多挑戰，像是資料傳輸不穩定，或是感測器數據不夠精準，但我從中學到很多實作上的眉眉角角，也發現原來要讓這些小東西真正「智慧」起來，背後需要很多通訊和系統整合的工夫。我也會利用閒暇時間自己摸索一些物聯網的開源專案，嘗試讓家裡的燈光或家電能透過手機控制，雖然都是一些很小的嘗試，但這些經驗真的讓我獲益良多，也培養了獨立解決問題的能力。\r\n\r\n我深信，交大資工所是能讓我繼續探索和實踐這些想法的最佳平台。貴所不僅在資工領域是頂尖的，在物聯網通訊和智慧環境的研究方面也有許多優秀的老師和豐富的資源，這對我這樣一個渴望將軟體與現實世界結合的跨領域學習者來說，是莫大的吸引力。我期待能在貴所深造，將我的軟體背景與對智慧環境的熱情結合，為未來的科技應用貢獻一份心力。\r\n\r\n## 讀書計畫\r\n\r\n我對未來在貴所的學習充滿期待，以下是我初步的讀書計畫。\r\n\r\n**短期計畫（入學第一年）**\r\n\r\n入學初期，我會先努力適應研究所的學習步調，畢竟研究所和大學很不一樣。我知道我的學業成績還有進步空間，所以會非常認真地去修習貴所開設的相關核心課程，特別是那些與物聯網、通訊協定、嵌入式系統和資料分析有關的課程，希望能打下更扎實的基礎。我也會積極旁聽一些實驗室的例行討論，多認識不同教授的研究方向，這樣比較好了解自己真正想跟的老師是哪一位，同時也能多和實驗室的學長姐交流，從他們的經驗中學到很多寶貴的東西。我覺得多聽多看很重要，可以幫助我釐清未來的研究方向。\r\n\r\n**中期計畫（第二年起）**\r\n\r\n找到指導教授後，我會全心投入實驗室的研究專案。我希望能夠參與到與物聯網通訊或智慧環境相關的實際專案中，將之前在課程中學到的理論知識應用到實務上。我會努力學習各種新的技術和工具，跟著教授的指導，逐步深入研究某個特定主題，例如智慧感測器的資料整合、物聯網安全或是邊緣運算在智慧環境的應用等等。我也會多閱讀相關領域的學術論文，了解最新的研究進展，並嘗試提出一些自己的看法和實驗設計。我知道研究會有很多困難，但我會努力堅持下去。同時，我也希望能夠多參與學術研討會，和不同的學者交流，拓展自己的視野。\r\n\r\n**長期目標**\r\n\r\n我希望在碩士畢業後，能將在貴所學到的專業知識和研究經驗，應用到業界，特別是投入智慧城市、智慧居家或工業物聯網等相關領域的發展。我期待能成為一名具有實作能力和跨領域思維的軟體工程師或系統架構師，結合我對智慧環境的熱情與資工專業，真正為社會帶來一些便利和創新。我也會持續學習，追蹤科技的發展，讓自己能不斷成長。我相信在交大資工所的栽培下，我一定能實現這些目標。",
+  "idea_units": [
+    {
+      "id": "d3c04500-15a6-4c32-acf3-9f0e01cc0592",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "各位審查委員好，我是廖薇安，畢業於台灣科技大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2c53ffb-a92f-4509-994e-0459b662c00a",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "一直以來，我對科技如何改善我們的生活充滿好奇，尤其是在物聯網通訊和智慧環境的應用方面，更讓我看到無窮的潛力，這也是我申請貴所最主要的動機。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe6f7159-e7e7-4cc9-849d-29a319133e62",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "大學期間，雖然我的修課平均不算特別突出，大概是 2.26 左右",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9afc0f0f-1d7f-42af-90e5-38060f0a79e6",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "但這不代表我對學習沒有熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe8e7d68-d9dd-48a8-abd1-50a8239c858a",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "其實，我花了很多時間去摸索自己真正的興趣所在。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "02d39e06-1e55-497e-81de-26b13828334f",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "一開始我可能對純粹的程式碼鑽研還沒有那麼深厚的體會",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2a3542d4-726d-4579-b144-9fa6ae68b669",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "但當我開始接觸到資工技術在真實世界中的應用時，我就像被打開了新世界的大門。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9aad0ef-7dee-438e-b5ed-379777016084",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "特別是參加模擬聯合國的經驗",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9f76a430-a80b-4a14-a7fd-a23dded58830",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "讓我學會如何從不同的角度看問題，思考全球性的挑戰",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d924636-8f3d-4db0-be44-0bc55fa3d3ea",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "也讓我意識到，光靠單一領域的知識是遠遠不夠的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9c56b1f-593e-477c-b5fa-ca50743a0063",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "這種跨領域的思維方式，讓我更堅定地想要結合軟體技術，來解決像環境監測、智慧生活這類實際問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0229e7da-c086-4e7e-9487-447fb7d7cb27",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "在學期間，我修習過一些物聯網相關的課程",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "334122ff-9a81-4cbc-94b1-67f39e7499b5",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "也曾嘗試做過課程專題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "52ab1320-d62f-4fbe-927a-245eefb36a9a",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "之前我們有個專題，是想用一些感測器去收集環境資料，然後再用程式做一些初步的分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d0eebcd6-4a72-48b6-b539-103779542c31",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "當時我們遇到很多挑戰，像是資料傳輸不穩定，或是感測器數據不夠精準",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7cfaf644-7e8c-43bf-90f5-000463be08ee",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "但我從中學到很多實作上的眉眉角角",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "86912717-fbf7-4590-bcbd-c8c84356ef81",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "也發現原來要讓這些小東西真正「智慧」起來，背後需要很多通訊和系統整合的工夫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0ab2915e-0f02-4eb6-ac63-6c37f3987874",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "我也會利用閒暇時間自己摸索一些物聯網的開源專案，嘗試讓家裡的燈光或家電能透過手機控制",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "15a0c662-5846-469b-ad71-06f547714af6",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "雖然都是一些很小的嘗試",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0836c507-bcfe-4113-ade2-730528fbbd8a",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "但這些經驗真的讓我獲益良多",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cee1681f-ed49-4564-ac67-aed861f185b7",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "也培養了獨立解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "87f35863-f396-498b-9627-0897448c3654",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "我深信，交大資工所是能讓我繼續探索和實踐這些想法的最佳平台。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "275099ab-594b-4f93-9a8b-b8f30640a8cd",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "貴所不僅在資工領域是頂尖的，在物聯網通訊和智慧環境的研究方面也有許多優秀的老師和豐富的資源，這對我這樣一個渴望將軟體與現實世界結合的跨領域學習者來說，是莫大的吸引力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8dc6d4f0-fb21-4f11-90e2-ebb2e70c0be6",
+      "candidate_id": "mock_77",
+      "section": "自傳",
+      "content": "我期待能在貴所深造，將我的軟體背景與對智慧環境的熱情結合，為未來的科技應用貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "73580ccb-0105-446e-bd17-bbefa539af65",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我對未來在貴所的學習充滿期待，以下是我初步的讀書計畫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "82c4727e-5e7c-4052-bd82-1af5c2791916",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "入學初期，我會先努力適應研究所的學習步調",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "abeabe80-8c78-47fd-b329-92130f1bb2d1",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "畢竟研究所和大學很不一樣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8e4c8972-3075-4fd4-a594-7511cae57553",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我知道我的學業成績還有進步空間",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c5851836-5e13-45f8-bd77-ff6e3ca758de",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "所以會非常認真地去修習貴所開設的相關核心課程，特別是那些與物聯網、通訊協定、嵌入式系統和資料分析有關的課程",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8cc3bc7c-77fe-4dbc-890b-6de840373087",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "希望能打下更扎實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f1886a3f-77ce-40d4-8928-e27fe330cbcb",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我也會積極旁聽一些實驗室的例行討論",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cd1764b1-dd0b-4e3e-ae9e-4f9ef65151c0",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "多認識不同教授的研究方向",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "90b9a041-16bc-4a1b-b732-d9c6cb5743e8",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "這樣比較好了解自己真正想跟的老師是哪一位",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8e454468-edbc-4d75-9a7b-a30a7a06f0cd",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "同時也能多和實驗室的學長姐交流",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c8b35124-86b0-4133-ad1a-7ce96ff8c987",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "從他們的經驗中學到很多寶貴的東西。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1b107fd3-489d-4d15-b8f8-ad6b986f44e7",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "可以幫助我釐清未來的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c751b87f-3bc7-40f4-b00f-bba65ae02629",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "找到指導教授後，我會全心投入實驗室的研究專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db815c33-4ae7-4b16-b2bf-6d9a96bef0d8",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我希望能夠參與到與物聯網通訊或智慧環境相關的實際專案中，將之前在課程中學到的理論知識應用到實務上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a0450b9d-b546-410e-aaf7-f7d8b8f20c50",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我會努力學習各種新的技術和工具，跟著教授的指導，逐步深入研究某個特定主題，例如智慧感測器的資料整合、物聯網安全或是邊緣運算在智慧環境的應用等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0687454c-0334-46da-82c6-1c9e539d84d6",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我也會多閱讀相關領域的學術論文，了解最新的研究進展，並嘗試提出一些自己的看法和實驗設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "779a7c39-6b47-4125-b4e7-8964b6ca06d1",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我知道研究會有很多困難",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "79d54150-7c25-4813-9fe7-19471060f202",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "同時，我也希望能夠多參與學術研討會，和不同的學者交流，拓展自己的視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "25fdf558-854d-4553-9c3e-ef7a23d8c7aa",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我希望在碩士畢業後，能將在貴所學到的專業知識和研究經驗，應用到業界，特別是投入智慧城市、智慧居家或工業物聯網等相關領域的發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b855557-b010-4960-b8f7-4e79803148fb",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我期待能成為一名具有實作能力和跨領域思維的軟體工程師或系統架構師，結合我對智慧環境的熱情與資工專業，真正為社會帶來一些便利和創新。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c10d7cfd-7fa8-4ffa-84a0-d1210542c94d",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我也會持續學習，追蹤科技的發展，讓自己能不斷成長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "41e5f3e8-767a-4478-a64f-b759a48779b7",
+      "candidate_id": "mock_77",
+      "section": "讀書計畫",
+      "content": "我相信在交大資工所的栽培下，我一定能實現這些目標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

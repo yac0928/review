@@ -1,0 +1,1125 @@
+{
+  "candidate_id": "mock_97",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_97.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n各位審查委員您好，我叫莊依蓁，是元智大學資訊工程學系的應屆畢業生。今天我申請貴校資訊工程學系碩士班，希望能有機會在更專業的環境下繼續深造，提升自己在資工領域的能力。\r\n\r\n### 成長背景與求學歷程\r\n\r\n我出生在一個很普通的家庭，從小就知道凡事都要靠自己努力。大學四年來，我大部分的時間都是靠著打工來支付生活費和學費，也因此提早接觸到了社會。在元智資工系的日子，可以說是我人生中很重要的一個階段。我們系上教了很多關於軟體開發、程式設計、資料結構那些基礎的東西，讓我在這裡慢慢地對資訊工程產生了興趣。\r\n\r\n不過，因為我大學期間花了很多時間在打工上面，所以學業成績其實沒有很突出，就是剛好在及格邊緣，差不多2.0上下。我知道這個分數可能讓大家覺得我不是很專心在課業上，但這真的是我當時為了維持生計所做的權衡。也因為這樣，我比別人更清楚自己想往哪個方向走，也更珍惜每一個學習的機會。雖然成績不是特別亮眼，但我相信我在打工過程中學到的那些責任感、時間管理和人際溝通的能力，對我未來在研究所的學習和研究還是會很有幫助。\r\n\r\n### 打工經驗\r\n\r\n大學四年，我做過很多不同的工作。大一的時候，我在學校附近的手搖飲店當店員，每天要面對不同的客人，學習怎麼快速出餐、處理客訴。這個經驗讓我知道服務業真的不簡單，也培養了我隨機應變的能力。之後我也在補習班當過英文家教，一對一輔導國中生，除了要懂教學內容，更要學習怎麼跟學生溝通，找到適合他們的學習方式。這讓我對解釋複雜概念的能力有所提升，雖然跟資工沒什麼直接關係，但我覺得耐心和表達能力在研究中還是需要的。\r\n\r\n有一段時間，我還去超商上大夜班。那時候真的很辛苦，熬夜什麼的，但那段經驗讓我學會了獨立思考和處理突發狀況。像是半夜有客人喝醉鬧事，或是系統突然當掉，都得自己想辦法解決。這些打工的經驗，雖然跟寫程式、開發系統完全不沾邊，但真的讓我學到了很多書本上學不到的東西，像是面對壓力的抗壓性，還有處理事情的細心程度。這些都讓我覺得自己比同齡的朋友更早熟，也更知道自己想要的是什麼。我覺得這些非技術性的磨練，反而讓我更堅定想在專業領域精進的決心，因為我看到有專業技術能力的人可以創造更大的價值。\r\n\r\n### 研究與專題經驗\r\n\r\n儘管打工佔據了我大部分時間，但在大學後期，我還是有機會在我們系的「智慧物聯網實驗室」裡參與過一個專案。當時主要是協助一位教授做一個關於智慧環境的專案，內容大概是探索如何利用感測器數據來優化室內環境。我們用程式語言去讀取各種感測器，像溫度、濕度、光照等等的數據，然後做一些簡單的分析。\r\n\r\n我主要負責的部分是收集數據跟前期的資料處理，還有一小部分程式的撰寫，讓資料可以視覺化呈現。在過程中，我學到了一些基本的物聯網設備串接方法，也對數據分析有了一點概念。不過，因為很多底層的東西我還不是很懂，所以遇到問題的時候，常常要花很多時間自己摸索，然後再跟學長姐請教。有時候程式跑出來的結果不如預期，也會讓我感到挫折，但每一次解決問題，都讓我對資工的應用潛力有了更深的認識。雖然這個經驗沒有很深入，也不是什麼大型的研究計畫，但它讓我對「智慧環境」和「物聯網通訊」產生了非常大的興趣，也讓我意識到自己在這方面的知識還遠遠不夠，需要更系統性的學習。\r\n\r\n### 課外活動與特殊經歷\r\n\r\n大學期間，除了忙碌的打工和課業，我也參加過學校舉辦的「跨文化溝通工作坊」。這個工作坊主要是讓不同國籍的學生一起組隊，針對一些國際議題進行討論和報告。在裡面，我跟來自日本、韓國還有一些歐美國家的同學一起合作，學習怎麼在語言和文化背景不同的情況下有效溝通。\r\n\r\n一開始真的很有挑戰性，因為每個人的思考模式和表達方式都不一樣。有時候我覺得很明確的表達，對他們來說可能很模糊，反之亦然。但透過不斷的練習和磨合，我學會了更傾聽別人的想法，也學會了如何用更清晰、更不容易產生誤解的方式來傳達我的意見。雖然這跟資工的硬核技術不太一樣，但我相信在未來的研究合作或是團隊工作中，這種跨文化的溝通能力和換位思考的能力會非常有用，尤其是在面對複雜的國際專案時。這個經驗真的對我培養了很重要的軟實力，讓我學會怎麼更好地與人互動和合作。\r\n\r\n### 申請動機與未來展望\r\n\r\n回顧我的大學生涯，雖然在學業成績上沒有亮眼的表現，但豐富的打工經驗讓我具備了堅韌的毅力與獨立解決問題的能力，而參與實驗室的專案也讓我發現自己對智慧環境與物聯網通訊領域有著濃厚的興趣，並渴望深入鑽研。元智資工系的課程讓我具備了基礎知識，但我覺得這些還遠遠不夠，特別是當我接觸到研究專案時，總覺得有很多地方力不從心，想學卻不知道從何學起。\r\n\r\n我申請交大資工所，主要就是希望能轉換跑道，將我大學期間因打工而缺乏的專業深度補齊，並在更頂尖的學術環境中精進自己的技術能力。交大資工所無論在師資、設備還是研究資源上，都是業界頂尖的。特別是貴所很多教授的研究方向都跟智慧環境和物聯網通訊很相關，這正是我非常有興趣的領域。我希望能在這裡，跟隨優秀的教授，彌補過去學業上的不足，並學習如何進行有深度的研究。\r\n\r\n我深知自己目前的學術背景可能不是最出色的，但我有著強烈的學習意願和不輕言放棄的特質。我希望交大能給我一個機會，證明我雖然起步慢了一點，但透過努力和學習，絕對能迎頭趕上，並為這個領域做出貢獻。我期待在交大資工所開啟我人生的新篇章。\r\n\r\n## 讀書計畫\r\n\r\n我對進入交大資工所抱持著非常大的期望，我知道研究所的生活會很不同，所以我已經大致規劃了我的讀書計畫，希望能夠更有效率地學習與成長。\r\n\r\n### **短期計畫（入學前至碩一）**\r\n\r\n1. **紮實基礎知識**：在正式入學前，我會花時間把大學時期比較不足的基礎科目再好好複習一遍，尤其是資料結構、演算法和作業系統這些核心課程。我知道這些是資工的根本，沒有紮實的基礎，後面會學得很吃力。我也會多看一些相關的書籍和網路課程，把一些概念補強。\r\n2. **適應研究所生活**：開學後，我會努力適應研究所的步調和學習方式。我知道研究所會有很多自主學習的部分，所以會盡快調整自己的學習心態，讓自己能快速進入狀況。我也會積極參與系上的活動，認識更多老師和同學，擴展我的人脈。\r\n3. **選修專業課程**：我會認真研究貴所的課程地圖，優先選修與「智慧環境」和「物聯網通訊」相關的課程。例如像「物聯網系統設計」、「嵌入式系統」、「機器學習導論」這類的課程，我覺得會對我很有幫助。我也會多請教助教和學長姐，了解哪些課程對未來研究或就業會比較有幫助。\r\n4. **積極尋找指導教授**：我會主動接觸研究方向與我興趣相符的教授，像是專注於物聯網安全、智慧感測應用或邊緣運算的老師。透過旁聽實驗室討論、閱讀教授們的論文，希望能找到一位適合我的指導教授，並盡早進入實驗室學習。我希望能跟著教授做研究，從實際參與中學習更多。\r\n\r\n### **中期計畫（碩二）**\r\n\r\n1. **深入研究與論文撰寫**：在碩二這一年，我希望能專注在我的研究主題上，可能是智慧感測網路的數據分析，或是物聯網裝置的安全性應用等等。我會努力學習更進階的技術和方法，像是深度學習、數據挖掘等等，來應用在我的研究中。\r\n2. **參與學術討論與研討會**：我希望能積極參與實驗室的討論，並向學長姐學習如何有效地進行研究。如果我的研究有初步的成果，我也會嘗試在國內外的學術研討會上發表我的研究成果，雖然我知道這很難，但我覺得這是一個很好的學習機會，也能讓自己知道跟別人之間的差距。\r\n3. **加強英文能力**：我知道很多最新的技術資料和論文都是英文的，所以這段時間我也會加強我的英文閱讀和寫作能力，讓自己能更順暢地閱讀國外文獻，並能用英文撰寫論文。\r\n\r\n### **長期計畫（畢業後）**\r\n\r\n1. **投身產業貢獻所學**：畢業後，我希望能夠將我在交大所學到的專業知識和研究經驗應用到業界中。我對智慧城市、智慧居家或工業物聯網這些領域都很有興趣，希望能在相關的科技公司找到一份工作，貢獻我的能力。\r\n2. **持續學習與成長**：科技發展的速度很快，我知道畢業不代表學習的結束。我會保持持續學習的熱情，不斷吸收最新的技術和知識，讓自己在這個快速變化的資工領域中保持競爭力。我相信交大資工所的訓練會讓我具備終身學習的能力。\r\n3. **回饋社會**：未來如果我有能力，我也希望能夠運用我的專業，對社會做出一些貢獻，可能是在科技教育方面，也可能是在智慧生活應用方面，希望我的努力能夠讓生活更便利、更智慧。\r\n\r\n總之，我會以最認真積極的態度來面對研究所的挑戰，努力補足過去的不足，並充分利用交大提供的豐富資源。我知道我的起點可能不高，但我相信我的毅力與學習熱情會讓我能夠在貴所順利完成學業，並有所成就。",
+  "idea_units": [
+    {
+      "id": "96811b38-72e4-4cd6-9238-2bffe4dfc1dc",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "各位審查委員您好，我叫莊依蓁，是元智大學資訊工程學系的應屆畢業生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "de836606-4db6-4911-a384-7c859dbc9cd7",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "今天我申請貴校資訊工程學系碩士班。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "67db0822-2883-452e-ad81-e7d0ad3db85d",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "希望能有機會在更專業的環境下繼續深造，提升自己在資工領域的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0722e96c-3237-4b0f-a2fb-7f5c837a4d59",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我出生在一個很普通的家庭。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d3f0c822-a6f4-43de-8260-8c3c7f43b039",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "從小就知道凡事都要靠自己努力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dc90fd71-5d7b-4f1c-95a9-2b76bedeb68b",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "大學四年來，我大部分的時間都是靠著打工來支付生活費和學費。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "97cbf67b-f52d-40db-a357-dbf3fe84226e",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "也因此提早接觸到了社會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fd9db097-c656-4b13-a5a4-26a6bbac0d31",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "在元智資工系的日子，可以說是我人生中很重要的一個階段。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9ac532cd-831c-48ad-bb10-41fba6a013af",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我們系上教了很多關於軟體開發、程式設計、資料結構那些基礎的東西。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a386dcb7-3be7-42cd-94f4-a8132a675092",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "讓我在這裡慢慢地對資訊工程產生了興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "403fb9d7-2f36-476f-b923-62d50463c1f2",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "不過，因為我大學期間花了很多時間在打工上面，所以學業成績其實沒有很突出，就是剛好在及格邊緣，差不多2.0上下。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a3b71120-a81e-48dc-9f3c-52065f33dc01",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我知道這個分數可能讓大家覺得我不是很專心在課業上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "19cb451a-12a8-4ef2-8d44-ebbda06fe8e7",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但這真的是我當時為了維持生計所做的權衡。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "50c4c2d5-76ec-4fdf-8125-0fefb9c049da",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "也因為這樣，我比別人更清楚自己想往哪個方向走。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5c9c6b9c-e7ce-4058-9783-d9bd23faf1a6",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "也更珍惜每一個學習的機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9610f80-35c0-4a51-989e-fc5a4880aea7",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "雖然成績不是特別亮眼。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7021b110-1b9c-4872-afc0-28988eb5158a",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但我相信我在打工過程中學到的那些責任感、時間管理和人際溝通的能力，對我未來在研究所的學習和研究還是會很有幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5e0f3532-90c8-4c5f-971c-b214bb1be926",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "大學四年，我做過很多不同的工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9903e584-2e76-4962-9409-84941dfbd7cb",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "大一的時候，我在學校附近的手搖飲店當店員，每天要面對不同的客人。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da786866-ba4e-4f3e-bec2-5b9aa522aaa8",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "學習怎麼快速出餐、處理客訴。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e565706a-bcd2-4bba-8783-b2619b8fda57",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "這個經驗讓我知道服務業真的不簡單。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f8df597-697e-4ffd-ba77-1bff2a753d60",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "也培養了我隨機應變的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "564d12f4-0b6b-49ba-8074-f7f0d74bd05a",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "之後我也在補習班當過英文家教，一對一輔導國中生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1280480a-6c54-4ff3-b73e-19ea7d07ed2d",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "除了要懂教學內容，更要學習怎麼跟學生溝通，找到適合他們的學習方式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "98475f3c-7fb0-44b6-89ad-ba1c43ab7de6",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "這讓我對解釋複雜概念的能力有所提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04769693-3300-4f97-8375-d5fb4ad5f9c5",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "雖然跟資工沒什麼直接關係，但我覺得耐心和表達能力在研究中還是需要的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60392460-aff0-46ec-86b2-025ab2ac8b03",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "有一段時間，我還去超商上大夜班。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1369a7c0-346d-48e9-873b-2adbbb658d14",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "那時候真的很辛苦，熬夜什麼的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2116f83a-7b67-46bc-933b-21528edaff0a",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但那段經驗讓我學會了獨立思考和處理突發狀況。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10327400-6047-4808-a6c3-bd0e592e29e0",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "像是半夜有客人喝醉鬧事，或是系統突然當掉，都得自己想辦法解決。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dfab6788-d3c4-4f38-b77b-8b99f3e314ba",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "這些打工的經驗，雖然跟寫程式、開發系統完全不沾邊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a9f88bea-bc1c-454b-b32c-d99598005f8e",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但真的讓我學到了很多書本上學不到的東西，像是面對壓力的抗壓性，還有處理事情的細心程度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "628541d9-8088-4bcd-bc3f-b6774014cecb",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "這些都讓我覺得自己比同齡的朋友更早熟。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "28c3cea9-aa16-4071-9f82-38db97556e81",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "也更知道自己想要的是什麼。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b34db8db-8643-423e-8ee1-e8e6ddafe815",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我覺得這些非技術性的磨練，反而讓我更堅定想在專業領域精進的決心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2a82e29f-577f-47b5-b269-85f56ef8d2a9",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "因為我看到有專業技術能力的人可以創造更大的價值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0265556c-261d-47f9-bd3a-a2eb3a403e08",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "儘管打工佔據了我大部分時間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fc4d40e7-13c4-4a9e-9060-97fa89a02bc2",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但在大學後期，我還是有機會在我們系的「智慧物聯網實驗室」裡參與過一個專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ded090a1-9916-4803-ae95-bea130b6ec77",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "當時主要是協助一位教授做一個關於智慧環境的專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8cee2999-53a5-4f0b-aa91-0066a58935ca",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "內容大概是探索如何利用感測器數據來優化室內環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4a0cbbdb-a5ab-4e7f-9660-06c948208c10",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我們用程式語言去讀取各種感測器，像溫度、濕度、光照等等的數據，然後做一些簡單的分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "223857df-8a4f-479f-8283-52644fa6314d",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我主要負責的部分是收集數據跟前期的資料處理，還有一小部分程式的撰寫，讓資料可以視覺化呈現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f4d649e-07a2-4345-9027-8b33d460fb64",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "在過程中，我學到了一些基本的物聯網設備串接方法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4908737d-4d17-4625-a2a1-5c5d3f3a4b8b",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "也對數據分析有了一點概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7b109c54-05f0-4dce-a4ff-be395ee15147",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "不過，因為很多底層的東西我還不是很懂，所以遇到問題的時候，常常要花很多時間自己摸索，然後再跟學長姐請教。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4d556eb8-1779-4140-8383-8e0ffda4d3ec",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "有時候程式跑出來的結果不如預期，也會讓我感到挫折。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3906bc3e-5def-4045-8bd4-ef2011022722",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但每一次解決問題，都讓我對資工的應用潛力有了更深的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dfa95d29-0d7f-4ba0-a2c8-aad17787865b",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "雖然這個經驗沒有很深入，也不是什麼大型的研究計畫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10d78163-263a-4b17-9502-03b6b348111f",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但它讓我對「智慧環境」和「物聯網通訊」產生了非常大的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "352bebba-a7f9-4338-a236-b58c204b331c",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "也讓我意識到自己在這方面的知識還遠遠不夠，需要更系統性的學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7fa19920-b645-441c-b274-53cad3e1e111",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "大學期間，除了忙碌的打工和課業，我也參加過學校舉辦的「跨文化溝通工作坊」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f405b2d-50a9-4428-b3dc-de365b4c5243",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "這個工作坊主要是讓不同國籍的學生一起組隊，針對一些國際議題進行討論和報告。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "268ccd52-fed8-4d52-b272-3937e8b3afa8",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "在裡面，我跟來自日本、韓國還有一些歐美國家的同學一起合作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "daf3d368-01d5-4b7b-940f-b651ca69999f",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "學習怎麼在語言和文化背景不同的情況下有效溝通。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a13dec25-8b76-469b-91f7-aa70f8226d36",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "一開始真的很有挑戰性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2cb56346-a72b-43bd-89f5-e810e533a94c",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "因為每個人的思考模式和表達方式都不一樣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "529c7bbe-3937-48c4-9399-dab4c82ab910",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "有時候我覺得很明確的表達，對他們來說可能很模糊，反之亦然。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1b467b5b-5618-4968-bbb6-4936a567e9db",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但透過不斷的練習和磨合，我學會了更傾聽別人的想法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b755b4b5-2743-4983-b3e2-59d3407abe80",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "也學會了如何用更清晰、更不容易產生誤解的方式來傳達我的意見。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c8a23f3c-313c-4505-bf32-fcf0f03ba21b",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "雖然這跟資工的硬核技術不太一樣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1e20014f-02b7-4960-a20b-c40aa091ffc4",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但我相信在未來的研究合作或是團隊工作中，這種跨文化的溝通能力和換位思考的能力會非常有用，尤其是在面對複雜的國際專案時。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c7a58474-1630-412c-b47f-ffeb6de02ec6",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "這個經驗真的對我培養了很重要的軟實力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e0573a30-bd49-49d0-a517-2a96ee1c596e",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "讓我學會怎麼更好地與人互動和合作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "730898b6-25fb-4fe3-8725-d4c1fdf6d78c",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "回顧我的大學生涯，雖然在學業成績上沒有亮眼的表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "68250621-c060-428f-99ec-9dc3b24efb26",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但豐富的打工經驗讓我具備了堅韌的毅力與獨立解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2df1065f-11ea-4a57-9cde-c8dc3747fc46",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "而參與實驗室的專案也讓我發現自己對智慧環境與物聯網通訊領域有著濃厚的興趣，並渴望深入鑽研。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32cbf827-23cd-41f6-9c54-395cc99fd2b0",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "元智資工系的課程讓我具備了基礎知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "55ee0c84-86d4-4784-ba8f-b4948e3c5e70",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但我覺得這些還遠遠不夠，特別是當我接觸到研究專案時，總覺得有很多地方力不從心，想學卻不知道從何學起。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "67039047-6c17-4747-90f4-dfe27aac534c",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我申請交大資工所，主要就是希望能轉換跑道。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "093d8225-55b2-4f92-97c2-89f022feea84",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "將我大學期間因打工而缺乏的專業深度補齊，並在更頂尖的學術環境中精進自己的技術能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9358061c-eb7b-4013-a4ca-83897ded536f",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "交大資工所無論在師資、設備還是研究資源上，都是業界頂尖的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9a5578b7-a0d6-4548-ac85-a5d882448b56",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "特別是貴所很多教授的研究方向都跟智慧環境和物聯網通訊很相關。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f893c34c-ba72-49a8-ba2d-0770a617c616",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "這正是我非常有興趣的領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d7d2e803-3820-4e91-96dd-6507cdc68813",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我希望能在這裡，跟隨優秀的教授，彌補過去學業上的不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "74ef0bb9-833b-44d5-ad83-bc3c7b894e8e",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "並學習如何進行有深度的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "852382a9-e8d2-457e-bf0e-ec181b244c17",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我深知自己目前的學術背景可能不是最出色的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "807c1f8e-0ff0-42ff-9b5d-b40f6f255f11",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但我有著強烈的學習意願和不輕言放棄的特質。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e264945d-6bb4-4683-89cc-0a5c61b1cdf2",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我希望交大能給我一個機會，證明我雖然起步慢了一點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6a55d08-c52e-4001-86c2-c31c9741b4d6",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "但透過努力和學習，絕對能迎頭趕上，並為這個領域做出貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1c63a050-61ef-42f7-a2dc-0bd9db7c89c2",
+      "candidate_id": "mock_97",
+      "section": "自傳",
+      "content": "我期待在交大資工所開啟我人生的新篇章。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f24838a1-0885-44be-b724-be3a6b951092",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我對進入交大資工所抱持著非常大的期望。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0a72874c-a665-487b-a2e2-bf951e41189c",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我知道研究所的生活會很不同。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "45aaac72-d8cd-4f1e-9017-67dfdce04d1d",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "所以我已經大致規劃了我的讀書計畫，希望能夠更有效率地學習與成長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "43c4a129-451c-4723-bf4c-a0fafa761c28",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "在正式入學前，我會花時間把大學時期比較不足的基礎科目再好好複習一遍，尤其是資料結構、演算法和作業系統這些核心課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1fc25c4-728b-4b47-948c-a22b5f5ba6c9",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我知道這些是資工的根本，沒有紮實的基礎，後面會學得很吃力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2db57740-f2bc-4a91-948f-af2400ed7dc7",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我也會多看一些相關的書籍和網路課程，把一些概念補強。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "95f7199b-880a-464b-a9dc-89c3637c5358",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "開學後，我會努力適應研究所的步調和學習方式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38ff2f85-a50b-4695-ac3b-35f11312827a",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我知道研究所會有很多自主學習的部分。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8184ba3f-22db-4772-b870-4f9edfc90c1d",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "所以會盡快調整自己的學習心態，讓自己能快速進入狀況。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db649654-1d14-4416-b0e9-2524c646ed5f",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我也會積極參與系上的活動，認識更多老師和同學。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a4838af0-7211-4281-91d7-5019404d51a2",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我會認真研究貴所的課程地圖，優先選修與「智慧環境」和「物聯網通訊」相關的課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "483d77bc-116d-49fe-9a95-a61f82ac850d",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "例如像「物聯網系統設計」、「嵌入式系統」、「機器學習導論」這類的課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a5339f7b-f5ac-4cb8-bdf9-ff65c61feb30",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我覺得會對我很有幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "97966ee2-06c4-45f0-9fce-ee73c0152d88",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我也會多請教助教和學長姐。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe7cf226-78da-466f-8323-34c9701f83ad",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "了解哪些課程對未來研究或就業會比較有幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da8f057b-2d68-41d0-8d06-e064b506d303",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我會主動接觸研究方向與我興趣相符的教授，像是專注於物聯網安全、智慧感測應用或邊緣運算的老師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8b180963-c742-45da-890f-f51bc2bc7a16",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "透過旁聽實驗室討論、閱讀教授們的論文，希望能找到一位適合我的指導教授。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e2696b8d-42e4-4a68-bddb-669749cb5c53",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "並盡早進入實驗室學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "937b213f-223d-4592-9cd3-cb16a0bca399",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我希望能跟著教授做研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b5b8e882-f53c-48e6-8b59-cd40984f70a0",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "從實際參與中學習更多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dea28e24-c7da-468e-bc96-4ad6020b2ca3",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "在碩二這一年，我希望能專注在我的研究主題上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a6d7ef7-7618-4639-80e8-c81cbbd0a497",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "可能是智慧感測網路的數據分析，或是物聯網裝置的安全性應用等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d3baebed-29e6-4842-829e-85a44e8bf279",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我會努力學習更進階的技術和方法，像是深度學習、數據挖掘等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "65ebbd50-608e-4265-be7b-ff7527296d75",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我希望能積極參與實驗室的討論。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a6232c21-8da9-4a7e-b0b2-f87329336a5b",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "並向學長姐學習如何有效地進行研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "52c1208a-2adc-4064-829c-5f59e9a0b15d",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "如果我的研究有初步的成果，我也會嘗試在國內外的學術研討會上發表我的研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa4053a8-a228-48cd-aa17-7559a3aea34a",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "雖然我知道這很難，但我覺得這是一個很好的學習機會，也能讓自己知道跟別人之間的差距。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "413443a2-73ed-4fbc-9374-668980c24305",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我知道很多最新的技術資料和論文都是英文的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ff62e887-10a5-4fab-b672-9c14999e43c7",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "所以這段時間我也會加強我的英文閱讀和寫作能力，讓自己能更順暢地閱讀國外文獻，並能用英文撰寫論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27f04bac-9bd5-4124-ad0e-b0cfe11d4afb",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "畢業後，我希望能夠將我在交大所學到的專業知識和研究經驗應用到業界中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ea5beb60-a27e-4a73-9af2-cbf0f9cabcf4",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我對智慧城市、智慧居家或工業物聯網這些領域都很有興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "129e9c44-d8ac-49f6-8e39-dcfc3714eebc",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "希望能在相關的科技公司找到一份工作，貢獻我的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cd20e1e1-853b-467d-9c40-1d5377d20e65",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我知道畢業不代表學習的結束。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef83c3c4-8096-49b5-b749-60e347776327",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我會保持持續學習的熱情，不斷吸收最新的技術和知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "35851c10-d07f-4ed7-8e28-0636b897fd7f",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "讓自己在這個快速變化的資工領域中保持競爭力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "08a25d57-cba6-4150-afaf-5e67c543360a",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我相信交大資工所的訓練會讓我具備終身學習的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6a03a531-08ac-4706-85d4-bbbd63903777",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "未來如果我有能力，我也希望能夠運用我的專業，對社會做出一些貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b139c155-bc5c-4c1c-850d-830933edb11d",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "可能是在科技教育方面，也可能是在智慧生活應用方面。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0c22f920-00ef-44e9-90ea-fdd55cc0fb7a",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "希望我的努力能夠讓生活更便利、更智慧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d66ed941-29f4-4f8f-9c73-ffecbf3ca75f",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "總之，我會以最認真積極的態度來面對研究所的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ff86ea07-0e6f-485f-8cfc-aae102751eaf",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "努力補足過去的不足，並充分利用交大提供的豐富資源。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7251e68b-8a3f-46e6-8c6c-aab9d30b8966",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我知道我的起點可能不高。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9891a358-fe34-4b97-9fbc-1ae430723281",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "但我相信我的毅力與學習熱情會讓我能夠在貴所順利完成學業，並有所成就。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7b3234bc-988a-49ea-be2c-d204c33b5694",
+      "candidate_id": "mock_97",
+      "section": "讀書計畫",
+      "content": "我期待在交大資工所開啟我人生的新篇章。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

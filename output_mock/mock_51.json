@@ -1,0 +1,819 @@
+{
+  "candidate_id": "mock_51",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_51.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n各位審查委員您好，我是侯沛霖，來自中央大學生物資訊與計算生物學系。這四年來，我一直在生物資訊這個有趣的領域裡探索，也累積了一些技術能力，所以希望能申請貴所，讓我有機會在資工這條路上走得更遠。\r\n\r\n### 成長背景與學習歷程\r\n\r\n從小我就對生物世界充滿好奇，覺得生命真的很多奧秘。後來考上中央大學的生物資訊與計算生物學系，才發現原來生物和電腦可以結合得這麼緊密。剛開始系上的課業對我來說蠻有挑戰的，因為除了生物專業，還要修習一些程式設計和數學課程。我的學業成績修課平均大概是 3.03，不算特別突出，但我在學習的過程中發現，自己對用程式解決生物問題特別有興趣，也因此慢慢調整了學習重心，更專注在技術能力的培養上。\r\n\r\n大學期間，我慢慢發現了程式設計的魅力。一開始只是跟著學校的課程學習 Python 和 R，做一些基礎的資料處理和統計分析。雖然剛開始常常卡關，程式碼一直跑不出來，但每次只要成功解決一個問題，那種成就感就讓我樂此不疲。我覺得這真的幫我培養了解決問題的能力，也讓我學到很多。\r\n\r\n### 研究與實作經驗\r\n\r\n在大三的時候，我加入了系上的「計算生物資料分析實驗室」，開始接觸到比較實際的研究專案。在實驗室裡，我主要參與一個關於基因體資料分析的計畫，目標是從大量的基因序列中找出一些可能的變異點，並評估它們與特定疾病的關聯性。\r\n\r\n這個專案對我來說真的獲益良多。我學到了如何處理非常龐大的生物資料，因為那些原始數據實在是太大了，光是讀取就要花不少時間。我也接觸到一些演算法，用來比對和分析基因序列。雖然一開始對於這些複雜的演算法感到很頭痛，常常不知道該從何下手，但在學長姐和教授的指導下，我慢慢掌握了一些分析的流程。在實作的過程中，我發現資料清洗和格式轉換就佔了大部分的時間，而且常常會遇到一些預料之外的問題，例如資料遺失或是格式不一致等等。這些問題雖然很麻煩，但也讓我培養了細心處理資料的習慣。最後，我成功地用程式跑出了一些分析結果，雖然不一定是最完美的，但至少讓我對整個基因體資料分析的過程有了比較具體的了解。\r\n\r\n除了實驗室的經驗，我也曾參與一個產學合作的小型專案。那是一個協助藥廠做初步藥物篩選模型的前期開發工作。我的職責主要是協助將一些藥物結構資料轉換成適合模型輸入的格式，並嘗試用一些簡單的機器學習方法對這些資料進行分類。這個經驗讓我看到了學術研究如何應用到業界，也讓我有機會練習將學到的程式技能應用在比較實際的問題上。過程中，我學到了一些基礎的機器學習概念，也了解到不同模型有不同的優缺點，雖然沒有做出非常先進的模型，但至少讓我對整個流程有了概念，也知道未來還可以怎麼改進。\r\n\r\n此外，在大四的暑假，我也在一家虛擬的「創新科技公司」擔任了大概兩個月的軟體開發助理。主要負責一些後端API的開發和資料庫的維護工作。這是我第一次接觸到比較正規的軟體開發流程，從需求分析到程式碼撰寫，再到測試和部署，雖然只是參與其中一小部分，但也讓我對業界的開發模式有了初步的認識。每天都要寫程式、解決 bug，也常常需要和團隊成員溝通，這對我的技術能力和團隊合作能力都有很大的幫助。我發現公司裡使用的技術和學校學的又不一樣，所以也要快速學習新的東西，這段經驗讓我理解到持續學習的重要性。\r\n\r\n### 個人特質與課外活動\r\n\r\n除了專業學習，大學期間我也一直很喜歡滑板運動。滑板對我來說不只是一種興趣，更是一種生活態度。從一開始連站都站不穩，到後來可以做一些簡單的動作，這個過程讓我學到了堅持和毅力。每次跌倒，就想著要再爬起來，找出問題在哪裡，然後再試一次。這種從失敗中學習、不斷嘗試的精神，我覺得在學習程式和解決問題時也很有幫助。它讓我能夠面對挫折而不輕易放棄，也能夠更專注地面對挑戰。透過滑板，我也認識了很多不同背景的朋友，學會了與人交流和分享，這些經驗都讓我更加充實。\r\n\r\n### 申請動機\r\n\r\n我一直覺得，生物資訊雖然很有趣，但如果能結合更深厚的資訊工程知識，它的潛力將會是無限的。在中央大學的學習讓我對生物領域有了一定的理解，也掌握了一些基礎的程式和資料分析能力，但我知道自己對於資工領域的許多核心知識，例如更底層的演算法、系統架構、或是更進階的機器學習與深度學習應用，都還需要更系統性的學習與補強。\r\n\r\n交大資工所一直是我的目標，這裡不僅擁有非常頂尖的師資和研究資源，更是資訊科技的重鎮。我希望能藉由在貴所的進修，補足我在資訊工程基礎上的不足，並且將我過去在生物資訊領域的知識與經驗，與資訊工程的專業知識做更深入的結合。我期望能夠在貴所的訓練下，成為一個不僅懂生物，更精通資訊科技的跨領域人才。我知道這條路會很辛苦，但我已經準備好迎接挑戰，希望能有機會在交大資工所繼續深造。\r\n\r\n## 讀書計畫\r\n\r\n我希望能申請貴所，主要是希望能將我過去在生物資訊領域所學，搭配資工領域更扎實的基礎，找到一個好的發展方向。雖然目前對於具體要研究什麼還沒有很明確的想法，但我相信在貴所的訓練下，我一定能找到自己的路。\r\n\r\n### 短期計畫（入學前至第一學年）\r\n\r\n入學前這段時間，我會好好複習大學所學的資料結構、演算法、線性代數和機率統計等課程。我知道這些是資工的基礎，所以會找一些線上課程或是參考書籍來惡補一下，希望能打好基礎，避免入學後跟不上進度。我之前也聽說有些同學會去補習班加強，我可能會考慮看看。同時，我也會多閱讀一些資工相關的論文或科普文章，讓自己對資工領域有更全面的認識，看看目前大家都在做些什麼研究。\r\n\r\n入學後的第一學年，我會把重心放在學業上，努力修習貴所開設的核心課程，例如進階演算法、作業系統、計算機網路等等。我知道這些課程可能都會比較有挑戰性，但我會盡全力去學習，不懂的地方也會主動請教教授和同學。除了上課，我也會嘗試旁聽一些自己有興趣的實驗室的討論，多了解一下不同老師的研究方向。希望能多花時間在圖書館，多看一些書，學到更多知識。如果時間允許，也會積極參與一些系上的活動，多認識一些學長姐和同學，擴展自己的人際網絡。同時，我會努力加強英文能力，因為之後會需要閱讀很多英文論文。\r\n\r\n### 中期計畫（第二學年）\r\n\r\n到了第二學年，我希望自己對資工領域已經有了比較扎實的基礎，也對貴所的研究方向有了更清楚的認識。這時候，我的目標是能夠確定一個自己真正有興趣的研究主題，並積極尋找適合的指導教授。我會主動和教授們討論，了解他們的實驗室文化和研究方向，希望能找到一個能讓我發揮所長，同時也能學到很多東西的實驗室。\r\n\r\n一旦進入實驗室，我會全力投入論文研究。我知道撰寫碩士論文是一個漫長而艱辛的過程，但我會努力學習如何進行獨立研究，包括文獻回顧、實驗設計、資料分析和結果呈現等等。我會聽從教授的指導，和實驗室的學長姐多交流，學習他們的研究方法和經驗。同時，我也會嘗試參與一些國內外的研討會或工作坊，聽聽別人的研究成果，擴展自己的視野，並學習如何有效地發表自己的研究。如果有機會，我也希望能夠參與一些實務性的專案，將理論知識應用到實際問題中。\r\n\r\n### 長期計畫（畢業後）\r\n\r\n完成碩士學業後，我希望自己已經成為一個具備專業資工知識，並且能夠將生物資訊背景有效結合的跨領域人才。我會根據在碩士期間的研究成果和興趣，決定下一步的發展方向。\r\n\r\n如果我的研究做得不錯，並且對學術研究仍然保有熱情，我不排除繼續攻讀博士學位，在某個特定的研究領域深入鑽研。畢竟，我覺得在資工與生物資訊的交叉領域，還有很多問題值得去探索。\r\n\r\n另一方面，我也會考慮進入相關產業服務。我認為在人工智慧醫療、生物科技軟體開發、或是健康大數據分析等領域，都非常需要具備跨領域背景的人才。我希望能將我在交大資工所學到的專業知識和研究經驗，應用在業界的實際問題上，為社會帶來一些貢獻。無論未來選擇哪條路，我都會秉持著持續學習的態度，不斷精進自己的專業能力。",
+  "idea_units": [
+    {
+      "id": "e06afbb0-ed42-452c-8e83-dc8afcb6a88b",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "各位審查委員您好，我是侯沛霖，來自中央大學生物資訊與計算生物學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "46df85ed-3bb2-4669-a4d7-78fa30c800ea",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這四年來，我一直在生物資訊這個有趣的領域裡探索，也累積了一些技術能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f391c507-0134-4220-8d67-657d1dc452ea",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "所以希望能申請貴所，讓我有機會在資工這條路上走得更遠。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ac5a8334-cd37-4d33-b1e9-3ef78670997d",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "從小我就對生物世界充滿好奇，覺得生命真的很多奧秘。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6d59f7e1-53eb-4d75-8315-46908d84d58e",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "後來考上中央大學的生物資訊與計算生物學系，才發現原來生物和電腦可以結合得這麼緊密。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d374b15f-b086-4cab-944b-17455ac264b5",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "剛開始系上的課業對我來說蠻有挑戰的，因為除了生物專業，還要修習一些程式設計和數學課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c213993f-d859-4428-9848-2fc259666c8f",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我的學業成績修課平均大概是 3.03，不算特別突出。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c5e1c77d-6316-4fee-8826-640c6dc15c38",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "但我在學習的過程中發現，自己對用程式解決生物問題特別有興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8b78e22b-fa84-46d0-9ab2-4d4e833baef5",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "也因此慢慢調整了學習重心，更專注在技術能力的培養上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0e06da64-de90-4613-8ac3-839d2959873c",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "大學期間，我慢慢發現了程式設計的魅力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "84f47bc8-95d7-4512-8ed1-a7ff3e4f3dd8",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "一開始只是跟著學校的課程學習 Python 和 R，做一些基礎的資料處理和統計分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b97e38da-138d-4fdd-980a-a22d60bddcb1",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "雖然剛開始常常卡關，程式碼一直跑不出來。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb4e5430-6931-4fa3-b355-a0b30dee7c5a",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "但每次只要成功解決一個問題，那種成就感就讓我樂此不疲。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58d36b3c-f8ab-46cb-80c2-ddc46ae6532d",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我覺得這真的幫我培養了解決問題的能力，也讓我學到很多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "031bf978-e41f-43bd-940a-b8d7689d07fa",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "在大三的時候，我加入了系上的「計算生物資料分析實驗室」，開始接觸到比較實際的研究專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "517bacd7-3101-4228-a986-466d87b53be4",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "在實驗室裡，我主要參與一個關於基因體資料分析的計畫，目標是從大量的基因序列中找出一些可能的變異點，並評估它們與特定疾病的關聯性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ad2985a9-e37a-4d99-bfcf-cc5672050638",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這個專案對我來說真的獲益良多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07ebafdd-c4d4-4f35-920c-c5fdf8771981",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我學到了如何處理非常龐大的生物資料，因為那些原始數據實在是太大了，光是讀取就要花不少時間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0dde536f-c7a9-4f9b-abfc-cf02abca7ca4",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我也接觸到一些演算法，用來比對和分析基因序列。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9736e59f-84ca-49ba-bb44-46a7bb0d164a",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "雖然一開始對於這些複雜的演算法感到很頭痛，常常不知道該從何下手。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c7ea0a6-a402-4f6b-b77c-687745b58d4f",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "但在學長姐和教授的指導下，我慢慢掌握了一些分析的流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2190b4ca-66bf-452c-bdc1-d3bfe9023552",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "在實作的過程中，我發現資料清洗和格式轉換就佔了大部分的時間，而且常常會遇到一些預料之外的問題，例如資料遺失或是格式不一致等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8e0dd460-6867-4c1c-8727-8ae5ddb34e8d",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "但也讓我培養了細心處理資料的習慣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "305c648d-1e9e-48fd-bbdb-d847aba1959d",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "最後，我成功地用程式跑出了一些分析結果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3723b584-10c4-401c-92ff-e17fcf9cbf22",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "雖然不一定是最完美的，但至少讓我對整個基因體資料分析的過程有了比較具體的了解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9ce95298-e1a2-4bd6-aa6e-687ad6603859",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "除了實驗室的經驗，我也曾參與一個產學合作的小型專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7907c5a5-7bf9-48c5-8b9e-a07235877c1c",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "那是一個協助藥廠做初步藥物篩選模型的前期開發工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db71cf62-c645-4214-b7c2-3a8e9137b866",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我的職責主要是協助將一些藥物結構資料轉換成適合模型輸入的格式，並嘗試用一些簡單的機器學習方法對這些資料進行分類。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "de5941e6-c231-4d63-86c3-821d6712ac56",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這個經驗讓我看到了學術研究如何應用到業界。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0f277190-42bb-4113-a1f7-fb0c938ad1b2",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "也讓我有機會練習將學到的程式技能應用在比較實際的問題上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e10f60d9-43ca-4340-88e6-36d7ba2bf4fa",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "過程中，我學到了一些基礎的機器學習概念，也了解到不同模型有不同的優缺點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01e8a8bb-e0ab-4e21-b219-330862670f6f",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "雖然沒有做出非常先進的模型，但至少讓我對整個流程有了概念，也知道未來還可以怎麼改進。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "888b63cf-0898-4e94-b3b5-c349cd484426",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "此外，在大四的暑假，我也在一家虛擬的「創新科技公司」擔任了大概兩個月的軟體開發助理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9906dac5-0f02-4617-a404-a109eaa9238d",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "主要負責一些後端API的開發和資料庫的維護工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d48b9738-31bc-4a92-b81a-a9ebf7722150",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這是我第一次接觸到比較正規的軟體開發流程，從需求分析到程式碼撰寫，再到測試和部署。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd8e9951-151e-4de4-b75a-134cb5f3a209",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "雖然只是參與其中一小部分，但也讓我對業界的開發模式有了初步的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "78e885d2-26a0-41ce-9c3c-93fac6068ed2",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "每天都要寫程式、解決 bug，也常常需要和團隊成員溝通。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "39d0773e-5e95-4871-8460-6e3f5029a7d0",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這對我的技術能力和團隊合作能力都有很大的幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0beb7522-0ff2-49d1-b715-4c81e89687d2",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我發現公司裡使用的技術和學校學的又不一樣，所以也要快速學習新的東西。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4170dd67-44e0-448f-848e-dddce11e18ff",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這段經驗讓我理解到持續學習的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "262f4d47-f306-47ca-b9ca-0e5e67cfec32",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "除了專業學習，大學期間我也一直很喜歡滑板運動。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7302d114-b99d-452c-9979-c94d4707e2a3",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "滑板對我來說不只是一種興趣，更是一種生活態度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "403de5d0-22dc-4ea6-972d-ff3a3b353489",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "從一開始連站都站不穩，到後來可以做一些簡單的動作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b75383c-4c06-49a3-ba4c-8e46a9ee9202",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這個過程讓我學到了堅持和毅力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f7fa4d87-4636-47ff-baa9-30f0ebe3c7ce",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "每次跌倒，就想著要再爬起來，找出問題在哪裡，然後再試一次。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e82db445-c0fd-483e-b1c0-b4f8b1461ab8",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這種從失敗中學習、不斷嘗試的精神，我覺得在學習程式和解決問題時也很有幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "69f191b4-13f1-46e4-9a09-6d81256609c0",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "它讓我能夠面對挫折而不輕易放棄，也能夠更專注地面對挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dae6e72d-d98b-4de8-b9ff-4ad0f95823fd",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "透過滑板，我也認識了很多不同背景的朋友，學會了與人交流和分享。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f7b3cd41-5fa9-4ceb-8c5a-30a49ae59ffe",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "這些經驗都讓我更加充實。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4a61e082-3c3f-4357-ac74-6e7e30b8958e",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我一直覺得，生物資訊雖然很有趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "77568a4b-9c4e-4bed-bf31-522daff5d0e9",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "但如果能結合更深厚的資訊工程知識，它的潛力將會是無限的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ce79e6ac-0817-49df-b964-701a64db0c01",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "在中央大學的學習讓我對生物領域有了一定的理解，也掌握了一些基礎的程式和資料分析能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "510c1044-d80c-4719-b2ac-ea11bbf567fa",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "但我知道自己對於資工領域的許多核心知識，例如更底層的演算法、系統架構、或是更進階的機器學習與深度學習應用，都還需要更系統性的學習與補強。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb6d7fe3-e06d-4d0a-91d7-25e65d64b828",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "交大資工所一直是我的目標，這裡不僅擁有非常頂尖的師資和研究資源，更是資訊科技的重鎮。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8cf7beb0-f1c4-452c-a06d-4976f938503e",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我希望能藉由在貴所的進修，補足我在資訊工程基礎上的不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d769529-2dc9-4b02-afdf-3e6e1f2f049a",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "並且將我過去在生物資訊領域的知識與經驗，與資訊工程的專業知識做更深入的結合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "84045a40-cfc7-4c96-99ac-191b9b8abb40",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我期望能夠在貴所的訓練下，成為一個不僅懂生物，更精通資訊科技的跨領域人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a0555666-7c45-4b7b-8aa3-beb071f9a25f",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "我知道這條路會很辛苦。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b8b9f65b-0845-4371-908f-3454c822319d",
+      "candidate_id": "mock_51",
+      "section": "自傳",
+      "content": "但我已經準備好迎接挑戰，希望能有機會在交大資工所繼續深造。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01b23566-8899-4364-a5e4-3016e6a81359",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我希望能申請貴所，主要是希望能將我過去在生物資訊領域所學，搭配資工領域更扎實的基礎，找到一個好的發展方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6fefdb1-1d66-4b2a-a8b1-dba28692802d",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "雖然目前對於具體要研究什麼還沒有很明確的想法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a92dd9f9-bf45-4ed4-9227-f9e9b3dd7444",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "但我相信在貴所的訓練下，我一定能找到自己的路。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b2faeece-b48b-49d0-821d-523924ada343",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "入學前這段時間，我會好好複習大學所學的資料結構、演算法、線性代數和機率統計等課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d15b2923-d8c9-42c5-b2e3-cd33fa03b2bd",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我知道這些是資工的基礎，所以會找一些線上課程或是參考書籍來惡補一下，希望能打好基礎，避免入學後跟不上進度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef38220d-7277-4251-b9da-1685ce4a4339",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我之前也聽說有些同學會去補習班加強，我可能會考慮看看。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31531341-4c54-41f7-bf82-bfec5901769f",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "同時，我也會多閱讀一些資工相關的論文或科普文章，讓自己對資工領域有更全面的認識，看看目前大家都在做些什麼研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0b62c70-b746-41c0-8ed9-8cf9c92e4a10",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "入學後的第一學年，我會把重心放在學業上，努力修習貴所開設的核心課程，例如進階演算法、作業系統、計算機網路等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b45680ea-e9bd-4884-9921-60a15faf77ee",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我知道這些課程可能都會比較有挑戰性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38bccb32-c5ec-4875-861d-9ae5e5307025",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "但我會盡全力去學習，不懂的地方也會主動請教教授和同學。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d1884fea-22da-49f8-b89a-2524770909fc",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "除了上課，我也會嘗試旁聽一些自己有興趣的實驗室的討論，多了解一下不同老師的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4c35dd29-c2b3-401c-bd2d-3d67dd1fbc03",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "希望能多花時間在圖書館，多看一些書，學到更多知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9a7c93cd-b270-4362-8146-801000bdf7a7",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "如果時間允許，也會積極參與一些系上的活動，多認識一些學長姐和同學，擴展自己的人際網絡。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2388faa-0ecc-479e-b64f-26b4a1f9afb1",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "同時，我會努力加強英文能力，因為之後會需要閱讀很多英文論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b6505d5c-664b-4b14-835c-40906bc465c5",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "到了第二學年，我希望自己對資工領域已經有了比較扎實的基礎，也對貴所的研究方向有了更清楚的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d4761aa-326a-4630-a3c3-7482af0a496f",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "這時候，我的目標是能夠確定一個自己真正有興趣的研究主題，並積極尋找適合的指導教授。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f80a519e-65a7-43a8-ad74-330bd9874b0e",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我會主動和教授們討論，了解他們的實驗室文化和研究方向，希望能找到一個能讓我發揮所長，同時也能學到很多東西的實驗室。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "03a71464-453c-443c-87aa-c4ad2b20a55c",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "一旦進入實驗室，我會全力投入論文研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb1668ff-2ec0-42fe-b9c6-584d0474c1a3",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我知道撰寫碩士論文是一個漫長而艱辛的過程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd4464b4-4078-40a7-aff3-2b3567108752",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "但我會努力學習如何進行獨立研究，包括文獻回顧、實驗設計、資料分析和結果呈現等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6d361647-704e-4a69-9520-a08dc5893fe8",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我會聽從教授的指導，和實驗室的學長姐多交流，學習他們的研究方法和經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f8d920bd-50b5-4e51-b16a-673712266f92",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "同時，我也會嘗試參與一些國內外的研討會或工作坊，聽聽別人的研究成果，擴展自己的視野，並學習如何有效地發表自己的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "26d26df4-e940-4a26-9b33-32efe58247e6",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "如果有機會，我也希望能夠參與一些實務性的專案，將理論知識應用到實際問題中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "53435a78-259f-4cee-af6b-e9745265dc5d",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "完成碩士學業後，我希望自己已經成為一個具備專業資工知識，並且能夠將生物資訊背景有效結合的跨領域人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0967d5ca-de85-4d7d-a99b-4b5de3329a51",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我會根據在碩士期間的研究成果和興趣，決定下一步的發展方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5c7ea110-0e4f-442f-be9e-a3b003e0b8a0",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "如果我的研究做得不錯，並且對學術研究仍然保有熱情，我不排除繼續攻讀博士學位，在某個特定的研究領域深入鑽研。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0a092697-99fd-4890-9562-f3f2009059f0",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "畢竟，我覺得在資工與生物資訊的交叉領域，還有很多問題值得去探索。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d4bf9804-8ad4-4590-a6ce-560bc0cd78ea",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "另一方面，我也會考慮進入相關產業服務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31053ab5-8b31-4377-98d6-4ffe418c607e",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我認為在人工智慧醫療、生物科技軟體開發、或是健康大數據分析等領域，都非常需要具備跨領域背景的人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "533d957a-35e2-4271-ad1d-5de2f87f6e28",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "我希望能將我在交大資工所學到的專業知識和研究經驗，應用在業界的實際問題上，為社會帶來一些貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a0aba85a-83f0-4383-b899-4bfebe6c9f46",
+      "candidate_id": "mock_51",
+      "section": "讀書計畫",
+      "content": "無論未來選擇哪條路，我都會秉持著持續學習的態度，不斷精進自己的專業能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

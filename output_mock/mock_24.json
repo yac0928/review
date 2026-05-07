@@ -1,0 +1,684 @@
+{
+  "candidate_id": "mock_24",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_24.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n### 個人簡介\r\n\r\n我是柯耀宗，來自國立臺北科技大學資訊工程學系。從踏入大學校園的那一刻起，我就對資訊科技充滿了熱情，尤其是在軟體開發與人工智慧領域，特別是自然語言處理 (NLP) 和語意理解這兩個方向。大學四年下來的學業成績約維持在3.3左右，雖然不是最頂尖，但我相信我的學習熱忱與實作能力足以彌補。我一直認為，學術成績固然重要，但實際動手解決問題的能力與技術的深度掌握才是關鍵。因此，大學期間我投入了大量的時間在研究室專案、產學合作以及自主學習開發上，致力於培養紮實的技術實力。\r\n\r\n### 學術背景與研究經歷\r\n\r\n我的大學生活，很大一部分都獻給了系上的「智慧資訊處理實驗室」。大三上學期，我很榮幸能加入林教授的團隊，參與一個關於「中文意圖識別與情緒分析」的產學合作專案。這個專案的目標是為客戶建立一個能夠精準判斷使用者意圖並分析其情緒狀態的客服聊天機器人核心模組。\r\n\r\n一開始，我負責的是資料前處理的部分，這比我想像中複雜許多。中文文本的斷詞、同義詞處理、非標準用詞（如網路流行語）的規範化，都讓我吃了不少苦頭。我們使用了 `Jieba` 進行斷詞，並手動建構了一些專屬詞典來提升特定領域詞彙的識別度。接著，我開始嘗試不同的特徵工程方法，例如詞袋模型 (Bag-of-Words) 和 TF-IDF，將文本轉換成模型可以理解的數值向量。\r\n\r\n在模型選擇階段，我們團隊首先嘗試了傳統的機器學習演算法，像是支持向量機 (SVM) 和隨機森林 (Random Forest)。我發現這些模型在初期表現不錯，但當資料量變大、意圖種類增多時，模型的泛化能力就會遇到瓶頸。為了解決這個問題，我花了許多時間學習深度學習的基礎，並嘗試導入了基於 `TensorFlow` 和 `Keras` 的循環神經網路 (RNN) 和長短期記憶網路 (LSTM) 模型。雖然學習曲線相當陡峭，但當我看到模型準確率明顯提升，尤其是在處理語意複雜的句子時，真的非常有成就感。這個專案讓我深刻體會到資料的品質對模型表現的影響有多大，也學習到如何根據不同的問題特性選擇合適的機器學習或深度學習模型。我們最終達成了客戶要求的85%意圖識別準確率，並能對七種主要情緒進行分類。這個經驗讓我對於如何將理論應用於實際問題，並在實作中不斷優化解決方案，有了更深刻的認識。\r\n\r\n### 業界實習與專案經驗\r\n\r\n除了研究室的經驗，大三的暑假，我也有幸到一家新創公司「智慧溝通科技」進行為期兩個月的軟體開發實習。這是一個非常寶貴的機會，讓我能夠將在學校所學的技術應用到真正的商業產品中。我在這裡主要參與一個企業內部知識庫智能檢索系統的後端開發工作。\r\n\r\n我的職責主要是協助開發和維護基於Python的API介面，讓前端應用程式能夠串接。我利用 `Flask` 框架建立RESTful API，負責處理使用者提交的查詢請求，並將這些請求發送到我們後端的搜尋引擎進行處理。這個系統的核心是一個基於向量空間模型的語意搜尋引擎，它能夠比傳統關鍵字搜尋更精確地找到相關文件。我參與了將文件內容向量化的部分，使用了 `spaCy` 和一些預訓練的詞向量模型來生成文本嵌入。此外，我也負責撰寫資料庫操作的相關程式碼，運用 `SQLAlchemy` 與 PostgreSQL 資料庫進行互動，確保知識庫內容的更新與檢索效率。\r\n\r\n實習期間，我學習到如何在敏捷開發 (Agile Development) 環境下與團隊成員協作，了解版本控制 (Git) 的重要性，以及如何撰寫清晰、可維護的程式碼。有一次，我們遇到系統在尖峰時段響應速度變慢的問題，我與團隊成員一同分析日誌、找出瓶頸，最終透過優化資料庫查詢與快取機制，成功提升了系統的穩定性和效能。這次實習不僅讓我的程式開發能力和除錯技巧大幅進步，也讓我對軟體工程的實務流程有了更全面的理解，這對我未來希望投入業界打下了一個非常好的基礎。\r\n\r\n### 社團活動與領導經驗\r\n\r\n在課業與研究之餘，我也積極參與社團活動，並擔任了「天文社」的社長。這個社團不僅僅是興趣的展現，更是培養我領導與溝通能力的舞台。作為社長，我負責社團的年度規劃、活動執行以及社內成員的協調。我們定期舉辦觀星活動，從校園內到校外營地，每次活動都需要考量天氣、交通、設備架設等多重因素。\r\n\r\n我特別規劃了幾場結合科技應用的主題活動，例如「手機天文攝影工作坊」和「星象辨識 App 開發體驗」。在手機天文攝影工作坊中，我帶領社員學習如何使用手機搭配望遠鏡轉接環，捕捉月亮、行星的影像，並利用一些基礎的圖像處理軟體進行後製。而星象辨識 App 開發體驗則是我個人興趣的延伸，我邀請了系上學長來分享如何利用公開的天文資料API，開發一個簡單的星圖應用程式，讓大家對程式設計與天文知識的結合有了初步的認識。\r\n\r\n擔任社長期間，我學會了如何平衡不同的意見，處理社團內部可能出現的摩擦，並有效地將抽象的活動目標拆解成具體的執行步驟。例如，有一次我們舉辦大型觀星夜，遭遇了突如其來的陣雨，我必須迅速應變，調整備案場地和活動流程，確保所有參與者的安全與活動的順利進行。這些經驗讓我學會了如何在壓力下保持冷靜，並培養了解決問題的彈性和應變能力，也讓我意識到團隊合作的重要性。\r\n\r\n### 申請動機\r\n\r\n我選擇申請貴校資訊工程學系碩士班，主要有幾個原因。首先，我對於人工智慧，特別是自然語言處理和語意理解領域的探究熱情持續不減。大學階段的經驗讓我體認到，儘管我已累積了一些技術基礎與實作經驗，但若想在這個領域有更深遠的發展，我需要一個更扎實、更具深度的學術環境來進修。交大資工系在AI和ML領域的卓越聲譽，以及其豐富的研究資源與師資陣容，對我而言具有莫大的吸引力。\r\n\r\n我希望能夠在一個更具挑戰性的環境中，系統性地學習最新的理論知識，並接觸更前瞻的研究議題。我相信透過貴校提供的課程與研究機會，我能夠將現有的技術能力提升到另一個層次，並發展出獨立思考與創新解決問題的能力。此外，我也非常期待能與來自不同背景的優秀同儕交流學習，激發出更多創意的火花。我希望能繼續深造，讓自己能在未來貢獻於資訊科技的發展，也期望能在貴系所找到自己明確的研究方向。\r\n\r\n---\r\n\r\n## 讀書計畫\r\n\r\n### 短期目標 (入學第一年)\r\n\r\n* **扎實基礎課程學習：**\r\n * 積極修習核心課程，包括但不限於「高等機器學習」、「深度學習」、「自然語言處理」及「高等演算法」。\r\n * 特別關注課程中關於 Transformer 架構、大型語言模型 (LLM) 等前沿主題的介紹，深入理解其原理與應用。\r\n * 在課餘時間，利用線上資源或相關書籍，進一步強化線性代數、機率統計等數學基礎，為更複雜的模型理論學習打下根基。\r\n\r\n* **實驗室探索與熟悉：**\r\n * 入學後儘快接觸不同研究室，了解老師們的研究方向與實驗室文化，特別是與自然語言處理、語意理解相關的實驗室。\r\n * 積極與學長姐交流，熟悉碩士班的研究流程與實驗工具，爭取儘早加入適合自己的研究團隊。\r\n * 閱讀研究室過往的論文成果，試圖從中找到自己感興趣且有潛力深入探討的議題。\r\n\r\n* **程式與工具精進：**\r\n * 持續磨練 Python 程式設計能力，特別是針對科學計算與深度學習相關套件，如 `PyTorch` 或 `TensorFlow` 的熟練度。\r\n * 學習使用 Docker 等容器化技術，提升研究環境部署的效率與一致性。\r\n * 熟悉 Linux 作業系統與常用的開發工具，確保能高效進行開發與實驗。\r\n\r\n### 中期目標 (入學第二年)\r\n\r\n* **專注論文研究：**\r\n * 在指導教授的帶領下，鎖定具體的研究題目，並開始進行系統性的文獻回顧與實驗設計。\r\n * 利用第一年所學的知識與工具，獨立完成研究專案的開發與實驗，並持續記錄實驗數據與成果。\r\n * 深入探討自然語言處理中的特定子領域，例如文本摘要、問答系統、多模態語意理解等，並嘗試提出創新的解決方案。\r\n\r\n* **參與學術交流：**\r\n * 積極參與實驗室內部討論會，分享研究進度與遇到的問題，並從教授與同學的建議中學習。\r\n * 若研究成果有一定進展，爭取投稿至國內外相關學術研討會或期刊，累積發表經驗。\r\n * 參與校內外的學術講座或研討會，了解最新的研究趨勢，擴展學術視野。\r\n\r\n* **實務應用探索：**\r\n * 嘗試將研究成果應用於實際問題，思考如何將學術上的突破轉化為具有商業或社會價值的技術應用。\r\n * 若時間允許，考慮尋找與研究領域相關的業界實習機會，將理論與實務結合，為畢業後的職涯發展鋪路。\r\n\r\n### 長期目標 (畢業後)\r\n\r\n* **投入AI領域：**\r\n * 期望能進入頂尖的科技公司，擔任自然語言處理工程師、機器學習工程師或相關的研發職位，將所學貢獻於人工智慧產品的開發。\r\n * 持續關注並學習AI領域的最新技術與發展，不斷提升自己的專業能力。\r\n\r\n* **貢獻學術研究：**\r\n * 保持對學術研究的熱情，即使投入業界，也希望能持續參與開源專案，或在職涯中探索將實務問題轉化為研究課題的機會。\r\n * 若有機會，未來也考慮攻讀博士學位，在特定領域進行更深入的學術探索。\r\n\r\n* **終身學習者：**\r\n * 秉持終身學習的態度，面對快速變化的科技環境，不斷自我提升，保持競爭力。",
+  "idea_units": [
+    {
+      "id": "67525462-5b4a-42f8-b6ac-a18cc3ae4a91",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我是柯耀宗，來自國立臺北科技大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "248c7ab7-e76b-4f43-a3a4-4bebe0a47cc3",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "從踏入大學校園的那一刻起，我就對資訊科技充滿了熱情，尤其是在軟體開發與人工智慧領域，特別是自然語言處理 (NLP) 和語意理解這兩個方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b01685d1-cced-46d5-a1c6-e8a94e176782",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "大學四年下來的學業成績約維持在3.3左右，雖然不是最頂尖",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2918b82c-2556-4667-b13a-a504feb4b30a",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "但我相信我的學習熱忱與實作能力足以彌補。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1ee1164-3063-4748-9f38-5de8939c4ac3",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我一直認為，學術成績固然重要",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "480aa850-8fcf-4628-8f6e-70a1e851fec3",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "但實際動手解決問題的能力與技術的深度掌握才是關鍵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d0c1bf7f-c97f-4efc-aae7-450547ae8027",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "因此，大學期間我投入了大量的時間在研究室專案、產學合作以及自主學習開發上，致力於培養紮實的技術實力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f5cb3d6-d918-41b0-bc81-b3065770cc38",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我的大學生活，很大一部分都獻給了系上的「智慧資訊處理實驗室」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b462f681-f5af-4573-a582-69dac42acf61",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "大三上學期，我很榮幸能加入林教授的團隊，參與一個關於「中文意圖識別與情緒分析」的產學合作專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2596bdc0-4504-42fe-8e9b-909d1c06dda7",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這個專案的目標是為客戶建立一個能夠精準判斷使用者意圖並分析其情緒狀態的客服聊天機器人核心模組。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "754d63e6-d2aa-4618-b9ef-b65572c712c7",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "一開始，我負責的是資料前處理的部分",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9f144128-d572-4893-a4ae-72bbf08c72a4",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這比我想像中複雜許多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "72a83ab9-d7b6-41e1-8100-e859cffc0acb",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "中文文本的斷詞、同義詞處理、非標準用詞（如網路流行語）的規範化，都讓我吃了不少苦頭。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bf1a0587-58c5-4028-b344-27ad1f1ac616",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我們使用了 `Jieba` 進行斷詞，並手動建構了一些專屬詞典來提升特定領域詞彙的識別度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b01e803e-d6d4-459f-9040-5780b08a64e5",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "接著，我開始嘗試不同的特徵工程方法，例如詞袋模型 (Bag-of-Words) 和 TF-IDF，將文本轉換成模型可以理解的數值向量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eea5bb9e-6f03-4341-9d05-baebb0d1c071",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "在模型選擇階段，我們團隊首先嘗試了傳統的機器學習演算法，像是支持向量機 (SVM) 和隨機森林 (Random Forest)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1656a380-6cbd-4ac0-9ace-8dac3a614605",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我發現這些模型在初期表現不錯",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a1276b95-d4e4-4e65-be20-df8d685e4c9c",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "但當資料量變大、意圖種類增多時，模型的泛化能力就會遇到瓶頸。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27663818-70ab-4a2b-b71b-416facc68ea4",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "為了解決這個問題，我花了許多時間學習深度學習的基礎，並嘗試導入了基於 `TensorFlow` 和 `Keras` 的循環神經網路 (RNN) 和長短期記憶網路 (LSTM) 模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f968d0d3-40b1-4ba2-a433-6a735991ca41",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "但當我看到模型準確率明顯提升，尤其是在處理語意複雜的句子時，真的非常有成就感。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b7a38bd3-7532-4059-95f7-105283476f75",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這個專案讓我深刻體會到資料的品質對模型表現的影響有多大，也學習到如何根據不同的問題特性選擇合適的機器學習或深度學習模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "220e71d8-6a2b-459c-826e-ea925a3edd45",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我們最終達成了客戶要求的85%意圖識別準確率，並能對七種主要情緒進行分類。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9dea98af-ea52-4009-bdcb-58a07bf3ce4d",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這個經驗讓我對於如何將理論應用於實際問題，並在實作中不斷優化解決方案，有了更深刻的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f144011d-115e-412f-b9ef-ee317afb1361",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "除了研究室的經驗，大三的暑假，我也有幸到一家新創公司「智慧溝通科技」進行為期兩個月的軟體開發實習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "59687cf6-fcc6-4186-969b-e989a20ff818",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這是一個非常寶貴的機會，讓我能夠將在學校所學的技術應用到真正的商業產品中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "172feb60-dfc3-41fb-85f8-6427e1ddcfc8",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我在這裡主要參與一個企業內部知識庫智能檢索系統的後端開發工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "23e9766f-433d-4525-97ac-fe45edb10321",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我的職責主要是協助開發和維護基於Python的API介面，讓前端應用程式能夠串接。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb3b413a-559a-44b3-831e-6dae2e933ed4",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我利用 `Flask` 框架建立RESTful API，負責處理使用者提交的查詢請求，並將這些請求發送到我們後端的搜尋引擎進行處理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd7836a9-7533-495f-88d2-34868e13b855",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這個系統的核心是一個基於向量空間模型的語意搜尋引擎，它能夠比傳統關鍵字搜尋更精確地找到相關文件。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e2abcff2-3d3d-4ba8-81cb-c0210d7f81a0",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我參與了將文件內容向量化的部分，使用了 `spaCy` 和一些預訓練的詞向量模型來生成文本嵌入。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3d549ee-8267-49b6-acbb-254ae9ea7d4c",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "此外，我也負責撰寫資料庫操作的相關程式碼，運用 `SQLAlchemy` 與 PostgreSQL 資料庫進行互動，確保知識庫內容的更新與檢索效率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6d6fd884-700d-4cb1-a51b-ff4241ae93a0",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "實習期間，我學習到如何在敏捷開發 (Agile Development) 環境下與團隊成員協作，了解版本控制 (Git) 的重要性，以及如何撰寫清晰、可維護的程式碼。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "65c50d91-6cfa-4082-9c01-aa40f580c589",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "有一次，我們遇到系統在尖峰時段響應速度變慢的問題，我與團隊成員一同分析日誌、找出瓶頸，最終透過優化資料庫查詢與快取機制，成功提升了系統的穩定性和效能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31193076-e378-45e4-af58-957c7ddb3d29",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這次實習不僅讓我的程式開發能力和除錯技巧大幅進步，也讓我對軟體工程的實務流程有了更全面的理解，這對我未來希望投入業界打下了一個非常好的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d73496ed-3714-4c51-8825-5df79a5c3746",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "在課業與研究之餘，我也積極參與社團活動，並擔任了「天文社」的社長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a033ff8-7c87-443e-8501-df28e14a4f24",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這個社團不僅僅是興趣的展現，更是培養我領導與溝通能力的舞台。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1980e26f-cff4-48f0-9a2f-c4492d5962f9",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "作為社長，我負責社團的年度規劃、活動執行以及社內成員的協調。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "309803df-809b-48bb-9ce0-ed961320c86f",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我們定期舉辦觀星活動，從校園內到校外營地，每次活動都需要考量天氣、交通、設備架設等多重因素。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d636153f-4e17-4554-86a8-07b9206b0632",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我特別規劃了幾場結合科技應用的主題活動，例如「手機天文攝影工作坊」和「星象辨識 App 開發體驗」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9a3aa237-3ac1-46a7-aa3b-50a1c8244948",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "在手機天文攝影工作坊中，我帶領社員學習如何使用手機搭配望遠鏡轉接環，捕捉月亮、行星的影像，並利用一些基礎的圖像處理軟體進行後製。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "81544f53-428a-4d7d-847e-b44866917906",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "而星象辨識 App 開發體驗則是我個人興趣的延伸，我邀請了系上學長來分享如何利用公開的天文資料API，開發一個簡單的星圖應用程式，讓大家對程式設計與天文知識的結合有了初步的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a6da82e2-544a-4d3c-af0c-41fc472cccd2",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "擔任社長期間，我學會了如何平衡不同的意見，處理社團內部可能出現的摩擦，並有效地將抽象的活動目標拆解成具體的執行步驟。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f80070b9-0264-451c-b3d6-7b31d8f8d430",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "例如，有一次我們舉辦大型觀星夜，遭遇了突如其來的陣雨，我必須迅速應變，調整備案場地和活動流程，確保所有參與者的安全與活動的順利進行。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "80f99d0b-85e5-4293-a492-556fca8ae66a",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "這些經驗讓我學會了如何在壓力下保持冷靜，並培養了解決問題的彈性和應變能力，也讓我意識到團隊合作的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6c92e76-ebe4-43f8-8e94-2e6a9ebba5da",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我選擇申請貴校資訊工程學系碩士班，主要有幾個原因。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ad1b147e-1c7b-475f-8c49-27a1bbbdf904",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "首先，我對於人工智慧，特別是自然語言處理和語意理解領域的探究熱情持續不減。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d17e2029-406b-4e3d-be0c-6968637660cc",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "大學階段的經驗讓我體認到，儘管我已累積了一些技術基礎與實作經驗",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "59d5461e-acd5-451d-9ffc-d217b807574c",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "但若想在這個領域有更深遠的發展，我需要一個更扎實、更具深度的學術環境來進修。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7fc3c190-2a01-4e27-95a2-2f84975e31fe",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "交大資工系在AI和ML領域的卓越聲譽，以及其豐富的研究資源與師資陣容，對我而言具有莫大的吸引力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f97f36ea-00ec-4255-a59f-f5cc2e711d53",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我希望能夠在一個更具挑戰性的環境中，系統性地學習最新的理論知識，並接觸更前瞻的研究議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "afb96819-4b1e-4ce9-a413-d28c60056834",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我相信透過貴校提供的課程與研究機會，我能夠將現有的技術能力提升到另一個層次，並發展出獨立思考與創新解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "12b79eaa-cc23-4733-b4f7-9af3e3c4c463",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "此外，我也非常期待能與來自不同背景的優秀同儕交流學習，激發出更多創意的火花。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6a8c7210-fc74-401b-a98a-1fc83013eb54",
+      "candidate_id": "mock_24",
+      "section": "自傳",
+      "content": "我希望能繼續深造，讓自己能在未來貢獻於資訊科技的發展，也期望能在貴系所找到自己明確的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0af70f93-2879-49ee-a36b-f68e0d23b9eb",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "積極修習核心課程，包括但不限於「高等機器學習」、「深度學習」、「自然語言處理」及「高等演算法」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c05468d4-37ac-434e-a225-8039ecc21fa0",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "特別關注課程中關於 Transformer 架構、大型語言模型 (LLM) 等前沿主題的介紹，深入理解其原理與應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8730d3ca-df6f-4f83-8058-c33380f7c441",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "在課餘時間，利用線上資源或相關書籍，進一步強化線性代數、機率統計等數學基礎，為更複雜的模型理論學習打下根基。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "76858e68-c775-4720-9396-c337b340701a",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "入學後儘快接觸不同研究室，了解老師們的研究方向與實驗室文化，特別是與自然語言處理、語意理解相關的實驗室。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1ea67e6-7d10-4bc4-8fbc-c816990d4d9d",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "積極與學長姐交流，熟悉碩士班的研究流程與實驗工具，爭取儘早加入適合自己的研究團隊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aad5953d-ff97-4002-9b82-2b47eb75f6ad",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "閱讀研究室過往的論文成果，試圖從中找到自己感興趣且有潛力深入探討的議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "08914f9a-7b85-4860-be4b-24e383ac7a10",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "持續磨練 Python 程式設計能力，特別是針對科學計算與深度學習相關套件，如 `PyTorch` 或 `TensorFlow` 的熟練度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c4a33963-eb6b-42c9-9d2b-1426c86277fa",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "學習使用 Docker 等容器化技術，提升研究環境部署的效率與一致性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da3744a9-0ad8-467c-95eb-11b584f5cb05",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "熟悉 Linux 作業系統與常用的開發工具，確保能高效進行開發與實驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb0b12a8-ddc2-4dce-ad27-725322a2c875",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "在指導教授的帶領下，鎖定具體的研究題目，並開始進行系統性的文獻回顧與實驗設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27b95fea-9c0f-46b8-a8c9-7aaba6a599d8",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "利用第一年所學的知識與工具，獨立完成研究專案的開發與實驗，並持續記錄實驗數據與成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be7bf9b6-5f31-479f-9fc8-91f2db08a37c",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "深入探討自然語言處理中的特定子領域，例如文本摘要、問答系統、多模態語意理解等，並嘗試提出創新的解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "21b51cbd-72f8-4a40-929d-f162e422cbee",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室內部討論會，分享研究進度與遇到的問題，並從教授與同學的建議中學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d840a409-8cf5-487d-a069-9a5381c4f4ee",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "若研究成果有一定進展，爭取投稿至國內外相關學術研討會或期刊，累積發表經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f354813f-b667-43cc-9286-47219281c40b",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "參與校內外的學術講座或研討會，了解最新的研究趨勢，擴展學術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7feade0e-d9e7-409a-82cf-1e531dfe2e48",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "嘗試將研究成果應用於實際問題，思考如何將學術上的突破轉化為具有商業或社會價值的技術應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f29138fb-2c41-4ee8-8a82-ab3d3924da1f",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "若時間允許，考慮尋找與研究領域相關的業界實習機會，將理論與實務結合，為畢業後的職涯發展鋪路。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "00580990-e83f-4fb9-9535-4b4e9eec7f23",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "期望能進入頂尖的科技公司，擔任自然語言處理工程師、機器學習工程師或相關的研發職位，將所學貢獻於人工智慧產品的開發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da6a148e-3bf8-432b-b85b-f864f0e0018e",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "持續關注並學習AI領域的最新技術與發展，不斷提升自己的專業能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "14fa56e4-6229-48dd-9518-0408bbc08797",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "保持對學術研究的熱情，即使投入業界，也希望能持續參與開源專案，或在職涯中探索將實務問題轉化為研究課題的機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "155c7db4-ccae-4fbd-a1dd-32e95d52e54c",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "若有機會，未來也考慮攻讀博士學位，在特定領域進行更深入的學術探索。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e4966570-31dc-42e8-ab59-2860f8bf93e2",
+      "candidate_id": "mock_24",
+      "section": "讀書計畫",
+      "content": "秉持終身學習的態度，面對快速變化的科技環境，不斷自我提升，保持競爭力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

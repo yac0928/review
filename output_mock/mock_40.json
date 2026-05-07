@@ -1,0 +1,873 @@
+{
+  "candidate_id": "mock_40",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_40.md"
+  ],
+  "cleaned_text": "## 我的故事與求學歷程\r\n\r\n我是蘇瑋翔，來自國立臺北科技大學電機工程學系。大學四年，我始終抱持著一份對知識的渴望，尤其對跨領域的學習充滿熱情。從小，我就對電機和生物醫學領域的結合感到好奇，認為科技不僅能改變生活，更能深化我們對生命的理解。電機系的訓練讓我紮實地掌握了電路、訊號處理等基礎知識，但在大三時，當我接觸到數位影像處理與機器學習相關課程後，我意識到資訊工程的力量，尤其在醫學影像分析上的潛力，這才是我真正想投入的方向。\r\n\r\n大學期間，我的學業成績約為 2.04，這反映了我 शुरुआती在摸索興趣方向時的廣泛嘗試，也坦承我在基礎科目上並沒有立刻找到學習的訣竅。不過，這段摸索的過程讓我清楚地認識到自己的熱情所在，那就是將工程技術應用於解決實際的醫學問題。從那時起，我開始投入大量的時間自學相關知識，並積極尋找應用機會，我的學習曲線也因此有了顯著的提升。我認為，這段跨域的歷程，讓我學會了如何從不同角度思考問題，也培養了我在沒有既定框架下，主動探索和解決問題的能力。\r\n\r\n## 跨域思維與研究熱情\r\n\r\n我在學期間最核心的興趣，就是如何將電機工程所學應用到資訊工程領域，特別是**醫學影像分析**。我的電機系背景讓我對訊號的擷取、處理與雜訊抑制有深入的理解，這正是醫學影像前處理的關鍵。我意識到，若能結合資訊工程的演算法與人工智慧技術，將能極大化這些影像資料的價值。例如，最佳化訊號處理技術可以提高影像品質，而先進的影像與幾何計算方法則能從複雜的醫學影像中提取出有意義的生物特徵，進而輔助疾病的診斷與治療。\r\n\r\n我的轉折點發生在大三下學期，當時我修習了「數位影像處理」這門課。課程中，我們用 MATLAB 實作了基本的影像濾波、邊緣偵測和影像分割。那時，我第一次看到程式碼如何將一張灰濛濛的醫學影像，經過處理後清晰地顯示出病灶區域，這讓我感到非常興奮。雖然課程內容還停留在比較基礎的層面，但這開啟了我對「影像如何轉化為有意義的資訊」的想像。我開始主動去圖書館翻閱更多關於醫學影像分析的書籍，並嘗試用 Python 和 OpenCV 實現更複雜的影像處理演算法。\r\n\r\n隨後，我開始鑽研機器學習的基礎，透過 Coursera 等線上平台學習了監督式與非監督式學習的概念。我理解到，僅靠傳統的影像處理方法有其極限，若要從大量醫學影像中自動辨識病徵，則非機器學習與深度學習不可。我特別著迷於如何訓練模型去識別微小的病理變化，這不僅需要紮實的演算法知識，更需要對醫學領域有一定的理解。我的電機背景讓我在理解訊號與影像的物理特性時具有優勢，而對資工的熱情則驅使我學習更先進的計算方法，我相信這種跨域結合正是我未來研究的利基。\r\n\r\n## 實作經驗與國際視野\r\n\r\n雖然大學期間我沒有正式進入實驗室或參與產學合作計畫，但我積極利用課程專題和個人自學來累積實作經驗。\r\n\r\n**1. 課程專題：基於傳統影像處理的病灶區域分割**\r\n在大三的「數位影像處理」課程專題中，我與組員合作開發了一個利用傳統影像處理技術，針對特定醫學影像進行病灶區域分割的系統。我們選擇了肺部 X 光片作為研究對象，嘗試找出影像中的結節。我主要負責影像的預處理和分割演算法的設計與實作。我們使用 Python 搭配 OpenCV 進行高斯濾波以降低雜訊，並運用 Otsu 閾值法與形態學操作（如膨脹與侵蝕）來分離可能存在的結節區域。雖然最終的準確度還有提升空間，但我學到了影像處理的基礎流程，從資料載入、前處理、特徵提取到初步的分析，也理解到不同演算法在影像特性下的應用限制。這個專題的成績是 B+，雖然不是頂尖，但它讓我對醫學影像的複雜性有了第一手的認識。\r\n\r\n**2. 個人專案：聲音訊號的最佳化與分析**\r\n除了影像，我對訊號處理的最佳化也充滿興趣。我曾利用 MATLAB 進行一個個人專案，嘗試對心電圖（ECG）訊號進行雜訊去除與特徵提取。我學習了如何應用小波轉換來濾除不同頻段的雜訊，並利用峰值檢測演算法來識別 R 波。這個過程讓我對訊號的頻譜分析和時域特性有了更深的體會，也讓我思考如何將這些最佳化的訊號分析技術應用到更廣泛的醫療監測設備中。這個專案讓我認識到，數據的「乾淨度」對於後續分析的準確性至關重要，而最佳化訊號的處理，正是提升整體系統效能的第一步。\r\n\r\n**3. 德國國際交換學生經歷**\r\n大四上學期，我有幸參與了學校的國際交換學生計畫，前往德國特里爾應用科技大學（Trier University of Applied Sciences）交流。這段為期約十週的交換經歷，不僅拓展了我的國際視野，更讓我體驗到不同的教學模式與學術氛圍。在德國，我選修了幾門與自動化控制和資料科學基礎相關的課程，儘管專業領域有所不同，但我觀察到德國工程教育在實用性和創新性上的嚴謹。\r\n\r\n最重要的是，這段經歷讓我學會了獨立生活與解決問題的能力。面對語言和文化的差異，我必須更主動地與人溝通，並獨立解決學術與生活上的各種挑戰。例如，我曾在一個課程報告中，需要用德語向當地同學解釋一個複雜的演算法概念，這讓我對跨文化溝通和表達能力有了實質的鍛鍊。這次交換讓我意識到，學術研究是無國界的，而多元的視角能夠激發更多創新的想法，這也更堅定了我未來在資工領域深造，並將所學應用於全球性問題的決心。\r\n\r\n## 選擇交大資工所的理由\r\n\r\n我之所以選擇國立交通大學資訊工程學系，是基於對貴系在資訊領域卓越的學術成就與豐富的研究資源的深切認同。貴系在人工智慧、電腦視覺以及相關的醫學影像分析領域均有領先的研究成果，這與我所熱愛的「醫學影像分析」、「最佳化訊號」及「影像與幾何計算」等研究方向高度契合。\r\n\r\n交大資工所不僅擁有堅強的師資陣容，更提供了前瞻性的課程規劃與充足的實驗室設備，這些都是我渴望學習與成長的沃土。我特別關注貴系在深度學習應用於醫學影像診斷、電腦輔助手術以及生物醫學數據分析方面的研究。我深信，在交大資工所，我能夠接觸到最尖端的技術，並有機會在導師的指導下，將我的電機背景與資工技能有效整合，產出具有實際價值的研究成果。\r\n\r\n我理解我的大學學業成績並非頂尖，但我相信我的跨域學習熱情、在醫學影像領域的專注、以及在德國交換期間所展現的獨立學習與適應能力，足以證明我具備在貴系攻讀碩士學位所需的潛力與決心。我渴望能夠在一個充滿挑戰與機會的環境中，深化我在資訊工程領域的專業知識，並將所學應用於改善人類健康福祉的醫學科技。我已經準備好面對更高的挑戰，並期待能為交大資工所的研究社群貢獻一份心力。\r\n\r\n---\r\n\r\n# 讀書計畫\r\n\r\n作為一名來自電機工程學系的跨域學生，我深知自己在資訊工程領域仍有基礎知識需要補強，但我對醫學影像分析的熱情與自學能力，將成為我攻讀碩士學位最大的動力。以下是我的讀書計畫，旨在有效地結合我的背景，並在交大資工所的研究環境中取得豐碩的成果。\r\n\r\n## 短期目標 (入學至第一學年結束)\r\n\r\n* **基礎知識補強與深化：**\r\n * **密集修習核心課程：** 儘管我的電機背景提供了部分基礎，但我將主動修習資工所的核心課程，如「資料結構與演算法」、「高等機率與統計」、「作業系統」等，尤其是針對我在本科相對較弱的程式設計與理論基礎進行加強。這對於未來學習進階演算法和分析研究結果至關重要。\r\n * **補足程式設計能力：** 透過選修或自學，加強 C++ 及 Python 等常用程式語言的熟練度，特別是熟悉其在科學計算和機器學習庫（如 TensorFlow, PyTorch）中的應用。我會利用線上課程或實際專案來提升。\r\n * **積極參與實驗室討論：** 在確定指導教授後，儘早融入實驗室環境，參與學長姊的專題討論，了解實驗室的研究方向和目前面臨的挑戰，以快速吸收最新知識並確定自身的研究切入點。\r\n\r\n* **專業領域探索與聚焦：**\r\n * **修習醫學影像相關課程：** 選修「醫學影像處理」、「電腦視覺」以及「機器學習」或「深度學習」等課程。我會特別關注課程中與醫學影像相關的案例研究，將理論知識與應用背景結合。\r\n * **閱讀研究論文：** 定期閱讀醫學影像分析、最佳化訊號處理和影像與幾何計算領域的頂尖期刊論文（如 IEEE T-MI, Medical Image Analysis），掌握最新的研究進展、主流技術及未來趨勢。這有助於我界定未來論文的具體方向。\r\n\r\n## 中期目標 (第一學年結束至畢業前)\r\n\r\n* **深入研究與論文撰寫：**\r\n * **確定研究主題：** 在指導教授的引導下，明確我的碩士論文研究主題，預計將專注於「深度學習在醫學影像分析中的應用」，例如：利用卷積神經網路（CNN）進行疾病影像的自動化診斷、腫瘤區域的精準分割，或是運用生成對抗網路（GAN）進行醫學影像的合成與增強。\r\n * **實驗設計與實作：** 針對選定的研究問題，設計實驗框架、收集並預處理醫學影像資料集。這會涉及到資料標準化、雜訊去除以及影像增強等最佳化訊號處理技術。\r\n * **模型開發與優化：** 應用最新的深度學習模型（如 U-Net, ResNet, Vision Transformer 等）進行實作，並針對醫學影像的特性進行模型架構的調整與優化。這也會涉及如何透過幾何計算來處理影像的空間資訊。\r\n * **結果分析與論文撰寫：** 對實驗結果進行嚴謹的分析與評估，利用量化指標（如 Dice係數、IoU）來驗證模型的有效性。在與指導教授討論後，逐步撰寫碩士論文，並目標在畢業前完成論文發表。\r\n\r\n* **學術交流與能力提升：**\r\n * **參與學術研討會：** 積極投稿國內外相關領域的學術研討會（如 CVPR, MICCAI），分享研究成果，並從其他研究者的回饋中學習，擴展學術視野。\r\n * **提升實作與除錯能力：** 在專案實作過程中，面對程式錯誤和模型訓練的挑戰，我將持續提升獨立解決問題和高效除錯的能力。我會學習如何運用版本控制工具（Git）和容器化技術（Docker）來管理我的專案。\r\n * **跨領域合作可能性：** 探索與醫學院或醫療機構合作的機會，將我的研究成果應用於實際臨床問題，並獲得真實世界的數據和反饋，以提升研究的實用價值。\r\n\r\n## 長期目標 (畢業後)\r\n\r\n* **投身醫學科技研發：** 希望能將在交大資工所學到的專業知識和研究經驗，應用於醫療健康產業。無論是加入領先的醫療科技公司，從事智慧醫療設備的研發，或是進入學術界，繼續深耕醫學影像分析的基礎研究。\r\n* **持續學習與創新：** 醫學與資訊技術發展迅速，我將保持持續學習的態度，關注最新的技術與研究動態，不斷精進自己的專業技能。\r\n* **回饋社會：** 最終目標是透過我的專業貢獻，開發出能夠改善病患預後、提升醫療效率的創新解決方案，為人類的健康福祉做出積極貢獻。我相信，我的跨域背景能讓我更容易地在不同領域之間搭建橋樑，推動醫學與科技的深度融合。",
+  "idea_units": [
+    {
+      "id": "a6ac9496-28cd-43dd-8dd6-2d6855f66d2c",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我是蘇瑋翔，來自國立臺北科技大學電機工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "850d50d7-7c73-4de3-a2ef-7cf112cac826",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "大學四年，我始終抱持著一份對知識的渴望，尤其對跨領域的學習充滿熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f1f922b3-ebb7-421d-a81d-4d53338b7668",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "從小，我就對電機和生物醫學領域的結合感到好奇，認為科技不僅能改變生活，更能深化我們對生命的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "45edc2ed-13b5-40cc-9047-d4f98b82a484",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "電機系的訓練讓我紮實地掌握了電路、訊號處理等基礎知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fd1ee98d-3286-4eb2-b5c1-abb74dd84d07",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "但在大三時，當我接觸到數位影像處理與機器學習相關課程後，我意識到資訊工程的力量，尤其在醫學影像分析上的潛力，這才是我真正想投入的方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1c2d237e-478d-4f19-bfc9-b4e4826e4c35",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "大學期間，我的學業成績約為 2.04。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a7fac471-ceda-4858-a21d-4faa899c781d",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這反映了我 शुरुआती在摸索興趣方向時的廣泛嘗試，也坦承我在基礎科目上並沒有立刻找到學習的訣竅。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "448fb948-14a6-416f-9360-91b572038680",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "不過，這段摸索的過程讓我清楚地認識到自己的熱情所在，那就是將工程技術應用於解決實際的醫學問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3947a27a-a5d9-4dda-ac15-b8f8ade2cd10",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "從那時起，我開始投入大量的時間自學相關知識，並積極尋找應用機會，我的學習曲線也因此有了顯著的提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef15d24f-cb96-4c02-9eb4-d2b4fffda522",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我認為，這段跨域的歷程，讓我學會了如何從不同角度思考問題，也培養了我在沒有既定框架下，主動探索和解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "40eadd84-a4e0-41a3-9798-1a738331fe88",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我在學期間最核心的興趣，就是如何將電機工程所學應用到資訊工程領域，特別是醫學影像分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2c6c71c4-4781-4edf-8bfe-ad46216581f8",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我的電機系背景讓我對訊號的擷取、處理與雜訊抑制有深入的理解，這正是醫學影像前處理的關鍵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1acf2c3-b553-4330-af24-56d135083765",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我意識到，若能結合資訊工程的演算法與人工智慧技術，將能極大化這些影像資料的價值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "862c1a0c-af69-4888-81d6-7b0b7401b8ea",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "例如，最佳化訊號處理技術可以提高影像品質，而先進的影像與幾何計算方法則能從複雜的醫學影像中提取出有意義的生物特徵，進而輔助疾病的診斷與治療。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "219b040f-9261-4489-9e95-dba30b38a108",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我的轉折點發生在大三下學期，當時我修習了「數位影像處理」這門課。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "57077c38-b5db-49b7-ac79-ecd97e15871a",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "課程中，我們用 MATLAB 實作了基本的影像濾波、邊緣偵測和影像分割。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d303994-5bfc-4617-8321-af40bba7c232",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "那時，我第一次看到程式碼如何將一張灰濛濛的醫學影像，經過處理後清晰地顯示出病灶區域，這讓我感到非常興奮。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f7ac3a79-ceaa-4c78-b9d1-3c69ac270536",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "雖然課程內容還停留在比較基礎的層面。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8b5e2fde-e634-4bd4-b5aa-550cfe36fc94",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "但這開啟了我對「影像如何轉化為有意義的資訊」的想像。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d34ce976-2a78-499e-b716-3a40d4a9a5f5",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我開始主動去圖書館翻閱更多關於醫學影像分析的書籍，並嘗試用 Python 和 OpenCV 實現更複雜的影像處理演算法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "80ebe953-0eb5-4aa2-a23d-f5f404092700",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "隨後，我開始鑽研機器學習的基礎，透過 Coursera 等線上平台學習了監督式與非監督式學習的概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1ab1fb9c-b22a-493d-9ac2-82ce417efdb5",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我理解到，僅靠傳統的影像處理方法有其極限，若要從大量醫學影像中自動辨識病徵，則非機器學習與深度學習不可。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fc106cca-0d05-4413-92ba-fedc7aa6d1cf",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我特別著迷於如何訓練模型去識別微小的病理變化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1eb1f8cf-c360-4507-a405-c454cefee5fc",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這不僅需要紮實的演算法知識，更需要對醫學領域有一定的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c0001978-5ec4-4b61-89e2-f09e44f322c6",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我的電機背景讓我在理解訊號與影像的物理特性時具有優勢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1f7adb68-25f8-414f-b639-47f0cf6bc3f2",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "而對資工的熱情則驅使我學習更先進的計算方法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0cec071b-2fb5-4bc3-a128-80ffca1f0d0b",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我相信這種跨域結合正是我未來研究的利基。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef209087-6ab7-49cf-851e-cc60450f2e1f",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "雖然大學期間我沒有正式進入實驗室或參與產學合作計畫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ae1241f8-f738-4fda-813f-d5b2ac6b8e13",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "但我積極利用課程專題和個人自學來累積實作經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "333991b6-8bc7-4e8e-a31f-b3044322355c",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "在大三的「數位影像處理」課程專題中，我與組員合作開發了一個利用傳統影像處理技術，針對特定醫學影像進行病灶區域分割的系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "90a962af-5c21-4f2d-a822-14dda846232c",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我們選擇了肺部 X 光片作為研究對象，嘗試找出影像中的結節。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3b89f99-2fae-4302-aa4c-b6f59e1406b3",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我主要負責影像的預處理和分割演算法的設計與實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d42bf6e-85a7-49de-8a46-0bbff9510003",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我們使用 Python 搭配 OpenCV 進行高斯濾波以降低雜訊，並運用 Otsu 閾值法與形態學操作（如膨脹與侵蝕）來分離可能存在的結節區域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "54933f96-4f29-4789-8a72-805c53304c59",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "雖然最終的準確度還有提升空間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b7ded4f4-4d5d-469f-b63b-fb73b2013000",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "但我學到了影像處理的基礎流程，從資料載入、前處理、特徵提取到初步的分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d974c39f-789a-4dd7-9d2f-45838d94800d",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "也理解到不同演算法在影像特性下的應用限制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d793e175-642c-4d59-b7f9-3a6850da698d",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這個專題的成績是 B+。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0291824f-0fc9-40cd-95e8-6425cae03e56",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "雖然不是頂尖，但它讓我對醫學影像的複雜性有了第一手的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cc57fe5d-f029-4dca-a9a2-09c4bf243e7c",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "除了影像，我對訊號處理的最佳化也充滿興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2521a4ec-07cc-42f7-8250-dd3246146769",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我曾利用 MATLAB 進行一個個人專案，嘗試對心電圖（ECG）訊號進行雜訊去除與特徵提取。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "48c5b730-5d2b-4c89-b59d-41e25332eaf1",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我學習了如何應用小波轉換來濾除不同頻段的雜訊，並利用峰值檢測演算法來識別 R 波。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f095de4-801b-4545-8d74-40d9a129fbbf",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這個過程讓我對訊號的頻譜分析和時域特性有了更深的體會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2811a669-a20e-46c2-b438-3d8d9c2cbc0e",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "也讓我思考如何將這些最佳化的訊號分析技術應用到更廣泛的醫療監測設備中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0539abeb-0447-44af-a416-95f67611e8b2",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這個專案讓我認識到，數據的「乾淨度」對於後續分析的準確性至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38d9b99c-a481-4ae4-aba6-5fab4800dde1",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "而最佳化訊號的處理，正是提升整體系統效能的第一步。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e1105c4d-de41-4def-9de6-4def1f84f6ab",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "大四上學期，我有幸參與了學校的國際交換學生計畫，前往德國特里爾應用科技大學（Trier University of Applied Sciences）交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2521c99a-3bf0-45c1-a6c4-dafd0a3a1819",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這段為期約十週的交換經歷，不僅拓展了我的國際視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "57eeab2c-0f99-4546-8437-0257ed1c2243",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "更讓我體驗到不同的教學模式與學術氛圍。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb05ff57-f1a3-44cd-bc09-530639638aa7",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "在德國，我選修了幾門與自動化控制和資料科學基礎相關的課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f05189cd-6b29-4a59-b8f8-0c1c9b758d52",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "儘管專業領域有所不同，但我觀察到德國工程教育在實用性和創新性上的嚴謹。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c7127c01-97ad-4e2e-b835-4ddc056c8d40",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "最重要的是，這段經歷讓我學會了獨立生活與解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d1220e7-cd48-41fc-9d14-3950fdb2fefb",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "面對語言和文化的差異，我必須更主動地與人溝通，並獨立解決學術與生活上的各種挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "568485be-8090-482a-8d5e-5fa29ab7d783",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "例如，我曾在一個課程報告中，需要用德語向當地同學解釋一個複雜的演算法概念，這讓我對跨文化溝通和表達能力有了實質的鍛鍊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b17d6fda-53a4-468a-9564-d7cd5fbc84a8",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這次交換讓我意識到，學術研究是無國界的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8c86744b-6b9b-42ce-a566-bf6eb7cb5ea4",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "而多元的視角能夠激發更多創新的想法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a7e154f8-2258-4aa7-ba56-ff09e3fecf82",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這也更堅定了我未來在資工領域深造，並將所學應用於全球性問題的決心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8a05b22c-00ba-4323-a962-82b017db0563",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我之所以選擇國立交通大學資訊工程學系，是基於對貴系在資訊領域卓越的學術成就與豐富的研究資源的深切認同。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e327ad77-9b77-4653-8acd-7a1798f9c49a",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "貴系在人工智慧、電腦視覺以及相關的醫學影像分析領域均有領先的研究成果，這與我所熱愛的「醫學影像分析」、「最佳化訊號」及「影像與幾何計算」等研究方向高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "acc22baf-0caf-4ebe-bd30-3aa442c828b5",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "交大資工所不僅擁有堅強的師資陣容。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9e01e15e-b84f-42fe-8fd6-e78480943750",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "更提供了前瞻性的課程規劃與充足的實驗室設備。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5644deb4-0005-4838-8f57-9a4e8f09e240",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "這些都是我渴望學習與成長的沃土。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c2399a8-b9b4-4037-bfcc-b643a8daf2cb",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我特別關注貴系在深度學習應用於醫學影像診斷、電腦輔助手術以及生物醫學數據分析方面的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "05cc291b-8a3c-40dd-8faf-6cb2e09be24c",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我深信，在交大資工所，我能夠接觸到最尖端的技術，並有機會在導師的指導下，將我的電機背景與資工技能有效整合，產出具有實際價值的研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7973c30b-e4b6-495f-b187-f9e27afa55b8",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我理解我的大學學業成績並非頂尖。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "68949d82-e6fb-4709-9a62-604182d5b27e",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "但我相信我的跨域學習熱情、在醫學影像領域的專注、以及在德國交換期間所展現的獨立學習與適應能力，足以證明我具備在貴系攻讀碩士學位所需的潛力與決心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b5249511-609e-41cf-b9a7-2e98de798c9d",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我渴望能夠在一個充滿挑戰與機會的環境中，深化我在資訊工程領域的專業知識，並將所學應用於改善人類健康福祉的醫學科技。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4bec3224-539d-4fa3-9142-6bd1f5f81352",
+      "candidate_id": "mock_40",
+      "section": "自傳",
+      "content": "我已經準備好面對更高的挑戰，並期待能為交大資工所的研究社群貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7173740d-4f92-499e-bef1-8af1eaf2dffd",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "作為一名來自電機工程學系的跨域學生，我深知自己在資訊工程領域仍有基礎知識需要補強。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "65362458-df48-4993-ac03-2507ff188c74",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "但我對醫學影像分析的熱情與自學能力，將成為我攻讀碩士學位最大的動力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "911e7d3a-eeb7-4f7e-b81f-6189a2302fb0",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "以下是我的讀書計畫，旨在有效地結合我的背景，並在交大資工所的研究環境中取得豐碩的成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0dee7cbb-52de-4ae9-9423-1c1cd4892454",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "儘管我的電機背景提供了部分基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b2cd9d0e-df40-432e-8b37-8f5c6386a22f",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "但我將主動修習資工所的核心課程，如「資料結構與演算法」、「高等機率與統計」、「作業系統」等，尤其是針對我在本科相對較弱的程式設計與理論基礎進行加強。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "61ecc28c-3262-46c9-83e0-5926e43f418d",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "這對於未來學習進階演算法和分析研究結果至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ba03aed9-2f52-4828-84e2-ad9a625a9793",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "透過選修或自學，加強 C++ 及 Python 等常用程式語言的熟練度，特別是熟悉其在科學計算和機器學習庫（如 TensorFlow, PyTorch）中的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b45ac5a-0414-4b3f-8a09-f6fff17cd2c9",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "我會利用線上課程或實際專案來提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a6bca6f3-9c1d-46eb-821b-f873b844bce4",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "在確定指導教授後，儘早融入實驗室環境，參與學長姊的專題討論，了解實驗室的研究方向和目前面臨的挑戰，以快速吸收最新知識並確定自身的研究切入點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "85d7520a-495a-460b-8abb-3cd56a91d938",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "選修「醫學影像處理」、「電腦視覺」以及「機器學習」或「深度學習」等課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8e46412a-e1b9-4dca-9304-268f6ba26bc8",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "我會特別關注課程中與醫學影像相關的案例研究，將理論知識與應用背景結合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "600eaa7e-8aff-48e8-8fc3-0325d1f7d989",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "定期閱讀醫學影像分析、最佳化訊號處理和影像與幾何計算領域的頂尖期刊論文（如 IEEE T-MI, Medical Image Analysis），掌握最新的研究進展、主流技術及未來趨勢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0b65cab6-fb52-4957-bda3-3b443e1ddc69",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "這有助於我界定未來論文的具體方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d23749e6-b1c4-45da-a605-5bdefbd074d3",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "在指導教授的引導下，明確我的碩士論文研究主題，預計將專注於「深度學習在醫學影像分析中的應用」，例如：利用卷積神經網路（CNN）進行疾病影像的自動化診斷、腫瘤區域的精準分割，或是運用生成對抗網路（GAN）進行醫學影像的合成與增強。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "553501d8-ba03-4154-bad1-0c5585d54098",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "針對選定的研究問題，設計實驗框架、收集並預處理醫學影像資料集。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d0d11774-17e4-4296-bde3-54afd8fdbe72",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "這會涉及到資料標準化、雜訊去除以及影像增強等最佳化訊號處理技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe0afecf-d02c-4231-be70-c13f237c8b59",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "應用最新的深度學習模型（如 U-Net, ResNet, Vision Transformer 等）進行實作，並針對醫學影像的特性進行模型架構的調整與優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "64ef700f-b8f4-4031-911c-009fcbc7aacf",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "這也會涉及如何透過幾何計算來處理影像的空間資訊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "85e542d2-7a5a-493d-ba5f-890d1fcfdc30",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "對實驗結果進行嚴謹的分析與評估，利用量化指標（如 Dice係數、IoU）來驗證模型的有效性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a449ea8d-0734-413f-9fff-1d55c8013966",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "在與指導教授討論後，逐步撰寫碩士論文，並目標在畢業前完成論文發表。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d4a9258-327e-47a0-8cc6-23960639f5b0",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "積極投稿國內外相關領域的學術研討會（如 CVPR, MICCAI），分享研究成果，並從其他研究者的回饋中學習，擴展學術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "20c4cbb2-f8b6-4206-aa11-1ac256e9140a",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "在專案實作過程中，面對程式錯誤和模型訓練的挑戰，我將持續提升獨立解決問題和高效除錯的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04498f7f-0297-415a-9992-802bacfe93e9",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "我會學習如何運用版本控制工具（Git）和容器化技術（Docker）來管理我的專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "caa62050-fb21-4c8e-92b4-5ea3e869d763",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "探索與醫學院或醫療機構合作的機會，將我的研究成果應用於實際臨床問題，並獲得真實世界的數據和反饋，以提升研究的實用價值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1c586660-a740-443e-8b20-aba7985a4329",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "希望能將在交大資工所學到的專業知識和研究經驗，應用於醫療健康產業。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e098710a-46e5-4e98-ae6b-d3e49dfcfe15",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "無論是加入領先的醫療科技公司，從事智慧醫療設備的研發，或是進入學術界，繼續深耕醫學影像分析的基礎研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6f0ed7b2-5e41-4d71-9be3-b22721fb1698",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "醫學與資訊技術發展迅速，我將保持持續學習的態度，關注最新的技術與研究動態，不斷精進自己的專業技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "41549d91-2b5f-41e5-8656-8069b732f2a7",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "最終目標是透過我的專業貢獻，開發出能夠改善病患預後、提升醫療效率的創新解決方案，為人類的健康福祉做出積極貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2d2dbcdd-92bf-434b-8acc-aecd2f09974d",
+      "candidate_id": "mock_40",
+      "section": "讀書計畫",
+      "content": "我相信，我的跨域背景能讓我更容易地在不同領域之間搭建橋樑，推動醫學與科技的深度融合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

@@ -1,0 +1,459 @@
+{
+  "candidate_id": "mock_31",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_31.md"
+  ],
+  "cleaned_text": "# 自傳\r\n\r\n## 我的成長背景與學習歷程\r\n\r\n我是張昕彤，來自台灣科技大學電機工程學系。從小我就對電路設計與各種電子產品的運作原理感到好奇，因此在高中畢業後選擇了電機工程作為我的大學科系。在台科大電機系的這段學習過程中，我努力於各項學業，大學四年的學業成績維持在約3.5左右。\r\n\r\n大學初期，我的興趣主要集中在電子學與數位邏輯設計，對於如何從零打造一個電路板充滿熱情。然而，隨著課程的深入，尤其是修習了「嵌入式系統設計」與「微處理機原理與應用」之後，我開始對介於硬體與高階軟體之間的「韌體」世界產生了濃厚的興趣。我發現，光有優秀的硬體設計是不夠的，如何讓軟體能有效率地操控這些硬體，發揮其最大潛能，更是關鍵。這種軟硬體整合的魅力深深吸引了我，也促使我思考未來在資工領域深造的可能性。\r\n\r\n## 跨領域的探索與專題經驗\r\n\r\n我的跨域學習歷程並非一蹴可幾，而是隨著課程與個人摸索逐漸明確的。在大三時，我選修了「即時作業系統導論」，這門課讓我對任務排程、中斷處理、記憶體管理等概念有了初步的理解。我特別記得在課堂專題中，我們嘗試在一個基於ARM架構的微控制器上實作一個簡單的任務排程器。雖然只是基礎功能，但從無到有地撰寫C語言程式碼，處理時間切片與任務狀態切換的邏輯，讓我深刻體會到硬體資源與軟體排程的緊密關係，以及在即時環境中程式碼效率的重要性。這讓我開始意識到，資工領域的知識對於我未來想深入韌體與SoC設計是不可或缺的。\r\n\r\n此外，我也利用課餘時間自學了Verilog，並嘗試在FPGA上設計一些簡單的數位電路，例如一個簡易的UART控制器。這段經驗雖然沒有形成大型專案，但也讓我對硬體描述語言有了基礎認識，了解到如何將邏輯轉換為實體的電路行為。我嘗試將韌體的概念與硬體設計思維結合，雖然實踐上還有許多不足，但這讓我更確定自己對軟硬體協同設計的熱情。我也參與了一些線上課程，學習更多關於Linux核心的基礎知識和嵌入式Linux的開發，希望從不同面向增強我的軟體能力。\r\n\r\n## 個人特質與申請動機\r\n\r\n除了專業學習，我也有一些特別的興趣。我擁有一張咖啡沖煮師執照，這段經歷讓我學習到精準操作的重要性，從咖啡豆的研磨粗細、水溫控制到萃取時間，每一個環節都可能影響最終的風味。這份對細節的專注和追求完美的態度，也無形中影響了我在工程領域的學習，讓我更願意花時間去理解問題的本質，並耐心調試程式或電路。我認為，無論是沖煮一杯完美的咖啡，還是設計一套穩定的韌體系統，都需要嚴謹的邏輯和不斷嘗試的精神。\r\n\r\n我申請貴所資工所，是希望能更系統性地學習資工領域的專業知識，特別是在即時作業系統與SoC設計方面。雖然我在電機系已接觸相關概念，但我深感在演算法、資料結構、作業系統核心原理等純資工基礎上仍有待加強。我希望能在貴所優秀的師資與豐富的資源下，將我在硬體層面的基礎與資工的軟體深度結合，開創出更多在韌體開發與SoC整合上的可能性。我期許自己能在這裡，將跨領域的知識融會貫通，為未來的職涯發展打下更堅實的基礎。\r\n\r\n# 讀書計畫\r\n\r\n## 短期目標（入學後第一年）\r\n\r\n- **鞏固資工基礎：**\r\n - 積極選修資工核心課程，例如「高等演算法」、「資料結構」與「作業系統設計」。我尤其想深入理解作業系統的排程機制與記憶體管理，這對我未來專攻即時作業系統至關重要。\r\n - 加強程式設計能力，特別是C/C++的高效率程式撰寫技巧，以應對韌體開發對性能和資源的嚴格要求。\r\n- **探索研究方向：**\r\n - 主動與系上老師交流，了解各實驗室在韌體、嵌入式系統、即時系統以及SoC設計等相關領域的研究方向。\r\n - 廣泛閱讀相關學術論文與技術文件，特別是針對即時系統排程演算法、低功耗SoC設計或硬體加速等主題。\r\n- **參與課程專題：**\r\n - 利用課程專題機會，實際動手實作小型嵌入式系統或韌體模組，例如開發一個基於特定MCU的物聯網應用雛形，或設計一個簡單的裝置驅動程式。\r\n\r\n## 中期目標（入學後第二年）\r\n\r\n- **專注研究主題：**\r\n - 選定指導教授並確定研究主題，目標鎖定在即時作業系統的優化、嵌入式系統的效能提升，或是SoC異質多核處理器的韌體排程與資源管理。我希望能將電機系的硬體知識與資工的軟體設計深入結合。\r\n - 參與實驗室研究，學習撰寫研究計畫、進行實驗驗證與數據分析，並嘗試解決實際的工程問題。\r\n- **深化專業知識：**\r\n - 修習更多進階課程，例如「嵌入式系統設計」、「高等計算機結構」、「即時排程理論」等，以深化在韌體與SoC設計方面的專業知識。\r\n - 嘗試探索人工智慧在邊緣運算裝置上的應用，了解如何在有限的資源下部署輕量級模型，這可能需要韌體層級的優化。\r\n- **尋求實習機會：**\r\n - 若有機會，尋求相關產業的實習機會，例如半導體設計公司、嵌入式系統開發公司或車用電子領域，將所學應用於實務，並了解業界需求與挑戰。\r\n\r\n## 長期目標（畢業後）\r\n\r\n- **投身產業或繼續深造：**\r\n - 希望能在韌體工程、嵌入式軟體開發或SoC設計驗證等領域發展，成為軟硬體整合的關鍵人才。\r\n - 持續關注即時系統、物聯網與邊緣AI技術的發展，不斷學習新知識，提升自身專業能力。\r\n - 不排除若有更深厚的研究興趣，考慮繼續攻讀博士學位，為學術界或產業研發貢獻心力。",
+  "idea_units": [
+    {
+      "id": "909ba33a-7471-4965-bdd6-0afb5e7f6698",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我是張昕彤，來自台灣科技大學電機工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d93dbdd1-c1cc-4389-8410-ae59ad386b29",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "從小我就對電路設計與各種電子產品的運作原理感到好奇",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "87c81af2-e910-4536-8b97-f763600ce264",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "因此在高中畢業後選擇了電機工程作為我的大學科系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5836a05f-d792-43f0-9331-97749eee7e28",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "在台科大電機系的這段學習過程中，我努力於各項學業，大學四年的學業成績維持在約3.5左右。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e95b2924-cb66-426a-b4c8-e227a018f89d",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "大學初期，我的興趣主要集中在電子學與數位邏輯設計，對於如何從零打造一個電路板充滿熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "612b05e4-f7e2-44be-a7f0-29611687979a",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "然而，隨著課程的深入，尤其是修習了「嵌入式系統設計」與「微處理機原理與應用」之後，我開始對介於硬體與高階軟體之間的「韌體」世界產生了濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1db1038d-1b2a-4204-a5d7-6cad7afae33b",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我發現，光有優秀的硬體設計是不夠的，如何讓軟體能有效率地操控這些硬體，發揮其最大潛能，更是關鍵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "523fe7b5-c7a7-4d5d-ab6b-a7a394372d25",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "這種軟硬體整合的魅力深深吸引了我",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9b7940de-7655-46e0-845c-8dc372a43e58",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "也促使我思考未來在資工領域深造的可能性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b70f1315-0f1a-46c2-b921-3277d7947880",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我的跨域學習歷程並非一蹴可幾，而是隨著課程與個人摸索逐漸明確的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7b7c9be1-aee9-4dc2-b012-e86e3f14f5ec",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "在大三時，我選修了「即時作業系統導論」，這門課讓我對任務排程、中斷處理、記憶體管理等概念有了初步的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ed26a827-2009-4b6b-b355-f51496ff0c52",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我特別記得在課堂專題中，我們嘗試在一個基於ARM架構的微控制器上實作一個簡單的任務排程器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4b01d964-2756-4af8-ba71-39073710afcb",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "雖然只是基礎功能，但從無到有地撰寫C語言程式碼，處理時間切片與任務狀態切換的邏輯",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d8a0c47d-b504-4a7b-93bf-e61a6da2ca01",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "讓我深刻體會到硬體資源與軟體排程的緊密關係，以及在即時環境中程式碼效率的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f9bfaa9a-0de9-4802-b14b-50c29ab94772",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "這讓我開始意識到，資工領域的知識對於我未來想深入韌體與SoC設計是不可或缺的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5cc7ca68-5e69-4a19-b5c0-3dd933859e1c",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "此外，我也利用課餘時間自學了Verilog，並嘗試在FPGA上設計一些簡單的數位電路，例如一個簡易的UART控制器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e36a5315-934a-4e39-9e3c-7327c9a9d864",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "這段經驗雖然沒有形成大型專案",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e30e46bb-a3ae-42e1-9970-113912eeee4c",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "但也讓我對硬體描述語言有了基礎認識，了解到如何將邏輯轉換為實體的電路行為。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3e52524e-4d0c-4331-88a3-8f34929f439e",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我嘗試將韌體的概念與硬體設計思維結合，雖然實踐上還有許多不足",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e4e01835-d15b-4252-8258-380e34b2b9a1",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "但這讓我更確定自己對軟硬體協同設計的熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e805442b-8294-4e6a-80ac-93bd8915f2cb",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我也參與了一些線上課程，學習更多關於Linux核心的基礎知識和嵌入式Linux的開發",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "545019c7-4915-4ca9-9789-c72ba748fb45",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "希望從不同面向增強我的軟體能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "56a9435d-5bc2-44fb-8796-0311116825b1",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "除了專業學習，我也有一些特別的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ea7d3eee-9ff1-494f-bc18-a46e706d8ac6",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我擁有一張咖啡沖煮師執照",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cf42dd08-d0f9-40a4-af1c-8d1c4b8334b5",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "這段經歷讓我學習到精準操作的重要性，從咖啡豆的研磨粗細、水溫控制到萃取時間，每一個環節都可能影響最終的風味。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df68e3f4-c276-417f-8b97-e3313d254c30",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "這份對細節的專注和追求完美的態度，也無形中影響了我在工程領域的學習，讓我更願意花時間去理解問題的本質，並耐心調試程式或電路。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "46347fd1-8c62-4b09-90ed-6f505430243a",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我認為，無論是沖煮一杯完美的咖啡，還是設計一套穩定的韌體系統，都需要嚴謹的邏輯和不斷嘗試的精神。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8a8961d1-1607-4ad4-a9e9-8902d0ba39b6",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "是希望能更系統性地學習資工領域的專業知識，特別是在即時作業系統與SoC設計方面。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "63770093-a73b-4ef0-b112-deb4e2a70de3",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "雖然我在電機系已接觸相關概念",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9fa0e25e-5a9f-460e-b312-788abdc5cd31",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "但我深感在演算法、資料結構、作業系統核心原理等純資工基礎上仍有待加強。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "243470e2-a56c-41b9-96e7-1a6965da58e4",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我希望能在貴所優秀的師資與豐富的資源下，將我在硬體層面的基礎與資工的軟體深度結合，開創出更多在韌體開發與SoC整合上的可能性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ed813860-0606-4b0b-ab78-23958ee1df41",
+      "candidate_id": "mock_31",
+      "section": "自傳",
+      "content": "我期許自己能在這裡，將跨領域的知識融會貫通，為未來的職涯發展打下更堅實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2cc4d03b-d640-4fdf-9b76-656a528c44de",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "積極選修資工核心課程，例如「高等演算法」、「資料結構」與「作業系統設計」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6bd72e5-96fc-40ff-a9b4-01286c54d4e6",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "我尤其想深入理解作業系統的排程機制與記憶體管理，這對我未來專攻即時作業系統至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1bfce52a-a2c5-4354-b8ab-b750c89c27d8",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "加強程式設計能力，特別是C/C++的高效率程式撰寫技巧",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "94bcfc24-c9c7-49c6-91aa-e49ae99624f3",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "以應對韌體開發對性能和資源的嚴格要求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7504abc6-594d-4bf1-8ed5-b1b0c67eb465",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "主動與系上老師交流，了解各實驗室在韌體、嵌入式系統、即時系統以及SoC設計等相關領域的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ccbd9af8-1682-44c4-9793-cc8331949b6c",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "廣泛閱讀相關學術論文與技術文件，特別是針對即時系統排程演算法、低功耗SoC設計或硬體加速等主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27ac02d2-c316-4dfc-924c-cde3dc5c98bf",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "利用課程專題機會，實際動手實作小型嵌入式系統或韌體模組，例如開發一個基於特定MCU的物聯網應用雛形，或設計一個簡單的裝置驅動程式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "00b913f7-c011-4794-b32b-85b8acd6b50b",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "選定指導教授並確定研究主題，目標鎖定在即時作業系統的優化、嵌入式系統的效能提升，或是SoC異質多核處理器的韌體排程與資源管理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "963bcfea-d194-4a37-bc7c-b11da06c7deb",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "我希望能將電機系的硬體知識與資工的軟體設計深入結合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4ce6ce6f-1553-4579-a047-13765b44c3af",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "參與實驗室研究，學習撰寫研究計畫、進行實驗驗證與數據分析，並嘗試解決實際的工程問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "196de007-554d-4db4-974a-abda9ec6fcdf",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "修習更多進階課程，例如「嵌入式系統設計」、「高等計算機結構」、「即時排程理論」等",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8094ed4a-7350-4a82-a79a-87d055c48463",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "以深化在韌體與SoC設計方面的專業知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b4bb210e-d761-43cd-8c7a-23626925e87b",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "嘗試探索人工智慧在邊緣運算裝置上的應用，了解如何在有限的資源下部署輕量級模型，這可能需要韌體層級的優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16ce2d3d-6490-410d-ae02-6ed2dc073eb8",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "若有機會，尋求相關產業的實習機會，例如半導體設計公司、嵌入式系統開發公司或車用電子領域",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa81fb84-8598-482f-bb6d-f2b2705cf749",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "將所學應用於實務，並了解業界需求與挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aa0343bf-890d-4bed-a465-e35de98e2519",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "希望能在韌體工程、嵌入式軟體開發或SoC設計驗證等領域發展，成為軟硬體整合的關鍵人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "14523fa9-f4ec-4a22-b51e-e79fae546ba0",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "持續關注即時系統、物聯網與邊緣AI技術的發展，不斷學習新知識，提升自身專業能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "708f3a28-8ec8-4c5b-8672-883ce9b6ae6a",
+      "candidate_id": "mock_31",
+      "section": "讀書計畫",
+      "content": "不排除若有更深厚的研究興趣，考慮繼續攻讀博士學位，為學術界或產業研發貢獻心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

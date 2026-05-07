@@ -1,0 +1,459 @@
+{
+  "candidate_id": "mock_6",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_6.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n我叫[你的名字]，來自清華大學，主修[你的系所，例如：電機工程學系]，大學期間我對韌體與嵌入式系統展現了濃厚的興趣，並將這份熱情延伸到安全晶片設計領域。我一直相信，底層的硬體與軟體互動，是所有現代科技的基石，而如何在這些基石上確保資訊安全，更是當前重要的議題。\r\n\r\n在大學四年中，雖然我的學業成績約在 3.58 左右，不算非常突出，但這段學習過程讓我培養了獨立思考與解決問題的能力。我特別投入在像是「電腦組織」、「作業系統」、「微處理機」以及「韌體設計」等課程。這些課程不只讓我學到了很多底層的運作原理，也讓我對硬體與軟體之間的緊密關係有了更深的理解。我記得有一次在「韌體設計」的課程專題中，我們嘗試在一個小型嵌入式開發板上，設計並實作一個簡單的控制程式。雖然過程遇到不少意想不到的問題，但每次透過程式碼的調整，讓硬體按照預期運作，那種成就感真的讓我覺得獲益良多，也讓我對這個領域更加著迷。\r\n\r\n除了課堂上的學習，我也花了很多時間鑽研安全晶片相關的知識。我曾自學一些關於硬體安全模組（HSM）的內容，覺得在晶片層級就做好防護，遠比在軟體層做修補來得更根本。這部分主要靠著網路上的資源和一些開源專案來摸索，雖然沒有正式的研究室指導，但也讓我對未來想研究的方向有了更明確的想法。做完這些學習後，我才發現原來底層的安全防護這麼困難，牽涉到的知識比我想像中還要廣。\r\n\r\n大學期間，我還參與了機器人社團，並擔任教練的職位。這段經驗對我來說很有幫助，不只讓我能將課堂上學到的知識應用到實際的機器人組裝與程式撰寫上，也讓我培養了領導和溝通能力。指導學弟妹的過程中，我們一起面對機器人比賽時遇到的各種軟硬體整合問題，那時候才發現，原來要讓一台機器人順暢運作，需要考慮的層面很多，也需要跨領域的知識。這讓我更確定自己對嵌入式系統整合的興趣。\r\n\r\n綜合這些經歷，我發現自己對嵌入式系統的安全議題特別感興趣，尤其是韌體層面的安全強化和安全晶片設計。我希望能進入貴所深造，進一步探索這個領域，並期許自己未來能為相關產業做出一些貢獻。\r\n\r\n## 讀書計畫\r\n\r\n### 申請動機與研究方向\r\n\r\n我之所以選擇申請國立交通大學資訊工程學系碩士班，主要是因為貴所在嵌入式系統和資訊安全領域的研究一直都非常紮實且具有前瞻性，特別是近年來在硬體安全與韌體安全方面的發展，更是吸引了我。我希望能將我在清大所學到的嵌入式系統與韌體知識，與貴所先進的資源和研究方向結合，特別是在安全晶片設計、韌體漏洞分析與防護等主題上深入學習。我認為這些領域在未來物聯網（IoT）和各類智慧裝置的發展中，將扮演越來越重要的角色。我希望能跟隨相關的教授，提升自己對這些挑戰的理解和解決能力。\r\n\r\n### 短程目標（入學後第一年）\r\n\r\n1. **打穩基礎，適應研究所生活：** 入學初期我會努力適應研究生的學習節奏和研究環境。首先，我會積極選修貴所開設的相關核心課程，例如「高等作業系統」、「嵌入式系統設計專題」或「資訊安全特論」等，以補強自己在特定領域的知識不足，並擴展學術視野。我相信透過這些課程，可以讓我對資工領域有更全面的認識，為後續研究打下更穩固的基礎。\r\n2. **積極參與實驗室：** 我會主動參與實驗室的討論，了解目前各研究團隊的專案進度與遇到的挑戰。同時，我也會盡快找到與我研究興趣相符的指導教授，並加入其研究團隊。我期望能透過實驗室的實作專案，將理論知識應用到實際問題上，並與學長姐交流，學習他們的經驗。\r\n3. **提升專業技能：** 我計劃花時間補強程式設計能力，特別是針對嵌入式系統常用的語言（如 C/C++）和相關工具鏈的熟悉度。同時，我也會開始閱讀更多相關領域的學術論文，了解最新的研究進展和方向。\r\n\r\n### 中程目標（碩士班第二年）\r\n\r\n1. **深入研究與論文撰寫：** 進入第二年後，我將更專注於我的研究主題。在指導教授的帶領下，我會更深入地探索韌體安全與安全晶片設計的議題，並嘗試找出具體的研究方向。我會投入大量時間進行文獻回顧、實驗設計、數據分析，並逐步開始撰寫我的碩士論文。\r\n2. **參與學術活動：** 在研究之餘，我希望能有機會參與國內外的學術研討會，發表我的研究成果。這不僅能讓我了解更多不同研究團隊的觀點，也能培養我的簡報能力和學術交流經驗。\r\n3. **培養獨立研究能力：** 我會努力培養獨立發現問題、分析問題和解決問題的能力。在研究過程中，可能會遇到很多沒想到的問題，但我相信只要努力學習，多向教授和學長姐請教，一定能克服這些挑戰。\r\n\r\n### 長程目標（畢業後）\r\n\r\n在完成碩士學業後，我希望能夠將在貴所學到的專業知識應用到業界。我期望能進入半導體公司、資安公司或物聯網相關企業，從事與嵌入式系統安全、韌體開發或硬體安全架構設計相關的工作。我相信我在貴所學習的經驗，會讓我有足夠的能力為產業貢獻。同時，我也會持續學習新的技術和知識，努力成為該領域的專業人才，並期許未來能在相關領域中有所突破。",
+  "idea_units": [
+    {
+      "id": "9a8d309e-e3d2-4205-a96b-b65c4fd78042",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "我叫[你的名字]，來自清華大學，主修[你的系所，例如：電機工程學系]，大學期間我對韌體與嵌入式系統展現了濃厚的興趣，並將這份熱情延伸到安全晶片設計領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fff92aa5-9823-48ed-b6e7-85cf9e12f197",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "我一直相信，底層的硬體與軟體互動，是所有現代科技的基石，而如何在這些基石上確保資訊安全，更是當前重要的議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7a50c09c-d89d-46f5-ab63-65583525939f",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "在大學四年中，我的學業成績約在 3.58 左右，不算非常突出。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7ee7662c-64fd-4a53-8d1d-f4697b380ad0",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "但這段學習過程讓我培養了獨立思考與解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8202107e-386e-41b2-a82c-2dba090d90c0",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "我特別投入在像是「電腦組織」、「作業系統」、「微處理機」以及「韌體設計」等課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7dcfaaf4-e0c4-4011-9e40-e3edac352350",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "這些課程不只讓我學到了很多底層的運作原理，也讓我對硬體與軟體之間的緊密關係有了更深的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "170d9413-3255-4521-9e45-0ba719a2aed9",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "我記得有一次在「韌體設計」的課程專題中，我們嘗試在一個小型嵌入式開發板上，設計並實作一個簡單的控制程式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5d283ddb-33ae-452a-83ec-f0c1b012e392",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "雖然過程遇到不少意想不到的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0621b3dc-7eec-495b-9179-7417d995a85a",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "但每次透過程式碼的調整，讓硬體按照預期運作，那種成就感真的讓我覺得獲益良多，也讓我對這個領域更加著迷。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f07a7496-22f2-42b0-938d-ba263297bef1",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "除了課堂上的學習，我也花了很多時間鑽研安全晶片相關的知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bc48e6b4-703c-4be6-83b4-a5eb973cc2e8",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "我曾自學一些關於硬體安全模組（HSM）的內容。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2888f12-3315-461e-94ea-bdd9b5b3ce9b",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "覺得在晶片層級就做好防護，遠比在軟體層做修補來得更根本。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "389afb31-91ba-4dd1-9245-c303f1df8b6c",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "這部分主要靠著網路上的資源和一些開源專案來摸索。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "abf8366e-e21f-42d6-917e-88582ccd8395",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "雖然沒有正式的研究室指導，但也讓我對未來想研究的方向有了更明確的想法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5a81741d-cd86-40d6-9917-0239379a8d73",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "做完這些學習後，我才發現原來底層的安全防護這麼困難，牽涉到的知識比我想像中還要廣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "78a8e4ea-c9c2-4e82-8021-590dd45eba40",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "大學期間，我還參與了機器人社團，並擔任教練的職位。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4ab63208-f251-452d-830f-6c761d08c34c",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "這段經驗對我來說很有幫助，不只讓我能將課堂上學到的知識應用到實際的機器人組裝與程式撰寫上，也讓我培養了領導和溝通能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "12c4f244-28c7-47c4-ba76-a68bd58c3d6a",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "指導學弟妹的過程中，我們一起面對機器人比賽時遇到的各種軟硬體整合問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "633c2afa-704d-4b6b-b0b0-7135a118bc2f",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "那時候才發現，原來要讓一台機器人順暢運作，需要考慮的層面很多，也需要跨領域的知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cba8eb09-3f83-4a95-8f4f-0b9dc8e443c1",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "這讓我更確定自己對嵌入式系統整合的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "64ab3ff6-8813-4494-9bcf-cde639478a9e",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "綜合這些經歷，我發現自己對嵌入式系統的安全議題特別感興趣，尤其是韌體層面的安全強化和安全晶片設計。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e6057063-1ba0-4722-a444-0384794ec55d",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "我希望能進入貴所深造，進一步探索這個領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "76c1350b-1e14-42a0-921e-c75b5b02f1d9",
+      "candidate_id": "mock_6",
+      "section": "自傳",
+      "content": "並期許自己未來能為相關產業做出一些貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da9e6fd3-5c94-4e1d-b2eb-1d1d22ebd20a",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我之所以選擇申請國立交通大學資訊工程學系碩士班，主要是因為貴所在嵌入式系統和資訊安全領域的研究一直都非常紮實且具有前瞻性，特別是近年來在硬體安全與韌體安全方面的發展，更是吸引了我。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9abd12cd-a90f-42b0-8ca2-41d494f3d8fb",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我希望能將我在清大所學到的嵌入式系統與韌體知識，與貴所先進的資源和研究方向結合，特別是在安全晶片設計、韌體漏洞分析與防護等主題上深入學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "14a8dc6f-f2fc-4114-8aa7-745e2491267d",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我認為這些領域在未來物聯網（IoT）和各類智慧裝置的發展中，將扮演越來越重要的角色。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "528e6b43-2d8c-4f57-a31b-3c5e65db3310",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我希望能跟隨相關的教授，提升自己對這些挑戰的理解和解決能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7fbe7232-72f5-4365-9e62-a4ca06766f66",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "入學初期我會努力適應研究生的學習節奏和研究環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c5f13eb-880e-4514-bcee-fcd69f745df8",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "首先，我會積極選修貴所開設的相關核心課程，例如「高等作業系統」、「嵌入式系統設計專題」或「資訊安全特論」等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "645c5865-4684-4501-89d7-01db8b1aac71",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "以補強自己在特定領域的知識不足，並擴展學術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a4f634e2-ecd7-407d-9fc1-78831ff2daec",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我相信透過這些課程，可以讓我對資工領域有更全面的認識，為後續研究打下更穩固的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "702ad3ad-8893-4192-aa1f-d643c7ba9c67",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我會主動參與實驗室的討論，了解目前各研究團隊的專案進度與遇到的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c41639b-25e4-418f-b785-dc0ae3e8dbaf",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "同時，我也會盡快找到與我研究興趣相符的指導教授，並加入其研究團隊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "118e13c0-6448-41b0-a08f-8c68051b830b",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我期望能透過實驗室的實作專案，將理論知識應用到實際問題上，並與學長姐交流，學習他們的經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "84368624-4dc7-4379-87a0-ccbe45166f9e",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我計劃花時間補強程式設計能力，特別是針對嵌入式系統常用的語言（如 C/C++）和相關工具鏈的熟悉度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "63dcd8d6-39ee-4640-96ba-440184a6a445",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "同時，我也會開始閱讀更多相關領域的學術論文，了解最新的研究進展和方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "84f01262-f700-478d-96b2-b09b772c8fac",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "進入第二年後，我將更專注於我的研究主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bc70e0f2-e88e-48f8-88b8-d587ed27282e",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "在指導教授的帶領下，我會更深入地探索韌體安全與安全晶片設計的議題，並嘗試找出具體的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9b74139-3998-4a2d-a7fa-11d4acf2afd8",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我會投入大量時間進行文獻回顧、實驗設計、數據分析，並逐步開始撰寫我的碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "668c5554-7eed-464d-ae17-287d6439e23b",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "在研究之餘，我希望能有機會參與國內外的學術研討會，發表我的研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb9e6a4f-c785-48ba-8ce6-f98d9fa0cb65",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "這不僅能讓我了解更多不同研究團隊的觀點，也能培養我的簡報能力和學術交流經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5151366c-403b-4863-be2c-06ef5de22eb4",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我會努力培養獨立發現問題、分析問題和解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "587584fa-202d-43f1-b7d4-706983c793a3",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "在研究過程中，可能會遇到很多沒想到的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a6a638a-3f4c-4b3d-807e-219125b4ba5e",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "但我相信只要努力學習，多向教授和學長姐請教，一定能克服這些挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "40c419cb-49a1-4438-b60e-03a83b47759a",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "在完成碩士學業後，我希望能夠將在貴所學到的專業知識應用到業界。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "17a46200-ed88-41e8-bd02-4d5f9319f3b6",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我期望能進入半導體公司、資安公司或物聯網相關企業，從事與嵌入式系統安全、韌體開發或硬體安全架構設計相關的工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5545eeab-68ad-4ade-b068-b9c4969687a4",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "我相信我在貴所學習的經驗，會讓我有足夠的能力為產業貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6062d088-adbc-4b56-8288-2b069107dcf9",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "同時，我也會持續學習新的技術和知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f7c3902-1327-429d-9d90-a8d211574a98",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "努力成為該領域的專業人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0eb8cd8a-c527-4097-96e7-90d13674ecdf",
+      "candidate_id": "mock_6",
+      "section": "讀書計畫",
+      "content": "並期許未來能在相關領域中有所突破。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

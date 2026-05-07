@@ -1,0 +1,783 @@
+{
+  "candidate_id": "mock_7",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_7.md"
+  ],
+  "cleaned_text": "自傳\r\n\r\n從小，我對電腦科學的興趣便不僅止於使用，更在於探究其背後的運作邏輯與潛在的無限可能。回溯大學四年，中正大學資工系提供給我的扎實訓練，讓我對於軟體開發、演算法設計以及系統架構有了全面且深入的理解。在學業方面，我始終抱持著嚴謹與求知的態度，修課平均成績穩定保持在 3.9 的高水準，多次獲得系上書卷獎的肯定，這份耕耘反映了我對資訊工程領域的熱情與投入，也為我日後鑽研網路安全與區塊鏈技術奠定了堅實的基礎。\r\n\r\n我的學習歷程，並非僅止於課本上的理論。大二時，在《計算機網路》課程中，我與組員利用 Python 實作了一個簡易的 ARP 欺騙偵測與防禦系統。我們使用了 `scapy` 函式庫來截取並分析網路封包，並設計邏輯判斷 ARP 請求的合法性，成功在實驗環境中偵測到惡意 ARP 攻擊並發出警報。這個專案讓我第一次真切體會到網路協定設計的巧妙與潛在的漏洞，也啟發了我對網路安全更深層次的探索慾望。此外，在《資料結構與演算法》課程中，我對排序與搜尋的效率優化產生了濃厚興趣，自行實作了多種演算法並比較其在不同資料規模下的效能，這段訓練磨練了我邏輯思考與解決問題的能力。\r\n\r\n大三上學期，我正式加入了學校的「資訊安全與區塊鏈應用實驗室」，師從李教授，深入參與了兩個研究專案。第一個專案是「基於行為分析的惡意程式偵測系統」，我們的目標是開發一個能夠在不依賴簽章檔的情況下，識別新型惡意程式的系統。我主要負責前端的資料預處理與特徵工程，以及惡意行為模式的建構。我們收集了數千個惡意與良性程式的執行行為日誌，利用 `IDA Pro` 和 `Ghidra` 進行靜態分析提取 API 調用序列，並使用 `Cuckoo Sandbox` 進行動態分析以獲取系統呼叫、網路活動等行為數據。在處理這些龐大且嘈雜的資料時，我才意識到資料品質對模型效能的決定性影響。我花費了大量時間編寫 Python 腳本，運用 `pandas` 清理數據、提取關鍵特徵，並最終使用 `scikit-learn` 中的 `Random Forest` 分類器進行模型訓練。雖然初期在區分多態惡意程式時遇到不少挑戰，模型預測的 F1-score 一度僅有 0.72，但在不斷迭代特徵集並引入 `k-means` 聚類對行為模式進行更細緻的劃分後，我們最終將 F1-score 提升至 0.88，顯著提高了系統的偵測率。這段經歷不僅讓我熟練掌握了多種資安分析工具與機器學習框架，更讓我理解到將理論應用於實際問題時，需要面對資料的複雜性與不確定性，並學會以系統性的方法克服困難。\r\n\r\n緊接著，我也參與了實驗室的另一個區塊鏈相關專案：「基於 Hyperledger Fabric 的智慧合約型供應鏈追溯系統」。此專案旨在利用區塊鏈不可篡改的特性，提升農產品供應鏈的透明度與可信度。我主要負責智慧合約（Chaincode）的設計與實作。我使用 `Go` 語言撰寫了核心的 Chaincode 邏輯，定義了產品從生產、加工、運輸到銷售各環節的資料結構與交易流程。過程中，我深入研究了 Hyperledger Fabric 的架構，包括 Orderer、Peer、Channel 等元件的運作機制，並利用 `Docker` 容器化部署測試網路。最大的挑戰在於如何平衡鏈上數據的隱私性與查詢的效率。我透過設計私有資料集（Private Data Collections）來確保敏感資訊只在授權方之間共享，同時仍能維持資料的整體可驗證性。最終，我們成功建構了一個原型系統，能夠在數秒內完成一筆從農場到餐桌的完整追溯查詢，證明了區塊鏈在供應鏈管理上的巨大潛力。這次經驗讓我對於分散式系統的協調機制、共識演算法以及智慧合約的安全性有了更深層次的理解，也第一次體會到區塊鏈技術如何顛覆傳統信任模式。\r\n\r\n除了學術研究，我也積極將所學應用於業界實踐。大三升大四的暑假，我獲得了「新創資安聯防科技公司」的暑期軟體工程實習機會。在這三個月期間，我作為核心開發成員之一，參與了公司新一代資安事件回應平台（SIEM/SOAR）的開發。我的主要職責是開發自動化弱點掃描排程模組。我使用 `Python` 和 `Django` 框架，串接了多個開源弱點掃描工具，如 `Nessus` 與 `OpenVAS` 的 API，實現了定時自動化掃描排程、結果解析與告警功能。我亦負責設計資料庫結構，以高效儲存與檢索掃描結果，並利用 `RESTful API` 將數據傳送至前端介面供資安分析師檢視。透過我的努力，平台得以自動化處理過去需要資安人員手動執行的掃描任務，將處理時間從數小時縮短至數分鐘，大幅提升了資安監控的效率與即時性。這段實習讓我第一次完整體驗了企業級軟體開發的生命週期，從需求分析、架構設計、程式碼實作、測試到部署，深刻理解了團隊協作的重要性、程式碼品質與文件撰寫的規範，也讓我對於資安產品在實際應用上的挑戰與價值有了更全面的認識。\r\n\r\n在繁忙的學業與研究之餘，我也將精力投入於熱舞社的活動，特別是鑽研 Poping 舞風。這項課外活動雖然與資工領域看似無關，卻帶給我極大的啟發。Poping 舞蹈強調精準的肌肉控制、節奏感與流暢的動作銜接，每個細微的動作都需要反覆練習與調整才能達到完美。這份對細節的堅持與不斷精進的態度，對於複雜的軟體開發與問題解決同樣關鍵。舞蹈讓我學會如何在壓力下保持專注，提升了我的抗壓性，也讓我在面對研究瓶頸時，能以更積極樂觀的心態去尋找解決方案。社團經驗也培養了我的團隊合作能力，學會如何與不同風格的夥伴協調配合，共同完成每一次的表演。\r\n\r\n在大學期間的這些多元經歷，讓我深刻體會到網路安全與區塊鏈技術不僅僅是前沿的學術領域，更是未來數位社會不可或缺的基石。我看到網路攻擊手段日益複雜，對企業和個人造成巨大威脅；同時也看到區塊鏈技術正以前所未有的速度改變金融、供應鏈乃至於社會治理的模式。這些觀察更加堅定了我投身這兩個領域，貢獻所學的決心。而交大資工所，以其在資通訊領域深厚的學術底蘊與豐沛的研究資源，特別是在網路安全與分散式系統方面的卓越成就，無疑是引領我進入更高層次研究殿堂的最佳選擇。貴所多位教授在應用密碼學、系統安全分析與區塊鏈共識機制等領域的研究成果，都與我的興趣高度契合。我渴望在貴所頂尖的學術氛圍中，在指導教授的帶領下，進一步深化我在網路安全防禦機制與區塊鏈創新應用方面的知識與技能，將所學付諸實踐，為解決當前的資安挑戰與推動區塊鏈技術的落地應用貢獻一份心力。\r\n\r\n讀書計畫\r\n\r\n進入交大資工所後，我的讀書計畫將分為短期、中期與長期三個階段，旨在逐步深化我的專業知識，並最終完成具備創新性與實用價值的碩士論文。\r\n\r\n在入學後的第一年，我的短期目標是全面鞏固並拓展我在網路安全與區塊鏈領域的理論基礎。我計畫積極修習多門進階課程，例如「高等網路安全」、「區塊鏈進階應用」、「應用密碼學原理與實踐」與「軟體安全分析」。透過「高等網路安全」，我希望能深入理解零日漏洞挖掘、惡意程式分析、高級持續性威脅（APT）的攻防策略，並學習如何運用動態與靜態分析工具進行漏洞偵測；在「區塊鏈進階應用」課程中，我期望能探索跨鏈技術、Layer 2 擴容方案、去中心化金融（DeFi）的安全挑戰以及區塊鏈治理模式；而「應用密碼學原理與實踐」將幫助我更深入地掌握零知識證明、同態加密、多方安全計算等前沿密碼學技術的原理與實作細節，這些都是構建安全區塊鏈應用不可或缺的基石。此外，我也會主動參與實驗室的專題討論，研讀最新的學術論文，特別是針對我感興趣的「智能合約安全性分析」與「去中心化身份驗證系統」領域的文獻。我將在指導教授的協助下，積極參與實驗室現有的研究專案，從旁協助學長姐進行資料蒐集、工具開發與實驗數據分析，藉此磨練我的研究方法與問題解決能力，並熟悉實驗室的研究方向與文化。我也計畫在第一年內，熟練掌握至少一種新的區塊鏈開發框架，如 Substrate 或 Polkadot，並學習使用如 `Mythril`、`Slither` 等智能合約安全分析工具。\r\n\r\n進入第二年後，我的中期目標將聚焦於碩士論文的研究與撰寫。我計畫將研究主題鎖定在「針對去中心化金融 (DeFi) 協議的智能合約弱點自動化分析與防禦機制研究」或「基於機密計算與區塊鏈之隱私保護資料共享框架」。以第一個方向為例，我將深入探討 DeFi 生態系中常見的閃電貸攻擊、重入攻擊、以及邏輯漏洞等問題，並嘗試開發一套結合符號執行（Symbolic Execution）與模糊測試（Fuzzing）的自動化工具，旨在高效偵測智能合約中的潛在弱點。在防禦機制方面，我可能會探索基於形式化驗證（Formal Verification）的智能合約設計模式，或是利用預言機（Oracle）的即時監控來減輕攻擊風險。我將投入大量時間進行實驗設計、工具開發與數據分析，並確保研究成果具有理論創新性與實際應用價值。預期將會開發出一個能夠提升 DeFi 智能合約安全性的原型系統，並希望能夠將研究成果整理成學術論文，投稿至 IEEE S&P、USENIX Security 或 CCS 等頂尖資安會議，或是如 Financial Cryptography and Data Security 等區塊鏈相關國際研討會。除了論文研究，我也會積極尋找與業界合作的機會，將我的研究成果應用於實際產品開發中，進一步驗證其可行性與效益。這段期間，我亦希望能參與國際學術會議，拓寬學術視野，與來自全球的學者交流。\r\n\r\n放眼未來，我的長期目標是成為一名在網路安全與區塊鏈領域兼具深度理論知識與實務開發能力的專家。畢業後，我希望能夠進入頂尖的資安研究機構或區塊鏈技術公司，擔任研究科學家或區塊鏈架構師等職位，持續投入於先進安全技術的研發。我期望能參與開發更安全、更高效的去中心化應用，或設計更具韌性的網路防禦系統。我尤其關注如何將我所學的資安知識與區塊鏈的特性結合，例如開發基於區塊鏈的零信任安全架構、去中心化身分驗證方案，或是隱私保護的資料共享平台。此外，我也希望能積極參與開源社群，貢獻我的程式碼與研究成果，推動網路安全與區塊鏈技術的普及與發展。若能在攻讀碩士學位的過程中，發現對學術研究擁有更強烈的熱情與潛力，我也會考慮繼續攻讀博士學位，在學術界持續深耕，為資訊安全與區塊鏈領域的知識體系做出更深遠的貢獻。我深信，交大資工所將會是引導我實現這些抱負與理想的最佳搖籃。",
+  "idea_units": [
+    {
+      "id": "8b24ffa7-0125-48f2-9db1-adc2e397191e",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "從小，我對電腦科學的興趣便不僅止於使用，更在於探究其背後的運作邏輯與潛在的無限可能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be9a2c02-74c2-409b-9a7a-ebdcacad5694",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "回溯大學四年，中正大學資工系提供給我的扎實訓練，讓我對於軟體開發、演算法設計以及系統架構有了全面且深入的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f116d0d7-4913-432a-b2bb-7182450616af",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "在學業方面，我始終抱持著嚴謹與求知的態度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "82c80ff7-314d-4d3e-824e-87168bd25521",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "修課平均成績穩定保持在 3.9 的高水準。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4c407ccf-6c87-42b5-83a9-83f76aeae962",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "多次獲得系上書卷獎的肯定。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a2b31484-42b3-41f2-a525-c8b154ff2692",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這份耕耘反映了我對資訊工程領域的熱情與投入。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "342eda36-92bc-453e-a79b-6d347f64c96d",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "也為我日後鑽研網路安全與區塊鏈技術奠定了堅實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "918deb9a-6dc9-4d1b-b185-976f2c5b233d",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我的學習歷程，並非僅止於課本上的理論。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "036fbf26-1340-471c-86e4-915ec1ce1556",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "大二時，在《計算機網路》課程中，我與組員利用 Python 實作了一個簡易的 ARP 欺騙偵測與防禦系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4a582fd7-e79f-410c-bd52-dcbfdd730da3",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我們使用了 `scapy` 函式庫來截取並分析網路封包，並設計邏輯判斷 ARP 請求的合法性，成功在實驗環境中偵測到惡意 ARP 攻擊並發出警報。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d3fd43b3-a33a-4de3-b3e0-70ab28a6e078",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這個專案讓我第一次真切體會到網路協定設計的巧妙與潛在的漏洞。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "66fd42ca-62b2-4668-9d4f-18f47ec0ec1c",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "也啟發了我對網路安全更深層次的探索慾望。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b514b98-9f1f-49b8-9620-30f3fdfbf223",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "此外，在《資料結構與演算法》課程中，我對排序與搜尋的效率優化產生了濃厚興趣，自行實作了多種演算法並比較其在不同資料規模下的效能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7970163a-8612-4b58-a189-fa1fa4b168dc",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這段訓練磨練了我邏輯思考與解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c0b169e6-537b-424f-bd6b-fe596007ab4a",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "大三上學期，我正式加入了學校的「資訊安全與區塊鏈應用實驗室」，師從李教授，深入參與了兩個研究專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d8815e92-6cb2-4734-9efa-0e7719da287d",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "第一個專案是「基於行為分析的惡意程式偵測系統」，我們的目標是開發一個能夠在不依賴簽章檔的情況下，識別新型惡意程式的系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cf56920e-6d05-4e78-887e-01d99fa20490",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我主要負責前端的資料預處理與特徵工程，以及惡意行為模式的建構。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4dbe0f57-167c-41aa-a794-87a6be459426",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我們收集了數千個惡意與良性程式的執行行為日誌，利用 `IDA Pro` 和 `Ghidra` 進行靜態分析提取 API 調用序列，並使用 `Cuckoo Sandbox` 進行動態分析以獲取系統呼叫、網路活動等行為數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "06d2b9e3-99fd-499b-a345-e1a534ef223e",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "在處理這些龐大且嘈雜的資料時，我才意識到資料品質對模型效能的決定性影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f59bcef2-e7b3-4199-bd64-043b37ce7dfd",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我花費了大量時間編寫 Python 腳本，運用 `pandas` 清理數據、提取關鍵特徵，並最終使用 `scikit-learn` 中的 `Random Forest` 分類器進行模型訓練。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3678f95-606d-4f32-bd41-48e14230d661",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "初期在區分多態惡意程式時遇到不少挑戰，模型預測的 F1-score 一度僅有 0.72。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01ea098f-dca5-49bb-8e26-881b43858fae",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "在不斷迭代特徵集並引入 `k-means` 聚類對行為模式進行更細緻的劃分後，我們最終將 F1-score 提升至 0.88，顯著提高了系統的偵測率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "39d591ff-5424-4fe0-85f4-8d8ea56e65a4",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這段經歷讓我熟練掌握了多種資安分析工具與機器學習框架。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e421894-32b7-4ab3-9d8d-43d17b89e6e0",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這段經歷讓我理解到將理論應用於實際問題時，需要面對資料的複雜性與不確定性，並學會以系統性的方法克服困難。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c4e45aeb-8cb4-467f-a436-4cab16f87115",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "緊接著，我也參與了實驗室的另一個區塊鏈相關專案：「基於 Hyperledger Fabric 的智慧合約型供應鏈追溯系統」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9a5738c2-47b4-4c25-87ad-a4236436a2db",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "此專案旨在利用區塊鏈不可篡改的特性，提升農產品供應鏈的透明度與可信度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3f9a626e-2b5a-4143-bfa0-956894ee372e",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我主要負責智慧合約（Chaincode）的設計與實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "88b2e8b2-dfe5-4260-9d7e-dcc0abbf29cc",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我使用 `Go` 語言撰寫了核心的 Chaincode 邏輯，定義了產品從生產、加工、運輸到銷售各環節的資料結構與交易流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "200571ae-2883-40e4-98ec-3e28917aac27",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "過程中，我深入研究了 Hyperledger Fabric 的架構，包括 Orderer、Peer、Channel 等元件的運作機制，並利用 `Docker` 容器化部署測試網路。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "92ad767c-2d95-49e0-bc77-7ae4f5e0aec5",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "最大的挑戰在於如何平衡鏈上數據的隱私性與查詢的效率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "99944300-f81f-4862-94bd-e6571168c5e9",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我透過設計私有資料集（Private Data Collections）來確保敏感資訊只在授權方之間共享，同時仍能維持資料的整體可驗證性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "124ee2d2-2686-42d8-8e31-94c54fd84cd1",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "最終，我們成功建構了一個原型系統，能夠在數秒內完成一筆從農場到餐桌的完整追溯查詢，證明了區塊鏈在供應鏈管理上的巨大潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c061d848-2555-403f-902b-0a5199812152",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這次經驗讓我對於分散式系統的協調機制、共識演算法以及智慧合約的安全性有了更深層次的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef2b97d9-7dcb-4182-bea3-137d77a86cbb",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "也第一次體會到區塊鏈技術如何顛覆傳統信任模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9769d1e9-ea03-4f0e-8560-c4f91f4c3c49",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "除了學術研究，我也積極將所學應用於業界實踐。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6789b260-f4de-47f9-9cb6-38932fd5cad0",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "大三升大四的暑假，我獲得了「新創資安聯防科技公司」的暑期軟體工程實習機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a360bd05-96b5-4162-a0be-238535e351ae",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "在這三個月期間，我作為核心開發成員之一，參與了公司新一代資安事件回應平台（SIEM/SOAR）的開發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c7c8fdf1-694c-462d-bcf9-c9b083cfe882",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我的主要職責是開發自動化弱點掃描排程模組。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7fd90785-5167-4da6-b0b3-20c3ff67a3fe",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我使用 `Python` 和 `Django` 框架，串接了多個開源弱點掃描工具，如 `Nessus` 與 `OpenVAS` 的 API，實現了定時自動化掃描排程、結果解析與告警功能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "78601bd7-f848-48b5-af23-8cf1fb436e4c",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我亦負責設計資料庫結構，以高效儲存與檢索掃描結果，並利用 `RESTful API` 將數據傳送至前端介面供資安分析師檢視。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "55101ffb-9000-4f4b-9216-61142e78dc00",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "透過我的努力，平台得以自動化處理過去需要資安人員手動執行的掃描任務，將處理時間從數小時縮短至數分鐘，大幅提升了資安監控的效率與即時性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "871c8abd-bfa3-41ff-a4ac-bd1fff49da4b",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這段實習讓我第一次完整體驗了企業級軟體開發的生命週期，從需求分析、架構設計、程式碼實作、測試到部署。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b707a195-700d-4f2d-9da8-5b2e94db42ba",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這段實習讓我深刻理解了團隊協作的重要性、程式碼品質與文件撰寫的規範。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b9e2c9c-219d-4663-a32a-3f31622e75e3",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這段實習讓我對於資安產品在實際應用上的挑戰與價值有了更全面的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6755959d-07e4-40a2-8898-bf4e390ceb55",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "在繁忙的學業與研究之餘，我也將精力投入於熱舞社的活動，特別是鑽研 Poping 舞風。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7265115a-0405-474b-a853-838b28ec281d",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這項課外活動雖然與資工領域看似無關，卻帶給我極大的啟發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab65edb9-17da-4b80-b591-42bd11994fe4",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "Poping 舞蹈強調精準的肌肉控制、節奏感與流暢的動作銜接，每個細微的動作都需要反覆練習與調整才能達到完美。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "59a68574-4578-4f0d-9ba5-c565c467a0ea",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這份對細節的堅持與不斷精進的態度，對於複雜的軟體開發與問題解決同樣關鍵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "40ed2fa4-d7c7-4588-8737-5f88b4f0d5c5",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "舞蹈讓我學會如何在壓力下保持專注，提升了我的抗壓性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5dd6ba06-aac0-4f1e-afd9-304fa1a98f23",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "舞蹈讓我在面對研究瓶頸時，能以更積極樂觀的心態去尋找解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4df2555d-23b7-4420-b718-8ec4ee0b38bf",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "社團經驗也培養了我的團隊合作能力，學會如何與不同風格的夥伴協調配合，共同完成每一次的表演。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "87428b3c-bb24-4501-be8a-241cbfaffae1",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "在大學期間的這些多元經歷，讓我深刻體會到網路安全與區塊鏈技術不僅僅是前沿的學術領域，更是未來數位社會不可或缺的基石。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e7919ad3-16d5-4c74-8bcc-b40366344667",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我看到網路攻擊手段日益複雜，對企業和個人造成巨大威脅。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b4705ed3-fb0b-4675-b016-9f9add2987b8",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "同時也看到區塊鏈技術正以前所未有的速度改變金融、供應鏈乃至於社會治理的模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "200b38b1-82c7-467d-9865-85cf1c4475e5",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "這些觀察更加堅定了我投身這兩個領域，貢獻所學的決心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5976117c-d5f9-41b1-8c45-0dbe87e82cf4",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "交大資工所，以其在資通訊領域深厚的學術底蘊與豐沛的研究資源，特別是在網路安全與分散式系統方面的卓越成就，無疑是引領我進入更高層次研究殿堂的最佳選擇。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d36a073f-94f8-4927-af53-cc4554ee43e5",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "貴所多位教授在應用密碼學、系統安全分析與區塊鏈共識機制等領域的研究成果，都與我的興趣高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6ccc3c3b-e5b0-4830-899e-0efd69df63e7",
+      "candidate_id": "mock_7",
+      "section": "自傳",
+      "content": "我渴望在貴所頂尖的學術氛圍中，在指導教授的帶領下，進一步深化我在網路安全防禦機制與區塊鏈創新應用方面的知識與技能，將所學付諸實踐，為解決當前的資安挑戰與推動區塊鏈技術的落地應用貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "63d64202-a140-429c-b3c1-a8c5310d6be4",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "進入交大資工所後，我的讀書計畫將分為短期、中期與長期三個階段，旨在逐步深化我的專業知識，並最終完成具備創新性與實用價值的碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "af2db786-4788-42e3-b99b-b35f95a1cc28",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "在入學後的第一年，我的短期目標是全面鞏固並拓展我在網路安全與區塊鏈領域的理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a3012422-5e5f-41fb-9f46-c236c79e8b05",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我計畫積極修習多門進階課程，例如「高等網路安全」、「區塊鏈進階應用」、「應用密碼學原理與實踐」與「軟體安全分析」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a925dd9e-ecbf-4fd8-84f4-4dbf602ae5da",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "透過「高等網路安全」，我希望能深入理解零日漏洞挖掘、惡意程式分析、高級持續性威脅（APT）的攻防策略，並學習如何運用動態與靜態分析工具進行漏洞偵測。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7571fd8d-375c-4aff-956f-ccc82da0f515",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "在「區塊鏈進階應用」課程中，我期望能探索跨鏈技術、Layer 2 擴容方案、去中心化金融（DeFi）的安全挑戰以及區塊鏈治理模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9f3198af-430e-4f23-9e55-198c94342108",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "而「應用密碼學原理與實踐」將幫助我更深入地掌握零知識證明、同態加密、多方安全計算等前沿密碼學技術的原理與實作細節。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c2c0c24d-4a41-4e6c-bb6f-5a8f7fa09454",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "這些都是構建安全區塊鏈應用不可或缺的基石。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d23436fd-b382-40ef-a55f-5894797c6eb6",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "此外，我也會主動參與實驗室的專題討論，研讀最新的學術論文，特別是針對我感興趣的「智能合約安全性分析」與「去中心化身份驗證系統」領域的文獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "26edfbfa-5e34-4141-9ca4-a79c3333b10d",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我將在指導教授的協助下，積極參與實驗室現有的研究專案，從旁協助學長姐進行資料蒐集、工具開發與實驗數據分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f8d1c6b-5586-47ac-8bba-fb7869f4c984",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "藉此磨練我的研究方法與問題解決能力，並熟悉實驗室的研究方向與文化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1edef59e-8de4-4236-ae94-d41c198109ee",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我也計畫在第一年內，熟練掌握至少一種新的區塊鏈開發框架，如 Substrate 或 Polkadot，並學習使用如 `Mythril`、`Slither` 等智能合約安全分析工具。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9cce0866-8b68-48c2-9a05-65d1183702b6",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "進入第二年後，我的中期目標將聚焦於碩士論文的研究與撰寫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d70d927d-71e2-438b-9b92-290d450f71fd",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我計畫將研究主題鎖定在「針對去中心化金融 (DeFi) 協議的智能合約弱點自動化分析與防禦機制研究」或「基於機密計算與區塊鏈之隱私保護資料共享框架」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "51d63e12-0649-42db-872e-6f04ca6f4247",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "以第一個方向為例，我將深入探討 DeFi 生態系中常見的閃電貸攻擊、重入攻擊、以及邏輯漏洞等問題，並嘗試開發一套結合符號執行（Symbolic Execution）與模糊測試（Fuzzing）的自動化工具，旨在高效偵測智能合約中的潛在弱點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "006a03ac-08fd-4a6c-96fd-bd470112936a",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "在防禦機制方面，我可能會探索基於形式化驗證（Formal Verification）的智能合約設計模式，或是利用預言機（Oracle）的即時監控來減輕攻擊風險。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07cc0df8-2996-4a5d-b611-99ee06b39672",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我將投入大量時間進行實驗設計、工具開發與數據分析，並確保研究成果具有理論創新性與實際應用價值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "82a1c4d5-c741-46e7-8783-358fe41af09e",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "預期將會開發出一個能夠提升 DeFi 智能合約安全性的原型系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5863695f-08fa-48fc-acb4-61de51e58e75",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "並希望能夠將研究成果整理成學術論文，投稿至 IEEE S&P、USENIX Security 或 CCS 等頂尖資安會議，或是如 Financial Cryptography and Data Security 等區塊鏈相關國際研討會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "868bc198-dc48-4c78-a527-c7c0eddcaa1d",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "除了論文研究，我也會積極尋找與業界合作的機會，將我的研究成果應用於實際產品開發中，進一步驗證其可行性與效益。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "147bcaf0-3255-44c8-b1d5-187ccf337d3a",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "這段期間，我亦希望能參與國際學術會議，拓寬學術視野，與來自全球的學者交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f4a25211-448a-4d62-ac1d-af3241a685af",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "放眼未來，我的長期目標是成為一名在網路安全與區塊鏈領域兼具深度理論知識與實務開發能力的專家。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7b4d6d31-a688-418f-9aa2-97ebd97fce53",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "畢業後，我希望能夠進入頂尖的資安研究機構或區塊鏈技術公司，擔任研究科學家或區塊鏈架構師等職位，持續投入於先進安全技術的研發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2af1488c-3595-48d5-a53a-ae6c573e6ed8",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我期望能參與開發更安全、更高效的去中心化應用，或設計更具韌性的網路防禦系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a1a82b36-f3f0-40e5-af80-0f6ae24d6524",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我尤其關注如何將我所學的資安知識與區塊鏈的特性結合，例如開發基於區塊鏈的零信任安全架構、去中心化身分驗證方案，或是隱私保護的資料共享平台。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b4f57210-4c44-43e6-83ff-bc386c9b0d8c",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "此外，我也希望能積極參與開源社群，貢獻我的程式碼與研究成果，推動網路安全與區塊鏈技術的普及與發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04d403b5-1460-4319-98eb-940051ee4440",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "若能在攻讀碩士學位的過程中，發現對學術研究擁有更強烈的熱情與潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01bdea54-af94-4bfa-9dc4-8737268ce5f9",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我也會考慮繼續攻讀博士學位，在學術界持續深耕，為資訊安全與區塊鏈領域的知識體系做出更深遠的貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "21d77483-95ab-466d-ad9e-bb65b13e2bbe",
+      "candidate_id": "mock_7",
+      "section": "讀書計畫",
+      "content": "我深信，交大資工所將會是引導我實現這些抱負與理想的最佳搖籃。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

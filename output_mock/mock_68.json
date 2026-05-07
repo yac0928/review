@@ -1,0 +1,945 @@
+{
+  "candidate_id": "mock_68",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_68.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n我的名字是曾育菘，畢業於中山大學電機工程學系。今天我帶著一份對未來充滿期望與學習熱忱的心情，申請進入貴所資工所深造。我的大學生涯或許與許多人不同，在學業成績單上，我並沒有那麼亮眼，修課平均是 2.94，這部分我會坦然面對並解釋。這些數字的背後，承載了我大學期間為了生活而付出的努力，以及在實務經驗中逐漸找到學習方向的歷程。\r\n\r\n### 自我介紹與成長背景\r\n\r\n我從小就不是那種天賦異稟、成績頂尖的學生，更多的是靠著一股韌性在學習與生活中摸索前進。家境不算富裕，大學時期我必須半工半讀，才能夠支應自己的學費與生活開銷。這也造就了我與眾不同的大學經驗，許多同學在研究室或課外專題上揮灑熱情時，我卻在各種服務業的崗位上努力打拚。這段經歷雖然辛苦，卻也讓我培養了許多寶貴的能力，例如時間管理、與人溝通的技巧，以及在壓力下解決問題的應變能力。我甚至還取得了急救員執照，這讓我學會如何在緊急情況下保持冷靜，並提供協助，這對我的性格養成也有很大幫助。\r\n\r\n### 求學歷程與專業能力養成\r\n\r\n在中山大學電機工程學系就讀期間，我對嵌入式系統、韌體開發和 SoC 設計領域產生了濃厚的興趣。雖然大部分時間都在打工，但我很努力地掌握了系上開設的相關課程，例如「微處理機原理與應用」、「嵌入式系統設計」、「數位邏輯設計」等。我很喜歡動手實作的感覺，這些課程的實驗對我來說是少數能讓我專心投入的時光。\r\n\r\n在「微處理機原理與應用」這門課中，我們有機會接觸到一些基礎的微控制器應用。我記得當時我們用 C 語言編寫程式，控制一些簡單的硬體周邊，像是 LED 燈、感測器。雖然只是很小的東西，但當程式碼讓硬體動起來的那一刻，我真的覺得很神奇，也學到了很多基本的硬體與軟體協同工作的概念。\r\n\r\n另外，「嵌入式系統設計」的課程專題，我們分組試圖做一個簡單的智慧家庭控制系統。我的角色主要是負責其中一部分的韌體邏輯，要讓不同的模組能夠溝通，然後做一些簡單的判斷和反應。做完之後才發現原來要在資源有限的環境下，把程式寫得有效率而且穩定是這麼困難的事情。雖然專題成果不算特別突出，但整個過程讓我獲益良多，也更清楚自己對這個領域的興趣。我學到了如何除錯、如何思考系統架構，雖然只是皮毛，但培養了我對這方面問題解決的能力。\r\n\r\n因為花了很多時間在打工上，我的學業成績確實不夠理想。我承認自己在學習方法上還有很大的進步空間，而且當時也常常因為身體疲累，沒辦法全心投入課業。但這些課程讓我對韌體和嵌入式系統的基礎知識有了初步的了解，也確立了我想往這個方向繼續鑽研的目標。\r\n\r\n### 大學期間的打工經驗\r\n\r\n大學四年，我的生活重心除了課程外，很大一部分都投入在打工。我做過最久的是在「森活咖啡簡餐」擔任服務生和廚房助手，在那裡我從基礎的點餐、送餐開始，一路學到後場的備料、簡單烹飪。每天工時很長，常常要應付尖峰時段的忙碌，還有各種客人的需求。這讓我練就了很好的抗壓性、溝通能力和應變能力。在餐飲業工作，你必須要快速判斷、迅速行動，而且要隨時保持良好的服務態度，這些都不是書本上學得到的。\r\n\r\n我也曾經在某家超商打過夜班，那真的是一種特別的體驗。凌晨時分，店裡很安靜，我要負責補貨、盤點、清潔，還要處理一些簡單的帳務。這段時間讓我學會了獨立作業和自我管理，而且也體會到社會上各行各業的人，為了生活真的都很努力。\r\n\r\n這些非技術性的打工經驗雖然沒有直接提升我的專業技能，但它們讓我對社會有了更深的認識，也磨練了我的意志力。我學會了如何負責任地完成任務，如何在高壓環境下保持效率，以及如何與各式各樣的人打交道。這些能力，我相信在未來研究生的團隊合作和獨立研究中，都會是寶貴的養分。更重要的是，在忙碌的打工生活中，我更清楚地意識到自己「想轉換跑道」的心情，希望能將所學的電機專業知識，應用到更有深度、更有挑戰性的技術領域。\r\n\r\n### 兼職開發經驗與申請動機\r\n\r\n在大學畢業前夕，我意識到不能一直停留在非技術性的打工，希望能將所學的知識投入到實際的技術工作中。很幸運地，我找到了一份在一家小型新創公司「極速科技」兼職的機會。這家公司主要是開發一些物聯網相關的智能硬體裝置。我在那裡主要負責協助一些韌體的測試與簡單的程式碼修改。\r\n\r\n我主要的職責是幫助測試新開發的嵌入式裝置的韌體穩定性，並在測試過程中找出問題，然後嘗試修改一些基礎的驅動程式或是應用程式碼。有時候也要看懂一些老舊的程式碼，然後修復裡面的 bug。這段經驗讓我第一次有機會實際接觸到產品開發的流程，也深刻體會到書本上的理論知識，在實際應用時會遇到許多意想不到的挑戰。例如，我學到在實際產品中，時間的精準度、資源的限制、以及不同硬體模組之間的溝通，都需要非常細膩的處理。\r\n\r\n在「極速科技」的這段時間，雖然我做的都是一些比較基礎的工作，但這讓我看到了韌體工程師的實際工作內容，也讓我更加堅定了「想精進技術」的決心。我發現自己對這類低階硬體與軟體整合的挑戰非常有興趣，也意識到自己大學所學的基礎雖然有用，但距離真正的專業能力還有一段距離。我需要更深入的理論知識與更系統的實作訓練，才能在這條路上走得更遠。\r\n\r\n綜合我的求學背景、打工經驗以及兼職開發的啟發，我堅信交大資工所是能讓我實現目標的最佳選擇。貴所在嵌入式系統與韌體設計領域的卓越聲譽和深厚實力，對我來說是極具吸引力的。我渴望能進入貴所，在老師們的指導下，學習最前沿的技術，參與有意義的研究專案，彌補我過去在研究經驗上的不足，將我的熱情和潛力轉化為實際的成果。我期望能透過研究所的訓練，把自己從一個打工維生的學生，真正轉換成一位具備深厚專業能力的韌體工程師。\r\n\r\n## 讀書計畫\r\n\r\n### 短期計畫 (入學前)\r\n\r\n在獲得貴所的錄取資格後到正式入學這段時間，我會盡全力充實自己的基礎知識，為研究所的學習做好準備。我知道自己在大學期間因為各種原因，基礎打得不夠紮實，所以這段時間對我來說非常重要。\r\n\r\n我會先從 C/C++ 程式語言的強化訓練開始，特別是針對指標、記憶體管理以及資料結構的部分，這些都是韌體開發中非常重要的環節。我會找一些線上課程或書籍來複習，並多做練習題，確保自己能熟練運用。\r\n\r\n同時，我也會複習「資料結構」、「演算法」、「作業系統」以及「數位邏輯設計」等核心課程的內容。這些都是未來學習嵌入式系統和 SoC 設計不可或缺的基礎知識。我會把大學時期的課本和筆記重新拿出來看，也會上網找一些開放課程或教學影片來輔助學習，目標是讓這些概念能在腦海中更加清晰，而不是只有模糊的印象。我會盡量多看一些相關的論文或技術文章，希望在還沒入學前就能對目前的技術趨勢有一些了解，為將來的研究方向做準備。\r\n\r\n### 中期計畫 (碩一)\r\n\r\n碩士班第一年，我的首要目標是全面吸收專業知識，並適應研究生活。我會努力修習貴所開設的相關專業課程，例如「高階嵌入式系統」、「SoC 設計」、「即時作業系統」、「韌體開發」以及「電腦架構」等。我相信這些課程能夠提供我更深厚的理論基礎和實務技巧。我會認真聽講、積極參與討論，並努力完成所有的課堂作業與專題，讓自己學到更多東西。\r\n\r\n同時，我會積極尋找適合自己的指導教授，並盡快加入實驗室。我希望能夠在教授的指導下，參與實驗室的專案。即使是從最基礎的工作開始做起，我也會全力以赴。我期望能透過實際的專案經驗，學習到如何進行研究、如何解決實際問題、如何撰寫技術報告，以及如何與團隊成員協作。我會努力培養自己的獨立思考能力和研究能力，並嘗試多與學長姐交流，請教他們在學習和研究上的經驗，讓自己能更快地進入狀況。我還會多參加一些學術研討會或相關的技術講座，擴展自己的視野，了解業界和學術界的最新發展。\r\n\r\n### 長期計畫 (碩二與未來展望)\r\n\r\n碩士班第二年，我的重心會放在碩士論文的研究與撰寫上。我希望能找到一個有意義、有挑戰性的研究主題，結合我在韌體、嵌入式系統和 SoC 設計方面的興趣。在指導教授的帶領下，我會努力學習研究方法、分析問題、提出解決方案，並進行實驗驗證。我會盡力克服研究過程中遇到的困難，即使是遇到很難的問題，也要努力想辦法解決。\r\n\r\n我希望我的論文成果不僅能展現我的專業能力，也能對相關領域有所貢獻。我會定期與教授討論進度，聽取意見，並將論文逐步完善。在論文完成後，我也會嘗試將研究成果投稿至相關的研討會或期刊，希望能讓更多人看到我的研究。\r\n\r\n在完成碩士學業後，我希望能夠將所學應用到業界，成為一名優秀的韌體工程師或嵌入式系統設計師。我對智慧裝置、物聯網、或是汽車電子等領域都有很大的興趣，這些領域都需要深厚的韌體開發能力。我期望能進入一家有前景的公司，持續學習最新的技術，並在工作中不斷精進自己。我相信交大資工所的訓練，能夠為我未來的職涯發展打下堅實的基礎，讓我能夠在這條充滿挑戰的道路上走得更穩、更遠。我會努力貢獻所長，實現自己對技術的熱愛與追求。",
+  "idea_units": [
+    {
+      "id": "56c17625-d39a-4994-bd99-f2f0fae67b06",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我的名字是曾育菘，畢業於中山大學電機工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "860056ed-3de0-4718-8dcf-9b568dae29a2",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "今天我帶著一份對未來充滿期望與學習熱忱的心情，申請進入貴所資工所深造。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8f54aceb-b2ce-4bf2-ae9b-fd90246f994f",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我的大學生涯或許與許多人不同，在學業成績單上，我並沒有那麼亮眼，修課平均是 2.94，這部分我會坦然面對並解釋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1200dc60-3e2c-444f-9012-fbcdea3ff71a",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這些數字的背後，承載了我大學期間為了生活而付出的努力，以及在實務經驗中逐漸找到學習方向的歷程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01e99e31-bc0a-4b35-b921-ecff00e5a4ef",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我從小就不是那種天賦異稟、成績頂尖的學生，更多的是靠著一股韌性在學習與生活中摸索前進。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f4b69d46-5ca5-45e9-9f99-43bd7524eec2",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "家境不算富裕，大學時期我必須半工半讀，才能夠支應自己的學費與生活開銷。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "91e4e7e9-2cab-4419-a9eb-d9066948a480",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這也造就了我與眾不同的大學經驗，許多同學在研究室或課外專題上揮灑熱情時，我卻在各種服務業的崗位上努力打拚。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4720eee3-39ec-4c3d-a841-9a349c89c99c",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這段經歷雖然辛苦，卻也讓我培養了許多寶貴的能力，例如時間管理、與人溝通的技巧，以及在壓力下解決問題的應變能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd6b1e61-348b-45ad-9935-585aff09a7e2",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我甚至還取得了急救員執照。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ba2b6e04-2fd3-4d5a-8944-aaffc6815f06",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這讓我學會如何在緊急情況下保持冷靜，並提供協助，這對我的性格養成也有很大幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6f24b712-dce8-4560-9dce-5fc9b0c4bf95",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "在中山大學電機工程學系就讀期間，我對嵌入式系統、韌體開發和 SoC 設計領域產生了濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3214305-9577-4ebe-972d-84a334e321f3",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "雖然大部分時間都在打工。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ba897eab-f16a-46a2-bb48-2bf23758c692",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "但我很努力地掌握了系上開設的相關課程，例如「微處理機原理與應用」、「嵌入式系統設計」、「數位邏輯設計」等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60f70f7f-f665-4433-b60b-16db3cbe6abf",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我很喜歡動手實作的感覺，這些課程的實驗對我來說是少數能讓我專心投入的時光。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "683208a2-dceb-4cb3-b938-3ab52968f22a",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "在「微處理機原理與應用」這門課中，我們有機會接觸到一些基礎的微控制器應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6e5a87de-441f-4b13-8c62-795a2d435367",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我記得當時我們用 C 語言編寫程式，控制一些簡單的硬體周邊，像是 LED 燈、感測器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a6c17bad-fbc5-45f2-980c-488139060601",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "但當程式碼讓硬體動起來的那一刻，我真的覺得很神奇。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2b2c90d1-2c77-4e9d-bbf7-60675d76ca7a",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "也學到了很多基本的硬體與軟體協同工作的概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "67ce2885-b1b3-4f29-9b56-06d80bc7aa4d",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "另外，「嵌入式系統設計」的課程專題，我們分組試圖做一個簡單的智慧家庭控制系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d544768-332b-431f-9eb9-015c882f161d",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我的角色主要是負責其中一部分的韌體邏輯，要讓不同的模組能夠溝通，然後做一些簡單的判斷和反應。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "21f92b2b-a50f-490b-bcf9-8157ef39daba",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "做完之後才發現原來要在資源有限的環境下，把程式寫得有效率而且穩定是這麼困難的事情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "28106283-97b4-4a40-a05e-97d1b4b47235",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "雖然專題成果不算特別突出。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c2bb5a0f-30ce-4464-8e8d-c84c6f4bc73d",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "但整個過程讓我獲益良多。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef2a7e8f-a489-4e7a-bc8a-e38f11dec520",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "也更清楚自己對這個領域的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "818cd6f1-dadd-4a7e-9fcc-fc29752b2b3a",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我學到了如何除錯、如何思考系統架構。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1accfd7b-5eeb-4f5b-9295-3539d9d02885",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "但培養了我對這方面問題解決的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cfe6bb8c-606c-408c-9241-65dc19a509fc",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "因為花了很多時間在打工上，我的學業成績確實不夠理想。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e75528ef-d1cb-4dec-96e7-301eb1c1565f",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我承認自己在學習方法上還有很大的進步空間，而且當時也常常因為身體疲累，沒辦法全心投入課業。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4385ccc4-282c-4bb3-9e22-c323b1979724",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "但這些課程讓我對韌體和嵌入式系統的基礎知識有了初步的了解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "354f5374-cb91-4839-b0a5-588d203c6376",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "也確立了我想往這個方向繼續鑽研的目標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ee197459-5319-4a55-8b66-d6accd9e06b1",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "大學四年，我的生活重心除了課程外，很大一部分都投入在打工。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "647d6360-2ba4-409f-88ff-062a916dfdf2",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我做過最久的是在「森活咖啡簡餐」擔任服務生和廚房助手，在那裡我從基礎的點餐、送餐開始，一路學到後場的備料、簡單烹飪。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c96c4f42-2cf0-4637-91dd-51c32dda93ac",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "每天工時很長，常常要應付尖峰時段的忙碌，還有各種客人的需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a48887e-1c1a-4f04-8345-6696bb9711a2",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這讓我練就了很好的抗壓性、溝通能力和應變能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "90d42237-1a07-48d2-a634-ec7bfd9d6c24",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "在餐飲業工作，你必須要快速判斷、迅速行動，而且要隨時保持良好的服務態度，這些都不是書本上學得到的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d9380fa5-486e-4d44-bd5a-23002133d96c",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我也曾經在某家超商打過夜班，那真的是一種特別的體驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9183bcd2-9b12-4420-8a45-46c887503ee4",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "凌晨時分，店裡很安靜，我要負責補貨、盤點、清潔，還要處理一些簡單的帳務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "12398a75-82ed-4bf0-bf22-962e47f49312",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這段時間讓我學會了獨立作業和自我管理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "20fed71e-5c11-45d0-82e3-6793bf562de0",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "而且也體會到社會上各行各業的人，為了生活真的都很努力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9cc1f562-f58b-4187-94c2-a81427505e65",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這些非技術性的打工經驗雖然沒有直接提升我的專業技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe3dde59-d9ce-4ad1-821d-f6f9047fe10a",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "但它們讓我對社會有了更深的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b519b79d-3f96-4120-9da7-a92457397f6b",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我學會了如何負責任地完成任務，如何在高壓環境下保持效率，以及如何與各式各樣的人打交道。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dc039d07-7e47-4ba0-a3bb-5d853a0dde06",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這些能力，我相信在未來研究生的團隊合作和獨立研究中，都會是寶貴的養分。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ce1bca82-01a5-4265-b14a-c1d349e31cba",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "更重要的是，在忙碌的打工生活中，我更清楚地意識到自己「想轉換跑道」的心情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "592aa0ec-4cf5-4d67-b02f-95ac83ef71f2",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "希望能將所學的電機專業知識，應用到更有深度、更有挑戰性的技術領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e28762ab-8e67-4963-ba92-e5255ba565c4",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "在大學畢業前夕，我意識到不能一直停留在非技術性的打工。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6b00a87c-a3b8-4a48-a9a8-57ce0029dbb3",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "希望能將所學的知識投入到實際的技術工作中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1e516cf0-2036-4b8d-8e53-5c4ec9ce03be",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "很幸運地，我找到了一份在一家小型新創公司「極速科技」兼職的機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a73bb37b-f1b3-4936-a6b6-a3a98a163595",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這家公司主要是開發一些物聯網相關的智能硬體裝置。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2294b93e-9415-470a-ad93-ef2786d9a2eb",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我在那裡主要負責協助一些韌體的測試與簡單的程式碼修改。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6fe64fd-4d63-4984-9100-53f7c6b8c93d",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我主要的職責是幫助測試新開發的嵌入式裝置的韌體穩定性，並在測試過程中找出問題，然後嘗試修改一些基礎的驅動程式或是應用程式碼。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "31d02194-add6-4e20-9c4a-6b57eff87515",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "有時候也要看懂一些老舊的程式碼，然後修復裡面的 bug。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "739c0f79-8db9-4675-8653-9e05c1b4622d",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "這段經驗讓我第一次有機會實際接觸到產品開發的流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "74d07464-44e6-4f29-b87a-300e45f1dfc6",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "也深刻體會到書本上的理論知識，在實際應用時會遇到許多意想不到的挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3c6d8944-cb4d-47f0-ae3c-c24beb22a7d1",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "例如，我學到在實際產品中，時間的精準度、資源的限制、以及不同硬體模組之間的溝通，都需要非常細膩的處理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb713f57-ca09-4b54-bfaf-153f9b8772eb",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "在「極速科技」的這段時間，雖然我做的都是一些比較基礎的工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1db5b220-793c-431d-a6ac-c54372c8953d",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "但這讓我看到了韌體工程師的實際工作內容。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9b85bbdb-46f4-4656-afff-8a0e598a3e3a",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "也讓我更加堅定了「想精進技術」的決心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9e474d53-78e5-4dff-a7bb-3e7ce99aed39",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我發現自己對這類低階硬體與軟體整合的挑戰非常有興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bf0c43e6-6469-47f2-a237-30592f985870",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "也意識到自己大學所學的基礎雖然有用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0444c44e-f4d6-46d7-bedc-167257b162a7",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "但距離真正的專業能力還有一段距離。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd2bdcce-8cff-473e-a1f7-0e2cef8a7b4a",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我需要更深入的理論知識與更系統的實作訓練，才能在這條路上走得更遠。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b7a7e2d2-9391-4543-bd2e-2b9f822d5eaa",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "綜合我的求學背景、打工經驗以及兼職開發的啟發，我堅信交大資工所是能讓我實現目標的最佳選擇。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d12e204-2869-437c-9200-471f6f83d7b2",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "貴所在嵌入式系統與韌體設計領域的卓越聲譽和深厚實力，對我來說是極具吸引力的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dda997cd-f14f-4a7f-9a9c-65b7c7fdefa5",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我渴望能進入貴所，在老師們的指導下，學習最前沿的技術，參與有意義的研究專案，彌補我過去在研究經驗上的不足，將我的熱情和潛力轉化為實際的成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d743228f-1f98-4021-a06e-f8d2a519d1d2",
+      "candidate_id": "mock_68",
+      "section": "自傳",
+      "content": "我期望能透過研究所的訓練，把自己從一個打工維生的學生，真正轉換成一位具備深厚專業能力的韌體工程師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ec952601-09c5-494d-9ef8-79138daccf94",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "在獲得貴所的錄取資格後到正式入學這段時間，我會盡全力充實自己的基礎知識，為研究所的學習做好準備。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b478f6c-20b7-49fa-8318-6e0db1e27ef0",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我知道自己在大學期間因為各種原因，基礎打得不夠紮實，所以這段時間對我來說非常重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "724ffb15-a2c0-43a3-8290-8d48cdb818ac",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會先從 C/C++ 程式語言的強化訓練開始，特別是針對指標、記憶體管理以及資料結構的部分，這些都是韌體開發中非常重要的環節。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e26f1de8-1ab5-4246-bab0-da3f84b44cc5",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會找一些線上課程或書籍來複習，並多做練習題，確保自己能熟練運用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2bec8051-8fee-4a2a-aad6-2facad4fcd53",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "同時，我也會複習「資料結構」、「演算法」、「作業系統」以及「數位邏輯設計」等核心課程的內容。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d7416e40-7414-4e21-a1ea-ceed99088646",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "這些都是未來學習嵌入式系統和 SoC 設計不可或缺的基礎知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "59cac62d-13b8-4d42-84c8-cb061919aeff",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會把大學時期的課本和筆記重新拿出來看，也會上網找一些開放課程或教學影片來輔助學習，目標是讓這些概念能在腦海中更加清晰，而不是只有模糊的印象。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0fc1bc20-5a30-402e-8048-f4333479b8ea",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會盡量多看一些相關的論文或技術文章。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3ba14c71-7ffb-4122-844f-48a935c62fae",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "希望在還沒入學前就能對目前的技術趨勢有一些了解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7561f0e4-8bd0-4539-a0f2-9f240732a30e",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "為將來的研究方向做準備。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "841bed74-2afb-4087-bf80-e719e7807302",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "碩士班第一年，我的首要目標是全面吸收專業知識，並適應研究生活。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "46a94fcf-93cd-4a9b-a1ab-4dd62251cad0",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會努力修習貴所開設的相關專業課程，例如「高階嵌入式系統」、「SoC 設計」、「即時作業系統」、「韌體開發」以及「電腦架構」等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8ddaca2f-5e2f-44b5-bb7b-dba5056be4ca",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我相信這些課程能夠提供我更深厚的理論基礎和實務技巧。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fed06ccb-56e4-420a-9a0e-f746d1e5eef6",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會認真聽講、積極參與討論，並努力完成所有的課堂作業與專題，讓自己學到更多東西。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bd80e27d-210e-4fc3-b6a1-99f35470e535",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "同時，我會積極尋找適合自己的指導教授，並盡快加入實驗室。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7679d6e7-5e2e-4b1a-9841-6c0e65c28076",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我希望能夠在教授的指導下，參與實驗室的專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "66f85a98-8e02-4dc7-9d06-9543e3b5d4e2",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "即使是從最基礎的工作開始做起，我也會全力以赴。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b6792d2f-8f62-4c4b-9ac1-24693c1aa315",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我期望能透過實際的專案經驗，學習到如何進行研究、如何解決實際問題、如何撰寫技術報告，以及如何與團隊成員協作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "080ca6f7-6530-4a62-a511-fc1bb78a79b4",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會努力培養自己的獨立思考能力和研究能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5fca8059-a376-4bd8-ace2-71526e1101b0",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "並嘗試多與學長姐交流，請教他們在學習和研究上的經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e69f8f3c-05d7-4965-b12a-db568211f396",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "讓自己能更快地進入狀況。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4ff864e4-a692-4825-912a-c6bc1e690c1b",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我還會多參加一些學術研討會或相關的技術講座。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3b715df-47ee-4faf-9641-7e04ce4be6ca",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "了解業界和學術界的最新發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1bbb8965-9d44-4146-ad13-497009a31fb2",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "碩士班第二年，我的重心會放在碩士論文的研究與撰寫上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5e74ca89-5991-4599-97c3-1a38cee7a6dd",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我希望能找到一個有意義、有挑戰性的研究主題，結合我在韌體、嵌入式系統和 SoC 設計方面的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "213b56ac-78c9-4db2-a57c-5f738c6628e9",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "在指導教授的帶領下，我會努力學習研究方法、分析問題、提出解決方案，並進行實驗驗證。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cfcc9c95-1d90-4681-b341-a523e1076b59",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會盡力克服研究過程中遇到的困難，即使是遇到很難的問題，也要努力想辦法解決。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aef0e416-6b99-479e-93ee-660871c7de7f",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我希望我的論文成果不僅能展現我的專業能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e7333fc8-a40c-4b46-8556-086cf19fcff8",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "也能對相關領域有所貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c149f3cf-977a-4a54-9b16-9bfc07d206d9",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會定期與教授討論進度，聽取意見，並將論文逐步完善。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e2538a7d-9596-492c-80f9-837793c2d177",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "在論文完成後，我也會嘗試將研究成果投稿至相關的研討會或期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f8fc033c-c34b-41a2-a611-d8db6f976820",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "希望能讓更多人看到我的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9fff6eb-ff05-4ad6-99c2-2e15d1b73411",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "在完成碩士學業後，我希望能夠將所學應用到業界，成為一名優秀的韌體工程師或嵌入式系統設計師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1f2e734-76ee-4755-acad-023bb58136a6",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我對智慧裝置、物聯網、或是汽車電子等領域都有很大的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ac5cb8e8-ad9e-4cdb-aee1-c086edc1e096",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "這些領域都需要深厚的韌體開發能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "70ddef56-b5f2-4385-b0b2-8124faa63955",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我期望能進入一家有前景的公司，持續學習最新的技術，並在工作中不斷精進自己。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "56e9e4b5-3099-454a-8c03-f280802297bd",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我相信交大資工所的訓練，能夠為我未來的職涯發展打下堅實的基礎，讓我能夠在這條充滿挑戰的道路上走得更穩、更遠。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b5a24646-8e49-4fcd-89dd-bc10b967fad7",
+      "candidate_id": "mock_68",
+      "section": "讀書計畫",
+      "content": "我會努力貢獻所長，實現自己對技術的熱愛與追求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

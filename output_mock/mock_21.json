@@ -1,0 +1,540 @@
+{
+  "candidate_id": "mock_21",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_21.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n我叫陳煦陽，來自台灣大學電機工程學系。從電機系踏入資工領域，對我而言，是一段探索與發掘熱情的旅程。大學四年來，我的學業成績雖然是修課平均 3.33，但這過程中，我學習了許多電機工程的紮實基礎，也逐漸將興趣轉向資訊工程，特別是對人工智慧與機器學習領域充滿好奇與熱情。我相信我的跨域背景，能為交大資工所帶來不同的視角與能量。\r\n\r\n**跨域學習的動機與轉折**\r\n大二時，在修習「線性代數」與「機率」等基礎課程的過程中，我開始對背後的數學邏輯與資料分析產生濃厚的興趣。當時，電機系課程多聚焦於硬體電路設計與訊號處理，雖然也很扎實，但我心底深處對「如何讓機器思考、學習」這件事更為著迷。一個重要的轉折點發生在大三上學期，我選修了外系的「機器學習導論」課程。這門課讓我對監督式學習與非監督式學習的概念有了初步認識，並第一次實際操作了 Python 搭配 Scikit-learn 進行數據預測。雖然只是入門，但那種將冰冷的數據轉化為有意義洞察的感覺，徹底點燃了我對軟體與人工智慧的熱情。自此之後，我便積極地投入自學與尋找相關資源，希望彌補我在純資工背景上的不足。\r\n\r\n### 研究經歷\r\n為了更深入理解機器學習的應用，大三暑假，我進入了系上陳教授的「智慧感知與計算實驗室」參與專案。我們當時的研究主題是「基於深度學習的心電圖異常訊號辨識系統」。我的主要職責是協助資料前處理與模型訓練。我們使用 Python 搭配 NumPy 與 Pandas 清理了大量的醫療數據，並利用 TensorFlow 框架搭建了卷積神經網絡 (CNN) 模型來識別心律不整等異常模式。這個專案讓我首次體驗到從真實數據中提取特徵、設計模型並評估效能的完整流程。過程中，我遇到了資料標註不一致、模型過擬合等挑戰，在教授的指導下，我學習了如何應用交叉驗證、Dropout 等技巧來優化模型表現，這讓我對深度學習的實務應用有了更具體的認識，也讓我了解到研究過程需要不斷嘗試與迭代。\r\n\r\n### 業界實習與國際志工\r\n在研究室的經驗之後，我意識到除了學術研究，業界的實踐也同樣重要。大四上學期，我獲得了在一家新創科技公司「智連創新」的軟體開發實習機會。我在資料分析團隊中，主要負責協助開發一個用於電商推薦系統的初步原型。我使用了 Python 處理使用者行為日誌，並嘗試運用協同過濾 (Collaborative Filtering) 演算法來產生商品推薦。雖然實習時間不長，但這次經驗讓我接觸到真實的企業數據與開發流程，也讓我對軟體開發的協作模式有了初步了解。\r\n\r\n除了學術與實習，我也十分重視社會回饋。大二那年，我參加了「非洲數位教育國際志工」計畫，前往迦納的一個偏鄉地區，協助當地學校架設基礎電腦教室，並教導孩子們基礎的電腦操作與簡單的程式概念。雖然當地資源有限，但我發現透過簡單的Scratch教學，孩子們也能展現出對數位世界的濃厚興趣。這次經驗讓我看到資訊科技對於弭平數位落差、提升教育水平的巨大潛力，也更堅定了我未來希望將所學應用於對社會有意義的領域。\r\n\r\n總結來說，我的電機背景給了我紮實的數理基礎，而跨域學習的歷程、實驗室與業界的實作經驗，以及國際志工的服務經歷，都讓我對資工領域的潛力與應用充滿了想像。我渴望在交通大學資訊工程學系的優質環境中，繼續深耕人工智慧與機器學習，將我在電機系所學的理論知識與跨域視野，與資工的專業技術結合，為未來的研究與應用貢獻一份心力。\r\n\r\n## 讀書計畫\r\n\r\n進入交大資工所是我的重要目標，我希望透過研究所的深造，系統性地學習資訊工程的專業知識，尤其是在人工智慧與機器學習領域。我期待能將過去在電機系累積的數理基礎與思維邏輯，有效地融入資工領域，開創更廣闊的學習視野。\r\n\r\n**短期計畫（入學前至第一學年）**\r\n\r\n**入學前：** 我將利用暑假期間，針對個人在資工核心課程方面的不足進行補強。主要會著重在資料結構與演算法、作業系統等基礎課程的複習與深入學習，透過線上課程（如 Coursera、台大開放式課程）與閱讀經典教材來建立更扎實的基礎。同時，也會加強 Python 程式設計能力，熟悉常用的機器學習套件如 PyTorch 或 TensorFlow 的基本操作，為入學後的進階課程與研究做好準備。\r\n\r\n**第一學年：**\r\n* **課程學習：** 我計畫修習交大資工所開設的「機器學習」、「深度學習」、「數位影像處理」以及「自然語言處理」等核心課程，全面建構人工智慧領域的理論知識與實作技能。此外，我也會考慮選修一些與智慧型計算相關的課程，擴展我的專業廣度。\r\n* **實驗室探索：** 我會積極參與系上的研究專題介紹，並主動拜訪對人工智慧、機器學習有研究的教授，了解各實驗室的研究方向與文化。我希望能找到一個能夠結合我電機背景與資工興趣的實驗室，例如專注於醫學影像分析、智慧物聯網或嵌入式AI等應用方向，在教授的指導下，學習如何進行獨立的研究。\r\n* **技能提升：** 透過參與課程專案與實驗室討論，精進程式撰寫能力，特別是大型專案的協作與版本控制（Git）能力。也會學習使用雲端運算資源（如 AWS、GCP）來進行模型訓練與部署，提升實務開發能力。\r\n\r\n**中期計畫（第二學年）**\r\n\r\n* **專題研究與論文撰寫：** 確定論文研究方向，並在指導教授的帶領下，深入探討選定的主題。我目前對結合我的電機背景（例如訊號處理、嵌入式系統）與人工智慧的應用特別感興趣。例如，可能的研究方向會是利用深度學習對特定生物訊號進行分析與預測，或是開發輕量級的AI模型應用於邊緣運算裝置。我會大量閱讀相關領域的頂尖期刊論文，理解當前的研究進展與挑戰。\r\n* **學術交流：** 積極參與實驗室內的例行研討會，並爭取機會出席國內外的學術會議，了解最新的研究趨勢，並與其他研究人員交流學習，拓寬我的學術視野。\r\n* **實務應用：** 嘗試將研究成果應用於實際問題，或者與業界合作，將理論知識轉化為具體的產品或服務。我希望我的研究不僅停留在學術層面，也能對社會產生實際的影響。\r\n\r\n**長期計畫（畢業後）**\r\n\r\n畢業後，我期望能夠進入科技產業，從事與人工智慧、機器學習相關的研發工作，例如機器學習工程師、資料科學家或是AI演算法開發人員。我希望我的工作能結合跨領域的知識，解決真實世界的挑戰，開發出能提升人類生活品質的智慧型產品與服務。同時，我也希望能夠利用我在國際志工中看到的資訊科技力量，未來有機會能參與到更多社會公益的專案，用我的專業知識為社會做出貢獻，弭平數位落差。我會持續關注領域的最新發展，保持學習的熱情，不斷提升自我。",
+  "idea_units": [
+    {
+      "id": "c1edf532-d3d5-4ba9-9d8b-2b7ba30dfc90",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "我叫陳煦陽，來自台灣大學電機工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e85aecca-75f9-46c3-a7f1-6f5bf8d565bb",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "從電機系踏入資工領域，對我而言，是一段探索與發掘熱情的旅程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "47e1c872-fb11-4da7-b559-0a705e3cdae9",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "大學四年來，我的學業成績雖然是修課平均 3.33",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f6830d23-538f-4ee5-b91b-d32e2f90905f",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "但這過程中，我學習了許多電機工程的紮實基礎",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "721e38d8-6114-4eec-8420-63c7ec6d2830",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "也逐漸將興趣轉向資訊工程，特別是對人工智慧與機器學習領域充滿好奇與熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1d79f429-d8d9-469b-96d9-1e32f328b152",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "我相信我的跨域背景，能為交大資工所帶來不同的視角與能量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "739e90bf-278a-493e-aa21-bc09c76a5ecc",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "大二時，在修習「線性代數」與「機率」等基礎課程的過程中，我開始對背後的數學邏輯與資料分析產生濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "919550f4-2f86-4c8a-981a-d2676eff17c6",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "當時，電機系課程多聚焦於硬體電路設計與訊號處理",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "338d8770-fd74-4021-b29d-e9bfd311373f",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "雖然也很扎實，但我心底深處對「如何讓機器思考、學習」這件事更為著迷。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e28f9c5a-432a-4135-aa81-1e33ab0ace5c",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "一個重要的轉折點發生在大三上學期，我選修了外系的「機器學習導論」課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "34ba31e6-73f3-4689-b482-63c17757f32c",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "這門課讓我對監督式學習與非監督式學習的概念有了初步認識，並第一次實際操作了 Python 搭配 Scikit-learn 進行數據預測。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c84d69b6-5853-41a0-bcff-4abe0618da18",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "但那種將冰冷的數據轉化為有意義洞察的感覺，徹底點燃了我對軟體與人工智慧的熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7e9d1a35-05a3-4d3e-9063-c234736a4621",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "自此之後，我便積極地投入自學與尋找相關資源，希望彌補我在純資工背景上的不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d0be2af8-1e47-4d73-9ff0-7be074bd682d",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "為了更深入理解機器學習的應用",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0f9a06b5-1fea-44bb-aa01-5df36ae2bfa0",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "大三暑假，我進入了系上陳教授的「智慧感知與計算實驗室」參與專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4bfc39df-96bf-45a5-9eb2-b4db303a9ae6",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "我們當時的研究主題是「基於深度學習的心電圖異常訊號辨識系統」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5af08c9c-0304-474b-aab3-72c1de347ad0",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "我的主要職責是協助資料前處理與模型訓練。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "35fc5851-f345-4d3c-9190-fb6dac5fa4a4",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "我們使用 Python 搭配 NumPy 與 Pandas 清理了大量的醫療數據，並利用 TensorFlow 框架搭建了卷積神經網絡 (CNN) 模型來識別心律不整等異常模式。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "05cd659d-3bd9-45aa-8dae-401c9499568f",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "這個專案讓我首次體驗到從真實數據中提取特徵、設計模型並評估效能的完整流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "30e09c61-aa44-46de-b45a-ee86f4bc501f",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "過程中，我遇到了資料標註不一致、模型過擬合等挑戰",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "188d1a52-cdad-4f25-9f88-2a344f415f78",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "在教授的指導下，我學習了如何應用交叉驗證、Dropout 等技巧來優化模型表現",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7c0c6319-72ab-4a53-81bf-3c2c88563f54",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "這讓我對深度學習的實務應用有了更具體的認識，也讓我了解到研究過程需要不斷嘗試與迭代。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d091407a-a78f-4955-8544-78a389bc80c6",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "在研究室的經驗之後，我意識到除了學術研究，業界的實踐也同樣重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9115cd22-7c2e-4be6-a090-26900d525f56",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "大四上學期，我獲得了在一家新創科技公司「智連創新」的軟體開發實習機會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c530a71d-b781-48ab-a9a7-5d18fe7537e5",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "我在資料分析團隊中，主要負責協助開發一個用於電商推薦系統的初步原型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6a5385e4-e05e-4ccb-bfe3-9507e067e059",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "我使用了 Python 處理使用者行為日誌，並嘗試運用協同過濾 (Collaborative Filtering) 演算法來產生商品推薦。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38125c80-2432-4d93-973e-58d7817394bf",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "但這次經驗讓我接觸到真實的企業數據與開發流程，也讓我對軟體開發的協作模式有了初步了解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8d79b94f-1697-4316-856e-550f5d419eff",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "除了學術與實習，我也十分重視社會回饋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42da81e8-463c-44ee-93d4-565092fc6930",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "大二那年，我參加了「非洲數位教育國際志工」計畫，前往迦納的一個偏鄉地區，協助當地學校架設基礎電腦教室，並教導孩子們基礎的電腦操作與簡單的程式概念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "88e90eec-80f6-4b3e-93cb-035dc137e179",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "但我發現透過簡單的Scratch教學，孩子們也能展現出對數位世界的濃厚興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32095ed0-823f-4ed9-a76d-8e0a20f7e588",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "這次經驗讓我看到資訊科技對於弭平數位落差、提升教育水平的巨大潛力，也更堅定了我未來希望將所學應用於對社會有意義的領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9e484f9-6e39-4bf6-ab22-d5f95cd45edb",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "總結來說，我的電機背景給了我紮實的數理基礎",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d391b3d-e112-4967-b372-c82a8fb64c68",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "而跨域學習的歷程、實驗室與業界的實作經驗，以及國際志工的服務經歷，都讓我對資工領域的潛力與應用充滿了想像。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d4258b2f-55d6-40ba-923e-5e0378bb7d5b",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "我渴望在交通大學資訊工程學系的優質環境中，繼續深耕人工智慧與機器學習",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "98c71a56-29b9-4bff-ae52-05279932681e",
+      "candidate_id": "mock_21",
+      "section": "自傳",
+      "content": "將我在電機系所學的理論知識與跨域視野，與資工的專業技術結合，為未來的研究與應用貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9ee9402-124b-4854-9b0d-c5bde0a65dcc",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "進入交大資工所是我的重要目標",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f5c1deea-81cd-4a53-a252-3e066604df97",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我希望透過研究所的深造，系統性地學習資訊工程的專業知識，尤其是在人工智慧與機器學習領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "794527ac-d894-438e-ab33-504a20672b3f",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我期待能將過去在電機系累積的數理基礎與思維邏輯，有效地融入資工領域，開創更廣闊的學習視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9499a58c-262b-4c75-8d53-eb8bdb453ad4",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我將利用暑假期間，針對個人在資工核心課程方面的不足進行補強。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb14d6b3-60ab-4183-99d2-48add0b2f999",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "主要會著重在資料結構與演算法、作業系統等基礎課程的複習與深入學習，透過線上課程（如 Coursera、台大開放式課程）與閱讀經典教材來建立更扎實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3f1aea66-9dc1-4b08-9775-8bf7f66732e1",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "同時，也會加強 Python 程式設計能力，熟悉常用的機器學習套件如 PyTorch 或 TensorFlow 的基本操作",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6f15cd2c-1c9f-40f8-a41f-26a349235ac0",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "為入學後的進階課程與研究做好準備。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dc781ceb-4576-4afa-9ca4-05ec07f117de",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我計畫修習交大資工所開設的「機器學習」、「深度學習」、「數位影像處理」以及「自然語言處理」等核心課程，全面建構人工智慧領域的理論知識與實作技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5d12c602-b2e4-438e-9f91-93bc68fc223a",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "此外，我也會考慮選修一些與智慧型計算相關的課程，擴展我的專業廣度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f13cee97-26ad-401c-9dcf-8e5e8cc789ac",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我會積極參與系上的研究專題介紹，並主動拜訪對人工智慧、機器學習有研究的教授，了解各實驗室的研究方向與文化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ef3570b2-42fb-41b5-8dde-cb3feb827073",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我希望能找到一個能夠結合我電機背景與資工興趣的實驗室，例如專注於醫學影像分析、智慧物聯網或嵌入式AI等應用方向，在教授的指導下，學習如何進行獨立的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4395a89e-e549-48c2-ac0b-4928d24525b9",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "透過參與課程專案與實驗室討論，精進程式撰寫能力，特別是大型專案的協作與版本控制（Git）能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "20d72528-7d53-4780-9a7b-959f0245169c",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "也會學習使用雲端運算資源（如 AWS、GCP）來進行模型訓練與部署，提升實務開發能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6a843b7-06ae-4d0a-92a3-a3a23e635ad7",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "確定論文研究方向，並在指導教授的帶領下，深入探討選定的主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8c267a58-3722-4402-9cee-67ff6f72a57a",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我目前對結合我的電機背景（例如訊號處理、嵌入式系統）與人工智慧的應用特別感興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4f5c733e-f810-4d77-902a-d871783202a3",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "例如，可能的研究方向會是利用深度學習對特定生物訊號進行分析與預測，或是開發輕量級的AI模型應用於邊緣運算裝置。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f1514e89-6efe-4810-90f3-7a0fe923779c",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我會大量閱讀相關領域的頂尖期刊論文，理解當前的研究進展與挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "91bde21d-380e-4478-92bc-0b00990d5227",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室內的例行研討會，並爭取機會出席國內外的學術會議，了解最新的研究趨勢，並與其他研究人員交流學習，拓寬我的學術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3db914c9-fcc5-445c-a1f4-c3d10891d651",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "嘗試將研究成果應用於實際問題，或者與業界合作，將理論知識轉化為具體的產品或服務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "683587ad-7134-4d30-881d-4bc8899b621c",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我希望我的研究不僅停留在學術層面，也能對社會產生實際的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "148b6bd9-1a1c-43a5-be36-34b04b64c642",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "畢業後，我期望能夠進入科技產業，從事與人工智慧、機器學習相關的研發工作，例如機器學習工程師、資料科學家或是AI演算法開發人員。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3838b5a8-2561-45ca-b19b-e8a89f3bf0e7",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我希望我的工作能結合跨領域的知識，解決真實世界的挑戰，開發出能提升人類生活品質的智慧型產品與服務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "643ce99c-7431-48b2-b29c-4d7a7fc35ca5",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "同時，我也希望能夠利用我在國際志工中看到的資訊科技力量，未來有機會能參與到更多社會公益的專案，用我的專業知識為社會做出貢獻，弭平數位落差。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "36432318-c018-4649-8254-6d1467898451",
+      "candidate_id": "mock_21",
+      "section": "讀書計畫",
+      "content": "我會持續關注領域的最新發展，保持學習的熱情，不斷提升自我。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

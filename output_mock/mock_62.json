@@ -1,0 +1,585 @@
+{
+  "candidate_id": "mock_62",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_62.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n### 個人簡介與申請動機\r\n\r\n您好，我是簡羽彤，一位來自淡江大學生物醫學工程學系的學生。從小，我便對生命科學與醫學領域充滿好奇，渴望能為人類健康貢獻一份心力。然而，隨著大學修課的深入以及對產業趨勢的觀察，我逐漸體會到，單純的生物醫學知識已不足以應對當代醫療所面臨的複雜挑戰。資訊科技，特別是人工智慧，正以前所未有的速度革新著醫療領域，尤其在醫學影像分析和生醫訊號處理方面展現出巨大潛力。這股力量深深吸引了我，驅使我萌生了跨足資訊工程領域的決心。\r\n\r\n過去的學習歷程，讓我累積了扎實的生物醫學基礎，也初步接觸到資訊技術。然而，我深知若要將這兩者完美結合，並在智慧醫療領域有所突破，我需要更專業、更深入的資訊工程訓練。貴系在資訊工程領域的卓越聲譽、豐富的研究資源以及與智慧醫療相關的尖端研究方向（特別是機器學習應用於影像與訊號處理方面），都讓我覺得交大資工所是實現我理想的不二之選。我渴望在貴所的頂尖環境中，將我的生醫背景與資訊工程專業知識融合，成為未來智慧醫療的開拓者。\r\n\r\n### 學業表現與專業能力養成\r\n\r\n大學四年，我的學業成績維持在一個不錯的水準，修課平均大約在 3.47 左右。在淡江大學生物醫學工程學系期間，我不僅學習了人體生理學、醫學儀器原理等基礎醫學知識，也積極選修了多門與資訊相關的課程。例如，「程式設計導論」讓我接觸了 Python 和 C++ 的基礎語法，並培養了邏輯思考能力；「醫學訊號與影像處理」讓我對訊號濾波、影像增強等概念有了初步認識；「資料結構與演算法」則為我開啟了計算機科學的大門。\r\n\r\n儘管本科系在資訊工程方面深度有限，我仍透過自學和線上資源不斷充實自己。我利用課餘時間學習了 Coursera 上吳恩達教授的機器學習課程，對監督式學習、非監督式學習等概念有了系統性的理解。也嘗試用 Python 的 scikit-learn 庫進行一些小型資料分析專案，雖然都是比較基礎的練習，但讓我從中體會到程式設計在解決實際問題中的強大之處。這些學習經驗，讓我更堅定地相信，資訊工程是實現我醫療夢想的關鍵路徑。\r\n\r\n### 跨域研究與實務經驗\r\n\r\n為了將理論知識付諸實踐，並進一步探索醫學與資訊結合的可能性，我積極參與了相關的研究與實務專案。\r\n\r\n在大三時，我很榮幸加入系上「生醫資訊實驗室」，參與一項**「基於深度學習的肺部X光影像異常偵測」**的研究專案。我的主要職責是協助進行醫學影像的前處理與資料標註。我學習使用 Python 的 OpenCV 函式庫對X光影像進行降噪、對比度增強等操作，並協助醫生專家對影像中的異常區域進行標記。隨後，我嘗試利用 TensorFlow/Keras 框架，搭建簡單的卷積神經網絡 (CNN) 模型，希望能夠初步識別肺部結節。這個專案讓我深刻體會到醫學影像資料的複雜性，例如影像品質不一、異常樣本稀少等問題。雖然在模型泛化能力上遇到了不少挑戰，但這次經驗讓我學會了資料增強 (data augmentation) 的基本概念，也更熟悉了深度學習模型訓練的流程，以及如何評估模型的精準度、召回率等指標。這段經歷讓我明白，一個好的演算法需要大量的實作與調優，並非僅僅是程式碼的堆疊。\r\n\r\n此外，我也曾利用暑假期間，在一家虛構的「智聯生醫科技」公司擔任**數據分析實習生**。這段期間，我主要負責協助處理來自可穿戴裝置的生理訊號，例如心電圖 (ECG) 和光體積變化描記圖 (PPG)。我的工作內容包括使用 MATLAB 和 Python 的 SciPy 庫對原始訊號進行噪音濾除、基線漂移校正，並從中萃取心率變異性 (HRV) 等特徵參數。這段經歷讓我對生醫訊號的處理流程有了更直觀的理解，也體會到真實世界數據中存在的巨大雜訊與變異性，以及資料清洗的重要性。我發現，在這些看似雜亂的數字背後，蘊藏著豐富的生理資訊，而透過精準的訊號處理與分析，就能將這些資訊轉化為有價值的醫療洞察。\r\n\r\n### 社團參與與課外活動\r\n\r\n在學術之外，我也積極參與社團活動，拓展我的視野與能力。我曾擔任書法社社長一職，負責規劃社團活動、招募新社員，並組織多次校內書法展覽。這段經歷不僅讓我在快節奏的學業與實驗室生活中找到一絲寧靜與專注，也培養了我的領導能力、溝通協調能力與活動策劃能力。我學習如何在有限資源下，有效地推廣社團文化，並凝聚社員向心力。我相信，這種在多元活動中平衡發展的能力，將有助於我在未來研究生活中，面對壓力和挑戰時保持清晰的思路與耐性。\r\n\r\n### 未來展望\r\n\r\n回顧我的學習歷程，從最初對生命科學的熱情，到逐步意識到資訊科技在醫療領域的巨大潛力，這是一條充滿探索與轉折的道路。我清楚自己的優勢在於跨領域的視角，能夠從生醫角度理解問題，並渴望運用資訊工程的工具來解決這些問題。我深信，在交大資工所這個多元且頂尖的學術殿堂，我能找到最適合我的研究方向與導師。我期待能將淡江所學的醫學知識與貴所提供的資訊工程專業訓練相結合，深入學習機器學習、深度學習在醫學影像分析與生醫訊號處理上的應用，未來目標是開發出更精準、更智慧的輔助診斷系統，為提升人類醫療品質貢獻一份力量。\r\n\r\n## 讀書計畫\r\n\r\n### 短期目標（入學後第一年）\r\n\r\n* **扎實基礎課程：** 儘管大學期間對資訊工程有所涉獵，我深知仍有許多基礎需要補強。我會積極選修貴所開設的「高等資料結構與演算法」、「計算機結構」、「高等作業系統」等核心課程，全面建立紮實的資工理論基礎。\r\n* **強化程式與數學能力：** 持續精進 Python 與 C++ 程式設計能力，熟悉 NumPy、Pandas 等資料科學常用函式庫。同時，針對機器學習所需的線性代數、微積分與機率統計知識進行複習與加強，確保能理解相關演算法的數學原理。\r\n* **機器學習與深度學習入門：** 選修「機器學習」與「深度學習概論」等課程，學習各種演算法的原理、應用場景及實作技巧，並熟悉 PyTorch 或 TensorFlow 等深度學習框架的使用。\r\n* **尋找指導教授與實驗室：** 積極參與系上舉辦的實驗室介紹、專題演講，主動與教授們交流，了解他們的研究方向與專長。我的目標是找到在醫學影像分析、生醫訊號處理或相關人工智慧應用領域有豐富經驗的教授，並希望能加入其實驗室，展開初步的專題研究。\r\n\r\n### 中期目標（入學後第二年）\r\n\r\n* **深入研究主題：** 在選定指導教授後，我會專注於研究室的特定研究方向，例如基於深度學習的醫學影像診斷、生醫訊號異常模式識別等。我計畫選修更進階的課程，如「數位影像處理」、「生醫訊號處理特論」、「電腦視覺」、「醫學影像與計算」等，深化專業知識。\r\n* **參與實驗室專案：** 在教授的指導下，積極投入實驗室的科研專案。這將包括文獻回顧、實驗設計、數據採集與處理、模型訓練與評估、結果分析等環節。我會努力學習如何有效地解決研究中遇到的問題，並培養獨立思考與解決問題的能力。\r\n* **學術交流與發表：** 在研究取得一定進展後，與實驗室成員共同討論研究成果，並努力撰寫學術論文，目標是將研究成果投稿至國內外相關學術會議或期刊。這將是寶貴的學習經驗，讓我了解學術研究的完整流程。\r\n* **建立跨域合作思維：** 持續關注醫學、生物工程與資訊科學的最新交叉應用，培養從不同角度思考問題的能力，為未來的跨領域合作打下基礎。\r\n\r\n### 長期目標（畢業後）\r\n\r\n* **投身智慧醫療產業：** 畢業後，我期望能將在交大資工所習得的專業知識與技能，應用於智慧醫療產業，例如在醫療科技公司、製藥公司或醫療器材公司，從事醫學影像AI、生理訊號分析或輔助診斷系統的開發工作。我希望能親手開發出能提升醫療效率、改善病人照護品質的創新產品與服務。\r\n* **持續學習與創新：** 資訊科技發展日新月異，特別是在人工智慧領域。我深知學習是終身的過程，未來無論身處學術界或產業界，都將持續關注科技前沿，學習新的演算法與技術，不斷提升自我。\r\n* **成為跨域橋樑：** 我的終極目標是成為連結醫學與資訊工程的橋樑，能夠理解臨床需求，並運用最先進的資訊技術提供解決方案。我希望我的工作能真正為醫療領域帶來實質性的貢獻，推動智慧醫療的進步與普及，讓科技的溫暖惠及更多人。",
+  "idea_units": [
+    {
+      "id": "ee282738-1e00-4d63-972f-99a889b6c4fa",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "您好，我是簡羽彤，一位來自淡江大學生物醫學工程學系的學生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6193723c-6e0b-43a6-9132-ccfeb39703f3",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "從小，我便對生命科學與醫學領域充滿好奇，渴望能為人類健康貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d1d66ad7-40a1-4d83-b323-a675c1944db6",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "然而，隨著大學修課的深入以及對產業趨勢的觀察，我逐漸體會到，單純的生物醫學知識已不足以應對當代醫療所面臨的複雜挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3ff78edb-a669-46c3-b5c9-dae2f52b66c2",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "資訊科技，特別是人工智慧，正以前所未有的速度革新著醫療領域，尤其在醫學影像分析和生醫訊號處理方面展現出巨大潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "96b742bc-3b16-4ca3-9efb-dd7039f7a933",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "這股力量深深吸引了我，驅使我萌生了跨足資訊工程領域的決心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d14d0073-5708-4b72-a712-065e5093514a",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "過去的學習歷程，讓我累積了扎實的生物醫學基礎，也初步接觸到資訊技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ceb3a21a-9067-4391-8006-026e2ddc5975",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "然而，我深知若要將這兩者完美結合，並在智慧醫療領域有所突破，我需要更專業、更深入的資訊工程訓練。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5458ea08-ea00-4986-8c75-6cd43e3ab63c",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "貴系在資訊工程領域的卓越聲譽、豐富的研究資源以及與智慧醫療相關的尖端研究方向（特別是機器學習應用於影像與訊號處理方面），都讓我覺得交大資工所是實現我理想的不二之選。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "499a6459-31c7-43d5-90a9-7bde6d83bf33",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我渴望在貴所的頂尖環境中，將我的生醫背景與資訊工程專業知識融合，成為未來智慧醫療的開拓者。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8c23cccc-bd3a-4df9-be67-b687556fb4ef",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "大學四年，我的學業成績維持在一個不錯的水準，修課平均大約在 3.47 左右。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9b6be83b-6cfe-4ae3-8795-bfb1f6568648",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "在淡江大學生物醫學工程學系期間，我不僅學習了人體生理學、醫學儀器原理等基礎醫學知識，也積極選修了多門與資訊相關的課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da2a1de2-27c7-48b1-ad8e-577a2a4cffff",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "例如，「程式設計導論」讓我接觸了 Python 和 C++ 的基礎語法，並培養了邏輯思考能力；",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8097c111-1341-46de-bc07-abdf6546934e",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "「醫學訊號與影像處理」讓我對訊號濾波、影像增強等概念有了初步認識；",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42769027-12e3-4e21-9855-f17b6c74cff7",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "「資料結構與演算法」則為我開啟了計算機科學的大門。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0fb198ad-5cf9-49b7-989a-958cf21ee44c",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "儘管本科系在資訊工程方面深度有限，我仍透過自學和線上資源不斷充實自己。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0afe7c8e-8864-4d7c-a189-16da690cc6d6",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我利用課餘時間學習了 Coursera 上吳恩達教授的機器學習課程，對監督式學習、非監督式學習等概念有了系統性的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2c1b330b-7db1-40da-9c5f-a4dbf60cb96e",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "也嘗試用 Python 的 scikit-learn 庫進行一些小型資料分析專案，雖然都是比較基礎的練習，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb0f8a7c-d007-4ec3-a23e-4740919b0635",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "但讓我從中體會到程式設計在解決實際問題中的強大之處。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a5ba3063-71ca-433c-b35e-ec01908d075f",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "這些學習經驗，讓我更堅定地相信，資訊工程是實現我醫療夢想的關鍵路徑。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c4ccff3d-967e-45b9-9d2f-d190d0e3d428",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "為了將理論知識付諸實踐，並進一步探索醫學與資訊結合的可能性，我積極參與了相關的研究與實務專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e2a67d63-f779-4ac7-8c4b-e89dcfdd3c3b",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "在大三時，我很榮幸加入系上「生醫資訊實驗室」，參與一項**「基於深度學習的肺部X光影像異常偵測」**的研究專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c536ce9e-283f-4408-ae97-1b0b86e1633a",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我的主要職責是協助進行醫學影像的前處理與資料標註。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ff125b75-0c3e-4a66-8d5b-0ae7373024e0",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我學習使用 Python 的 OpenCV 函式庫對X光影像進行降噪、對比度增強等操作，並協助醫生專家對影像中的異常區域進行標記。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e9933b8f-37b8-43c1-aeb4-229d888c3fbf",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "隨後，我嘗試利用 TensorFlow/Keras 框架，搭建簡單的卷積神經網絡 (CNN) 模型，希望能夠初步識別肺部結節。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eef2ca91-af62-4bd0-b015-05939a6cb2d1",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "這個專案讓我深刻體會到醫學影像資料的複雜性，例如影像品質不一、異常樣本稀少等問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "109c9bce-274e-4fa0-9ff6-f01ad994a319",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "雖然在模型泛化能力上遇到了不少挑戰，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ada9978c-2c54-4392-b4bd-492821abaf15",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "但這次經驗讓我學會了資料增強 (data augmentation) 的基本概念，也更熟悉了深度學習模型訓練的流程，以及如何評估模型的精準度、召回率等指標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "767e546f-5f29-4c60-ab1b-55d01abe1696",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "這段經歷讓我明白，一個好的演算法需要大量的實作與調優，並非僅僅是程式碼的堆疊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "97ca99ba-77fc-412e-a8b9-302c51a52edf",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "此外，我也曾利用暑假期間，在一家虛構的「智聯生醫科技」公司擔任**數據分析實習生**。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bcffdd70-fdc5-4267-9408-d1485bd7d5db",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "這段期間，我主要負責協助處理來自可穿戴裝置的生理訊號，例如心電圖 (ECG) 和光體積變化描記圖 (PPG)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "79bf8629-77a0-4fd0-b82b-0ee1123bb2be",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我的工作內容包括使用 MATLAB 和 Python 的 SciPy 庫對原始訊號進行噪音濾除、基線漂移校正，並從中萃取心率變異性 (HRV) 等特徵參數。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db396b35-ab0a-44db-a3d7-47becc5c73c5",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "這段經歷讓我對生醫訊號的處理流程有了更直觀的理解，也體會到真實世界數據中存在的巨大雜訊與變異性，以及資料清洗的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "37736181-ba23-4fa4-8b1f-5af4e367f8a3",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我發現，在這些看似雜亂的數字背後，蘊藏著豐富的生理資訊，而透過精準的訊號處理與分析，就能將這些資訊轉化為有價值的醫療洞察。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5335a6a9-fbe8-42ab-a551-f3b40ee6e259",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "在學術之外，我也積極參與社團活動，拓展我的視野與能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "84b0dd60-5e53-4256-9a00-9357f7abe98d",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我曾擔任書法社社長一職，負責規劃社團活動、招募新社員，並組織多次校內書法展覽。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5af7562d-cef0-4e94-acbe-745c69eaa90d",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "這段經歷不僅讓我在快節奏的學業與實驗室生活中找到一絲寧靜與專注，也培養了我的領導能力、溝通協調能力與活動策劃能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9311d91-bca2-4f7a-8786-18e3d169696e",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我學習如何在有限資源下，有效地推廣社團文化，並凝聚社員向心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "19b5e456-b456-4392-bb45-e6ec53d5836b",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我相信，這種在多元活動中平衡發展的能力，將有助於我在未來研究生活中，面對壓力和挑戰時保持清晰的思路與耐性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fac67d91-d1da-492a-af42-852941eca3b9",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "回顧我的學習歷程，從最初對生命科學的熱情，到逐步意識到資訊科技在醫療領域的巨大潛力，這是一條充滿探索與轉折的道路。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb3a99f1-d3c7-491c-873a-1a8fa2f12e05",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我清楚自己的優勢在於跨領域的視角，能夠從生醫角度理解問題，並渴望運用資訊工程的工具來解決這些問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f077f427-b067-43aa-aa92-60da2058d247",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我深信，在交大資工所這個多元且頂尖的學術殿堂，我能找到最適合我的研究方向與導師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "81925e10-591d-481f-9192-a45d52e9c09b",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "我期待能將淡江所學的醫學知識與貴所提供的資訊工程專業訓練相結合，深入學習機器學習、深度學習在醫學影像分析與生醫訊號處理上的應用，",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "79b1eeef-2f7d-477c-a790-b5b0b9164115",
+      "candidate_id": "mock_62",
+      "section": "自傳",
+      "content": "未來目標是開發出更精準、更智慧的輔助診斷系統，為提升人類醫療品質貢獻一份力量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bee2f538-650c-4092-b84f-fe82f9e6a156",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**扎實基礎課程：** 儘管大學期間對資訊工程有所涉獵，我深知仍有許多基礎需要補強。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a807b1fd-317c-42f3-bdc3-ceefb1693e4e",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "我會積極選修貴所開設的「高等資料結構與演算法」、「計算機結構」、「高等作業系統」等核心課程，全面建立紮實的資工理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "217abc9c-5897-4ae7-8a4d-4125b7c99856",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**強化程式與數學能力：** 持續精進 Python 與 C++ 程式設計能力，熟悉 NumPy、Pandas 等資料科學常用函式庫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ff8b2773-2577-475f-b800-194a02fecf8f",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "同時，針對機器學習所需的線性代數、微積分與機率統計知識進行複習與加強，確保能理解相關演算法的數學原理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "320ee35a-88df-4c92-a7d5-49d197ae90e2",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**機器學習與深度學習入門：** 選修「機器學習」與「深度學習概論」等課程，學習各種演算法的原理、應用場景及實作技巧，並熟悉 PyTorch 或 TensorFlow 等深度學習框架的使用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f4e57d67-1247-4a0c-bda9-a2488e17a161",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**尋找指導教授與實驗室：** 積極參與系上舉辦的實驗室介紹、專題演講，主動與教授們交流，了解他們的研究方向與專長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fa7e1ec1-25e3-4f7f-8b87-d5551b8f0094",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "我的目標是找到在醫學影像分析、生醫訊號處理或相關人工智慧應用領域有豐富經驗的教授，並希望能加入其實驗室，展開初步的專題研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b63d097b-0f75-4295-b055-1ca9ef533918",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**深入研究主題：** 在選定指導教授後，我會專注於研究室的特定研究方向，例如基於深度學習的醫學影像診斷、生醫訊號異常模式識別等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c5fc0758-d2d5-46e0-b1e8-1cd04469b7c3",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "我計畫選修更進階的課程，如「數位影像處理」、「生醫訊號處理特論」、「電腦視覺」、「醫學影像與計算」等，深化專業知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "86bf8df0-e0e2-47d1-aac3-e50d0a8eaccd",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**參與實驗室專案：** 在教授的指導下，積極投入實驗室的科研專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c616fdf9-03e9-4032-9b1c-c42121865eaa",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "這將包括文獻回顧、實驗設計、數據採集與處理、模型訓練與評估、結果分析等環節。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d5ab0dfc-66b9-4314-9f25-44d3114dce5f",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "我會努力學習如何有效地解決研究中遇到的問題，並培養獨立思考與解決問題的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "098fe5fc-c896-4204-a201-d78c8f64bc70",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**學術交流與發表：** 在研究取得一定進展後，與實驗室成員共同討論研究成果，並努力撰寫學術論文，目標是將研究成果投稿至國內外相關學術會議或期刊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dcc74980-b6d8-4b9b-81d7-8919b5fba455",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "這將是寶貴的學習經驗，讓我了解學術研究的完整流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "329720ec-4924-4af3-89ec-b73e3edb80a8",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**建立跨域合作思維：** 持續關注醫學、生物工程與資訊科學的最新交叉應用，培養從不同角度思考問題的能力，為未來的跨領域合作打下基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a5d4b939-f24e-46bb-8ce8-be3b111039a5",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**投身智慧醫療產業：** 畢業後，我期望能將在交大資工所習得的專業知識與技能，應用於智慧醫療產業，例如在醫療科技公司、製藥公司或醫療器材公司，從事醫學影像AI、生理訊號分析或輔助診斷系統的開發工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "505cdb8a-bc63-4ff1-84c4-b31e13fdc9f4",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "我希望能親手開發出能提升醫療效率、改善病人照護品質的創新產品與服務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a6383f14-43d0-4fdc-8076-04777c3a6523",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**持續學習與創新：** 資訊科技發展日新月異，特別是在人工智慧領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4a7a2965-623a-4080-bcaa-9cfcb0e813c9",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "我深知學習是終身的過程，未來無論身處學術界或產業界，都將持續關注科技前沿，學習新的演算法與技術，不斷提升自我。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60646f9e-7e2d-4cac-98fa-243eff4a3746",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "**成為跨域橋樑：** 我的終極目標是成為連結醫學與資訊工程的橋樑，能夠理解臨床需求，並運用最先進的資訊技術提供解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b857c52d-c2bd-4547-b001-c0826fc52139",
+      "candidate_id": "mock_62",
+      "section": "讀書計畫",
+      "content": "我希望我的工作能真正為醫療領域帶來實質性的貢獻，推動智慧醫療的進步與普及，讓科技的溫暖惠及更多人。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

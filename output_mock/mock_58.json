@@ -1,0 +1,270 @@
+{
+  "candidate_id": "mock_58",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_58.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n我是徐竑勝，來自清華大學電機工程學系。從踏入大學校園的第一天起，我便對電腦底層架構、嵌入式系統與資訊安全領域抱持著濃厚的興趣。在電機工程學系四年期間，我努力鑽研學術，修課平均維持在 4.28，尤其在「計算機組織」、「作業系統」與「嵌入式系統設計」等課程中取得優異成績，為我日後深入探究韌體與安全晶片系統設計打下堅實基礎。\r\n\r\n大學期間，我主要透過課程專題與個人開發累積技術實力。其中最令我投入的，莫過於**智慧能源管理系統的開發**。這個專案始於大三下的「微處理器系統實驗」課程，當時我與組員設計了一套基於 STM32F4 微控制器與 FreeRTOS 即時作業系統的能源監控裝置。我負責核心韌體開發，實現了對電壓、電流、溫度等多達 8 個感測器數據的精確採集與前處理，並透過 Modbus RTU 協定與能源感測模組溝通。為了確保系統的即時響應性，我針對 FreeRTOS 的任務排程與中斷服務程序進行優化，使數據採集頻率達到每秒 50 次，同時在輕負載模式下，透過優化電源管理，將待機電流成功降至 150uA，大幅延長了電池壽命。在調試複雜的多任務同步問題時，我第一次體會到即時系統穩定性設計的挑戰與韌體除錯的精髓，這也讓我對即時作業系統在資源受限環境中的應用有了更深的理解。\r\n\r\n除了能源管理系統，我也利用課餘時間自學並實作了多項個人專案。例如，為了探究安全晶片的核心機制，我曾嘗試在 ESP32 上實作一套輕量級的硬體信任根（Hardware Root of Trust）概念驗證系統。我利用 ESP32 的安全啟動（Secure Boot）功能，並搭配實作 SHA-256 韌體完整性驗證，確保每次開機載入的都是合法且未被竄改的韌體。這段經歷讓我對安全晶片軟硬體協同設計的重要性有了深刻的認識，也讓我對交大資工所先進的安全晶片軟硬體系統設計與即時作業系統研究方向產生了極大的共鳴。我深信我在韌體開發與即時系統的經驗，將能讓我快速融入貴所的學術環境。\r\n\r\n## 讀書計畫\r\n\r\n我期望能在貴所精進我在安全晶片軟硬體系統設計與即時作業系統領域的專業知識，並將其應用於物聯網安全或關鍵基礎設施保護等前瞻領域。\r\n\r\n- **短期目標（入學第一年）：**\r\n - **紮實基礎：** 積極選修貴所核心課程，如「高等作業系統」、「電腦結構」及「資訊安全專論」，深入理解即時作業系統的排程演算法、核心機制，以及資訊安全的數學基礎與攻擊防禦策略。\r\n - **專題探索：** 盡快熟悉實驗室的研究方向與資源，主動與指導教授討論，並參與小型研究專題，例如針對特定嵌入式平台（如 RISC-V）的即時作業系統移植與效能評估，或探討輕量級密碼學演算法在微控制器上的硬體加速實作。\r\n - **技能精進：** 加強在 C/C++ 語言於嵌入式環境的開發能力，並學習使用如 QEMU、GDB 等工具進行系統級除錯與效能分析。\r\n\r\n- **中期目標（入學第二年）：**\r\n - **論文研究：** 鎖定碩士論文主題，預計將專注於「基於硬體信任根的物聯網裝置安全啟動機制設計與驗證」或「即時作業系統在邊緣運算環境下的安全強化與性能優化」等方向。透過理論研究與原型系統開發，提出具創新性的解決方案。\r\n - **學術交流：** 將研究成果撰寫成論文，積極投稿至國內外相關學術會議（如 ISCAS, DAC）或期刊，累積學術發表經驗，並與研究社群交流學習。\r\n - **實踐應用：** 嘗試將研究成果應用於實際案例，例如為特定的智慧電網終端設備設計一套更安全可靠的韌體更新機制，驗證其在真實環境下的可行性與效益。\r\n\r\n- **長期目標（未來展望）：**\r\n - 期望能成為一名在嵌入式系統安全領域具備深厚實力的韌體工程師或研究人員，在半導體產業或關鍵基礎設施領域，為開發更安全、更可靠的軟硬體整合系統貢獻心力。我期許自己能持續學習最新的安全技術與威脅趨勢，成為該領域的領航者。",
+  "idea_units": [
+    {
+      "id": "75953f6f-543d-47ec-a2f3-3fec9ce4b274",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "我是徐竑勝，來自清華大學電機工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b4a53d3b-1ea8-44b2-af85-29b3dc12d856",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "從踏入大學校園的第一天起，我便對電腦底層架構、嵌入式系統與資訊安全領域抱持著濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "782573a3-3574-4020-8993-6a9f8e4b7e00",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "在電機工程學系四年期間，我努力鑽研學術，修課平均維持在 4.28",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c66473b0-c886-4439-a94b-0017b2920e08",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "尤其在「計算機組織」、「作業系統」與「嵌入式系統設計」等課程中取得優異成績",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e23a7de0-a2a6-43f8-ae33-6f1814024c0b",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "為我日後深入探究韌體與安全晶片系統設計打下堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d3c9db06-a3ba-4719-afdc-29b110afb4bc",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "大學期間，我主要透過課程專題與個人開發累積技術實力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c5056f62-f737-4cd8-88a4-bfe2d8a2d4f6",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "其中最令我投入的，莫過於智慧能源管理系統的開發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da4f808b-6bdd-4d20-b15a-2fbf9a9c9a26",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "這個專案始於大三下的「微處理器系統實驗」課程，當時我與組員設計了一套基於 STM32F4 微控制器與 FreeRTOS 即時作業系統的能源監控裝置。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ca438d0a-d0e1-46f5-86fa-0181c40120a2",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "我負責核心韌體開發，實現了對電壓、電流、溫度等多達 8 個感測器數據的精確採集與前處理，並透過 Modbus RTU 協定與能源感測模組溝通。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "778cb3a0-1e24-4798-a04a-2c3492bdf56a",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "為了確保系統的即時響應性，我針對 FreeRTOS 的任務排程與中斷服務程序進行優化，使數據採集頻率達到每秒 50 次",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c847538d-9826-4634-9dbc-189890a463aa",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "同時在輕負載模式下，透過優化電源管理，將待機電流成功降至 150uA，大幅延長了電池壽命。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "00cc9b8e-451a-4646-83a4-f543e26c44f0",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "在調試複雜的多任務同步問題時，我第一次體會到即時系統穩定性設計的挑戰與韌體除錯的精髓",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2641844f-16e7-41a7-8628-2858727930d4",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "這也讓我對即時作業系統在資源受限環境中的應用有了更深的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8915a830-2d37-41d7-a930-942814d6a2d9",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "除了能源管理系統，我也利用課餘時間自學並實作了多項個人專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c6d7c9f6-c2e5-4901-952a-642c6533695e",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "為了探究安全晶片的核心機制",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3ca417cd-7984-4ce2-be5f-dcea7031f552",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "我曾嘗試在 ESP32 上實作一套輕量級的硬體信任根（Hardware Root of Trust）概念驗證系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0a98af54-c9b4-43a2-92cd-85657300d5f7",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "我利用 ESP32 的安全啟動（Secure Boot）功能，並搭配實作 SHA-256 韌體完整性驗證，確保每次開機載入的都是合法且未被竄改的韌體。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a74cee6e-b9b0-4133-943e-7be3d297e189",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "這段經歷讓我對安全晶片軟硬體協同設計的重要性有了深刻的認識",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "960daf87-b1ff-4cc2-a2b8-3471604a7531",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "也讓我對交大資工所先進的安全晶片軟硬體系統設計與即時作業系統研究方向產生了極大的共鳴。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6cbb5bff-e07f-4aff-937d-15defb4bba17",
+      "candidate_id": "mock_58",
+      "section": "自傳",
+      "content": "我深信我在韌體開發與即時系統的經驗，將能讓我快速融入貴所的學術環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e3d4a5a-814e-4396-a19b-2eed0e21173c",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "我期望能在貴所精進我在安全晶片軟硬體系統設計與即時作業系統領域的專業知識，並將其應用於物聯網安全或關鍵基礎設施保護等前瞻領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2998fbce-be55-438e-8067-c26374d16520",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "積極選修貴所核心課程，如「高等作業系統」、「電腦結構」及「資訊安全專論」，深入理解即時作業系統的排程演算法、核心機制，以及資訊安全的數學基礎與攻擊防禦策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "712bde68-a57d-4b42-b3b7-6e5aa53814dc",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "盡快熟悉實驗室的研究方向與資源，主動與指導教授討論，並參與小型研究專題，例如針對特定嵌入式平台（如 RISC-V）的即時作業系統移植與效能評估，或探討輕量級密碼學演算法在微控制器上的硬體加速實作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7153192c-3f8d-4348-948d-4c41b75c912c",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "加強在 C/C++ 語言於嵌入式環境的開發能力，並學習使用如 QEMU、GDB 等工具進行系統級除錯與效能分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7d24ea05-d5fd-4e7f-a45e-567efe0624d1",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "鎖定碩士論文主題，預計將專注於「基於硬體信任根的物聯網裝置安全啟動機制設計與驗證」或「即時作業系統在邊緣運算環境下的安全強化與性能優化」等方向。透過理論研究與原型系統開發，提出具創新性的解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b2dcf2a5-5916-4976-aea4-e7148545f90f",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "將研究成果撰寫成論文，積極投稿至國內外相關學術會議（如 ISCAS, DAC）或期刊，累積學術發表經驗，並與研究社群交流學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e077ecc1-ca65-4738-a891-028181e21040",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "嘗試將研究成果應用於實際案例，例如為特定的智慧電網終端設備設計一套更安全可靠的韌體更新機制，驗證其在真實環境下的可行性與效益。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cab3cbd4-465f-4d7b-96fb-3dcf95d1946c",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "期望能成為一名在嵌入式系統安全領域具備深厚實力的韌體工程師或研究人員，在半導體產業或關鍵基礎設施領域，為開發更安全、更可靠的軟硬體整合系統貢獻心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "68e967bc-dca6-4a0c-8f37-59f210055580",
+      "candidate_id": "mock_58",
+      "section": "讀書計畫",
+      "content": "我期許自己能持續學習最新的安全技術與威脅趨勢，成為該領域的領航者。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

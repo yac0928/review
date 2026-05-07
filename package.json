@@ -9,7 +9,7 @@
     "start": "node dist/index.js",
     "pipeline": "ts-node scripts/runStep01.ts",
     "pipeline:single": "ts-node scripts/runStep01.ts --single",
-    "pipeline:mock": "cross-env DATA_DIR=mock_data OUTPUT_DIR=output_mock CANDIDATE_ID= CANDIDATE_FILE= ts-node scripts/runStep01.ts",
+    "pipeline:mock": "cross-env DATA_DIR=../mock_data OUTPUT_DIR=output_mock CANDIDATE_ID= CANDIDATE_FILE= ts-node scripts/runStep01.ts",
     "step2": "ts-node scripts/runStep02.ts",
     "step2:mock": "cross-env OUTPUT_DIR=output_mock CANDIDATE_ID= ts-node scripts/runStep02.ts",
     "step3": "ts-node scripts/runStep03.ts",

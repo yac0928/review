@@ -1,0 +1,432 @@
+{
+  "candidate_id": "mock_78",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_78.md"
+  ],
+  "cleaned_text": "### 自傳\r\n\r\n我是郭昱成，來自交通大學資訊工程學系。回首大學四年，我將大部分的時間與熱情投入到了社團活動中，坦白說，我的學業成績並非最亮眼，修課平均約在3.0左右，這反映了我大學期間在社團活動上投入了相當多的時間與精力，但也從中磨練出許多寶貴的軟實力。\r\n\r\n身為口琴社的一份子，從基礎樂理到高階演奏技巧，我投入了大量的時間練習，甚至參與了幾次校內外的演出。每一次的舞台經驗都讓我學會如何在壓力下保持冷靜，並與團員們共同呈現完美的表演。更重要的是，我在社團擔任過幹部，負責籌辦迎新活動和成果發表會，這讓我深刻體會到規劃、協調與溝通的重要性。當時我們遇到經費不足的問題，我必須積極地與校方和廠商協調，最終成功讓活動順利進行，從中學習到面對問題時，不只是思考技術解決方案，更要懂得整合資源與協調人際關係，這也是我認為在未來研究中同樣不可或缺的能力。\r\n\r\n儘管社團活動佔據了大學生活的大半，我對資訊工程的熱情從未減退。大三時，我修習了像是「計算機組織」與「嵌入式系統設計」等課程，對硬體與軟體如何協同運作產生了濃厚的興趣。特別是在「作業系統」的課程專題中，我嘗試利用 C 語言實作了一個簡易的行程排程器，雖然只是一個初步的嘗試，卻讓我對底層運作原理有了更深刻的理解，也意識到韌體設計在系統穩定性上的關鍵作用。此外，我個人也曾利用 Raspberry Pi 搭配 Python 語言，開發過一個簡單的智慧家庭監控系統，這讓我對硬體整合與韌體開發的實際應用有了基礎的認識。在這些實作過程中，我學到了如何將抽象的理論知識轉化為具體的程式碼，以及除錯過程中的耐心與細心。\r\n\r\n隨著對資訊領域的了解逐漸深入，我發現自己對「安全與硬體特洛伊」以及「安全晶片軟硬體系統設計」這些議題特別感興趣。現今資安威脅層出不窮，從底層硬體與韌體著手建立防禦機制，是相當有挑戰性且具前瞻性的方向。我意識到，儘管我在社團中培養了領導與合作能力，但若要在專業領域走得更遠，我需要更紮實的技術基礎與更深度的研究訓練。這也是我選擇推甄貴所資工所最主要的原因，希望能透過貴所頂尖的師資與研究資源，彌補我大學時期在技術深度上的不足，並將我過去在團隊合作與解決問題上的經驗，應用到更複雜的學術研究中。\r\n\r\n### 讀書計畫\r\n\r\n在讀書計畫方面，我期望能透過貴所的碩士訓練，逐步深入韌體與硬體安全領域，提升自己在學術研究與實務應用上的能力。\r\n\r\n首先是短期目標，我打算在碩士班第一年著重於鞏固理論基礎並加強專業知識。我會積極修習「高等計算機結構」、「嵌入式系統安全」與「密碼學概論」等相關課程，特別會把重心放在那些能讓我對硬體底層與韌體運作有更精確理解的科目。此外，我會主動閱讀最新的學術論文，了解「安全晶片軟硬體系統設計」的現況與挑戰。我深知我的技術深度尚有進步空間，因此也會利用課餘時間，重新複習像是 Verilog HDL 或 VHDL 等硬體描述語言，以及更深入的 C/C++ 韌體開發技巧，為後續的研究打下穩固的基礎。我認為在初期打好基礎，能幫助我在面對未來複雜的研究課題時，擁有足夠的工具與思維。\r\n\r\n談到中期計畫，預計在碩士班第二年，我希望能找到一位研究方向與「安全與硬體特洛伊」或「安全晶片軟硬體系統設計」高度契合的指導教授。我會積極參與教授實驗室的研究專案，從中學習研究方法、實驗設計與成果分析。我期望能夠在指導教授的帶領下，嘗試建構一個模擬硬體特洛伊攻擊的平台，或是設計一套輕量級的安全韌體架構。儘管我知道這些研究可能充滿挑戰，但我相信我在社團中培養的韌性與解決問題的能力，將能幫助我克服難關。我也計畫在有餘裕的情況下，修習一些「機器學習」或「深度學習」的相關課程，因為我認為這些技術在未來可能會應用於自動化檢測硬體漏洞或惡意行為。\r\n\r\n至於長期目標，我期待能在碩士學位期間，完成一篇具有創新性與實用價值的碩士論文。我希望這篇論文能夠針對韌體或硬體層面的安全議題，提出新的分析方法或防禦機制，為提升資訊系統的整體安全性做出貢獻。畢業後，我希望能進入相關的半導體或資安產業，將所學應用於安全晶片或嵌入式系統的開發與設計工作，成為一名具備硬體與韌體整合能力的安全工程師，持續在這條道路上精進。我相信，在交大資工所的嚴謹訓練下，我能逐漸成長為一名對社會有所貢獻的專業人才。",
+  "idea_units": [
+    {
+      "id": "d830b301-ce9f-45df-8c7e-6da249f1922e",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "我是郭昱成，來自交通大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "24b69353-9d88-49f7-9cd8-b00f070b5521",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "回首大學四年，我將大部分的時間與熱情投入到了社團活動中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9f52499c-342d-47f9-a3e2-205395e9859f",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "坦白說，我的學業成績並非最亮眼，修課平均約在3.0左右。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f29abf1e-6e02-43d8-9864-09b149db7984",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "這反映了我大學期間在社團活動上投入了相當多的時間與精力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1b4faae0-b6d2-4a67-ad27-4636c31c931f",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "但也從中磨練出許多寶貴的軟實力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "23eebfe6-378f-44b1-a095-c721c6be31a7",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "身為口琴社的一份子，從基礎樂理到高階演奏技巧，我投入了大量的時間練習，甚至參與了幾次校內外的演出。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e28f9d54-4894-4bda-b447-e2f4d68ab4bd",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "每一次的舞台經驗都讓我學會如何在壓力下保持冷靜，並與團員們共同呈現完美的表演。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0fe2f5b0-df30-457d-9dad-3a033b8dfba1",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "更重要的是，我在社團擔任過幹部，負責籌辦迎新活動和成果發表會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a85846ab-c044-4a01-b637-0ce46808ff64",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "這讓我深刻體會到規劃、協調與溝通的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "980c6367-e1a4-45f7-9b6a-da55465d7c1f",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "當時我們遇到經費不足的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a30804e4-012a-4ac4-8573-cb916cc561fb",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "我必須積極地與校方和廠商協調，最終成功讓活動順利進行。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7e22ff46-3a74-4ec4-886c-ea15c5ad19a1",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "從中學習到面對問題時，不只是思考技術解決方案，更要懂得整合資源與協調人際關係。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7cecd6ea-625a-4621-bb7b-3ab7599f15a1",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "這也是我認為在未來研究中同樣不可或缺的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cfbaaa59-deaa-498f-b706-e5688547eea9",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "儘管社團活動佔據了大學生活的大半，我對資訊工程的熱情從未減退。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fb867432-c5c3-4e3e-93d1-5dd2e2bab0cb",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "大三時，我修習了像是「計算機組織」與「嵌入式系統設計」等課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4305c4ce-98e7-4fd9-a587-3f4a8f3c093c",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "對硬體與軟體如何協同運作產生了濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01983d60-5da0-45a5-8517-7e29a2f511b5",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "特別是在「作業系統」的課程專題中，我嘗試利用 C 語言實作了一個簡易的行程排程器。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "901ea2f8-8b66-4c7f-ab74-db1f4d8f21b7",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "雖然只是一個初步的嘗試，卻讓我對底層運作原理有了更深刻的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9c7d5b02-bf15-4009-bb84-1aa06bcb34c2",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "也意識到韌體設計在系統穩定性上的關鍵作用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "33d71b3b-d3d2-479f-8e5e-664151134a80",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "此外，我個人也曾利用 Raspberry Pi 搭配 Python 語言，開發過一個簡單的智慧家庭監控系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d9a04eea-9591-4d23-b9ee-3e377350f47c",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "這讓我對硬體整合與韌體開發的實際應用有了基礎的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "30795a67-13b9-4f18-a254-794b0ca3c74b",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "在這些實作過程中，我學到了如何將抽象的理論知識轉化為具體的程式碼，以及除錯過程中的耐心與細心。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a9988325-ad3c-4519-9017-9f381dc72bfd",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "隨著對資訊領域的了解逐漸深入，我發現自己對「安全與硬體特洛伊」以及「安全晶片軟硬體系統設計」這些議題特別感興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7797a47e-0371-495f-af18-1d94932ee5e9",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "現今資安威脅層出不窮，從底層硬體與韌體著手建立防禦機制，是相當有挑戰性且具前瞻性的方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "81824718-70a1-43ca-b13a-ae9a13022f55",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "我意識到，儘管我在社團中培養了領導與合作能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0efc92a7-9018-4024-9abb-8956af1ef53d",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "但若要在專業領域走得更遠，我需要更紮實的技術基礎與更深度的研究訓練。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4287350a-a8ad-4720-a5b6-e136d37d42fd",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "這也是我選擇推甄貴所資工所最主要的原因。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58cd1b59-328e-4dc9-a724-b21655d461c6",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "希望能透過貴所頂尖的師資與研究資源，彌補我大學時期在技術深度上的不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "46cbf4fb-a251-4602-b56f-95d0da72b19a",
+      "candidate_id": "mock_78",
+      "section": "自傳",
+      "content": "並將我過去在團隊合作與解決問題上的經驗，應用到更複雜的學術研究中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b64b023e-9a24-4b43-a843-6904454917a3",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "在讀書計畫方面，我期望能透過貴所的碩士訓練，逐步深入韌體與硬體安全領域，提升自己在學術研究與實務應用上的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f8094d76-28ae-40af-8c65-e20c826dadec",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "首先是短期目標，我打算在碩士班第一年著重於鞏固理論基礎並加強專業知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "85a99e02-6169-40ca-983d-36a81260fd67",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "我會積極修習「高等計算機結構」、「嵌入式系統安全」與「密碼學概論」等相關課程，特別會把重心放在那些能讓我對硬體底層與韌體運作有更精確理解的科目。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b25f2a5d-91b5-4902-9a9e-5e493d38016c",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "此外，我會主動閱讀最新的學術論文，了解「安全晶片軟硬體系統設計」的現況與挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da8cabf5-332b-4c89-baf4-619cfc0fa67d",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "我深知我的技術深度尚有進步空間。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6fae85d0-c175-496c-b4d1-e4d3eb45c6a2",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "因此也會利用課餘時間，重新複習像是 Verilog HDL 或 VHDL 等硬體描述語言，以及更深入的 C/C++ 韌體開發技巧，為後續的研究打下穩固的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "596de937-5282-4b28-974d-eb38653d3688",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "我認為在初期打好基礎，能幫助我在面對未來複雜的研究課題時，擁有足夠的工具與思維。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4c6e8c33-9880-434e-871a-56a2d533999d",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "談到中期計畫，預計在碩士班第二年，我希望能找到一位研究方向與「安全與硬體特洛伊」或「安全晶片軟硬體系統設計」高度契合的指導教授。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "63a4624e-d639-4867-b8af-bfe02282a4d9",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "我會積極參與教授實驗室的研究專案，從中學習研究方法、實驗設計與成果分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a8411a7-14a0-40a9-8f85-b47a98a9adb2",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "我期望能夠在指導教授的帶領下，嘗試建構一個模擬硬體特洛伊攻擊的平台，或是設計一套輕量級的安全韌體架構。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "96229173-c811-4ff9-8676-74b578fa3a6a",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "儘管我知道這些研究可能充滿挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "51393e88-955b-4ede-ac67-79dfa129aaaa",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "但我相信我在社團中培養的韌性與解決問題的能力，將能幫助我克服難關。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a4309a2a-dbb7-41ee-a471-cc13169eee90",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "我也計畫在有餘裕的情況下，修習一些「機器學習」或「深度學習」的相關課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0e19b6f6-93b1-467f-9f26-774e62d82b21",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "因為我認為這些技術在未來可能會應用於自動化檢測硬體漏洞或惡意行為。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "704c01ff-6e32-4a97-a597-a96f8c32d0d5",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "至於長期目標，我期待能在碩士學位期間，完成一篇具有創新性與實用價值的碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c56088c3-3069-4e3b-a4c0-8136e7fe92c2",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "我希望這篇論文能夠針對韌體或硬體層面的安全議題，提出新的分析方法或防禦機制，為提升資訊系統的整體安全性做出貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "37a1f900-c34e-454b-a463-f8c3c9a78201",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "畢業後，我希望能進入相關的半導體或資安產業，將所學應用於安全晶片或嵌入式系統的開發與設計工作，成為一名具備硬體與韌體整合能力的安全工程師，持續在這條道路上精進。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3356fc44-6dad-47ac-9cde-636e6690bf84",
+      "candidate_id": "mock_78",
+      "section": "讀書計畫",
+      "content": "我相信，在交大資工所的嚴謹訓練下，我能逐漸成長為一名對社會有所貢獻的專業人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

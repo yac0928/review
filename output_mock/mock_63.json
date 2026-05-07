@@ -1,0 +1,297 @@
+{
+  "candidate_id": "mock_63",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_63.md"
+  ],
+  "cleaned_text": "### 自傳\r\n\r\n我是侯宜珊，畢業於中央大學資訊工程學系。從大學時期開始，我就對人工智慧和機器學習領域充滿熱情。儘管我的學業成績是 2.91，這讓我更明白不能只看分數，而要實際投入技術實作來彌補。我一直相信，紮實的實作經驗與解決問題的能力，才是工程師最核心的價值。\r\n\r\n在大三時，我積極申請加入了智慧計算實驗室，主要參與一個關於「基於深度學習的異常行為偵測系統」的產學合作專案。在這個專案中，我負責使用 Python 語言，並透過 PyTorch 框架搭建卷積神經網路（CNN）模型來處理監控影像數據。一開始最大的挑戰是資料集的標記不均，導致模型訓練時容易過擬合。我花了很多時間研究資料增強（Data Augmentation）的策略，像是隨機翻轉、亮度調整，以及嘗試使用不同的損失函數，才讓模型表現逐漸穩定。這段經歷讓我對資料前處理的重要性有了深刻的理解，也學到如何評估模型的效能，以及調校超參數以達到更好的表現。\r\n\r\n除了實驗室的經驗，我也把握機會到一家新創公司擔任 AI 應用開發實習生。在那裡，我主要協助將既有的機器學習模型部署到雲端平台上，並開發簡單的 API 介面供前端呼叫。我接觸了 Docker 容器化技術，並在 AWS 上實作了基本的模型服務。這段實習讓我看到 AI 技術從研究到實際應用會面臨的挑戰，像是系統穩定性、部署效率等等，也讓我了解到團隊合作對於專案成功的重要性。\r\n\r\n當然，我的大學生活不只有課業和研究。我曾擔任街舞社社長，負責規劃社團活動、招募新社員，並籌辦成果發表會。這份職位培養了我領導統御、時間管理和溝通協調的能力，特別是在練習與籌備活動同時還要兼顧課業時，更是學會了如何在壓力下有效率地完成任務。這些經驗讓我不僅技術有所成長，也具備了良好的團隊協作精神。我深信，多元的學習背景能讓我以更全面的視角看待未來的研究與學習。\r\n\r\n### 讀書計畫\r\n\r\n在思考未來在貴所的學習與研究時，我首先希望能更深入地鑽研人工智慧與機器學習的核心理論與應用。交大資工所先進的研究方向與豐富的資源一直是我非常嚮往的。我希望能在貴所的學習環境中，將我過去的實作經驗與更扎實的學術基礎結合起來。\r\n\r\n接下來在修課方面，我會鎖定「高等機器學習」、「深度學習導論」等核心課程，並會進一步選修「自然語言處理」或「電腦視覺」等相關課程，來擴展我的專業廣度。我特別想了解如何將機器學習模型應用到實際問題上，例如發展更有效率的智慧型計算系統，或是探討模型解釋性、可信賴AI的議題。\r\n\r\n對於研究方向，我希望能延續我在異常行為偵測上的興趣，進一步探討如何提升模型的泛化能力，或是嘗試將強化學習（Reinforcement Learning）的概念應用在智慧監控或自主系統上。我會積極地尋找與我研究興趣相符的指導教授，並希望能早日進入實驗室，參與教授的研究專案，從中學習更前沿的研究方法與問題解決能力。我期待能在貴所兩年的學習中，不僅完成我的碩士論文，更希望能在過程中培養獨立思考與創新解決問題的能力，為未來投身相關領域的發展做好充分準備。",
+  "idea_units": [
+    {
+      "id": "c1750cb6-f4a4-413b-b1e0-a7901a4a6503",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "我是侯宜珊，畢業於中央大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a17b1016-1f44-4e53-8da0-f5e8b60876c5",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "從大學時期開始，我就對人工智慧和機器學習領域充滿熱情。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d53da67d-efb0-48b9-a670-483da9ac16a4",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "儘管我的學業成績是 2.91。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dfc3b563-7509-42a8-9d2d-84f2201bffd5",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "這讓我更明白不能只看分數，而要實際投入技術實作來彌補。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "87524f3d-78af-46df-a9ed-e01ce8ea8c51",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "我一直相信，紮實的實作經驗與解決問題的能力，才是工程師最核心的價值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f92c9d1-6b70-45ec-ae93-1c327a4f5f40",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "在大三時，我積極申請加入了智慧計算實驗室，主要參與一個關於「基於深度學習的異常行為偵測系統」的產學合作專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7f5768e5-7470-496a-8024-ab9b3ce8f88b",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "在這個專案中，我負責使用 Python 語言，並透過 PyTorch 框架搭建卷積神經網路（CNN）模型來處理監控影像數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0b745eaa-e6f9-4941-b2cd-061e945e3012",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "一開始最大的挑戰是資料集的標記不均，導致模型訓練時容易過擬合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "17b50b67-e5d7-45b8-9444-7c7b4c8b26d9",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "我花了很多時間研究資料增強（Data Augmentation）的策略，像是隨機翻轉、亮度調整，以及嘗試使用不同的損失函數，才讓模型表現逐漸穩定。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a7ad5aaf-847a-489c-b6a7-202437fc7f13",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "這段經歷讓我對資料前處理的重要性有了深刻的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07fd4d60-c090-49cf-849f-41c6956a253b",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "也學到如何評估模型的效能，以及調校超參數以達到更好的表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07a7105c-1ec9-4b94-ba49-a78446975740",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "除了實驗室的經驗，我也把握機會到一家新創公司擔任 AI 應用開發實習生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "76d124d5-a072-4107-af78-61c7a2fd37fd",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "在那裡，我主要協助將既有的機器學習模型部署到雲端平台上，並開發簡單的 API 介面供前端呼叫。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "65ea6ed6-f8b2-492b-9fdd-bdbf48b766a0",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "我接觸了 Docker 容器化技術，並在 AWS 上實作了基本的模型服務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b97f65b8-7117-4335-aff5-59fc2aae6bc2",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "這段實習讓我看到 AI 技術從研究到實際應用會面臨的挑戰，像是系統穩定性、部署效率等等。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fd8c0070-8d09-40a4-b9dd-2c1cd592e766",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "也讓我了解到團隊合作對於專案成功的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "98e3033c-f358-462c-9183-5facaa320a70",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "當然，我的大學生活不只有課業和研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ae48fcf6-d312-4243-bd33-ab1a2d6729c0",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "我曾擔任街舞社社長，負責規劃社團活動、招募新社員，並籌辦成果發表會。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7e02da0f-75fe-47ce-bc76-fef534d034b9",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "這份職位培養了我領導統御、時間管理和溝通協調的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e7f643e8-63df-47e9-9d47-067501974916",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "特別是在練習與籌備活動同時還要兼顧課業時，更是學會了如何在壓力下有效率地完成任務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "997c37a3-70eb-484b-8d16-c954bdf7fd85",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "這些經驗讓我不僅技術有所成長。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "93c3f3c5-0e54-42e9-9bc7-1dbc4005d080",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "也具備了良好的團隊協作精神。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c8a05382-6af7-4885-8d51-023c6e8da5f7",
+      "candidate_id": "mock_63",
+      "section": "自傳",
+      "content": "我深信，多元的學習背景能讓我以更全面的視角看待未來的研究與學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "48bbb4b3-22d2-48d4-b37d-beb887ccdcb3",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "在思考未來在貴所的學習與研究時，我首先希望能更深入地鑽研人工智慧與機器學習的核心理論與應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d25b91de-c4d6-4a55-9e4b-b4bc12bdd4e1",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "交大資工所先進的研究方向與豐富的資源一直是我非常嚮往的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df2db1ac-a521-4bc3-a063-b3483da35d69",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "我希望能在貴所的學習環境中，將我過去的實作經驗與更扎實的學術基礎結合起來。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4ef50a1e-b529-4593-a5ed-a0f3d75c6feb",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "接下來在修課方面，我會鎖定「高等機器學習」、「深度學習導論」等核心課程，並會進一步選修「自然語言處理」或「電腦視覺」等相關課程，來擴展我的專業廣度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ed4cd42-ff6d-47a0-8eb0-af16d1a26a1b",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "我特別想了解如何將機器學習模型應用到實際問題上，例如發展更有效率的智慧型計算系統，或是探討模型解釋性、可信賴AI的議題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "163a0450-04a6-4579-b065-46fdc6faf666",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "對於研究方向，我希望能延續我在異常行為偵測上的興趣，進一步探討如何提升模型的泛化能力，或是嘗試將強化學習（Reinforcement Learning）的概念應用在智慧監控或自主系統上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "07b423e3-4458-4a4d-a3da-4e1869b9278c",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "我會積極地尋找與我研究興趣相符的指導教授，並希望能早日進入實驗室，參與教授的研究專案，從中學習更前沿的研究方法與問題解決能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "06474ac1-9a3b-44e0-890e-090b62ee3d51",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "我期待能在貴所兩年的學習中，不僅完成我的碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "db32fcf7-1955-4dd4-94b2-a4493632a2c9",
+      "candidate_id": "mock_63",
+      "section": "讀書計畫",
+      "content": "更希望能在過程中培養獨立思考與創新解決問題的能力，為未來投身相關領域的發展做好充分準備。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

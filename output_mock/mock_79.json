@@ -1,0 +1,297 @@
+{
+  "candidate_id": "mock_79",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_79.md"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n我是蘇恩慈，來自中山大學資訊工程學系。從大學時期開始，我就對網路技術領域抱持著濃厚的興趣，特別是無線網路與軟體定義網路（SDN）的應用與發展。我相信網路是連結世界的關鍵，而深入理解其運作機制，將能為未來的科技進步貢獻一份心力。\r\n\r\n在學業方面，我的大學修課平均約在 3.33 左右。雖然這個數字不是最頂尖的，但我一直努力不懈地在專業科目上精進。在大三時，我特別投入在「計算機網路」與「網路程式設計」等課程，透過課程專題實際操作。例如，在一個網路專題中，我嘗試利用 Python 結合 Mininet 模擬了簡單的軟體定義網路環境，並實作了基於 OpenFlow 協定的流量控制邏輯。這個專案讓我初步體會到 SDN 的彈性與潛力，也培養了我使用 Wireshark 進行封包分析的能力，對於理解網路協定有很大的幫助。我也透過自學線上課程和閱讀相關文件，更深入了解了無線網路的各種通訊標準和協議，這讓我對未來網路發展有了更具體的想像。\r\n\r\n除了專業學習，我也喜歡在課餘時間探索不同的事物。例如，我會經營一些個人的美食評論，這不僅僅是記錄食物的味道，更是一種培養觀察力與系統性分析的過程。我會仔細記錄食材、烹調方式、環境氛圍等細節，然後歸納出整體的用餐體驗。我覺得這種從細節中尋找規律、並進行分析的能力，對於我在除錯複雜網路問題、或是分析網路流量模式時，其實也提供了另一種思考角度。\r\n\r\n選擇貴所，是因為貴所長久以來在網路通訊領域有卓越的聲譽和豐厚的研究成果。我特別關注到貴所在無線通訊與新世代網路架構方面的研究，這與我所學及未來想投入的領域高度契合。我渴望在這樣頂尖的學術環境中，能夠有機會跟隨教授們學習，並在無線網路與 SDN 的研究上更上一層樓，開拓更廣闊的視野。\r\n\r\n## 讀書計畫\r\n\r\n我對國立交通大學資訊工程學系所的景仰已久，貴所深厚的學術底蘊及在網路通訊領域的領先地位，都深深吸引著我。我希望能將我在大學所學的基礎知識，結合貴所的豐富資源，深入探討無線網路與軟體定義網路的實際應用與前瞻研究。\r\n\r\n**短期計畫（入學後第一年）**\r\n入學初期，我會先修習所上開設的相關核心課程，例如「進階計算機網路」、「無線通訊概論」以及「分散式系統」等，以紮實自己的理論基礎。同時，我會積極參與實驗室的專題討論，多方請益，了解目前研究室的最新進展與研究方向，並開始研讀相關領域的期刊論文，了解研究趨勢。我也希望能接觸到更多網路模擬工具，例如 NS-3 等，來輔助我的研究。\r\n\r\n**中期計畫（入學後第二年）**\r\n在累積足夠的專業知識後，我希望能夠確定自己的論文主題，專注於無線網路中的資源管理優化，或是利用 SDN 技術提升網路韌性與安全性。我計畫在指導教授的帶領下，嘗試建構實驗環境或進行模擬實驗，驗證我的研究假設。我將著重於利用 Python 編寫自動化腳本，針對特定的網路情境進行數據採集與分析，進一步優化網路效能或安全策略。這段期間，我也會嘗試將研究成果撰寫成論文，並爭取投稿至學術會議。\r\n\r\n**長期計畫（畢業後）**\r\n畢業後，我期望能將所學應用於業界，投身於網路技術的研發工作，特別是在 5G/6G 行動通訊、物聯網（IoT）等相關領域。我也會考慮繼續攻讀博士學位，持續在學術界深耕，為網路技術的發展做出更深入的貢獻。我相信在交大資工所的訓練，能夠讓我在未來具備獨立思考與解決問題的能力，成為一位對社會有價值的網路工程師或研究人員。",
+  "idea_units": [
+    {
+      "id": "0a20eef8-41d5-4c77-860e-f9d8b77ec267",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "我是蘇恩慈，來自中山大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3513f84-c23c-4b85-976c-af6e322d22f9",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "從大學時期開始，我就對網路技術領域抱持著濃厚的興趣，特別是無線網路與軟體定義網路（SDN）的應用與發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a81d4aab-e6a3-485d-810b-449741b73a71",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "我相信網路是連結世界的關鍵，而深入理解其運作機制，將能為未來的科技進步貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "369676fa-7bc0-45b5-a870-e88cd8175572",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "在學業方面，我的大學修課平均約在 3.33 左右。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3da9d7d6-1249-4c58-b3f4-e7848ae8100d",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "雖然這個數字不是最頂尖的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e71bb5e9-6724-4560-84cc-53881921b821",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "但我一直努力不懈地在專業科目上精進。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "967fc5d6-9910-441a-8006-64c44b8b2082",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "在大三時，我特別投入在「計算機網路」與「網路程式設計」等課程，透過課程專題實際操作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c53ce26-e6eb-42ba-b34e-991f085beec4",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "例如，在一個網路專題中，我嘗試利用 Python 結合 Mininet 模擬了簡單的軟體定義網路環境，並實作了基於 OpenFlow 協定的流量控制邏輯。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b9d550ac-6f72-4ffc-a8ff-4999886ae9c8",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "這個專案讓我初步體會到 SDN 的彈性與潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "48be9a6a-0a51-4d57-82db-435a17914810",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "這個專案也培養了我使用 Wireshark 進行封包分析的能力，對於理解網路協定有很大的幫助。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ed34584d-cef8-4152-9d04-add59a475645",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "我也透過自學線上課程和閱讀相關文件，更深入了解了無線網路的各種通訊標準和協議。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d695cb9c-d816-48ae-9378-4fa1d3a5e0cc",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "這讓我對未來網路發展有了更具體的想像。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "98ac320f-81e1-43e5-b07b-d91b7b9253b0",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "除了專業學習，我也喜歡在課餘時間探索不同的事物。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "906ee084-7fe8-4239-bb83-48c83cf8e3ba",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "例如，我會經營一些個人的美食評論，這不僅僅是記錄食物的味道，更是一種培養觀察力與系統性分析的過程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "860cd762-5bdb-4d32-b862-36c478aad1ef",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "我會仔細記錄食材、烹調方式、環境氛圍等細節，然後歸納出整體的用餐體驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "76c3fa59-3dcb-4fa8-becc-c0cead9de032",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "我覺得這種從細節中尋找規律、並進行分析的能力，對於我在除錯複雜網路問題、或是分析網路流量模式時，其實也提供了另一種思考角度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cbc025f8-1850-402e-bea6-758fa1000c10",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "選擇貴所，是因為貴所長久以來在網路通訊領域有卓越的聲譽和豐厚的研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b5d9fc69-9986-4b68-a4b5-c6a1dda7c49a",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "我特別關注到貴所在無線通訊與新世代網路架構方面的研究，這與我所學及未來想投入的領域高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "41c80b12-d911-4058-bb64-4511b646f6f6",
+      "candidate_id": "mock_79",
+      "section": "自傳",
+      "content": "我渴望在這樣頂尖的學術環境中，能夠有機會跟隨教授們學習，並在無線網路與 SDN 的研究上更上一層樓，開拓更廣闊的視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bcb687d3-d381-45eb-99c0-2998e4ba1d9d",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "我對國立交通大學資訊工程學系所的景仰已久，貴所深厚的學術底蘊及在網路通訊領域的領先地位，都深深吸引著我。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c36abd44-9d6d-4470-9138-05acb435dfd2",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "我希望能將我在大學所學的基礎知識，結合貴所的豐富資源，深入探討無線網路與軟體定義網路的實際應用與前瞻研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "756921cb-f00e-43f8-8ecf-908a0f3b7796",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "入學初期，我會先修習所上開設的相關核心課程，例如「進階計算機網路」、「無線通訊概論」以及「分散式系統」等，以紮實自己的理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ebe16fe1-2645-45c3-980e-1588ffb973e6",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "同時，我會積極參與實驗室的專題討論，多方請益，了解目前研究室的最新進展與研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f9432656-9411-415e-82d9-04171daa4982",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "並開始研讀相關領域的期刊論文，了解研究趨勢。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10bbf049-f4a6-4595-bd4b-6adc81fbc1cc",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "我也希望能接觸到更多網路模擬工具，例如 NS-3 等，來輔助我的研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2eec38f-8e1c-48d3-8b1b-3f42395399d8",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "在累積足夠的專業知識後，我希望能夠確定自己的論文主題，專注於無線網路中的資源管理優化，或是利用 SDN 技術提升網路韌性與安全性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "65d0cd39-450a-48c0-933d-2347a5b382e4",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "我計畫在指導教授的帶領下，嘗試建構實驗環境或進行模擬實驗，驗證我的研究假設。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d43d4159-6727-4f92-90d2-d5e9c053c8a1",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "我將著重於利用 Python 編寫自動化腳本，針對特定的網路情境進行數據採集與分析，進一步優化網路效能或安全策略。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "04c18dd0-95c6-452f-97ef-d8c43cf367d4",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "這段期間，我也會嘗試將研究成果撰寫成論文，並爭取投稿至學術會議。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "da32f35f-b7af-4e58-9600-78ebd957a5eb",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "畢業後，我期望能將所學應用於業界，投身於網路技術的研發工作，特別是在 5G/6G 行動通訊、物聯網（IoT）等相關領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3a4c7e2-83c3-4bea-95bd-684fee515463",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "我也會考慮繼續攻讀博士學位，持續在學術界深耕，為網路技術的發展做出更深入的貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2d8d735-8b16-4331-a6c3-8ba9a607736a",
+      "candidate_id": "mock_79",
+      "section": "讀書計畫",
+      "content": "我相信在交大資工所的訓練，能夠讓我在未來具備獨立思考與解決問題的能力，成為一位對社會有價值的網路工程師或研究人員。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

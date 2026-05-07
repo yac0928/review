@@ -1,0 +1,1125 @@
+{
+  "candidate_id": "mock_72",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_72.md"
+  ],
+  "cleaned_text": "# 自傳\r\n\r\n## 個人簡介與申請動機\r\n\r\n我是何品睿，畢業於國立成功大學資訊工程學系。四年大學生涯，我始終懷抱著對資訊科技的熱情與探索精神，不僅在學術上力求精進，更積極將所學應用於實務，嘗試將創意轉化為實際產品。我的學業成績表現穩健，修課平均達到 4.19 分（總分 4.3），尤其在資料科學、機器學習與軟體開發相關課程中展現出濃厚興趣與優異表現。\r\n\r\n過去的實務經驗，特別是創業的嘗試，讓我深刻體會到扎實的理論基礎與系統化的知識體系對於技術突破與產品創新的重要性。我觀察到市場變動快速，許多新興技術層出不窮，但若缺乏對底層原理的透徹理解，僅憑表面應用，難以應對複雜挑戰。因此，我期望能進入國立交通大學資訊工程學系研究所深造，在貴所優異的學術氛圍與豐沛的資源下，補足我在學術深度上的不足，讓我的技術能力更為系統化、理論化，為未來的研究與創新奠定更堅實的基礎。對於資工領域的無限可能，我始終抱持著高度的好奇心與持續學習的熱情，期盼能在貴所找到更清晰的研究方向，並為未來的產業發展貢獻所學。\r\n\r\n## 學業表現與專業基礎\r\n\r\n在成大資工系期間，我聚焦於軟體開發、巨量資料處理與高維度資料分析等領域，修習了多門核心與進階課程，為我的專業打下堅實基礎。\r\n\r\n* **核心專業課程**\r\n * **資料結構與演算法 (A+)、計算機組織 (A+)、作業系統 (A)、資料庫系統 (A+)**：這些課程為我建立了扎實的程式設計與系統理解能力，尤其在演算法課程中，我學會了如何評估不同資料結構的效能，並運用動態規劃解決複雜問題。\r\n * **機器學習 (A+)、深度學習導論 (A)、資料探勘 (A-)**：這些課程是我對巨量資料與高維度資料分析產生興趣的起點。我學習了迴歸、分類、分群等多種機器學習模型，並透過實作專題，應用 scikit-learn 和 PyTorch 處理真實世界的資料集。\r\n * **分散式系統 (A)、雲端計算概論 (B+)**：這些課程讓我理解了處理巨量資料時所需的分散式架構與雲端平台技術，為我日後創業中遇到的擴展性問題提供了初步的理論依據。\r\n\r\n除了課堂學習，我也透過大量的線上課程（如 Coursera 上的 Deep Learning Specialization）與閱讀學術論文，自主學習更進階的內容，如 Transformer 模型、生成對抗網路 (GAN) 等，以彌補課程進度上的限制。我相信我的學業成績能證明我具備紮實的學習能力與學術潛力，並期待在貴所能進一步深化這些知識。\r\n\r\n## 創業與實務經驗\r\n\r\n大學期間，我積極將所學應用於實際場景，曾嘗試創業並參與兼職開發，這些經歷讓我對技術如何服務商業目標有了第一手的認識，也暴露了我學術基礎的不足。\r\n\r\n### 數據驅動內容推薦平台「品睿智選」開發 (創業嘗試)\r\n\r\n從大二下學期開始，我與兩位夥伴共同發起一個 Side Project，旨在開發一個針對內容創作者與小型媒體的數據驅動內容推薦平台。這個平台取名為「品睿智選」，目標是透過分析讀者行為與內容特徵，提升文章曝光與讀者黏著度。\r\n\r\n* **動機與規劃**：觀察到許多小型內容平台難以有效推廣其優質內容，我們希望提供一套輕量級的解決方案。我們使用 **Python 的 Flask 框架**搭建後端 API，前端則由夥伴負責以 **Vue.js** 實現。資料庫初期選用 **PostgreSQL**。\r\n* **核心技術與挑戰**：\r\n * **資料收集與清洗**：我們設計了爬蟲抓取公開的內容平台數據，並與數個小型內容創作者合作，串接他們的後台數據（如文章瀏覽量、停留時間、點擊率）。過程中，我第一次體會到真實世界資料的混亂與不一致性，花費了約 **20% 的開發時間**在資料清洗與前處理上，才意識到資料品質對推薦模型效能的決定性影響。\r\n * **推薦演算法實作**：初期我們採用基於內容的簡單推薦（Content-based recommendation），使用 **TF-IDF** 向量化文章內容，並計算餘弦相似度。隨著數據累積，我們嘗試引入協同過濾 (Collaborative Filtering)，並使用 **Surprise 函式庫**實作 **SVD 演算法**。\r\n * **系統擴展性考量**：當平台註冊用戶達到約 **500 位**時，我們遇到了性能瓶頸。資料庫查詢速度變慢，推薦結果的即時性受到影響。我開始研究 **Redis 快取**和訊息佇列（如 **Celery 配合 RabbitMQ**）來處理非同步任務，這讓我對分散式系統的架構有了更深的理解，並意識到過去修課時對這些概念的掌握仍停留在表面。\r\n * **成果與學習**：雖然該平台最終因資金與市場競爭壓力未能持續營運，但我們成功地證明了其可行性，並在測試階段為合作的內容創作者帶來約 **15% 的點擊率提升**。這次經歷讓我從零到一地參與了產品開發的全流程，從需求分析、系統設計、程式開發到部署維護。我學到了如何將抽象的機器學習概念轉化為具體的產品功能，也體會到技術選型、系統穩定性與使用者體驗的重要性。更重要的是，我認識到自己雖然具備開發能力，但在演算法優化、高併發處理、大規模資料架構等方面的學術深度與系統性知識仍有不足。\r\n\r\n### 創智數據顧問有限公司 兼職資料處理工程師 (業界實習)\r\n\r\n大三暑假，我在一家新創數據顧問公司「創智數據顧問有限公司」擔任兼職資料處理工程師。這段經歷讓我更近距離地接觸業界資料分析的實際需求與流程。\r\n\r\n* **職責與技術**：我主要負責協助團隊進行客戶數據的清洗、整合與初步分析。我大量運用 **Python (Pandas, NumPy)** 進行數據處理，並利用 **SQL** 語法從多個異質資料庫中抽取資訊。\r\n* **專案參與**：我參與了「零售客戶購買行為分析」專案。我的任務是將來自不同分店的銷售紀錄、會員資料與網站瀏覽數據進行整合，並為後續的行銷策略提供數據支持。我獨立完成了一個資料流程，將原始數據透過清洗、去重後，形成一個可供分析的 **200 萬筆紀錄**的整合數據集。\r\n* **反思與收穫**：這次經驗讓我對數據管理與 ETL (Extract, Transform, Load) 流程有了更深入的理解。我學會了如何與非技術背景的專案經理溝通，將複雜的技術問題簡化說明。也體會到在時間壓力下，如何快速找到問題核心並提供有效解決方案的能力，這與單純的學術研究有很大的不同。\r\n\r\n## 課外活動與團隊合作\r\n\r\n除了學術與實務，我也積極參與課外活動，培養多元能力與領導特質。\r\n\r\n### 成大語言交換社 發起人兼首屆社長\r\n\r\n大一下學期，我發起並創立了「成大語言交換社」。\r\n\r\n* **創社動機與職責**：觀察到校內外籍生與本地生缺乏自然交流的機會，我希望能建立一個輕鬆活潑的平台，讓大家在學習語言的同時，也能進行文化交流。我負責社團章程的制定、招募核心幹部、規劃例行活動內容（如主題討論、文化體驗日），並與國際事務處協調資源。\r\n* **活動與成果**：在我的帶領下，社團在一年內成功舉辦了超過 **20 場**線上與線下語言交換聚會，吸引了來自不同國家的 **超過 150 位**成員參與。我們不僅促進了英語、日語、韓語的口語練習，也舉辦了如「異國料理分享」等文化活動。\r\n* **學習**：這次經歷極大地提升了我的領導能力、組織協調能力和跨文化溝通能力。我學會了如何從零開始建立一個社群，如何傾聽成員需求並設計有吸引力的活動，以及如何在有限資源下達成目標。\r\n\r\n### 機器學習課程專題：新聞文本情緒分析系統\r\n\r\n大三上「機器學習」課程中，我與三位同學合作開發了一個「新聞文本情緒分析系統」。\r\n\r\n* **專案目標**：我們的目標是自動判斷中文新聞報導的情緒傾向（正面、負面、中立），以協助讀者快速掌握新聞的整體氛圍。\r\n* **技術棧**：我們使用 **Python** 作為主要開發語言，利用 **BeautifulSoup** 進行新聞內容爬取，**jieba** 進行中文分詞。在模型選擇上，我們嘗試了 **Naive Bayes** 和 **Support Vector Machine (SVM)**，最終基於準確度考量，選擇使用 **PyTorch** 搭建並訓練一個基於 **BERT** 的情感分類模型。\r\n* **我的貢獻**：我主要負責資料集建構與模型訓練優化。我與組員合作收集並標註了約 **10,000 篇**新聞報導的情緒標籤，並設計實驗比較不同 BERT 預訓練模型在中文文本上的表現。最終我們訓練出的模型在測試集上達到了約 **87% 的分類準確率**。\r\n* **團隊合作**：這次專題讓我深入了解了團隊合作在大型專案中的重要性。從資料收集、模型選擇、程式實作到報告呈現，我們分工合作，定期開會討論進度與遇到的問題。我意識到有效的溝通與版本控制（使用 Git）對於確保專案順利進行至關重要。\r\n\r\n## 展望未來\r\n\r\n我的創業與實務經驗固然豐富了我的技術視野，但也讓我清醒地認識到自己在學術理論深度上的不足。交大資工所作為國內頂尖的資訊工程學府，在巨量資料、人工智慧與高維度資料分析等領域的研究成果斐然，師資陣容堅強，實驗室資源豐沛，無疑是補足我學術短板、提升技術系統性的最佳環境。\r\n\r\n我渴望能在貴所的指導下，將過去零散的實務經驗進行系統化梳理與理論化提升，深入學習資料科學的數學基礎、進階演算法設計與大規模分散式系統架構。我相信透過貴所的訓練，我能更精準地識別問題、設計更有效率的解決方案，並為未來的技術創新與創業之路奠定更堅實的基礎。我對資工領域的持續探索充滿熱情，並深信能在交大資工所開拓我的學術視野，為社會帶來更多創新與價值。\r\n\r\n# 讀書計畫\r\n\r\n## 讀書計畫\r\n\r\n綜合我過去在軟體開發、巨量資料處理與創業實務中的經驗，我深刻體認到數據在當代科技社會中的核心價值，以及高維度資料分析在挖掘隱藏洞察方面的巨大潛力。進入交通大學資訊工程學系研究所後，我期望能系統性地學習相關的理論知識與前沿技術，以期未來能將技術與商業場景更有效地結合。\r\n\r\n### 短期目標 (入學第一年)\r\n\r\n在入學的第一年，我的主要目標是強化學術基礎，並深入掌握巨量資料與高維度資料分析領域的核心技能。\r\n\r\n* **學術基礎強化**\r\n * **課程修習**：我會積極選修並深入學習如「**高等演算法**」、「**高等資料庫系統**」、「**高等機器學習**」以及「**深度學習導論**」等核心課程。這些課程將有助於我彌補過去在學術理論上的不足，系統化地理解演算法設計、資料管理與模型建構背後的數學原理。\r\n * **數學與統計補強**：針對機器學習與資料分析所需的數學基礎（線性代數、機率論、數理統計），我會利用課餘時間複習相關知識，並透過線上資源或旁聽課程進行強化，確保自己能透徹理解進階模型背後的數學推導。\r\n * **研究入門**：主動與感興趣的教授交流，了解其實驗室的研究方向與專案。積極參與實驗室例會與討論，學習學術研究的方法論、論文閱讀與批判性思考的能力，為碩士論文的選題奠定基礎。\r\n* **技能提升**\r\n * **程式語言與工具**：我將深入學習 C++，提升高效率程式設計能力，以應對大規模系統開發和效能優化的需求。同時，我會熟練運用 **PyTorch/TensorFlow** 等深度學習框架，並學習 **Spark/Hadoop** 等分散式資料處理工具，為處理巨量資料做好準備。\r\n * **專題實作**：參與實驗室的專題研究，從實際問題出發，將課堂所學應用於具體專案中。例如，我會嘗試運用不同的降維技術（如 PCA, t-SNE）在高維度資料集上，並評估其對模型效能的影響。\r\n\r\n### 中期目標 (入學第二年)\r\n\r\n入學第二年，我的重點將放在專業深度的拓展、碩士論文的完成，以及將所學理論與實際應用更緊密地結合。\r\n\r\n* **專業深度拓展**\r\n * **進階課程**：持續修習如「**巨量資料分析與應用**」、「**高維度資料分析**」、「**自然語言處理**」或「**電腦視覺**」等進階選修課程，根據實驗室研究方向與個人興趣，聚焦於特定子領域。\r\n * **碩士論文研究**：在教授指導下，確立碩士論文主題。我目前的興趣偏向於結合巨量資料在商業分析上的創新應用，例如探索如何利用高維度非結構化數據進行更精準的用戶行為預測與個性化推薦；或者專注於高維度資料降維、特徵選擇的演算法優化，以解決維度災難問題並提升模型解釋性。我預期將在 114 學年度上學期完成論文初稿，並於下學期進行修改與口試。\r\n * **學術發表**：積極參與實驗室研究，爭取將研究成果投稿至國內外學術會議或期刊，學習論文撰寫、實驗設計與學術交流的標準流程。\r\n* **實務應用結合**\r\n * **產學合作/實習**：若實驗室有相關的產學合作專案，我將積極爭取參與，將在校所學應用於業界的真實問題。若無，我也會尋求在暑假期間至相關科技公司（如資料科學、機器學習或雲端服務部門）進行實習，以累積更豐富的業界經驗，並將理論知識與實務操作結合。\r\n * **開源專案貢獻**：在課餘時間，我會嘗試參與開源專案的貢獻，這不僅能提升程式碼品質，也能學習如何在大型專案中與其他開發者協作。\r\n\r\n### 長期目標 (畢業後)\r\n\r\n畢業後，我期望能運用在交大資工所習得的深厚學術與實務知識，在資訊科技領域持續發展。\r\n\r\n* **專業發展**：我希望能進入頂尖科技公司，擔任資料科學家、機器學習工程師或演算法研究員。我渴望能將所學應用於開發具有市場影響力的數據驅動產品，解決複雜的商業與技術問題。\r\n* **創業與創新**：若未來時機成熟，我希望能將在研究所期間補足的系統化理論基礎，結合我過去的創業經驗，再次嘗試創業。這次我希望能夠開發出更具核心技術競爭力、更具創新性的數據產品或服務，為產業帶來變革。\r\n* **持續學習與回饋**：科技發展日新月異，我將持續保持對新興技術的敏銳度，不斷學習新知識與新技能。同時，我也希望能夠將自己的專業知識回饋給學術界或社會，例如參與技術社群、 mentoring 年輕學子，為台灣的資訊科技發展貢獻一份心力。\r\n\r\n我深信，交大資工所提供的頂尖學術環境與豐富資源，將是我實現這些目標的關鍵。我期待能成為貴所的一份子，與優秀的師長和同學一同學習、成長，為未來的科技世界帶來更多可能性。",
+  "idea_units": [
+    {
+      "id": "70e9c0d9-5f88-436c-97bc-435610c1dbdb",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我是何品睿，畢業於國立成功大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "162c8d1c-90a0-41f2-9503-c0548f5e79bb",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "四年大學生涯，我始終懷抱著對資訊科技的熱情與探索精神，不僅在學術上力求精進，更積極將所學應用於實務，嘗試將創意轉化為實際產品。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7da0a92a-1f24-490d-be42-e29eb9d2f5d1",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我的學業成績表現穩健，修課平均達到 4.19 分（總分 4.3），尤其在資料科學、機器學習與軟體開發相關課程中展現出濃厚興趣與優異表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5768601e-1fe0-4b84-8707-ca5134b7876a",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "過去的實務經驗，特別是創業的嘗試，讓我深刻體會到扎實的理論基礎與系統化的知識體系對於技術突破與產品創新的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a6a69caf-9dba-4cbb-97f5-564fafaa7039",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我觀察到市場變動快速，許多新興技術層出不窮。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4bacae08-232a-4bcf-a88e-37444207025f",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "但若缺乏對底層原理的透徹理解，僅憑表面應用，難以應對複雜挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cafeed62-9834-442c-8245-5b24cc2a3919",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "因此，我期望能進入國立交通大學資訊工程學系研究所深造，在貴所優異的學術氛圍與豐沛的資源下，補足我在學術深度上的不足，讓我的技術能力更為系統化、理論化，為未來的研究與創新奠定更堅實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1ba4487d-56ef-4e15-8add-4dc389cbb0d6",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "對於資工領域的無限可能，我始終抱持著高度的好奇心與持續學習的熱情，期盼能在貴所找到更清晰的研究方向，並為未來的產業發展貢獻所學。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f3619be8-82af-4853-9ab7-84ee47fe58fe",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "在成大資工系期間，我聚焦於軟體開發、巨量資料處理與高維度資料分析等領域，修習了多門核心與進階課程，為我的專業打下堅實基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "979e742e-297d-45e5-9dd5-cef6dfe57b0d",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "修習了資料結構與演算法 (A+)、計算機組織 (A+)、作業系統 (A)、資料庫系統 (A+)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58cf374c-dc3b-4ce0-b5a5-8548a533e056",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這些課程為我建立了扎實的程式設計與系統理解能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4c58debd-92b3-41ae-b300-75417582f2eb",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "尤其在演算法課程中，我學會了如何評估不同資料結構的效能，並運用動態規劃解決複雜問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f911b7c1-bf15-49e6-8d2d-7a06bc2b1f80",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "修習了機器學習 (A+)、深度學習導論 (A)、資料探勘 (A-)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "29cabaa9-0be6-48f8-8556-fe01dfb83c0a",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這些課程是我對巨量資料與高維度資料分析產生興趣的起點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6ba209ff-aae1-4c12-80c0-e47c93bf44cf",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我學習了迴歸、分類、分群等多種機器學習模型，並透過實作專題，應用 scikit-learn 和 PyTorch 處理真實世界的資料集。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "744f6230-534a-4bae-9a89-c637c63cf531",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "修習了分散式系統 (A)、雲端計算概論 (B+)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bf379cc8-7cb9-4a9f-8ad2-1bc31ff21d21",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這些課程讓我理解了處理巨量資料時所需的分散式架構與雲端平台技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e985a87-3b41-4c3f-831d-dcddc0e76263",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "為我日後創業中遇到的擴展性問題提供了初步的理論依據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2514961e-ec5f-4f7b-98c5-35d69738a253",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "除了課堂學習，我也透過大量的線上課程（如 Coursera 上的 Deep Learning Specialization）與閱讀學術論文，自主學習更進階的內容，如 Transformer 模型、生成對抗網路 (GAN) 等，以彌補課程進度上的限制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "84bbff62-79bc-46cf-bc53-790e0a9b1802",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我相信我的學業成績能證明我具備紮實的學習能力與學術潛力，並期待在貴所能進一步深化這些知識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a497d67f-3f1d-4aa5-a299-ca182b4ac0e5",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "大學期間，我積極將所學應用於實際場景，曾嘗試創業並參與兼職開發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c24176ec-3f61-44f4-b140-ee67f0fd834c",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這些經歷讓我對技術如何服務商業目標有了第一手的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d0b55d35-4741-459a-b307-961c48df92a8",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "也暴露了我學術基礎的不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b6982f6e-dddf-4da7-a3ed-54e206c0600e",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "從大二下學期開始，我與兩位夥伴共同發起一個 Side Project，旨在開發一個針對內容創作者與小型媒體的數據驅動內容推薦平台。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "45594dec-2a2f-4574-81e4-68920190a62f",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這個平台取名為「品睿智選」，目標是透過分析讀者行為與內容特徵，提升文章曝光與讀者黏著度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "596a5bdf-2784-483e-b7b4-2e8865372720",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "觀察到許多小型內容平台難以有效推廣其優質內容，我們希望提供一套輕量級的解決方案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "89cbce02-8ae8-4e20-b449-94545f65b6cb",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我們使用 Python 的 Flask 框架搭建後端 API，前端則由夥伴負責以 Vue.js 實現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8839d852-9648-466a-85f5-83d01a620cd8",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "資料庫初期選用 PostgreSQL。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e743f188-d9c0-464a-8876-09f216a4ec61",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我們設計了爬蟲抓取公開的內容平台數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5f0d1eb6-f86d-40b5-ab22-fc7dd54d9fa2",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "並與數個小型內容創作者合作，串接他們的後台數據（如文章瀏覽量、停留時間、點擊率）。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8afd8901-f009-4065-a439-fcb804edc9b4",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "過程中，我第一次體會到真實世界資料的混亂與不一致性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32c75c27-9bd3-4049-9ec6-37b3d0ac4deb",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "花費了約 20% 的開發時間在資料清洗與前處理上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "51abd54c-7b48-4204-bf8c-7431efeaa1d1",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "才意識到資料品質對推薦模型效能的決定性影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7fec5d4e-de54-457f-a300-099478be7feb",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "初期我們採用基於內容的簡單推薦（Content-based recommendation），使用 TF-IDF 向量化文章內容，並計算餘弦相似度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0e556be6-72ce-41c2-9278-ea0dd8115ccf",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "隨著數據累積，我們嘗試引入協同過濾 (Collaborative Filtering)，並使用 Surprise 函式庫實作 SVD 演算法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "53b458e8-143c-4a1a-9223-c4c374a7315e",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "當平台註冊用戶達到約 500 位時，我們遇到了性能瓶頸。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4fae8d36-45df-49f6-9eca-3ab866c8c68d",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "資料庫查詢速度變慢，推薦結果的即時性受到影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1ebda9b2-8b7f-41fe-9171-77268b2ba26f",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我開始研究 Redis 快取和訊息佇列（如 Celery 配合 RabbitMQ）來處理非同步任務。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6d62ec92-7bcf-405c-9411-80060e0f1e4a",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這讓我對分散式系統的架構有了更深的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1a2daa87-ba2d-483e-9099-550c5f93e498",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "並意識到過去修課時對這些概念的掌握仍停留在表面。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1c05e022-c884-466d-b4ca-4c346669a20e",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "雖然該平台最終因資金與市場競爭壓力未能持續營運。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b12c697c-5acc-4059-b1db-cb390663b3f7",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "但我們成功地證明了其可行性，並在測試階段為合作的內容創作者帶來約 15% 的點擊率提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2c943d73-5540-4daf-9579-ad60e1359745",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這次經歷讓我從零到一地參與了產品開發的全流程，從需求分析、系統設計、程式開發到部署維護。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "213cba82-a99c-4da7-8168-5a09d51bf485",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我學到了如何將抽象的機器學習概念轉化為具體的產品功能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d7e4bc12-f141-42aa-a9be-552cc1e3fd32",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "也體會到技術選型、系統穩定性與使用者體驗的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0e3f0a03-1bba-4f97-9879-91334f33a947",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "更重要的是，我認識到自己雖然具備開發能力，但在演算法優化、高併發處理、大規模資料架構等方面的學術深度與系統性知識仍有不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f44f7ca6-66d0-4eca-987d-52eae4b95112",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "大三暑假，我在一家新創數據顧問公司「創智數據顧問有限公司」擔任兼職資料處理工程師。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2258cf4-27c6-4aa6-9a19-0f65242982b3",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這段經歷讓我更近距離地接觸業界資料分析的實際需求與流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "887f97d0-526e-4936-9f4b-c423dca3cc98",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我主要負責協助團隊進行客戶數據的清洗、整合與初步分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ca0f486b-7775-4fa0-9bd1-e72b3771e5ec",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我大量運用 Python (Pandas, NumPy) 進行數據處理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "20bcfb80-334f-4780-9fa0-cdc38f4c88e3",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "並利用 SQL 語法從多個異質資料庫中抽取資訊。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9acadcdc-2991-45a3-86de-f4ab1acf76fd",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我參與了「零售客戶購買行為分析」專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "57f39b04-e277-4331-baa6-5cbfa7767dd8",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我的任務是將來自不同分店的銷售紀錄、會員資料與網站瀏覽數據進行整合，並為後續的行銷策略提供數據支持。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "89635cf0-8059-44f2-b617-8934c94db6b2",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我獨立完成了一個資料流程，將原始數據透過清洗、去重後，形成一個可供分析的 200 萬筆紀錄的整合數據集。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42673e5d-8ac1-4ef2-90d5-c78df9f30fa0",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這次經驗讓我對數據管理與 ETL (Extract, Transform, Load) 流程有了更深入的理解。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "addb55e6-45cd-4045-90eb-0ca193ac8b45",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我學會了如何與非技術背景的專案經理溝通，將複雜的技術問題簡化說明。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "402cfc1f-ac19-4fcf-b6fd-0127de8f3a99",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "也體會到在時間壓力下，如何快速找到問題核心並提供有效解決方案的能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ea2185c1-649f-46ac-9cf6-07429911f138",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這與單純的學術研究有很大的不同。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "72393d3c-2231-40b8-b59a-f8aabfa8e2ca",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "除了學術與實務，我也積極參與課外活動，培養多元能力與領導特質。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8240231c-d649-40c0-bff9-1ebd6688cc87",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "大一下學期，我發起並創立了「成大語言交換社」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d8462389-2c31-49b2-9a31-62611267d4c3",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "觀察到校內外籍生與本地生缺乏自然交流的機會，我希望能建立一個輕鬆活潑的平台，讓大家在學習語言的同時，也能進行文化交流。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6645bd70-b547-4c14-8953-f2a193cef9e0",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我負責社團章程的制定、招募核心幹部、規劃例行活動內容（如主題討論、文化體驗日），並與國際事務處協調資源。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a8d3093-91c5-44ac-828c-02d34b9f0278",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "在我的帶領下，社團在一年內成功舉辦了超過 20 場線上與線下語言交換聚會，吸引了來自不同國家的 超過 150 位成員參與。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5b14b8e1-c2ab-4a39-b71a-a55cd7fbb988",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我們不僅促進了英語、日語、韓語的口語練習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d1705400-d708-4978-83cc-6a4b7d8053c7",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "也舉辦了如「異國料理分享」等文化活動。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "00dc7019-756a-49ea-b998-3944bd3c416c",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這次經歷極大地提升了我的領導能力、組織協調能力和跨文化溝通能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "47a013fe-7ad0-4636-96d2-900a0ab3e684",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我學會了如何從零開始建立一個社群。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "aba11a32-a2ba-47d9-a302-bf4d7d21f6d5",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "如何傾聽成員需求並設計有吸引力的活動。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "98086c20-2ac8-4a63-8be3-8ae57d278194",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "以及如何在有限資源下達成目標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "46da1772-8e0e-41b2-bf6f-23599a597306",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "大三上「機器學習」課程中，我與三位同學合作開發了一個「新聞文本情緒分析系統」。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8af64e82-3df3-427c-9dcf-f9ce5dc858e1",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我們的目標是自動判斷中文新聞報導的情緒傾向（正面、負面、中立），以協助讀者快速掌握新聞的整體氛圍。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f427da32-1b45-4b43-9f0b-391f9936e55a",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我們使用 Python 作為主要開發語言。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e980a853-4ace-44d6-807f-1b3d48db3b74",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "利用 BeautifulSoup 進行新聞內容爬取。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6310da93-221e-44ec-88ed-5053b99d2161",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "jieba 進行中文分詞。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "cb82d7b2-1741-408c-abfe-aad2789703a6",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "在模型選擇上，我們嘗試了 Naive Bayes 和 Support Vector Machine (SVM)。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32e66470-3a8b-43f2-a1e7-425e8a4bdbef",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "最終基於準確度考量，選擇使用 PyTorch 搭建並訓練一個基於 BERT 的情感分類模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "645a4991-e9bc-4e72-9f60-4bf2c0d91b15",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我主要負責資料集建構與模型訓練優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c3899820-cf6a-4156-aa3e-9f3109259331",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我與組員合作收集並標註了約 10,000 篇新聞報導的情緒標籤。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4e047042-b822-4946-b49a-876376cae980",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "並設計實驗比較不同 BERT 預訓練模型在中文文本上的表現。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c4c1b70e-8a4a-4a90-a06c-eae9f3a63e14",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "最終我們訓練出的模型在測試集上達到了約 87% 的分類準確率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "722cde32-8253-40ba-a2e5-cbe96eb8124c",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "這次專題讓我深入了解了團隊合作在大型專案中的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2dccd344-cef9-4115-b0f8-4c2ceff6f4c0",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "從資料收集、模型選擇、程式實作到報告呈現，我們分工合作，定期開會討論進度與遇到的問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e82b8f4f-179d-4854-83bd-a811ed9016c4",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我意識到有效的溝通與版本控制（使用 Git）對於確保專案順利進行至關重要。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1a66ffd4-f9f7-4ff8-9852-1ae58d0a3617",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我的創業與實務經驗固然豐富了我的技術視野。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d40493de-7adc-45f7-9b28-c7e2f8bd4bca",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "但也讓我清醒地認識到自己在學術理論深度上的不足。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "afd85448-faf6-4180-bb4b-0cce08f0f224",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "交大資工所作為國內頂尖的資訊工程學府，在巨量資料、人工智慧與高維度資料分析等領域的研究成果斐然，師資陣容堅強，實驗室資源豐沛，無疑是補足我學術短板、提升技術系統性的最佳環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2daa385-4ce0-49b8-a708-b21cc82212fb",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我渴望能在貴所的指導下，將過去零散的實務經驗進行系統化梳理與理論化提升。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "661e5284-1daf-4303-9d40-663c7b4b6814",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "深入學習資料科學的數學基礎、進階演算法設計與大規模分散式系統架構。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2e118580-5071-4bd2-9bcd-ebaf0cfb315e",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我相信透過貴所的訓練，我能更精準地識別問題、設計更有效率的解決方案，並為未來的技術創新與創業之路奠定更堅實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1ec34503-ce29-442f-88da-ad121c09b072",
+      "candidate_id": "mock_72",
+      "section": "自傳",
+      "content": "我對資工領域的持續探索充滿熱情，並深信能在交大資工所開拓我的學術視野，為社會帶來更多創新與價值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "264950d1-be18-4902-ad0f-15709bb06a08",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "綜合我過去在軟體開發、巨量資料處理與創業實務中的經驗，我深刻體認到數據在當代科技社會中的核心價值，以及高維度資料分析在挖掘隱藏洞察方面的巨大潛力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "153d344c-47c2-478e-bdaf-1d9dca0fd97a",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "進入交通大學資訊工程學系研究所後，我期望能系統性地學習相關的理論知識與前沿技術，以期未來能將技術與商業場景更有效地結合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9ffed8f1-f4ea-48bd-8d99-8ed5d9ecc67d",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "在入學的第一年，我的主要目標是強化學術基礎，並深入掌握巨量資料與高維度資料分析領域的核心技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "41485c38-806f-4a2e-8610-e62f5d8d7aa3",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "我會積極選修並深入學習如「高等演算法」、「高等資料庫系統」、「高等機器學習」以及「深度學習導論」等核心課程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "823f0ae9-ffdd-4292-b623-3671fb79abc0",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "這些課程將有助於我彌補過去在學術理論上的不足，系統化地理解演算法設計、資料管理與模型建構背後的數學原理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2ac57a55-8c2a-4c0b-9a96-97c3d28b508a",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "針對機器學習與資料分析所需的數學基礎（線性代數、機率論、數理統計），我會利用課餘時間複習相關知識，並透過線上資源或旁聽課程進行強化，確保自己能透徹理解進階模型背後的數學推導。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9967084f-6b6f-4b44-bc4e-dcd9a550352c",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "主動與感興趣的教授交流，了解其實驗室的研究方向與專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e046c813-d7b2-46d5-9cd0-933cc734bd28",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室例會與討論，學習學術研究的方法論、論文閱讀與批判性思考的能力，為碩士論文的選題奠定基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "393c7624-cf66-47ba-acb4-f8735ce70ee8",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "我將深入學習 C++，提升高效率程式設計能力，以應對大規模系統開發和效能優化的需求。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "eb94a7eb-71eb-4c90-967f-fce205e93ea0",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "同時，我會熟練運用 PyTorch/TensorFlow 等深度學習框架。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f131f411-bced-428e-b1b8-e80a6c5cdf74",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "並學習 Spark/Hadoop 等分散式資料處理工具，為處理巨量資料做好準備。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f35bd096-5ce6-40d3-8e1a-006f71eea89f",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "參與實驗室的專題研究，從實際問題出發，將課堂所學應用於具體專案中。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "612dc621-6094-4e8b-b0e9-7c2e00104da4",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "例如，我會嘗試運用不同的降維技術（如 PCA, t-SNE）在高維度資料集上，並評估其對模型效能的影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c15b7546-5c97-4c61-9280-8bf7a2096c58",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "入學第二年，我的重點將放在專業深度的拓展、碩士論文的完成，以及將所學理論與實際應用更緊密地結合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a881af7b-c58d-4c0a-927a-d42e688c5b3d",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "持續修習如「巨量資料分析與應用」、「高維度資料分析」、「自然語言處理」或「電腦視覺」等進階選修課程，根據實驗室研究方向與個人興趣，聚焦於特定子領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b777d6cf-9d47-436d-b1c0-42241068fe7d",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "在教授指導下，確立碩士論文主題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3fba4dba-a3b6-49bc-a430-70eb2d1eb7c4",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "我目前的興趣偏向於結合巨量資料在商業分析上的創新應用，例如探索如何利用高維度非結構化數據進行更精準的用戶行為預測與個性化推薦。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16c1b3d0-3604-4b65-8eae-cbd6da2a3e4d",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "或者專注於高維度資料降維、特徵選擇的演算法優化，以解決維度災難問題並提升模型解釋性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "33e2f62e-5dbd-449e-a403-6bac35e6b446",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "我預期將在 114 學年度上學期完成論文初稿，並於下學期進行修改與口試。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "69cec942-89dc-4548-8c90-f2c29eb8458f",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "積極參與實驗室研究，爭取將研究成果投稿至國內外學術會議或期刊，學習論文撰寫、實驗設計與學術交流的標準流程。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab73d3f3-d752-490d-a5be-59724f3391cb",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "若實驗室有相關的產學合作專案，我將積極爭取參與，將在校所學應用於業界的真實問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3ffb6315-ec9c-467c-be56-e547f9cf6b8b",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "若無，我也會尋求在暑假期間至相關科技公司（如資料科學、機器學習或雲端服務部門）進行實習，以累積更豐富的業界經驗，並將理論知識與實務操作結合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "511fa374-3527-4e3f-a9a2-96becc8da34f",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "在課餘時間，我會嘗試參與開源專案的貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "914d7bba-e889-4fd7-84a7-10ed957c9d92",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "這不僅能提升程式碼品質。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60cfc2da-335e-499b-83cc-3c280bb7e3f9",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "也能學習如何在大型專案中與其他開發者協作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b71bc13f-a7f7-488a-80e4-1fdf824e102f",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "畢業後，我期望能運用在交大資工所習得的深厚學術與實務知識，在資訊科技領域持續發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "99103f75-a2af-4a5c-b1b3-b526fbb4e7b8",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "我希望能進入頂尖科技公司，擔任資料科學家、機器學習工程師或演算法研究員。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df3b4749-9faa-433b-87a0-0e9a64819c49",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "我渴望能將所學應用於開發具有市場影響力的數據驅動產品，解決複雜的商業與技術問題。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3b2617cc-215e-4f7d-a99a-ad2ef83c10d3",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "若未來時機成熟，我希望能將在研究所期間補足的系統化理論基礎，結合我過去的創業經驗，再次嘗試創業。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9f72aee2-f39d-4b9c-afe5-7d053e5f8fbd",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "這次我希望能夠開發出更具核心技術競爭力、更具創新性的數據產品或服務，為產業帶來變革。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ecd42892-ab8e-4cfd-9d74-d3a15521097b",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "科技發展日新月異，我將持續保持對新興技術的敏銳度，不斷學習新知識與新技能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7cd1c1b5-38cf-48c6-8a6b-18e554cee1a1",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "同時，我也希望能夠將自己的專業知識回饋給學術界或社會，例如參與技術社群、 mentoring 年輕學子，為台灣的資訊科技發展貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0463f68-1aa5-41e1-832f-a26dcf27d72a",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "我深信，交大資工所提供的頂尖學術環境與豐富資源，將是我實現這些目標的關鍵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "23939444-b079-4680-a765-c6fffa04700c",
+      "candidate_id": "mock_72",
+      "section": "讀書計畫",
+      "content": "我期待能成為貴所的一份子，與優秀的師長和同學一同學習、成長，為未來的科技世界帶來更多可能性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "candidate_id": "mock_74",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_74.md"
+  ],
+  "cleaned_text": "# 自傳\r\n\r\n## 個人背景與學術啟蒙\r\n\r\n我是周庭安，來自國立中央大學資訊工程學系。從小我就對電腦與科技充滿好奇，喜歡拆解電子產品，想了解它們運作的原理。進入資工系後，我對軟體開發與人機互動的領域特別感興趣，尤其是在課堂上接觸到虛擬實境（VR）和擴增實境（AR）的應用時，我便深深地被這些能夠改變我們與數位世界互動方式的技術所吸引。\r\n\r\n儘管大學學業成績（修課平均約2.5）並非系上前段，但我對資訊工程的熱情從未減少，尤其在實作方面投入了大量的時間與心力。我相信透過實際動手做，更能深入理解知識，並從中找到解決問題的樂趣。我的技術能力主要是在參與研究室專案和課外開發中逐漸培養起來的。\r\n\r\n## 專業技術成長與研究經驗\r\n\r\n大三那年，我正式加入了系上的「智慧互動與永續應用實驗室」，這是我學習和成長的關鍵階段。在實驗室裡，我開始接觸到人機互動、虛擬與擴增實境以及穿戴式技術的應用。我的主要研究方向是探索如何將XR（Extended Reality）技術應用於永續發展領域，希望透過科技的力量，為環境保護和社會進步做出貢獻。\r\n\r\n我參與了一個名為「AR輔助廢棄物分類教學系統」的產學合作專案。這個專案旨在透過手機AR應用，讓使用者能更直觀地學習如何正確分類垃圾，提升資源回收的效率。在專案中，我主要負責使用 **Unity** 平台進行前端介面開發，並整合 **Vuforia SDK** 進行影像辨識與AR物件疊合。我需要設計並實作多種互動模式，例如拖曳、點擊等，讓使用者可以將虛擬垃圾拖曳到正確的分類桶中，並立即獲得回饋。在測試過程中，我們發現直覺且即時的回饋機制，確實能顯著提升學習者的參與度和分類的正確性。\r\n\r\n這個專案的開發過程並非一帆風順，最大的挑戰之一是如何在多變的光線環境下，保持物件辨識的穩定性和準確度，以及如何優化AR物件的渲染效能，避免應用程式卡頓。為此，我學習了如何進行效能分析，研究不同的影像處理演算法，並嘗試調整3D模型的複雜度與材質，以在視覺效果和流暢度之間找到平衡點。從這個經驗中，我深刻體會到使用者體驗設計的重要性，也學習了軟體開發中資源管理與效能優化的具體觀念。\r\n\r\n除了實驗室的專案，我也嘗試獨立開發一些概念性的應用。例如，我曾利用 **Arduino** 微控制器和環境感測器（如PM2.5感測器），設計了一個能即時監測空氣品質的原型裝置。這個裝置旨在能與一個簡單的穿戴式裝置（例如智慧手環的概念）連接，當空氣品質不佳時，能透過震動或LED燈號提醒使用者。雖然這個專案尚未完全成熟，但它讓我對物聯網(IoT)和穿戴式技術有了初步的理解，也更加堅定我想將科技應用於解決環境問題的初衷。\r\n\r\n## 未來展望與申請動機\r\n\r\n這些實際的開發和研究經驗讓我更加確定自己對資訊工程的熱情，尤其是軟體開發、人機互動與沉浸式技術的結合應用。我渴望能夠更深入地學習相關知識，並且將所學應用在實際的社會需求上。國立交通大學資訊工程學系在人機互動、虛擬實境與軟體工程領域的卓越研究成果和豐富資源一直是我嚮往的目標。我深知交大資工所擁有頂尖的師資和設備，能夠提供我一個絕佳的學習和研究環境。\r\n\r\n我希望能進入交大資工所進一步深造，學習更扎實的理論基礎與前沿技術，為我未來在互動技術與永續應用領域的研究生涯打下堅實的基礎。我相信我在中央資工所培養的實作能力與專案經驗，能夠讓我快速適應研究所的節奏，並為實驗室帶來新的想法和活力。\r\n\r\n# 讀書計畫\r\n\r\n## 申請動機與目標\r\n\r\n* 希望在國立交通大學資訊工程學系研究所進一步深造，深入學習人機互動、虛擬與擴增實境及穿戴式技術等前瞻領域的知識與技術。\r\n* 目標是透過系統性的學習與研究，培養獨立思考與解決問題的能力，並將所學應用於永續發展相關的技術創新。\r\n\r\n## 短期規劃 (第一學年)\r\n\r\n* **學業精進：**\r\n * 主動選修與人機互動、虛擬/擴增實境、電腦圖學、機器學習相關的進階課程，例如「進階人機互動」、「電腦視覺」或「深度學習導論」等，以補足理論基礎。\r\n * 積極參與課程專題，提升實作能力與專案管理經驗，並嘗試將課堂所學應用於小型實驗專案。\r\n* **研究探索：**\r\n * 盡早與指導教授會面，了解實驗室的研究方向與現有專案。\r\n * 積極閱讀相關領域的學術論文與文獻，拓展視野，初步確立個人的研究興趣與方向。\r\n * 目標是能盡快加入實驗室的專案，熟悉研究流程與方法，並學習常用的研究工具與軟體。\r\n\r\n## 中期規劃 (第二學年)\r\n\r\n* **專題研究：**\r\n * 在指導教授的帶領下，專注於選定的研究主題，深入進行實驗設計、資料收集與分析。\r\n * 持續優化實作能力，應用Unity、C#、Python等工具進行原型開發與系統建置。\r\n * 定期參與實驗室討論，學習如何清晰表達研究成果，並接受同儕與教授的建議。\r\n* **論文撰寫：**\r\n * 學習學術寫作規範，開始規劃碩士論文架構，並逐步撰寫各章節。\r\n * 爭取在國內或國際學術研討會上發表初步研究成果，累積學術發表經驗。\r\n\r\n## 長期展望\r\n\r\n* 順利完成碩士學位，並產出具有創新性與實用價值的碩士論文。\r\n* 期望能成為一名能夠將資訊科技與人機互動知識，應用於解決永續發展相關社會與環境問題的專業人士或研究者。\r\n* 無論未來進入學術界或業界，都希望能持續精進，為台灣的資工領域發展貢獻一份心力。",
+  "idea_units": [
+    {
+      "id": "d8291164-d0ee-4e0d-8424-d49036baa70f",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我是周庭安，來自國立中央大學資訊工程學系。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f2b2406f-4b57-436e-bfc0-e2ed6b51d39a",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "從小我就對電腦與科技充滿好奇，喜歡拆解電子產品，想了解它們運作的原理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f5581fdd-fa25-46b2-9fd9-7cea4dd1dc11",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "進入資工系後，我對軟體開發與人機互動的領域特別感興趣，尤其是在課堂上接觸到虛擬實境（VR）和擴增實境（AR）的應用時，我便深深地被這些能夠改變我們與數位世界互動方式的技術所吸引。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "12f4c833-5ed7-4d31-a252-bf42419de8d8",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "大學學業成績（修課平均約2.5）並非系上前段。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bbca2efc-dcd2-4131-8585-9f9a86a9f18d",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "但我對資訊工程的熱情從未減少，尤其在實作方面投入了大量的時間與心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "44167122-4676-4652-926b-e3d02e6b29f3",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我相信透過實際動手做，更能深入理解知識，並從中找到解決問題的樂趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f0035a0c-f9e8-470f-bd79-8077d300c645",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我的技術能力主要是在參與研究室專案和課外開發中逐漸培養起來的。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1df2fecb-30d2-40f0-abc6-cdac72e55cfa",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "大三那年，我正式加入了系上的「智慧互動與永續應用實驗室」，這是我學習和成長的關鍵階段。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0dded4e8-9d1e-4ae1-a530-f692a6ac7503",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "在實驗室裡，我開始接觸到人機互動、虛擬與擴增實境以及穿戴式技術的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "545b51cf-39e5-44d3-bef2-8fb5ea053556",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我的主要研究方向是探索如何將XR（Extended Reality）技術應用於永續發展領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b1aab007-6102-41c5-98fd-f76408e59bd0",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "希望透過科技的力量，為環境保護和社會進步做出貢獻。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "df3b3ddd-838f-45a9-81ca-ec1f09e9c21c",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我參與了一個名為「AR輔助廢棄物分類教學系統」的產學合作專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bcb5f0c6-9b25-473e-b8bc-8ac98b8d1cd7",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "這個專案旨在透過手機AR應用，讓使用者能更直觀地學習如何正確分類垃圾，提升資源回收的效率。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42e775a1-ac9b-429b-b97c-3c00012d614e",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "在專案中，我主要負責使用 Unity 平台進行前端介面開發，並整合 Vuforia SDK 進行影像辨識與AR物件疊合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1afd5bda-b970-4c44-92ad-2c1f3ca37c04",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我需要設計並實作多種互動模式，例如拖曳、點擊等，讓使用者可以將虛擬垃圾拖曳到正確的分類桶中，並立即獲得回饋。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ad35a852-b664-4d9d-aade-9a21f609b0a5",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "在測試過程中，我們發現直覺且即時的回饋機制，確實能顯著提升學習者的參與度和分類的正確性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe463203-804c-46cc-bb6b-f539768c5179",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "這個專案的開發過程並非一帆風順，最大的挑戰之一是如何在多變的光線環境下，保持物件辨識的穩定性和準確度，以及如何優化AR物件的渲染效能，避免應用程式卡頓。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "32face83-d770-46c8-8309-553bab840185",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "為此，我學習了如何進行效能分析，研究不同的影像處理演算法，並嘗試調整3D模型的複雜度與材質，以在視覺效果和流暢度之間找到平衡點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4fa1488e-6f1c-4d4e-8cb9-5cfc8b32b9c5",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "從這個經驗中，我深刻體會到使用者體驗設計的重要性，也學習了軟體開發中資源管理與效能優化的具體觀念。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "336a50bb-9906-4582-891b-57ba3d72fbbc",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "除了實驗室的專案，我也嘗試獨立開發一些概念性的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dd8705d2-fbb6-439a-9e27-b7eb84208c6a",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "例如，我曾利用 Arduino 微控制器和環境感測器（如PM2.5感測器），設計了一個能即時監測空氣品質的原型裝置。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42529761-d330-470c-8f29-e895560232db",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "這個裝置旨在能與一個簡單的穿戴式裝置（例如智慧手環的概念）連接，當空氣品質不佳時，能透過震動或LED燈號提醒使用者。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "58f49390-516e-44e0-9295-cd8b0af03f0e",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "雖然這個專案尚未完全成熟。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "80e856e0-97ab-4223-9783-2868be0367b2",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "但它讓我對物聯網(IoT)和穿戴式技術有了初步的理解，也更加堅定我想將科技應用於解決環境問題的初衷。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "52168a72-9216-4ea2-b9ad-1a6221487357",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "這些實際的開發和研究經驗讓我更加確定自己對資訊工程的熱情，尤其是軟體開發、人機互動與沉浸式技術的結合應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "27277925-1acf-473c-bb04-dc55cc24d4c0",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我渴望能夠更深入地學習相關知識，並且將所學應用在實際的社會需求上。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fe8c461c-20da-48c4-b53d-df50b3975a91",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "國立交通大學資訊工程學系在人機互動、虛擬實境與軟體工程領域的卓越研究成果和豐富資源一直是我嚮往的目標。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "208bdec6-19b3-4ca7-a8cb-49a321e38746",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我深知交大資工所擁有頂尖的師資和設備，能夠提供我一個絕佳的學習和研究環境。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16f0f30e-dc67-4c27-b853-07351af48d97",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我希望能進入交大資工所進一步深造，學習更扎實的理論基礎與前沿技術，為我未來在互動技術與永續應用領域的研究生涯打下堅實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a3c6abb1-cd41-4170-8062-397ce2eb710a",
+      "candidate_id": "mock_74",
+      "section": "自傳",
+      "content": "我相信我在中央資工所培養的實作能力與專案經驗，能夠讓我快速適應研究所的節奏，並為實驗室帶來新的想法和活力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1e8f50f0-cdf5-4edb-8030-c8ae1fb12abe",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "希望在國立交通大學資訊工程學系研究所進一步深造，深入學習人機互動、虛擬與擴增實境及穿戴式技術等前瞻領域的知識與技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1815c262-74f2-40af-8d6a-ab5baebb8da9",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "目標是透過系統性的學習與研究，培養獨立思考與解決問題的能力，並將所學應用於永續發展相關的技術創新。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9e01f101-e245-45d8-9ef3-4fdd67f9770e",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "主動選修與人機互動、虛擬/擴增實境、電腦圖學、機器學習相關的進階課程，例如「進階人機互動」、「電腦視覺」或「深度學習導論」等，以補足理論基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "318294c4-57dd-4415-99d4-2543d4b58f65",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "積極參與課程專題，提升實作能力與專案管理經驗，並嘗試將課堂所學應用於小型實驗專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0075f7ae-01db-460a-bdb1-ebe7eaebe6d9",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "盡早與指導教授會面，了解實驗室的研究方向與現有專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f70eb071-705b-480e-93ac-72f705462ebe",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "積極閱讀相關領域的學術論文與文獻，拓展視野，初步確立個人的研究興趣與方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "01763f4f-06a5-4290-9b02-d93fa3cac236",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "目標是能盡快加入實驗室的專案，熟悉研究流程與方法，並學習常用的研究工具與軟體。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1dfa7ad4-bc9d-4817-80d6-9f19be7b5ba8",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "在指導教授的帶領下，專注於選定的研究主題，深入進行實驗設計、資料收集與分析。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4add7151-26c4-45ae-9ab6-172efd33f45e",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "持續優化實作能力，應用Unity、C#、Python等工具進行原型開發與系統建置。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "59386cbc-c670-4225-8cbd-9abbc41594b9",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "定期參與實驗室討論，學習如何清晰表達研究成果，並接受同儕與教授的建議。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "050bf595-2331-4e82-8606-4af57d4feb19",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "學習學術寫作規範，開始規劃碩士論文架構，並逐步撰寫各章節。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "55565278-4a79-4e42-bbec-e730af9de088",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "爭取在國內或國際學術研討會上發表初步研究成果，累積學術發表經驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a1489e0-8534-45d2-89c3-16e719dcd811",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "順利完成碩士學位，並產出具有創新性與實用價值的碩士論文。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "5ddae3e9-e113-49a0-a46f-e8797fb4ca0d",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "期望能成為一名能夠將資訊科技與人機互動知識，應用於解決永續發展相關社會與環境問題的專業人士或研究者。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1187c4e3-9959-4b97-984d-4bb4dc4bb0c9",
+      "candidate_id": "mock_74",
+      "section": "讀書計畫",
+      "content": "無論未來進入學術界或業界，都希望能持續精進，為台灣的資工領域發展貢獻一份心力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}

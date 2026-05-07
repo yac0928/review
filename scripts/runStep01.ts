@@ -32,6 +32,12 @@ async function processSingle(candidateId: string, filePath: string) {
     console.error(`File not found: ${filePath}`);
     process.exit(1);
   }
+  const force = process.env.FORCE === '1' || process.argv.includes('--force');
+  const outPath = path.join(config.outputDir, `${candidateId}.json`);
+  if (!force && fs.existsSync(outPath)) {
+    console.log(`[Skip] ${candidateId} already processed`);
+    return;
+  }
   const candidate = await splitIdeaUnits(filePath, candidateId);
   saveOutput(candidateId, candidate);
   console.log(`\nDone. ${candidate.idea_units.length} Idea Units extracted for [${candidateId}]`);
@@ -43,7 +49,7 @@ async function processBatch() {
     process.exit(1);
   }
 
-  const files = fs.readdirSync(config.dataDir).filter(f => f.endsWith('.txt'));
+  const files = fs.readdirSync(config.dataDir).filter(f => f.endsWith('.md') || f.endsWith('.txt'));
   console.log(`Found ${files.length} file(s) in ${config.dataDir}`);
 
   const force = process.env.FORCE === '1' || process.argv.includes('--force');
@@ -51,7 +57,8 @@ async function processBatch() {
 
   for (let i = 0; i < files.length; i++) {
     const file = files[i];
-    const candidateId = path.basename(file, '.txt');
+    const ext = path.extname(file);
+    const candidateId = path.basename(file, ext);
     const filePath = path.join(config.dataDir, file);
     const outPath = path.join(config.outputDir, `${candidateId}.json`);
 

@@ -1,0 +1,720 @@
+{
+  "candidate_id": "mock_45",
+  "source_files": [
+    "D:\\研究\\審查系統\\Project\\mock_data\\mock_45.md"
+  ],
+  "cleaned_text": "# 自傳\r\n\r\n## 引言：從程式碼到智慧環境的熱情\r\n\r\n我是柯薇安，國立交通大學資訊工程學系的學生。從小對電腦科學抱持著一份無可救藥的熱情，這份熱情驅使我在大學期間積極投入軟體開發與系統建構，特別是對雲端計算與智慧環境的應用，更是產生了濃厚的興趣。我深信資訊工程不應只停留在實驗室的理論，更應透過實作解決真實世界的問題，建構能讓生活更便捷、更智慧的未來。這份信念也引導我一步步走向貴所，希望能在此深化專業知識，貢獻所學。\r\n\r\n## 學術深耕：扎實的程式與系統基礎\r\n\r\n在大學四年中，我戮力於學業，並從中奠定堅實的資工基礎。我的學業成績表現優異，整體修課平均達 **3.69**。在學期間，我深刻體認到扎實的基礎知識是攀登技術高峰的必要條件，因此無論是「資料結構」、「演算法」、「作業系統」或是「計算機網路」等核心課程，我皆投入大量心力學習，並積極參與課堂討論與實作練習。\r\n\r\n- **核心課程與實作能力：**\r\n - 在大二修習「物件導向程式設計」時，我以 **Java** 開發了一套簡易的圖形化檔案管理系統，熟練運用繼承、多型等概念，並透過多執行緒處理檔案操作，學會了軟體設計的模組化與高內聚、低耦合原則。\r\n - 在「作業系統」課程中，我與組員共同完成了一個基於 **Linux Kernel** 的行程排程器改進專案，旨在優化多核心環境下的 I/O 密集型任務效能，深入理解了行程管理、記憶體管理與同步機制。\r\n - 修習「計算機網路」時，我設計並實作了一個具備流量控制與錯誤恢復機制的應用層協定，使用 **Python** 模擬資料傳輸，讓我對網路協議的設計與實現有了更直觀的認識。\r\n\r\n## 雲端航行：分散式系統與微服務實踐\r\n\r\n為了將課堂所學付諸實踐，我從大三開始加入吳教授的「分散式系統與雲端應用實驗室」，深入研究雲端原生技術與分散式系統的應用。這段經歷讓我對雲端計算的挑戰與機會有了第一手的體驗。\r\n\r\n- **雲原生微服務架構專案 (111-112學年度)：**\r\n - **專案主題：** 「**基於Kubernetes的智慧交通監控微服務平台建構**」。我們旨在開發一個可彈性擴展的系統，處理來自城市各處的即時交通數據。\r\n - **職責與貢獻：** 我主要負責後端微服務的設計與開發，以及 **Kubernetes** 叢集的部署與維護。我獨立完成了路況分析與車流量預測的微服務，利用 **Python Flask** 框架與 **Redis** 進行快取管理。\r\n - **技術棧：** 我熟練運用 **Docker** 進行服務容器化，使用 **Kubernetes** 實現自動部署、負載平衡與服務發現。為了確保系統的穩定性，我也導入了 **Prometheus** 與 **Grafana** 進行即時監控。\r\n - **成果與反思：** 成功部署了可處理每秒高達 **5000 筆** 交通數據的測試原型，其平均延遲控制在 **100 毫秒** 以內。這次經驗讓我深刻體會到，在分散式環境中，服務間的通訊韌性與錯誤處理機制至關重要，同時也領悟到良好的 **CI/CD pipeline** (我們使用 **GitLab CI**) 對於加速開發與部署的巨大價值。\r\n\r\n## 智慧環境探索：物聯網數據的邊緣處理\r\n\r\n延續對雲端與分散式系統的興趣，我進一步將目光投向了智慧環境中的邊緣運算應用，期望能將雲端的彈性帶到數據源頭。\r\n\r\n- **智慧建築環境監控系統 (112-1 學期專題)：**\r\n - **專案主題：** 「**基於Raspberry Pi與MQTT的智慧建築環境監控系統**」。目標是開發一套能即時監測室內溫濕度、空氣品質並能自動調節的系統。\r\n - **職責與貢獻：** 我負責邊緣設備的程式開發與數據處理邏輯。我在 **Raspberry Pi** 上利用 **Python** 撰寫感測器數據採集程式，並透過 **MQTT** 協議將數據發佈至中央服務。同時，我也負責設計邊緣節點的數據初步篩選與異常檢測模組，減少上傳至雲端的資料量。\r\n - **技術棧：** 除了 **Raspberry Pi** 與 **Python** 外，我也運用了 **SQLite** 在本地儲存短期數據，並使用 **Node-RED** 快速搭建了數據流與簡單的控制介面。\r\n - **成果與反思：** 該系統成功在實驗室環境中穩定運行，實現了數據即時可視化與基於規則的自動控制。此專案讓我第一次體會到，在資源受限的邊緣環境中，如何高效地處理數據並兼顧系統的即時響應能力，是一個充滿挑戰但也極具潛力的領域。我意識到，將部分計算負載從雲端遷移至邊緣，能有效降低延遲，提升用戶體驗。\r\n\r\n## 業界磨練：實習與敏捷開發\r\n\r\n為了更全面地了解軟體開發的生命週期與業界實務，我把握機會在「拓星科技」擔任軟體開發實習生，參與實際的商業專案。\r\n\r\n- **拓星科技軟體開發實習生 (112年暑假，為期兩個月)：**\r\n - **公司背景：** 拓星科技是一家專注於提供企業級雲端解決方案的新創公司。\r\n - **職責與貢獻：** 我主要協助開發其內部雲端資源管理平台。我負責撰寫自動化測試腳本，使用 **Python Pytest** 針對後端 **RESTful API** 進行功能與效能測試。此外，我也參與了部分前端介面 (使用 **React** 框架) 的 bug 修正與功能迭代。\r\n - **技術棧：** 我在這段期間接觸了 **Django REST framework**、**PostgreSQL** 以及 **AWS EC2/S3** 等技術。\r\n - **成果與反思：** 我開發的測試套件協助團隊識別並修復了 **15 個** 潛在的 API 錯誤，並將測試覆蓋率提高了 **10%**。這次實習讓我親身體驗了敏捷開發 (Agile Development) 的流程，以及團隊協作、版本控制 (Git) 的重要性。我學會了如何在時間壓力下，以高效、高標準完成任務，並深刻理解了系統測試對於軟體品質的決定性影響。\r\n\r\n## 課外投入：溝通與協作的鍛鍊\r\n\r\n除了技術能力的培養，我也積極參與校園活動，豐富我的大學生活。我曾擔任「**交大校園刊物《思源》編輯**」近兩年，負責文章審閱、排版規劃與校對工作。這段經歷雖然看似與資工領域無關，卻極大地提升了我的溝通、組織與細心程度。編輯工作要求我必須精準理解作者意圖，並以清晰的文字呈現給讀者，這與軟體開發中撰寫技術文件、與團隊成員溝通需求有異曲同工之妙。它讓我意識到，無論技術多強，良好的溝通能力始終是成就任何專案的關鍵。\r\n\r\n## 申請動機：深耕智慧雲端，追求卓越\r\n\r\n回顧過去的學習與實作經驗，我發現自己對「**智慧雲端系統**」與「**邊緣智慧與分散式系統**」有著強烈的探索慾望。尤其是在智慧環境中，如何有效地整合異質感測器數據、在邊緣進行即時分析與決策，並與雲端平台協同運作以實現大規模的智慧化應用，是我目前最感興趣的研究方向。\r\n\r\n我選擇申請貴所，國立交通大學資訊工程學系碩士班，是基於其在資訊科學領域的卓越聲譽，特別是在分散式系統、雲端運算與人工智慧應用方面的深厚研究基礎。貴所擁有頂尖的師資與豐富的學術資源，例如 **吳育松教授在雲端服務與邊緣運算**、**黃世祿教授在分散式系統與儲存** 等領域的研究，都與我的興趣高度契合。我渴望能在貴所的指導下，學習最前沿的技術與理論，參與挑戰性的研究專案，並與優秀的同儕交流學習。\r\n\r\n我深信，我的技術背景、實作經驗、解決問題的能力，以及對新知的好奇心，能讓我成為貴所的優秀研究生成員。我已準備好迎接更深層次的學術挑戰，並期待能為貴所的研究貢獻一份心力，未來成為具備國際視野的頂尖研發人才。\r\n\r\n---\r\n\r\n# 讀書計畫\r\n\r\n## 引言：精進智慧雲端，開創應用新局\r\n\r\n我申請貴所碩士班，目標是成為一名能夠設計、開發並優化智慧雲端與邊緣分散式系統的專業人才。我將結合過去在雲端計算與智慧環境的實作經驗，專注於智慧環境中數據的即時處理、異構資源整合與彈性系統架構研究。這份讀書計畫將詳細闡述我未來兩年的學術與研究規劃。\r\n\r\n## 短期目標 (碩士班第一年：基礎強化與研究融入)\r\n\r\n在碩士班的第一年，我將致力於強化理論基礎，熟悉貴所的學術環境與研究方向，並積極融入實驗室，為論文研究奠定堅實的基礎。\r\n\r\n- **學術課程精修：**\r\n - **高等分散式系統 (Advanced Distributed Systems)：** 深入學習分散式共識演算法 (如 Paxos, Raft)、容錯機制、交易處理等進階概念，理解大規模系統的設計挑戰。\r\n - **雲端運算架構 (Cloud Computing Architectures)：** 探討雲端服務模型 (IaaS, PaaS, SaaS)、虛擬化技術、容器化與無伺服器 (Serverless) 架構的深層原理與優缺點。\r\n - **機器學習 (Machine Learning)：** 回顧並精進機器學習理論，特別關注用於時序數據分析、異常檢測的演算法，為智慧環境中的數據分析打下基礎。\r\n - **演算法設計與分析 (Algorithm Design and Analysis)：** 提升對複雜演算法的理解與設計能力，特別是針對分散式環境下的優化演算法。\r\n- **實驗室與研究準備：**\r\n - **加入研究團隊：** 在第一學期結束前，我計畫積極聯繫並加入與我研究興趣相符的實驗室，例如吳育松教授的實驗室，深入參與其進行中的研究專案。\r\n - **文獻回顧與工具熟悉：** 廣泛閱讀相關領域的頂級會議 (如 SOSP, OSDI, NSDI, EuroSys) 論文，理解目前研究前沿與未解決的問題。同時，熟練掌握更多雲端與邊緣運算工具，如 **Apache Kafka** 進行數據流處理、**Kubeflow** 進行機器學習工作負載管理、**Rust** 或 **Go** 進行高效能系統開發。\r\n - **參與學術討論：** 積極參與實驗室每週的研討會與學術報告，提升批判性思維與表達能力，並從中尋找我的論文切入點。\r\n\r\n## 中期目標 (碩士班第二年：論文研究與成果發表)\r\n\r\n第二年將是論文研究的核心階段，我將專注於選定的研究主題，力求取得創新成果，並目標在學術會議或期刊上發表研究成果。\r\n\r\n- **論文主題確立與研究：**\r\n - **研究方向：** 我的論文預計將圍繞「**基於邊緣雲端協同的智慧環境即時數據處理與彈性服務部署**」展開。具體而言，可能探討：\r\n - **異構邊緣節點資源管理與工作負載調度策略研究**：如何在不同運算能力的邊緣設備上，高效地部署與管理智慧環境服務，並與中心雲端協同。\r\n - **智慧環境數據流的即時異常檢測與輕量級模型推論**：開發在資源受限的邊緣設備上，能進行高效且低延遲的感測器數據異常檢測與預測推論模型。\r\n - **邊緣-雲端間彈性伸縮與服務遷移機制**：研究在智慧環境需求波動時，如何無縫地將服務在邊緣與雲端之間遷移，以優化資源利用與服務品質。\r\n - **研究方法：** 將結合理論分析與系統實作，可能採用 **Kubernetes Edge (KubeEdge)** 或 **OpenYurt** 等邊緣雲端框架進行實驗驗證，並利用 **Python/TensorFlow Lite** 或 **PyTorch Mobile** 實現輕量級機器學習模型。\r\n- **系統原型開發與驗證：**\r\n - 設計並實作一套具備上述研究特點的智慧環境監控或管理系統原型，透過真實感測器數據或模擬數據進行效能評估與驗證。\r\n - 將使用多個邊緣設備 (如 Raspberry Pi 或 Jetson Nano) 搭建實驗平台，模擬真實智慧環境的異構性與分散性。\r\n- **論文撰寫與發表：**\r\n - 逐步撰寫碩士論文，與指導教授定期討論，修正研究方向與內容。\r\n - 目標是將研究成果投稿至 **IEEE Transactions on Cloud Computing (TCC)**、**IEEE Internet of Things Journal (IoT-J)** 等期刊，或 **IEEE ICDCS**、**ACM/IFIP Middleware** 等國際頂級會議。\r\n\r\n## 長期目標 (畢業後：職涯發展與持續學習)\r\n\r\n碩士學位是職涯發展的重要里程碑。畢業後，我期望能將所學應用於業界，持續在雲端計算與智慧系統領域深耕，並不斷學習新知。\r\n\r\n- **職涯發展：**\r\n - 我期望能進入如 Google Cloud, AWS, Microsoft Azure 等領先的雲端服務提供商，擔任**雲端架構師**、**分散式系統工程師**或**資深軟體工程師**，參與核心產品的研發與優化。\r\n - 或者，投身於智慧城市、智慧製造、物聯網等新興領域的科技公司，專注於開發**邊緣智慧解決方案**。\r\n- **持續學習與回饋：**\r\n - 即使進入職場，我仍會保持對最新技術的敏銳度，透過參與線上課程、技術研討會、閱讀專業書籍和論文，不斷提升自身的專業能力。\r\n - 我希望未來能有機會回饋學術界，例如擔任業界講師、參與開源專案，或與大學進行產學合作，將業界經驗與學術研究結合，推動領域發展。\r\n - 期望能將所學應用於解決真實世界的挑戰，特別是在永續發展與提升生活品質的智慧環境應用上，貢獻自己的力量。\r\n\r\n我對進入貴所攻讀碩士學位充滿期待，並深信在貴所的豐富資源與指導下，我能成為一名在智慧雲端與邊緣運算領域具有創新思維與實作能力的專業人才。",
+  "idea_units": [
+    {
+      "id": "7a37a387-24e4-4265-829d-c4a582a26c66",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我是柯薇安，國立交通大學資訊工程學系的學生。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d55b5827-fd47-487d-8cd4-88f463c88904",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "從小對電腦科學抱持著一份無可救藥的熱情，這份熱情驅使我在大學期間積極投入軟體開發與系統建構，特別是對雲端計算與智慧環境的應用，更是產生了濃厚的興趣。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "44a36bff-aac8-4989-8d74-735939ac8f81",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我深信資訊工程不應只停留在實驗室的理論，更應透過實作解決真實世界的問題，建構能讓生活更便捷、更智慧的未來。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "10c2fa61-4b2c-4e34-8600-b20b12cfa4df",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "這份信念也引導我一步步走向貴所，希望能在此深化專業知識，貢獻所學。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3312e4f0-1054-4bf4-83e7-d544bcda3380",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "在大學四年中，我戮力於學業，並從中奠定堅實的資工基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d8ba6088-3678-4a7d-80ac-998054f44215",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我的學業成績表現優異，整體修課平均達 **3.69**。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ed964448-359a-4c15-89de-9e4b6fd10ca0",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "在學期間，我深刻體認到扎實的基礎知識是攀登技術高峰的必要條件，因此無論是「資料結構」、「演算法」、「作業系統」或是「計算機網路」等核心課程，我皆投入大量心力學習，並積極參與課堂討論與實作練習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "38ac9aba-d30f-4962-8fbb-093a939e4831",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "在大二修習「物件導向程式設計」時，我以 **Java** 開發了一套簡易的圖形化檔案管理系統，熟練運用繼承、多型等概念，並透過多執行緒處理檔案操作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4ed2b1fb-1c6b-4eaa-b0ad-4e7118acc5b5",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "學會了軟體設計的模組化與高內聚、低耦合原則。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "584d6732-c0e4-4464-af30-6c644914dcf4",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "在「作業系統」課程中，我與組員共同完成了一個基於 **Linux Kernel** 的行程排程器改進專案，旨在優化多核心環境下的 I/O 密集型任務效能。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b541fcf7-b3f7-41b6-bdbc-735d88cd24dc",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "深入理解了行程管理、記憶體管理與同步機制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "97c34202-3737-4d01-9cae-d79c6ccdd7fd",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "修習「計算機網路」時，我設計並實作了一個具備流量控制與錯誤恢復機制的應用層協定，使用 **Python** 模擬資料傳輸。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dad5cf85-df87-48b7-a519-b1173117cd7a",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "讓我對網路協議的設計與實現有了更直觀的認識。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb1634ae-e687-43e5-8fec-6b252ba0ad69",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "為了將課堂所學付諸實踐，我從大三開始加入吳教授的「分散式系統與雲端應用實驗室」",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c658acee-4f93-4608-acfc-8d6cb468eba0",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "深入研究雲端原生技術與分散式系統的應用。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3da48cef-0a79-4b8a-b876-4c3ccc1e3cbb",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "這段經歷讓我對雲端計算的挑戰與機會有了第一手的體驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e6871c9d-ede2-4ada-9ab8-d532dec588b7",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "專案主題： 「**基於Kubernetes的智慧交通監控微服務平台建構**」。我們旨在開發一個可彈性擴展的系統，處理來自城市各處的即時交通數據。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ec1bdd7d-30e9-41f3-9735-10cee4078185",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我主要負責後端微服務的設計與開發，以及 **Kubernetes** 叢集的部署與維護。我獨立完成了路況分析與車流量預測的微服務，利用 **Python Flask** 框架與 **Redis** 進行快取管理。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "4caebb8d-382a-4b18-a414-f3351fc6dc27",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我熟練運用 **Docker** 進行服務容器化，使用 **Kubernetes** 實現自動部署、負載平衡與服務發現。為了確保系統的穩定性，我也導入了 **Prometheus** 與 **Grafana** 進行即時監控。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fbcf2051-be18-46f7-8ff8-4cb3da86a3fc",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "成功部署了可處理每秒高達 **5000 筆** 交通數據的測試原型，其平均延遲控制在 **100 毫秒** 以內。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "60fc79e7-2ac9-401b-978c-70a66b0f140c",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "這次經驗讓我深刻體會到，在分散式環境中，服務間的通訊韌性與錯誤處理機制至關重要，同時也領悟到良好的 **CI/CD pipeline** (我們使用 **GitLab CI**) 對於加速開發與部署的巨大價值。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a9624486-9310-401d-9c3d-916a7077ab7b",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "延續對雲端與分散式系統的興趣，我進一步將目光投向了智慧環境中的邊緣運算應用",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "75928b96-e82d-44f6-b3f6-f548b409a6b0",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "期望能將雲端的彈性帶到數據源頭。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c5c44c4c-878c-4151-9f7f-c41a7bf8e157",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "專案主題： 「**基於Raspberry Pi與MQTT的智慧建築環境監控系統**」。目標是開發一套能即時監測室內溫濕度、空氣品質並能自動調節的系統。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ba52cb96-591c-470f-9b77-fffdba780066",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我負責邊緣設備的程式開發與數據處理邏輯。我在 **Raspberry Pi** 上利用 **Python** 撰寫感測器數據採集程式，並透過 **MQTT** 協議將數據發佈至中央服務。同時，我也負責設計邊緣節點的數據初步篩選與異常檢測模組，減少上傳至雲端的資料量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "adb04d49-497b-40a8-895d-be7891354920",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "除了 **Raspberry Pi** 與 **Python** 外，我也運用了 **SQLite** 在本地儲存短期數據，並使用 **Node-RED** 快速搭建了數據流與簡單的控制介面。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6c6fb0b3-0f36-4f69-9e92-073050ee6bd9",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "該系統成功在實驗室環境中穩定運行，實現了數據即時可視化與基於規則的自動控制。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "35e7d57e-aa36-4fee-82f4-64242212a4dc",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "此專案讓我第一次體會到，在資源受限的邊緣環境中，如何高效地處理數據並兼顧系統的即時響應能力，是一個充滿挑戰但也極具潛力的領域。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ec5224f6-4fcb-4cec-a75c-ec214e56390a",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我意識到，將部分計算負載從雲端遷移至邊緣，能有效降低延遲，提升用戶體驗。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "39e57811-fa1e-4aaf-9a99-1494ad6ad5c7",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "為了更全面地了解軟體開發的生命週期與業界實務，我把握機會在「拓星科技」擔任軟體開發實習生",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3a5d5a09-2ac0-47a2-9497-7a803882b78e",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "公司背景： 拓星科技是一家專注於提供企業級雲端解決方案的新創公司。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "05264ee8-04ac-4072-bf8c-573407650056",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我主要協助開發其內部雲端資源管理平台。我負責撰寫自動化測試腳本，使用 **Python Pytest** 針對後端 **RESTful API** 進行功能與效能測試。此外，我也參與了部分前端介面 (使用 **React** 框架) 的 bug 修正與功能迭代。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "16075e25-9493-4787-a522-4f4c0c814500",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我在這段期間接觸了 **Django REST framework**、**PostgreSQL** 以及 **AWS EC2/S3** 等技術。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1c1cf4bf-52a3-4b0b-95c0-e8e397fefb6d",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我開發的測試套件協助團隊識別並修復了 **15 個** 潛在的 API 錯誤，並將測試覆蓋率提高了 **10%**。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "42f20abb-44e6-40f5-a95a-d369bec36142",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "這次實習讓我親身體驗了敏捷開發 (Agile Development) 的流程，以及團隊協作、版本控制 (Git) 的重要性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "97830812-9d74-41cd-adb2-1ec4bbcdaae1",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我學會了如何在時間壓力下，以高效、高標準完成任務，並深刻理解了系統測試對於軟體品質的決定性影響。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ba9866ac-26fd-4232-b008-51e3f4ccae69",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "除了技術能力的培養，我也積極參與校園活動，豐富我的大學生活。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8718104f-f7b8-4c2f-bb89-1b67a0fc8c19",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我曾擔任「**交大校園刊物《思源》編輯**」近兩年，負責文章審閱、排版規劃與校對工作。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "15d649ee-e9e7-483d-8698-f0111174ccc5",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "這段經歷雖然看似與資工領域無關",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "3363bfbd-678f-4cb8-8c7b-8b4ef6c7deea",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "卻極大地提升了我的溝通、組織與細心程度。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ab8e9de9-a461-4ad1-91d3-1c43cd2c5aa3",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "編輯工作要求我必須精準理解作者意圖，並以清晰的文字呈現給讀者，這與軟體開發中撰寫技術文件、與團隊成員溝通需求有異曲同工之妙。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ce74f3c0-6d57-48ad-88e7-01c7a4a4d13a",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "它讓我意識到，無論技術多強，良好的溝通能力始終是成就任何專案的關鍵。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ad30f5ad-3912-440b-9ffd-ddc69dca5a33",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "回顧過去的學習與實作經驗，我發現自己對「**智慧雲端系統**」與「**邊緣智慧與分散式系統**」有著強烈的探索慾望。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "0d3e5eae-34fa-4aa5-9969-87e36e10e1d9",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "尤其是在智慧環境中，如何有效地整合異質感測器數據、在邊緣進行即時分析與決策，並與雲端平台協同運作以實現大規模的智慧化應用，是我目前最感興趣的研究方向。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "459683d9-9145-4d9d-8969-2bd505354535",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我選擇申請貴所，國立交通大學資訊工程學系碩士班，是基於其在資訊科學領域的卓越聲譽，特別是在分散式系統、雲端運算與人工智慧應用方面的深厚研究基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "878ad94e-2502-4170-bea9-da101a82167e",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "貴所擁有頂尖的師資與豐富的學術資源，例如 **吳育松教授在雲端服務與邊緣運算**、**黃世祿教授在分散式系統與儲存** 等領域的研究，都與我的興趣高度契合。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8d8528f4-c2d7-49f4-8308-2dc7668a936e",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我渴望能在貴所的指導下，學習最前沿的技術與理論，參與挑戰性的研究專案，並與優秀的同儕交流學習。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "1c3f92ff-801f-4c04-8d47-018305c327b6",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我深信，我的技術背景、實作經驗、解決問題的能力，以及對新知的好奇心，能讓我成為貴所的優秀研究生成員。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "bb241427-3af6-4c32-85da-7de89963d670",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "我已準備好迎接更深層次的學術挑戰",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "7a839b78-5f02-4ccf-b1b0-c2387e587867",
+      "candidate_id": "mock_45",
+      "section": "自傳",
+      "content": "並期待能為貴所的研究貢獻一份心力，未來成為具備國際視野的頂尖研發人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "8c8f9c7c-ea6a-4b9d-aa5c-22f63f410904",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "我申請貴所碩士班，目標是成為一名能夠設計、開發並優化智慧雲端與邊緣分散式系統的專業人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f7f849b5-fc02-4f39-8891-672ed086cb05",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "我將結合過去在雲端計算與智慧環境的實作經驗，專注於智慧環境中數據的即時處理、異構資源整合與彈性系統架構研究。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "6bb407c0-8ec7-44bf-b7c8-4b99e98401a4",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "這份讀書計畫將詳細闡述我未來兩年的學術與研究規劃。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "be7345bf-3199-40f3-936b-df31da9be99d",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "在碩士班的第一年，我將致力於強化理論基礎，熟悉貴所的學術環境與研究方向，並積極融入實驗室，為論文研究奠定堅實的基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c1a6cde0-f9b9-46d2-bb2c-bda1379c6df1",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**高等分散式系統 (Advanced Distributed Systems)：** 深入學習分散式共識演算法 (如 Paxos, Raft)、容錯機制、交易處理等進階概念，理解大規模系統的設計挑戰。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "a2fb7a3a-0b58-49b6-a392-fd557aff5972",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**雲端運算架構 (Cloud Computing Architectures)：** 探討雲端服務模型 (IaaS, PaaS, SaaS)、虛擬化技術、容器化與無伺服器 (Serverless) 架構的深層原理與優缺點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "e6e284c2-16ab-4023-8bf8-7d472d317398",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**機器學習 (Machine Learning)：** 回顧並精進機器學習理論，特別關注用於時序數據分析、異常檢測的演算法，為智慧環境中的數據分析打下基礎。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9eeb67e0-7645-4582-aa43-f480d8901458",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**演算法設計與分析 (Algorithm Design and Analysis)：** 提升對複雜演算法的理解與設計能力，特別是針對分散式環境下的優化演算法。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fcb7cd34-40af-4f42-b081-d8453bcd9dc7",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**加入研究團隊：** 在第一學期結束前，我計畫積極聯繫並加入與我研究興趣相符的實驗室，例如吳育松教授的實驗室，深入參與其進行中的研究專案。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "dc1857be-3be9-4790-910c-4fa1d941b571",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**文獻回顧與工具熟悉：** 廣泛閱讀相關領域的頂級會議 (如 SOSP, OSDI, NSDI, EuroSys) 論文，理解目前研究前沿與未解決的問題。同時，熟練掌握更多雲端與邊緣運算工具，如 **Apache Kafka** 進行數據流處理、**Kubeflow** 進行機器學習工作負載管理、**Rust** 或 **Go** 進行高效能系統開發。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2123aca1-9020-4aac-907f-8751081eb669",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**參與學術討論：** 積極參與實驗室每週的研討會與學術報告，提升批判性思維與表達能力，並從中尋找我的論文切入點。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "86dd6a5e-0810-4b33-9026-22cbbba4dc7d",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "第二年將是論文研究的核心階段，我將專注於選定的研究主題，力求取得創新成果，並目標在學術會議或期刊上發表研究成果。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b18ce0f4-9d86-4bb7-ba82-8c896502dccc",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**研究方向：** 我的論文預計將圍繞「**基於邊緣雲端協同的智慧環境即時數據處理與彈性服務部署**」展開。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "64e92a4b-98bd-4e12-99b1-9819399d5cf3",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "具體而言，可能探討：**異構邊緣節點資源管理與工作負載調度策略研究**：如何在不同運算能力的邊緣設備上，高效地部署與管理智慧環境服務，並與中心雲端協同。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "b657bba9-ad86-4cc5-9c65-2a2c3d44e107",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**智慧環境數據流的即時異常檢測與輕量級模型推論**：開發在資源受限的邊緣設備上，能進行高效且低延遲的感測器數據異常檢測與預測推論模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "f352c302-686e-4608-a2dc-987e91fd91af",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**邊緣-雲端間彈性伸縮與服務遷移機制**：研究在智慧環境需求波動時，如何無縫地將服務在邊緣與雲端之間遷移，以優化資源利用與服務品質。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "046b6198-17c6-491a-840e-9809a2ebc49e",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "**研究方法：** 將結合理論分析與系統實作，可能採用 **Kubernetes Edge (KubeEdge)** 或 **OpenYurt** 等邊緣雲端框架進行實驗驗證，並利用 **Python/TensorFlow Lite** 或 **PyTorch Mobile** 實現輕量級機器學習模型。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "35c0d684-4ea4-4542-9ff2-4589287427ec",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "設計並實作一套具備上述研究特點的智慧環境監控或管理系統原型，透過真實感測器數據或模擬數據進行效能評估與驗證。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "2830d6f5-c824-494d-8a6d-977c6d217ee5",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "將使用多個邊緣設備 (如 Raspberry Pi 或 Jetson Nano) 搭建實驗平台，模擬真實智慧環境的異構性與分散性。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "841bc44f-b9e3-408c-940e-c65bbb5934c4",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "逐步撰寫碩士論文，與指導教授定期討論，修正研究方向與內容。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "d893fcd3-fb36-452f-ab5d-8e7eb6ec243b",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "目標是將研究成果投稿至 **IEEE Transactions on Cloud Computing (TCC)**、**IEEE Internet of Things Journal (IoT-J)** 等期刊，或 **IEEE ICDCS**、**ACM/IFIP Middleware** 等國際頂級會議。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "c20d8967-ef60-456d-bbc2-16c728327c13",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "碩士學位是職涯發展的重要里程碑。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "ff0ac54c-2830-46ac-8355-4b21f3944819",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "畢業後，我期望能將所學應用於業界，持續在雲端計算與智慧系統領域深耕，並不斷學習新知。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "fd166e10-cc2e-4e9a-b8a1-01d20687e55b",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "我期望能進入如 Google Cloud, AWS, Microsoft Azure 等領先的雲端服務提供商，擔任**雲端架構師**、**分散式系統工程師**或**資深軟體工程師**，參與核心產品的研發與優化。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "978e87fd-4661-4035-9cfe-39a2c7d42013",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "或者，投身於智慧城市、智慧製造、物聯網等新興領域的科技公司，專注於開發**邊緣智慧解決方案**。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "814f1284-bc09-44d1-82ae-534eec9b1ad7",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "即使進入職場，我仍會保持對最新技術的敏銳度，透過參與線上課程、技術研討會、閱讀專業書籍和論文，不斷提升自身的專業能力。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "9ea8445f-fa6c-4eea-98fb-97cf1eaf61f9",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "我希望未來能有機會回饋學術界，例如擔任業界講師、參與開源專案，或與大學進行產學合作，將業界經驗與學術研究結合，推動領域發展。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "80c13293-3860-4ff7-a600-1bf67fa4dc8d",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "期望能將所學應用於解決真實世界的挑戰，特別是在永續發展與提升生活品質的智慧環境應用上，貢獻自己的力量。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    },
+    {
+      "id": "542dc9e9-1c42-46e6-9a00-a3f8a2ff7830",
+      "candidate_id": "mock_45",
+      "section": "讀書計畫",
+      "content": "我對進入貴所攻讀碩士學位充滿期待，並深信在貴所的豐富資源與指導下，我能成為一名在智慧雲端與邊緣運算領域具有創新思維與實作能力的專業人才。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": []
+    }
+  ]
+}
