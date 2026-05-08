@@ -12,7 +12,8 @@
       "content": "我是鄭承佑，來自國立臺北科技大學資訊工程系。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "2b286c37-d48a-44a8-8277-8061c57f238d",
@@ -25,7 +26,10 @@
       "sub_criteria_map": {
         "C4": "專業信念闡述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "7dba2a5d-ee80-4a24-b830-4d08ec2e5ef4",
@@ -43,7 +47,10 @@
         "NLP",
         "語意理解",
         "人工智慧"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "2ce91a5d-0c53-47b2-8d93-84ffe1169f94",
@@ -52,7 +59,8 @@
       "content": "申請貴所，是希望能在一流的學術環境中，深化我對NLP技術的理解，特別是在AI倫理框架下，探索更負責任且高效的語意智慧應用。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "e41b5ca5-ed71-48b6-9f5a-92f193ff8dc1",
@@ -68,7 +76,10 @@
       "hashtags": [
         "北科資工系",
         "修課平均2.87"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "fd3379da-6224-4cbf-8c04-5c13d43704cd",
@@ -87,7 +98,11 @@
         "專題實作",
         "研究實作",
         "解決問題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "ef46b4f8-116e-4605-8609-2b8939734393",
@@ -96,7 +111,8 @@
       "content": "我將所學融會貫通於多項技術專案中，致力於培養紮實的軟體開發能力與研究思維。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "d455e9db-5b24-4cdc-ab3c-af0d3a11bd3c",
@@ -114,7 +130,10 @@
         "中文政治文本",
         "情緒探測系統",
         "議題探測系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "f999863c-1a15-40a5-976b-5843f0f86f7a",
@@ -130,7 +149,10 @@
       "hashtags": [
         "111學年度下學期",
         "112學年度上學期"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "679962df-7d88-424d-8c8c-e7060248f834",
@@ -145,7 +167,10 @@
       },
       "hashtags": [
         "語意智能研究室"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "1e4d0532-0012-4cdb-8b6b-210083f3754e",
@@ -163,7 +188,10 @@
         "社群媒體文本",
         "情緒極性分析",
         "核心議題探測"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "b7ec0494-3356-44cf-ba32-87cf93402fc4",
@@ -181,7 +209,10 @@
         "網路爬蟲",
         "jieba",
         "中文斷詞"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "dc0b98bc-9741-40c5-a27a-cbb49485b130",
@@ -199,7 +230,10 @@
         "Hugging Face Transformers",
         "BERT-base-chinese",
         "文本分類"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "05b37c7b-0bab-44eb-89e5-c4f40600e63a",
@@ -221,7 +255,11 @@
         "Synonym Replacement",
         "EDA",
         "遷移學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "74a0d669-e663-4399-acfa-d8ce0aa5773f",
@@ -239,7 +277,10 @@
         "參數優化",
         "F1-score",
         "政治文本資料集"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "32eabe92-94a2-42f9-8f33-f9517c052e46",
@@ -256,7 +297,10 @@
         "中文語意複雜性",
         "預訓練模型潛力",
         "領域微調"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "fe39cd0c-27a6-4ae9-9cf4-0595036c3f4b",
@@ -272,7 +316,10 @@
       "hashtags": [
         "資料品質",
         "模型效能"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "6212d680-3e96-4332-90cb-ebface2ac92d",
@@ -289,7 +336,10 @@
         "自學專案",
         "社群媒體假訊息",
         "倫理風險評估"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "b089afde-6f6b-49eb-9dab-2e1a1ee600ee",
@@ -309,7 +359,11 @@
         "社群媒體假訊息",
         "合作開發",
         "原型系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "d48551f9-d521-459b-aa22-12a83d37901e",
@@ -329,7 +383,11 @@
         "偏見風險",
         "社群影響",
         "倫理評估"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "bc0c1ad2-afac-45aa-848c-2b07837d585a",
@@ -347,7 +405,10 @@
         "關鍵詞提取",
         "命名實體識別",
         "TF-IDF算法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "4b231efc-c652-4024-bd5a-43d3f463d641",
@@ -367,7 +428,11 @@
         "假訊息分析",
         "評分機制設計",
         "量化分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "1559dcc1-8963-47fb-8094-400d33506d43",
@@ -383,7 +448,10 @@
       "hashtags": [
         "倫理原則",
         "量化技術指標"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "75a2d160-d141-458d-bb01-b286ea0126e8",
@@ -399,7 +467,10 @@
       "hashtags": [
         "模型偏見",
         "偏見源頭識別"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "54b9632b-e96b-4ec2-87c5-eeafe9985fa6",
@@ -415,7 +486,10 @@
       "hashtags": [
         "原型系統",
         "倫理風險文本"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "ebb940c4-ecd3-43df-96f6-6b0973287efe",
@@ -431,7 +505,10 @@
       "hashtags": [
         "AI應用潛力",
         "社會責任"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "d3f4288b-8bb9-4d10-ba31-dc327e384c6a",
@@ -447,7 +524,10 @@
       "hashtags": [
         "AI倫理",
         "技術開發整合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "d66755b1-ec74-4d63-8f22-95598effae48",
@@ -466,7 +546,11 @@
         "AI倫理讀書會",
         "跨系交流",
         "社群發起"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "6ad72f9f-fe11-4987-b721-556c7b7fb7f4",
@@ -485,7 +569,11 @@
         "AI倫理挑戰",
         "社會影響",
         "學術討論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "0d714199-4bc1-478c-be76-03a0ccc0a21c",
@@ -503,7 +591,10 @@
         "演算法偏見",
         "數據隱私權",
         "AI公平性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "d4f48027-3faa-4b7e-9794-dff8c0f938a2",
@@ -521,7 +612,10 @@
         "隱私爭議",
         "大型語言模型",
         "不當言論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "d071a905-79d0-4c0d-9b6f-f86b47504e52",
@@ -538,7 +632,10 @@
         "AI倫理",
         "Coded Bias",
         "紀錄片討論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "37b70e5d-0625-4ab3-969d-281ef9b7543c",
@@ -556,7 +653,10 @@
         "批判性思維",
         "跨領域溝通",
         "AI議題審視"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "da89783a-541c-49a1-9749-2239fcbdc70d",
@@ -573,7 +673,10 @@
         "負責任AI",
         "技術倫理結合",
         "職涯志向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "bd2a9e67-0bc9-414d-b9c1-2cc8ba1b9373",
@@ -593,7 +696,11 @@
         "語意理解",
         "模型歧視",
         "模型偏見"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "897ea33f-78dc-463e-a7a9-1f85dbca8d82",
@@ -606,7 +713,10 @@
       "sub_criteria_map": {
         "C4": "申請動機闡述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "8c88392c-bae5-4b01-a832-51e54eb52db7",
@@ -623,7 +733,10 @@
         "資訊工程",
         "自然語言處理",
         "機器學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "a5280b8c-87a6-430b-aec9-d8896de6af90",
@@ -640,7 +753,10 @@
         "智慧計算組",
         "語意理解",
         "可解釋性AI"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "6276ad82-c9b7-4ea3-881e-22af4b4208b0",
@@ -659,7 +775,11 @@
         "NLP技術",
         "AI倫理",
         "未來研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "dedc0946-b017-4c12-942c-1eb9d002e40e",
@@ -680,7 +800,11 @@
         "研究團隊貢獻",
         "公平AI",
         "可信賴AI"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "9268a3b5-8b18-4a14-918f-548f2c2bd360",
@@ -699,7 +823,11 @@
         "AI倫理",
         "獨特視角",
         "實作經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "9105cc7a-c6ae-403b-aee9-0892a2b87960",
@@ -718,7 +846,11 @@
         "自然語言處理",
         "語意理解",
         "模型倫理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "c7847d33-a6b5-4c8d-9974-0df4fb67392a",
@@ -731,7 +863,10 @@
       "sub_criteria_map": {
         "C4": "研究學習規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "38854f67-f9e3-4d1b-b7b3-f1dcd57d8493",
@@ -750,7 +885,11 @@
         "進階NLP",
         "語意理解",
         "AI倫理框架"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "a4d1234b-d731-47c7-8d74-e3069a4e20f0",
@@ -769,7 +908,11 @@
         "大型語言模型",
         "LLM偏見",
         "語意理解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "0933b756-55b5-4b3a-a08b-971f256ea94b",
@@ -789,7 +932,11 @@
         "公平性模型",
         "倫理風險量化",
         "語意理解模型"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "be2375e0-5e6b-4e14-a11c-55a84877111f",
@@ -802,7 +949,10 @@
       "sub_criteria_map": {
         "C4": "研究環境融入規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "d476f3ed-330d-42aa-ba1b-66745a592e38",
@@ -819,7 +969,10 @@
         "進階NLP",
         "Transformer",
         "模型架構"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "cfc0b57b-9d75-483e-acda-03bb91e453c6",
@@ -839,7 +992,11 @@
         "深度學習",
         "模型訓練",
         "優化技巧"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "16376920-54b9-45f9-9c27-f5d2c6aaafad",
@@ -859,7 +1016,11 @@
         "AI倫理",
         "法律規範",
         "社會影響"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "369cbac2-3c94-4dc7-a8bc-5c2e0aefd369",
@@ -876,7 +1037,10 @@
         "計算語言學",
         "語言學理論",
         "計算方法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "ca2710c5-0073-497b-81a6-1550ceb546e7",
@@ -895,7 +1059,10 @@
         "AI倫理",
         "智慧計算實驗室",
         "可信賴人工智慧研究室"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "55bea060-d5df-4c7b-a7ad-1ad5dd239324",
@@ -913,7 +1080,10 @@
         "研究方法",
         "問題定義",
         "論文寫作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "5a3f26b6-eefd-469a-ba99-d859eb2a4bae",
@@ -931,7 +1101,10 @@
         "模型部署",
         "效能評估",
         "實驗室專案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "7d339432-f1e5-4afe-b89d-b0f2edd3fdca",
@@ -949,7 +1122,10 @@
         "PyTorch",
         "TensorFlow",
         "深度學習框架"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "576d704d-7113-49bb-aa08-ed59f93bbd57",
@@ -966,7 +1142,10 @@
         "NLP",
         "經典論文",
         "最新研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "e1c6dea3-daab-4685-b0d1-0e989d6011a4",
@@ -982,7 +1161,10 @@
       "hashtags": [
         "個人論文研究",
         "學術界發聲"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "eea12fc7-08c0-426c-891d-130697651fec",
@@ -1003,7 +1185,11 @@
         "語意偏見偵測",
         "可解釋性AI倫理",
         "自然語言理解模型"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "10cd7cb6-1d07-416f-b1dd-6c7e024000f2",
@@ -1024,7 +1210,11 @@
         "模型選擇",
         "實驗驗證",
         "結果分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "26460e22-97c1-48a2-90f9-b07e833cdf79",
@@ -1045,7 +1235,11 @@
         "模型可解釋性",
         "公平性指標",
         "損失函數"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "b3d37903-edbc-49f6-b215-a3799e5b7288",
@@ -1062,7 +1256,10 @@
         "模型優化",
         "大規模訓練",
         "計算資源利用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "8547824c-b754-4844-8ebb-62dd9495debc",
@@ -1082,7 +1279,11 @@
         "圖神經網路",
         "對抗生成網路",
         "去偏見資料"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "0671d9b2-c02e-4781-8976-f67f2737a4a6",
@@ -1091,7 +1292,8 @@
       "content": "將研究成果撰寫成學術論文，目標投稿至國內外重要學術研討會（如 ACL, EMNLP, COLING 或 TAAI）或期刊。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "5c1a3fc8-e046-4038-b3fc-2b48927fadbc",
@@ -1108,7 +1310,10 @@
         "學術研討會",
         "工作坊",
         "人脈擴展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "3b964c00-9314-447a-b611-c1f86ffc5d81",
@@ -1127,7 +1332,10 @@
         "負責任AI",
         "研究員",
         "工程師"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "40a9574c-ace4-41b0-a6b5-d10ee67fedcb",
@@ -1147,7 +1355,11 @@
         "社會責任AI",
         "技術領先",
         "永續發展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "6933271d-dfcd-40af-9234-5d857ab2c0c0",
@@ -1164,7 +1376,10 @@
         "社會貢獻",
         "AI普惠",
         "知識技能應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     }
   ]
 }

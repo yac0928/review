@@ -19,7 +19,10 @@
       "hashtags": [
         "臺灣科技大學",
         "資訊工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "1a27670a-bab7-4619-9900-a31398c6c48f",
@@ -36,7 +39,10 @@
         "資訊科技好奇",
         "程式設計興趣",
         "系統開發興趣"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "b472b104-7e25-495c-a66e-2c69dc2bf5dd",
@@ -49,7 +55,10 @@
       "sub_criteria_map": {
         "C4": "學習態度積極"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "35799267-f463-493f-aa97-df93b1f98ba8",
@@ -62,7 +71,10 @@
       "sub_criteria_map": {
         "C1": "學業成績自述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "51792014-ff36-44e1-a301-685d53afccae",
@@ -75,7 +87,10 @@
       "sub_criteria_map": {
         "C4": "實作價值觀"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "7e264335-dbfb-4b2c-af24-ce96ff33e0c1",
@@ -88,7 +103,10 @@
       "sub_criteria_map": {
         "C2": "專案研究投入"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "d2c87be7-b77c-495e-b6aa-b942c619b09b",
@@ -105,7 +123,10 @@
         "程式語言",
         "資料結構",
         "演算法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "17bdb0b4-7d56-42b2-9d17-6b82066ee9cc",
@@ -118,7 +139,10 @@
       "sub_criteria_map": {
         "C1": "學術挑戰面對"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "17bb8347-23b3-4580-809f-147467525e5f",
@@ -133,7 +157,10 @@
       },
       "hashtags": [
         "解決問題成就感"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "efb516c1-0d1f-46ad-a40d-8becaaaa85b2",
@@ -151,7 +178,11 @@
       "hashtags": [
         "分組專題",
         "技術研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "04b1ef54-0997-4e0d-8d62-737824b38817",
@@ -164,7 +195,10 @@
       "sub_criteria_map": {
         "C4": "學習反思與成長"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "594638f3-0f8b-427d-b644-b3129e974645",
@@ -179,7 +213,10 @@
       },
       "hashtags": [
         "多媒體區塊鏈應用實驗室"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "f69ce052-8591-4efb-b5ac-d5914f3b207c",
@@ -192,7 +229,10 @@
       "sub_criteria_map": {
         "C4": "技術能力成長"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "fdd8e2dd-0e82-4189-87c5-49fd2e6a2860",
@@ -208,7 +248,10 @@
       "hashtags": [
         "區塊鏈多媒體防偽系統",
         "多媒體內容分享系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "8613a53a-b555-4e9a-bf67-d75d6ea5c5c5",
@@ -225,7 +268,10 @@
         "區塊鏈技術",
         "數位多媒體內容真實性",
         "安全分享"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "fa3e5b8d-cbf4-40f5-9ee3-995e755dbf72",
@@ -238,7 +284,10 @@
       "sub_criteria_map": {
         "C3": "挑戰性認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "應變與韌性"
+      }
     },
     {
       "id": "a44353b4-6f19-4a4f-93f0-5164b442d7a1",
@@ -254,7 +303,10 @@
       "hashtags": [
         "多媒體檔案",
         "區塊鏈整合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "b97d6914-1a07-489e-9395-7b60cd82c7a0",
@@ -271,7 +323,10 @@
         "前端介面設計",
         "後端資料庫整合",
         "智能合約撰寫"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "9456ec0f-321b-41c7-834f-b0055f279c9b",
@@ -288,7 +343,10 @@
         "資料處理效率",
         "區塊鏈特性",
         "處理速度慢"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "30976b41-a1c8-4647-9d58-baee0881e4a8",
@@ -303,7 +361,10 @@
       },
       "hashtags": [
         "最佳化思考"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "c1184e68-44b9-435c-8759-2d5f207c27ba",
@@ -322,7 +383,11 @@
         "區塊鏈原理",
         "多媒體內容處理",
         "解決實際問題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "f63e4abd-f0b9-4433-b6f9-0b22d022f5c7",
@@ -335,7 +400,10 @@
       "sub_criteria_map": {
         "C4": "實作經驗反思"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "0a6e5989-a498-4e37-9649-31c387556ffb",
@@ -352,7 +420,10 @@
         "未來視野科技工作室",
         "新創公司",
         "兼職開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "22a955ba-9b78-4332-8dd4-b99be17d0b8d",
@@ -369,7 +440,10 @@
         "行動應用程式",
         "多媒體內容管理",
         "去中心化概念"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "282424e0-5825-4179-ab55-b514609b1b8e",
@@ -386,7 +460,10 @@
         "業界開發流程",
         "時間壓力管理",
         "團隊協作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "b3eb3da3-32df-4b7b-b473-bcdfddbe0a14",
@@ -402,7 +479,10 @@
       "hashtags": [
         "概念發想",
         "實際部署"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "c97aee92-528d-4d08-8229-69ef8b18cb02",
@@ -417,7 +497,10 @@
       },
       "hashtags": [
         "軟體產品開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "dc15ebd8-3c62-43cb-8ba0-d8bc488391de",
@@ -434,7 +517,10 @@
         "區塊鏈技術研究社",
         "區塊鏈應用",
         "社團交流"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "629fae4d-1a3d-4c2e-b66d-cad1bb50a467",
@@ -451,7 +537,10 @@
         "資工領域熱情",
         "新興技術應用",
         "實際問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "4718a25e-5892-4117-8d42-dc267eb511d0",
@@ -467,7 +556,10 @@
       "hashtags": [
         "繼續深造",
         "技術潛力探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "96422bd0-4bc4-4df6-803b-c7bebe536755",
@@ -480,7 +572,10 @@
       "sub_criteria_map": {
         "C4": "學習成長動機"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "5f2a5de7-591a-4faf-954c-dfc557921219",
@@ -493,7 +588,10 @@
       "sub_criteria_map": {
         "C4": "碩士班投入決心"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "26767bae-03a3-496c-83e8-ea4b42aa84d6",
@@ -509,7 +607,10 @@
       "hashtags": [
         "學習計畫",
         "階段規劃"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "da81e03c-b3b0-452d-ac30-3666c85d6065",
@@ -525,7 +626,10 @@
       "hashtags": [
         "核心課程",
         "基礎知識"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "9a83793c-127d-4e85-8d9d-2e26cf71fb6c",
@@ -541,7 +645,10 @@
       "hashtags": [
         "基礎知識",
         "深入研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "187e73e7-0dca-4c12-a66c-8b44b4896d98",
@@ -558,7 +665,10 @@
         "高等演算法",
         "高等資料結構",
         "學術補強"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "91057acc-65db-4234-a2f0-8fd76891d3ac",
@@ -576,7 +686,10 @@
         "區塊鏈",
         "網路安全",
         "實驗室探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "0bd2d814-2207-4d89-9370-db6a1ebf23ab",
@@ -594,7 +707,10 @@
         "學長姐請教",
         "實驗室參與",
         "研究規劃"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "19d3bfe0-08cd-46a3-b1ae-acdad22cd4ff",
@@ -610,7 +726,10 @@
       "hashtags": [
         "學術期刊",
         "研究發展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "818a9672-85d9-49a0-86e4-4814cdc1d611",
@@ -626,7 +745,10 @@
       "hashtags": [
         "專案研究",
         "實驗室研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "dfb1aa64-9097-425e-adbf-18cefd564def",
@@ -646,7 +768,11 @@
         "區塊鏈",
         "研究方法",
         "新技術學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "3cdde6d0-8177-4606-bd14-b3c238bd3056",
@@ -666,7 +792,11 @@
         "主動學習",
         "問題解決",
         "討論交流"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "6ef3b1c5-4fda-4ace-bf63-d2c7a8950bdc",
@@ -685,7 +815,11 @@
         "碩士論文",
         "研究方向",
         "潛力評估"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "fb76fd11-41fe-42dd-8234-3c901d83538c",
@@ -705,7 +839,11 @@
         "實驗設計",
         "資料分析",
         "模型建構"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "5d768b49-c40b-4f1c-b5ad-3be73ebba372",
@@ -725,7 +863,11 @@
         "工作坊",
         "研討會",
         "專業視野"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "4aac1de5-92ce-4be8-bc6e-d2a9d7b75ddf",
@@ -744,7 +886,11 @@
         "研究經驗",
         "獨立思考",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "1ee1dc5b-9ded-4387-865a-d3504760feb4",
@@ -760,7 +906,10 @@
       "hashtags": [
         "職涯發展",
         "知識應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "48e37747-3dc3-4e13-bfd2-2fee1f05e758",
@@ -779,7 +928,10 @@
         "系統架構",
         "博士學位",
         "學術深耕"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "b6d2ffcb-d1eb-4627-9e48-806d81e88571",
@@ -797,7 +949,10 @@
         "新技術適應",
         "社會貢獻",
         "科技進步"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "db36b258-635e-4127-8af1-a42da8b599e8",
@@ -815,7 +970,10 @@
         "區塊鏈技術",
         "專業能力提升",
         "科技創新"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     }
   ]
 }

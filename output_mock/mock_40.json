@@ -19,7 +19,10 @@
       "hashtags": [
         "臺北科技大學",
         "電機工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "850d50d7-7c73-4de3-a2ef-7cf112cac826",
@@ -32,7 +35,10 @@
       "sub_criteria_map": {
         "C4": "學習熱情與動機"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "f1f922b3-ebb7-421d-a81d-4d53338b7668",
@@ -49,7 +55,10 @@
         "電機",
         "生物醫學",
         "科技應用願景"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "45edc2ed-13b5-40cc-9047-d4f98b82a484",
@@ -66,7 +75,10 @@
         "電路",
         "訊號處理",
         "電機系訓練"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "fd1ee98d-3286-4eb2-b5c1-abb74dd84d07",
@@ -86,7 +98,11 @@
         "機器學習",
         "醫學影像分析",
         "資訊工程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "1c2d237e-478d-4f19-bfc9-b4e4826e4c35",
@@ -99,7 +115,10 @@
       "sub_criteria_map": {
         "C1": "學業成績陳述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "a7fac471-ceda-4858-a21d-4faa899c781d",
@@ -115,7 +134,10 @@
       "hashtags": [
         "興趣摸索",
         "基礎科目學習挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "448fb948-14a6-416f-9360-91b572038680",
@@ -131,7 +153,10 @@
       "hashtags": [
         "工程技術應用",
         "醫學問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "3947a27a-a5d9-4dda-ac15-b8f8ade2cd10",
@@ -148,7 +173,10 @@
         "自學",
         "應用機會探索",
         "學習曲線提升"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "ef15d24f-cb96-4c02-9eb4-d2b4fffda522",
@@ -168,7 +196,11 @@
         "多元思考",
         "主動探索",
         "問題解決能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "40eadd84-a4e0-41a3-9798-1a738331fe88",
@@ -185,7 +217,10 @@
         "電機工程",
         "資訊工程",
         "醫學影像分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "2c6c71c4-4781-4edf-8bfe-ad46216581f8",
@@ -194,7 +229,8 @@
       "content": "我的電機系背景讓我對訊號的擷取、處理與雜訊抑制有深入的理解，這正是醫學影像前處理的關鍵。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "b1acf2c3-b553-4330-af24-56d135083765",
@@ -211,7 +247,10 @@
         "資訊工程演算法",
         "人工智慧技術",
         "影像資料價值"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "862c1a0c-af69-4888-81d6-7b0b7401b8ea",
@@ -232,7 +271,11 @@
         "影像與幾何計算",
         "生物特徵提取",
         "疾病診斷輔助"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "219b040f-9261-4489-9e95-dba30b38a108",
@@ -247,7 +290,10 @@
       },
       "hashtags": [
         "數位影像處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "57077c38-b5db-49b7-ac79-ecd97e15871a",
@@ -265,7 +311,10 @@
         "影像濾波",
         "邊緣偵測",
         "影像分割"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "7d303994-5bfc-4617-8321-af40bba7c232",
@@ -281,7 +330,10 @@
       "hashtags": [
         "醫學影像處理",
         "病灶區域顯示"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "f7ac3a79-ceaa-4c78-b9d1-3c69ac270536",
@@ -294,7 +346,10 @@
       "sub_criteria_map": {
         "C1": "基礎課程認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "8b5e2fde-e634-4bd4-b5aa-550cfe36fc94",
@@ -309,7 +364,10 @@
       },
       "hashtags": [
         "影像資訊轉化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "d34ce976-2a78-499e-b716-3a40d4a9a5f5",
@@ -329,7 +387,11 @@
         "Python",
         "OpenCV",
         "影像處理演算法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長",
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "80ebe953-0eb5-4aa2-a23d-f5f404092700",
@@ -347,7 +409,10 @@
         "Coursera",
         "監督式學習",
         "非監督式學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "1ab1fb9c-b22a-493d-9ac2-82ce417efdb5",
@@ -365,7 +430,10 @@
         "病徵辨識",
         "機器學習",
         "深度學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "fc106cca-0d05-4413-92ba-fedc7aa6d1cf",
@@ -381,7 +449,10 @@
       "hashtags": [
         "模型訓練",
         "病理變化識別"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "1eb1f8cf-c360-4507-a405-c454cefee5fc",
@@ -399,7 +470,11 @@
       "hashtags": [
         "演算法知識",
         "醫學領域理解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "c0001978-5ec4-4b61-89e2-f09e44f322c6",
@@ -416,7 +491,10 @@
         "電機背景",
         "訊號物理特性",
         "影像物理特性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "1f7adb68-25f8-414f-b639-47f0cf6bc3f2",
@@ -425,7 +503,8 @@
       "content": "而對資工的熱情則驅使我學習更先進的計算方法。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "0cec071b-2fb5-4bc3-a128-80ffca1f0d0b",
@@ -441,7 +520,10 @@
       "hashtags": [
         "跨域結合",
         "研究利基"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "ef209087-6ab7-49cf-851e-cc60450f2e1f",
@@ -454,7 +536,10 @@
       "sub_criteria_map": {
         "C2": "實作經驗背景"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "ae1241f8-f738-4fda-813f-d5b2ac6b8e13",
@@ -473,7 +558,11 @@
         "課程專題",
         "個人自學",
         "實作經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長",
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "333991b6-8bc7-4e8e-a31f-b3044322355c",
@@ -492,7 +581,10 @@
         "醫學影像",
         "病灶區域分割",
         "傳統影像處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "90a962af-5c21-4f2d-a822-14dda846232c",
@@ -508,7 +600,10 @@
       "hashtags": [
         "肺部X光片",
         "影像結節偵測"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "c3b89f99-2fae-4302-aa4c-b6f59e1406b3",
@@ -525,7 +620,10 @@
         "影像預處理",
         "分割演算法",
         "演算法設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "1d42bf6e-85a7-49de-8a46-0bbff9510003",
@@ -544,7 +642,10 @@
         "高斯濾波",
         "Otsu閾值法",
         "形態學操作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "54933f96-4f29-4789-8a72-805c53304c59",
@@ -557,7 +658,10 @@
       "sub_criteria_map": {
         "C3": "專案成果評估"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "b7ded4f4-4d5d-469f-b63b-fb73b2013000",
@@ -574,7 +678,10 @@
         "影像處理流程",
         "資料載入",
         "特徵提取"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "d974c39f-789a-4dd7-9d2f-45838d94800d",
@@ -590,7 +697,10 @@
       "hashtags": [
         "演算法應用限制",
         "影像特性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "d793e175-642c-4d59-b7f9-3a6850da698d",
@@ -603,7 +713,10 @@
       "sub_criteria_map": {
         "C1": "專題學業表現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "0291824f-0fc9-40cd-95e8-6425cae03e56",
@@ -620,7 +733,11 @@
       },
       "hashtags": [
         "醫學影像複雜性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "cc57fe5d-f029-4dca-a9a2-09c4bf243e7c",
@@ -635,7 +752,10 @@
       },
       "hashtags": [
         "訊號處理最佳化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "2521a4ec-07cc-42f7-8250-dd3246146769",
@@ -654,7 +774,10 @@
         "心電圖訊號",
         "雜訊去除",
         "特徵提取"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "48c5b730-5d2b-4c89-b59d-41e25332eaf1",
@@ -672,7 +795,10 @@
         "峰值檢測演算法",
         "雜訊濾除",
         "R波識別"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "7f095de4-801b-4545-8d74-40d9a129fbbf",
@@ -688,7 +814,10 @@
       "hashtags": [
         "頻譜分析",
         "時域特性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "2811a669-a20e-46c2-b438-3d8d9c2cbc0e",
@@ -704,7 +833,10 @@
       "hashtags": [
         "醫療監測設備",
         "訊號分析技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "0539abeb-0447-44af-a416-95f67611e8b2",
@@ -720,7 +852,10 @@
       "hashtags": [
         "數據乾淨度",
         "分析準確性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "38d9b99c-a481-4ae4-aba6-5fab4800dde1",
@@ -736,7 +871,10 @@
       "hashtags": [
         "訊號處理優化",
         "系統效能提升"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "e1105c4d-de41-4def-9de6-4def1f84f6ab",
@@ -752,7 +890,10 @@
       "hashtags": [
         "國際交換學生",
         "德國特里爾應用科技大學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "2521c99a-3bf0-45c1-a6c4-dafd0a3a1819",
@@ -767,7 +908,10 @@
       },
       "hashtags": [
         "國際視野"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "57eeab2c-0f99-4546-8437-0257ed1c2243",
@@ -783,7 +927,10 @@
       "hashtags": [
         "教學模式",
         "學術氛圍"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "bb05ff57-f1a3-44cd-bc09-530639638aa7",
@@ -800,7 +947,10 @@
         "自動化控制",
         "資料科學基礎",
         "德國課程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "f05189cd-6b29-4a59-b8f8-0c1c9b758d52",
@@ -818,7 +968,10 @@
         "實用性",
         "創新性",
         "教育嚴謹性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "c7127c01-97ad-4e2e-b835-4ddc056c8d40",
@@ -836,7 +989,11 @@
       "hashtags": [
         "獨立生活",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "2d1220e7-cd48-41fc-9d14-3950fdb2fefb",
@@ -855,7 +1012,11 @@
         "語言文化差異",
         "主動溝通",
         "獨立解決挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "568485be-8090-482a-8d5e-5fa29ab7d783",
@@ -874,7 +1035,11 @@
         "德語溝通",
         "演算法解釋",
         "跨文化表達"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "b17d6fda-53a4-468a-9564-d7cd5fbc84a8",
@@ -890,7 +1055,10 @@
       "hashtags": [
         "學術無國界",
         "國際視野"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "8c86744b-6b9b-42ce-a566-bf6eb7cb5ea4",
@@ -906,7 +1074,10 @@
       "hashtags": [
         "多元視角",
         "創新思維"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "a7e154f8-2258-4aa7-ba56-ff09e3fecf82",
@@ -923,7 +1094,10 @@
         "資工深造",
         "全球性問題",
         "未來規劃"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "8a05b22c-00ba-4323-a962-82b017db0563",
@@ -940,7 +1114,10 @@
         "交大資工",
         "學術成就",
         "研究資源"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "e327ad77-9b77-4653-8acd-7a1798f9c49a",
@@ -959,7 +1136,10 @@
         "醫學影像分析",
         "最佳化訊號",
         "影像與幾何計算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "acc22baf-0caf-4ebe-bd30-3aa442c828b5",
@@ -975,7 +1155,10 @@
       "hashtags": [
         "交大資工所",
         "師資陣容"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "9e01e15e-b84f-42fe-8fd6-e78480943750",
@@ -991,7 +1174,10 @@
       "hashtags": [
         "課程規劃",
         "實驗室設備"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "5644deb4-0005-4838-8f57-9a4e8f09e240",
@@ -1004,7 +1190,10 @@
       "sub_criteria_map": {
         "C4": "學習成長動機"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "6c2399a8-b9b4-4037-bfcc-b643a8daf2cb",
@@ -1022,7 +1211,10 @@
         "醫學影像診斷",
         "電腦輔助手術",
         "生物醫學數據分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "05cc291b-8a3c-40dd-8faf-6cb2e09be24c",
@@ -1041,7 +1233,11 @@
         "電機背景",
         "資工技能整合",
         "研究成果"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "7973c30b-e4b6-495f-b187-f9e27afa55b8",
@@ -1054,7 +1250,10 @@
       "sub_criteria_map": {
         "C1": "學業成績自評"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "68949d82-e6fb-4709-9a62-604182d5b27e",
@@ -1075,7 +1274,11 @@
         "德國交換",
         "獨立學習",
         "適應能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "b5249511-609e-41cf-b9a7-2e98de798c9d",
@@ -1094,7 +1297,11 @@
         "資訊工程專業",
         "醫學科技應用",
         "人類健康福祉"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "4bec3224-539d-4fa3-9142-6bd1f5f81352",
@@ -1107,7 +1314,10 @@
       "sub_criteria_map": {
         "C4": "挑戰準備與貢獻意願"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "7173740d-4f92-499e-bef1-8af1eaf2dffd",
@@ -1126,7 +1336,11 @@
         "電機工程學系",
         "跨域學生",
         "資工基礎補強"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "65362458-df48-4993-ac03-2507ff188c74",
@@ -1144,7 +1358,11 @@
       "hashtags": [
         "醫學影像分析",
         "自學能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "911e7d3a-eeb7-4f7e-b81f-6189a2302fb0",
@@ -1163,7 +1381,11 @@
         "讀書計畫",
         "背景結合",
         "研究成果"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "0dee7cbb-52de-4ae9-9423-1c1cd4892454",
@@ -1178,7 +1400,10 @@
       },
       "hashtags": [
         "電機背景"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "b2cd9d0e-df40-432e-8b37-8f5c6386a22f",
@@ -1198,7 +1423,10 @@
         "高等機率與統計",
         "作業系統",
         "程式設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "61ecc28c-3262-46c9-83e0-5926e43f418d",
@@ -1214,7 +1442,10 @@
       "hashtags": [
         "進階演算法",
         "研究結果分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "ba03aed9-2f52-4828-84e2-ad9a625a9793",
@@ -1234,7 +1465,10 @@
         "機器學習庫",
         "TensorFlow",
         "PyTorch"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "3b45ac5a-0414-4b3f-8a09-f6fff17cd2c9",
@@ -1250,7 +1484,10 @@
       "hashtags": [
         "線上課程",
         "實際專案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "a6bca6f3-9c1d-46eb-821b-f873b844bce4",
@@ -1267,7 +1504,10 @@
         "實驗室融入",
         "專題討論",
         "研究方向探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "85d7520a-495a-460b-8abb-3cd56a91d938",
@@ -1285,7 +1525,10 @@
         "電腦視覺",
         "機器學習",
         "深度學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "8e46412a-e1b9-4dca-9304-268f6ba26bc8",
@@ -1301,7 +1544,10 @@
       "hashtags": [
         "醫學影像案例",
         "理論實務結合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "600eaa7e-8aff-48e8-8fc3-0325d1f7d989",
@@ -1323,7 +1569,11 @@
         "IEEE T-MI",
         "Medical Image Analysis",
         "期刊論文閱讀"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "0b65cab6-fb52-4957-bda3-3b443e1ddc69",
@@ -1338,7 +1588,10 @@
       },
       "hashtags": [
         "論文方向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "d23749e6-b1c4-45da-a605-5bdefbd074d3",
@@ -1357,7 +1610,10 @@
         "卷積神經網路",
         "CNN",
         "GAN"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "553501d8-ba03-4154-bad1-0c5585d54098",
@@ -1374,7 +1630,10 @@
         "實驗框架設計",
         "醫學影像資料集",
         "資料預處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "d0d11774-17e4-4296-bde3-54afd8fdbe72",
@@ -1392,7 +1651,10 @@
         "雜訊去除",
         "影像增強",
         "訊號處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "fe0afecf-d02c-4231-be70-c13f237c8b59",
@@ -1411,7 +1673,10 @@
         "ResNet",
         "Vision Transformer",
         "模型優化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "64ef700f-b8f4-4031-911c-009fcbc7aacf",
@@ -1427,7 +1692,10 @@
       "hashtags": [
         "幾何計算",
         "影像空間資訊"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "85e542d2-7a5a-493d-ba5f-890d1fcfdc30",
@@ -1447,7 +1715,11 @@
         "模型評估",
         "Dice係數",
         "IoU"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "a449ea8d-0734-413f-9fff-1d55c8013966",
@@ -1463,7 +1735,10 @@
       "hashtags": [
         "碩士論文",
         "論文發表"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "0d4a9258-327e-47a0-8cc6-23960639f5b0",
@@ -1481,7 +1756,10 @@
         "CVPR",
         "MICCAI",
         "學術視野擴展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "20c4cbb2-f8b6-4206-aa11-1ac256e9140a",
@@ -1498,7 +1776,10 @@
         "程式錯誤",
         "模型訓練挑戰",
         "高效除錯"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "04498f7f-0297-415a-9992-802bacfe93e9",
@@ -1516,7 +1797,10 @@
         "Git",
         "容器化技術",
         "Docker"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "caa62050-fb21-4c8e-92b4-5ea3e869d763",
@@ -1535,7 +1819,10 @@
         "臨床問題應用",
         "真實世界數據",
         "研究實用價值"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "1c586660-a740-443e-8b20-aba7985a4329",
@@ -1552,7 +1839,10 @@
         "醫療健康產業",
         "專業知識應用",
         "研究經驗應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "e098710a-46e5-4e98-ae6b-d3e49dfcfe15",
@@ -1570,7 +1860,10 @@
         "智慧醫療設備研發",
         "學術界",
         "醫學影像分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "6f0ed7b2-5e41-4d71-9be3-b22721fb1698",
@@ -1588,7 +1881,10 @@
         "最新技術",
         "研究動態",
         "專業技能精進"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "41549d91-2b5f-41e5-8656-8069b732f2a7",
@@ -1606,7 +1902,10 @@
         "醫療效率提升",
         "創新解決方案",
         "健康福祉貢獻"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "2d2dbcdd-92bf-434b-8acc-aecd2f09974d",
@@ -1623,7 +1922,10 @@
         "跨域背景",
         "醫學科技融合",
         "領域橋樑搭建"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     }
   ]
 }

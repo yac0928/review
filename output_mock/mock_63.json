@@ -16,7 +16,10 @@
       "sub_criteria_map": {
         "C1": "學術背景說明"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "a17b1016-1f44-4e53-8da0-f5e8b60876c5",
@@ -32,7 +35,10 @@
       "hashtags": [
         "人工智慧",
         "機器學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "d53da67d-efb0-48b9-a670-483da9ac16a4",
@@ -45,7 +51,10 @@
       "sub_criteria_map": {
         "C1": "學業成績陳述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "dfc3b563-7509-42a8-9d2d-84f2201bffd5",
@@ -60,7 +69,11 @@
         "C4": "自我成長策略",
         "C2": "實作能力導向"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "87524f3d-78af-46df-a9ed-e01ce8ea8c51",
@@ -69,7 +82,8 @@
       "content": "我一直相信，紮實的實作經驗與解決問題的能力，才是工程師最核心的價值。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "5f92c9d1-6b70-45ec-ae93-1c327a4f5f40",
@@ -89,7 +103,11 @@
         "深度學習",
         "異常行為偵測",
         "產學合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "7f5768e5-7470-496a-8024-ab9b3ce8f88b",
@@ -107,7 +125,10 @@
         "PyTorch",
         "CNN",
         "監控影像數據"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "0b745eaa-e6f9-4941-b2cd-061e945e3012",
@@ -123,7 +144,10 @@
       "hashtags": [
         "資料標記不均",
         "模型過擬合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "17b50b67-e5d7-45b8-9444-7c7b4c8b26d9",
@@ -144,7 +168,11 @@
         "隨機翻轉",
         "亮度調整",
         "損失函數"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "a7ad5aaf-847a-489c-b6a7-202437fc7f13",
@@ -159,7 +187,10 @@
       },
       "hashtags": [
         "資料前處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "07fd4d60-c090-49cf-849f-41c6956a253b",
@@ -175,7 +206,10 @@
       "hashtags": [
         "模型效能評估",
         "超參數調校"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "07a7105c-1ec9-4b94-ba49-a78446975740",
@@ -191,7 +225,10 @@
       "hashtags": [
         "AI應用開發",
         "新創公司實習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "76d124d5-a072-4107-af78-61c7a2fd37fd",
@@ -208,7 +245,10 @@
         "機器學習模型部署",
         "雲端平台",
         "API介面"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "65ea6ed6-f8b2-492b-9fdd-bdbf48b766a0",
@@ -226,7 +266,10 @@
         "容器化技術",
         "AWS",
         "模型服務"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "b97f65b8-7117-4335-aff5-59fc2aae6bc2",
@@ -243,7 +286,10 @@
         "AI技術應用挑戰",
         "系統穩定性",
         "部署效率"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "fd8c0070-8d09-40a4-b9dd-2c1cd592e766",
@@ -258,7 +304,10 @@
       },
       "hashtags": [
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "98e3033c-f358-462c-9183-5facaa320a70",
@@ -271,7 +320,10 @@
       "sub_criteria_map": {
         "C4": "多元發展引言"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "ae48fcf6-d312-4243-bd33-ab1a2d6729c0",
@@ -288,7 +340,10 @@
         "街舞社社長",
         "社團活動規劃",
         "成果發表會"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "7e02da0f-75fe-47ce-bc76-fef534d034b9",
@@ -305,7 +360,10 @@
         "領導統御",
         "時間管理",
         "溝通協調"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "e7f643e8-63df-47e9-9d47-067501974916",
@@ -321,7 +379,10 @@
       "hashtags": [
         "壓力管理",
         "效率完成任務"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "997c37a3-70eb-484b-8d16-c954bdf7fd85",
@@ -334,7 +395,10 @@
       "sub_criteria_map": {
         "C2": "技術能力成長"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "93c3f3c5-0e54-42e9-9bc7-1dbc4005d080",
@@ -347,7 +411,10 @@
       "sub_criteria_map": {
         "C4": "團隊協作精神"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "c8a05382-6af7-4885-8d51-023c6e8da5f7",
@@ -360,7 +427,10 @@
       "sub_criteria_map": {
         "C1": "多元背景視野"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "48bbb4b3-22d2-48d4-b37d-beb887ccdcb3",
@@ -377,7 +447,10 @@
         "人工智慧",
         "機器學習",
         "核心理論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "d25b91de-c4d6-4a55-9e4b-b4bc12bdd4e1",
@@ -394,7 +467,10 @@
         "交大資工所",
         "研究方向",
         "豐富資源"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "df2db1ac-a521-4bc3-a063-b3483da35d69",
@@ -412,7 +488,11 @@
       "hashtags": [
         "實作經驗",
         "學術基礎"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "4ef50a1e-b529-4593-a5ed-a0f3d75c6feb",
@@ -421,7 +501,8 @@
       "content": "接下來在修課方面，我會鎖定「高等機器學習」、「深度學習導論」等核心課程，並會進一步選修「自然語言處理」或「電腦視覺」等相關課程，來擴展我的專業廣度。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "2ed4cd42-ff6d-47a0-8eb0-af16d1a26a1b",
@@ -439,7 +520,10 @@
         "智慧型計算系統",
         "模型解釋性",
         "可信賴AI"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "163a0450-04a6-4579-b065-46fdc6faf666",
@@ -460,7 +544,11 @@
         "強化學習",
         "智慧監控",
         "自主系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "07b423e3-4458-4a4d-a3da-4e1869b9278c",
@@ -478,7 +566,10 @@
         "實驗室參與",
         "研究專案",
         "研究方法學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "06474ac1-9a3b-44e0-890e-090b62ee3d51",
@@ -493,7 +584,10 @@
       },
       "hashtags": [
         "碩士論文"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "db32fcf7-1955-4dd4-94b2-a4493632a2c9",
@@ -508,7 +602,11 @@
         "C3": "獨立創新思維培養",
         "C4": "職涯發展準備"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C4": "專業發展願景"
+      }
     }
   ]
 }

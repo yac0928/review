@@ -16,7 +16,10 @@
       "sub_criteria_map": {
         "C1": "學術背景說明"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "d335c693-cc80-4e51-ae7a-f2853cd97e69",
@@ -32,7 +35,10 @@
       "hashtags": [
         "資訊科技興趣",
         "實務問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "7f220335-317f-465f-a1ce-237337894589",
@@ -45,7 +51,10 @@
       "sub_criteria_map": {
         "C4": "學習動機展現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "1b779212-d748-47f2-88e1-1e5642a5f30d",
@@ -63,7 +72,11 @@
       "hashtags": [
         "專業知識應用",
         "學用結合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "d9b67977-46c4-470a-a1af-be0c456f1fa1",
@@ -76,7 +89,10 @@
       "sub_criteria_map": {
         "C1": "學業成績自述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "e2d792ac-8d1c-46cc-958c-f57d92918c33",
@@ -92,7 +108,10 @@
       "hashtags": [
         "課外學習",
         "自主探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "4bcb1fe7-3ccf-45fc-b16f-b0f72f3e3e21",
@@ -108,7 +127,10 @@
       "hashtags": [
         "智慧農業",
         "產業趨勢"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "e5f0bea6-7976-4602-8a5b-31d80dd0450a",
@@ -125,7 +147,10 @@
         "傳統農業問題",
         "病蟲害偵測",
         "作物健康管理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "924a0ef7-1db9-4791-9f41-d859ac94c60f",
@@ -145,7 +170,11 @@
         "影像辨識",
         "智慧農業監測系統",
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "b45f8576-3d63-43a2-bdde-ba61bf56144e",
@@ -164,7 +193,10 @@
         "農作物影像分析",
         "病蟲害判斷",
         "原型系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "dfe23974-d9ef-4f21-af88-64986544b832",
@@ -180,7 +212,10 @@
       "hashtags": [
         "產品開發",
         "從零到一"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "556cf67b-3dab-4d4d-ad3d-254ba3e32c2c",
@@ -196,7 +231,10 @@
       "hashtags": [
         "使用者需求",
         "設計思考"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "30cf701d-04c8-436c-8147-d2309cbfa41c",
@@ -213,7 +251,10 @@
         "模型穩定性",
         "光照環境",
         "精準度不足"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "b0a7988c-b1b3-421d-863c-0826d4cdce54",
@@ -230,7 +271,10 @@
         "開源架構",
         "維護困難",
         "技術選型"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "97ef5548-64de-448e-8a9d-577f24165c34",
@@ -243,7 +287,10 @@
       "sub_criteria_map": {
         "C4": "專案成果反思"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "685d9179-1799-4897-b1ff-4172a40049bb",
@@ -260,7 +307,10 @@
         "商業情境",
         "實作能力",
         "自我反思"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "88b0c907-39c9-48dc-86d0-481bca8e5c74",
@@ -281,7 +331,12 @@
         "理論基礎",
         "開發流程",
         "產品考驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C1": "專業知識掌握",
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "7be99204-71d5-4fb0-8b8c-97f5d4329837",
@@ -304,7 +359,12 @@
         "深度學習",
         "作物病蟲害識別",
         "產學合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長",
+        "C1": "研究方法與文獻",
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "7d6ce990-413a-457b-8457-9d6e1a191be2",
@@ -324,7 +384,11 @@
         "深度學習框架",
         "TensorFlow",
         "PyTorch"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "845921bd-d61a-49ca-94e8-f61e9321734b",
@@ -345,7 +409,11 @@
         "卷積神經網路",
         "CNN模型",
         "作物病蟲害識別"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "868b894a-1c6b-4a94-a4bd-d8f81b599eb7",
@@ -365,7 +433,11 @@
         "模型評估",
         "過擬合",
         "解決策略"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "903fadb7-86c9-4bd2-aa31-948806be84ca",
@@ -381,7 +453,10 @@
       "hashtags": [
         "卷積神經網路",
         "影像特徵提取"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "c4ef916f-1985-4f71-8313-f83354918f0b",
@@ -397,7 +472,10 @@
       "hashtags": [
         "數據質量",
         "模型選擇"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "700467a3-fb9c-4b97-b147-720e9685982f",
@@ -410,7 +488,10 @@
       "sub_criteria_map": {
         "C4": "領域熱情與職涯明確"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "aa655b0c-e8c8-49ee-b301-211ba72de788",
@@ -427,7 +508,10 @@
         "交大資工所",
         "頂尖師資",
         "研究資源"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "1bdbaae3-4855-43b4-bc8f-e5f15de4707e",
@@ -443,7 +527,10 @@
       "hashtags": [
         "跨領域探索",
         "創新"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "131a86fd-a345-46b4-b173-270ebb2c3cca",
@@ -462,7 +549,11 @@
         "演算法",
         "資料結構",
         "機器學習理論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "6bba5688-1c6b-40ce-bc06-d4a764d1d5fa",
@@ -475,7 +566,10 @@
       "sub_criteria_map": {
         "C1": "實作學術理論化"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "32d00d4d-bf96-4fd3-b288-1e5707e1f8ec",
@@ -494,7 +588,11 @@
         "智慧農業",
         "資工技術結合",
         "未來研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "557ba187-3c1f-4c42-ad5f-9f7663433408",
@@ -513,7 +611,11 @@
         "交大資工所",
         "學術理論不足",
         "系統學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "9ade00de-4a9a-4110-8bba-68c2caa0ec53",
@@ -526,7 +628,10 @@
       "sub_criteria_map": {
         "C4": "知識經驗整合規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "18b574ba-838c-414f-98f9-f41bdcdc2751",
@@ -539,7 +644,10 @@
       "sub_criteria_map": {
         "C1": "理論基礎建構"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "8f709535-0ee5-4ac3-a92a-3434b2103543",
@@ -557,7 +665,10 @@
         "高等資料結構",
         "線性代數",
         "機率與統計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "a2a44dda-4ddd-4b81-ab89-3accbf52c435",
@@ -573,7 +684,10 @@
       "hashtags": [
         "實驗室討論",
         "指導教授"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "dc3327c0-52fc-4f3d-bf18-5a31f52c6465",
@@ -582,7 +696,8 @@
       "content": "並旁聽或選修機器學習、深度學習等相關進階課程，了解各研究領域的最新進展與趨勢。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "b90982b2-34ec-41b0-bc60-811ea05a030a",
@@ -601,7 +716,11 @@
         "影像處理",
         "智慧農業專案",
         "研究方向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長",
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "4ddfc695-d381-47cd-be8b-d31da8c367bf",
@@ -619,7 +738,10 @@
         "PyTorch",
         "TensorFlow",
         "深度學習框架"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "01bc58b3-2a0a-4a30-a75b-13550216eb5d",
@@ -634,7 +756,10 @@
       },
       "hashtags": [
         "論文研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "47687f24-7e27-4eff-a8b4-1c88ecfe8d12",
@@ -650,7 +775,10 @@
       "hashtags": [
         "研究計畫",
         "指導教授討論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "272e1004-51d9-4c88-a597-6b7a7582a972",
@@ -670,7 +798,11 @@
         "影像處理",
         "優化演算法",
         "邊緣運算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "b1b0e209-7b21-4cb7-99f4-d6f6375e282e",
@@ -688,7 +820,10 @@
         "模型設計",
         "模型部署",
         "智慧農業系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "2ed98c21-96bf-4c86-b498-b3531857cba3",
@@ -705,7 +840,10 @@
         "實驗室專題討論",
         "研討會參與",
         "國際期刊論文"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "62656b44-55c1-448a-b0ee-c84a7293d4dc",
@@ -721,7 +859,10 @@
       "hashtags": [
         "獨立思考",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "df5d3c8e-4c25-4e4e-a5a3-334d1c5d944a",
@@ -738,7 +879,10 @@
         "深入研究",
         "理論理解",
         "實務理解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "0cb68ade-a8c4-487e-a6cd-fb7282d99bab",
@@ -754,7 +898,10 @@
       "hashtags": [
         "碩士論文",
         "學術價值"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "85d6531f-1307-4e30-a28e-10c6a76ccde4",
@@ -771,7 +918,10 @@
         "產業實務應用",
         "跨領域整合",
         "科技公司"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "f573b692-663c-45be-bce5-324bbfe53a7f",
@@ -788,7 +938,10 @@
         "新創產業",
         "前瞻資訊技術",
         "社會問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "d2819e2a-8b7c-4256-a456-4459da963521",
@@ -804,7 +957,10 @@
       "hashtags": [
         "資工領域發展",
         "持續學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "7028fe93-b8d6-45f7-bcc6-b9bd6de4c892",
@@ -819,7 +975,10 @@
       },
       "hashtags": [
         "台灣科技發展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     }
   ]
 }

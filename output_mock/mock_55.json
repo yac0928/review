@@ -16,7 +16,10 @@
       "sub_criteria_map": {
         "C1": "學術背景說明"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "7bac5fdd-0282-4e99-a2b2-1c744e249091",
@@ -33,7 +36,10 @@
         "硬體架構",
         "資訊安全",
         "加解密硬體設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "0a9eb252-9514-4645-988d-b9fca44c964c",
@@ -46,7 +52,10 @@
       "sub_criteria_map": {
         "C1": "學業成績表現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "df388767-ebe7-4489-936e-eafea5f97ca1",
@@ -63,7 +72,11 @@
       },
       "hashtags": [
         "資工領域深耕"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "6c877561-5553-459e-9bf5-26d0770b87c0",
@@ -83,7 +96,11 @@
         "軟體系統知識",
         "密碼學",
         "硬體安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "ccb067a1-3dab-466c-8545-d5ff0279d1fb",
@@ -99,7 +116,10 @@
       "hashtags": [
         "嵌入式系統安全實驗室",
         "李教授"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "f09a3494-6527-4a64-9c59-5291cb6c88af",
@@ -108,7 +128,8 @@
       "content": "這段期間，我深入參與了一項名為「基於 RISC-V 架構的輕量級密碼加速器設計」的產學合作專案。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "0bb31b19-0778-4f52-a6be-9728b77d89e2",
@@ -126,7 +147,10 @@
         "加密演算法",
         "硬體實作",
         "硬體優化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "2a7719b6-b92e-4402-a5e4-36baf378f695",
@@ -145,7 +169,10 @@
         "Xilinx Vivado",
         "Zynq FPGA",
         "FPGA驗證"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "4da71a54-5282-4229-95cd-4a5621c2f602",
@@ -161,7 +188,10 @@
       "hashtags": [
         "加密吞吐量",
         "硬體資源消耗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "d04101e4-c9d8-41de-9e6d-1bf90b9bd499",
@@ -180,7 +210,10 @@
         "查表並行化",
         "加密吞吐量",
         "硬體資源優化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "1bc8f9df-6c37-4903-894f-18ff822d720c",
@@ -193,7 +226,10 @@
       "sub_criteria_map": {
         "C3": "架構設計洞察"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "c92ad770-0268-4cd2-8d1c-5bc9084f6bde",
@@ -209,7 +245,10 @@
       "hashtags": [
         "硬體安全",
         "高效能運算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "2f29648e-05cc-49b5-9da9-e7a2eaf2c57f",
@@ -224,7 +263,10 @@
       },
       "hashtags": [
         "業界實習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "0dd31209-c4d8-4f01-9ead-d21fdbbc29cb",
@@ -237,7 +279,10 @@
       "sub_criteria_map": {
         "C4": "學用合一目標"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "7bec7ad1-9b83-463a-a33b-3e34294053fb",
@@ -253,7 +298,10 @@
       "hashtags": [
         "安芯科技",
         "硬體資安設計實習生"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "79ba97da-bd8c-4706-a59f-b0ca73491dc3",
@@ -269,7 +317,10 @@
       "hashtags": [
         "物聯網裝置",
         "信任根模組"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "6baf4302-710e-41e7-92e2-bc8159edd47c",
@@ -286,7 +337,10 @@
         "側通道攻擊",
         "Side-channel attack",
         "防護測試"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "1cde40fe-35c5-4330-b4d8-a3596317193e",
@@ -309,7 +363,11 @@
         "Python",
         "相關性分析",
         "CPA"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "589dfdcd-9db5-40a8-bae2-c0e910370b60",
@@ -328,7 +386,11 @@
         "功耗洩漏點",
         "改良方案",
         "產品安全性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "6a5247d3-bcad-4e03-a61c-e58ae01aa613",
@@ -345,7 +407,10 @@
         "實習經驗",
         "硬體安全驗證",
         "業界流程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "b8be86ef-cd6a-447e-8885-1f7255aa7667",
@@ -361,7 +426,10 @@
       "hashtags": [
         "軟硬體協同設計",
         "資安防護"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "4d9022a6-f712-47d0-95e8-3ee3897608d2",
@@ -378,7 +446,10 @@
         "創新能力",
         "實踐能力",
         "課外活動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "daf4b5a9-07e4-4985-9ea1-c5ec0593d334",
@@ -394,7 +465,10 @@
       "hashtags": [
         "智慧生活創業競賽",
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "57eaa1b9-3231-4191-a4f4-a53f0d9b65a0",
@@ -413,7 +487,10 @@
         "硬體安全模組",
         "HSM原型",
         "數據完整性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "2142026a-2a47-4ae4-97ee-680af0e2e04f",
@@ -434,7 +511,11 @@
         "技術實作",
         "成本評估",
         "創業潛力獎"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "05e8216e-a590-4e26-a74b-a381f0935a18",
@@ -451,7 +532,10 @@
         "技術轉化",
         "市場價值",
         "產品開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "a070fb44-0a2b-4b64-a31a-f0b35f01da5e",
@@ -468,7 +552,10 @@
         "解決問題",
         "跨領域溝通",
         "創業家思維"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "a047017a-7668-4caa-b93f-e68e94d620ce",
@@ -485,7 +572,10 @@
         "技術理想",
         "未來抱負",
         "資工所學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "320c284f-9696-4ada-895f-107248f1d744",
@@ -506,7 +596,11 @@
         "系統安全",
         "研究方向",
         "讀書計畫"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "00f0caa0-f213-4556-b33e-5847fd4463c9",
@@ -519,7 +613,10 @@
       "sub_criteria_map": {
         "C4": "學習規劃與目標"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "58670dda-5488-4db0-a3b1-581b04d8f83f",
@@ -537,7 +634,10 @@
         "進階計算機結構",
         "硬體安全與信任運算",
         "實驗室專題討論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "ff808ea3-d05b-4626-874c-f31598dc10be",
@@ -553,7 +653,10 @@
       "hashtags": [
         "理論層面補強",
         "硬體安全技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "74ca82ca-66a8-49bf-ba82-c2fa54fa3e52",
@@ -575,7 +678,11 @@
         "Coq",
         "Isabelle/HOL",
         "研究論文"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "c16e4c2a-3d02-4617-aa7b-4358fee5cf3d",
@@ -592,7 +699,10 @@
         "密碼學數學基礎",
         "硬體安全攻擊",
         "防禦技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "7c336d63-9dc4-4a8c-8e33-aa3ee13d1d6f",
@@ -607,7 +717,10 @@
       },
       "hashtags": [
         "碩士論文研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "d97e168e-630c-4b9e-9f44-98f1debb6518",
@@ -616,7 +729,8 @@
       "content": "我目前最感興趣的方向是「針對邊緣運算裝置的輕量級後量子密碼硬體加速器設計」。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "60eb6a68-7185-4fcb-8909-cbc62afd0b2d",
@@ -633,7 +747,10 @@
         "量子計算發展",
         "密碼學標準挑戰",
         "邊緣裝置資源受限"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "85e8a29a-23d7-42a7-bdce-adfedfdb0720",
@@ -654,7 +771,10 @@
         "ASIC",
         "高效能",
         "低功耗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "3e79188f-ae50-43e0-bb75-5c25fa1c7d0b",
@@ -671,7 +791,10 @@
         "架構創新",
         "電路優化",
         "側通道攻擊防護"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "545b4796-1a2b-4d2a-8461-e616291ded0a",
@@ -690,7 +813,10 @@
         "DAC",
         "FPL",
         "研究成果投稿"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "b4acf3bc-8535-4705-9431-a8ff710d64e2",
@@ -707,7 +833,10 @@
         "原創研究",
         "實用研究",
         "研究貢獻"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "187a4fd0-f2ac-4779-a058-a67069928dfe",
@@ -727,7 +856,11 @@
         "安全晶片",
         "資訊系統開發",
         "職涯規劃"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "fd792c46-5526-45d9-82cd-3eddc9f18a6b",
@@ -748,7 +881,11 @@
         "資安新創",
         "創業競賽",
         "資安技術產品化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "0bcc4764-c383-4b2e-9f65-87cd9e2fb660",
@@ -757,7 +894,8 @@
       "content": "我深信，在交大資工所的訓練，將是我實現這些抱負的基石，讓我有能力為資訊世界的安全貢獻一份力量。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     }
   ]
 }

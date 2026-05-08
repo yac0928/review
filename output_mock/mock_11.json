@@ -19,7 +19,10 @@
       "hashtags": [
         "臺灣大學",
         "電機工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "7a0e15ac-c60f-4da7-854a-27614319234b",
@@ -32,7 +35,10 @@
       "sub_criteria_map": {
         "C4": "學習動機展現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "117687de-061e-400d-a010-9aa518a94e40",
@@ -49,7 +55,10 @@
         "電路學",
         "微積分",
         "工程學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "d6a8e8af-53f3-433a-a335-4aa27d9f65b8",
@@ -69,7 +78,11 @@
         "分散式系統",
         "雲端運算",
         "資訊工程領域"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "32775ea5-4a67-47ce-b963-35cb77fb6167",
@@ -84,7 +97,10 @@
       },
       "hashtags": [
         "硬體科技"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "8b36ada8-9cbd-4f28-bb57-20da081804a6",
@@ -101,7 +117,10 @@
         "電路學",
         "電子學",
         "電磁學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "0ff8163e-5e84-499c-87d6-8efe524b02cc",
@@ -114,7 +133,10 @@
       "sub_criteria_map": {
         "C1": "物理學理解"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "b756d378-2636-40aa-993a-60856fa10bc8",
@@ -127,7 +149,10 @@
       "sub_criteria_map": {
         "C1": "學業成績表現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "06f16fbd-eb33-43fa-b640-1cb7265afdeb",
@@ -140,7 +165,10 @@
       "sub_criteria_map": {
         "C4": "學習態度展現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "5c6d2a68-c7bf-4ee1-aeb4-8f0f71637c33",
@@ -149,7 +177,8 @@
       "content": "然而，在一次偶然的機會下，我參與了一個關於智慧城市應用的小型專題，其中涉及到了大量感測器資料的收集、處理與儲存。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "0aeb1ecf-0d8c-4797-b5a1-18e44dc5a5ec",
@@ -166,7 +195,10 @@
         "雲端服務平台",
         "資料庫部署",
         "應用程式部署"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "ccd1530a-5285-4486-8cab-7a6a72e0bf64",
@@ -179,7 +211,10 @@
       "sub_criteria_map": {
         "C4": "學習動機展現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "5357df60-d2eb-490f-99ad-ddd1f913e0db",
@@ -198,7 +233,11 @@
         "軟體設計價值",
         "網路應用",
         "大規模服務"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "4950008f-90f0-4427-aca2-ad586002f9db",
@@ -213,7 +252,10 @@
       },
       "hashtags": [
         "跨領域學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "d23c8e15-ee01-43f1-871d-76693d78fa5b",
@@ -230,7 +272,11 @@
       },
       "hashtags": [
         "資工領域探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "87cc493f-8027-485b-ae37-c1c02eb15893",
@@ -248,7 +294,10 @@
         "作業系統",
         "計算機網路",
         "資料庫系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "da71fbbe-0f43-43d3-b0f9-2a7d78eeb209",
@@ -263,7 +312,10 @@
       },
       "hashtags": [
         "電腦科學核心概念"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "4abdfda9-2f70-4ce0-b122-46abbc477c9b",
@@ -282,7 +334,11 @@
         "資料結構與演算法",
         "時間複雜度",
         "空間複雜度"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "3300122f-381c-4db8-8ef7-d4fd566269b3",
@@ -301,7 +357,11 @@
         "圖論演算法",
         "網路路由問題",
         "專題應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "c6559132-9e92-49ea-8f84-100f36f375dc",
@@ -317,7 +377,10 @@
       "hashtags": [
         "演算法設計",
         "系統效能影響"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "0310eb3d-926f-456b-89a3-ad816c7c147c",
@@ -337,7 +400,10 @@
         "檔案系統",
         "多執行緒",
         "同步機制"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "5091ea27-1c36-4125-a751-14378bed14c4",
@@ -353,7 +419,10 @@
       "hashtags": [
         "課程專題",
         "shell實作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "7584afe2-13a4-45ee-8987-b8373a0f60ca",
@@ -371,7 +440,11 @@
       "hashtags": [
         "小型系統建構",
         "軟體層次架構"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "a6ee3a5d-fc5e-434d-ac17-31db0651ba65",
@@ -388,7 +461,10 @@
         "分散式系統概論",
         "雲端運算",
         "進階課程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "7f55cebc-c72a-4286-bf26-5fd0b03d0641",
@@ -407,7 +483,10 @@
         "共識演算法",
         "Paxos",
         "分散式交易"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "65cd9f80-7431-4afe-920f-b35d7c4bd801",
@@ -424,7 +503,10 @@
         "大型系統",
         "穩定性",
         "可靠性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "應變與韌性"
+      }
     },
     {
       "id": "a5663138-9857-4f3a-9948-8c6a5cc273e2",
@@ -440,7 +522,10 @@
       "hashtags": [
         "課程專題",
         "分散式鍵值儲存系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "7ab296c9-d00e-4d27-8ba4-e9575a0af9b7",
@@ -459,7 +544,10 @@
         "資料分片",
         "資料複製",
         "概念性實作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "7b3831dc-1c14-45f9-b9ff-8820a5186bc6",
@@ -476,7 +564,10 @@
         "網路延遲",
         "節點故障",
         "實際問題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "eedceec8-151f-451a-b502-e324612ff759",
@@ -492,7 +583,10 @@
       "hashtags": [
         "分散式系統架構",
         "濃厚興趣"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "6e8174c7-d058-4147-8934-11af1beb1a17",
@@ -513,7 +607,10 @@
         "AWS",
         "GCP",
         "Azure"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "c2e0d94f-6817-4ab4-8bf8-6d10212484f4",
@@ -531,7 +628,10 @@
         "AWS EC2",
         "S3",
         "靜態檔案儲存"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "741c8105-ba05-4b3d-b57e-2a0bf3fe6c2c",
@@ -547,7 +647,10 @@
       "hashtags": [
         "雲端環境理解",
         "基礎設施理解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "6241dee3-1efa-4761-b945-bb1743f50da3",
@@ -560,7 +663,10 @@
       "sub_criteria_map": {
         "C4": "實務經驗累積意識"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "f68b4987-419f-494c-8dd7-84b03187fbdb",
@@ -579,7 +685,11 @@
         "藍星科技",
         "軟體開發實習生",
         "新創公司"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "0115cefe-0ee3-43c7-aa73-4e29f45c5e36",
@@ -594,7 +704,10 @@
       },
       "hashtags": [
         "企業級雲端解決方案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "d71d0e01-4278-4853-b3ac-b7aa1a2f6368",
@@ -612,7 +725,10 @@
         "Spring Boot",
         "RESTful API",
         "API服務開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "e3e3678c-a3fb-4b92-b305-1a1ff23703b6",
@@ -628,7 +744,10 @@
       "hashtags": [
         "PostgreSQL",
         "資料庫操作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "43a908d1-e038-407c-aa73-e2bd3e8eb51a",
@@ -644,7 +763,10 @@
       "hashtags": [
         "SQL查詢",
         "高效查詢語句"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "5aa9042f-ac38-437f-a84a-8c7464321f5c",
@@ -663,7 +785,11 @@
         "遺留系統遷移",
         "微服務架構",
         "專案參與"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構",
+        "C3": "應變與韌性"
+      }
     },
     {
       "id": "8217a82a-f608-4af3-83d1-273f538da7cc",
@@ -678,7 +804,10 @@
       },
       "hashtags": [
         "敏捷開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "c68872f2-c356-4ea3-b1af-a71c7180643b",
@@ -696,7 +825,11 @@
       "hashtags": [
         "快速迭代",
         "團隊協作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "60607ed9-9eaf-4ce6-858e-695513d3b933",
@@ -712,7 +845,10 @@
       "hashtags": [
         "Git",
         "版本控制"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "68d6abf2-799c-4a47-a1c0-1d91a372073e",
@@ -730,7 +866,10 @@
         "Kubernetes",
         "容器化",
         "服務部署"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "4cf89022-1b60-41e3-9b63-b1d167af06d0",
@@ -743,7 +882,10 @@
       "sub_criteria_map": {
         "C4": "角色定位認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "ef58b0ed-1185-4ac2-8da6-5979b2f960d4",
@@ -759,7 +901,10 @@
       "hashtags": [
         "開發流程",
         "技術棧"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "995fbbc5-bcfc-44da-b1f3-a75daf8cf700",
@@ -774,7 +919,10 @@
       },
       "hashtags": [
         "軟體工程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "92ca9fda-473b-45df-937a-4ee1e7e65662",
@@ -794,7 +942,11 @@
         "真實世界問題",
         "解決問題思路",
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "e1880fcb-fdd3-487e-8d4c-d57a569797f7",
@@ -810,7 +962,10 @@
       "hashtags": [
         "開源社群",
         "編輯組長"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "abeb1a63-8277-42d1-9ac1-d38bea0225a2",
@@ -829,7 +984,11 @@
         "技術文章撰寫",
         "技術文章校對",
         "開源精神"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "a69b5bc0-8422-4d37-97bb-c9ff664562c9",
@@ -848,7 +1007,11 @@
         "開源技術資訊",
         "社群部落格",
         "技術概念轉化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "03dc77c0-aeaf-4e67-951c-4edeb2ec28e3",
@@ -861,7 +1024,10 @@
       "sub_criteria_map": {
         "C4": "溝通協調能力"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "7d6dc5fb-efbf-4495-8629-25a74091dc63",
@@ -876,7 +1042,10 @@
       },
       "hashtags": [
         "開源文化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "850e895f-016c-42f1-9293-b0c6a48c7536",
@@ -891,7 +1060,10 @@
       },
       "hashtags": [
         "開源精神"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "4384f8a1-e702-4f45-870a-c08864e5f7f7",
@@ -910,7 +1082,10 @@
         "Linux Kernel",
         "Kubernetes",
         "Apache Kafka"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "aefa763d-bec9-4b46-b248-b8ca800746cf",
@@ -929,7 +1104,11 @@
         "開源社群參與",
         "技術協作模式",
         "發展邏輯"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "8745ae00-ae11-4543-a4d1-2e3c039aff46",
@@ -942,7 +1121,10 @@
       "sub_criteria_map": {
         "C4": "領域貢獻意願"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "7cce93f2-4f3b-4eca-99c2-902f0824f057",
@@ -962,7 +1144,11 @@
         "資工系",
         "數理邏輯訓練",
         "軟體開發實務"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "37d647a7-4134-4280-befa-32b238db3779",
@@ -982,7 +1168,11 @@
         "系統底層",
         "物理限制",
         "效能考量"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "7832e1d1-742e-46bb-afa2-d9271e78a941",
@@ -1001,7 +1191,11 @@
         "資工領域",
         "複雜軟體系統",
         "系統建構工具"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "eed95744-8d4a-439e-b78c-0a1f6e72a405",
@@ -1020,7 +1214,11 @@
         "跨域學習",
         "分散式系統",
         "雲端計算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "3d6c85fc-0579-4c7a-b822-8cd72fd6a056",
@@ -1037,7 +1235,10 @@
         "雲端系統架構師",
         "高效能設計",
         "擴展性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "f677eea4-6ae1-4610-b7ba-9e26c4c6a50a",
@@ -1057,7 +1258,11 @@
         "分散式系統",
         "雲端計算",
         "電機資工結合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "eb56aead-1206-4938-9bbd-adeb17b752ad",
@@ -1077,7 +1282,11 @@
         "分散式系統",
         "雲端運算",
         "大規模資料處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "2af359cc-54ce-4233-8f51-1098914163eb",
@@ -1097,7 +1306,11 @@
         "容錯系統",
         "雲端平台優化",
         "教授研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "b70e5e12-3937-4067-91b2-38c3f41d4fcf",
@@ -1113,7 +1326,10 @@
       "hashtags": [
         "師生合作",
         "深入探討"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "42eac688-cf11-42fd-b2ea-8a1559ff407b",
@@ -1133,7 +1349,11 @@
         "高等計算機網路",
         "分散式演算法",
         "雲端服務架構"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "513693a4-4711-4371-8383-439fe69e954e",
@@ -1152,7 +1372,11 @@
         "理論基礎",
         "知識縫隙",
         "跨域學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "57aa60c7-08d8-4b3c-97ca-3deb088ffd1d",
@@ -1169,7 +1393,11 @@
       },
       "hashtags": [
         "Go語言"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "595d9295-be00-4086-a5e5-6620743427fa",
@@ -1189,7 +1417,11 @@
         "分散式系統開發",
         "併發模型",
         "高效能特性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "ccaf697e-925e-4af2-99f5-244b9a391497",
@@ -1209,7 +1441,11 @@
         "Docker",
         "叢集管理",
         "服務網格"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "b5611547-b0c1-443b-b567-e92e99a2d094",
@@ -1230,7 +1466,11 @@
         "容器化應用",
         "故障轉移",
         "個人專案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "6d43786f-2e19-4221-a0df-2c0a0f055359",
@@ -1248,7 +1488,11 @@
       "hashtags": [
         "雲端系統優化",
         "實作經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "13cc25d3-17aa-4790-b0e4-6f9e63bd4a9c",
@@ -1267,7 +1511,11 @@
         "實驗室專題討論",
         "學長姐交流",
         "教授交流"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "30a3982b-0e49-496a-b647-18449863964f",
@@ -1283,7 +1531,10 @@
       "hashtags": [
         "融入研究環境",
         "碩士論文方向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "6026545d-a2bf-4b1a-934d-51ee0c48ba23",
@@ -1299,7 +1550,10 @@
       "hashtags": [
         "碩士論文研究",
         "學術價值成果"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "df32a925-86ce-43fa-b983-3290857918ec",
@@ -1322,7 +1576,11 @@
         "無伺服器架構",
         "Serverless Architecture",
         "容錯能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "b71f4149-c8d0-4af6-b53f-4b8fd415e66e",
@@ -1338,7 +1596,10 @@
       "hashtags": [
         "指導教授",
         "深入研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "a5f75847-ce29-452c-88d7-d1a4f1b938a9",
@@ -1358,7 +1619,11 @@
         "會議文獻",
         "研究方法",
         "技術趨勢"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "c501def8-73d9-4f07-867d-8727b4704ac8",
@@ -1380,7 +1645,11 @@
         "分散式系統",
         "資源調度",
         "網路優化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "7fc9cc81-727d-45ed-afdb-94a0127a9053",
@@ -1398,7 +1667,11 @@
       "hashtags": [
         "跨領域",
         "創新解決方案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "a2338814-4499-4e3d-88f3-a7e6a46a44eb",
@@ -1417,7 +1690,11 @@
         "產學合作",
         "研究成果應用",
         "業界合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "528f7dc4-de2b-4b21-acae-725fe87baa32",
@@ -1433,7 +1710,10 @@
       "hashtags": [
         "學術會議",
         "期刊投稿"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "bfd6e4a1-b451-45f9-92a6-2fc7bc679c7d",
@@ -1454,7 +1734,11 @@
         "架構師",
         "分散式系統",
         "可擴展系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "73973597-824c-44ff-86d1-6f1f6ea9809b",
@@ -1473,7 +1757,11 @@
         "電機系背景",
         "硬體限制",
         "軟體效能"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述",
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "68d26503-241e-4d38-aa30-2ad1cd82e1ee",
@@ -1491,7 +1779,11 @@
       "hashtags": [
         "資工所訓練",
         "系統設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "cb2ea6a7-c66f-41d0-99f3-64507a9d7103",
@@ -1509,7 +1801,11 @@
       "hashtags": [
         "跨域背景",
         "技術挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "f5d3f798-f0cd-458f-a66c-82bb0168d30e",
@@ -1527,7 +1823,11 @@
       "hashtags": [
         "技術發展",
         "未來引導"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "3ea6e588-076d-4b5a-aea1-942bd177233e",
@@ -1544,7 +1844,10 @@
         "持續學習",
         "雲端服務",
         "社會貢獻"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "509e2813-ad08-4682-a6cc-cac14b4d4ed7",
@@ -1560,7 +1863,10 @@
       "hashtags": [
         "學術資源",
         "研究環境"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "ec8a5ccd-9917-4689-909f-beb2d92d2c18",
@@ -1573,7 +1879,10 @@
       "sub_criteria_map": {
         "C4": "學術研究熱忱"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     }
   ]
 }

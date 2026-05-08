@@ -19,7 +19,10 @@
       "hashtags": [
         "國立中山大學",
         "資訊工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "9a25c852-69c2-40dc-b33c-493117964202",
@@ -36,7 +39,10 @@
         "韌體",
         "嵌入式系統",
         "安全晶片設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "6fb8aade-b111-4a6d-997f-5c61a60f80df",
@@ -52,7 +58,10 @@
       "hashtags": [
         "社團活動",
         "人際互動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "73328d2f-6982-4ff7-83ce-6acdc740c33a",
@@ -68,7 +77,10 @@
       "hashtags": [
         "自我認識",
         "深造決心"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "5b9ecb5a-d40d-426a-8669-39a658680406",
@@ -81,7 +93,10 @@
       "sub_criteria_map": {
         "C4": "學習歷程回顧"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "06775fa1-7a61-41f3-a901-d1cd0eaaccb9",
@@ -100,7 +115,10 @@
         "數位邏輯設計",
         "硬體原理",
         "韌體原理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "46aaf44b-cddd-4f84-a91d-093195c2a97e",
@@ -113,7 +131,10 @@
       "sub_criteria_map": {
         "C1": "理論課程掌握度"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "ee801a33-a7cd-4279-bd61-0fec20554fff",
@@ -133,7 +154,11 @@
         "實驗",
         "程式撰寫",
         "問題解決流程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "474d58aa-3b9e-4977-9f3b-a84ce89c4227",
@@ -152,7 +177,11 @@
         "動手實作",
         "錯誤中學習",
         "硬核技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "78196b84-becb-4c89-a18e-e8e038c86521",
@@ -168,7 +197,10 @@
       "hashtags": [
         "嵌入式系統",
         "程式碼操控硬體"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "108811a0-6c3f-4799-b898-0db5aa7748b9",
@@ -183,7 +215,10 @@
       },
       "hashtags": [
         "校園廣播主持人"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "c844619e-53a5-4bbb-b9d4-d9c05765750a",
@@ -196,7 +231,10 @@
       "sub_criteria_map": {
         "C4": "社團投入程度"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "a87d9476-018a-44de-ae9e-1e3a87760e8e",
@@ -214,7 +252,10 @@
         "內容發想",
         "錄音剪輯",
         "現場直播"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "34b0274f-85ec-4cf2-9f49-418dc5e355ea",
@@ -233,7 +274,11 @@
         "節目腳本",
         "直播應變",
         "聽眾互動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "應變與韌性",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "57f711bc-d178-4b98-82f0-a14b273fc5b7",
@@ -250,7 +295,10 @@
         "溝通表達",
         "訊息傳達",
         "傾聽能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "d2374552-11a9-4a80-8951-c3bef894ee17",
@@ -269,7 +317,11 @@
         "社團幹部",
         "成員協調",
         "事務處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "f6bdd072-8e86-41ef-b650-053c2ac03eaf",
@@ -288,7 +340,11 @@
         "領導力",
         "組織能力",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "60cd11e0-e344-4ef5-b9d9-82ef985b8168",
@@ -307,7 +363,11 @@
         "節目製作壓力",
         "社團挑戰",
         "團隊解決方案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "應變與韌性",
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "ca2c0867-3a36-4585-8bc0-164a7d778b49",
@@ -323,7 +383,10 @@
       "hashtags": [
         "軟實力",
         "資工專業"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "75721d0d-3335-40e1-a4ca-fbe811456c5b",
@@ -340,7 +403,10 @@
         "團隊合作",
         "研究討論",
         "關鍵能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "7fa8cfe1-4258-4486-b069-ecfc8b8b4e41",
@@ -355,7 +421,10 @@
       },
       "hashtags": [
         "溝通協調重要性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "015c36f2-4e7b-402f-8cd7-b2316858449b",
@@ -372,7 +441,10 @@
         "創智科技",
         "韌體開發實習生",
         "新創公司"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "0628f905-8cc2-4534-b255-2d856715a421",
@@ -385,7 +457,10 @@
       "sub_criteria_map": {
         "C4": "業界運作認識"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "cafe2647-9356-4947-9b2c-6eeab377759a",
@@ -401,7 +476,10 @@
       "hashtags": [
         "韌體功能測試",
         "測試腳本撰寫"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "b3bcecde-a24f-4d50-b5c7-8c49036a4712",
@@ -414,7 +492,10 @@
       "sub_criteria_map": {
         "C2": "基礎實作參與"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "55f7babc-38de-46ed-b5bd-4112651a3f96",
@@ -430,7 +511,10 @@
       "hashtags": [
         "產品開發流程",
         "實務面貌"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "4efbf15f-f66e-4447-bbe2-a8fce0293b50",
@@ -447,7 +531,10 @@
         "奇怪bug",
         "邏輯錯誤",
         "程式設計嚴謹性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "2876d7b6-fdf2-443d-8895-b16607a28ea5",
@@ -462,7 +549,10 @@
       },
       "hashtags": [
         "韌體開發工作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "088c7000-a2be-47de-9881-b7f987afea1b",
@@ -477,7 +567,10 @@
       },
       "hashtags": [
         "個人小專案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "d1b02a47-4edc-43dc-9efe-cb585d0350b6",
@@ -494,7 +587,10 @@
         "開發板",
         "感測器串接",
         "環境監測裝置"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "c71889ba-3875-4752-aa5a-8e09f88c6d09",
@@ -507,7 +603,10 @@
       "sub_criteria_map": {
         "C3": "專案成果反思"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "4e454dda-ea2e-419d-a509-c640fde51970",
@@ -523,7 +622,10 @@
       "hashtags": [
         "軟體燒錄",
         "硬體實作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "585e251e-a39d-45db-b6bb-91efcb412cb6",
@@ -541,7 +643,11 @@
       "hashtags": [
         "韌體",
         "嵌入式系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "246c3c5c-9489-482b-9525-e204df03d3c3",
@@ -557,7 +663,10 @@
       "hashtags": [
         "科技領域",
         "資工發展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "edbf94c7-8243-418b-abcb-972ce4029e97",
@@ -573,7 +682,10 @@
       "hashtags": [
         "持續深造",
         "知識補足"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "30ebf90b-7838-444d-abc3-31cdb3a0a996",
@@ -591,7 +703,10 @@
         "韌體",
         "嵌入式系統",
         "安全晶片設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "c32cbd7d-7308-4b5f-96f2-afdbedf449b7",
@@ -607,7 +722,10 @@
       "hashtags": [
         "專業能力提升",
         "深入學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "684b1e1c-ec99-47eb-8e09-02a7dd79c16f",
@@ -625,7 +743,10 @@
         "團隊合作",
         "溝通表達",
         "韌性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "01f8877a-5e26-4530-82c9-f7151aad4880",
@@ -638,7 +759,10 @@
       "sub_criteria_map": {
         "C4": "特質對學術助益"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "6aa77810-6957-40d6-a0ef-21dfc8ec2178",
@@ -654,7 +778,10 @@
       "hashtags": [
         "研究方向",
         "領域貢獻"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "6031d27f-9fb2-47c3-a8f1-c00849438ec3",
@@ -667,7 +794,10 @@
       "sub_criteria_map": {
         "C1": "學業成績自評"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "c679de9f-713f-4b68-b2c6-a2dbcd59e024",
@@ -680,7 +810,10 @@
       "sub_criteria_map": {
         "C4": "學習熱情與動機"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "0584a179-e9f2-4d13-9584-281372a6c91d",
@@ -697,7 +830,10 @@
         "韌體",
         "嵌入式系統",
         "安全晶片設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "2d694616-f47c-41f1-bbb0-09935f723a83",
@@ -710,7 +846,10 @@
       "sub_criteria_map": {
         "C4": "系統性學習規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "6e985d8d-f94c-416b-8bbf-28cf49622b67",
@@ -723,7 +862,10 @@
       "sub_criteria_map": {
         "C4": "入學前準備規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "f1028bb0-7812-4e31-a531-0e9c1ac6f5ba",
@@ -741,7 +883,10 @@
         "演算法",
         "計算機組織",
         "作業系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "c2baf031-79bf-4534-b81e-a849fd5e3ae9",
@@ -750,7 +895,8 @@
       "content": "因為我知道這些是資工領域的基礎，如果基礎不穩，後面學習會很吃力。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "7ec8f015-2150-4bb7-a674-edcd3c548029",
@@ -763,7 +909,10 @@
       "sub_criteria_map": {
         "C1": "基礎概念強化"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "543b1d1f-acd4-4bb4-a9b8-d8a82f1919b5",
@@ -776,7 +925,10 @@
       "sub_criteria_map": {
         "C3": "領域核心能力認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "02ee26ca-7d3f-40d7-a98b-a7ba501328e8",
@@ -793,7 +945,10 @@
         "C/C++",
         "韌體開發",
         "程式練習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "01ce2ae6-27be-4aea-9ddb-a82e17f0b87c",
@@ -812,7 +967,11 @@
         "程式實作",
         "邏輯思維",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "04556217-d63f-460e-b8fd-7c626de3b758",
@@ -832,7 +991,11 @@
         "嵌入式系統",
         "安全晶片",
         "研究方向探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "9f718222-f68d-41e4-8f9b-794227cf64fd",
@@ -845,7 +1008,10 @@
       "sub_criteria_map": {
         "C4": "研究方向待定"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "924e4c50-8936-434c-9b8e-2bfb5584b055",
@@ -858,7 +1024,10 @@
       "sub_criteria_map": {
         "C4": "初步認識規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "18298fa3-6c63-4b9e-bde3-84e7efd88a7b",
@@ -874,7 +1043,10 @@
       "hashtags": [
         "課程學習",
         "研究方向探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "1325595c-fa66-4b13-a95c-410893c1e99d",
@@ -892,7 +1064,10 @@
         "進階作業系統",
         "嵌入式系統設計",
         "硬體安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "941d12ff-efa2-4095-8b50-07545a15827f",
@@ -908,7 +1083,10 @@
       "hashtags": [
         "積極請教",
         "課程理解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "3ea6bddd-909f-44c8-b9a5-5d63992694b3",
@@ -926,7 +1104,11 @@
       "hashtags": [
         "專業知識體系",
         "學術彌補"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "4c7e52fa-5ae0-4fbf-bae5-e0b080c2c8eb",
@@ -941,7 +1123,10 @@
       },
       "hashtags": [
         "實作經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "87430336-193f-4c23-9f67-c38b4c4ef03e",
@@ -959,7 +1144,11 @@
       "hashtags": [
         "實驗室專題討論",
         "研究方法學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "32de72cc-340b-4ddf-866a-f000cde78947",
@@ -975,7 +1164,10 @@
       "hashtags": [
         "小型專案",
         "實作經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "9223ab24-1ffa-4479-8573-0f376d0df9b8",
@@ -988,7 +1180,10 @@
       "sub_criteria_map": {
         "C4": "實作學習理念"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "bd83282a-3d56-482a-bc6c-92bd0ebec079",
@@ -1003,7 +1198,10 @@
       },
       "hashtags": [
         "研究興趣"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "1b67fd53-92e3-4051-a7f0-7f4530a64eb3",
@@ -1019,7 +1217,10 @@
       "hashtags": [
         "教授交流",
         "碩士論文方向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "44502e76-b47a-4bf6-b988-d37adc2db06b",
@@ -1039,7 +1240,11 @@
         "嵌入式系統優化",
         "安全晶片設計",
         "研究題目選擇"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "e570f2ba-2018-47d1-84e7-496b6a2b4d83",
@@ -1057,7 +1262,10 @@
         "英文寫作",
         "學術文獻",
         "論文撰寫"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "d40a46ae-fb93-4247-bdc2-70a5fdcc17f9",
@@ -1073,7 +1281,10 @@
       "hashtags": [
         "碩士論文完成",
         "職涯發展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "52f11b6a-450e-4ec5-b114-dfd88158e6ed",
@@ -1089,7 +1300,10 @@
       "hashtags": [
         "碩士論文研究",
         "研究投入"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "80278442-3566-4076-ae62-7cc881fc1fdd",
@@ -1106,7 +1320,10 @@
         "研究方法",
         "數據分析",
         "論文撰寫"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "2267f295-8244-43f9-9ab7-4decdfd621ad",
@@ -1119,7 +1336,10 @@
       "sub_criteria_map": {
         "C4": "挑戰認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "24b7b66f-a2ff-4c3f-b582-0e9ae5aae296",
@@ -1136,7 +1356,10 @@
         "耐心毅力",
         "教授討論",
         "論文突破"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "47105927-5317-4213-9629-9719fe69a4f8",
@@ -1154,7 +1377,10 @@
         "半導體產業",
         "物聯網產業",
         "資安產業"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "51e622df-b802-432a-83b8-c9d46912e776",
@@ -1171,7 +1397,10 @@
         "尖端科技研發",
         "產品創新",
         "技術進步"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "5c2f26ae-d3f5-456f-89bf-2b51afba42e3",
@@ -1187,7 +1416,10 @@
       "hashtags": [
         "科技發展快速",
         "持續學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "ec34b564-c032-4272-b9d0-43cd7677d656",
@@ -1205,7 +1437,10 @@
         "研究成果",
         "進修自學",
         "專業能力提升"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "5f61534a-9be4-4048-b9b2-b5adf680bb44",
@@ -1222,7 +1457,10 @@
         "交大資工所",
         "努力學習",
         "珍惜機會"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     }
   ]
 }

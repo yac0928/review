@@ -19,7 +19,10 @@
       "hashtags": [
         "中興大學",
         "資訊工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "e5121eb5-f5fb-4be6-bdc7-f72c799683c8",
@@ -39,7 +42,11 @@
         "韌體安全",
         "嵌入式系統",
         "硬體交互作用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "70abdd20-0ebe-4ebe-a750-263c904d8830",
@@ -52,7 +59,10 @@
       "sub_criteria_map": {
         "C1": "學業成績表現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "7d0bab10-b27d-4f9f-9659-fa612117c313",
@@ -65,7 +75,10 @@
       "sub_criteria_map": {
         "C1": "扎實學術基礎"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "11a9d8b9-b739-455c-af57-be44597c650a",
@@ -84,7 +97,11 @@
         "硬體領域",
         "安全領域",
         "交大資工所"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "91cfc726-a995-416b-a553-f6acc63fa082",
@@ -102,7 +119,11 @@
       "hashtags": [
         "嵌入式系統",
         "資安挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "830c4d64-3448-4364-b348-b4ea2be354bb",
@@ -118,7 +139,10 @@
       "hashtags": [
         "中興大學資工系",
         "計算機科學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "d834744a-fe43-455e-a0ab-d35321932ecc",
@@ -136,7 +160,10 @@
         "數位邏輯設計",
         "CPU指令執行",
         "記憶體存取"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "b8442b3c-e4e5-4c68-a7cb-fb375f2c8179",
@@ -154,7 +181,10 @@
         "嵌入式系統",
         "韌體硬體協作",
         "系統資源管理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "e0b0e5ed-9d39-4ab6-901a-14c2f7bec353",
@@ -174,7 +204,11 @@
         "資安威脅",
         "硬體特洛伊木馬",
         "Hardware Trojan"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "75cb4b6a-bfff-4ff8-8173-43facaa9ecd9",
@@ -187,7 +221,10 @@
       "sub_criteria_map": {
         "C4": "研究動機展現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "d2e1efc6-e1ea-4da4-8115-1c0961cf621d",
@@ -206,7 +243,11 @@
         "智慧裝置安全",
         "韌體安全",
         "硬體安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "d0a8bc4b-c5c3-4a5e-a8df-37b6d2c0fdc4",
@@ -221,7 +262,11 @@
         "C2": "理論實踐動機",
         "C4": "積極學習態度"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "7931d6a8-caec-4699-a33c-95bad8f2ca86",
@@ -234,7 +279,10 @@
       "sub_criteria_map": {
         "C2": "實務經驗累積"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "31a59ffa-62c5-4332-8083-72a82cd3492e",
@@ -254,7 +302,11 @@
         "功耗側通道分析",
         "硬體特洛伊木馬偵測",
         "研究專案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "ce440ef1-b8c3-456a-9eb1-8a33ca60bd13",
@@ -274,7 +326,11 @@
         "嵌入式裝置",
         "功耗側通道資訊",
         "硬體特洛伊木馬"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "db60014a-d933-4b9a-b351-961d21890bde",
@@ -292,7 +348,10 @@
         "數據前處理演算法",
         "機器學習模型訓練",
         "模型評估"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "ff663d66-e43b-468a-8a42-73e1da6239a8",
@@ -312,7 +371,10 @@
         "STM32F4 微控制器",
         "AES加密演算法",
         "功耗波形數據"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "59f7d931-8199-4f1f-9130-dc3cfddf7838",
@@ -332,7 +394,10 @@
         "平滑濾波",
         "同步化",
         "降噪演算法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "db6c096f-2e2d-4d93-856a-510d64744272",
@@ -355,7 +420,11 @@
         "TensorFlow",
         "CNN",
         "模型訓練"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "3be3c373-2f16-4dd4-9149-a229fd6fbb7d",
@@ -374,7 +443,11 @@
         "特洛伊木馬",
         "偵測準確度",
         "參數調校"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "bb85bc63-7eff-4c88-bcb7-1c2cfbad1d87",
@@ -392,7 +465,11 @@
       "hashtags": [
         "側通道資訊",
         "安全性分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "485a55b3-bf7a-4ae6-8842-080396099702",
@@ -408,7 +485,10 @@
       "hashtags": [
         "功耗波動",
         "惡意行為蹤跡"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "應變與韌性"
+      }
     },
     {
       "id": "f0594494-7c36-412a-a8d8-12053ce04f31",
@@ -426,7 +506,10 @@
         "低階操作",
         "數據採集",
         "數據分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "27bf24c3-0812-4c27-8137-f29da0f41dd4",
@@ -444,7 +527,11 @@
       "hashtags": [
         "機器學習",
         "資安問題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "205db816-e374-4d03-bc97-6add34bb3c38",
@@ -465,7 +552,11 @@
         "FreeRTOS",
         "智慧家居閘道器",
         "韌體開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "419a40b3-d7b3-4469-986e-9392bd4e0d15",
@@ -483,7 +574,10 @@
         "物聯網閘道器",
         "溫濕度感測",
         "光照感測"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "ac5f5e4d-bb15-42b0-ae69-56ca85ee10e0",
@@ -501,7 +595,10 @@
         "數據採集",
         "本地處理",
         "雲端通訊"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "7adb04bf-408f-448c-b6f9-d8a427dce994",
@@ -522,7 +619,10 @@
         "任務排程",
         "感測器驅動",
         "MQTT協定"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "07ce5e9b-22ca-47af-8e60-0dce6f027a77",
@@ -541,7 +641,10 @@
         "DHT11",
         "BH1750",
         "感測器整合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "9030aa19-5b7c-49c4-93cd-9f84b2e40de6",
@@ -560,7 +663,11 @@
         "數據採集",
         "即時性",
         "穩定性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "應變與韌性"
+      }
     },
     {
       "id": "c918216a-d1ca-4a89-98b4-e3b7776ece59",
@@ -569,7 +676,8 @@
       "content": "設計了多個 FreeRTOS 任務，包括感測器數據讀取任務、數據處理任務和 MQTT 雲端上傳任務。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "80826656-c4a5-4ece-ac58-d95e78571b90",
@@ -587,7 +695,10 @@
         "Queue",
         "同步通訊",
         "任務間通訊"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "0100a625-01a7-4d1c-b0ae-42fb2f6224f1",
@@ -604,7 +715,10 @@
         "TLS",
         "MQTT",
         "安全連線"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "58d9bbea-1cb7-4e54-a1a7-05afdc4277ff",
@@ -623,7 +737,11 @@
         "數據傳輸",
         "機密性",
         "完整性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "6cbaf893-1a91-43b0-8755-f798bc05d219",
@@ -643,7 +761,11 @@
         "RTOS",
         "多任務協調",
         "有限資源"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "c3f2a0ce-2070-4cee-b4c9-7372c9b8704f",
@@ -664,7 +786,11 @@
         "效率",
         "穩定性",
         "系統效能"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "a17b9709-af60-4172-8db6-e6a16ae921b9",
@@ -683,7 +809,11 @@
         "IoT裝置",
         "安全通訊",
         "複雜性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "e7c8e47a-8e51-4004-98d7-4715e73d73f1",
@@ -703,7 +833,11 @@
         "嵌入式系統設計",
         "硬體特洛伊防護",
         "研究渴望"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "98b9be22-1b09-468f-a401-3ab028d004b8",
@@ -721,7 +855,10 @@
         "資訊工程學系",
         "學術目標",
         "研究資源"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "a44fb486-022e-49fb-adbb-a4418d130659",
@@ -740,7 +877,11 @@
         "資訊安全",
         "嵌入式系統",
         "計算機結構"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "0af0ce63-ecc3-4d89-9ecb-6c4de6faa907",
@@ -756,7 +897,10 @@
       "hashtags": [
         "產業連結",
         "學術氛圍"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "06d2857c-f435-4571-a4ff-d26d3ebb70f1",
@@ -772,7 +916,10 @@
       "hashtags": [
         "專業技能磨練",
         "挑戰性研究環境"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "5f1d01be-6222-47a6-b929-22fba699ca12",
@@ -788,7 +935,10 @@
       "hashtags": [
         "韌體安全",
         "領域貢獻"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "36b67c0e-3bd7-46b2-bdc6-a0e689da6ded",
@@ -807,7 +957,11 @@
         "韌體安全",
         "硬體特洛伊防護",
         "研究方向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "f3d0630e-6712-4fbb-8fb9-66eb362beb76",
@@ -823,7 +977,10 @@
       "hashtags": [
         "短中長期目標",
         "學業研究規劃"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "999d414f-0cfe-48e0-8060-5d676c513738",
@@ -839,7 +996,10 @@
       "hashtags": [
         "研究環境熟悉",
         "課程資源利用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "bda7cd60-5a07-4e84-a520-62e936188987",
@@ -848,7 +1008,8 @@
       "content": "並積極融入實驗室文化。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "0e2c6093-be88-48a1-a370-7986870abf24",
@@ -868,7 +1029,11 @@
         "作業系統核心設計",
         "資訊安全專論",
         "嵌入式系統安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "8407b7d1-3341-4699-acec-14b316066c86",
@@ -886,7 +1051,10 @@
         "作業系統機制",
         "資訊安全",
         "理論知識深化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "4d72a8ab-ec87-44fd-bf85-56ec6bd62696",
@@ -905,7 +1073,11 @@
         "VHDL",
         "Verilog",
         "FPGA開發環境"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "52047515-222e-459f-bb21-c21d363b907c",
@@ -918,7 +1090,10 @@
       "sub_criteria_map": {
         "C1": "研究基礎建立"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "f4e4123d-a68f-455e-b5d0-46c227836a30",
@@ -937,7 +1112,11 @@
         "韌體安全",
         "硬體安全",
         "嵌入式系統研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "4d46d8cc-cc4a-486b-be27-ae3cbbbbed38",
@@ -954,7 +1133,10 @@
         "實驗室討論",
         "指導教授",
         "研究方向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "83952d9e-fc7a-45cf-9831-daad1f43f245",
@@ -972,7 +1154,10 @@
         "信任根",
         "Root of Trust",
         "韌體鑑識"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "451f94f4-4363-4026-b448-f8e6226fef20",
@@ -981,7 +1166,8 @@
       "content": "大量閱讀相關領域的頂級會議論文（如 NDSS, USENIX Security, CHES, DATE）。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "701b7175-9125-4dd2-965a-fb12a5d264fe",
@@ -1000,7 +1186,11 @@
         "研究熱點",
         "未解決問題",
         "主流解決方案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "8f0326ff-3a23-4da0-a65d-c634f5c1475c",
@@ -1016,7 +1206,10 @@
       "hashtags": [
         "論文主題",
         "深入研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "0fc4dd36-fc98-4e59-80c0-106ce08c33e3",
@@ -1034,7 +1227,11 @@
       "hashtags": [
         "指導教授",
         "碩士論文題目"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "aaf1f584-5783-48da-a4aa-d17b91bebced",
@@ -1055,7 +1252,11 @@
         "韌體完整性驗證",
         "機器學習",
         "硬體特洛伊木馬偵測"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "c67dec5d-14a2-43bf-bc0c-cb2fe5f720cb",
@@ -1071,7 +1272,10 @@
       "hashtags": [
         "系統設計",
         "實驗環境建置"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "755ffdf1-a9be-43de-84f8-ff8e7bf5bdc8",
@@ -1089,7 +1293,10 @@
         "RISC-V",
         "可信執行環境",
         "TEE"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "4349c100-e05a-4203-85da-0cb7e24d17c1",
@@ -1109,7 +1316,11 @@
         "深度學習模型",
         "Transformer",
         "側通道數據"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "2e391e45-1717-4227-a73b-3c10fead43b0",
@@ -1129,7 +1340,11 @@
         "SPIN",
         "TLA+",
         "韌體安全性分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "61b57f8e-68c3-4db5-82cf-5e1780afe877",
@@ -1144,7 +1359,10 @@
       },
       "hashtags": [
         "韌體設計嚴謹性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "726f6da2-ad11-4717-be9b-1cfac306dd62",
@@ -1160,7 +1378,10 @@
       "hashtags": [
         "實驗室報告",
         "研討會參與"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "93e8a3ea-5865-4060-a6f1-ed402caad492",
@@ -1176,7 +1397,10 @@
       "hashtags": [
         "研究進度分享",
         "挑戰討論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "b83a04f1-033e-4b74-91c8-7ffd94cac76b",
@@ -1193,7 +1417,10 @@
         "同儕回饋",
         "教授回饋",
         "學習改進"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "4551f104-b3c5-4b68-abef-9fa6d82ef4ff",
@@ -1211,7 +1438,10 @@
         "研討會投稿",
         "全國資訊安全會議",
         "VLSI Design/CAD Symposium"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "00c21cee-6de9-48b5-a696-08e35f72e0a0",
@@ -1230,7 +1460,11 @@
         "碩士論文",
         "創新性",
         "實用價值"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "162976f1-f16b-4efb-a4be-44d14ab95940",
@@ -1243,7 +1477,10 @@
       "sub_criteria_map": {
         "C4": "職涯發展規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "dde21057-2188-472c-a341-92a92fdac675",
@@ -1263,7 +1500,11 @@
         "數據分析",
         "結果驗證",
         "碩士論文"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "1d0d3cba-7625-447f-bab6-2457ed7a3b94",
@@ -1284,7 +1525,11 @@
         "ICCAD",
         "國際頂級會議",
         "期刊發表"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "add5900f-2375-47ba-8126-52816b3a3dc3",
@@ -1297,7 +1542,10 @@
       "sub_criteria_map": {
         "C3": "獨立思考能力"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "2324dfc8-5b2c-44a6-bac0-4ca5f837a7c1",
@@ -1317,7 +1565,11 @@
         "發現問題",
         "提出假設",
         "驗證解決方案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "9c6f3f92-3866-45bf-bc1c-c4bd7300ec66",
@@ -1336,7 +1588,11 @@
         "產學合作",
         "實習",
         "產業需求"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "1bf4f99a-aba8-443e-8841-2606e77a33f4",
@@ -1355,7 +1611,11 @@
         "嵌入式安全",
         "業界挑戰",
         "最新應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "07686b85-209e-43cb-b23f-7e11cb844a72",
@@ -1378,7 +1638,11 @@
         "韌體安全架構",
         "硬體安全評估",
         "威脅分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "fb1df1e7-80e8-4d37-9b11-3ead45ebe485",
@@ -1393,7 +1657,10 @@
       },
       "hashtags": [
         "台灣科技產業"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "c6c9f6a8-7a62-453d-9635-1a2964f78ff6",
@@ -1411,7 +1678,11 @@
       "hashtags": [
         "博士學位",
         "嵌入式系統安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "bd01c1f6-d624-434d-a5d6-34b0f13135aa",
@@ -1424,7 +1695,10 @@
       "sub_criteria_map": {
         "C4": "自我潛力認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "3ea1f748-6d25-43b8-8459-e2a95ce57e9e",
@@ -1437,7 +1711,10 @@
       "sub_criteria_map": {
         "C4": "學術職涯目標設定"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "76830fc0-faa7-44cc-9dc4-8b50b5eff765",
@@ -1450,7 +1727,10 @@
       "sub_criteria_map": {
         "C4": "迎接挑戰心態"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "85848df4-0401-4a6a-bdc5-121334e89a91",
@@ -1463,7 +1743,10 @@
       "sub_criteria_map": {
         "C4": "研究社群貢獻意願"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     }
   ]
 }

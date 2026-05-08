@@ -19,7 +19,10 @@
       "hashtags": [
         "清華大學",
         "資訊工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "e576ca78-5031-4f9d-8e54-32ba0213dd2b",
@@ -32,7 +35,10 @@
       "sub_criteria_map": {
         "C1": "學術領域投入"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "ab1a0895-3cd0-42c2-90ee-568f1eac6ea7",
@@ -48,7 +54,10 @@
       "hashtags": [
         "資訊安全",
         "網路安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "0b649a5f-772e-4073-8ccf-3980996ab205",
@@ -64,7 +73,10 @@
       "hashtags": [
         "網路漏洞",
         "問題修補"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "7f7946d0-c0c9-4a71-a977-bad47c13c9ee",
@@ -73,7 +85,8 @@
       "content": "在大學期間，我的學業成績大概落在 3.23 左右。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "3d3fac32-2978-49d5-930e-daf256ad66cd",
@@ -86,7 +99,10 @@
       "sub_criteria_map": {
         "C1": "學習態度展現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "c8ce50d0-3c84-47a8-bd24-83c3a0d28376",
@@ -105,7 +121,10 @@
         "作業系統",
         "網路運作原理",
         "攻擊手法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "cebf6955-a46f-4095-b07c-3e8d8c7ec023",
@@ -118,7 +137,10 @@
       "sub_criteria_map": {
         "C4": "學習成果反思"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "48159e70-6540-4219-87c6-c050cd27c382",
@@ -131,7 +153,10 @@
       "sub_criteria_map": {
         "C4": "學習動機深化"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "2dabb3d8-7f34-49ba-a5ce-c6a5054f6f54",
@@ -149,7 +174,11 @@
       "hashtags": [
         "自主學習",
         "修課專題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "402cc122-d716-41ed-b59f-3b159eedc8f0",
@@ -162,7 +191,10 @@
       "sub_criteria_map": {
         "C4": "學習環境限制"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "b45af2e1-e6ee-4c0a-ac0c-eeadabf90262",
@@ -181,7 +213,11 @@
         "自主學習",
         "資料探尋",
         "實作能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "e09622b9-5363-427c-a5b7-2aff6f9d7987",
@@ -197,7 +233,10 @@
       "hashtags": [
         "課程專題",
         "網站安全掃描工具"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "a4b35a3f-e920-4b71-81eb-33a8dcf33ea6",
@@ -210,7 +249,10 @@
       "sub_criteria_map": {
         "C2": "專案規模說明"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "43db1bee-9cf4-43cf-9d8f-6252960da6fe",
@@ -226,7 +268,10 @@
       "hashtags": [
         "攻擊模擬",
         "資安技術學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "396d678c-7c17-4444-88f5-cfd3cff08eb4",
@@ -242,7 +287,10 @@
       "hashtags": [
         "網站安全",
         "資安眉角"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "43ae3751-f49f-4838-8ca3-a9e092ca74e8",
@@ -258,7 +306,10 @@
       "hashtags": [
         "資安實務",
         "經驗反思"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "43664633-f5e3-48a4-9304-be4fa538628b",
@@ -274,7 +325,10 @@
       "hashtags": [
         "數位脈絡科技",
         "軟體開發工讀"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "83453185-0eb1-4e3e-a5b2-dcf35705a08e",
@@ -290,7 +344,10 @@
       "hashtags": [
         "網站後端",
         "問題處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "7247201f-6840-43cc-828b-277e18c47d13",
@@ -309,7 +366,11 @@
         "資安考量",
         "資料庫保護",
         "使用者權限管理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "b5c5830a-5549-4fab-891b-3ebdec28358b",
@@ -326,7 +387,10 @@
         "理論實務落差",
         "業界需求",
         "問題反思"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "48203ea7-a573-482a-9754-60ce3a931886",
@@ -344,7 +408,10 @@
         "管理問題",
         "流程問題",
         "跨領域啟發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "b08b4949-d1d5-42e2-8b01-6ff3e3f5d55d",
@@ -360,7 +427,10 @@
       "hashtags": [
         "素食主義推廣社",
         "社團參與"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "02ad79d5-80e1-4fec-8f86-6e5b05292a76",
@@ -377,7 +447,10 @@
         "跨背景溝通",
         "活動企劃",
         "活動執行"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "09b7dd8e-0699-4661-ace0-518d9078e439",
@@ -390,7 +463,10 @@
       "sub_criteria_map": {
         "C4": "經驗關聯性反思"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "1a7f2cb6-9cfe-4cb1-9248-2d7c08f28d65",
@@ -406,7 +482,10 @@
       "hashtags": [
         "溝通能力",
         "組織能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "7b2fbe89-97e7-4c08-875f-1afdea289492",
@@ -422,7 +501,10 @@
       "hashtags": [
         "從零到有",
         "專案推動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "e99e3a21-6218-43d0-9349-3f4679d21c51",
@@ -438,7 +520,10 @@
       "hashtags": [
         "理念推廣",
         "熱情"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "209004e8-c46b-4a3c-be13-7872a06a43d7",
@@ -457,7 +542,11 @@
         "資訊安全推廣",
         "網路環境重視",
         "經驗類比"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "b44bc354-5852-4ccc-abc6-5e1da3b81677",
@@ -478,7 +567,12 @@
         "資訊工程知識",
         "資安實作",
         "問題解決能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C2": "業界實務經驗",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "bc3eeb60-2724-4358-a3ec-fd99d1ab193e",
@@ -493,7 +587,10 @@
       },
       "hashtags": [
         "網路安全熱情"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "23a80357-66db-4fcd-8a64-38b9027c60f1",
@@ -510,7 +607,10 @@
         "交大資工所",
         "資安知識深造",
         "領域貢獻"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "2ca3e391-5a0f-4975-a7c6-7bfd5d3480b5",
@@ -528,7 +628,10 @@
         "資訊安全",
         "網路安全",
         "研究資源"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "c40c0ca9-1db1-4570-a543-ed91d4803052",
@@ -544,7 +647,10 @@
       "hashtags": [
         "專業能力提升",
         "志同道合夥伴"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "46f79669-fbbf-4f69-90bd-39dc45790369",
@@ -562,7 +668,10 @@
         "入侵偵測",
         "系統防護",
         "研究興趣"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "2b85f149-5e39-40a1-a634-52cfe399cef1",
@@ -582,7 +691,11 @@
         "網路安全進階",
         "系統安全設計",
         "資安核心課程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "165dd3f4-1848-4836-89d0-37c5d191c27e",
@@ -595,7 +708,10 @@
       "sub_criteria_map": {
         "C1": "學術基礎補強"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "558d2fa5-69c9-49a8-ab52-78337685c163",
@@ -608,7 +724,10 @@
       "sub_criteria_map": {
         "C4": "自我認知與精進"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "21a5e85d-73e0-4ae6-baef-0bfa283db8ec",
@@ -625,7 +744,10 @@
         "實驗室討論",
         "學長姐請教",
         "研究主題了解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "9c8795e9-612e-418a-a823-86a8005961a5",
@@ -644,7 +766,11 @@
         "實驗室文化",
         "研究論文閱讀",
         "研究趨勢"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "28c1ed5a-52d7-421f-9aa4-1278907dcfc8",
@@ -657,7 +783,10 @@
       "sub_criteria_map": {
         "C4": "研究方向探索與規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "5ab58a25-0ab1-4a13-931c-80d064106c7e",
@@ -674,7 +803,10 @@
         "Python",
         "C/C++",
         "資安分析工具"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "b4b18882-c20d-4bf0-a6eb-23d2061548ba",
@@ -689,7 +821,11 @@
         "C2": "技術能力精進規劃",
         "C4": "自我能力評估與成長"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "48be75e5-aa16-4f47-8691-78b50d5be016",
@@ -704,7 +840,10 @@
       },
       "hashtags": [
         "碩士論文主題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "2b43223f-cf24-4190-84f0-f35c635dec86",
@@ -722,7 +861,11 @@
       "hashtags": [
         "指導教授溝通",
         "研究進度管理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "47b1f921-5618-451d-b22b-a2e3dae7a48d",
@@ -737,7 +880,10 @@
       },
       "hashtags": [
         "網路安全領域"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "958e44d2-c8ab-44ea-9edf-75c8348ea084",
@@ -754,7 +900,11 @@
       },
       "hashtags": [
         "實驗室專案參與"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "f2183c26-3c63-4bce-885f-d94730d3df40",
@@ -772,7 +922,11 @@
       "hashtags": [
         "理論實務結合",
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "edd3e26d-8a2b-4b9b-8560-8ce6fec6d016",
@@ -788,7 +942,10 @@
       "hashtags": [
         "學術研討會",
         "研究成果發表"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "f4895c47-9927-4ebe-b162-f0532e38f525",
@@ -803,7 +960,10 @@
       },
       "hashtags": [
         "國際研討會"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "7f4ae6f2-738d-4478-9ed9-fe842081bc85",
@@ -822,7 +982,10 @@
         "資安工程師",
         "攻讀博士",
         "交大資工"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "19bc5227-e61a-493e-a833-9b3c6a87a9db",
@@ -839,7 +1002,10 @@
         "資訊安全領域",
         "技術日新月異",
         "終身學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "6e63c113-8555-4e2b-809c-7e561ee3b21a",
@@ -848,7 +1014,8 @@
       "content": "我會持續關注最新的技術發展和威脅情勢，保持終身學習的態度，不斷提升自己的專業能力，為守護網路安全盡一份心力。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "852be572-edb9-419c-a178-5070eb0d6e59",
@@ -865,7 +1032,10 @@
         "資安專業人才",
         "社會貢獻",
         "資安探索"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     }
   ]
 }

@@ -19,7 +19,10 @@
       "hashtags": [
         "中正大學",
         "通訊工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "b7af953a-9dbc-45fd-bf4f-596e87dc77a9",
@@ -32,7 +35,10 @@
       "sub_criteria_map": {
         "C4": "學習動機展現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "00d767af-813a-4713-83c0-78a2e9b76fc5",
@@ -47,7 +53,10 @@
       },
       "hashtags": [
         "通訊相關"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "9c179f7a-b461-4e83-81e4-acc61a2da04c",
@@ -62,7 +71,10 @@
       },
       "hashtags": [
         "訊號處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "0c7323a8-618b-4e55-b854-acd5df69424c",
@@ -79,7 +91,10 @@
         "電腦視覺",
         "影像處理",
         "人機互動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "16f11492-c00e-4029-ae50-505ea25a3248",
@@ -92,7 +107,10 @@
       "sub_criteria_map": {
         "C4": "技術應用願景"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "4cd0bf7e-2409-4cba-98fc-725539c4d779",
@@ -105,7 +123,10 @@
       "sub_criteria_map": {
         "C4": "申請動機闡述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "3a0003f9-02bc-4c3d-83c3-bd4ff1b85eb7",
@@ -118,7 +139,10 @@
       "sub_criteria_map": {
         "C1": "學業成績自述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "1a255d14-7e8f-4ded-bac6-51998c2a84a7",
@@ -131,7 +155,10 @@
       "sub_criteria_map": {
         "C4": "學習投入態度"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "d0abe8d7-fed7-4ee5-9061-87bec3e6d58a",
@@ -148,7 +175,10 @@
         "通訊工程",
         "訊號處理",
         "演算法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "6c9bf27f-7206-4654-8be9-1befba1ed774",
@@ -166,7 +196,10 @@
         "演算法",
         "物件導向程式設計",
         "資工系課程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "5b2a205a-d3f3-47b0-a4f2-598b865e2c58",
@@ -179,7 +212,10 @@
       "sub_criteria_map": {
         "C4": "學習動機與規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "ddad91b8-9f2d-43fa-9e82-374c257bbab8",
@@ -194,7 +230,10 @@
       },
       "hashtags": [
         "多媒體與互動科技實驗室"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "96cfe1cf-839f-4373-9422-71ff0368765e",
@@ -207,7 +246,10 @@
       "sub_criteria_map": {
         "C4": "經驗反思"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "fe626882-d7a7-4850-bf5e-dffdac661f6c",
@@ -224,7 +266,10 @@
         "影像辨識",
         "人機互動",
         "智慧導覽系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "8afdab5c-4877-43fd-b01a-cc8da77576ec",
@@ -233,7 +278,8 @@
       "content": "我的主要職責是協助處理影像資料，然後用一些程式來訓練模型。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "fe0cba9c-f695-4a5e-b465-083dcd9cbf45",
@@ -249,7 +295,10 @@
       "hashtags": [
         "影像前處理",
         "模型參數調整"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "87b77638-a817-4119-b227-b40d80c74623",
@@ -266,7 +315,10 @@
         "模型辨識",
         "資料集問題",
         "資料處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "af3e7e78-003b-4c3f-b12c-05b7f98cd300",
@@ -281,7 +333,10 @@
       },
       "hashtags": [
         "實務研究流程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "293333a5-8621-4b78-bfd1-666341feea30",
@@ -296,7 +351,10 @@
       },
       "hashtags": [
         "電腦視覺應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "44b59a5d-5cfd-49e9-83cd-c5ff628aa0f8",
@@ -309,7 +367,10 @@
       "sub_criteria_map": {
         "C3": "問題解決能力培養"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "c74921e5-3332-4412-b636-b59563c7996e",
@@ -322,7 +383,10 @@
       "sub_criteria_map": {
         "C2": "學術業界應用"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "0cc757c6-4866-433a-9928-9336f9679ff9",
@@ -340,7 +404,11 @@
       "hashtags": [
         "實務經驗",
         "教學經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "519e3eac-5b2a-4513-a714-fefa5e2f01d1",
@@ -357,7 +425,10 @@
         "智慧裝置",
         "新創公司",
         "實習經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "4228cf6d-8317-43a6-a0c5-9c50085fed4b",
@@ -374,7 +445,10 @@
         "影像辨識",
         "輔助功能開發",
         "物體識別"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "5f63b11c-b3f1-4d21-a594-c34cf1a879e4",
@@ -391,7 +465,10 @@
         "程式撰寫",
         "功能測試",
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "f249c901-dc38-4bd3-a2b5-6686d3d14006",
@@ -404,7 +481,10 @@
       "sub_criteria_map": {
         "C2": "基礎實作參與"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "361eee60-631e-492f-b84e-b6fb38dd48a7",
@@ -419,7 +499,10 @@
       },
       "hashtags": [
         "軟體開發流程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "3068af65-4f71-43b1-9588-a6f3840f2d56",
@@ -436,7 +519,10 @@
         "業界挑戰",
         "快速步調",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "bfdcb4a2-3fa9-4a67-ad60-1f2eda61c5d0",
@@ -452,7 +538,10 @@
       "hashtags": [
         "快速適應",
         "學習成長"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "1c501748-ba01-4b5a-a8a5-e8deb4d8fba9",
@@ -467,7 +556,10 @@
       },
       "hashtags": [
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "31fc5dfa-a81e-4474-861f-af5e0481c277",
@@ -483,7 +575,10 @@
       "hashtags": [
         "溝通協調",
         "技術與軟實力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "f1db159a-ebb1-4c6c-a02c-be98df3c627f",
@@ -502,7 +597,11 @@
         "程式語言助教",
         "批改作業",
         "程式問題解答"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "02dddaf7-25d4-4d5c-9759-74a220f52403",
@@ -517,7 +616,10 @@
       },
       "hashtags": [
         "程式設計理解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "2adeea8b-92fc-41f7-a3b4-f1363725e97a",
@@ -535,7 +637,11 @@
       "hashtags": [
         "知識內化",
         "清晰思考"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "feb235a1-0046-47b8-af6c-459fa79aabfb",
@@ -550,7 +656,10 @@
       },
       "hashtags": [
         "教學相長"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "b307765f-e321-4eed-b148-76a80516947d",
@@ -566,7 +675,10 @@
       "hashtags": [
         "表達能力",
         "耐心"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "b9c8e911-5425-417b-be69-4a50628c0b24",
@@ -583,7 +695,10 @@
         "交通大學",
         "資訊工程學系",
         "碩士班"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "96be94c3-e6e0-49b9-bd7f-5d83aee19080",
@@ -603,7 +718,11 @@
         "電腦視覺",
         "影像處理",
         "人機互動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "35c2f401-b9ad-405e-8556-dc0f9b17a6b7",
@@ -618,7 +737,10 @@
       },
       "hashtags": [
         "景仰教授"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "b283ac93-15d5-4c38-aff7-f6f862ec2534",
@@ -631,7 +753,10 @@
       "sub_criteria_map": {
         "C4": "學習環境期望"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "babe723d-03dd-476b-934c-db3c4560e790",
@@ -648,7 +773,10 @@
         "通訊背景",
         "訊號處理",
         "影像處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "83079f26-a7dc-4331-b924-bafd6d42a945",
@@ -666,7 +794,10 @@
         "電腦科學",
         "視覺計算",
         "互動技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "50c60949-32a4-4230-b763-76b869cc22b2",
@@ -679,7 +810,10 @@
       "sub_criteria_map": {
         "C4": "跨域發展展望"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "89011219-d6d1-4c3f-a00f-4d1a02cbcba6",
@@ -696,7 +830,10 @@
         "軟硬體資源",
         "先進設備",
         "工具使用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "90a636dd-2446-4716-9bbf-f528a65ccea3",
@@ -709,7 +846,10 @@
       "sub_criteria_map": {
         "C4": "研究發展助益"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "8a865918-28e3-4926-a862-882d2b8297d6",
@@ -725,7 +865,10 @@
       "hashtags": [
         "電腦視覺",
         "人機互動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "fce08809-eaf7-4f5b-a713-617f5b5fbad2",
@@ -743,7 +886,11 @@
       "hashtags": [
         "跨領域背景",
         "相關研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "19908730-9fa2-4790-8bdc-a7b9ab9878b7",
@@ -758,7 +905,10 @@
       },
       "hashtags": [
         "資訊工程基礎"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "952e821b-1720-452a-a2d0-bd4954ea42c8",
@@ -775,7 +925,10 @@
         "電腦視覺",
         "影像處理",
         "人機互動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "4f090856-55db-4fad-bd32-1b7cde9cd32e",
@@ -790,7 +943,10 @@
       },
       "hashtags": [
         "獨立研究能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "73fc9608-f75a-4005-ac86-d4ad6e49ab4b",
@@ -806,7 +962,10 @@
       "hashtags": [
         "真實世界挑戰",
         "學用合一"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "5a1ada6d-4adf-4d84-9b09-a654c1d73857",
@@ -823,7 +982,10 @@
         "碩士班規劃",
         "紮實學習",
         "適應新環境"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "40a83792-bd5d-44e1-839b-efc5a484c5ce",
@@ -841,7 +1003,10 @@
         "深度學習",
         "數位影像處理",
         "人機互動概論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "e34619b4-4d14-4786-bb1f-024381d591ba",
@@ -857,7 +1022,10 @@
       "hashtags": [
         "能力補強",
         "自我成長"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "3baa05b4-5c3d-4fd5-8ea7-c19680e9b61f",
@@ -874,7 +1042,10 @@
         "基礎知識",
         "同儕討論",
         "學習進度"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "11d530c5-533e-462f-b2f3-358b2541fe05",
@@ -891,7 +1062,10 @@
         "期刊論文閱讀",
         "發展趨勢",
         "自主學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "6ba06c7a-070a-4733-8307-24bf971b4fd0",
@@ -907,7 +1081,10 @@
       "hashtags": [
         "指導教授",
         "研究興趣"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "07eba508-0789-4950-beb2-f088d8d1bd7a",
@@ -923,7 +1100,10 @@
       "hashtags": [
         "實驗室專案",
         "實作經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "eb39fa8b-df38-4a85-a182-11b850000eda",
@@ -943,7 +1123,11 @@
         "研究工具",
         "實驗室研究方向",
         "學長姐學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "6d8081d6-5c60-4135-aced-2a32015b6401",
@@ -956,7 +1140,10 @@
       "sub_criteria_map": {
         "C2": "實作能力培養"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "49edea3b-ea4c-48dc-a99f-7320f3fa6ccd",
@@ -969,7 +1156,10 @@
       "sub_criteria_map": {
         "C2": "技術工具學習"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "8a1745ae-327d-4c8f-a584-977464562d44",
@@ -982,7 +1172,10 @@
       "sub_criteria_map": {
         "C4": "學習態度積極"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "9ef28f60-ec36-4cc2-91e9-1096263763f5",
@@ -999,7 +1192,10 @@
         "程式設計",
         "影像處理",
         "深度學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "0ea4e42b-9e01-4b05-a2f2-850b79b44776",
@@ -1015,7 +1211,10 @@
       "hashtags": [
         "程式題目練習",
         "Coding能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "9fe8733e-ef7b-414c-bec0-f27e7e9408b7",
@@ -1033,7 +1232,11 @@
       "hashtags": [
         "碩士論文",
         "研究主題深化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "64ef9d30-fddd-4cce-95f4-548c7e7a79e0",
@@ -1048,7 +1251,10 @@
       },
       "hashtags": [
         "碩士論文主題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "15f67854-7277-4fac-89c6-cb48a15929cf",
@@ -1066,7 +1272,11 @@
       "hashtags": [
         "獨立研究",
         "深入研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "45a52973-bd14-40fc-8543-8d116e7fe90f",
@@ -1087,7 +1297,11 @@
         "電腦視覺",
         "人機互動",
         "跨域整合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "1d631d3a-9212-4bd1-8de8-2028ededab5e",
@@ -1106,7 +1320,11 @@
         "實驗室討論",
         "想法提出",
         "積極實踐"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "87b1e14b-ca55-4bec-91ad-22263833e095",
@@ -1119,7 +1337,10 @@
       "sub_criteria_map": {
         "C3": "主動學習與嘗試"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "應變與韌性"
+      }
     },
     {
       "id": "25f1cc17-008b-4ab9-ac96-34dbf7f5c723",
@@ -1134,7 +1355,10 @@
       },
       "hashtags": [
         "碩士論文"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "b113e909-7edf-43a7-b1e9-cf38a223fb07",
@@ -1147,7 +1371,10 @@
       "sub_criteria_map": {
         "C4": "研究成果表達"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "fb3b4c97-63de-41b0-950c-e570a2ec0d22",
@@ -1162,7 +1389,10 @@
       },
       "hashtags": [
         "論文撰寫"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "1dd9fad1-b701-4174-ba38-8a509ccd73ee",
@@ -1178,7 +1408,10 @@
       "hashtags": [
         "學術研討會",
         "國際交流"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "8b20fc5a-8b3f-457b-afcc-1d7ea94d3ea9",
@@ -1194,7 +1427,10 @@
       "hashtags": [
         "跨校交流",
         "研究者交流"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "447e3bd1-01bb-44d4-b718-9772863870e0",
@@ -1207,7 +1443,10 @@
       "sub_criteria_map": {
         "C4": "自我成長意識"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "71bf1d13-6bb9-4902-ad90-74aade99fd1f",
@@ -1226,7 +1465,11 @@
         "產業應用",
         "交大資工",
         "知識技能應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "37954baa-526e-4cf9-bd57-429908db7e5a",
@@ -1247,7 +1490,11 @@
         "影像處理",
         "人工智慧",
         "人機互動"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "bb9ec8c8-196d-457f-aa94-22de4a98f521",
@@ -1266,7 +1513,11 @@
         "創新產品",
         "系統開發",
         "人類生活應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "c2514c76-b0b4-4376-a33e-701d0a556715",
@@ -1283,7 +1534,11 @@
       },
       "hashtags": [
         "跨領域思維"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "03dbaed5-fc7e-41ee-ac5b-acb22f2f7346",
@@ -1296,7 +1551,10 @@
       "sub_criteria_map": {
         "C4": "持續學習熱忱"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "4ffda59f-27d6-4069-a272-c573a68255d7",
@@ -1309,7 +1567,10 @@
       "sub_criteria_map": {
         "C4": "自我精進意識"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "4fe668f9-3589-4bf1-ae03-0707ebe50807",
@@ -1322,7 +1583,10 @@
       "sub_criteria_map": {
         "C4": "學術貢獻願景"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     }
   ]
 }

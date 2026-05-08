@@ -16,7 +16,10 @@
       "sub_criteria_map": {
         "C1": "學歷背景說明"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "1033c167-eaa3-4569-ac4b-db9fe7e4be1d",
@@ -33,7 +36,10 @@
         "電腦硬體",
         "運作原理",
         "效能優化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "b775789e-f45c-4661-a9f4-187dabfcf10a",
@@ -46,7 +52,10 @@
       "sub_criteria_map": {
         "C4": "學業初期挑戰"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "d0c9ae6b-ae46-4a2a-b45a-1880d43686b4",
@@ -64,7 +73,11 @@
       "hashtags": [
         "實作精神",
         "動手解決問題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "b0a66588-2c86-4cc7-9e65-d97cd43c0ff3",
@@ -81,7 +94,10 @@
         "計算機結構",
         "數位邏輯設計",
         "熱情鑽研"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "5aa554a4-4272-4693-a2e7-31b38a2ed96e",
@@ -101,7 +117,11 @@
         "加速技術",
         "運算效率",
         "系統優化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "7e383594-e496-46a1-9920-652101b0d747",
@@ -114,7 +134,10 @@
       "sub_criteria_map": {
         "C4": "申請動機說明"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "6d0a2575-e060-4637-8081-92f0912dcfca",
@@ -135,7 +158,11 @@
         "個人專案",
         "硬體設計",
         "程式開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "eaab11bf-1f65-4d24-9ee6-c38d4b8a3f2e",
@@ -155,7 +182,11 @@
         "指令集",
         "記憶體階層",
         "加速器設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "6bf6e0bd-0e61-4405-840b-8ca92878ccbf",
@@ -175,7 +206,11 @@
         "MIPS CPU",
         "CPU模擬器",
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "30862cd6-8d2e-4e7a-8bd0-bdb36a7b48a1",
@@ -194,7 +229,10 @@
         "五級管線",
         "資料危害處理",
         "控制危害處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "e0b1efb7-91ff-44e3-9280-f3783697a2f4",
@@ -211,7 +249,10 @@
         "管線化技術",
         "快取記憶體",
         "CPU執行流程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "05727c9d-b889-4a71-b0fd-50696a1ad5d6",
@@ -224,7 +265,10 @@
       "sub_criteria_map": {
         "C3": "專案限制認知"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "0253a0ea-abd6-4029-9c61-93c37fd82952",
@@ -239,7 +283,10 @@
       },
       "hashtags": [
         "處理器設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "34a3bfbb-a576-46a1-8c43-40f39b5f0727",
@@ -256,7 +303,10 @@
         "設計複雜性",
         "效能與正確性",
         "測試除錯"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "3d1f99a2-11e7-4232-9cda-0339f8588340",
@@ -271,7 +321,10 @@
       },
       "hashtags": [
         "硬體描述語言"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "633fe7f2-3014-43c1-a1fb-f38d67572e8d",
@@ -288,7 +341,10 @@
         "數位系統設計",
         "FPGA",
         "圖像濾波器"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "949fc6cb-3aaf-443e-85d8-38ebbba6c669",
@@ -306,7 +362,10 @@
         "Sobel邊緣檢測",
         "硬體加速模組",
         "實時影像處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "78c60595-1b3b-4052-b476-3c560962019c",
@@ -315,7 +374,8 @@
       "content": "熟悉了 Xilinx Vivado 設計套件，進行邏輯合成、佈局繞線，並在 Nexys A7 FPGA 開發板上進行驗證。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "9ad3ffa7-bff6-403f-9e53-2f2cc7811d47",
@@ -331,7 +391,10 @@
       "hashtags": [
         "硬體資源利用率",
         "處理速度優化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "df8f4786-124b-4093-9aab-0444089fdf8b",
@@ -348,7 +411,10 @@
         "硬體描述語言",
         "平行化處理",
         "硬體加速"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "4a3691ed-1ec4-4ae5-b375-6a0993276b4f",
@@ -364,7 +430,10 @@
       "hashtags": [
         "開源硬體架構",
         "RISC-V指令集"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "db989a96-494e-404f-ab8d-fce112ef4622",
@@ -383,7 +452,11 @@
         "RISC-V ISA手冊",
         "模擬環境",
         "RISC-V程式"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "44f6e374-db84-4e44-9145-9712bcce672a",
@@ -402,7 +475,11 @@
         "RISC-V處理器核心",
         "核心設計修改",
         "內部結構理解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "25d04fae-cbe1-46ee-bdde-fcf23cfdc70a",
@@ -421,7 +498,10 @@
         "Chisel",
         "Verilog",
         "RISC-V核心範例"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "67478242-5d01-4766-8246-aaf9b5522d5f",
@@ -436,7 +516,10 @@
       },
       "hashtags": [
         "RISC-V核心設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "a18901b2-7edf-43b6-aac8-93af87381bce",
@@ -445,7 +528,8 @@
       "content": "但這段自學經驗讓我對現代處理器架構設計有了更深的洞察",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "a9f5c7eb-5503-4d65-8aab-a2f40097c798",
@@ -460,7 +544,10 @@
       },
       "hashtags": [
         "硬體加速研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "13c1039c-a9b3-4439-a2fe-f83984d502db",
@@ -477,7 +564,10 @@
         "勁速科技",
         "新創科技公司",
         "半年實習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "cbdb7f06-bb28-4ec5-82c5-5f9b7686d4f6",
@@ -493,7 +583,10 @@
       "hashtags": [
         "硬體開發流程",
         "業界挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "0c4f3480-bb94-4387-8f4c-788c4f7263ee",
@@ -510,7 +603,10 @@
         "高效能運算",
         "新創公司",
         "實習生"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "3e3a9485-f639-4039-abea-702c74bc6a23",
@@ -527,7 +623,10 @@
         "FPGA驗證",
         "韌體開發",
         "模組除錯"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "f6c96ea6-6f19-485e-8e9c-1dc6ec80138d",
@@ -546,7 +645,10 @@
         "邏輯分析儀",
         "C/C++",
         "嵌入式系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "110e9b4a-1fe6-41bb-b956-a3b9480975fd",
@@ -555,7 +657,8 @@
       "content": "也接觸到一些腳本語言如 Python，用於自動化測試。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "525ddc19-e4f2-4a34-a22a-e5254095d0da",
@@ -574,7 +677,11 @@
         "韌體溝通問題",
         "測試腳本優化",
         "效率提升10%"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "9e8824e7-1749-4662-9c51-5ab798fdd88f",
@@ -590,7 +697,10 @@
       "hashtags": [
         "理論實務差距",
         "團隊合作重要性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "d495d0dc-5d9c-40d9-9d1f-448ff06b080d",
@@ -605,7 +715,10 @@
       },
       "hashtags": [
         "校內社團"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "c2bcf6bd-c870-4bf3-bbb4-f9190af92eb5",
@@ -622,7 +735,10 @@
         "中興大學",
         "校報社",
         "記者"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "01cb2873-2af3-49d0-99fd-ff127f6e0e5e",
@@ -637,7 +753,10 @@
       },
       "hashtags": [
         "軟實力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "5ba4209b-cbf6-4b91-b34b-9b47b8245196",
@@ -655,7 +774,10 @@
         "文字記者",
         "大二",
         "大三"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "31b78b2a-b345-4675-aaf3-6ada5cceb0da",
@@ -673,7 +795,10 @@
         "人物專訪",
         "新聞稿",
         "專題報導"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "f007658f-a27d-49f9-9f74-e0fc3f204201",
@@ -692,7 +817,11 @@
         "溝通表達",
         "資訊分析",
         "簡潔傳達"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "b7186c2e-8c81-4db8-9bd1-a4fbf6df2ff7",
@@ -708,7 +837,10 @@
       "hashtags": [
         "捕捉重點",
         "有條理敘述"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "f0346649-2e1e-448b-8a1b-ea3f5e245700",
@@ -725,7 +857,10 @@
         "硬體設計",
         "清晰溝通",
         "文件能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "44b52d78-48c1-46a5-a946-afba06ee9c1f",
@@ -743,7 +878,10 @@
         "設計文件",
         "技術傳達",
         "記者經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "83311d9c-ef32-4e70-9cff-8a398d504869",
@@ -762,7 +900,10 @@
         "硬體加速",
         "高效能運算",
         "嵌入式系統"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "0cefbeee-455e-41c6-8d04-5300c8baaf58",
@@ -780,7 +921,11 @@
       "hashtags": [
         "硬體背景",
         "實作經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述",
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "12572d63-7b45-4c26-8727-551007b98a6f",
@@ -799,7 +944,10 @@
         "資料庫應用",
         "半導體產業",
         "高科技產業"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "132b6ae8-82f1-437a-a312-6a38a243f073",
@@ -816,7 +964,10 @@
         "學術研究",
         "專業課程",
         "學習步調"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "bcb7080f-d889-47a7-b73c-ae65b4360baa",
@@ -837,7 +988,11 @@
         "編譯器設計",
         "處理器架構",
         "記憶體優化"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "b1bbd204-e380-409c-bb13-431db0ebeb76",
@@ -854,7 +1009,10 @@
         "高等演算法",
         "深度學習",
         "跨領域整合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "b03c7fa1-4d9a-4fa1-aed9-5b6c4b63c9b6",
@@ -870,7 +1028,10 @@
       "hashtags": [
         "AI硬體加速",
         "軟體層面理解"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "9015a91c-3da1-4ecd-9ccf-fa3f0559cc9d",
@@ -892,7 +1053,11 @@
         "MICRO",
         "HPCA",
         "DAC"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "9bfa7314-b78f-468d-801c-5f0390264a20",
@@ -915,7 +1080,10 @@
         "Vitis",
         "Quartus",
         "異構計算平台"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "ed7bc591-e839-4364-bffd-e0dde7384f0c",
@@ -931,7 +1099,10 @@
       "hashtags": [
         "研究專案參與",
         "學術突破"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "3362b2c9-a7b4-47ad-b59a-63f51d56121b",
@@ -940,7 +1111,8 @@
       "content": "確定研究方向與論文主題：在與指導教授密切討論後，根據我的興趣和實驗室專長，確定我的碩士論文具體研究方向，例如「AI 推理工作負載的專用硬體加速架構設計」、「新型記憶體技術（如 CXL、HBM）與計算機結構的整合優化」，或是「高效率網路封包處理的硬體加速方案」。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "b2bb82af-1e94-490c-9477-a7976e73d00d",
@@ -958,7 +1130,10 @@
         "硬體設計",
         "驗證",
         "性能評估"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "58cba9ab-ae58-4ed5-a554-2224e73c92f3",
@@ -974,7 +1149,10 @@
       "hashtags": [
         "創新硬體加速方案",
         "實用價值"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "5e9aaf9c-d038-4dba-a587-90d8c2820871",
@@ -992,7 +1170,10 @@
         "論文發表",
         "頂級會議",
         "頂級期刊"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "3277f32e-ae50-43a1-975a-3d68847771a8",
@@ -1008,7 +1189,10 @@
       "hashtags": [
         "產業貢獻",
         "台灣科技發展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "dc982e45-f2e2-4b25-96be-ad9098711281",
@@ -1027,7 +1211,10 @@
         "計算機架構",
         "硬體加速器",
         "高效能運算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "818c92fc-0012-4182-b5d3-397f4833a1cb",
@@ -1040,7 +1227,10 @@
       "sub_criteria_map": {
         "C4": "專業技能精進規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "ccc644c3-74b2-48c0-8533-e6614f8b4cc5",
@@ -1058,7 +1248,10 @@
         "業界導師",
         "經驗傳承",
         "科技人才培養"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     }
   ]
 }

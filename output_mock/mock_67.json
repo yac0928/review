@@ -19,7 +19,10 @@
       "hashtags": [
         "交通大學",
         "電機工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "4e32ca2e-33cc-4a66-a8fc-10c721c03c11",
@@ -32,7 +35,10 @@
       "sub_criteria_map": {
         "C4": "學習動機展現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "a2db0c2f-feaa-47ef-8cc1-b0ffe7350634",
@@ -49,7 +55,10 @@
         "電路學",
         "電子學",
         "通訊原理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
     },
     {
       "id": "1fb384f1-45a5-4bd3-b882-39ae2433ef07",
@@ -62,7 +71,10 @@
       "sub_criteria_map": {
         "C1": "學業成績陳述"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "86f9cd07-5455-4755-9c98-a7b8eba6453d",
@@ -78,7 +90,10 @@
       "hashtags": [
         "軟體",
         "程式設計"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "4c7c370e-868b-4a80-8891-251a50c2a6c0",
@@ -96,7 +111,11 @@
       "hashtags": [
         "程式設計",
         "解決問題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "724f3b25-6633-4ff8-bd06-d27c42a6d993",
@@ -112,7 +131,10 @@
       "hashtags": [
         "通訊技術",
         "密碼學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "3d058005-fd0a-4670-ab43-ec6bf8021a23",
@@ -132,7 +154,11 @@
         "資訊安全",
         "通訊技術",
         "密碼學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "df5c8848-268f-472f-a423-2b0973508213",
@@ -148,7 +174,10 @@
       "hashtags": [
         "量子密碼",
         "通訊安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "9adb2421-176a-4e35-9eff-a83be686410f",
@@ -157,7 +186,8 @@
       "content": "我發現電機系的課程雖然有教通訊原理",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "01d0ccce-89a6-4594-abf4-8bd2b5e01a86",
@@ -175,7 +205,11 @@
       "hashtags": [
         "軟體實作",
         "密碼學理論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "4be29fcd-25fb-4848-b498-907d4cfc71c1",
@@ -191,7 +225,10 @@
       "hashtags": [
         "資工所",
         "交大資工"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "e606bbeb-4184-4c5a-8062-e9119aa49ad9",
@@ -206,7 +243,10 @@
       },
       "hashtags": [
         "智慧通訊安全實驗室"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "d4c27dff-d8a9-499a-bd03-253ce69c398d",
@@ -221,7 +261,10 @@
       },
       "hashtags": [
         "電機系老師"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "cd0b8111-4ba3-4691-9e5d-52a50b753af1",
@@ -236,7 +279,10 @@
       },
       "hashtags": [
         "資工領域專案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "db911f65-2ccb-4983-93ee-953fec00c977",
@@ -254,7 +300,11 @@
       "hashtags": [
         "安全通訊協定",
         "研究專案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "eae393c6-ef34-4d85-bdac-5642bbd9970e",
@@ -273,7 +323,11 @@
         "量子密碼",
         "程式模擬",
         "量子通訊"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "feb34e37-1a8a-40c3-a780-f305c0bb3807",
@@ -289,7 +343,10 @@
       "hashtags": [
         "程式語言",
         "數據分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "834d82bb-99a2-4fac-ab3d-3575d984f75d",
@@ -307,7 +364,11 @@
       "hashtags": [
         "安全通訊機制",
         "實驗數據處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "9f394e7f-2c76-4bf4-81f4-6079f5b2de19",
@@ -325,7 +386,11 @@
       "hashtags": [
         "理論實作落差",
         "問題調整"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "de65846d-9e36-4d68-8c3d-2836b6d23982",
@@ -342,7 +407,10 @@
         "安訊科技",
         "新創公司",
         "兼職"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "6b3739f7-3be8-45b5-ac0a-027dfb155b3a",
@@ -358,7 +426,10 @@
       "hashtags": [
         "網路安全",
         "解決方案"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "78d308cd-11f6-495b-adf9-06c4cb9cb398",
@@ -375,7 +446,10 @@
         "後端開發",
         "資料庫維護",
         "資料加密"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "516c2f5e-4ab2-467d-9336-31bc61cd9b92",
@@ -388,7 +462,10 @@
       "sub_criteria_map": {
         "C2": "實作範圍界定"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "7f367e20-e848-4ee1-8af2-fcc5c4609ca3",
@@ -405,7 +482,10 @@
         "軟體開發流程",
         "資安挑戰",
         "業界認識"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "9a6c3bb8-47f4-4d8e-adde-97aff6f5ab70",
@@ -420,7 +500,10 @@
       },
       "hashtags": [
         "資訊安全熱情"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "95b924b4-83ff-4112-ac45-78528f89f7d4",
@@ -433,7 +516,10 @@
       "sub_criteria_map": {
         "C4": "課外興趣發展"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "7d0bdab6-83d1-4b9e-9bea-6168cdee8e06",
@@ -448,7 +534,10 @@
       },
       "hashtags": [
         "寵物訓練師證照"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "bf450eab-27c4-474e-9c44-975fe3e549f5",
@@ -468,7 +557,11 @@
         "觀察力",
         "行為模式理解",
         "引導技巧"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "34e16cf9-82d9-42b7-b4e2-38a10793b822",
@@ -487,7 +580,10 @@
         "耐心嘗試",
         "方法調整",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "7d395a54-27c3-487f-a225-7b5979ca1241",
@@ -503,7 +599,10 @@
       "hashtags": [
         "多元解方",
         "換位思考"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "b0df0ea1-d712-44a2-96e2-a7bcbc574521",
@@ -520,7 +619,10 @@
         "量子密碼",
         "通訊技術",
         "密碼學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "d6c97617-dad6-4f4c-a376-1980259cc544",
@@ -537,7 +639,10 @@
         "資訊安全",
         "工程師",
         "研究人員"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "b34087f5-8d77-40c8-899e-e89778d7deb7",
@@ -550,7 +655,10 @@
       "sub_criteria_map": {
         "C4": "學習投入意願"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "f2d064d9-db6f-478c-a702-47a306a70f36",
@@ -563,7 +671,10 @@
       "sub_criteria_map": {
         "C4": "學習環境適應"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "3649fb54-b5b6-4e4d-bf0e-42692a547bcd",
@@ -581,7 +692,10 @@
         "高等演算法",
         "作業系統",
         "網路概論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "ba006f2b-b7c8-4019-9a7c-89b6cdf8443f",
@@ -598,7 +712,10 @@
         "密碼學專題",
         "資訊安全導論",
         "量子計算導論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "921d6411-228d-4829-883a-e89a047c6096",
@@ -618,7 +735,11 @@
         "量子密碼",
         "通訊安全",
         "密碼學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "85822317-2e2c-4264-8d32-dd2052628b1a",
@@ -627,7 +748,8 @@
       "content": "我希望能盡快參與到實驗室的專案中，從實際操作中學習，培養自己的研究能力，多問多學。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "64f92c7c-19a0-431b-909a-8ad3f9b57b1f",
@@ -645,7 +767,11 @@
       "hashtags": [
         "研究主題",
         "學術基礎"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "978b72d8-9759-4d25-8363-af167b1de726",
@@ -662,7 +788,10 @@
         "量子密碼",
         "通訊系統應用",
         "密碼學演算法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "62efc959-bf01-42df-b30b-af8a80bf255f",
@@ -681,7 +810,11 @@
         "學術論文",
         "研究進展",
         "想法發想"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "e3ae1b16-d915-4fac-9e71-8c7110ed8ec7",
@@ -698,7 +831,10 @@
         "實驗室討論",
         "學術交流",
         "研究成果"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "9811c9d3-95ba-437f-b34e-7039f4786945",
@@ -714,7 +850,10 @@
       "hashtags": [
         "研究成果發表",
         "研討會投稿"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "220cf65f-6155-45e2-add4-6fd18bb21ed6",
@@ -732,7 +871,11 @@
       "hashtags": [
         "程式實作能力",
         "理論實現"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "d5f13a9d-a5de-44b6-bff1-2d222099ed5c",
@@ -748,7 +891,10 @@
       "hashtags": [
         "產業應用",
         "資工專業"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "676927fd-6bc7-4e52-bdfe-2e57bf7d843a",
@@ -766,7 +912,10 @@
         "資訊安全研發",
         "博士學位",
         "領域專家"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "94cfe1d2-4a3e-4dab-8400-afac7a5a4fe4",
@@ -783,7 +932,10 @@
         "安全通訊系統",
         "加密技術",
         "敏感資料保護"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "bfc050f7-8687-4b6a-bdc9-a53b458e84a2",
@@ -801,7 +953,10 @@
         "資工專業",
         "跨領域應用",
         "資訊安全"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "5756f419-19d0-41fe-a47e-273d565a2c2a",
@@ -814,7 +969,10 @@
       "sub_criteria_map": {
         "C4": "學習環境選擇動機"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     }
   ]
 }

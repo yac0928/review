@@ -19,7 +19,10 @@
       "hashtags": [
         "國立臺灣大學",
         "資訊管理學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "7b99bbe2-7d72-47fd-975f-19e05b9a0f9d",
@@ -32,7 +35,10 @@
       "sub_criteria_map": {
         "C3": "好奇心與探索"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思"
+      }
     },
     {
       "id": "73a79f14-6bf7-4384-b2bd-c4f466dba49c",
@@ -51,7 +57,11 @@
         "資訊科技",
         "機器學習",
         "智慧型計算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "13d62f8d-1d4f-435e-92f3-2d0008d3464f",
@@ -64,7 +74,10 @@
       "sub_criteria_map": {
         "C4": "未來研究方向"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "19b89992-762c-4bf3-8932-a2b9779ad5f7",
@@ -77,7 +90,10 @@
       "sub_criteria_map": {
         "C1": "學業成績自評"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "7827d102-0353-42ae-8f3c-e3d80f77e3a3",
@@ -92,7 +108,11 @@
         "C4": "學習理念闡述",
         "C2": "實作導向學習"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "72a2c31e-4619-446d-bbe4-45bd753dbdde",
@@ -111,7 +131,11 @@
         "智能金融實驗室",
         "深度學習",
         "股價趨勢預測模型"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "aaef036d-4b00-4062-a5a8-550c87ed5b90",
@@ -129,7 +153,10 @@
         "模型建構",
         "Python",
         "TensorFlow"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "adff674e-5d7b-44ca-8c94-b7ee6542f2fe",
@@ -138,7 +165,8 @@
       "content": "我們從公開的財報與新聞資料中爬取數據，並嘗試將多種時間序列模型（如 LSTM、GRU）應用於股價預測。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "626377eb-ce89-43e5-b293-e9e504dcc3e9",
@@ -159,7 +187,11 @@
         "非線性",
         "市場情緒",
         "非結構化資訊"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "d0d01d52-92ee-4502-ba35-4a378d130524",
@@ -175,7 +207,10 @@
       "hashtags": [
         "特徵工程",
         "數據轉換"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "8cf248ec-8ac2-4145-9257-4c7d16a0ac51",
@@ -188,7 +223,10 @@
       "sub_criteria_map": {
         "C3": "模型限制理解"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "e08f8ce0-fce4-4583-9a09-88876e275c37",
@@ -206,7 +244,11 @@
       "hashtags": [
         "多模態數據",
         "預測準確度"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "5fa7c9e0-1405-4414-9ab3-9123354856e7",
@@ -224,7 +266,11 @@
       "hashtags": [
         "模型調校",
         "效能評估"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "8ee6777b-8912-460a-9e47-dddaa4ca9087",
@@ -242,7 +288,11 @@
       "hashtags": [
         "機器學習技術",
         "財金領域應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C2": "資料分析與模型建構"
+      }
     },
     {
       "id": "f60dd784-f271-40ba-931d-a8fc8fdef526",
@@ -257,7 +307,10 @@
       },
       "hashtags": [
         "智慧型計算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "c8127906-eb4a-4c5b-ba69-4a55abac1456",
@@ -276,7 +329,11 @@
         "智匯資本",
         "金融科技",
         "實習經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "998af1fe-ea05-4718-9dee-f18ead486757",
@@ -296,7 +353,11 @@
         "資料視覺化",
         "交易行為分析",
         "投資組合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "5470bcde-94dd-4346-b6d4-c2efc0396cae",
@@ -314,7 +375,11 @@
       "hashtags": [
         "金融業界",
         "數據驅動決策"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "208dc8ea-dfab-4f8a-9c63-962f537ccd99",
@@ -334,7 +399,11 @@
         "Tableau",
         "互動式儀表板",
         "市場洞察"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "e21792de-84c9-4209-897a-399be74ed475",
@@ -353,7 +422,11 @@
         "業務需求",
         "應用場景",
         "技術價值"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析",
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "cce8820e-c8d4-4b25-a0dc-c87dfcd1db51",
@@ -371,7 +444,11 @@
       "hashtags": [
         "產品導向思維",
         "軟體開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "e1bbf5a8-70e0-4fb6-b8bf-8ae1225e240f",
@@ -388,7 +465,10 @@
         "財金領域",
         "資工領域",
         "跨域視角"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "52939009-7885-47ca-a362-2faac79707c7",
@@ -411,7 +491,11 @@
         "特徵選擇",
         "結果解釋",
         "實務應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "6f13ef15-99d2-4cc6-88f1-892a33fa82b0",
@@ -428,7 +512,10 @@
         "交通大學資工系",
         "機器學習",
         "智慧型計算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "31efb4d2-0cec-409d-945e-585d7b03c65a",
@@ -444,7 +531,10 @@
       "hashtags": [
         "頂尖教授",
         "產業合作機會"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "697ef0b2-4219-470e-a30f-dfe2d2f5af6b",
@@ -466,7 +556,11 @@
         "資工技術",
         "智慧金融",
         "智慧決策"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "68191c35-90f9-4d4f-8fe0-49a69cf44d3c",
@@ -479,7 +573,10 @@
       "sub_criteria_map": {
         "C4": "研究所學習目標"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "a370b5c7-9a31-4b43-91e5-2612e93d9898",
@@ -492,7 +589,10 @@
       "sub_criteria_map": {
         "C4": "讀書計畫架構"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "1318382e-04f6-4f17-9961-c7caf0586440",
@@ -510,7 +610,11 @@
       "hashtags": [
         "基礎理論",
         "實作能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "43dea068-bbfa-4dd2-8b06-0ab1ca730aef",
@@ -527,7 +631,10 @@
         "機器學習",
         "深度學習",
         "機器學習導論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "f13ad213-075c-41ac-972b-4ce35f7b24b4",
@@ -543,7 +650,10 @@
       "hashtags": [
         "數學原理",
         "演算法細節"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "858f90e5-5bef-474a-9d6b-30f7dd1f741e",
@@ -561,7 +671,11 @@
       "hashtags": [
         "資料結構",
         "演算法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "2929197a-2734-4299-991e-4c694fb84cb9",
@@ -581,7 +695,11 @@
         "智慧金融",
         "推薦系統",
         "自然語言處理"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "c6dc420e-1c77-4a52-9511-cda67c1ef8c1",
@@ -597,7 +715,10 @@
       "hashtags": [
         "學術研討會",
         "專題演講"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "9ffa3f99-fab5-46de-a5d2-3aa7b80d2cca",
@@ -613,7 +734,10 @@
       "hashtags": [
         "學長姐交流",
         "研究經驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "01bdb4ce-e2ca-43a1-a850-afac94cbdcbb",
@@ -629,7 +753,10 @@
       "hashtags": [
         "課堂表現",
         "積極討論"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "abeb8eb5-35a1-4cb8-876e-14885388fecc",
@@ -638,7 +765,8 @@
       "content": "進入第二學年後，我將會進入指導教授的實驗室，投入更深入的研究專案。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "0502b884-48eb-4cba-8390-6b2d3d97457d",
@@ -658,7 +786,11 @@
         "量化交易",
         "大型語言模型",
         "金融文本情感分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "16949e25-8d09-4fe4-8923-bd7b5e9cbffd",
@@ -678,7 +810,11 @@
         "實驗設計",
         "數據分析",
         "學術論文撰寫"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "bafaeefb-e705-4e2f-9c8d-97065ced4a6d",
@@ -698,7 +834,11 @@
         "深度學習應用",
         "模型架構探索",
         "演算法改進"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "150e5752-5a2b-4b66-b400-10e1916c77cc",
@@ -718,7 +858,11 @@
         "財金領域知識",
         "模型解釋性",
         "模型實用性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "849c8a58-3649-4e7b-9673-15281e325795",
@@ -736,7 +880,11 @@
       "hashtags": [
         "學術會議發表",
         "研究成果"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "f5e5e273-a6e6-4806-8be9-276c6ed54cc0",
@@ -756,7 +904,11 @@
         "高效能運算",
         "雲端部署",
         "研究成果實作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "9e2a1f51-209f-47a8-9b8d-4d25cea8724c",
@@ -776,7 +928,11 @@
         "FinTech",
         "機器學習應用",
         "智慧型計算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "0a260f1a-ae60-4322-9ca0-6d6dfc210209",
@@ -798,7 +954,11 @@
         "風險管理",
         "詐欺偵測",
         "學術深造"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景",
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "2a4818d5-78f0-48d9-8b12-0848e7deaddf",
@@ -817,7 +977,11 @@
         "複雜問題解決",
         "科技金融整合",
         "跨域貢獻"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "3f6760a6-8ba5-4908-a9ec-30ead1cfe088",
@@ -838,7 +1002,12 @@
         "理論深度",
         "實作能力",
         "專業人才"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長",
+        "C1": "核心課程修習",
+        "C2": "程式與技術精進"
+      }
     }
   ]
 }

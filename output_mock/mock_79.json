@@ -19,7 +19,10 @@
       "hashtags": [
         "中山大學",
         "資訊工程學系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "c3513f84-c23c-4b85-976c-af6e322d22f9",
@@ -36,7 +39,10 @@
         "網路技術",
         "無線網路",
         "軟體定義網路"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "a81d4aab-e6a3-485d-810b-449741b73a71",
@@ -49,7 +55,10 @@
       "sub_criteria_map": {
         "C4": "專業發展願景"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "369676fa-7bc0-45b5-a870-e88cd8175572",
@@ -62,7 +71,10 @@
       "sub_criteria_map": {
         "C1": "學業成績表現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "3da9d7d6-1249-4c58-b3f4-e7848ae8100d",
@@ -75,7 +87,10 @@
       "sub_criteria_map": {
         "C4": "自我評估反思"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "e71bb5e9-6724-4560-84cc-53881921b821",
@@ -88,7 +103,10 @@
       "sub_criteria_map": {
         "C4": "專業精進態度"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "967fc5d6-9910-441a-8006-64c44b8b2082",
@@ -107,7 +125,11 @@
         "計算機網路",
         "網路程式設計",
         "課程專題"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "6c53ce26-e6eb-42ba-b34e-991f085beec4",
@@ -126,7 +148,10 @@
         "軟體定義網路",
         "OpenFlow",
         "流量控制"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "b9d550ac-6f72-4ffc-a8ff-4999886ae9c8",
@@ -141,7 +166,10 @@
       },
       "hashtags": [
         "SDN"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
     },
     {
       "id": "48be9a6a-0a51-4d57-82db-435a17914810",
@@ -160,7 +188,11 @@
         "Wireshark",
         "封包分析",
         "網路協定"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C1": "跨域學習整合"
+      }
     },
     {
       "id": "ed34584d-cef8-4152-9d04-add59a475645",
@@ -179,7 +211,10 @@
         "無線網路",
         "通訊標準",
         "通訊協議"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "d695cb9c-d816-48ae-9378-4fa1d3a5e0cc",
@@ -192,7 +227,10 @@
       "sub_criteria_map": {
         "C4": "網路發展願景"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "98ac320f-81e1-43e5-b07b-d91b7b9253b0",
@@ -205,7 +243,10 @@
       "sub_criteria_map": {
         "C4": "課外探索精神"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "906ee084-7fe8-4239-bb83-48c83cf8e3ba",
@@ -222,7 +263,10 @@
         "美食評論",
         "觀察力",
         "系統性分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "860cd762-5bdb-4d32-b862-36c478aad1ef",
@@ -239,7 +283,10 @@
         "記錄細節",
         "歸納分析",
         "用餐體驗"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "76c3fa59-3dcb-4fa8-becc-c0cead9de032",
@@ -258,7 +305,11 @@
         "尋找規律",
         "網路問題除錯",
         "網路流量分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C2": "專業技術應用"
+      }
     },
     {
       "id": "cbc025f8-1850-402e-bea6-758fa1000c10",
@@ -274,7 +325,10 @@
       "hashtags": [
         "網路通訊領域",
         "卓越聲譽"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "b5d9fc69-9986-4b68-a4b5-c6a1dda7c49a",
@@ -291,7 +345,10 @@
         "無線通訊",
         "新世代網路架構",
         "研究契合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "41c80b12-d911-4058-bb64-4511b646f6f6",
@@ -309,7 +366,10 @@
         "無線網路",
         "SDN",
         "研究精進"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "bcb687d3-d381-45eb-99c0-2998e4ba1d9d",
@@ -318,7 +378,8 @@
       "content": "我對國立交通大學資訊工程學系所的景仰已久，貴所深厚的學術底蘊及在網路通訊領域的領先地位，都深深吸引著我。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "c36abd44-9d6d-4470-9138-05acb435dfd2",
@@ -335,7 +396,10 @@
         "無線網路",
         "軟體定義網路",
         "前瞻研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "756921cb-f00e-43f8-8ecf-908a0f3b7796",
@@ -353,7 +417,10 @@
         "無線通訊概論",
         "分散式系統",
         "核心課程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "ebe16fe1-2645-45c3-980e-1588ffb973e6",
@@ -372,7 +439,11 @@
         "實驗室討論",
         "研究方向",
         "請益"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析",
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "f9432656-9411-415e-82d9-04171daa4982",
@@ -388,7 +459,10 @@
       "hashtags": [
         "期刊論文",
         "研究趨勢"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "10bbf049-f4a6-4595-bd4b-6adc81fbc1cc",
@@ -404,7 +478,10 @@
       "hashtags": [
         "網路模擬工具",
         "NS-3"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "f2eec38f-8e1c-48d3-8b1b-3f42395399d8",
@@ -424,7 +501,10 @@
         "SDN技術",
         "網路韌性",
         "網路安全性"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "65d0cd39-450a-48c0-933d-2347a5b382e4",
@@ -443,7 +523,11 @@
         "實驗環境",
         "模擬實驗",
         "研究假設驗證"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "d43d4159-6727-4f92-90d2-d5e9c053c8a1",
@@ -465,7 +549,11 @@
         "數據分析",
         "網路效能優化",
         "安全策略"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "04c18dd0-95c6-452f-97ef-d8c43cf367d4",
@@ -481,7 +569,10 @@
       "hashtags": [
         "論文撰寫",
         "學術會議投稿"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "da32f35f-b7af-4e58-9600-78ebd957a5eb",
@@ -499,7 +590,10 @@
         "5G/6G行動通訊",
         "物聯網",
         "IoT"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "f3a4c7e2-83c3-4bea-95bd-684fee515463",
@@ -516,7 +610,10 @@
         "博士學位",
         "學術深耕",
         "網路技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "f2d8d735-8b16-4331-a6c3-8ba9a607736a",
@@ -537,7 +634,11 @@
         "網路工程師",
         "研究人員",
         "交大資工所"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "專業發展願景"
+      }
     }
   ]
 }

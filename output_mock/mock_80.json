@@ -12,7 +12,8 @@
       "content": "我是李奕蓉，來自清華大學電機工程學系。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "540f214c-7918-4f6f-89bc-c898e6a7a36f",
@@ -30,7 +31,10 @@
         "網路安全",
         "網路攻擊偵測",
         "硬體加速"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "59634540-98a7-47ad-8ea8-377dd04de036",
@@ -43,7 +47,10 @@
       "sub_criteria_map": {
         "C1": "學業成績自評"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "7556d76d-ae7e-4fda-8c42-08c293b13573",
@@ -56,7 +63,10 @@
       "sub_criteria_map": {
         "C1": "專業科目學習態度"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "3b0ba48b-c695-4ad1-8826-0229cad47421",
@@ -73,7 +83,10 @@
         "交大資工所",
         "深入學習",
         "興趣轉專業"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "34f7095c-ea51-47be-b5e1-163ec6297e77",
@@ -91,7 +104,10 @@
         "數位邏輯",
         "計算機組織",
         "硬體架構"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "bdca8d00-c3d7-429f-9a3c-c849351f88bb",
@@ -108,7 +124,10 @@
         "網路安全實驗室",
         "老師",
         "學長"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "38c5a12b-cdb9-4829-be5e-a2d0e16442d2",
@@ -125,7 +144,10 @@
         "惡意攻擊偵測",
         "硬體加速",
         "處理速度提升"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "696b02b5-102c-4694-a9ec-f7400f4a25a0",
@@ -145,7 +167,11 @@
         "程式前處理",
         "模型應用",
         "攻擊模式分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "資料分析與模型建構",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "e18f13c3-ac45-4b60-b475-2a8e677d9195",
@@ -163,7 +189,11 @@
       "hashtags": [
         "硬體架構設計",
         "威脅識別"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "55562d3c-754b-486a-bb1a-07b4a0364920",
@@ -182,7 +212,11 @@
         "理論實作",
         "高效能",
         "問題解決"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "833754bd-88dd-4496-b8f9-62a9f0edf6df",
@@ -200,7 +234,11 @@
       "hashtags": [
         "實作技巧",
         "問題解決能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "3e591c58-de75-49eb-95e6-d2b79a3d1610",
@@ -215,7 +253,10 @@
       },
       "hashtags": [
         "技術挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "1c528bca-63dc-403a-87b5-1c9caede5fcd",
@@ -231,7 +272,10 @@
       "hashtags": [
         "城市導覽App",
         "專案開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "308d1992-39fe-4dc3-9316-7716f980fb5c",
@@ -248,7 +292,10 @@
         "清華大學校園",
         "特色景點",
         "應用目的"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "ace01f1e-7460-4d36-8b5c-8c9077a2b233",
@@ -266,7 +313,10 @@
         "介面設計",
         "資料庫串接",
         "自主學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "4aee9167-555c-46db-9351-7281f0462183",
@@ -282,7 +332,10 @@
       "hashtags": [
         "成果反思",
         "自我評估"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "8274afc4-8cdf-44af-bb07-2614a4f358b8",
@@ -301,7 +354,11 @@
         "App開發流程",
         "跨領域合作",
         "成就感"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構",
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "b02cf60c-6d11-4998-a008-685c049d28a7",
@@ -318,7 +375,10 @@
         "網路安全",
         "硬體加速",
         "未來趨勢"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "59d2dde3-42ba-4bef-8f0b-a6a87992f921",
@@ -336,7 +396,10 @@
         "網路安全",
         "系統安全",
         "高效能運算"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "a8674621-014d-4ddd-8529-684e20cd56fd",
@@ -349,7 +412,10 @@
       "sub_criteria_map": {
         "C4": "學習資源規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "71865a36-b145-4909-98b1-178cb8bd0223",
@@ -369,7 +435,11 @@
         "硬體基礎",
         "網路攻擊偵測",
         "硬體加速技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "跨域學習整合",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "525198ce-3641-4cae-bbaa-71902b62ae0b",
@@ -382,7 +452,10 @@
       "sub_criteria_map": {
         "C4": "學習適應與基礎強化"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "aa0a22d5-cb54-4f67-af99-26dec48377f7",
@@ -391,7 +464,8 @@
       "content": "修習資工所開設的相關核心課程，像是高等計算機結構、進階網路安全，多方面充實自己的理論知識。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     },
     {
       "id": "9b4fc199-2c0c-4d87-9673-6a144c76a767",
@@ -407,7 +481,10 @@
       "hashtags": [
         "研討會",
         "實驗室成果發表"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "3af49d94-33b6-4f50-87b9-0b888e39ee43",
@@ -423,7 +500,10 @@
       "hashtags": [
         "指導教授討論",
         "研究方向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "eabf394e-32a4-4c12-9758-f0e4c9f8f202",
@@ -439,7 +519,10 @@
       "hashtags": [
         "程式設計",
         "演算法"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "5a3c217e-47b4-41b3-823d-f686a28bcfc4",
@@ -455,7 +538,10 @@
       "hashtags": [
         "網路安全偵測",
         "硬體加速"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "1e21ca26-1f1a-49f0-81ee-1b57d45a20c5",
@@ -471,7 +557,10 @@
       "hashtags": [
         "最新論文",
         "研究趨勢"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "9235b3a0-abb3-4e1e-ad6c-3a7b4786d223",
@@ -489,7 +578,11 @@
       "hashtags": [
         "規劃實驗",
         "分析數據"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "72799151-f723-4b4f-b6d2-fb307019f4cd",
@@ -507,7 +600,11 @@
       "hashtags": [
         "研究專案",
         "實驗室合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "5d2ae285-060d-41ad-88cb-69dbefbe77e4",
@@ -524,7 +621,10 @@
         "學術會議",
         "期刊發表",
         "研究成果"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "e7f85545-832d-4866-9060-7e8c7d05cd91",
@@ -537,7 +637,10 @@
       "sub_criteria_map": {
         "C4": "積極學習態度"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "68d26d41-0f11-417a-b013-efaad1559b73",
@@ -557,7 +660,11 @@
         "網路安全",
         "硬體加速技術",
         "資工領域"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "b48e62a8-0516-418e-93eb-26e1bc0ea2fa",
@@ -577,7 +684,11 @@
         "資安產品",
         "系統開發",
         "高效能"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "bab5d430-bdbd-4c5d-a638-e2f3c6a85e14",
@@ -594,7 +705,10 @@
         "博士學位",
         "學術貢獻",
         "繼續深造"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "91f8a319-ac30-41cb-a698-1d06beaa8752",
@@ -603,7 +717,8 @@
       "content": "總之，就是想成為一個對社會有貢獻的資工人才。",
       "criteria": [],
       "sub_criteria_map": {},
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
     }
   ]
 }

@@ -16,7 +16,10 @@
       "sub_criteria_map": {
         "C1": "學術背景說明"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
     },
     {
       "id": "77698973-1295-4061-b436-fee6f81d85a4",
@@ -33,7 +36,10 @@
         "圖學",
         "動畫",
         "遊戲開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
     },
     {
       "id": "a0d2d630-c827-4a9d-826f-6deeb5072402",
@@ -46,7 +52,10 @@
       "sub_criteria_map": {
         "C4": "未來研究規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "9df9ea6a-4ba7-4081-b394-9955d88ab17a",
@@ -59,7 +68,10 @@
       "sub_criteria_map": {
         "C1": "學業成績表現"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
     },
     {
       "id": "980fe116-55a3-4da3-b037-3a39c8dff0b6",
@@ -75,7 +87,10 @@
       "hashtags": [
         "實作能力",
         "技術應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "7827c6ca-18ed-4f28-95c1-a71625b03876",
@@ -90,7 +105,10 @@
       },
       "hashtags": [
         "互動媒體實驗室"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "c9160a32-04a7-4ad3-b7e9-0d4a01489654",
@@ -108,7 +126,11 @@
       "hashtags": [
         "圖學",
         "遊戲開發"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "cb9790fe-fbfd-4403-9cc4-bbf810ac92db",
@@ -126,7 +148,10 @@
         "畫面顯示",
         "使用者介面",
         "圖形物件"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "d0f46443-f236-4d08-86c7-e74490e0325c",
@@ -144,7 +169,11 @@
       "hashtags": [
         "畫面優化",
         "使用者互動邏輯"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C3": "實作與驗證"
+      }
     },
     {
       "id": "d1450cff-63fd-4b47-9ef7-5fdd3c9ff2a3",
@@ -162,7 +191,11 @@
       "hashtags": [
         "直覺設計",
         "專案思考"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "0e76f3a9-00c5-46c1-bfc8-38e614b1148b",
@@ -178,7 +211,10 @@
       "hashtags": [
         "遊戲原型",
         "開發實作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構"
+      }
     },
     {
       "id": "2cd6e7b9-0b64-46f5-a264-a1b592f41c98",
@@ -194,7 +230,10 @@
       "hashtags": [
         "遊戲架構",
         "從零搭建"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "5f3e8db8-2300-4840-b4ff-6dc53f2adc23",
@@ -207,7 +246,10 @@
       "sub_criteria_map": {
         "C2": "實作成品評估"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     },
     {
       "id": "5cc16b9b-aaed-49c8-a7d6-a842f996092d",
@@ -222,7 +264,10 @@
       },
       "hashtags": [
         "遊戲開發流程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "fe439be5-ad40-4c37-ab44-f62378ffef5d",
@@ -238,7 +283,10 @@
       "hashtags": [
         "職涯規劃",
         "遊戲產業志向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "1d895f8d-3459-4c89-927e-a3151eba4c4e",
@@ -256,7 +304,10 @@
         "新創公司",
         "遊戲前端開發",
         "兼職"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "業界實務經驗"
+      }
     },
     {
       "id": "ebdb91af-f9ab-4e8e-8e7e-cef9616e5a1e",
@@ -273,7 +324,10 @@
         "手機遊戲",
         "新功能開發",
         "介面程式實作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
     },
     {
       "id": "48f3b5b2-5b2e-43f4-9317-8fb205755879",
@@ -289,7 +343,10 @@
       "hashtags": [
         "業界開發流程",
         "常用開發工具"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "32ab1c2a-e1e0-411c-a8fe-db851878190d",
@@ -304,7 +361,10 @@
       },
       "hashtags": [
         "團隊合作"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
     },
     {
       "id": "322d370f-f167-4863-8701-6358417bde76",
@@ -319,7 +379,10 @@
       },
       "hashtags": [
         "問題察覺"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
     },
     {
       "id": "cf8211d2-bd5b-4fc2-939d-941229af47d5",
@@ -332,7 +395,10 @@
       "sub_criteria_map": {
         "C3": "團隊問題解決"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思"
+      }
     },
     {
       "id": "8328f480-9988-40d4-bd70-41175ac886fb",
@@ -347,7 +413,10 @@
       },
       "hashtags": [
         "真實專案挑戰"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
     },
     {
       "id": "d9b60b0b-db7f-4b2b-9cf1-df67a344c971",
@@ -364,7 +433,10 @@
         "圖學技術",
         "動畫技術",
         "遊戲技術"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "601c8787-605a-4d2d-9efd-e605d07cf3b4",
@@ -379,7 +451,10 @@
       },
       "hashtags": [
         "交通大學資工系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "059acbe0-440e-48d0-96b7-6d5b1457e1b4",
@@ -392,7 +467,10 @@
       "sub_criteria_map": {
         "C4": "技術能力精進"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力"
+      }
     },
     {
       "id": "c012f803-c747-4dcc-ae2b-9403f2d801ac",
@@ -407,7 +485,10 @@
       },
       "hashtags": [
         "交通大學資工系"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "99abc93a-8daa-4338-a204-11a12b6889dd",
@@ -425,7 +506,10 @@
         "動畫",
         "遊戲",
         "數位學習"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "d989b768-5a67-41e8-a464-0a1209b53c8e",
@@ -441,7 +525,10 @@
       "hashtags": [
         "扎實基礎",
         "研究方向"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "自我反思與成長"
+      }
     },
     {
       "id": "b9a19012-29ba-4178-9aa0-1bfe53ea0fe1",
@@ -462,7 +549,11 @@
         "虛擬實境",
         "數位學習",
         "進階課程"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "64c6a2a7-e12e-45f3-b3d3-3c93123c95fb",
@@ -477,7 +568,10 @@
       },
       "hashtags": [
         "教授研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "173a0d82-8d9e-43f2-ac91-dafd9e607556",
@@ -493,7 +587,10 @@
       "hashtags": [
         "導師指導",
         "興趣契合"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
     },
     {
       "id": "7d1551f2-4c5c-4c34-b993-a62d7e192c03",
@@ -512,7 +609,11 @@
         "程式撰寫",
         "解決問題能力",
         "自學"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "跨域整合能力",
+        "C2": "程式與技術精進"
+      }
     },
     {
       "id": "1e18a41b-7835-42b0-ad52-c12742ad00aa",
@@ -525,7 +626,10 @@
       "sub_criteria_map": {
         "C4": "研究階段規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "d9898982-9ebc-4186-94ed-1124e1977184",
@@ -545,7 +649,11 @@
         "問題定義",
         "實驗設計",
         "結果分析"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "專案實作執行"
+      }
     },
     {
       "id": "19746968-0b3d-46b1-b8b3-a4abd2bb9267",
@@ -564,7 +672,11 @@
         "圖學",
         "遊戲開發",
         "知識應用"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C1": "專業知識掌握"
+      }
     },
     {
       "id": "ae63e90a-4682-4761-a924-b057dae04040",
@@ -582,7 +694,11 @@
       "hashtags": [
         "頂尖論文",
         "學術閱讀"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "8f44479f-8baf-4d94-9552-a9ce2e1b1404",
@@ -601,7 +717,11 @@
         "研究趨勢",
         "研究方法",
         "視野擴展"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "03bf3d32-4b32-4b2f-a931-3de238b5940e",
@@ -617,7 +737,10 @@
       "hashtags": [
         "實驗室討論會",
         "學長姐交流"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "320dbb26-72a8-44b8-99a3-bcc6f1e6c3b5",
@@ -632,7 +755,10 @@
       },
       "hashtags": [
         "表達能力"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "1e3254f6-5a30-4bf5-a1a4-5b4f4a86c8ae",
@@ -645,7 +771,10 @@
       "sub_criteria_map": {
         "C4": "學業與未來規劃"
       },
-      "hashtags": []
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "0f773cb1-f2e6-4516-ae22-6f050c9a8816",
@@ -661,7 +790,10 @@
       "hashtags": [
         "碩士論文",
         "深度研究"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻"
+      }
     },
     {
       "id": "6ae9a7c4-373e-4487-bf68-135e6e6afc29",
@@ -677,7 +809,10 @@
       "hashtags": [
         "學術會議",
         "期刊發表"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
     },
     {
       "id": "34464084-25b4-4eef-a831-a44ac0cb8326",
@@ -694,7 +829,10 @@
         "遊戲產業",
         "動畫製作",
         "科技公司"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
     },
     {
       "id": "f86497ff-b00b-4094-b4c1-585954befe36",
@@ -711,7 +849,10 @@
         "知識應用",
         "實務應用",
         "社會貢獻"
-      ]
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合"
+      }
     }
   ]
 }
