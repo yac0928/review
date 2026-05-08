@@ -10,44 +10,81 @@
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "您好，我是侯欣儀，目前就讀於國立臺灣大學電機工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學生背景介紹"
+      },
+      "hashtags": [
+        "臺灣大學電機系"
+      ]
     },
     {
       "id": "90b77d3f-aeff-4a4a-9ff9-3732105a948c",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "從踏入大學校園的那一刻起，我就被電機工程廣闊的領域所吸引，從硬體電路設計到訊號處理，都讓我看到了科技的無限可能。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術領域興趣"
+      },
+      "hashtags": [
+        "電機工程",
+        "硬體電路設計",
+        "訊號處理"
+      ]
     },
     {
       "id": "c98576b3-c34d-40c9-bc4f-1c5e0c59f2ac",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "然而，在大二時，一次偶然的經驗點燃了我對軟體世界，特別是雲端計算與分散式系統的強烈興趣，從此開啟了我從硬體基礎轉向軟體架構的跨域學習之旅。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學習動機"
+      },
+      "hashtags": [
+        "軟體架構",
+        "雲端計算",
+        "分散式系統",
+        "跨域學習"
+      ]
     },
     {
       "id": "8f2c8bd3-464d-45ae-9159-87923d7afb9b",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我深信，電機系紮實的邏輯訓練與系統思維，將成為我未來在資工領域深入探究的獨特養分。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術基礎連結",
+        "C4": "未來學習規劃"
+      },
+      "hashtags": [
+        "邏輯訓練",
+        "系統思維",
+        "資工領域探究"
+      ]
     },
     {
       "id": "e76612b2-2f0c-46cd-884f-70c23af47963",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "在大學電機系的嚴謹訓練下，我的學業成績維持在 3.4 上下。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -55,270 +92,548 @@
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我修習了多門奠定計算機基礎的課程，如「資料結構」、「演算法」、「計算機組織」與「作業系統」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "計算機基礎課程"
+      },
+      "hashtags": [
+        "資料結構",
+        "演算法",
+        "計算機組織",
+        "作業系統"
+      ]
     },
     {
       "id": "b5a579b3-c540-4681-8753-619c5e625c1e",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "這些課程不僅讓我掌握了程式設計與系統運作的基礎原理，更激發我對軟體架構如何承載複雜應用、如何實現高效能運作的探究慾望。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "程式系統原理掌握"
+      },
+      "hashtags": [
+        "程式設計原理",
+        "系統運作原理",
+        "軟體架構探究"
+      ]
     },
     {
       "id": "d7f79b62-cc07-4cf5-94cb-e48cb7739e72",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "特別是「計算機網路」這門課，讓我首次窺見了網路世界龐大的基礎設施及其背後的設計哲學。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "網路基礎理解"
+      },
+      "hashtags": [
+        "計算機網路",
+        "網路基礎設施",
+        "設計哲學"
+      ]
     },
     {
       "id": "db3dfc71-95b8-4fe2-987a-677cef54fede",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "對於資料如何在廣闊的網路中流動、服務如何在多個節點間協同工作，產生了濃厚的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "網路運作機制興趣"
+      },
+      "hashtags": [
+        "資料流動",
+        "服務協同工作",
+        "多節點系統"
+      ]
     },
     {
       "id": "31242cb7-18d9-470e-9cb3-129a4c8572b8",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "大二下學期，我選修了外系的「程式設計實務」，課程中接觸到 Python 與物件導向的概念，讓我得以將所學的演算法與資料結構知識應用於實際問題解決。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域程式修習",
+        "C2": "程式實務應用"
+      },
+      "hashtags": [
+        "程式設計實務",
+        "Python",
+        "物件導向",
+        "演算法應用",
+        "資料結構應用"
+      ]
     },
     {
       "id": "1aafb21c-ac44-49cb-895e-3a7d1fcb0b33",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "在一個模擬交通流量的專案中，我首次嘗試設計一個多執行緒的模擬系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案系統設計"
+      },
+      "hashtags": [
+        "交通流量模擬",
+        "多執行緒系統"
+      ]
     },
     {
       "id": "5052e5d4-1f98-40d6-997d-eddb277092d1",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "儘管當時對分散式系統的理解仍十分粗淺，但已讓我深刻體會到系統同步與資源共享的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統問題洞察"
+      },
+      "hashtags": [
+        "系統同步",
+        "資源共享",
+        "分散式系統挑戰"
+      ]
     },
     {
       "id": "00518895-6a61-4d76-8493-2fdec5936598",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "這個專案讓我意識到，要讓複雜的軟體系統穩定且高效地運行，其背後需要更精密的設計與協調機制。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "複雜系統設計思維"
+      },
+      "hashtags": [
+        "軟體系統設計",
+        "系統穩定性",
+        "高效運行"
+      ]
     },
     {
       "id": "88d21fcc-4675-40a7-baac-5c22453fcc2c",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "這也成為我日後探索雲端與分散式系統的關鍵轉折點。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習方向確立"
+      },
+      "hashtags": [
+        "雲端系統",
+        "分散式系統"
+      ]
     },
     {
       "id": "d28f070f-1932-4258-a52e-348f9e1fc59e",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "此後，我開始主動補足資工領域的知識，不僅透過 Coursera 學習了史丹佛大學的「分散式系統」課程，也閱讀了如 Martin Kleppmann 的《Designing Data-Intensive Applications》等經典書籍，逐步建立起對共識演算法、訊息佇列、容錯機制等核心概念的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "分散式系統知識建構",
+        "C4": "自主學習與知識拓展"
+      },
+      "hashtags": [
+        "Coursera",
+        "史丹佛大學",
+        "分散式系統",
+        "Martin Kleppmann",
+        "Designing Data-Intensive Applications",
+        "共識演算法",
+        "訊息佇列",
+        "容錯機制"
+      ]
     },
     {
       "id": "a2a0b4a9-370f-43b9-beea-4563a1cc2fb4",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "這些自學歷程讓我更加確信，我的研究興趣已明確聚焦於如何設計、實作與優化大規模的分散式軟體系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究興趣聚焦"
+      },
+      "hashtags": [
+        "大規模分散式系統",
+        "軟體系統優化"
+      ]
     },
     {
       "id": "6ef497aa-956d-4d06-b385-c5556053d176",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "大學期間，我積極尋求實務經驗，將理論知識付諸實踐。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "理論實踐動機"
+      },
+      "hashtags": [
+        "實務經驗",
+        "理論應用"
+      ]
     },
     {
       "id": "b4bccb6f-2862-467c-9237-b5d98180cf2c",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "大三上學期，我加入了國立臺灣大學電機系「雲端服務實驗室」，在陳教授的指導下，參與了一個關於「大型電商平台分散式日誌分析系統優化」的產學合作專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗室專案參與"
+      },
+      "hashtags": [
+        "國立臺灣大學電機系",
+        "雲端服務實驗室",
+        "產學合作專案",
+        "電商平台",
+        "分散式日誌分析",
+        "系統優化"
+      ]
     },
     {
       "id": "62164692-b442-4f6e-bbba-537b58962e74",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "當時的系統面臨日誌吞吐量大、即時性不足以及擴展性受限的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統問題分析"
+      },
+      "hashtags": [
+        "日誌吞吐量",
+        "即時性不足",
+        "擴展性受限"
+      ]
     },
     {
       "id": "bb804ddc-658f-44d2-91a7-6b4cb22b1c4f",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我在專案中負責設計與實作一個基於 Kafka 與 Apache Flink 的新世代日誌處理管線。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "日誌處理管線實作"
+      },
+      "hashtags": [
+        "Kafka",
+        "Apache Flink",
+        "日誌處理管線"
+      ]
     },
     {
       "id": "7c688c42-98f7-4286-b569-ab879d117b8c",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "需求分析與架構設計：與團隊成員共同分析現有系統瓶頸，設計新的資料流架構，確保高吞吐量與低延遲。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統架構設計",
+        "C3": "系統瓶頸分析"
+      },
+      "hashtags": [
+        "需求分析",
+        "架構設計",
+        "資料流架構",
+        "高吞吐量",
+        "低延遲"
+      ]
     },
     {
       "id": "034760a2-1aad-41ce-93c8-d0e3c9cb422e",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "訊息佇列導入與配置：使用 Apache Kafka 作為日誌收集與緩衝層，配置多個 Broker 與 Topic，確保日誌資料的持久性與可靠傳輸。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "訊息佇列實作"
+      },
+      "hashtags": [
+        "Apache Kafka",
+        "日誌收集",
+        "Broker配置",
+        "Topic配置",
+        "可靠傳輸"
+      ]
     },
     {
       "id": "13ac1114-efed-4fe3-bf18-f866190199cd",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我針對 Kafka Cluster 進行了參數調優，例如調整 `message.max.bytes`、`linger.ms` 等，以平衡延遲與吞吐量，最終實現了每秒處理超過 10 萬條日誌的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統效能調優",
+        "C3": "效能平衡策略"
+      },
+      "hashtags": [
+        "Kafka Cluster",
+        "參數調優",
+        "message.max.bytes",
+        "linger.ms",
+        "10萬條日誌/秒"
+      ]
     },
     {
       "id": "cb30b4b7-3782-4034-b040-da44429b7826",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "即時流處理邏輯開發：利用 Apache Flink 框架開發了多個串流處理作業（Flink Job），實現日誌的即時解析、過濾、聚合與異常偵測。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "流處理邏輯開發"
+      },
+      "hashtags": [
+        "Apache Flink",
+        "串流處理",
+        "日誌解析",
+        "異常偵測"
+      ]
     },
     {
       "id": "630bc1a4-0faf-482f-b20a-5606c5d683a5",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我特別針對高基數（high-cardinality）日誌事件設計了 Bloom Filter 演算法，將重複事件的過濾效率提升了 30%。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "演算法設計應用",
+        "C3": "高基數事件優化"
+      },
+      "hashtags": [
+        "Bloom Filter",
+        "高基數日誌",
+        "過濾效率提升"
+      ]
     },
     {
       "id": "a1528bb0-5d7d-4dcc-ac9c-14a464f4bc47",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "容器化部署與管理：將 Kafka、Flink 應用與其他相關服務打包成 Docker 容器，並透過 Kubernetes 進行自動化部署與資源管理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "容器化部署管理"
+      },
+      "hashtags": [
+        "Docker",
+        "Kubernetes",
+        "自動化部署",
+        "資源管理"
+      ]
     },
     {
       "id": "a31b0345-c338-4500-ad0b-96eed210da73",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我學習了如何編寫 YAML 配置檔，並利用 Helm Chart 簡化部署流程，使整個系統的擴展性與可維護性大大提升。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "自動化部署工具",
+        "C3": "系統維護優化"
+      },
+      "hashtags": [
+        "YAML配置檔",
+        "Helm Chart",
+        "部署流程簡化",
+        "系統擴展性",
+        "可維護性"
+      ]
     },
     {
       "id": "312adc39-9e86-4c42-9596-4e1991a20f7d",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "透過這個專案，我深刻體會到大規模分散式系統設計的複雜性與挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案經驗反思"
+      },
+      "hashtags": [
+        "分散式系統設計",
+        "系統複雜性",
+        "專案挑戰"
+      ]
     },
     {
       "id": "f6ba1eb9-aa5f-42d3-9705-fa4153de5402",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "從一開始遇到的網路延遲、訊息重複、狀態管理等問題，到最終成功將系統的平均日誌處理延遲從 5 秒降低到 500 毫秒以內，並將系統的穩定性從 90% 提升至 99.5%。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統問題解決",
+        "C2": "系統效能提升"
+      },
+      "hashtags": [
+        "網路延遲",
+        "訊息重複",
+        "狀態管理",
+        "日誌處理延遲",
+        "系統穩定性"
+      ]
     },
     {
       "id": "8f0e87cc-689b-4692-bd60-94d6ba7ff91b",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "這段經歷讓我對分散式系統的可靠性、一致性、容錯性有了實務性的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實務理解深化"
+      },
+      "hashtags": [
+        "分散式系統",
+        "可靠性",
+        "一致性",
+        "容錯性"
+      ]
     },
     {
       "id": "560d07e1-15e9-4209-8fe1-fbf6ab015e89",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我學會了如何使用 Prometheus 和 Grafana 監控系統效能，並在遇到問題時，運用 Log 分析工具如 ELK Stack 快速定位問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統監控與問題定位"
+      },
+      "hashtags": [
+        "Prometheus",
+        "Grafana",
+        "ELK Stack",
+        "Log分析",
+        "系統效能監控"
+      ]
     },
     {
       "id": "86c5a2f4-b29a-44a1-b133-948d04562e58",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "在「作業系統」課程的啟發下，我與兩位同學合作，開發了一個基於 Go 語言的「點對點高效能檔案同步系統」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題系統開發"
+      },
+      "hashtags": [
+        "作業系統",
+        "Go語言",
+        "點對點檔案同步系統"
+      ]
     },
     {
       "id": "0fd55898-2b46-4486-8b37-bcab604edb3a",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我們旨在解決傳統 FTP 或 rsync 在處理大量小檔案時效率低下的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題定義與目標設定"
+      },
+      "hashtags": [
+        "FTP",
+        "rsync",
+        "檔案同步效率"
+      ]
     },
     {
       "id": "85098e79-0a35-4e75-8443-a21650bc5c85",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "系統設計：我們設計了一個基於 Merkle Tree 進行檔案差異比對的同步機制，有效減少了網路傳輸量。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統架構設計",
+        "C3": "解決方案規劃"
+      },
+      "hashtags": [
+        "Merkle Tree",
+        "檔案差異比對",
+        "網路傳輸優化"
+      ]
     },
     {
       "id": "2d75e5d6-3df2-40ec-a594-b5fd5f8f3ba2",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "同時，採用了多執行緒並行傳輸，加速檔案同步速度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "效能優化設計"
+      },
+      "hashtags": [
+        "多執行緒",
+        "並行傳輸",
+        "檔案同步加速"
+      ]
     },
     {
       "id": "8035b50d-a6d6-4628-86cd-8596fffc9ec6",
@@ -334,18 +649,36 @@
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我們還實作了一個簡易的 gRPC 服務來處理節點間的元數據交換和檔案塊請求。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "服務開發與通訊實作"
+      },
+      "hashtags": [
+        "gRPC服務",
+        "元數據交換",
+        "檔案塊請求"
+      ]
     },
     {
       "id": "164a4491-7cac-47ca-a649-e25dba5c047a",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "效能評估：在測試環境下，針對包含 10,000 個 1KB 小檔案的資料夾進行同步，相較於傳統 rsync，我們的系統在首次同步時間上縮短了約 40%，而在差異同步時更是將所需時間縮短了 70%，展現了點對點架構在高扇出率（high fan-out）同步任務中的潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "解決方案評估與驗證"
+      },
+      "hashtags": [
+        "效能評估",
+        "rsync比較",
+        "點對點架構",
+        "高扇出率同步",
+        "檔案同步效能"
+      ]
     },
     {
       "id": "627aeac7-189f-497b-91f0-91c1da6df924",
@@ -361,107 +694,211 @@
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "除了學術研究，我也積極參與課外活動，拓展個人視野並培養軟實力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "個人成長與軟實力培養"
+      },
+      "hashtags": [
+        "課外活動",
+        "軟實力培養",
+        "個人視野拓展"
+      ]
     },
     {
       "id": "9544277a-f5ae-4fd1-8703-54b4c26e06dc",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "作為一個熱愛攝影的人，我曾於大二寒假期間，獨自策劃並舉辦了一場名為「城市光影敘事」的個人攝影展覽。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "個人專案策劃與執行"
+      },
+      "hashtags": [
+        "攝影展覽",
+        "城市光影敘事",
+        "個人策劃"
+      ]
     },
     {
       "id": "cf300e64-2d60-49d8-ad42-d6db9ca134ed",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "這項經歷不僅考驗我的藝術視野，更讓我學習到專案管理、資源整合與跨部門溝通的實務能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案實務能力應用",
+        "C4": "溝通與學習成長"
+      },
+      "hashtags": [
+        "專案管理",
+        "資源整合",
+        "跨部門溝通"
+      ]
     },
     {
       "id": "311adf2a-1509-4d6a-8029-d9b82167524b",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "從場地租借、作品遴選、文案撰寫，到宣傳海報設計與媒體聯繫，每個環節都要求精準與效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案執行細節展現"
+      },
+      "hashtags": [
+        "場地租借",
+        "作品遴選",
+        "文案撰寫",
+        "海報設計",
+        "媒體聯繫"
+      ]
     },
     {
       "id": "9f649bec-dceb-4571-a2a1-eca11448cad6",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我甚至利用簡單的網頁技術與社交媒體平台，設計了展覽的線上宣傳頁面，觸及了超過 2,000 位潛在觀展者。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "數位行銷技術應用"
+      },
+      "hashtags": [
+        "網頁技術",
+        "社交媒體",
+        "線上宣傳",
+        "觸及2000人"
+      ]
     },
     {
       "id": "188d013b-7c8f-4f2d-a3d0-6645ef3b7bf4",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "籌備過程中，我遇到過贊助商臨時變卦、作品輸出色差等突發狀況。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "專案挑戰識別"
+      },
+      "hashtags": [
+        "贊助商變卦",
+        "作品色差",
+        "突發狀況"
+      ]
     },
     {
       "id": "269ce7bc-7937-4ce4-8e95-591d24b56f07",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "但都透過積極溝通與彈性應變成功解決。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "危機應變與解決"
+      },
+      "hashtags": [
+        "積極溝通",
+        "彈性應變",
+        "問題解決"
+      ]
     },
     {
       "id": "b6ba14d1-4e17-4316-b322-bd46930cb692",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "這段經驗讓我深刻理解到，無論是藝術創作還是工程開發，專案的成功都離不開嚴謹的規劃、細緻的執行與高效的團隊合作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案管理心得體悟"
+      },
+      "hashtags": [
+        "嚴謹規劃",
+        "細緻執行",
+        "團隊合作"
+      ]
     },
     {
       "id": "5886d8bc-c38d-49fa-8c9c-baa61b318528",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "這與我在實驗室中開發複雜軟體系統，需要與夥伴協調、共同解決問題的經驗有異曲同工之妙。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "軟體系統開發經驗",
+        "C3": "協作問題解決能力"
+      },
+      "hashtags": [
+        "實驗室經驗",
+        "複雜軟體系統",
+        "夥伴協調",
+        "共同解決問題"
+      ]
     },
     {
       "id": "a21f4faf-71d2-4979-b6a4-fc618fc2fc20",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "選擇交通大學資訊工程學系研究所，是基於我對雲端計算與分散式系統的濃厚興趣，以及對貴所卓越學術聲譽的肯定。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所申請動機"
+      },
+      "hashtags": [
+        "雲端計算",
+        "分散式系統",
+        "交大資工"
+      ]
     },
     {
       "id": "6b2d394f-214d-43b1-bc05-7963f48c31ba",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "貴所不僅在資訊領域深耕多年，更擁有多位在雲端平台、分散式演算法、高效能計算等領域有著深厚造詣的教授，如研究雲端儲存與巨量資料處理的教授、專注於高效能計算與平行處理的教授，以及鑽研分散式共識與系統可靠度的教授。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業領域知識理解",
+        "C4": "研究所師資研究"
+      },
+      "hashtags": [
+        "雲端平台",
+        "分散式演算法",
+        "高效能計算",
+        "雲端儲存",
+        "系統可靠度"
+      ]
     },
     {
       "id": "6388a41a-f3bb-4a08-888e-650b3e14adfc",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "他們的學術成果與研究方向與我的興趣高度契合，讓我對於能在貴所學習與成長充滿期待。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所契合度"
+      },
       "hashtags": []
     },
     {
@@ -469,53 +906,105 @@
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我的電機背景讓我對系統的硬體基礎有更全面的認識，而自學與實驗室經驗則讓我對軟體架構與分散式系統的挑戰有深刻體會。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學術背景",
+        "C2": "軟體系統理解"
+      },
+      "hashtags": [
+        "電機背景",
+        "軟體架構",
+        "分散式系統",
+        "實驗室經驗"
+      ]
     },
     {
       "id": "cc505e49-86ba-45b7-bd63-183155d30cfc",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我認為這種跨域的視角，能讓我從不同的角度思考問題，提出更具創新性與實用性的解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域問題解決"
+      },
+      "hashtags": [
+        "跨域視角",
+        "創新解決方案"
+      ]
     },
     {
       "id": "e61a7bf9-a4ca-4a53-8ea4-9fa4654238c8",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我渴望在貴所的豐富資源與頂尖學術氛圍中，深入學習分散式系統的核心理論與前沿技術，特別是邊緣運算、雲原生架構與服務網格（Service Mesh）等新興領域。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業領域學習規劃"
+      },
+      "hashtags": [
+        "分散式系統",
+        "邊緣運算",
+        "雲原生架構",
+        "服務網格"
+      ]
     },
     {
       "id": "39e675fc-41e6-4bd5-a9ae-943e5aa4742a",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我希望透過參與實驗室專案、與教授和同學們交流，不僅提升我的學術研究能力，更能培養解決實際世界複雜問題的工程實力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究與工程能力發展",
+        "C3": "複雜問題解決能力"
+      },
+      "hashtags": [
+        "實驗室專案",
+        "學術研究能力",
+        "工程實力"
+      ]
     },
     {
       "id": "d83058ce-3529-45f8-95eb-0feeeb5d0192",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我的目標是成為一名能夠設計、實作並優化大規模、高可用性、高擴展性分散式系統的專業人才。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展目標",
+        "C2": "分散式系統實作能力"
+      },
+      "hashtags": [
+        "分散式系統",
+        "大規模系統",
+        "高可用性",
+        "高擴展性"
+      ]
     },
     {
       "id": "ad306153-c4b8-4c54-893b-4d709b087117",
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我深信，交通大學資訊工程學系研究所將是我實現這個夢想的最佳平台。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所契合度"
+      },
       "hashtags": []
     },
     {
@@ -523,8 +1012,12 @@
       "candidate_id": "mock_64",
       "section": "自傳",
       "content": "我已經準備好投入百分之百的熱情與努力，為貴所的研究能量貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習投入與貢獻"
+      },
       "hashtags": []
     },
     {
@@ -532,243 +1025,512 @@
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "身為一名從電機工程學系跨域至資訊工程領域的學生，我深知自身在某些純資工基礎上的不足。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域背景與學術自省"
+      },
+      "hashtags": [
+        "電機工程學系",
+        "資訊工程領域",
+        "跨域學習"
+      ]
     },
     {
       "id": "68c86b91-6722-4e31-ac25-3478daaf30ee",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "但同時也對自己能從不同角度切入問題、融會貫通的能力深具信心。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "多角度問題分析"
+      },
+      "hashtags": [
+        "多角度思考",
+        "融會貫通"
+      ]
     },
     {
       "id": "8ecc2093-3492-4124-8928-efe4cebd370b",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "我的讀書計畫將循序漸進，從鞏固基礎、深化專業，到展開獨立研究，最終目標是成為一位能夠引領雲端與分散式系統發展的工程師與研究者。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所學習規劃"
+      },
+      "hashtags": [
+        "雲端系統",
+        "分散式系統",
+        "工程師",
+        "研究者"
+      ]
     },
     {
       "id": "ee783e68-eb1a-4030-99a3-75ee114d92ba",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "選修核心課程： 積極選修與分散式系統、雲端計算直接相關的核心課程，例如：",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程規劃"
+      },
+      "hashtags": [
+        "分散式系統",
+        "雲端計算",
+        "核心課程"
+      ]
     },
     {
       "id": "712c6c7b-aac6-4ac9-b4df-59d5467e0a6c",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "分散式系統 (Distributed Systems)： 深入理解一致性模型、共識演算法（如 Paxos, Raft）、訊息傳遞、容錯機制等。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "分散式系統知識"
+      },
+      "hashtags": [
+        "分散式系統",
+        "一致性模型",
+        "共識演算法",
+        "Paxos",
+        "Raft",
+        "容錯機制"
+      ]
     },
     {
       "id": "1933ba42-c947-4da5-a749-0803b2bce953",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "高等作業系統 (Advanced Operating Systems)： 強化對核心記憶體管理、排程、檔案系統、虛擬化技術的理解，特別是與雲端基礎設施相關的部分。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "高等作業系統知識"
+      },
+      "hashtags": [
+        "高等作業系統",
+        "記憶體管理",
+        "排程",
+        "虛擬化技術",
+        "雲端基礎設施"
+      ]
     },
     {
       "id": "9347ddfd-4f33-44ef-bd38-e2edf1b4cab4",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "雲端計算技術 (Cloud Computing Technologies)： 學習雲端服務模型（IaaS, PaaS, SaaS）、虛擬化技術（VM, Container）、雲端儲存與網路架構，以及常用的雲端平台（如 AWS, GCP, Azure）的設計理念。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "雲端計算技術知識"
+      },
+      "hashtags": [
+        "雲端計算技術",
+        "IaaS",
+        "PaaS",
+        "SaaS",
+        "虛擬化技術",
+        "AWS",
+        "GCP",
+        "Azure"
+      ]
     },
     {
       "id": "fd25c033-79c8-4c79-8dc0-9f5cd470aa8a",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "平行處理 (Parallel Processing)： 掌握多核心處理器、GPU 編程、並行演算法設計等知識，為高效能運算打下基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "平行處理知識"
+      },
+      "hashtags": [
+        "平行處理",
+        "多核心處理器",
+        "GPU編程",
+        "並行演算法",
+        "高效能運算"
+      ]
     },
     {
       "id": "af587758-f116-417c-885a-ae27246a6fc4",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "補強程式語言與工具： 針對分散式系統中常用的 Go 或 Rust 語言，投入時間深入學習其並發模型與記憶體管理機制，並熟練使用 Docker、Kubernetes 進行應用部署與管理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式語言與工具應用",
+        "C1": "語言機制理解"
+      },
+      "hashtags": [
+        "Go語言",
+        "Rust語言",
+        "並發模型",
+        "記憶體管理",
+        "Docker",
+        "Kubernetes",
+        "應用部署"
+      ]
     },
     {
       "id": "4366ab34-bec4-4839-91e5-bd5da7c52648",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "參與實驗室討論： 積極參與指導教授實驗室的週會、讀書會，主動閱讀相關領域的最新頂會論文（如 OSDI, SOSP, EuroSys），與學長姊交流學習，儘早融入研究氛圍。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究環境融入",
+        "C3": "學術交流與批判"
+      },
+      "hashtags": [
+        "實驗室週會",
+        "讀書會",
+        "頂會論文",
+        "OSDI",
+        "SOSP",
+        "EuroSys",
+        "學術交流"
+      ]
     },
     {
       "id": "a8705743-ee95-4f42-a7ce-48c40976b9cc",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "熟悉研究工具： 學習並實作分散式系統中常用的開源工具與框架，例如 Apache Kafka、Apache ZooKeeper、Apache Cassandra、Redis 等，理解其內部工作原理與最佳實踐。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "開源工具實作",
+        "C1": "工具原理理解"
+      },
+      "hashtags": [
+        "開源工具",
+        "Apache Kafka",
+        "Apache ZooKeeper",
+        "Apache Cassandra",
+        "Redis",
+        "分散式系統"
+      ]
     },
     {
       "id": "c82cb5a5-d2d3-44ed-9e70-ca3070b8d3ee",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "小規模專案實作： 嘗試在指導教授的建議下，從修改現有開源專案或實作論文中的部分功能著手，累積實作經驗，提升問題解決能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案實作經驗",
+        "C3": "問題解決能力提升"
+      },
+      "hashtags": [
+        "小規模專案",
+        "開源專案修改",
+        "論文功能實作",
+        "實作經驗"
+      ]
     },
     {
       "id": "f05c8f42-cde7-499a-9fdb-e76ac88e6ae1",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "在第一年的學習與探索後，與指導教授密切討論，將研究興趣聚焦於更具體的子領域，例如：",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向規劃"
+      },
+      "hashtags": [
+        "指導教授討論",
+        "研究興趣聚焦"
+      ]
     },
     {
       "id": "72a02137-1e7e-40d5-a914-ae13f00583e3",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "雲原生應用部署與管理優化： 探討在 Kubernetes 環境下，如何優化微服務的資源分配、負載平衡與故障恢復策略，降低營運成本並提升效能。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "雲原生技術應用"
+      },
+      "hashtags": [
+        "雲原生應用",
+        "Kubernetes",
+        "微服務優化",
+        "資源分配",
+        "負載平衡"
+      ]
     },
     {
       "id": "bb756aff-b0a4-484d-bdc6-2aaca05b210e",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "邊緣雲端運算架構設計： 針對物聯網（IoT）設備的低延遲、高頻寬需求，研究如何在邊緣設備上部署輕量級的分散式運算與儲存服務。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "邊緣運算架構設計"
+      },
+      "hashtags": [
+        "邊緣雲端運算",
+        "物聯網IoT",
+        "分散式運算",
+        "輕量級部署"
+      ]
     },
     {
       "id": "95cbc624-0ca2-4e21-9a67-6b1f275d693a",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "高效能分散式儲存系統： 探討新的資料分片、複製與一致性演算法，以提升在動態負載下的儲存系統效能與可靠度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "分散式儲存研究"
+      },
+      "hashtags": [
+        "分散式儲存系統",
+        "資料分片",
+        "一致性演算法",
+        "系統效能"
+      ]
     },
     {
       "id": "9a74cdc3-8cd2-4a88-a6a0-5fbbb44f41df",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "文獻回顧與問題定義： 深入閱讀所選領域的相關文獻，識別當前研究的不足與挑戰，清晰地定義我的碩士論文研究問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "研究問題定義",
+        "C1": "學術文獻分析"
+      },
+      "hashtags": [
+        "文獻回顧",
+        "研究問題定義",
+        "研究不足識別"
+      ]
     },
     {
       "id": "990362ea-1569-4522-9c6d-6ba78829acf4",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "研究計畫制定與實作： 制定詳細的研究計畫，包含實驗設計、評估指標與預期成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "研究計畫制定"
+      },
+      "hashtags": [
+        "研究計畫制定",
+        "實驗設計",
+        "評估指標"
+      ]
     },
     {
       "id": "d23ab822-45ab-46df-8bd3-c425e4c4fc80",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "根據計畫，逐步實作實驗原型，進行大量測試與數據分析。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗原型實作"
+      },
+      "hashtags": [
+        "實驗原型實作",
+        "數據分析",
+        "系統測試"
+      ]
     },
     {
       "id": "f00004f6-c17c-4d9f-9f0b-f5e85aa89764",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "學術寫作與發表： 撰寫高品質的學術論文，目標是將研究成果發表於至少一篇頂尖國際會議（如 OSDI, SOSP, EuroSys）或 SCI 期刊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表"
+      },
+      "hashtags": [
+        "學術論文寫作",
+        "國際會議發表",
+        "SCI期刊",
+        "OSDI",
+        "SOSP"
+      ]
     },
     {
       "id": "36e13845-1e2e-4278-9d70-6410ccf4fc93",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "透過投稿、審稿的過程，學習學術溝通與批判性思維。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術溝通學習",
+        "C3": "批判性思維培養"
+      },
+      "hashtags": [
+        "學術溝通",
+        "批判性思維",
+        "論文投稿",
+        "論文審稿"
+      ]
     },
     {
       "id": "4a33033a-d620-4b59-a3d8-9d9ed48b419f",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "研討會參與： 積極參與國內外相關學術研討會，與領域專家交流，拓展學術視野與人脈。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術交流拓展"
+      },
+      "hashtags": [
+        "學術研討會",
+        "領域專家交流",
+        "學術人脈"
+      ]
     },
     {
       "id": "ef8ac59e-c225-40b5-97fa-5048e6a48a91",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "職涯發展： 期望能進入頂尖科技公司，如 Google、AWS、Microsoft 等，從事雲端架構師、分散式系統研發工程師等職位。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯目標設定"
+      },
+      "hashtags": [
+        "Google",
+        "AWS",
+        "Microsoft",
+        "雲端架構師",
+        "分散式系統研發工程師"
+      ]
     },
     {
       "id": "224aa517-a318-4fbe-b4e6-6feabeee2076",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "我希望將所學應用於實際的產品開發中，解決大規模系統的挑戰，為全球數十億用戶提供穩定高效的服務。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "產品開發應用",
+        "C3": "大規模問題解決"
+      },
+      "hashtags": [
+        "產品開發",
+        "大規模系統",
+        "穩定高效服務"
+      ]
     },
     {
       "id": "f7cb686e-0261-4efc-b9fe-e0cf06d01f18",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "持續學習與貢獻： 保持對新技術的敏銳度，持續關注雲端與分散式系統的最新發展，並積極參與開源專案，貢獻自己的力量。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習發展"
+      },
+      "hashtags": [
+        "新技術敏銳度",
+        "雲端系統",
+        "分散式系統",
+        "開源專案"
+      ]
     },
     {
       "id": "45c3c2bf-fe6b-4e02-a2c4-a3fbb9180303",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "結合跨域思維： 我將持續運用在電機系學習到的系統級思考與問題分解能力，以及從攝影展覽策劃中培養的專案管理與溝通協調能力，將這些軟硬實力結合，在複雜的工程問題中尋找創新的解決方案，成為一個不僅懂技術，更能領導專案、影響產品的全面型人才。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "創新方案探索",
+        "C4": "專案領導與溝通"
+      },
+      "hashtags": [
+        "電機系",
+        "攝影展覽策劃",
+        "專案管理",
+        "溝通協調",
+        "創新解決方案"
+      ]
     },
     {
       "id": "df9fd4ec-8996-45a1-b327-b98a7cacf4ba",
       "candidate_id": "mock_64",
       "section": "讀書計畫",
       "content": "我堅信，透過在交通大學資訊工程學系研究所的兩年紮實學習與研究，我能夠將我的熱情、跨域背景與實踐經驗，轉化為在雲端與分散式系統領域的豐碩成果，並為社會的科技發展貢獻我的專業。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成長與貢獻"
+      },
+      "hashtags": [
+        "交通大學",
+        "資訊工程學系",
+        "雲端系統",
+        "分散式系統",
+        "社會貢獻"
+      ]
     }
   ]
 }

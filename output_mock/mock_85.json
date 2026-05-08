@@ -10,35 +10,66 @@
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我是蕭冠宇，來自國立臺灣大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "申請者背景介紹"
+      },
+      "hashtags": [
+        "國立臺灣大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "36005793-4c0d-430b-b632-8b227752d64f",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "一直以來，我對資訊安全領域，特別是結合人工智慧與區塊鏈技術的創新應用，抱持著極大的熱情與求知慾。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業領域興趣"
+      },
+      "hashtags": [
+        "資訊安全",
+        "人工智慧",
+        "區塊鏈技術",
+        "創新應用"
+      ]
     },
     {
       "id": "84f032c5-cdf6-4f18-82bc-8727e69fafe8",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "大學四年，我不僅在學術成績上力求卓越，更積極投身於多項產學合作專案與研究室計畫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術表現追求",
+        "C2": "專案研究參與"
+      },
+      "hashtags": [
+        "產學合作專案",
+        "研究室計畫"
+      ]
     },
     {
       "id": "3d015bb2-eb94-4696-8c0e-f1c57ff98511",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "累積了紮實的技術實力與問題解決能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術實力累積",
+        "C3": "問題解決能力"
+      },
       "hashtags": []
     },
     {
@@ -46,26 +77,43 @@
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我深信，我的專業背景、實務經驗以及對前瞻科技的敏銳度，能為貴所的研究能量注入新的活力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "貢獻潛力展現"
+      },
+      "hashtags": [
+        "前瞻科技敏銳度"
+      ]
     },
     {
       "id": "b6ff4c2d-3290-472d-8c0e-6f9986d9c44b",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我在國立臺灣大學資訊工程學系期間，持續挑戰自我，以扎實的學業基礎奠定技術根基。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業基礎奠定"
+      },
+      "hashtags": [
+        "國立臺灣大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "a680ee60-a56e-4a0c-916c-89064120d228",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我的修課平均達到 3.97。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -73,8 +121,14 @@
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "這不僅反映了我對學術知識的掌握度，更代表了我對學習的投入與堅持。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術知識掌握",
+        "C4": "學習投入堅持"
+      },
       "hashtags": []
     },
     {
@@ -82,9 +136,19 @@
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "在各項核心課程，如「演算法」、「資料結構」、「計算機網路」、「作業系統」與「資訊安全導論」中，我皆獲得 A 以上的成績。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程表現"
+      },
+      "hashtags": [
+        "演算法",
+        "資料結構",
+        "計算機網路",
+        "作業系統",
+        "資訊安全導論"
+      ]
     },
     {
       "id": "2961da71-9b17-41dd-b7bd-6a59ead7b60c",
@@ -100,99 +164,212 @@
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "這些課程不僅讓我理解了理論基礎，更提供了實作機會，例如在「密碼學」課程中，我曾獨立實作 RSA、AES 等加密演算法，並分析其效率與安全性弱點。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "演算法實作應用",
+        "C3": "演算法弱點分析"
+      },
+      "hashtags": [
+        "密碼學",
+        "RSA",
+        "AES",
+        "加密演算法",
+        "安全性分析"
+      ]
     },
     {
       "id": "cf3bf8d2-098b-4c5e-934b-1318b9be16d9",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "透過大量程式設計專案與演算法分析，我培養了系統性的問題拆解能力，並學會以邏輯嚴謹的方式提出解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統性問題拆解"
+      },
+      "hashtags": [
+        "程式設計專案",
+        "演算法分析",
+        "問題拆解"
+      ]
     },
     {
       "id": "c4314291-3de0-42d3-9dcc-f4c6c6e39a3d",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "在「物件導向分析與設計」課程中，我們團隊利用 UML 設計了一套可擴展的去中心化交易平台架構，並成功實作出核心功能，展現了我在軟體工程上的潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "軟體架構實作",
+        "C3": "系統架構設計"
+      },
+      "hashtags": [
+        "物件導向",
+        "UML",
+        "去中心化交易平台",
+        "軟體工程"
+      ]
     },
     {
       "id": "ee5e9807-01be-4398-8a14-5253d7e4c6ca",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我的大學生涯最寶貴的經歷，莫過於深入參與研究室專案與產學合作，將理論知識轉化為實際解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案實務應用",
+        "C3": "理論實踐解決"
+      },
+      "hashtags": [
+        "研究室專案",
+        "產學合作",
+        "理論實踐",
+        "實際解決方案"
+      ]
     },
     {
       "id": "8027925f-c374-4965-8303-3a3d48898711",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我在「智能合約安全分析實驗室」參與了一項與業界合作的專案，目標是開發一套自動化的智能合約漏洞分析框架。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "智能合約專案開發"
+      },
+      "hashtags": [
+        "智能合約安全",
+        "業界合作",
+        "漏洞分析框架",
+        "自動化開發"
+      ]
     },
     {
       "id": "4b41e4d4-3e98-4620-95ef-2a2ba88c37cc",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "研究主題：結合靜態分析與機器學習技術，提升以太坊智能合約中常見漏洞（如重入攻擊、整數溢出、交易順序依賴等）的偵測效率與準確性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域技術整合",
+        "C3": "漏洞偵測優化"
+      },
+      "hashtags": [
+        "靜態分析",
+        "機器學習",
+        "以太坊智能合約",
+        "重入攻擊",
+        "漏洞偵測"
+      ]
     },
     {
       "id": "f26d67f5-de3a-4aeb-b64a-2922dbe2737c",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "負責設計與實作智能合約的位元組碼 (bytecode) 特徵提取模組，利用 **Slither** 和 **Mythril** 等工具獲取初步分析結果，並將其處理成可供機器學習模型輸入的向量。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "特徵提取模組實作"
+      },
+      "hashtags": [
+        "位元組碼",
+        "特徵提取",
+        "Slither",
+        "Mythril",
+        "機器學習模型輸入"
+      ]
     },
     {
       "id": "9a980bed-db51-41b7-a9cc-f220035d4717",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "使用 **Python** 搭配 **PyTorch** 框架，訓練了多種深度學習模型，包括卷積神經網路 (CNN) 和長短期記憶網路 (LSTM)，以識別潛在的漏洞模式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習模型訓練"
+      },
+      "hashtags": [
+        "Python",
+        "PyTorch",
+        "深度學習",
+        "CNN",
+        "LSTM"
+      ]
     },
     {
       "id": "6089e56e-65d1-480c-8cb8-dbfa223c2e13",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我收集了來自 **Etherscan** 上數千個已部署合約的資料集，其中包含已知漏洞與正常合約。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "區塊鏈資料收集"
+      },
+      "hashtags": [
+        "Etherscan",
+        "資料集收集",
+        "智能合約資料",
+        "漏洞合約"
+      ]
     },
     {
       "id": "631a208d-a3ad-47a2-a165-bcd3220a292b",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "參與開發一個基於 **Solidity Parser** 的抽象語法樹 (AST) 遍歷工具，用於提取更高層次的語義特徵，例如函數呼叫圖、變數依賴關係等，以克服位元組碼層級的語義模糊性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "語義特徵提取工具開發",
+        "C3": "語義模糊性克服"
+      },
+      "hashtags": [
+        "Solidity Parser",
+        "抽象語法樹",
+        "語義特徵提取",
+        "函數呼叫圖",
+        "變數依賴關係"
+      ]
     },
     {
       "id": "19e7036d-cc20-4603-9a7b-86a050e16e97",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "最終，我們開發的框架在測試集上達到 88% 的漏洞偵測準確度，並將誤報率降低了約 15% 相比於單純的靜態分析工具。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "漏洞偵測成效"
+      },
+      "hashtags": [
+        "漏洞偵測",
+        "準確度",
+        "誤報率",
+        "靜態分析工具"
+      ]
     },
     {
       "id": "d5536eb9-b3ee-47d8-bc83-55e0b58ed58d",
@@ -208,188 +385,391 @@
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我也初次體驗到將學術研究應用於解決實際資安問題的挑戰與成就感。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術實務連結"
+      },
+      "hashtags": [
+        "學術研究應用",
+        "資安問題",
+        "實務挑戰"
+      ]
     },
     {
       "id": "0efa0e65-30bb-4877-9605-cce52bb5d051",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "與某區塊鏈新創公司進行產學合作，目標是建構一個基於區塊鏈的去中心化身份驗證 (Decentralized Identifier, DID) 系統原型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "區塊鏈系統建構",
+        "C4": "產學合作經驗"
+      },
+      "hashtags": [
+        "區塊鏈新創",
+        "產學合作",
+        "去中心化身份驗證",
+        "DID系統原型"
+      ]
     },
     {
       "id": "57663c82-1b09-4d1d-9272-794f721123ab",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "研究主題：探索如何利用區塊鏈的不可篡改性與加密技術，實現安全、隱私友善且使用者可自主控制的數位身份管理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "區塊鏈技術應用",
+        "C3": "數位身份問題分析"
+      },
+      "hashtags": [
+        "區塊鏈",
+        "加密技術",
+        "數位身份管理",
+        "隱私友善"
+      ]
     },
     {
       "id": "9987bb08-6d6e-4756-95c3-ef75cb8caca4",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "在 **Ethereum** 測試網上部署了基於 **ERC-725** 和 **ERC-780** 標準的智能合約，用於註冊、更新與撤銷 DID，並管理相關的聲明 (claim)。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "智能合約部署"
+      },
+      "hashtags": [
+        "Ethereum",
+        "ERC-725",
+        "ERC-780",
+        "智能合約",
+        "DID管理"
+      ]
     },
     {
       "id": "317484da-af53-41b1-bfde-8b4c17e40edc",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "使用 **Node.js** 和 **Web3.js** 開發了後端服務，負責與智能合約互動，並提供 RESTful API 供前端應用呼叫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "後端服務開發"
+      },
+      "hashtags": [
+        "Node.js",
+        "Web3.js",
+        "後端服務",
+        "RESTful API"
+      ]
     },
     {
       "id": "abc7bd34-1f25-4a9c-8e11-894c840ab363",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "參與設計與實作使用者介面 (UI)，利用 **React** 建立了一個簡單的錢包應用，允許使用者建立私鑰、管理 DID，並向第三方驗證者呈現其可驗證憑證 (Verifiable Credential, VC)。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "前端應用開發"
+      },
+      "hashtags": [
+        "React",
+        "錢包應用",
+        "私鑰管理",
+        "可驗證憑證",
+        "VC"
+      ]
     },
     {
       "id": "887a23d9-bd81-4456-9d3f-e46e5b7c3777",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "針對不同場景，例如零知識證明 (Zero-Knowledge Proof) 在隱私保護身份驗證中的應用，進行了初步的文獻研究與可行性分析，並提出了一些潛在的整合方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "前瞻技術研究",
+        "C3": "方案可行性分析"
+      },
+      "hashtags": [
+        "零知識證明",
+        "Zero-Knowledge Proof",
+        "隱私保護",
+        "文獻研究",
+        "可行性分析"
+      ]
     },
     {
       "id": "e7a306df-878f-41cc-b680-c04777497493",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "成功展示了一個具備基本功能的 DID 系統原型，能滿足身份創建、憑證發行與驗證等核心需求。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統原型展示"
+      },
+      "hashtags": [
+        "DID系統原型",
+        "身份創建",
+        "憑證發行",
+        "憑證驗證"
+      ]
     },
     {
       "id": "cd5bd8cb-5340-44bd-8f61-ce97b14dbb1a",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "這次經驗讓我深入理解了區塊鏈在身份管理領域的潛力，同時也意識到區塊鏈技術在擴展性 (scalability)、隱私性 (privacy) 與使用者體驗 (user experience) 方面仍面臨巨大挑戰，促使我思考如何結合密碼學與分散式系統的最新進展來克服這些問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術挑戰分析與解決思維",
+        "C1": "區塊鏈技術理解與跨域整合"
+      },
+      "hashtags": [
+        "區塊鏈",
+        "身份管理",
+        "擴展性",
+        "隱私性",
+        "密碼學",
+        "分散式系統"
+      ]
     },
     {
       "id": "dbe64910-8f13-4b86-9048-7b42178dba67",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "除了技術專研，我亦積極參與國際交流，拓展視野並提升溝通能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "國際視野與溝通能力培養"
+      },
+      "hashtags": [
+        "國際交流",
+        "溝通能力"
+      ]
     },
     {
       "id": "65b30cef-c8ca-44e6-bd04-60e838e53b94",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "在大三下學期 (112-1 學期)，我有幸擔任了「國際區塊鏈與資安研討會 (International Conference on Blockchain and Cybersecurity)」的隨行口譯志工。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "國際會議參與"
+      },
+      "hashtags": [
+        "國際區塊鏈與資安研討會",
+        "隨行口譯志工"
+      ]
     },
     {
       "id": "7c158e5a-dc37-4e29-880e-261bef6e296d",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "任務內容：負責在研討會期間，協助多位來自歐美學術界的講者與本地學者進行即時的技術討論與問答環節的口譯工作，主要涵蓋區塊鏈共識機制、零知識證明、AI 在威脅情資分析等前沿議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業技術口譯能力",
+        "C1": "前沿技術議題理解"
+      },
+      "hashtags": [
+        "技術口譯",
+        "區塊鏈共識機制",
+        "零知識證明",
+        "AI威脅情資分析"
+      ]
     },
     {
       "id": "68147104-ad35-4d79-b8a4-126fbf334bd5",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "這項經驗不僅磨練了我的即時反應能力與口語表達技巧，更要求我能迅速理解複雜的專業術語與概念，並準確地在中文與英文之間轉換。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨語言專業溝通能力"
+      },
+      "hashtags": [
+        "即時反應",
+        "口語表達",
+        "專業術語理解",
+        "中英文轉換"
+      ]
     },
     {
       "id": "fca87b6b-e000-425a-b90d-98abf79382bd",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "在數場關於「同態加密 (Homomorphic Encryption)」與「鏈上治理模型 (On-chain Governance Models)」的深度討論中，我都能流暢地傳達雙方觀點，確保了溝通的順暢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業技術溝通流暢度",
+        "C1": "深度技術議題理解"
+      },
+      "hashtags": [
+        "同態加密",
+        "鏈上治理模型",
+        "技術溝通"
+      ]
     },
     {
       "id": "1da0fc14-16d7-41ce-91be-e14f9ff6b3c8",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "透過近距離接觸不同國家的頂尖學者，我得以一窺全球資安與區塊鏈研究的最新動態與未來趨勢，也因此激發了我更強烈投身於國際研究合作的意願，並深刻感受到跨文化溝通在學術交流中的關鍵作用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "國際研究合作意願",
+        "C1": "全球學術趨勢洞察"
+      },
+      "hashtags": [
+        "全球資安研究",
+        "區塊鏈研究",
+        "國際研究合作",
+        "跨文化溝通"
+      ]
     },
     {
       "id": "f108f498-80f2-4cf9-ab1e-22fa3651b843",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "這份經驗讓我更加確信，具備國際視野與溝通能力，對於未來在學術或產業領域的發展都至關重要。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來發展規劃認知"
+      },
+      "hashtags": [
+        "國際視野",
+        "溝通能力",
+        "學術發展",
+        "產業發展"
+      ]
     },
     {
       "id": "7d667f5c-d1a4-49e8-aad3-7af88e9f9350",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "選擇國立陽明交通大學資訊工程學系研究所，對我而言是深思熟慮後的決定，其核心動機源於對前瞻資安技術的熱忱，以及對貴所卓越研究氛圍的認同。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所申請動機"
+      },
+      "hashtags": [
+        "陽明交通大學資工所",
+        "前瞻資安技術",
+        "研究氛圍認同"
+      ]
     },
     {
       "id": "7e7217ee-a126-471d-a673-f955100a30c9",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "交通大學資訊工程學系在資訊安全、分散式系統和人工智慧領域的研究成果享譽國際，特別是在區塊鏈技術的應用與網路安全攻防方面，多位教授皆是該領域的權威。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "申請系所學術了解"
+      },
+      "hashtags": [
+        "交通大學資工系",
+        "資訊安全",
+        "分散式系統",
+        "人工智慧",
+        "區塊鏈技術",
+        "網路安全攻防"
+      ]
     },
     {
       "id": "693682fa-1625-4de0-aba4-ea39281b3517",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我特別關注貴所「分散式系統與網路實驗室」以及「人工智慧與資訊安全中心」的研究方向，與我個人在智能合約安全、去中心化身份系統的經歷高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所方向契合",
+        "C2": "智能合約實務經驗"
+      },
+      "hashtags": [
+        "分散式系統",
+        "人工智慧資安",
+        "智能合約安全",
+        "去中心化身份"
+      ]
     },
     {
       "id": "0bc13270-5c85-4fc2-b173-88ea2433403f",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我期望能將大學期間在智能合約漏洞偵測、去中心化身份驗證的經驗，進一步結合人工智慧的深度學習技術，探索如「基於圖神經網路 (GNN) 的智能合約脆弱性預測」或「利用聯邦學習 (Federated Learning) 保護區塊鏈分析的隱私性」等議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究方向規劃",
+        "C3": "跨領域議題探索"
+      },
+      "hashtags": [
+        "智能合約漏洞偵測",
+        "去中心化身份驗證",
+        "深度學習",
+        "圖神經網路",
+        "聯邦學習"
+      ]
     },
     {
       "id": "c860daa0-e416-4c75-9d9d-41da3938d544",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我深信，貴所能夠提供我最優質的學術環境與指導，讓我得以在高階資安議題上持續精進。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術環境期待"
+      },
       "hashtags": []
     },
     {
@@ -397,62 +777,116 @@
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "隨著 AI 與區塊鏈技術的快速發展，其背後的安全性與隱私問題日益凸顯。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "領域問題洞察"
+      },
+      "hashtags": [
+        "AI",
+        "區塊鏈",
+        "安全性",
+        "隱私問題"
+      ]
     },
     {
       "id": "71996d2d-1a8c-4adb-8461-fd7af645da2b",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我希望透過在貴所的深造，掌握更前沿的理論與實作能力，目標是成為一名能夠開發出安全、可靠、且能因應未來挑戰的系統架構師或研究員，為建構一個更值得信賴的數位世界貢獻心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "長期職涯目標"
+      },
+      "hashtags": [
+        "系統架構師",
+        "研究員",
+        "安全系統",
+        "可靠系統"
+      ]
     },
     {
       "id": "7215e2f8-ce6f-41c9-b994-5a4a3161571a",
       "candidate_id": "mock_85",
       "section": "自傳",
       "content": "我已準備好接受更高層次的學術挑戰，並期待能與交大資工所的頂尖教授與研究夥伴們一同努力，開創資訊安全領域的嶄新篇章。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術挑戰準備"
+      },
+      "hashtags": [
+        "交大資工所",
+        "資訊安全領域"
+      ]
     },
     {
       "id": "ff531577-1999-4168-bff2-456d5859f016",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "進入國立陽明交通大學資訊工程學系研究所，我將以明確且有系統的計畫，深化我在人工智慧安全與區塊鏈領域的專業知識與研究能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業能力深化計畫",
+        "C1": "專業知識精進"
+      },
+      "hashtags": [
+        "陽明交大資工所",
+        "人工智慧安全",
+        "區塊鏈領域"
+      ]
     },
     {
       "id": "f3a9015b-cc5f-4077-9466-a45f17e68468",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "我的讀書計畫將分為短期、中期與長期目標，確保在兩年內能有效累積實力並完成高品質的碩士論文。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "讀書計畫架構"
+      },
+      "hashtags": [
+        "讀書計畫",
+        "碩士論文"
+      ]
     },
     {
       "id": "393284d3-6801-4815-92d1-3fbce82b55ae",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "我將聚焦於「人工智慧驅動的區塊鏈安全性與隱私保護」此一複合領域。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "複合研究領域聚焦"
+      },
+      "hashtags": [
+        "人工智慧驅動",
+        "區塊鏈安全性",
+        "隱私保護"
+      ]
     },
     {
       "id": "a8f0ab1b-85bc-4ca4-9c09-b04b7fdeaccd",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "具體而言，我希望深入探討以下兩個子方向：",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向引言"
+      },
       "hashtags": []
     },
     {
@@ -460,26 +894,54 @@
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "針對現有智能合約漏洞分析工具的不足，探討如何利用更先進的機器學習模型（如強化學習、圖神經網路）從多模態資料（源碼、位元組碼、交易歷史）中學習複雜的漏洞模式，實現更高準確率與更低誤報率的自動化偵測。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "智能合約漏洞分析",
+        "C2": "機器學習模型應用"
+      },
+      "hashtags": [
+        "智能合約漏洞",
+        "機器學習模型",
+        "強化學習",
+        "圖神經網路",
+        "自動化偵測"
+      ]
     },
     {
       "id": "608807df-6f72-43da-a819-680f478413c3",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "探索如何在區塊鏈上實現隱私友善的數據共享與計算，例如結合零知識證明 (ZKP) 和同態加密 (HE) 技術，同時研究如何在去中心化環境下保護 AI 模型的完整性與對抗惡意攻擊（如後門攻擊、模型竊取）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "區塊鏈隱私保護",
+        "C2": "密碼學技術應用"
+      },
+      "hashtags": [
+        "區塊鏈隱私",
+        "零知識證明",
+        "同態加密",
+        "AI模型安全",
+        "後門攻擊"
+      ]
     },
     {
       "id": "7840cee3-9cd2-4bb0-aee6-6a942c39a3df",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "在碩士班的第一年，我將以奠定深厚理論基礎、熟悉研究方法與工具，並融入實驗室研究為主要目標。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "碩士初期學習規劃"
+      },
       "hashtags": []
     },
     {
@@ -487,243 +949,507 @@
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "將優先選修與研究方向高度相關的進階課程，例如「高等密碼學 (Advanced Cryptography)」、「進階電腦網路安全 (Advanced Network Security)」、「分散式系統安全 (Distributed Systems Security)」、「機器學習與深度學習應用 (Machine Learning and Deep Learning Applications)」等。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階課程規劃",
+        "C4": "學術發展方向"
+      },
+      "hashtags": [
+        "高等密碼學",
+        "進階網路安全",
+        "分散式系統安全",
+        "機器學習應用"
+      ]
     },
     {
       "id": "26bfd75e-d5a9-4846-ad65-18291dc88b12",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "特別希望能修習由楊教授或林教授開設的相關課程，深入學習其研究成果與方法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "教授研究興趣連結"
+      },
+      "hashtags": [
+        "楊教授",
+        "林教授"
+      ]
     },
     {
       "id": "4bc047bd-053b-4d6c-9dbf-f25d2a5ff8c1",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "積極參與「資訊安全專題討論 (Seminar on Information Security)」與「區塊鏈技術研討 (Seminar on Blockchain Technologies)」，透過文獻閱讀與報告，掌握領域內最新研究進展與開放性問題，並訓練學術表達能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "領域知識更新",
+        "C4": "學術交流與表達"
+      },
+      "hashtags": [
+        "資訊安全專題討論",
+        "區塊鏈技術研討",
+        "文獻閱讀",
+        "學術表達"
+      ]
     },
     {
       "id": "348bc79f-3e2b-4ad1-9c00-89b5b3f8c68c",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "針對課程內容，自主完成相關實作專案，例如嘗試實作 zk-SNARKs 的基本流程，或利用 **Ganache** 部署並測試不同的智能合約安全模式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "密碼學實作應用",
+        "C3": "智能合約安全測試"
+      },
+      "hashtags": [
+        "zk-SNARKs",
+        "Ganache",
+        "智能合約安全",
+        "實作專案"
+      ]
     },
     {
       "id": "b3006e4f-5140-4ffa-90a9-c709e6089c6d",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "在指導教授的指導下，針對智能合約安全分析、區塊鏈隱私保護、AI 安全等領域進行廣泛而深入的文獻回顧，尤其關注 **IEEE S&P, ACM CCS, USENIX Security** 等頂級資安會議的論文。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "頂級會議文獻回顧"
+      },
+      "hashtags": [
+        "智能合約安全分析",
+        "區塊鏈隱私保護",
+        "AI安全",
+        "IEEE S&P",
+        "ACM CCS",
+        "USENIX Security"
+      ]
     },
     {
       "id": "cb9abe2a-3584-4d62-991e-9c316a6096e5",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "透過與教授及實驗室學長姐的交流，逐步將研究興趣收斂為具體的碩士論文題目，明確研究問題、研究目標與可行性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文題目確立",
+        "C3": "研究問題界定"
+      },
+      "hashtags": [
+        "碩士論文題目",
+        "研究問題",
+        "研究目標",
+        "研究可行性"
+      ]
     },
     {
       "id": "d0f08ae1-d814-4f6c-bbdc-3d8026d5d1e1",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "熟悉相關開源工具與平台，例如智能合約開發工具（**Truffle, Hardhat**）、區塊鏈平台（**Ethereum, Hyperledger Fabric**）、機器學習框架（**PyTorch, TensorFlow**）等。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "開源工具平台掌握"
+      },
+      "hashtags": [
+        "Truffle",
+        "Hardhat",
+        "Ethereum",
+        "Hyperledger Fabric",
+        "PyTorch",
+        "TensorFlow"
+      ]
     },
     {
       "id": "9fccdd38-c333-4662-a7a9-bb82baa53fe5",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "積極參與實驗室例行會議，報告學習進度與文獻回顧成果，並從教授與學長姐的討論中汲取經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術交流與成長"
+      },
+      "hashtags": [
+        "實驗室會議",
+        "文獻回顧",
+        "學術討論",
+        "經驗學習"
+      ]
     },
     {
       "id": "081dea19-2905-44ce-a6f5-2119996e5646",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "爭取參與實驗室正在進行的相關專案，從中學習實際的研究流程、團隊協作與問題解決策略。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案學習與成長",
+        "C3": "研究問題解決"
+      },
+      "hashtags": [
+        "實驗室專案",
+        "研究流程",
+        "團隊協作",
+        "問題解決策略"
+      ]
     },
     {
       "id": "55294fc7-7c03-40a5-b3dc-da09f91a4c2b",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "例如，協助開發智能合約的數據集採集模組，或參與智能合約漏洞的標註工作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "智能合約技術實作"
+      },
+      "hashtags": [
+        "智能合約",
+        "數據集採集",
+        "漏洞標註",
+        "模組開發"
+      ]
     },
     {
       "id": "14efe583-488d-4e65-9a06-8af8a9781475",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "第二年上學期將是論文研究與撰寫的關鍵時期，我將專注於實作、實驗與初步成果呈現。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文研究規劃"
+      },
+      "hashtags": [
+        "論文研究",
+        "實作",
+        "實驗",
+        "成果呈現"
+      ]
     },
     {
       "id": "882f25cc-ed5c-48df-b07e-bd0c32ea53ec",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "依據確立的論文題目，設計並實作研究框架的原型系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "研究系統原型實作"
+      },
+      "hashtags": [
+        "論文題目",
+        "研究框架",
+        "原型系統",
+        "系統設計"
+      ]
     },
     {
       "id": "e7439be1-127c-4f1f-9d2e-8f7a750f81fc",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "例如，開發一個基於圖神經網路的智能合約漏洞偵測系統，從數據預處理到模型訓練與評估的完整流程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "圖神經網路系統開發"
+      },
+      "hashtags": [
+        "圖神經網路",
+        "智能合約",
+        "漏洞偵測系統",
+        "數據預處理",
+        "模型訓練評估"
+      ]
     },
     {
       "id": "c2254316-0251-4a89-b7b4-c6cc4e5c7088",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "收集並整理用於訓練與測試的數據集，確保數據的品質與規模足以支撐研究需求。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "研究數據集管理"
+      },
+      "hashtags": [
+        "數據集收集",
+        "數據整理",
+        "數據品質",
+        "數據規模"
+      ]
     },
     {
       "id": "7c62a12c-30c7-4a60-9e61-40c837acd0b3",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "例如，從公開的區塊鏈數據庫中提取智能合約交易日誌，並進行匿名化處理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "區塊鏈數據處理"
+      },
+      "hashtags": [
+        "區塊鏈數據庫",
+        "智能合約交易日誌",
+        "數據提取",
+        "匿名化處理"
+      ]
     },
     {
       "id": "a56c603c-2bd6-4224-85dd-67cfcdda65f9",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "對於開發的系統或模型進行性能分析與優化，提升其效率與穩定性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統模型優化實作",
+        "C3": "性能問題分析"
+      },
+      "hashtags": [
+        "性能分析",
+        "系統優化",
+        "模型優化",
+        "效率提升",
+        "穩定性"
+      ]
     },
     {
       "id": "404a15c4-746e-4978-be92-2fe869ce1af3",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "對實驗數據進行嚴謹的分析，解釋實驗結果，並與前人研究進行比較，闡述研究的創新點與貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "實驗結果分析與評估"
+      },
+      "hashtags": [
+        "實驗數據分析",
+        "結果解釋",
+        "前人研究比較",
+        "創新點",
+        "研究貢獻"
+      ]
     },
     {
       "id": "a2c1f2cf-7ffc-4a53-bc5b-8624ab713758",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "根據實驗結果與分析，撰寫碩士論文的初稿，並定期與指導教授討論，持續修改與完善。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文撰寫與修訂"
+      },
+      "hashtags": [
+        "碩士論文",
+        "實驗分析",
+        "教授討論"
+      ]
     },
     {
       "id": "1f4ba0ee-5463-4bda-9766-77d30621d7c6",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "目標是能產出具備潛力投遞至國際會議或期刊的論文草稿。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文發表目標"
+      },
+      "hashtags": [
+        "國際會議",
+        "期刊論文",
+        "論文發表"
+      ]
     },
     {
       "id": "2dce4de5-f37a-497b-a0fd-db0d0514d0e0",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "積極參與國內外學術研討會，如「中華民國資訊安全會議 (CISC)」，投稿研究海報或簡短論文，提前體驗學術發表流程並獲取反饋。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術發表參與"
+      },
+      "hashtags": [
+        "學術研討會",
+        "CISC",
+        "研究海報",
+        "論文投稿"
+      ]
     },
     {
       "id": "9e151de9-25f5-4b75-8ea9-8189271a2590",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "完成碩士學業後，我期望能將所學應用於前瞻科技領域，持續為資訊安全社群貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展願景"
+      },
+      "hashtags": [
+        "前瞻科技",
+        "資訊安全社群",
+        "職涯貢獻"
+      ]
     },
     {
       "id": "6db2da87-eb68-4e6b-b089-ec3510e78ab8",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "目標進入國內外頂尖科技公司（如 Google, Microsoft, Trend Micro 或區塊鏈新創公司）的資安研發部門，從事人工智慧安全、區塊鏈底層技術、隱私保護技術的開發與應用，將學術研究轉化為具體的產品或服務。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展目標",
+        "C2": "技術應用轉化"
+      },
+      "hashtags": [
+        "Google",
+        "Microsoft",
+        "Trend Micro",
+        "區塊鏈新創",
+        "資安研發",
+        "人工智慧安全",
+        "區塊鏈底層技術",
+        "隱私保護技術"
+      ]
     },
     {
       "id": "6ef077c4-c8b3-4e69-a195-4e635cd8a2f7",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "期望能參與開發針對智能合約的新一代自動化審計工具，或是設計用於保護去中心化應用數據隱私的創新加密方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "創新技術開發",
+        "C3": "創新問題解決"
+      },
+      "hashtags": [
+        "智能合約",
+        "自動化審計工具",
+        "去中心化應用",
+        "數據隱私",
+        "加密方案"
+      ]
     },
     {
       "id": "c8207765-1537-419a-890b-1cb021b8a867",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "若在碩士期間的研究成果具備高度創新性且對特定研究問題仍抱有強烈好奇，我將考慮繼續攻讀博士學位，進一步探索 AI 與區塊鏈融合所帶來的更多挑戰與機遇，目標是成為該領域的頂尖研究者。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      },
+      "hashtags": [
+        "博士學位",
+        "AI與區塊鏈融合",
+        "頂尖研究者"
+      ]
     },
     {
       "id": "254e0380-5294-4ac1-877c-198a0ed4c813",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "無論選擇產業或學術路徑，我都會積極參與開源專案、學術會議與技術社群，分享我的知識與經驗，並與全球的資安專家一同協作，共同提升整個數位生態的安全水準。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業社群貢獻"
+      },
+      "hashtags": [
+        "開源專案",
+        "學術會議",
+        "技術社群",
+        "知識分享",
+        "資安專家協作"
+      ]
     },
     {
       "id": "1ed864e9-9081-414d-86d5-28cb50f16379",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "我深信，憑藉我在台大累積的扎實學術與實務基礎，加上對資安領域的無限熱情，我將能夠在交大資工所取得卓越的學習與研究成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "綜合基礎能力",
+        "C4": "學習成長潛力"
+      },
+      "hashtags": [
+        "台大",
+        "資安領域",
+        "交大資工所"
+      ]
     },
     {
       "id": "d10e5325-15af-4d6b-b178-f3ce77bbcf90",
       "candidate_id": "mock_85",
       "section": "讀書計畫",
       "content": "我期待能成為貴所的一份子，為資訊安全領域的發展貢獻自己的力量。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "貢獻意願表達"
+      },
+      "hashtags": [
+        "資訊安全領域"
+      ]
     }
   ]
 }

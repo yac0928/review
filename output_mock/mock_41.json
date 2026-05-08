@@ -10,35 +10,63 @@
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "各位評審委員您好，我是侯育辰，來自國立中央大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景介紹"
+      },
+      "hashtags": [
+        "國立中央大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "11b3702d-3546-46e4-bbae-7d86c6117b64",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "從小便對科技世界充滿好奇，特別是當虛擬與實體世界界線日益模糊時，這份好奇心更驅使我投入資訊工程的懷抱。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機闡述"
+      },
+      "hashtags": [
+        "科技好奇心",
+        "虛實整合"
+      ]
     },
     {
       "id": "55991c53-10c9-4226-956b-3e35f3ec72c2",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我深信，人機互動的未來，將是決定科技能否真正融入生活、提升體驗的關鍵，而虛擬實境（VR）與擴增實境（AR）正是這場變革的核心。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業領域洞察"
+      },
+      "hashtags": [
+        "人機互動",
+        "虛擬實境",
+        "擴增實境",
+        "VR",
+        "AR"
+      ]
     },
     {
       "id": "c1fb7f29-e834-4da6-a243-50a4080644b1",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "在大學四年的學習旅程中，我努力紮實地建立資訊工程的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "基礎學科學習"
+      },
       "hashtags": []
     },
     {
@@ -46,8 +74,12 @@
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我的學業成績雖然是 3.06，並非頂尖",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績說明"
+      },
       "hashtags": []
     },
     {
@@ -55,270 +87,536 @@
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "但這分數背後反映的是我對實作與專案投入的選擇。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習重心選擇"
+      },
+      "hashtags": [
+        "實作導向",
+        "專案投入"
+      ]
     },
     {
       "id": "bdf30175-4d01-4a63-9f66-1f661530a063",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "比起單純追求課堂高分，我更傾向於將時間投入到課外專案、研究室實作與自主學習中，以期能更深入地掌握技術應用的脈絡。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習策略規劃",
+        "C2": "技術實作傾向"
+      },
+      "hashtags": [
+        "課外專案",
+        "研究室實作",
+        "自主學習",
+        "技術應用"
+      ]
     },
     {
       "id": "831c2f37-303c-4b69-822f-d88fd4f4f4ec",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我認為，真正的學習不僅僅在課本上，更在於動手解決問題的過程中。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決理念"
+      },
+      "hashtags": [
+        "動手實作",
+        "解決問題"
+      ]
     },
     {
       "id": "0b2e65b2-0b33-41df-bff3-0510f96ae778",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "大二暑假，我開始在系上的「沉浸式智慧互動實驗室」參與專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗室專案參與"
+      },
+      "hashtags": [
+        "沉浸式智慧互動實驗室",
+        "專案參與"
+      ]
     },
     {
       "id": "43943548-0a66-4969-9d3d-70c4fa80e137",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "當時，我們研究的主題是開發一個基於手勢辨識的 AR 協作系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案技術內容"
+      },
+      "hashtags": [
+        "手勢辨識",
+        "AR協作系統",
+        "擴增實境"
+      ]
     },
     {
       "id": "3b751728-a68a-42fa-976b-c2ec8aff2041",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我的主要職責是利用 **Unity3D** 和 **Vuforia SDK** 進行應用程式開發，並處理空間錨點的精確定位與虛擬物件的即時渲染。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "AR應用開發實作"
+      },
+      "hashtags": [
+        "Unity3D",
+        "Vuforia SDK",
+        "空間錨點",
+        "虛擬物件渲染"
+      ]
     },
     {
       "id": "0d35063d-892c-4bb1-b115-8f7ed481280e",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這個專案的挑戰在於如何確保多用戶在不同物理空間中，能精準地共享並互動於同一個虛擬場景。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "多用戶協作挑戰分析"
+      },
+      "hashtags": [
+        "多用戶互動",
+        "虛擬場景共享",
+        "精準定位"
+      ]
     },
     {
       "id": "2fdc1421-22f8-4965-9104-a3eda1063d5a",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我利用 **OpenCV** 處理影像辨識，並整合 **Mediapipe** 進行初步的手部骨架追蹤，嘗試實現更自然的互動手勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "影像辨識技術應用"
+      },
+      "hashtags": [
+        "OpenCV",
+        "Mediapipe",
+        "手部骨架追蹤",
+        "互動手勢"
+      ]
     },
     {
       "id": "fd67af0d-fe78-407c-b678-98d9d27904f1",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "過程中，我才意識到，要讓複雜的手勢辨識在 AR 環境中穩定運行，不僅需要強大的演算法，更需要對硬體性能和即時性有深入的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術限制洞察"
+      },
+      "hashtags": [
+        "手勢辨識",
+        "AR環境",
+        "硬體性能",
+        "即時性"
+      ]
     },
     {
       "id": "161ae190-821d-44d3-8aaa-11b431eb5c17",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "那段時間，我常常為了微調渲染管線的效能，或解決不同裝置間的校準問題而熬夜",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術問題解決毅力",
+        "C2": "渲染效能優化實作"
+      },
+      "hashtags": [
+        "渲染管線效能",
+        "裝置校準",
+        "問題解決"
+      ]
     },
     {
       "id": "222ef978-39ab-4dcf-b22b-4546c57111e1",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這讓我第一次體會到，一個看似簡單的互動介面背後，其實隱藏著龐大的工程挑戰與細緻的技術要求。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "工程挑戰洞察"
+      },
+      "hashtags": [
+        "互動介面",
+        "工程挑戰",
+        "技術要求"
+      ]
     },
     {
       "id": "129e09b2-1155-4e6f-a5b0-0ab62fad3262",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "到了大三下學期，一次偶然的機會，我得知了由臺灣金融科技創新園區舉辦的「金融科技黑客松」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "活動參與動機"
+      },
+      "hashtags": [
+        "金融科技黑客松",
+        "臺灣金融科技創新園區"
+      ]
     },
     {
       "id": "558c4948-3793-44ce-889d-9232a801787e",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這激發了我將 VR/AR 專長與金融領域結合的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域興趣探索"
+      },
+      "hashtags": [
+        "VR/AR專長",
+        "金融領域結合",
+        "跨域興趣"
+      ]
     },
     {
       "id": "845d0423-90f5-49d3-aa43-2d689a944d8a",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我組建了一個跨領域的團隊，我們的專案「**AR 互動式資產分析儀**」最終在眾多參賽隊伍中脫穎而出，獲得了「最佳創新獎」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "團隊協作與成就",
+        "C2": "創新專案實作"
+      },
+      "hashtags": [
+        "跨領域團隊",
+        "AR互動式資產分析儀",
+        "最佳創新獎"
+      ]
     },
     {
       "id": "7bd22332-dd49-46ba-9f83-cf77f40272e7",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這個專案旨在透過擴增實境技術，將複雜的金融數據以直觀的三維圖形呈現在使用者面前，讓投資者可以透過手勢與這些數據模型互動，進行更具沉浸感的分析。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "AR數據視覺化"
+      },
+      "hashtags": [
+        "擴增實境技術",
+        "金融數據視覺化",
+        "三維圖形",
+        "手勢互動"
+      ]
     },
     {
       "id": "bdc1e3eb-f8bc-49b1-bf85-eb34ade521a0",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我們採用 **ARCore** 進行環境感知與追蹤，並使用 **Python** 擷取公開的金融市場數據，透過自行開發的 API 將數據流傳輸至 **Unity3D** 應用程式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術整合與數據傳輸"
+      },
+      "hashtags": [
+        "ARCore",
+        "Python",
+        "Unity3D",
+        "API開發",
+        "金融市場數據"
+      ]
     },
     {
       "id": "b2a8c2d5-94fb-4bc3-8cd5-a1fc5c7c0536",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "在 Unity 中，我負責設計與實作使用者介面（UI）和使用者體驗（UX），將股票走勢、基金組合、市場預測等資料以動態的 3D 立方體、線圖和圓餅圖呈現，使用者可以「抓取」並「旋轉」這些虛擬物件，甚至透過語音指令觸發不同的數據維度分析。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "UI/UX設計實作"
+      },
+      "hashtags": [
+        "Unity",
+        "UI設計",
+        "UX設計",
+        "3D視覺化",
+        "語音指令"
+      ]
     },
     {
       "id": "704ab6b7-a23f-4573-ba1a-cb5d7a0c6a48",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這次經驗讓我深刻體會到，一個好的技術解決方案，除了功能性之外，更要考量其如何提升使用者的認知效率與決策品質",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "解決方案反思"
+      },
+      "hashtags": [
+        "認知效率",
+        "決策品質",
+        "技術解決方案"
+      ]
     },
     {
       "id": "ffdd7755-636e-4c43-b138-b71a044300b6",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這也進一步堅定了我對人機互動領域的熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域興趣確立"
+      },
+      "hashtags": [
+        "人機互動"
+      ]
     },
     {
       "id": "d6d2c626-4639-4bb9-855f-2325c47d9a14",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "除了學術研究與競賽，我也在大三的暑假期間，參與了一間新創公司「創視科技」的兼職開發工作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界實習經驗"
+      },
+      "hashtags": [
+        "創視科技",
+        "兼職開發",
+        "新創公司"
+      ]
     },
     {
       "id": "bed23b7b-60e7-4621-9aea-10ab4816eff6",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這家公司專注於為製造業開發企業級 AR 培訓與協作解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業領域理解"
+      },
+      "hashtags": [
+        "製造業",
+        "企業級AR",
+        "培訓解決方案",
+        "協作解決方案"
+      ]
     },
     {
       "id": "b686b67d-7f04-4c38-b782-9062fbbfd361",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我在其中擔任前端應用開發工程師，主要負責將客戶提供的 3D CAD 模型導入 **Unity3D** 平台，並協助開發 AR 應用程式中的互動模組，例如虛擬零件組裝教學、遠端專家指導等功能。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "前端應用開發"
+      },
+      "hashtags": [
+        "前端開發工程師",
+        "3D CAD模型",
+        "Unity3D",
+        "AR應用程式",
+        "虛擬零件組裝",
+        "遠端專家指導"
+      ]
     },
     {
       "id": "fdd3e3d1-ffb8-42b6-8140-596bb357b987",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我使用了 **MRTK (Mixed Reality Toolkit)** 框架來加速 UI/UX 的開發，並負責與後端團隊協作，確保數據能夠即時同步。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "MRTK框架應用",
+        "C4": "跨團隊協作"
+      },
+      "hashtags": [
+        "MRTK",
+        "Mixed Reality Toolkit",
+        "UI/UX開發",
+        "後端協作",
+        "數據即時同步"
+      ]
     },
     {
       "id": "19b44dfc-26a5-467e-8ba1-e212d696e5ec",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這份工作讓我了解了企業級 AR 應用的實際需求與挑戰，例如資料安全性、系統穩定性以及與既有 IT 架構的整合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "企業級應用挑戰理解"
+      },
+      "hashtags": [
+        "企業級AR應用",
+        "資料安全性",
+        "系統穩定性",
+        "IT架構整合"
+      ]
     },
     {
       "id": "c81f0c3d-f9e3-4b1d-8469-de21c547ac40",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我甚至協助公司解決了一個棘手的網路延遲問題，透過優化資料傳輸協定和場景物件的 LOD (Level of Detail) 調整，成功將遠端協作的延遲從 500 毫秒降低至約 150 毫秒，大幅提升了使用體驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "網路延遲問題解決",
+        "C2": "效能優化技術應用"
+      },
+      "hashtags": [
+        "網路延遲",
+        "資料傳輸協定優化",
+        "LOD調整",
+        "遠端協作",
+        "效能提升"
+      ]
     },
     {
       "id": "16e11ccf-7f5c-4a7e-9e6d-b4763a0fc159",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這讓我學到，技術的進步不只是炫酷的概念，更重要的是如何落地解決實際問題，並且必須在現實的限制中找到最佳解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "實務問題解決思維"
+      },
+      "hashtags": [
+        "技術落地",
+        "實際問題解決",
+        "最佳解"
+      ]
     },
     {
       "id": "f6e4aa20-0bd2-4aa6-bf63-b60a3ae330a1",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "回顧我的大學生涯，從對 AR/VR 的初步探索，到實際參與研究專案、在金融科技黑客松中獲獎，再到業界的實戰磨練，我的每一個腳步都印證著我對資訊工程、尤其是虛擬與擴增實境以及人機互動領域的濃厚興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業興趣發展歷程",
+        "C2": "實務經驗累積"
+      },
+      "hashtags": [
+        "AR/VR探索",
+        "研究專案",
+        "金融科技黑客松",
+        "業界實戰",
+        "人機互動"
+      ]
     },
     {
       "id": "a9df15a8-40e7-44ba-8207-ffc2ecbf67c8",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "這些經歷不僅讓我累積了豐富的技術實作經驗，包括 **Unity3D、C#、Python、ARCore/Vuforia、OpenCV、Mediapipe** 等工具的熟練運用",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術工具熟練度"
+      },
+      "hashtags": [
+        "Unity3D",
+        "C#",
+        "Python",
+        "ARCore/Vuforia",
+        "OpenCV"
+      ]
     },
     {
       "id": "ab7f1318-b70f-4224-834d-6da8cbbad95c",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "更重要的是，它們讓我對如何透過創新的人機介面，將複雜的資訊轉化為直觀的體驗有了更深刻的理解與熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "人機介面設計理解"
+      },
+      "hashtags": [
+        "創新人機介面",
+        "資訊轉化直觀體驗"
+      ]
     },
     {
       "id": "db18bf64-c166-480d-b6c1-a61c6824451f",
       "candidate_id": "mock_41",
       "section": "自傳",
       "content": "我渴望能夠在更高的學術殿堂繼續深造，探索更多前沿的技術與應用，將我的技術能力推向新的高度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術深造動機"
+      },
+      "hashtags": [
+        "前沿技術探索",
+        "技術能力提升"
+      ]
     },
     {
       "id": "59682cae-463d-48d7-93d4-06d99bf740d3",
@@ -334,143 +632,279 @@
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "交大資工所無論在師資、研究資源還是學術氛圍上，都是我心中理想的選擇。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所選擇考量"
+      },
+      "hashtags": [
+        "交大資工所",
+        "師資",
+        "研究資源",
+        "學術氛圍"
+      ]
     },
     {
       "id": "c07e6662-d067-4f24-ab0b-dcc2f0f18d8c",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我期待能在這裡，與優秀的教授和同儕們共同成長，為未來的科技發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "協作成長與貢獻"
+      },
+      "hashtags": [
+        "共同成長",
+        "科技發展貢獻"
+      ]
     },
     {
       "id": "d60c1768-a4af-44bd-8ebf-7e958e5dbeeb",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "在短程目標方面，進入貴所後，我計畫在大一的課程中，將重心放在補強理論基礎與拓展專業知識廣度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "短程學術目標",
+        "C1": "理論基礎補強"
+      },
+      "hashtags": [
+        "理論基礎補強",
+        "專業知識廣度"
+      ]
     },
     {
       "id": "4fe2da0f-73be-4009-af74-48131c612539",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我會優先選修如「**機器學習特論**」、「**高等圖學**」以及「**人機互動專題研討**」等課程，以彌補我在理論深度上的不足，並學習最新的研究方法與演算法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程選修規劃"
+      },
+      "hashtags": [
+        "機器學習特論",
+        "高等圖學",
+        "人機互動專題研討",
+        "理論深度",
+        "研究方法"
+      ]
     },
     {
       "id": "7876b516-714d-419c-80ee-9b2c12068d0f",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "同時，我也計畫選修與深度學習相關的課程，例如「**深度學習與應用**」",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "深度學習課程規劃"
+      },
+      "hashtags": [
+        "深度學習與應用",
+        "深度學習"
+      ]
     },
     {
       "id": "dcd05c42-8743-4344-86d7-b29ab2f5ca7a",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "因為我相信這對未來開發更智慧、更直觀的 AR/VR 互動模型至關重要。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "AR/VR發展洞察"
+      },
+      "hashtags": [
+        "AR/VR互動模型",
+        "智慧互動"
+      ]
     },
     {
       "id": "15233a97-9a5d-46fb-93fe-d8f0a41174e6",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我也會積極旁聽相關實驗室的專題討論，盡早熟悉各研究團隊的方向與課題，為中程目標做準備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實驗室研究準備"
+      },
+      "hashtags": [
+        "旁聽專題討論",
+        "研究團隊熟悉"
+      ]
     },
     {
       "id": "f54a7e62-1c93-4749-972f-c768a1d72d6c",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "談到我的中程目標，我期望能在進入研究所第一年的暑假，成功加入一個專注於 VR/AR 或人機互動的實驗室，例如貴所內在「**多媒體系統與網路實驗室**」或「**人機互動與沉浸式技術研究室**」的相關研究方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所中程目標"
+      },
+      "hashtags": [
+        "VR/AR實驗室",
+        "人機互動實驗室",
+        "多媒體系統與網路實驗室",
+        "人機互動與沉浸式技術研究室"
+      ]
     },
     {
       "id": "8152336e-17bb-453e-a34d-17a3e1b017a7",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我特別對結合情感運算或多模態輸入的 AR/VR 互動系統感興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "特定研究興趣"
+      },
+      "hashtags": [
+        "情感運算",
+        "多模態輸入",
+        "AR/VR互動系統"
+      ]
     },
     {
       "id": "aa0eb8b9-d2d8-44f9-8ac7-124e307563ce",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我希望能參與開發一個能夠根據使用者情緒狀態調整內容呈現或互動方式的沉浸式體驗，例如透過臉部辨識、語音語氣分析等，讓虛擬助理在 AR 環境中能更具同理心地與使用者互動。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "沉浸式體驗開發構想"
+      },
+      "hashtags": [
+        "使用者情緒狀態",
+        "臉部辨識",
+        "語音語氣分析",
+        "虛擬助理",
+        "AR環境"
+      ]
     },
     {
       "id": "c1203c10-5fec-49fc-a874-2e20a3110866",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我會利用大學期間所學的 **Unity3D** 經驗，並深入學習 **Unreal Engine** 等更高效能的遊戲引擎，同時熟悉 **OpenXR** 等業界標準，並積極嘗試將 **PyTorch** 或 **TensorFlow** 應用於實時的情感運算模型開發，目標是能發表一篇初步的研究成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "跨平台引擎應用",
+        "C3": "情感運算模型開發"
+      },
+      "hashtags": [
+        "Unity3D",
+        "Unreal Engine",
+        "OpenXR",
+        "PyTorch",
+        "TensorFlow",
+        "情感運算模型",
+        "研究成果發表"
+      ]
     },
     {
       "id": "f4738a27-f38e-45b4-bacd-3278818e6f88",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "對於長程目標，我希望能利用在貴所習得的知識和累積的研究經驗，開發出更具創新性、更符合使用者需求的 VR/AR 解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "長程研究願景"
+      },
+      "hashtags": [
+        "VR/AR解決方案",
+        "創新性開發"
+      ]
     },
     {
       "id": "6e778c46-d0f2-4e6e-9193-092910cd63d3",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我深信，未來的人機互動不再只是點擊與觸摸，而是更自然、更直覺、更個人化的沉浸式體驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "人機互動未來觀"
+      },
+      "hashtags": [
+        "沉浸式體驗",
+        "自然人機互動"
+      ]
     },
     {
       "id": "ee093825-98ff-46a3-a4ea-c9ecb7ae6fd1",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "無論是繼續攻讀博士學位，深入探究人機互動的心理學與認知科學層面",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "博士學位規劃",
+        "C1": "跨域學術探究"
+      },
+      "hashtags": [
+        "博士學位",
+        "人機互動心理學",
+        "認知科學"
+      ]
     },
     {
       "id": "a2643a07-222d-476e-a478-91598f5680c2",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "或是投入業界，將前沿的技術應用於智能醫療、智慧教育或更多元化的金融科技領域",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "前沿技術應用展望",
+        "C4": "產業應用領域規劃"
+      },
+      "hashtags": [
+        "前沿技術",
+        "智能醫療",
+        "智慧教育",
+        "金融科技"
+      ]
     },
     {
       "id": "8d401d19-1ac9-4d3e-8cfd-70ecc18279fc",
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我都希望我的貢獻能真正推動科技的進步，並改善人們的生活品質。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "科技貢獻願景"
+      },
       "hashtags": []
     },
     {
@@ -478,9 +912,15 @@
       "candidate_id": "mock_41",
       "section": "讀書計畫",
       "content": "我期待在交大資工所這塊沃土上，能為我的理想築起堅實的基石。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術環境成長期許"
+      },
+      "hashtags": [
+        "交大資工所"
+      ]
     }
   ]
 }

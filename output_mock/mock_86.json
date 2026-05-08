@@ -10,161 +10,303 @@
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "我是方彥睿，來自國立臺灣科技大學電機工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學校系所背景"
+      },
+      "hashtags": [
+        "國立臺灣科技大學",
+        "電機工程學系"
+      ]
     },
     {
       "id": "44d351aa-58b3-4a64-be8b-de547e1bb109",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "在大學四年的學習中，我一直對科技如何理解與應用人類語言抱持著強烈的好奇心。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣探索"
+      },
+      "hashtags": [
+        "語言科技應用",
+        "人類語言理解"
+      ]
     },
     {
       "id": "4c422ed4-9ba4-4273-afcd-497341a980b4",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "這也引導我將跨領域的學習經驗匯聚於資工領域。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學習導向"
+      },
+      "hashtags": [
+        "跨領域學習",
+        "資工領域匯聚"
+      ]
     },
     {
       "id": "636cc467-7777-4e70-9347-d0f40243baee",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "我的學業成績表現穩定，平均修課分數為 3.72，尤其在程式設計、演算法與機率統計等課程中獲得不錯的成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績與核心課程表現"
+      },
+      "hashtags": [
+        "程式設計",
+        "演算法",
+        "機率統計"
+      ]
     },
     {
       "id": "33f32403-a4e6-4216-ad69-44f4b970f512",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "起初選擇電機工程學系，是出於對硬體系統與電子電路廣泛的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "初始學術興趣"
+      },
+      "hashtags": [
+        "硬體系統",
+        "電子電路"
+      ]
     },
     {
       "id": "0f06df92-2619-4b46-8f1d-8175bdd9a76f",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "然而，在大二上學期修習「資料結構」與「演算法」後，我發現自己對軟體邏輯與解決問題的魅力更加著迷。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣轉向",
+        "C3": "軟體問題解決興趣"
+      },
+      "hashtags": [
+        "資料結構",
+        "演算法",
+        "軟體邏輯",
+        "問題解決"
+      ]
     },
     {
       "id": "15275d3c-4277-47c6-b4d8-5b697f197716",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "尤其在 111-2 學期，我選修了「機器學習概論」，初次接觸到自然語言處理的基礎概念。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業課程學習"
+      },
+      "hashtags": [
+        "機器學習概論",
+        "自然語言處理"
+      ]
     },
     {
       "id": "b8f07911-d7f2-4520-93ec-b7e865c9b1aa",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "這讓我意識到，透過程式可以賦予機器理解、甚至生成人類語言的能力，這完全顛覆了我過往對「機器」的想像。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "機器語言理解認知"
+      },
+      "hashtags": [
+        "機器語言理解",
+        "語言生成能力"
+      ]
     },
     {
       "id": "f021b116-806b-4be4-b5a8-1a8eec0a5b99",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "當時在課程專題中，我嘗試使用 Python 搭配 scikit-learn 建立一個簡單的情緒分析模型，針對 5000 筆社群評論進行正負面情緒分類，並達到約 82% 的分類準確率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "課程專題實作",
+        "C3": "模型問題解決與評估"
+      },
+      "hashtags": [
+        "Python",
+        "scikit-learn",
+        "情緒分析模型",
+        "社群評論分類",
+        "分類準確率82%"
+      ]
     },
     {
       "id": "9c049f39-5743-4eae-9004-55167d51f924",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "這第一次讓我體會到資料與演算法結合的巨大潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "資料演算法潛力體會"
+      },
+      "hashtags": [
+        "資料演算法結合"
+      ]
     },
     {
       "id": "730918f5-b6ae-40ab-9670-f6848c9947d6",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "這份對語言與意義的探索慾望，其實也與我大學期間擔任哲學社社長的經歷息息相關。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "個人興趣發展"
+      },
+      "hashtags": [
+        "哲學社社長",
+        "語言探索"
+      ]
     },
     {
       "id": "3c025621-a9a6-4ef9-ad43-f20914cd20ca",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "在社長任內，我曾主導舉辦多場關於語義學、邏輯與知識論的講座，吸引了超過 200 位同學參與。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "組織領導能力"
+      },
+      "hashtags": [
+        "哲學社社長",
+        "講座主導",
+        "語義學",
+        "邏輯",
+        "知識論"
+      ]
     },
     {
       "id": "e5e725f7-abdb-42c7-8324-ab69f2a88894",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "這些哲學思辨訓練了我深入剖析概念、釐清模糊語句的能力，讓我對於人類語言的複雜性與其背後的思維結構有了更深一層的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "概念分析能力"
+      },
+      "hashtags": [
+        "哲學思辨",
+        "概念剖析",
+        "語言理解"
+      ]
     },
     {
       "id": "0bae1a1e-746b-4dcf-894e-bfd93a1756a9",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "我開始思考，如何將哲學對語義的理解，轉化為機器學習模型能夠處理的資訊，進而發展出更精確、更「有智慧」的語言系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域知識整合",
+        "C3": "應用轉化思考"
+      },
+      "hashtags": [
+        "哲學語義",
+        "機器學習模型",
+        "語言系統開發"
+      ]
     },
     {
       "id": "7efc869a-ef4a-4562-95fc-b978cd66df3d",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "大三暑假，我獲得在「巨星科技」實習的機會，擔任後端開發實習生。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "業界實習經驗"
+      },
+      "hashtags": [
+        "巨星科技",
+        "後端開發實習"
+      ]
     },
     {
       "id": "86a11aac-7d21-494c-8278-e8f43632019c",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "我在團隊中負責開發資料清理與處理的 Python 腳本，協助將客戶提供的非結構化文本資料進行正規化處理，並建立 SQL 資料庫儲存。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料處理實作"
+      },
+      "hashtags": [
+        "Python腳本",
+        "資料清理",
+        "非結構化文本",
+        "SQL資料庫"
+      ]
     },
     {
       "id": "8ddf90bc-1c58-4ee5-a2f8-8daddaa1d68f",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "這段經歷讓我學習到實際業界的開發流程、版本控制（Git）以及團隊合作的重要性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界實務學習"
+      },
+      "hashtags": [
+        "開發流程",
+        "Git",
+        "團隊合作"
+      ]
     },
     {
       "id": "a2f0247b-277a-4e00-818b-90f485cc8e58",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "儘管職責並非直接與 NLP 相關。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯方向釐清"
+      },
       "hashtags": []
     },
     {
@@ -172,71 +314,138 @@
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "但我認識到數據前處理的關鍵性，才意識到資料品質對模型效能的決定性影響。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術洞察力",
+        "C2": "資料品質認知"
+      },
+      "hashtags": [
+        "數據前處理",
+        "資料品質",
+        "模型效能"
+      ]
     },
     {
       "id": "7cd8c5d6-6947-40d7-8592-ce45d17af61a",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "這對我未來投入自然語言處理領域是寶貴的經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯規劃連結"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "職涯規劃"
+      ]
     },
     {
       "id": "f471467d-32fd-4990-a027-ac6b1e8655ab",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "從電機的硬體邏輯訓練，到軟體的程式實作，再到哲學的語義思辨，這些多元背景促使我深信跨領域的整合，能為資工領域帶來更豐富的視角。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "多元學術背景整合"
+      },
+      "hashtags": [
+        "電機背景",
+        "軟體實作",
+        "哲學思辨",
+        "跨領域整合"
+      ]
     },
     {
       "id": "67972cd7-ac00-4f65-87d7-404608118b96",
       "candidate_id": "mock_86",
       "section": "自傳",
       "content": "我期待能在貴所更深入地探索自然語言處理與語義理解的奧秘。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究領域展望"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "語義理解"
+      ]
     },
     {
       "id": "98371e10-683d-43cb-b680-72d3e6bc9aa1",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "在展望未來的學習與研究，我的讀書計畫主要圍繞在自然語言處理與語意理解領域的深入探索，並結合我電機與哲學的跨域背景，期望能開拓創新的研究方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "創新研究方向規劃",
+        "C1": "跨域背景應用"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "語義理解",
+        "電機背景",
+        "哲學背景",
+        "創新研究"
+      ]
     },
     {
       "id": "f84c0502-db83-4506-af16-3854ffc3d856",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "首先，在入學後的第一年，我計畫專注於強化資訊科學的基礎，並迅速補足與電機背景之間的知識差距。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "基礎知識補強計畫"
+      },
+      "hashtags": [
+        "資訊科學基礎",
+        "知識差距補足"
+      ]
     },
     {
       "id": "37015d2a-2daf-4cd2-b4ed-184596caae18",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "我會優先修習貴所提供的核心課程，例如「自然語言處理概論」、「機器學習」與「深度學習」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程修習規劃",
+        "C4": "學術能力提升計畫"
+      },
+      "hashtags": [
+        "自然語言處理概論",
+        "機器學習",
+        "深度學習",
+        "核心課程"
+      ]
     },
     {
       "id": "9d796d19-e030-4707-9a45-2b9b524efda4",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "以建立紮實的理論基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "理論基礎建立"
+      },
       "hashtags": []
     },
     {
@@ -244,18 +453,35 @@
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "同時，我也將主動研讀相關學術論文，特別是關於 Transformer 架構與大型語言模型（LLMs）的最新進展。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "主動學術探索",
+        "C1": "前瞻技術研讀"
+      },
+      "hashtags": [
+        "學術論文研讀",
+        "Transformer架構",
+        "大型語言模型",
+        "LLMs"
+      ]
     },
     {
       "id": "b297e7a5-3396-4332-a120-f9ec089c30ef",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "此外，我將積極參與實驗室專題討論。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實驗室參與規劃"
+      },
+      "hashtags": [
+        "實驗室專題討論"
+      ]
     },
     {
       "id": "fa1e4e14-0d19-4232-8b8f-a09b5e570670",
@@ -271,89 +497,180 @@
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "或許可以嘗試將哲學中的語義角色標註概念應用於機器閱讀理解的任務上，探討能否提升模型對文本深層語義的捕捉能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域創新研究提案",
+        "C1": "哲學概念應用"
+      },
+      "hashtags": [
+        "語義角色標註",
+        "機器閱讀理解",
+        "文本語義捕捉",
+        "哲學應用"
+      ]
     },
     {
       "id": "d32006ff-b1f5-4e36-aa7f-3989efb926b8",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "進入第二年，我將重心放在深入研究與論文撰寫上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術研究投入",
+        "C4": "學術發展規劃"
+      },
+      "hashtags": [
+        "深入研究",
+        "論文撰寫"
+      ]
     },
     {
       "id": "b8ebe28f-d50a-4670-a8dd-a49799cd3ae6",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "我會根據選定的研究主題，選擇性地修習進階課程，例如「語音處理」、「計算語言學」或「資訊檢索」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階課程規劃",
+        "C4": "學術發展策略"
+      },
+      "hashtags": [
+        "語音處理",
+        "計算語言學",
+        "資訊檢索",
+        "進階課程"
+      ]
     },
     {
       "id": "18e18dab-e5e0-43a3-b29a-467562f41439",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "我希望能善用自己在電機系訓練出的邏輯分析能力，以及哲學社培養出的批判性思維，來解決自然語言處理中的複雜問題，特別是針對語義模糊性與語境理解的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域問題解決",
+        "C1": "跨域學科整合"
+      },
+      "hashtags": [
+        "邏輯分析",
+        "批判性思維",
+        "自然語言處理",
+        "語義模糊性",
+        "哲學社"
+      ]
     },
     {
       "id": "96465275-57fd-45d7-900d-a5008d6d29c4",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "我計畫深入研究如何利用深度學習模型，結合圖神經網路（GNN）或其他能捕捉結構化資訊的方法，來提升模型在處理複雜句子結構與語義關係上的表現。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習模型應用"
+      },
+      "hashtags": [
+        "深度學習模型",
+        "圖神經網路",
+        "GNN",
+        "句子結構",
+        "語義關係"
+      ]
     },
     {
       "id": "8183c8b7-860c-4b3e-af16-15601ea9e4d6",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "期望在指導教授的帶領下，能夠參與實際的研究專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究專案參與意願"
+      },
+      "hashtags": [
+        "研究專案",
+        "指導教授"
+      ]
     },
     {
       "id": "8ccb5b4b-7840-4589-b813-bc9749e418c8",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "並爭取在國際或國內會議上發表研究成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究成果發表規劃"
+      },
+      "hashtags": [
+        "研究成果發表",
+        "國際會議",
+        "國內會議"
+      ]
     },
     {
       "id": "5bd553d8-9219-40f8-a263-64e281bb2f04",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "畢業後，我期望能夠將我在交大資工所學習到的專業知識，應用於業界的智慧語言技術發展，例如在智慧客服、智慧醫療資訊處理或跨語言溝通等領域，推動技術的創新與應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界應用與職涯規劃",
+        "C2": "智慧語言技術應用"
+      },
+      "hashtags": [
+        "智慧語言技術",
+        "智慧客服",
+        "智慧醫療",
+        "跨語言溝通",
+        "技術創新"
+      ]
     },
     {
       "id": "90d3d31a-164e-4879-af92-fb50691b7c9b",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "我也會持續關注學術界的最新發展，並保持學習的熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習態度"
+      },
+      "hashtags": [
+        "學術發展",
+        "學習熱情"
+      ]
     },
     {
       "id": "4e6a8ed4-0f0c-45d6-b157-15acd9eabe9a",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "儘管目前對於特定研究方向的選擇仍在探索階段。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索"
+      },
       "hashtags": []
     },
     {
@@ -361,18 +678,36 @@
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "但我深信貴所豐沛的學術資源與頂尖的師資陣容，將能引導我找到最適合的道路，並將我的跨領域潛力發揮到極致。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "潛力發展規劃",
+        "C1": "跨領域潛力展現"
+      },
+      "hashtags": [
+        "學術資源",
+        "師資陣容",
+        "跨領域潛力"
+      ]
     },
     {
       "id": "7e55ec89-60da-4fb3-80db-943a2d5e10c4",
       "candidate_id": "mock_86",
       "section": "讀書計畫",
       "content": "我期待能在交大資工所，成為一名能結合人文思維與科技實踐的優秀研究者。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究者期許"
+      },
+      "hashtags": [
+        "人文思維",
+        "科技實踐",
+        "研究者"
+      ]
     }
   ]
 }

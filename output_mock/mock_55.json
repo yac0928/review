@@ -10,8 +10,12 @@
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "我叫邱品妍，目前就讀於國立交通大學電機工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景說明"
+      },
       "hashtags": []
     },
     {
@@ -19,17 +23,29 @@
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "一直以來，我對硬體架構、尤其是與資訊安全相關的領域充滿熱情，這股熱情引導我踏入加解密硬體設計的世界。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣探索"
+      },
+      "hashtags": [
+        "硬體架構",
+        "資訊安全",
+        "加解密硬體設計"
+      ]
     },
     {
       "id": "0a9eb252-9514-4645-988d-b9fca44c964c",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "在大學四年中，我修課平均達到了 3.94 的優異成績。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -37,27 +53,53 @@
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "這不僅反映了我對學術的投入，更奠定了我未來在資工領域深耕的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術投入基礎",
+        "C4": "未來領域規劃"
+      },
+      "hashtags": [
+        "資工領域深耕"
+      ]
     },
     {
       "id": "6c877561-5553-459e-9bf5-26d0770b87c0",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "我期望能將我在硬體層面的扎實訓練，與資工所的進階軟體與系統知識結合，特別是在密碼學與硬體安全領域，貢獻一己之力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域學習規劃",
+        "C1": "跨域知識整合"
+      },
+      "hashtags": [
+        "硬體訓練",
+        "軟體系統知識",
+        "密碼學",
+        "硬體安全"
+      ]
     },
     {
       "id": "ccb067a1-3dab-466c-8545-d5ff0279d1fb",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "在大二下學期，我加入了「嵌入式系統安全實驗室」，師從李教授。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗室參與經驗"
+      },
+      "hashtags": [
+        "嵌入式系統安全實驗室",
+        "李教授"
+      ]
     },
     {
       "id": "f09a3494-6527-4a64-9c59-5291cb6c88af",
@@ -73,44 +115,84 @@
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "我的主要職責是負責 AES-128 加密演算法的硬體實作與優化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術實作職責"
+      },
+      "hashtags": [
+        "AES-128",
+        "加密演算法",
+        "硬體實作",
+        "硬體優化"
+      ]
     },
     {
       "id": "2a7719b6-b92e-4402-a5e4-36baf378f695",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "我運用 Verilog 語言進行 RTL 設計，並使用 Xilinx Vivado 工具鏈在 Zynq FPGA 開發板上進行驗證。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術工具應用"
+      },
+      "hashtags": [
+        "Verilog",
+        "RTL設計",
+        "Xilinx Vivado",
+        "Zynq FPGA",
+        "FPGA驗證"
+      ]
     },
     {
       "id": "4da71a54-5282-4229-95cd-4a5621c2f602",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "專案初期，我們面臨如何平衡加密吞吐量與硬體資源消耗的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "專案挑戰識別"
+      },
+      "hashtags": [
+        "加密吞吐量",
+        "硬體資源消耗"
+      ]
     },
     {
       "id": "d04101e4-c9d8-41de-9e6d-1bf90b9bd499",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "透過仔細分析 AES 演算法的各階段操作，我成功導入了 S-box 的查表並行化技術，使加密吞吐量提升了約 30%，同時硬體資源僅增加 15%。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "加密演算法優化"
+      },
+      "hashtags": [
+        "AES演算法",
+        "S-box",
+        "查表並行化",
+        "加密吞吐量",
+        "硬體資源優化"
+      ]
     },
     {
       "id": "1bc8f9df-6c37-4903-894f-18ff822d720c",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "這次經驗讓我第一次體會到，在有限的硬體資源下，精巧的架構設計對於性能的決定性影響。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "架構設計洞察"
+      },
       "hashtags": []
     },
     {
@@ -118,26 +200,43 @@
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "也讓我對硬體安全與高效能運算結合的潛力產生了濃厚的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究興趣發展"
+      },
+      "hashtags": [
+        "硬體安全",
+        "高效能運算"
+      ]
     },
     {
       "id": "2f29648e-05cc-49b5-9da9-e7a2eaf2c57f",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "除了研究專案，我也積極參與業界實習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "積極實習參與"
+      },
+      "hashtags": [
+        "業界實習"
+      ]
     },
     {
       "id": "0dd31209-c4d8-4f01-9ead-d21fdbbc29cb",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "希望將學術所學應用於實際情境。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學用合一目標"
+      },
       "hashtags": []
     },
     {
@@ -145,143 +244,281 @@
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "大三暑假，我在一家新創公司「安芯科技」擔任硬體資安設計實習生。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界實習經驗"
+      },
+      "hashtags": [
+        "安芯科技",
+        "硬體資安設計實習生"
+      ]
     },
     {
       "id": "79ba97da-bd8c-4706-a59f-b0ca73491dc3",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "當時，安芯科技正在開發一款針對物聯網裝置的信任根模組。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "物聯網資安背景"
+      },
+      "hashtags": [
+        "物聯網裝置",
+        "信任根模組"
+      ]
     },
     {
       "id": "6baf4302-710e-41e7-92e2-bc8159edd47c",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "我負責協助團隊進行模組的側通道攻擊（Side-channel attack）防護測試。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "側通道攻擊測試"
+      },
+      "hashtags": [
+        "側通道攻擊",
+        "Side-channel attack",
+        "防護測試"
+      ]
     },
     {
       "id": "1cde40fe-35c5-4330-b4d8-a3596317193e",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "我們主要使用 Keysight 的邏輯分析儀和示波器擷取模組在加密過程中的功耗數據，並利用 Python 撰寫腳本進行相關性分析（CPA）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "資安工具應用",
+        "C1": "密碼學分析技術"
+      },
+      "hashtags": [
+        "Keysight",
+        "邏輯分析儀",
+        "示波器",
+        "功耗數據",
+        "Python",
+        "相關性分析",
+        "CPA"
+      ]
     },
     {
       "id": "589dfdcd-9db5-40a8-bae2-c0e910370b60",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "透過數週的努力，我們發現了一個潛在的功耗洩漏點，並成功協助團隊提出改良方案，提升了產品的安全性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題診斷與解決",
+        "C2": "技術方案實踐"
+      },
+      "hashtags": [
+        "功耗洩漏點",
+        "改良方案",
+        "產品安全性"
+      ]
     },
     {
       "id": "6a5247d3-bcad-4e03-a61c-e58ae01aa613",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "這段實習不僅讓我熟悉了業界的硬體安全驗證流程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "業界實務流程熟悉"
+      },
+      "hashtags": [
+        "實習經驗",
+        "硬體安全驗證",
+        "業界流程"
+      ]
     },
     {
       "id": "b8be86ef-cd6a-447e-8885-1f7255aa7667",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "更讓我意識到軟硬體協同設計在資安防護上的重要性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "軟硬體整合思維"
+      },
+      "hashtags": [
+        "軟硬體協同設計",
+        "資安防護"
+      ]
     },
     {
       "id": "4d9022a6-f712-47d0-95e8-3ee3897608d2",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "我在課外活動上也展現了我的創新與實踐能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外活動參與"
+      },
+      "hashtags": [
+        "創新能力",
+        "實踐能力",
+        "課外活動"
+      ]
     },
     {
       "id": "daf4b5a9-07e4-4985-9ea1-c5ec0593d334",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "去年，我與系上幾位志同道合的同學組隊參加了「全國大專院校智慧生活創業競賽」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "競賽參與經驗"
+      },
+      "hashtags": [
+        "智慧生活創業競賽",
+        "團隊合作"
+      ]
     },
     {
       "id": "57eaa1b9-3231-4191-a4f4-a53f0d9b65a0",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "我們的提案是「區塊鏈驅動的供應鏈安全追溯系統」，其中我負責設計其核心的硬體安全模組（HSM）原型，用以確保數據上鏈前的完整性與不可篡改性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統原型設計"
+      },
+      "hashtags": [
+        "區塊鏈",
+        "供應鏈安全",
+        "硬體安全模組",
+        "HSM原型",
+        "數據完整性"
+      ]
     },
     {
       "id": "2142026a-2a47-4ae4-97ee-680af0e2e04f",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "從前端的市場分析、商業模式建立，到後端的技術實作與成本評估，我們歷經數月的準備，最終榮獲了「創業潛力獎」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案技術實作",
+        "C3": "商業策略規劃"
+      },
+      "hashtags": [
+        "市場分析",
+        "商業模式",
+        "技術實作",
+        "成本評估",
+        "創業潛力獎"
+      ]
     },
     {
       "id": "05e8216e-a590-4e26-a74b-a381f0935a18",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "這次競賽不僅讓我學習到如何將技術轉化為具市場價值的產品。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術商業化思維"
+      },
+      "hashtags": [
+        "技術轉化",
+        "市場價值",
+        "產品開發"
+      ]
     },
     {
       "id": "a070fb44-0a2b-4b64-a31a-f0b35f01da5e",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "也培養了我解決問題、跨領域溝通的創業家思維。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "創業家思維養成"
+      },
+      "hashtags": [
+        "解決問題",
+        "跨領域溝通",
+        "創業家思維"
+      ]
     },
     {
       "id": "a047017a-7668-4caa-b93f-e68e94d620ce",
       "candidate_id": "mock_55",
       "section": "自傳",
       "content": "這些多元的經歷讓我更加確信，資工所的學習將是我實現技術理想與未來抱負的關鍵一步。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來學習規劃"
+      },
+      "hashtags": [
+        "技術理想",
+        "未來抱負",
+        "資工所學習"
+      ]
     },
     {
       "id": "320c284f-9696-4ada-895f-107248f1d744",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "談到讀書計畫，我對交大資工所先進的實驗室與師資陣容仰慕已久，尤其對密碼學與系統安全領域的研究方向充滿期待。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "讀書計畫闡述",
+        "C1": "特定研究興趣"
+      },
+      "hashtags": [
+        "交大資工所",
+        "密碼學",
+        "系統安全",
+        "研究方向",
+        "讀書計畫"
+      ]
     },
     {
       "id": "00f0caa0-f213-4556-b33e-5847fd4463c9",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "在入學後的第一年，我計畫專注於基礎知識的深化與拓廣。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習規劃與目標"
+      },
       "hashtags": []
     },
     {
@@ -289,45 +526,88 @@
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "除了積極參與實驗室專題討論，我會優先修習「高等密碼學」、「進階計算機結構」以及「硬體安全與信任運算」等課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業課程規劃"
+      },
+      "hashtags": [
+        "高等密碼學",
+        "進階計算機結構",
+        "硬體安全與信任運算",
+        "實驗室專題討論"
+      ]
     },
     {
       "id": "ff808ea3-d05b-4626-874c-f31598dc10be",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "以補足我在理論層面可能相對較弱的部分，並進一步強化對前瞻硬體安全技術的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自我學習補強"
+      },
+      "hashtags": [
+        "理論層面補強",
+        "硬體安全技術"
+      ]
     },
     {
       "id": "74ca82ca-66a8-49bf-ba82-c2fa54fa3e52",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "同時，我也會主動與實驗室的學長姐交流，熟悉研究工具，例如 GPGPU 編程（CUDA）、形式化驗證工具（如 Coq 或 Isabelle/HOL 的基本概念），並從現有的研究論文中尋找靈感，明確自己的研究方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "研究工具學習",
+        "C4": "研究方向探索"
+      },
+      "hashtags": [
+        "GPGPU編程",
+        "CUDA",
+        "形式化驗證",
+        "Coq",
+        "Isabelle/HOL",
+        "研究論文"
+      ]
     },
     {
       "id": "c16e4c2a-3d02-4617-aa7b-4358fee5cf3d",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "我希望能在這一年內，對密碼學的數學基礎、硬體安全攻擊與防禦技術有系統性且深入的認識，為後續的研究打下堅實的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術目標設定"
+      },
+      "hashtags": [
+        "密碼學數學基礎",
+        "硬體安全攻擊",
+        "防禦技術"
+      ]
     },
     {
       "id": "7c336d63-9dc4-4a8c-8e33-aa3ee13d1d6f",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "進入第二年，我預期將重心完全放在碩士論文的研究上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "碩士論文規劃"
+      },
+      "hashtags": [
+        "碩士論文研究"
+      ]
     },
     {
       "id": "d97e168e-630c-4b9e-9f44-98f1debb6518",
@@ -343,63 +623,132 @@
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "隨著量子計算的發展，現有的密碼學標準將面臨挑戰，而邊緣裝置的資源受限性則要求極致的效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題情境分析"
+      },
+      "hashtags": [
+        "量子計算發展",
+        "密碼學標準挑戰",
+        "邊緣裝置資源受限"
+      ]
     },
     {
       "id": "85e8a29a-23d7-42a7-bdce-adfedfdb0720",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "我計畫研究後量子密碼演算法（例如格密碼學或基於雜湊的簽章）在 FPGA 或特定 ASIC 上的高效能、低功耗硬體實現方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體實現方案"
+      },
+      "hashtags": [
+        "後量子密碼演算法",
+        "格密碼學",
+        "基於雜湊簽章",
+        "FPGA",
+        "ASIC",
+        "高效能",
+        "低功耗"
+      ]
     },
     {
       "id": "3e79188f-ae50-43e0-bb75-5c25fa1c7d0b",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "這將涉及架構創新、電路優化以及可能的側通道攻擊防護設計。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術細節規劃"
+      },
+      "hashtags": [
+        "架構創新",
+        "電路優化",
+        "側通道攻擊防護"
+      ]
     },
     {
       "id": "545b4796-1a2b-4d2a-8461-e616291ded0a",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "我會積極參與相關的國際研討會，投稿研究成果至如 CHES、DAC 或 FPL 等頂尖會議。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "國際學術交流與成果發表"
+      },
+      "hashtags": [
+        "國際研討會",
+        "CHES",
+        "DAC",
+        "FPL",
+        "研究成果投稿"
+      ]
     },
     {
       "id": "b4acf3bc-8535-4705-9431-a8ff710d64e2",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "我相信在交大資工所豐富的研究資源與指導下，我有能力做出具原創性且實用的研究貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "原創研究貢獻潛力"
+      },
+      "hashtags": [
+        "原創研究",
+        "實用研究",
+        "研究貢獻"
+      ]
     },
     {
       "id": "187a4fd0-f2ac-4779-a058-a67069928dfe",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "展望未來，我希望能在完成碩士學位後，將所學應用於業界，參與開發更安全的晶片或資訊系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界應用與職涯規劃",
+        "C2": "資訊安全技術應用"
+      },
+      "hashtags": [
+        "業界應用",
+        "安全晶片",
+        "資訊系統開發",
+        "職涯規劃"
+      ]
     },
     {
       "id": "fd792c46-5526-45d9-82cd-3eddc9f18a6b",
       "candidate_id": "mock_55",
       "section": "讀書計畫",
       "content": "無論是投入領先的半導體公司擔任硬體安全架構師，或是加入資安新創團隊，我都會秉持著創業競賽所學到的創新精神，致力於將先進的資安技術轉化為可靠的產品。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯規劃與產品化願景",
+        "C3": "創新精神與產品轉化"
+      },
+      "hashtags": [
+        "半導體公司",
+        "硬體安全架構師",
+        "資安新創",
+        "創業競賽",
+        "資安技術產品化"
+      ]
     },
     {
       "id": "0bcc4764-c383-4b2e-9f65-87cd9e2fb660",

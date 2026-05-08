@@ -10,44 +10,76 @@
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我是林子涵，來自國立臺灣大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景說明"
+      },
+      "hashtags": [
+        "國立臺灣大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "83133f5e-0f91-47ae-b6ec-c1671c44acbd",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "一直以來，我對軟體工程和程式語言的奧秘充滿好奇，這些領域不僅是構築現代數位世界的基石，更蘊含著無限的創新潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業領域興趣"
+      },
+      "hashtags": [
+        "軟體工程",
+        "程式語言"
+      ]
     },
     {
       "id": "6c5990a5-0065-4c0f-96ac-87b76be7787c",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "從大學時期接觸到程式設計開始，我就被如何將抽象的邏輯轉化為實際運作的系統所吸引。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實作興趣啟蒙"
+      },
+      "hashtags": [
+        "程式設計",
+        "抽象邏輯轉化"
+      ]
     },
     {
       "id": "d22235f6-382f-4026-8be7-f786790d2cd1",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "申請貴所資工所，是希望能更深入地探索這些領域，將所學付諸實踐，並期許未來能對軟體技術的發展有所貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所申請動機"
+      },
+      "hashtags": [
+        "軟體技術發展",
+        "實踐所學"
+      ]
     },
     {
       "id": "84baf455-09aa-48f7-ba08-5fcb5b298529",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "在大學四年期間，我的學業成績表現穩定，修課平均約 3.59。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -55,63 +87,125 @@
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我積極修習了許多核心課程，像是「資料結構與演算法」、「計算機組織」、「作業系統」以及「程式語言概論」等，這些都奠定了我扎實的資訊科學基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程修習"
+      },
+      "hashtags": [
+        "資料結構與演算法",
+        "計算機組織",
+        "作業系統",
+        "程式語言概論",
+        "資訊科學基礎"
+      ]
     },
     {
       "id": "1c598674-8110-4899-bc3b-1bd378f0280a",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "其中，「軟體工程」與「編譯器設計」課程更是讓我對大型系統開發與語言內部機制產生濃厚興趣",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業課程學習",
+        "C4": "專業興趣啟發"
+      },
+      "hashtags": [
+        "軟體工程",
+        "編譯器設計",
+        "大型系統開發",
+        "語言內部機制"
+      ]
     },
     {
       "id": "39fc3aa5-d3f1-4195-bbcf-57b76eb9fe12",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "驅使我思考如何設計出更可靠、更有效率的軟體。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "軟體設計思考"
+      },
+      "hashtags": [
+        "軟體可靠性",
+        "軟體效率"
+      ]
     },
     {
       "id": "43c93cbd-725c-41d1-8d6d-46ab342e735d",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "大三下學期，我加入了**台大軟體系統實驗室**，在 [某位指導教授] 教授的指導下，參與了一個關於「**微服務架構下的可靠性測試框架**」的研究專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗室專案參與"
+      },
+      "hashtags": [
+        "台大軟體系統實驗室",
+        "微服務架構",
+        "可靠性測試框架",
+        "研究專案"
+      ]
     },
     {
       "id": "099c6014-d306-48ff-9fbd-2b78aeaafcc8",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我們的目標是開發一套自動化測試工具，用於檢測分散式系統中潛在的錯誤模式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案目標與技術"
+      },
+      "hashtags": [
+        "自動化測試工具",
+        "分散式系統",
+        "錯誤模式檢測"
+      ]
     },
     {
       "id": "aeb04dba-4b46-4187-96fe-6890a3608808",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "在這個專案中，我主要負責**設計並實作服務間的錯誤注入模組**。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "錯誤注入模組實作"
+      },
+      "hashtags": [
+        "錯誤注入模組",
+        "服務間通訊"
+      ]
     },
     {
       "id": "73c6551b-4b71-48d1-bfbe-6f8d460bdf20",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我利用 **Python 語言**和 **Kubernetes API**，設計了一系列故障模擬情境，例如網路延遲、服務宕機等，並開發了一個 **Docker 容器化**的測試環境來模擬真實世界的部署。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "故障模擬環境開發"
+      },
+      "hashtags": [
+        "Python",
+        "Kubernetes API",
+        "Docker",
+        "故障模擬",
+        "容器化測試"
+      ]
     },
     {
       "id": "ce18cc99-74c2-49b0-8dfc-da3d8a79a1d8",
@@ -127,35 +221,68 @@
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "為了解決這些問題，我研讀了多篇關於分散式系統容錯性測試的論文，並學習了 **Prometheus** 和 **Grafana** 等監控工具的應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "學術驅動問題解決",
+        "C1": "分散式系統理論研讀"
+      },
+      "hashtags": [
+        "分散式系統容錯性",
+        "Prometheus",
+        "Grafana"
+      ]
     },
     {
       "id": "c18f4fdb-4831-4575-a014-a3efda1aa63b",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "這個經歷讓我更深入理解了分散式系統的複雜性，也學到軟體架構設計中錯誤處理與可靠性評估的重要性，不只是單純把功能做出來就好。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "軟體架構理解深化",
+        "C3": "品質導向批判思考"
+      },
+      "hashtags": [
+        "分散式系統複雜性",
+        "錯誤處理",
+        "可靠性評估",
+        "軟體架構設計"
+      ]
     },
     {
       "id": "ddd15d32-1282-4ed9-b6a7-c656486071c9",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "這對我思考軟體品質保證有了更全面的看法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "軟體品質觀點提升",
+        "C3": "品質保證批判思考"
+      },
+      "hashtags": [
+        "軟體品質保證"
+      ]
     },
     {
       "id": "c457aa2d-0eae-4ea3-ad8e-f81b17ef3b71",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "除了研究室的經驗，我也積極參與多項專案實作。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案參與積極性"
+      },
       "hashtags": []
     },
     {
@@ -163,71 +290,140 @@
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "例如，在「軟體工程專題」課程中，我與團隊合作開發了一個**線上學習平台**。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "線上平台開發"
+      },
+      "hashtags": [
+        "軟體工程專題",
+        "線上學習平台",
+        "團隊合作"
+      ]
     },
     {
       "id": "f30c7c20-064b-4462-806b-be69c1e438a4",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我負責後端 API 的設計與實作，使用 **Java Spring Boot 框架**與 **PostgreSQL 資料庫**，並導入 **JUnit 進行單元測試**，以確保程式碼品質。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "後端API開發與測試"
+      },
+      "hashtags": [
+        "後端API",
+        "Java Spring Boot",
+        "PostgreSQL",
+        "JUnit",
+        "單元測試",
+        "程式碼品質"
+      ]
     },
     {
       "id": "a50bb553-507d-4854-8181-698b0b22b6b0",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "這個專案讓我們從需求分析、系統設計、程式開發到測試部署，體驗了完整的軟體開發生命週期。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "軟體開發流程理解"
+      },
+      "hashtags": [
+        "需求分析",
+        "系統設計",
+        "程式開發",
+        "測試部署",
+        "軟體開發生命週期"
+      ]
     },
     {
       "id": "a2e059a2-41de-4a6c-9327-83bfaadabb95",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "過程中，我們也學到了如何有效利用 **Git 進行版本控制**，以及如何在團隊中協調與分工，這些都是開發大型軟體不可或缺的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "版本控制實務",
+        "C4": "團隊協作溝通"
+      },
+      "hashtags": [
+        "Git",
+        "版本控制",
+        "團隊協作",
+        "軟體開發"
+      ]
     },
     {
       "id": "f2283612-5fef-4fb0-b14e-ac4e6ebbe50b",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "此外，我也曾自學並嘗試實作一個**小型直譯器**，用來解析簡單的數學表達式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "直譯器實作能力"
+      },
+      "hashtags": [
+        "小型直譯器",
+        "數學表達式解析",
+        "自學實作"
+      ]
     },
     {
       "id": "c3e9de79-2df9-4ef3-acd8-a982bb8e7e0a",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "這讓我對程式語言的詞法分析、語法分析以及抽象語法樹的建構有了更具體的認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "程式語言原理理解"
+      },
+      "hashtags": [
+        "詞法分析",
+        "語法分析",
+        "抽象語法樹",
+        "程式語言原理"
+      ]
     },
     {
       "id": "f87ffd1a-5a66-47d0-9f99-a8173c27aa63",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "但這個過程讓我對程式語言內部運作機制的好奇心更加強烈，也激發我探索更多關於語言設計的可能性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機與探索精神"
+      },
+      "hashtags": [
+        "程式語言設計",
+        "學習熱忱",
+        "探索精神"
+      ]
     },
     {
       "id": "62220edd-36c6-4ec2-bf59-3622011467f3",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "在課業與研究之餘，我也熱衷於參與校內社團活動。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外活動參與"
+      },
       "hashtags": []
     },
     {
@@ -235,71 +431,138 @@
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我曾是「**台大文化交流協會**」的活動策劃幹部。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社團幹部經驗"
+      },
+      "hashtags": [
+        "台大文化交流協會",
+        "活動策劃幹部"
+      ]
     },
     {
       "id": "1f07b146-757c-46f1-9c2e-9f975baf557a",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我們曾籌辦「國際文化之夜」和「外籍生迎新」等大型活動，負責場地安排、節目規劃與資源協調。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "大型活動籌辦"
+      },
+      "hashtags": [
+        "國際文化之夜",
+        "外籍生迎新",
+        "場地安排",
+        "節目規劃",
+        "資源協調"
+      ]
     },
     {
       "id": "0f84e26a-472a-44aa-9269-8a1895d64dae",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "在這些活動中，我學會了如何在時間壓力下進行專案管理，並與不同背景的夥伴溝通合作，這對提升我的組織能力與人際溝通技巧有很大的幫助。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案管理與溝通"
+      },
+      "hashtags": [
+        "專案管理",
+        "溝通合作",
+        "組織能力",
+        "人際溝通"
+      ]
     },
     {
       "id": "2092fbe1-04b4-450a-ae14-980dcc034ef0",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我發現，有效溝通和良好的團隊合作不僅在籌辦活動時很重要，在學術研究中與同儕討論、與指導教授溝通研究進度也是不可或缺的。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術溝通與協作認知"
+      },
+      "hashtags": [
+        "有效溝通",
+        "團隊合作",
+        "學術研究溝通",
+        "同儕討論"
+      ]
     },
     {
       "id": "25d3e05d-251b-4f6a-881c-3b0ddb329035",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "這些經驗讓我更加意識到，無論是軟體開發還是學術研究，團隊協作都是成功的關鍵。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨領域團隊協作認知"
+      },
+      "hashtags": [
+        "團隊協作重要性",
+        "軟體開發",
+        "學術研究"
+      ]
     },
     {
       "id": "deda724c-eede-4e77-9d01-86cf4e30f1f4",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我希望申請貴所資工所，主要是被其在軟體工程與程式語言領域的卓越研究能量所吸引。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所申請動機",
+        "C1": "學術領域興趣"
+      },
+      "hashtags": [
+        "軟體工程",
+        "程式語言",
+        "資工所"
+      ]
     },
     {
       "id": "ad1c2bca-c2f1-402a-90e7-b1c49ffbd576",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我尤其對貴所教授們在**分散式系統、軟體品質保證**，以及**進階程式語言設計**等方向的研究深感興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "特定研究領域興趣",
+        "C4": "未來研究方向"
+      },
+      "hashtags": [
+        "分散式系統",
+        "軟體品質保證",
+        "進階程式語言設計"
+      ]
     },
     {
       "id": "6fea9a4b-52e5-4451-8b78-ecb70dae1b13",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "交大資工所不僅有堅實的學術基礎，更與產業連結緊密，",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所環境認知"
+      },
       "hashtags": []
     },
     {
@@ -307,35 +570,67 @@
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "這對我未來希望將研究成果應用於實際產品的目標非常契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展目標",
+        "C2": "研究成果應用"
+      },
+      "hashtags": [
+        "研究成果應用",
+        "實際產品"
+      ]
     },
     {
       "id": "0cf81c44-71ff-438e-9da1-340ca0301462",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我相信在交大資工所，我能接觸到最前沿的研究議題，並在具備實務經驗的師資指導下，持續精進我的技術能力與研究視野。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術與研究精進"
+      },
+      "hashtags": [
+        "前沿研究",
+        "技術精進",
+        "研究視野"
+      ]
     },
     {
       "id": "df960759-f2d1-476b-9604-94dd9b6badb4",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我渴望未來能夠深入探討如何提升大型軟體系統的開發效率與可靠性，並研究新的程式語言範式如何解決傳統軟體開發的痛點。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究方向",
+        "C3": "軟體開發問題探討"
+      },
+      "hashtags": [
+        "大型軟體系統",
+        "開發效率",
+        "程式語言範式",
+        "軟體開發痛點"
+      ]
     },
     {
       "id": "b437447f-c41b-4729-aa85-db8cc7001d4e",
       "candidate_id": "mock_53",
       "section": "自傳",
       "content": "我深信，憑藉我在軟體開發與研究上的熱情與經驗，以及在貴所提供的優質環境，我能夠做出有意義的貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "貢獻潛力展現"
+      },
       "hashtags": []
     },
     {
@@ -343,89 +638,170 @@
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "進入交大資工所後，我希望能專注於軟體工程與程式語言領域的進階研究，目標是成為一名能夠開發高效且可靠軟體系統的專家。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯與研究目標",
+        "C1": "專業領域深耕"
+      },
+      "hashtags": [
+        "軟體工程",
+        "程式語言",
+        "高效軟體系統",
+        "可靠軟體系統"
+      ]
     },
     {
       "id": "55a99d7c-bc15-49b5-913d-63bdf89007e1",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "期望能將所學應用於實際的軟體開發場景，解決複雜的技術問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "軟體實務應用",
+        "C3": "複雜技術問題解決"
+      },
+      "hashtags": [
+        "軟體開發場景",
+        "技術問題解決"
+      ]
     },
     {
       "id": "5c0ceb01-d4fe-4dfd-8615-0847bf110119",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**精實基礎課程**：選修如「高等軟體工程」、「高等編譯器設計」、「分散式系統」等核心課程，全面強化理論基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階課程規劃",
+        "C4": "理論基礎強化"
+      },
+      "hashtags": [
+        "高等軟體工程",
+        "高等編譯器設計",
+        "分散式系統",
+        "理論基礎"
+      ]
     },
     {
       "id": "532d5cdb-2856-4f47-9785-d36f0e58dedc",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "這些課程將幫助我理解更複雜的軟體架構與開發方法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "軟體架構理解"
+      },
+      "hashtags": [
+        "軟體架構",
+        "開發方法"
+      ]
     },
     {
       "id": "cee8f1b6-d479-4731-8160-deb7f62bdcd4",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**尋找指導教授**：積極參與實驗室導覽、研討會，深入了解各教授研究方向，並與符合我興趣的教授積極交流，",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "教授研究探索"
+      },
+      "hashtags": [
+        "實驗室導覽",
+        "研討會",
+        "教授交流"
+      ]
     },
     {
       "id": "68cd1306-337e-45d2-ad55-c6614cf7580a",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "希望能加入專精於軟體品質保證或程式語言設計的實驗室。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向確立"
+      },
+      "hashtags": [
+        "軟體品質保證",
+        "程式語言設計"
+      ]
     },
     {
       "id": "411fa9ff-677c-4b71-968b-3305de9ea5c7",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**文獻探討與工具熟悉**：廣泛閱讀相關領域的國際期刊論文，掌握前沿研究動態；",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "前沿文獻探討"
+      },
+      "hashtags": [
+        "國際期刊論文",
+        "前沿研究"
+      ]
     },
     {
       "id": "05d2ea8c-4b3b-4e38-8363-d18677b6166c",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "熟悉實驗室常用的研究工具與平台，例如特定程式語言分析工具或軟體測試框架，為後續研究打下基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "研究工具熟悉"
+      },
+      "hashtags": [
+        "程式語言分析工具",
+        "軟體測試框架"
+      ]
     },
     {
       "id": "4dcfbede-57c5-4afa-a8c3-fe931f9c797b",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**確立研究主題**：與指導教授討論，選定具體的研究議題，例如「基於形式化方法的軟體驗證」、「自動化程式碼生成」或「特定領域語言 (DSL) 的設計與實作」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "具體研究議題選定"
+      },
+      "hashtags": [
+        "形式化方法",
+        "軟體驗證",
+        "自動化程式碼生成",
+        "特定領域語言",
+        "DSL"
+      ]
     },
     {
       "id": "58010f57-5cdd-4583-b084-224e41ac9466",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "我會選擇一個既有挑戰性又符合我興趣的方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向選擇動機"
+      },
       "hashtags": []
     },
     {
@@ -433,72 +809,150 @@
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**深入研究與實作**：針對選定的研究主題，進行實驗設計、資料收集與分析，並進行原型系統的開發。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "原型系統開發",
+        "C3": "實驗設計與分析"
+      },
+      "hashtags": [
+        "實驗設計",
+        "資料收集",
+        "資料分析",
+        "原型系統開發"
+      ]
     },
     {
       "id": "bd90b17e-e5d0-42b6-b328-8d87c5f3f82e",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "預期至少完成一至兩個具有挑戰性的研究專案，並從中學習如何將理論知識應用於實際問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "挑戰性專案實作",
+        "C3": "理論應用實踐"
+      },
+      "hashtags": [
+        "研究專案",
+        "理論知識應用",
+        "實際問題解決"
+      ]
     },
     {
       "id": "34d54673-79f3-4a13-bd92-1eb27f67078b",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**參與學術交流**：積極參與實驗室例會、學術研討會，並爭取機會發表研究成果，例如投稿國內外學術會議或期刊，",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表"
+      },
+      "hashtags": [
+        "實驗室例會",
+        "學術研討會",
+        "學術會議投稿",
+        "期刊投稿"
+      ]
     },
     {
       "id": "6a360b47-a08f-483a-a0d8-70f89e82c037",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "提升我的學術發表能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術發表能力提升"
+      },
+      "hashtags": [
+        "學術發表"
+      ]
     },
     {
       "id": "fca6a9e0-047d-43a2-8dc8-cea3b04a0967",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**完成碩士論文**：期望能提出創新且具實用價值的研究成果，並順利完成碩士論文，取得學位。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "碩士學位規劃",
+        "C3": "創新研究成果"
+      },
+      "hashtags": [
+        "碩士論文",
+        "創新研究",
+        "實用價值"
+      ]
     },
     {
       "id": "f14c0ba3-a960-416c-a9d8-287299c65d7f",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "我的目標是讓研究成果不僅有學術價值，也能對產業產生一定的影響。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術產業連結",
+        "C3": "研究應用影響力"
+      },
+      "hashtags": [
+        "學術價值",
+        "產業影響",
+        "研究成果"
+      ]
     },
     {
       "id": "52381d2b-cfe2-4abc-a0cb-bd6720f8ef43",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**職涯發展**：畢業後希望進入頂尖科技公司，從事軟體研發工作，特別是系統架構師、高級軟體工程師或研究員等職位，將研究方法應用於實際產品開發，解決產業中的複雜問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃",
+        "C3": "產業問題解決"
+      },
+      "hashtags": [
+        "軟體研發",
+        "系統架構師",
+        "高級軟體工程師",
+        "研究員",
+        "產業問題解決"
+      ]
     },
     {
       "id": "fe0a3df1-6c30-4924-bd5f-0d9aeafc8c3f",
       "candidate_id": "mock_53",
       "section": "讀書計畫",
       "content": "**持續學習與貢獻**：保持對新技術和新研究的學習熱情，期望能在軟體工程或程式語言領域持續深耕並有所貢獻，無論是透過業界實踐還是學術探索，都能不斷提升自我。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習與成長"
+      },
+      "hashtags": [
+        "新技術學習",
+        "軟體工程",
+        "程式語言",
+        "業界實踐",
+        "學術探索"
+      ]
     }
   ]
 }

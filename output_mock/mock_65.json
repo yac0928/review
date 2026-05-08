@@ -10,53 +10,93 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "各位審查委員好，我是唐育翔，來自國立中興大學電機工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景介紹"
+      },
+      "hashtags": [
+        "國立中興大學",
+        "電機工程學系"
+      ]
     },
     {
       "id": "b2acf4e7-2779-4a8c-b431-26f8a644cfd5",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "從小我就對電路板上那些密密麻麻的元件感到好奇，總覺得它們背後一定有很精妙的設計。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機啟蒙"
+      },
+      "hashtags": [
+        "電路板元件",
+        "設計好奇心"
+      ]
     },
     {
       "id": "e65c34a5-f8a0-429a-b4e8-7d5d56c02197",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這種好奇心引導我選擇了電機工程學系，也讓我大學期間特別投入在硬體相關的領域，尤其是電子設計自動化（EDA）這個方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術領域選擇"
+      },
+      "hashtags": [
+        "電機工程學系",
+        "硬體領域",
+        "電子設計自動化",
+        "EDA"
+      ]
     },
     {
       "id": "5725dddf-62d6-4939-892a-61bd5877fda6",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我一直覺得，能用程式去設計和優化硬體，是一件很酷的事情，也是我很想要深入學習的專業。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業學習熱忱"
+      },
+      "hashtags": [
+        "程式設計硬體",
+        "硬體優化"
+      ]
     },
     {
       "id": "68242b73-64d8-4ce3-9f97-4b0e1b5d6761",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "在國立中興大學電機工程學系就讀的這幾年，我努力學習各種專業知識，雖然學業成績（修課平均約 3.13）沒有特別突出",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業表現自述"
+      },
+      "hashtags": [
+        "學業成績3.13"
+      ]
     },
     {
       "id": "f407bed0-9934-4dde-886c-d3bfbdd1400b",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但我在自己感興趣的領域投入了非常多的時間和心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "興趣領域投入"
+      },
       "hashtags": []
     },
     {
@@ -64,80 +104,145 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "大學課程中，我修習了像是「數位邏輯設計」、「計算機組織」、「超大型積體電路設計」以及「嵌入式系統」等課程",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程修習"
+      },
+      "hashtags": [
+        "數位邏輯設計",
+        "計算機組織",
+        "超大型積體電路設計",
+        "嵌入式系統"
+      ]
     },
     {
       "id": "c115446b-2a70-44c9-b416-9dc8ac39f786",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這些都讓我對硬體的運作原理有了很紮實的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "硬體原理理解"
+      },
+      "hashtags": [
+        "硬體運作原理"
+      ]
     },
     {
       "id": "e5f9d3d6-30b7-4efc-a248-9c73fcb90eff",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "其中，「超大型積體電路設計」這門課對我的啟發特別大。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程啟發",
+        "C4": "專業方向確立"
+      },
+      "hashtags": [
+        "超大型積體電路設計"
+      ]
     },
     {
       "id": "0e130498-1791-474a-8e0b-61601df20162",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我們學習到怎麼用高階語言去描述硬體行為，然後透過工具將它轉化成實際的電路，感覺就像在用程式碼雕塑一個實體。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體描述與合成"
+      },
+      "hashtags": [
+        "高階語言",
+        "硬體行為描述",
+        "電路轉化",
+        "程式碼雕塑實體"
+      ]
     },
     {
       "id": "8c94eee2-8485-4c50-8452-309829162cc3",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "課程中我們有做一個小專題，是設計一個簡單的加法器",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "課程專題實作"
+      },
+      "hashtags": [
+        "加法器設計",
+        "課程專題"
+      ]
     },
     {
       "id": "92cb907b-bd3d-4319-9ca5-7419f2d6423e",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "雖然只是一個很基礎的任務，但從 RTL 描述到邏輯合成、佈局繞線，整個流程走下來，我學到了很多 EDA 工具的基本操作",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "EDA工具操作學習"
+      },
+      "hashtags": [
+        "RTL描述",
+        "邏輯合成",
+        "佈局繞線",
+        "EDA工具"
+      ]
     },
     {
       "id": "8b12889c-57e3-47b9-9917-701a2e04f3e8",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "也讓我更了解設計一個晶片會遇到哪些問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "晶片設計問題理解"
+      },
+      "hashtags": [
+        "晶片設計問題"
+      ]
     },
     {
       "id": "8ef0b47e-08a9-404e-90cd-0e09b94bb1c4",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "雖然過程中遇到不少困難，像是在時序收斂上花了很多時間調整參數",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "專題問題解決"
+      },
+      "hashtags": [
+        "時序收斂",
+        "參數調整"
+      ]
     },
     {
       "id": "751b5de3-9273-4293-9a11-2b244f58a9b2",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但最終看到自己的設計能順利跑起來，真的很有成就感。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實作成就感"
+      },
       "hashtags": []
     },
     {
@@ -145,9 +250,15 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這讓我更堅定地想往 EDA 領域發展。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃"
+      },
+      "hashtags": [
+        "EDA領域發展"
+      ]
     },
     {
       "id": "f2e49f31-7482-4766-9afd-2005944d8afe",
@@ -163,26 +274,45 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我看了很多線上教材，試著去理解更多複雜的數位設計概念。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "數位設計概念學習"
+      },
+      "hashtags": [
+        "線上教材",
+        "數位設計概念"
+      ]
     },
     {
       "id": "f143dcf7-9841-4ea9-be26-99575a3ce7a0",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "有時候會自己找一些開源的 EDA 工具來玩玩看",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "開源工具探索",
+        "C4": "主動實作嘗試"
+      },
+      "hashtags": [
+        "開源EDA工具"
+      ]
     },
     {
       "id": "b2372e33-96d6-4d1c-abc4-4fc10036506f",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "雖然常常搞不清楚那些指令是幹嘛用的",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習挑戰認知"
+      },
       "hashtags": []
     },
     {
@@ -190,8 +320,12 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但透過不斷嘗試，也慢慢摸索出一些眉角。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "經驗學習與成長"
+      },
       "hashtags": []
     },
     {
@@ -199,8 +333,12 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我覺得這種自己動手做的過程，對我培養解決問題的能力很有幫助。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "實作培養解題力"
+      },
       "hashtags": []
     },
     {
@@ -208,8 +346,12 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "大學期間我沒有正式進入實驗室參與教授的研究專案",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "缺乏研究專案經驗"
+      },
       "hashtags": []
     },
     {
@@ -217,17 +359,28 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但我有參與一些課程專題和自己的一些 side project",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "課程專題與個人專案"
+      },
+      "hashtags": [
+        "課程專題",
+        "side project"
+      ]
     },
     {
       "id": "ce28350e-e0ae-4d55-ad0c-a49da832457d",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這些都讓我累積了一些技術經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術經驗累積"
+      },
       "hashtags": []
     },
     {
@@ -235,71 +388,134 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "在大三的時候，我在「微控制器應用」這門課中，和組員一起完成了一個「智慧溫控風扇」的專題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "課程專題實作"
+      },
+      "hashtags": [
+        "微控制器應用",
+        "智慧溫控風扇"
+      ]
     },
     {
       "id": "2b3e2fbe-2454-48bf-87c3-7ce55db0b0d6",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我們的目標是設計一個能根據環境溫度自動調整風速的裝置。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案目標定義"
+      },
+      "hashtags": [
+        "自動溫控",
+        "風速調整裝置"
+      ]
     },
     {
       "id": "6a4529d9-486b-4647-b130-1059299dc62a",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這個專案中，我主要負責硬體電路設計和韌體程式撰寫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案技術分工"
+      },
+      "hashtags": [
+        "硬體電路設計",
+        "韌體程式撰寫"
+      ]
     },
     {
       "id": "e41fdd8e-9877-4390-89df-3906959c117c",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我們使用了某個系列的微控制器，搭配溫度感測器和直流馬達。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術組件應用"
+      },
+      "hashtags": [
+        "微控制器",
+        "溫度感測器",
+        "直流馬達"
+      ]
     },
     {
       "id": "e53eb697-c515-4ce9-a621-ae681fa2620d",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "在設計過程中，我們需要考慮感測器的數據讀取、馬達的驅動方式以及 PID 控制演算法的實作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術實作細節",
+        "C3": "設計考量與演算法應用"
+      },
+      "hashtags": [
+        "感測器數據讀取",
+        "馬達驅動",
+        "PID控制演算法"
+      ]
     },
     {
       "id": "e7af87fd-16ea-498c-bc37-5b6b0e0f3ece",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我花了很多時間去查閱資料手冊，理解各個暫存器的功能，然後用 C 語言寫出控制邏輯。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體控制程式開發"
+      },
+      "hashtags": [
+        "資料手冊",
+        "暫存器",
+        "C語言",
+        "控制邏輯"
+      ]
     },
     {
       "id": "fdeb027c-7801-4494-b03c-405b8defb860",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "一開始調試的時候，風扇轉速很不穩定，溫度也控制不好，我們不斷調整 PID 參數，也嘗試不同的馬達驅動方式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統調試與問題排除",
+        "C2": "控制參數優化"
+      },
+      "hashtags": [
+        "調試",
+        "風扇轉速",
+        "PID參數",
+        "馬達驅動"
+      ]
     },
     {
       "id": "01a93a1b-e181-4b5c-b71e-b89d3435629f",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這個過程真的讓我學到了很多實作上的細節",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實作經驗學習"
+      },
       "hashtags": []
     },
     {
@@ -307,17 +523,28 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "也讓我對嵌入式系統的開發流程有了更深刻的認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域知識深化"
+      },
+      "hashtags": [
+        "嵌入式系統",
+        "開發流程"
+      ]
     },
     {
       "id": "32038a16-5194-4a89-a0cd-0dc00b7b9b8e",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "雖然成果可能沒有多麼複雜",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案成果自評"
+      },
       "hashtags": []
     },
     {
@@ -325,8 +552,12 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但從無到有的過程，讓我覺得獲益良多。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "完整專案學習"
+      },
       "hashtags": []
     },
     {
@@ -334,71 +565,132 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "除此之外，我自己也有嘗試一些個人專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自主專案實踐"
+      },
+      "hashtags": [
+        "個人專案"
+      ]
     },
     {
       "id": "6c984779-f764-4f9d-8f91-4d56cb12e897",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "之前有一段時間我對 FPGA（現場可程式閘陣列）很有興趣",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "特定技術興趣"
+      },
+      "hashtags": [
+        "FPGA",
+        "現場可程式閘陣列"
+      ]
     },
     {
       "id": "985784bb-65e9-46c4-8e8c-dcd4d7cbdb75",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "覺得它是一種很彈性的硬體平台。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "技術特性理解"
+      },
+      "hashtags": [
+        "硬體平台"
+      ]
     },
     {
       "id": "9f4e8624-78e3-402f-877b-4eed5c2a0aa3",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我買了一塊開發板，然後在網路上找了很多教學資源，嘗試在 FPGA 上實作一些簡單的影像處理功能，像是灰度轉換、邊緣偵測之類的。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "FPGA影像處理實作",
+        "C4": "自主學習與應用"
+      },
+      "hashtags": [
+        "開發板",
+        "FPGA",
+        "影像處理",
+        "灰度轉換",
+        "邊緣偵測"
+      ]
     },
     {
       "id": "3a33bcec-7675-43e9-beaa-6e5f5979c0b3",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我主要用 Verilog 語言來描述硬體，然後透過相關的開發環境進行模擬和燒錄。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體描述與驗證"
+      },
+      "hashtags": [
+        "Verilog",
+        "硬體描述語言",
+        "硬體模擬",
+        "硬體燒錄"
+      ]
     },
     {
       "id": "73f3ffdf-3673-4e9f-ae88-d3ae53c61402",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這個專案讓我真正體會到硬體設計的挑戰，特別是在平行處理和資源優化方面。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "硬體設計挑戰理解"
+      },
+      "hashtags": [
+        "硬體設計挑戰",
+        "平行處理",
+        "資源優化"
+      ]
     },
     {
       "id": "e0629c3f-ecb3-4a54-bb95-cfe2ea0c05db",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "如何有效地利用 FPGA 上的邏輯單元和儲存資源，讓影像處理的速度更快，是一個很有趣的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "FPGA資源優化問題"
+      },
+      "hashtags": [
+        "FPGA",
+        "邏輯單元",
+        "儲存資源",
+        "影像處理加速"
+      ]
     },
     {
       "id": "8265d734-3380-4deb-82af-c6caa4a882a7",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "雖然我沒有做出什麼驚天動地的成果",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自我評估與謙遜"
+      },
       "hashtags": []
     },
     {
@@ -406,108 +698,208 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但我獨立完成了一個影像處理的流水線",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "影像處理流水線實作"
+      },
+      "hashtags": [
+        "影像處理",
+        "流水線",
+        "獨立完成"
+      ]
     },
     {
       "id": "62eba842-4ce2-4632-a4ef-67512245bef8",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這對我理解硬體加速和異質計算的概念非常有幫助。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "硬體加速概念理解"
+      },
+      "hashtags": [
+        "硬體加速",
+        "異質計算"
+      ]
     },
     {
       "id": "061fc32e-c766-4ff0-a443-29b1a1485706",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "在大三升大四的暑假，我在一家叫做「創星科技」的小公司實習了三個月。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "暑期實習經驗"
+      },
+      "hashtags": [
+        "創星科技",
+        "暑期實習"
+      ]
     },
     {
       "id": "2d64e8d9-cc89-4e03-ae0e-9018ec6a3d4f",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這是一間主要開發智慧物聯網裝置的公司。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實習公司背景"
+      },
+      "hashtags": [
+        "智慧物聯網裝置"
+      ]
     },
     {
       "id": "bb0cebd6-59f6-402f-a26a-59d1582a48d8",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我在裡面擔任韌體開發助理，主要負責協助工程師進行一些感測器模組的整合和測試工作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "韌體開發協助",
+        "C4": "專業職位與協作"
+      },
+      "hashtags": [
+        "韌體開發助理",
+        "感測器模組整合",
+        "感測器模組測試"
+      ]
     },
     {
       "id": "45e05947-e7a2-49a2-ada5-7dfcf9d9d108",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我每天的工作就是按照工程師的需求，去修改或撰寫一些控制感測器的程式碼，然後把它燒錄到裝置上進行測試。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "感測器程式開發與測試"
+      },
+      "hashtags": [
+        "控制感測器程式",
+        "程式碼修改",
+        "程式碼撰寫",
+        "裝置燒錄",
+        "裝置測試"
+      ]
     },
     {
       "id": "dd102558-d2df-43ab-b58a-d5280c30b9d2",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這讓我有機會實際接觸到真實的產品開發流程，從原型設計到測試驗證。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "產品開發流程參與"
+      },
+      "hashtags": [
+        "產品開發流程",
+        "原型設計",
+        "測試驗證"
+      ]
     },
     {
       "id": "815c3faa-6192-4f5d-b5c4-aab886b52f46",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我學到了在實際產品中，程式碼的穩定性和可靠性有多重要。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式碼品質認知"
+      },
+      "hashtags": [
+        "程式碼穩定性",
+        "程式碼可靠性",
+        "實際產品"
+      ]
     },
     {
       "id": "43341155-3625-402d-bd27-d91e33f9c090",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "有時候一個小小的 bug 就會導致整個系統崩潰，所以需要非常仔細地去調試。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統問題調試"
+      },
+      "hashtags": [
+        "系統崩潰",
+        "bug調試",
+        "仔細調試"
+      ]
     },
     {
       "id": "d7babeb9-d8e5-45ba-a506-0ce21ffcfba8",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我也學會了怎麼看電路圖、怎麼使用示波器等儀器來除錯。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體除錯技能"
+      },
+      "hashtags": [
+        "電路圖",
+        "示波器",
+        "儀器除錯"
+      ]
     },
     {
       "id": "316912ce-28ea-4a79-914d-d7682a221b51",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "在這次實習中，我負責過一個小任務，是優化一個低功耗溫濕度感測器的數據採集頻率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "感測器優化實作"
+      },
+      "hashtags": [
+        "實習任務",
+        "低功耗感測器",
+        "數據採集頻率優化"
+      ]
     },
     {
       "id": "622c3609-fd68-4c2e-9325-b053efaa8db9",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我需要去研究感測器的資料手冊，然後調整韌體中的計時器和中斷設定，讓它能在保持數據精度的前提下，盡可能地省電。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "韌體參數調校",
+        "C3": "技術問題分析與權衡"
+      },
+      "hashtags": [
+        "感測器資料手冊",
+        "韌體調整",
+        "計時器中斷",
+        "省電優化",
+        "數據精度"
+      ]
     },
     {
       "id": "e58be6c8-210a-449e-9580-4cb295f84c59",
@@ -523,17 +915,28 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "因為我能把學到的知識應用到實際產品上",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "知識實務應用"
+      },
+      "hashtags": [
+        "知識應用",
+        "實際產品"
+      ]
     },
     {
       "id": "dafed5c7-538a-4c3b-878d-9e77e2ba8b59",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "感覺對我的技術能力培養有很大的幫助。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術能力成長反思"
+      },
       "hashtags": []
     },
     {
@@ -541,35 +944,66 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "在學習之餘，我有一個特別的興趣，就是經營旅遊部落格。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外興趣培養"
+      },
+      "hashtags": [
+        "旅遊部落格",
+        "課外興趣"
+      ]
     },
     {
       "id": "58d3524d-4a52-44d2-a3e1-c6a031e4e881",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "從大學開始，我就喜歡到處走走看看，把旅行中的點滴記錄下來，然後分享到我的部落格上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "個人興趣培養"
+      },
+      "hashtags": [
+        "旅行部落格",
+        "內容記錄"
+      ]
     },
     {
       "id": "4e15b301-4e87-49ce-be1f-be3b4b9cbee5",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "經營部落格不只是寫文章那麼簡單，我需要規劃行程、拍攝照片、編輯內容，還要學習一些基本的網站優化和社群媒體經營技巧。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "網站經營實務",
+        "C3": "專案規劃與學習"
+      },
+      "hashtags": [
+        "網站優化",
+        "社群媒體經營",
+        "行程規劃",
+        "內容編輯"
+      ]
     },
     {
       "id": "5edf31f5-8ce8-45b2-a9a9-f6548791510b",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "這個經驗讓我在寫作、溝通和解決問題方面培養了不少能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決能力",
+        "C4": "寫作溝通能力"
+      },
       "hashtags": []
     },
     {
@@ -577,18 +1011,33 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "例如，規劃一趟旅程就像規劃一個專案，需要有明確的目標、預算控制和應變能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "專案管理思維"
+      },
+      "hashtags": [
+        "專案規劃",
+        "預算控制",
+        "應變能力"
+      ]
     },
     {
       "id": "cb8ae7fd-64f9-4cb8-943c-3c0e80ce6134",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "寫文章則讓我學會如何清楚地表達我的想法，吸引讀者。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "內容表達與吸引力"
+      },
+      "hashtags": [
+        "文章寫作",
+        "表達能力"
+      ]
     },
     {
       "id": "1962d783-e6dc-4a10-9646-08f55e8c598b",
@@ -604,107 +1053,211 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但我認為這種多元的學習經驗，對我未來在團隊合作和表達研究成果上，都會有正面的影響。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域經驗應用展望"
+      },
+      "hashtags": [
+        "團隊合作",
+        "研究成果表達"
+      ]
     },
     {
       "id": "f1e35fd1-3cde-45c6-8e6a-94522bd06566",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我也從中體會到，堅持做一件事情並且分享出去的快樂。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "個人價值體會"
+      },
+      "hashtags": [
+        "堅持",
+        "分享熱情"
+      ]
     },
     {
       "id": "cec8319d-58e8-4313-8a1a-6659f7d33c09",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我選擇交通大學資訊工程學系研究所，是經過深思熟慮的。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所申請動機"
+      },
+      "hashtags": [
+        "交通大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "58f955a9-61f2-44fb-aa3e-e3a750deeaee",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "在電機系學習硬體和 EDA 的過程中，我逐漸發現，雖然我喜歡硬體設計",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "電機學術背景",
+        "C4": "專業興趣探索"
+      },
+      "hashtags": [
+        "電機系",
+        "硬體設計",
+        "EDA"
+      ]
     },
     {
       "id": "54bae228-e4e1-46df-a26b-e0a10c6183e0",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但資訊工程學系在軟硬體整合、系統層級的優化以及更前沿的計算技術方面，有著更廣闊的視野和更深入的探討。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "資訊工程領域認知"
+      },
+      "hashtags": [
+        "軟硬體整合",
+        "系統層級優化",
+        "前沿計算技術"
+      ]
     },
     {
       "id": "6937c1b9-6982-4786-bbc9-ab66639a26de",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "特別是交大資工所，在嵌入式系統、計算機結構與積體電路設計這些領域都有非常頂尖的研究成果和資源，這與我過去的學習背景和未來的發展方向非常契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所方向契合",
+        "C1": "專業領域認知"
+      },
+      "hashtags": [
+        "交大資工所",
+        "嵌入式系統",
+        "計算機結構",
+        "積體電路設計"
+      ]
     },
     {
       "id": "760389f8-6b62-41fc-a34f-7b7eaafb18f8",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我希望能在交大資工所，將我電機系的硬體基礎與資工所更先進的軟體與系統知識結合，特別是在 EDA 工具的開發與應用、高階合成、或者是基於 AI 的硬體設計優化等方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域研究規劃",
+        "C1": "跨域知識整合"
+      },
+      "hashtags": [
+        "電機系硬體基礎",
+        "EDA工具",
+        "高階合成",
+        "AI硬體設計優化"
+      ]
     },
     {
       "id": "aa84431c-7523-4b57-a971-4e39da0be05a",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我一直覺得，一個好的 EDA 工具，能夠大幅提升硬體設計的效率和品質，而這需要跨領域的知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域工具應用洞察",
+        "C1": "跨領域知識認知"
+      },
+      "hashtags": [
+        "EDA工具",
+        "硬體設計效率",
+        "跨領域知識"
+      ]
     },
     {
       "id": "71c36592-151e-4059-8044-72f4ccd9e346",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "交大資工所的課程設計和研究方向，我相信能提供我這樣一個理想的學習環境。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習環境契合度"
+      },
+      "hashtags": [
+        "交大資工所",
+        "課程設計",
+        "研究方向"
+      ]
     },
     {
       "id": "c00d12be-3d7f-4c9f-ae07-ec370c859764",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我期待能在這裡，跟隨優秀的教授，深入研究我感興趣的領域，將我的技術能力提升到另一個層次。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術能力精進"
+      },
+      "hashtags": [
+        "深入研究",
+        "技術能力提升"
+      ]
     },
     {
       "id": "8609150a-8646-4e98-a621-23d1fe748170",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "我深信，我過去在電機系的硬體背景、EDA 相關的課程專題、實習經驗，以及我對於自學和解決問題的熱情，都能讓我快速適應研究所的學習與研究生活。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景與課程",
+        "C2": "專題實作與實習",
+        "C3": "問題解決能力"
+      },
+      "hashtags": [
+        "電機系硬體背景",
+        "EDA課程專題",
+        "實習經驗",
+        "自學熱情",
+        "問題解決熱情"
+      ]
     },
     {
       "id": "efea5568-522c-48b5-abfe-398940cbc6a7",
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "雖然我的學業成績不算頂尖",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績自評"
+      },
       "hashtags": []
     },
     {
@@ -712,26 +1265,45 @@
       "candidate_id": "mock_65",
       "section": "自傳",
       "content": "但我對研究的熱情和學習的動力絕對不輸給任何人。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究學習動力"
+      },
+      "hashtags": [
+        "研究熱情",
+        "學習動力"
+      ]
     },
     {
       "id": "3ed62202-a385-48dc-a481-c6ee5b82e269",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "進入交通大學資訊工程學系研究所的第一年，我會把重點放在紮實的基礎知識學習和實驗室的適應上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所初期規劃"
+      },
+      "hashtags": [
+        "基礎知識學習",
+        "實驗室適應",
+        "研究所第一年"
+      ]
     },
     {
       "id": "bfd48e87-b175-4a48-aef6-ffddb080b113",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我知道資工所的課程會比大學時更深入，所以一開始我會努力跟上課程進度。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習適應規劃"
+      },
       "hashtags": []
     },
     {
@@ -739,17 +1311,29 @@
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "首先，我會認真修習一些基礎且重要的核心課程，例如「高等計算機結構」、「高等作業系統」、「高等演算法」等。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程規劃"
+      },
+      "hashtags": [
+        "高等計算機結構",
+        "高等作業系統",
+        "高等演算法"
+      ]
     },
     {
       "id": "ac341552-6279-4f1a-a811-d1d596c428ff",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "這些課程對我未來深入研究肯定很有幫助。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向規劃"
+      },
       "hashtags": []
     },
     {
@@ -757,53 +1341,101 @@
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "特別是我來自電機系，有些資工所的基礎可能不夠紮實",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域背景認知"
+      },
+      "hashtags": [
+        "電機系背景",
+        "資工所基礎"
+      ]
     },
     {
       "id": "0768897a-5e64-4b1b-9be9-ef0b927db102",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "所以我會花更多時間去補足這些知識，多看書、多練習，確保自己能完全理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "知識補強策略"
+      },
+      "hashtags": [
+        "自主學習",
+        "知識補足"
+      ]
     },
     {
       "id": "218fb517-0b64-4ee8-9a03-8d3d917025a2",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "同時，我也會主動去了解系上教授們的研究方向，特別是與「嵌入式系統」、「計算機結構與積體電路設計」、「VLSI 設計自動化」相關的實驗室。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索",
+        "C1": "專業領域興趣"
+      },
+      "hashtags": [
+        "嵌入式系統",
+        "計算機結構",
+        "積體電路設計",
+        "VLSI設計自動化"
+      ]
     },
     {
       "id": "292a6593-cef1-4f32-b44d-5de84a56b5e2",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我會積極旁聽實驗室的研討會，閱讀相關的論文，希望能盡快找到一位指導教授。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究參與規劃"
+      },
+      "hashtags": [
+        "旁聽研討會",
+        "閱讀論文",
+        "尋找指導教授"
+      ]
     },
     {
       "id": "510e0078-178e-4448-b1ed-cb4a9b766d10",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我期待能找到一個研究題目，是能將我過去硬體和 EDA 的背景，與資工所的系統層級或軟體設計結合起來的。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域研究整合",
+        "C1": "跨領域知識應用"
+      },
+      "hashtags": [
+        "硬體背景",
+        "EDA背景",
+        "系統層級設計",
+        "軟體設計"
+      ]
     },
     {
       "id": "84e4f55d-ec25-48eb-83a3-21edb57d96e7",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "除了課業，我也會開始學習一些進階的專業工具和技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專業工具學習規劃"
+      },
       "hashtags": []
     },
     {
@@ -811,17 +1443,32 @@
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "像是更複雜的 EDA 軟體操作、新的程式語言（如果研究需要的話），還有一些可能會用到的資料分析或機器學習的基礎知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術工具學習",
+        "C1": "基礎知識補強"
+      },
+      "hashtags": [
+        "EDA軟體",
+        "程式語言",
+        "資料分析",
+        "機器學習"
+      ]
     },
     {
       "id": "c524d631-3b73-42c0-8605-b18e758b8f06",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我知道這些都需要花很多時間",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習投入認知"
+      },
       "hashtags": []
     },
     {
@@ -829,63 +1476,119 @@
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "但我會努力去學習，培養好自己未來的研究能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來能力培養規劃"
+      },
+      "hashtags": [
+        "研究能力培養"
+      ]
     },
     {
       "id": "2f06e897-5047-4eff-8586-2b712854425f",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "在研究所的第二年，我會將重心全面轉移到論文研究上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文研究規劃"
+      },
+      "hashtags": [
+        "論文研究重心"
+      ]
     },
     {
       "id": "078e2422-7d40-42b5-89d8-2b3e27e46136",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "一旦確定了指導教授和研究方向，我就會投入所有的精力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究投入承諾"
+      },
+      "hashtags": [
+        "研究投入"
+      ]
     },
     {
       "id": "ff68bcf4-2bd2-4d00-af23-2e86011d36ba",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我的目標是能在指導教授的帶領下，選擇一個具有挑戰性且我真正感興趣的題目。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究題目選擇目標"
+      },
+      "hashtags": [
+        "挑戰性題目",
+        "研究興趣"
+      ]
     },
     {
       "id": "eb8b59cc-e5af-4269-8eb4-53e2589d016b",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我希望能夠在「高階合成（High-Level Synthesis）」、「低功耗硬體設計自動化」、「基於機器學習的設計空間探索」或是「特定領域加速器（DSA）的設計與優化」等方向進行研究。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業領域知識",
+        "C4": "未來研究方向"
+      },
+      "hashtags": [
+        "高階合成",
+        "低功耗硬體設計",
+        "機器學習設計探索",
+        "特定領域加速器"
+      ]
     },
     {
       "id": "ef147967-b887-494d-ac3a-490009e1af1b",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我會積極閱讀最新的學術論文，了解目前研究的進展和未解決的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "研究問題探索",
+        "C4": "學術文獻學習"
+      },
+      "hashtags": [
+        "學術論文閱讀",
+        "研究進展",
+        "未解決問題"
+      ]
     },
     {
       "id": "f8a9c9b4-727c-42d5-a4ac-444dab6206a0",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我會學習如何設計實驗、如何進行數據分析，以及如何撰寫學術論文。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "研究方法學習",
+        "C4": "學術技能發展"
+      },
+      "hashtags": [
+        "實驗設計",
+        "數據分析",
+        "學術論文撰寫"
+      ]
     },
     {
       "id": "d8458217-be10-46d2-a614-4e8b50536191",
@@ -901,26 +1604,48 @@
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "希望未來能有機會參與國內外的研討會，發表自己的研究成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究成果發表"
+      },
+      "hashtags": [
+        "國內外研討會",
+        "研究成果發表"
+      ]
     },
     {
       "id": "6c1606d2-0fde-4f2f-a7b7-ed45a0d60f51",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "如果研究需要，我會深入學習相關的程式設計技能，例如更精通 Python 或 C++，以及熟悉相關的資料庫或雲端運算知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來技能學習規劃",
+        "C2": "程式與資料技術學習"
+      },
+      "hashtags": [
+        "Python",
+        "C++",
+        "資料庫",
+        "雲端運算"
+      ]
     },
     {
       "id": "70dfd5e4-6417-449b-bab2-e7de0cf1249a",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我了解論文研究是一個漫長且充滿挑戰的過程",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究挑戰認知"
+      },
       "hashtags": []
     },
     {
@@ -928,8 +1653,12 @@
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "但我已經做好心理準備，會以最大的熱情和毅力去面對它。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究心態準備"
+      },
       "hashtags": []
     },
     {
@@ -937,8 +1666,12 @@
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "完成碩士學位後，我對於未來的規劃有幾個想法。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯規劃意向"
+      },
       "hashtags": []
     },
     {
@@ -946,81 +1679,155 @@
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "首先，我希望能將我在研究所期間學到的專業知識和研究經驗，應用到業界。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "學用合一規劃",
+        "C2": "專業知識應用"
+      },
+      "hashtags": [
+        "學用合一",
+        "業界應用"
+      ]
     },
     {
       "id": "e5dd87c7-920d-4bd2-96fa-4b5179873258",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我對半導體產業、IC 設計公司，特別是與 EDA 工具開發或硬體加速相關的職位很有興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業職位興趣",
+        "C1": "半導體領域興趣"
+      },
+      "hashtags": [
+        "半導體產業",
+        "IC設計",
+        "EDA工具開發",
+        "硬體加速"
+      ]
     },
     {
       "id": "62385f70-422c-4eb7-8a34-6657a71491ce",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我希望能夠參與到更先進的晶片設計或系統優化工作中，將我所學的理論知識轉化為實際的產業價值。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業價值貢獻",
+        "C2": "晶片系統應用"
+      },
+      "hashtags": [
+        "晶片設計",
+        "系統優化",
+        "產業價值"
+      ]
     },
     {
       "id": "15395a70-67a3-4419-aa2a-8b45f9b73777",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我認為台灣在半導體產業具有領先地位，有很多機會可以讓我發揮所長。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業環境認知"
+      },
+      "hashtags": [
+        "台灣半導體產業"
+      ]
     },
     {
       "id": "dd252080-bc09-4164-9410-b8703f64a2dd",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "另一方面，我也會持續關注最新的技術發展。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習意願"
+      },
+      "hashtags": [
+        "技術發展關注"
+      ]
     },
     {
       "id": "50a759cd-fa29-40ae-924c-94fed73fe722",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "科技日新月異，我覺得學習永遠不能停止。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "終身學習理念"
+      },
+      "hashtags": [
+        "終身學習"
+      ]
     },
     {
       "id": "22e7adaa-8fc0-483f-952a-8f0560dd3bb4",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "即使進入職場，我也會繼續保持學習的熱情，透過線上課程、研討會，甚至是個人的 Side Project，不斷精進自己的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習規劃"
+      },
+      "hashtags": [
+        "持續學習",
+        "線上課程",
+        "研討會",
+        "Side Project"
+      ]
     },
     {
       "id": "8a681941-967c-4a26-8890-6c60d88be823",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我希望自己未來能成為一個不僅懂硬體，也精通軟體與系統設計的跨領域人才，為科技產業的發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域職涯規劃",
+        "C1": "跨領域知識整合"
+      },
+      "hashtags": [
+        "硬體",
+        "軟體",
+        "系統設計",
+        "跨領域人才"
+      ]
     },
     {
       "id": "f472362c-88aa-44c8-be77-ea8a04218c95",
       "candidate_id": "mock_65",
       "section": "讀書計畫",
       "content": "我期待在交大資工所的訓練，能為我未來的職涯發展奠定一個堅實的基礎，讓我能夠在科技領域走得更遠、更穩。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術深造規劃"
+      },
+      "hashtags": [
+        "交大資工所"
+      ]
     }
   ]
 }

@@ -10,8 +10,12 @@
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "我是蔡語嫣，目前就讀於中央大學電機工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景說明"
+      },
       "hashtags": []
     },
     {
@@ -19,17 +23,28 @@
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "從小我就對資訊科技充滿好奇，特別是如何運用科技解決實際生活中的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題意識啟蒙"
+      },
+      "hashtags": [
+        "資訊科技興趣",
+        "實務問題解決"
+      ]
     },
     {
       "id": "7f220335-317f-465f-a1ce-237337894589",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "這份熱情驅使我不斷探索學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機展現"
+      },
       "hashtags": []
     },
     {
@@ -37,17 +52,30 @@
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "因此，在大學生涯中，我除了努力學習系上的專業知識外，也積極嘗試將所學應用到實際場景中。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "學用結合實踐",
+        "C1": "專業知識學習"
+      },
+      "hashtags": [
+        "專業知識應用",
+        "學用結合"
+      ]
     },
     {
       "id": "d9b67977-46c4-470a-a1af-be0c456f1fa1",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "大學四年下來，雖然學業成績不如頂尖同學亮眼，修課平均約 2.82。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績自述"
+      },
       "hashtags": []
     },
     {
@@ -55,89 +83,166 @@
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "但我從不在課堂之外停止學習與探索的腳步。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自主學習精神"
+      },
+      "hashtags": [
+        "課外學習",
+        "自主探索"
+      ]
     },
     {
       "id": "4bcb1fe7-3ccf-45fc-b16f-b0f72f3e3e21",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "大二時，我受到智慧農業發展趨勢的啟發。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "產業趨勢洞察"
+      },
+      "hashtags": [
+        "智慧農業",
+        "產業趨勢"
+      ]
     },
     {
       "id": "e5f0bea6-7976-4602-8a5b-31d80dd0450a",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "發現傳統農業在病蟲害偵測與作物健康管理方面存在效率低下的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題痛點分析"
+      },
+      "hashtags": [
+        "傳統農業問題",
+        "病蟲害偵測",
+        "作物健康管理"
+      ]
     },
     {
       "id": "924a0ef7-1db9-4791-9f41-d859ac94c60f",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "因此與幾位同學萌生了創業的想法，希望開發一套基於影像辨識的智慧農業監測系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "專案發想規劃"
+      },
+      "hashtags": [
+        "創業想法",
+        "影像辨識",
+        "智慧農業監測系統",
+        "團隊合作"
+      ]
     },
     {
       "id": "b45f8576-3d63-43a2-bdde-ba61bf56144e",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "我們透過 Python 搭配 OpenCV 函式庫，嘗試建構一個能自動分析農作物影像，並初步判斷病蟲害徵兆的原型系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "原型系統建構"
+      },
+      "hashtags": [
+        "Python",
+        "OpenCV",
+        "農作物影像分析",
+        "病蟲害判斷",
+        "原型系統"
+      ]
     },
     {
       "id": "dfe23974-d9ef-4f21-af88-64986544b832",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "這段經歷讓我對從零到一開發產品有了初步認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "產品開發流程認知"
+      },
+      "hashtags": [
+        "產品開發",
+        "從零到一"
+      ]
     },
     {
       "id": "556cf67b-3dab-4d4d-ad3d-254ba3e32c2c",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "也學習到如何從使用者需求出發思考。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "使用者需求思考"
+      },
+      "hashtags": [
+        "使用者需求",
+        "設計思考"
+      ]
     },
     {
       "id": "30cf701d-04c8-436c-8147-d2309cbfa41c",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "然而，在實際推廣與測試時，我們發現模型在不同光照或環境下的穩定性不足，結果不夠精準。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "模型問題點分析"
+      },
+      "hashtags": [
+        "模型穩定性",
+        "光照環境",
+        "精準度不足"
+      ]
     },
     {
       "id": "b0a7988c-b1b3-421d-863c-0826d4cdce54",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "甚至曾因為選擇了不夠穩健的開源架構，導致後期維護困難重重。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術選型反思"
+      },
+      "hashtags": [
+        "開源架構",
+        "維護困難",
+        "技術選型"
+      ]
     },
     {
       "id": "97ef5548-64de-448e-8a9d-577f24165c34",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "這次的嘗試雖然最終沒有成功。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案成果反思"
+      },
       "hashtags": []
     },
     {
@@ -145,80 +250,166 @@
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "卻讓我深刻體會到，光有熱情與實作能力不足以應付複雜的商業情境。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "商業情境認知"
+      },
+      "hashtags": [
+        "商業情境",
+        "實作能力",
+        "自我反思"
+      ]
     },
     {
       "id": "88b0c907-39c9-48dc-86d0-481bca8e5c74",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "缺乏扎實的理論基礎與系統化的開發流程，產品很難經得起考驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "能力缺口認知",
+        "C1": "理論基礎重要性",
+        "C2": "系統開發流程認知"
+      },
+      "hashtags": [
+        "理論基礎",
+        "開發流程",
+        "產品考驗"
+      ]
     },
     {
       "id": "7be99204-71d5-4fb0-8b8c-97f5d4329837",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "為了彌補這份不足，大三下學期，我積極爭取進入中央大學資訊工程學系的「智慧計算實驗室」，參與一項「基於深度學習的作物病蟲害識別系統」的產學合作計畫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "積極學習成長",
+        "C1": "實驗室研究參與",
+        "C2": "產學合作實踐"
+      },
+      "hashtags": [
+        "中央大學",
+        "智慧計算實驗室",
+        "深度學習",
+        "作物病蟲害識別",
+        "產學合作"
+      ]
     },
     {
       "id": "7d6ce990-413a-457b-8457-9d6e1a191be2",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "在實驗室中，我開始接觸更正式的機器學習與深度學習框架，例如 TensorFlow 和 PyTorch。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "機器學習框架學習",
+        "C2": "深度學習工具應用"
+      },
+      "hashtags": [
+        "機器學習框架",
+        "深度學習框架",
+        "TensorFlow",
+        "PyTorch"
+      ]
     },
     {
       "id": "845921bd-d61a-49ca-94e8-f61e9321734b",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "我主要負責協助資料集的清洗、標註，以及訓練卷積神經網路（CNN）模型來辨識常見的作物病蟲害。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習模型訓練",
+        "C1": "資料處理與模型應用"
+      },
+      "hashtags": [
+        "資料清洗",
+        "資料標註",
+        "卷積神經網路",
+        "CNN模型",
+        "作物病蟲害識別"
+      ]
     },
     {
       "id": "868b894a-1c6b-4a94-a4bd-d8f81b599eb7",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "與過去自行摸索不同，實驗室的經驗讓我學習到如何更嚴謹地設計實驗、評估模型效能，並針對過擬合等問題採取適當的解決策略。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "嚴謹實驗設計與模型評估",
+        "C3": "模型問題解決策略"
+      },
+      "hashtags": [
+        "實驗設計",
+        "模型評估",
+        "過擬合",
+        "解決策略"
+      ]
     },
     {
       "id": "903fadb7-86c9-4bd2-aa31-948806be84ca",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "這次經驗讓我對卷積神經網路在影像特徵提取上的優勢有了更具體的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "卷積神經網路理解"
+      },
+      "hashtags": [
+        "卷積神經網路",
+        "影像特徵提取"
+      ]
     },
     {
       "id": "c4ef916f-1985-4f71-8313-f83354918f0b",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "也認知到數據質量與模型選擇的重要性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "數據與模型選擇認知"
+      },
+      "hashtags": [
+        "數據質量",
+        "模型選擇"
+      ]
     },
     {
       "id": "700467a3-fb9c-4b97-b147-720e9685982f",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "正是這些實作與研究的經驗，讓我更加明確了自己對於資訊工程領域的熱愛。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域熱情與職涯明確"
+      },
       "hashtags": []
     },
     {
@@ -226,35 +417,64 @@
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "我發現交大資工所不僅擁有頂尖的師資與豐沛的研究資源。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所資源評估"
+      },
+      "hashtags": [
+        "交大資工所",
+        "頂尖師資",
+        "研究資源"
+      ]
     },
     {
       "id": "1bdbaae3-4855-43b4-bc8f-e5f15de4707e",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "更鼓勵跨領域的探索與創新。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨領域探索認同"
+      },
+      "hashtags": [
+        "跨領域探索",
+        "創新"
+      ]
     },
     {
       "id": "131a86fd-a345-46b4-b173-270ebb2c3cca",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "我希望能在這裡系統化地補足我在演算法、資料結構與機器學習理論上的不足。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心理論知識補強",
+        "C4": "系統化學習規劃"
+      },
+      "hashtags": [
+        "演算法",
+        "資料結構",
+        "機器學習理論"
+      ]
     },
     {
       "id": "6bba5688-1c6b-40ce-bc06-d4a764d1d5fa",
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "讓我的實作經驗能有更深厚的學術支撐。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "實作學術理論化"
+      },
       "hashtags": []
     },
     {
@@ -262,26 +482,50 @@
       "candidate_id": "mock_84",
       "section": "自傳",
       "content": "並將過去在智慧農業領域的經驗與最新的資工技術結合，為未來的研究與應用打下堅實的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域經驗整合應用",
+        "C4": "未來研究方向規劃"
+      },
+      "hashtags": [
+        "智慧農業",
+        "資工技術結合",
+        "未來研究"
+      ]
     },
     {
       "id": "557ba187-3c1f-4c42-ad5f-9f7663433408",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "進入交大資工所後，我的目標是透過有系統的學習與研究，彌補過去學術理論的不足。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術理論不足彌補",
+        "C4": "系統化學習研究目標"
+      },
+      "hashtags": [
+        "交大資工所",
+        "學術理論不足",
+        "系統學習"
+      ]
     },
     {
       "id": "9ade00de-4a9a-4110-8bba-68c2caa0ec53",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "並將我的實務經驗與更深厚的資訊科學知識結合。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "知識經驗整合規劃"
+      },
       "hashtags": []
     },
     {
@@ -289,8 +533,12 @@
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "我會將重心放在紮實的理論基礎建構。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "理論基礎建構"
+      },
       "hashtags": []
     },
     {
@@ -298,18 +546,34 @@
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "首先，我計畫優先補強大學時期相對薄弱的基礎課程，例如旁聽或選修高等演算法與高等資料結構，並深入學習線性代數、機率與統計等數學科目。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "基礎學科補強"
+      },
+      "hashtags": [
+        "高等演算法",
+        "高等資料結構",
+        "線性代數",
+        "機率與統計"
+      ]
     },
     {
       "id": "a2a44dda-4ddd-4b81-ab89-3accbf52c435",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "同時，我也會積極參與實驗室討論，尋找感興趣的指導教授。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究環境參與"
+      },
+      "hashtags": [
+        "實驗室討論",
+        "指導教授"
+      ]
     },
     {
       "id": "dc3327c0-52fc-4f3d-bf18-5a31f52c6465",
@@ -325,126 +589,237 @@
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "透過這些課程與探索，期望能找到與我過去影像處理、智慧農業專案相關，且具潛力的研究方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索",
+        "C2": "專案經驗連結"
+      },
+      "hashtags": [
+        "影像處理",
+        "智慧農業專案",
+        "研究方向"
+      ]
     },
     {
       "id": "4ddfc695-d381-47cd-be8b-d31da8c367bf",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "此外，我也會積極熟悉相關的程式語言與開發工具，例如深化 Python 技能，並精熟 PyTorch 或 TensorFlow 等深度學習框架。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術工具精進"
+      },
+      "hashtags": [
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "深度學習框架"
+      ]
     },
     {
       "id": "01bc58b3-2a0a-4a30-a75b-13550216eb5d",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "在打下堅實的基礎後，我將專注於論文研究。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文研究規劃"
+      },
+      "hashtags": [
+        "論文研究"
+      ]
     },
     {
       "id": "47687f24-7e27-4eff-a8b4-1c88ecfe8d12",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "確定研究方向後，我會與指導教授密切討論，擬定詳細的研究計畫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究計畫擬定"
+      },
+      "hashtags": [
+        "研究計畫",
+        "指導教授討論"
+      ]
     },
     {
       "id": "272e1004-51d9-4c88-a597-6b7a7582a972",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "我希望能夠結合過去智慧農業的實務經驗，投入於影像處理、優化演算法或邊緣運算相關的議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究議題結合",
+        "C2": "實務經驗應用"
+      },
+      "hashtags": [
+        "智慧農業",
+        "影像處理",
+        "優化演算法",
+        "邊緣運算"
+      ]
     },
     {
       "id": "b1b0e209-7b21-4cb7-99f4-d6f6375e282e",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "例如研究輕量級深度學習模型的設計與部署，以提升智慧農業系統在資源受限環境下的效率與精準度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習模型開發"
+      },
+      "hashtags": [
+        "輕量級深度學習",
+        "模型設計",
+        "模型部署",
+        "智慧農業系統"
+      ]
     },
     {
       "id": "2ed98c21-96bf-4c86-b498-b3531857cba3",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "我會積極參與實驗室的專題討論、研討會，並主動閱讀國際期刊論文，擴展我的學術視野。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術視野拓展"
+      },
+      "hashtags": [
+        "實驗室專題討論",
+        "研討會參與",
+        "國際期刊論文"
+      ]
     },
     {
       "id": "62656b44-55c1-448a-b0ee-c84a7293d4dc",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "並學習如何獨立思考與解決問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "獨立思考能力"
+      },
+      "hashtags": [
+        "獨立思考",
+        "問題解決"
+      ]
     },
     {
       "id": "df5d3c8e-4c25-4e4e-a5a3-334d1c5d944a",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "我的目標是透過這些深入的研究，將我在理論與實務上的理解提升到新的層次。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "理論實務理解深化"
+      },
+      "hashtags": [
+        "深入研究",
+        "理論理解",
+        "實務理解"
+      ]
     },
     {
       "id": "0cb68ade-a8c4-487e-a6cd-fb7282d99bab",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "並完成一篇具學術價值的碩士論文。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術論文產出"
+      },
+      "hashtags": [
+        "碩士論文",
+        "學術價值"
+      ]
     },
     {
       "id": "85d6531f-1307-4e30-a28e-10c6a76ccde4",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "完成碩士學位後，我期許自己能將所學的專業知識與研究經驗應用於產業實務，特別是那些需要跨領域整合的科技公司。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業實務應用規劃"
+      },
+      "hashtags": [
+        "產業實務應用",
+        "跨領域整合",
+        "科技公司"
+      ]
     },
     {
       "id": "f573b692-663c-45be-bce5-324bbfe53a7f",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "或是投入新創產業，將前瞻的資訊技術應用於解決社會問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "新創產業貢獻"
+      },
+      "hashtags": [
+        "新創產業",
+        "前瞻資訊技術",
+        "社會問題解決"
+      ]
     },
     {
       "id": "d2819e2a-8b7c-4256-a456-4459da963521",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "我也會持續關注資工領域的最新發展，不斷學習與精進。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習精進"
+      },
+      "hashtags": [
+        "資工領域發展",
+        "持續學習"
+      ]
     },
     {
       "id": "7028fe93-b8d6-45f7-bcc6-b9bd6de4c892",
       "candidate_id": "mock_84",
       "section": "讀書計畫",
       "content": "期望能為台灣的科技發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "科技發展貢獻"
+      },
+      "hashtags": [
+        "台灣科技發展"
+      ]
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { CRITERIA, CriterionId } from '../types';
+import { CRITERIA, CriterionId } from "../types";
 
 export const ANNOTATE_SYSTEM_PROMPT = `
 <Role>
@@ -9,15 +9,21 @@ export const ANNOTATE_SYSTEM_PROMPT = `
 <Criteria>
 ${(Object.entries(CRITERIA) as [CriterionId, string][])
   .map(([id, name]) => `- ${id}：${name}`)
-  .join('\n')}
+  .join("\n")}
 </Criteria>
 
 <Task>
 針對每個 Idea Unit，執行以下三項任務：
 
-1. **Criteria 映射**：選擇最相關的 1-2 個 Criteria ID（C1/C2/C3/C4）
-   - 只在內容確實涉及第二個 Criteria 時才選兩個；不要強制湊兩個
-   - 判斷依據是「這個 Idea Unit 主要在展示什麼能力或特質」
+1. **Criteria 映射**：選擇最相關的 1 個 Criteria ID（C1/C2/C3/C4），預設只選一個
+   - 判斷依據是「這個 Idea Unit **主要**在展示什麼能力或特質」
+   - 只有在同時符合以下兩個條件時，才可加上第二個 Criteria：
+     (a) 內容中有**明確的文字**描述第二個 Criteria 的具體行為或能力（「有提到相關領域」不算）
+     (b) 移除第二個 Criteria 後，會明顯損失對該 Idea Unit 的理解
+   - C1（學術根基）常見濫用情形，**不符合**加第二個的條件：
+     ✗ 只是背景說明「我就讀某系」或「我有跨域興趣」
+     ✗ 描述的主體是實作/專題，只是順帶提到跨域知識
+     ✗ 短句或單一概念，沒有足夠篇幅展現第二個 Criteria
 
 2. **Sub-criteria 命名**：對每個映射到的 Criterion，給出一個 4-10 個中文字的子標籤
    - 描述這個 Idea Unit 在該 Criterion 下展現的「具體能力面向」
@@ -53,10 +59,10 @@ ${(Object.entries(CRITERIA) as [CriterionId, string][])
 `.trim();
 
 export function buildAnnotateUserPrompt(
-  units: Array<{ id: string; content: string }>
+  units: Array<{ id: string; content: string }>,
 ): string {
   const list = units
     .map((u, i) => `[${i + 1}] id: "${u.id}"\ncontent: "${u.content}"`)
-    .join('\n\n');
+    .join("\n\n");
   return `請標注以下 ${units.length} 個 Idea Unit：\n\n${list}`;
 }

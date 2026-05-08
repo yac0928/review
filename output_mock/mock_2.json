@@ -10,9 +10,16 @@
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我是[你的名字]，畢業於中山大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學歷背景陳述"
+      },
+      "hashtags": [
+        "中山大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "5ca0d3d7-2372-4167-ace9-ef1bb82bd863",
@@ -28,8 +35,14 @@
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "這讓我對於自己學習資訊相關領域的能力有一定信心。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學習能力自信",
+        "C4": "自我能力評估"
+      },
       "hashtags": []
     },
     {
@@ -37,171 +50,346 @@
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "從小我就對資訊科技充滿好奇，特別是在接觸到「資料」之後，我發現透過分析數據可以挖掘出很多有趣的洞察",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機啟發",
+        "C3": "數據洞察力"
+      },
+      "hashtags": [
+        "資訊科技",
+        "數據分析",
+        "洞察挖掘"
+      ]
     },
     {
       "id": "d33810d7-2055-48e3-8c80-013bf0f678d9",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "這讓我決定未來要深入巨量資料與資料探勘這個領域。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究方向規劃"
+      },
+      "hashtags": [
+        "巨量資料",
+        "資料探勘"
+      ]
     },
     {
       "id": "efb34ad1-13c3-46d1-9c0c-80c5e3e0ef70",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "大學期間，我主修了許多與資料相關的課程，像是「資料庫系統」、「資料結構」、「演算法」、「機器學習」、「資料探勘」等等。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "資料領域核心課程"
+      },
+      "hashtags": [
+        "資料庫系統",
+        "資料結構",
+        "演算法",
+        "機器學習",
+        "資料探勘"
+      ]
     },
     {
       "id": "e59615cb-7841-42dc-ac32-f167cbb1bae4",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "特別是「資料探勘」這門課，讓我第一次接觸到各種模型的應用，例如決策樹、SVM、集群分析等",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "資料探勘模型學習",
+        "C2": "模型應用基礎"
+      },
+      "hashtags": [
+        "資料探勘",
+        "決策樹",
+        "SVM",
+        "集群分析"
+      ]
     },
     {
       "id": "17cb04c8-c169-4505-9dec-627df22dbf08",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "並學習如何用這些工具解決實際問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "工具應用解決問題",
+        "C3": "實務問題解決"
+      },
+      "hashtags": [
+        "工具應用",
+        "實際問題解決"
+      ]
     },
     {
       "id": "e40cbc89-f0e4-4ea8-bdb9-bbf5dae72ad0",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我覺得這些課程真的蠻紮實的，讓我對資料處理和分析有了基本的認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "資料處理分析基礎"
+      },
+      "hashtags": [
+        "資料處理",
+        "資料分析"
+      ]
     },
     {
       "id": "6be1f5a7-c093-4447-b829-0d9bf8211439",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "大三下學期，我參與了「智慧醫療數據分析」的專題，目標是預測特定疾病的發病風險。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題實作經驗",
+        "C3": "疾病風險預測"
+      },
+      "hashtags": [
+        "智慧醫療",
+        "數據分析",
+        "疾病發病風險",
+        "專題實作"
+      ]
     },
     {
       "id": "5acbd908-b16f-405b-901e-8cd699100ac3",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我們主要使用 Python 語言，搭配 Pandas 進行數據前處理，然後利用 Scikit-learn 庫建立如隨機森林 (Random Forest) 和梯度提升樹 (Gradient Boosting Tree) 等模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據處理與模型建構"
+      },
+      "hashtags": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "隨機森林",
+        "梯度提升樹"
+      ]
     },
     {
       "id": "cdd0a88c-6449-4110-b9dc-c2187728a0e3",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "過程中最大的挑戰是資料不平衡問題，有一類病患的樣本數特別少。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題識別與挑戰分析"
+      },
+      "hashtags": [
+        "資料不平衡",
+        "樣本數稀少"
+      ]
     },
     {
       "id": "3ae7d837-e91f-4984-9fc0-470e8ccbc15a",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我們嘗試了 SMOTE 過採樣和調整權重等方法",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料不平衡處理",
+        "C3": "問題解決策略應用"
+      },
+      "hashtags": [
+        "SMOTE過採樣",
+        "權重調整"
+      ]
     },
     {
       "id": "55e0a1a6-8433-49ba-bfd6-086ed2ba2d02",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "最終模型的預測準確度從原本的 65% 提升到約 78%，我覺得這算是一個不錯的進步。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型效能優化",
+        "C3": "成果評估與反思"
+      },
+      "hashtags": [
+        "模型準確度提升",
+        "預測模型優化"
+      ]
     },
     {
       "id": "df1cb100-3a45-4f1d-9151-be5a8492aecb",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "這次專題讓我理解到，從原始數據到有意義的洞察，中間需要很多步驟，而且要不斷嘗試才能找到最佳解，這對我來說是一個很寶貴的經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案經驗反思",
+        "C3": "問題解決思維"
+      },
+      "hashtags": [
+        "數據洞察流程",
+        "迭代嘗試"
+      ]
     },
     {
       "id": "cbdc5239-835b-492b-a5e0-4face50c3315",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "大三暑假到大四上，我在系上「分散式資料處理與智慧應用實驗室」跟著[虛構教授姓氏]教授學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "實驗室研究參與",
+        "C2": "實作環境投入"
+      },
+      "hashtags": [
+        "分散式資料處理",
+        "智慧應用實驗室",
+        "教授指導"
+      ]
     },
     {
       "id": "0bbce557-e741-4be0-970a-aa067ad966bf",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "當時我主要參與一個關於「線上零售平台使用者行為分析」的產學合作計畫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "產學合作專案",
+        "C1": "跨領域合作"
+      },
+      "hashtags": [
+        "線上零售平台",
+        "使用者行為分析",
+        "產學合作"
+      ]
     },
     {
       "id": "83247a57-9771-4a07-97c6-ad3171af4b22",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我的工作是協助處理從平台 Log 檔中收集到的巨量使用者互動資料。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "巨量資料處理"
+      },
+      "hashtags": [
+        "平台Log檔",
+        "巨量資料",
+        "使用者互動資料"
+      ]
     },
     {
       "id": "d7098b4f-fde8-47ef-802e-5d797bdfbccc",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我們主要利用 Apache Spark 進行大規模的數據清洗和特徵工程，並且嘗試使用 Kafka 進行即時數據流處理的模擬。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "分散式數據處理"
+      },
+      "hashtags": [
+        "Apache Spark",
+        "數據清洗",
+        "特徵工程",
+        "Kafka",
+        "即時數據流"
+      ]
     },
     {
       "id": "31a726c2-f57a-4c94-bc9b-03cb9260545c",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "這段時間我學會了如何操作這些分散式系統工具",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術學習成長",
+        "C2": "工具操作能力"
+      },
+      "hashtags": [
+        "分散式系統工具"
+      ]
     },
     {
       "id": "60afabd3-64e6-4999-a5b8-41eb04da5438",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "也更深入地理解了巨量資料處理的流程，包括數據的擷取、轉換、載入 (ETL)。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "巨量資料處理知識"
+      },
+      "hashtags": [
+        "巨量資料處理",
+        "ETL",
+        "數據擷取",
+        "數據轉換",
+        "數據載入"
+      ]
     },
     {
       "id": "fe4b9e10-ec63-43d3-be84-360c1c143a07",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我覺得最重要的是，這段經歷讓我意識到，在真實世界中資料的複雜度和髒亂程度遠超乎想像，不能只停留在理論層面，動手做才是真的。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "實務挑戰洞察",
+        "C2": "實作導向思維"
+      },
+      "hashtags": [
+        "真實資料複雜度",
+        "動手實作",
+        "理論實務結合"
+      ]
     },
     {
       "id": "6b01f534-d3ff-43c4-ae2d-45126e96f520",
@@ -217,89 +405,165 @@
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "每週固定的訓練和參與校際比賽",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "運動訓練投入"
+      },
+      "hashtags": [
+        "固定訓練",
+        "校際比賽"
+      ]
     },
     {
       "id": "41855cd0-bcad-4860-b15b-ba897b77cc59",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "讓我學習到如何在壓力下保持冷靜",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "抗壓能力培養"
+      },
+      "hashtags": [
+        "壓力冷靜",
+        "情緒管理"
+      ]
     },
     {
       "id": "2f4fabe3-d6de-48d2-8339-928abc9499bc",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "也深刻體會到團隊合作的重要性，大家互相支援，才能打好每一場球。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "團隊合作體認"
+      },
+      "hashtags": [
+        "團隊合作",
+        "互相支援"
+      ]
     },
     {
       "id": "22e4190f-8828-4cb9-bc6d-223ac0c181ce",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "身為學生運動員，這也迫使我必須學會更有效地管理時間，才能兼顧課業和訓練",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "時間管理能力"
+      },
+      "hashtags": [
+        "學生運動員",
+        "時間管理",
+        "課業訓練兼顧"
+      ]
     },
     {
       "id": "cdc5858e-19e1-469f-b882-4b94a8527441",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我覺得我的抗壓性和時間管理能力因此都有所提升。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "個人能力提升"
+      },
+      "hashtags": [
+        "抗壓性提升",
+        "時間管理提升"
+      ]
     },
     {
       "id": "a5bd407d-cab7-4886-b3b1-9cef1c098ca2",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "綜合我的學習與研究經驗，我對巨量資料的處理、分析與應用有著濃厚的興趣",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣確立",
+        "C4": "未來發展方向"
+      },
+      "hashtags": [
+        "巨量資料處理",
+        "巨量資料分析",
+        "巨量資料應用"
+      ]
     },
     {
       "id": "662276ed-3b22-496e-b279-00bd3ed42308",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "尤其希望未來能深入鑽研機器學習在實際問題上的應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向規劃",
+        "C2": "實務應用導向"
+      },
+      "hashtags": [
+        "機器學習應用",
+        "實際問題解決",
+        "未來研究方向"
+      ]
     },
     {
       "id": "c13ac884-165a-4aaf-93be-7898a91c069b",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "交大資工所長期以來在資訊領域有很卓越的表現，尤其在資料科學和人工智慧方面的研究實力更是領先。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "申請動機與目標設定"
+      },
+      "hashtags": [
+        "交大資工所",
+        "資料科學",
+        "人工智慧"
+      ]
     },
     {
       "id": "84e4f317-af88-4826-adc1-fe061c26d446",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我知道貴所有許多教授在資料探勘、機器學習、以及分散式系統方面都有非常深入的研究",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "申請動機與目標設定"
+      },
+      "hashtags": [
+        "資料探勘",
+        "機器學習",
+        "分散式系統"
+      ]
     },
     {
       "id": "a08cdcc2-af03-45dd-aef6-5595323e5e8c",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我很期待能夠在這樣頂尖的學術環境中學習和成長。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自我成長規劃"
+      },
       "hashtags": []
     },
     {
@@ -307,54 +571,112 @@
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我覺得交大提供的資源和課程會讓我有更廣闊的視野，可以接觸到最前沿的技術和應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "自我成長規劃",
+        "C1": "學習視野拓展"
+      },
+      "hashtags": [
+        "前沿技術",
+        "前沿應用"
+      ]
     },
     {
       "id": "f43a6d83-cbff-499b-b70c-c6ef1a2000dc",
       "candidate_id": "mock_2",
       "section": "自傳",
       "content": "我希望未來能在貴所進一步深造，將我的學術基礎和實務經驗結合，為學術研究或產業發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃",
+        "C1": "學術實務整合"
+      },
+      "hashtags": [
+        "學術研究",
+        "產業發展",
+        "學術實務結合"
+      ]
     },
     {
       "id": "edcb48a5-dfde-4beb-be63-e349a0b472a4",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "從小到大，我一直覺得數據很有趣，尤其喜歡從一堆資料裡面找出規則或預測未來的感覺。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣啟蒙",
+        "C3": "數據洞察力"
+      },
+      "hashtags": [
+        "數據分析",
+        "模式識別",
+        "未來預測"
+      ]
     },
     {
       "id": "2d59a433-a02e-4d6e-915a-528539c8d2b6",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "我認為交大資工所在資料科學與人工智慧領域的研究資源和師資都非常豐富。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "申請動機與目標設定"
+      },
+      "hashtags": [
+        "資料科學",
+        "人工智慧",
+        "研究資源",
+        "師資豐富"
+      ]
     },
     {
       "id": "8b0af2b2-2aba-4e56-be5d-76b3c590da28",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "貴所許多教授的研究方向，如圖神經網路、自然語言處理、或者推薦系統等，都與我大學時期的興趣和經驗高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣契合",
+        "C4": "申請動機契合"
+      },
+      "hashtags": [
+        "圖神經網路",
+        "自然語言處理",
+        "推薦系統",
+        "大學研究興趣"
+      ]
     },
     {
       "id": "e4d1ce98-0caa-44bf-a36c-1d561da3aa66",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "我相信在交大資工這樣的研究環境下，我能更深入地學習相關知識，並參與到更高階的研究專案中",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "自我成長規劃",
+        "C1": "高階學術參與"
+      },
+      "hashtags": [
+        "深入學習",
+        "高階研究專案"
+      ]
     },
     {
       "id": "fd9cb22d-20fc-4870-8a1c-f7c794f2e9ef",
@@ -370,44 +692,81 @@
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "我對「巨量資料分析與機器學習應用」這個大方向非常感興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣方向"
+      },
+      "hashtags": [
+        "巨量資料分析",
+        "機器學習應用"
+      ]
     },
     {
       "id": "78fd8876-2d3c-45b5-b591-a75c1fa5668d",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "如何利用深度學習模型來改進推薦演算法，讓推薦結果更精準。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習應用研究",
+        "C3": "演算法優化思考"
+      },
+      "hashtags": [
+        "深度學習模型",
+        "推薦演算法",
+        "精準推薦"
+      ]
     },
     {
       "id": "f3ebec0e-8816-453d-9357-be766f5e9080",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "例如文字資料或圖片資料的分析，特別是結合自然語言處理的技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "特定資料分析興趣"
+      },
+      "hashtags": [
+        "文字資料分析",
+        "圖片資料分析",
+        "自然語言處理"
+      ]
     },
     {
       "id": "f83ebf5e-1abc-4edd-a055-37a800dc4bd4",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "學習如何在巨量資料上有效率地訓練機器學習模型。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "巨量資料模型訓練"
+      },
+      "hashtags": [
+        "巨量資料",
+        "機器學習模型",
+        "模型訓練效率"
+      ]
     },
     {
       "id": "a37a6d59-65a1-4895-bc34-9a7a8899eae5",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "我希望能找到一位在上述領域有深入研究的教授作為指導，更專注地投入學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術導師規劃"
+      },
       "hashtags": []
     },
     {
@@ -415,17 +774,31 @@
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "加強數學基礎：如線性代數、機率與統計等",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "數學基礎強化",
+        "C4": "學習計畫"
+      },
+      "hashtags": [
+        "線性代數",
+        "機率與統計",
+        "數學基礎"
+      ]
     },
     {
       "id": "9ff81261-797f-421c-98f7-136c2f78800d",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "確保有足夠的數學能力應付高階課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "高階課程準備"
+      },
       "hashtags": []
     },
     {
@@ -433,17 +806,31 @@
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "計畫選修「高等機器學習」、「深度學習導論」、「巨量資料處理」等課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業課程規劃",
+        "C4": "學術進修計畫"
+      },
+      "hashtags": [
+        "高等機器學習",
+        "深度學習導論",
+        "巨量資料處理"
+      ]
     },
     {
       "id": "8874ff48-8767-42f3-8b88-b5a896bffd1f",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "這些都是我覺得很重要的課。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程重要性認知"
+      },
       "hashtags": []
     },
     {
@@ -451,17 +838,30 @@
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "積極參與課程中的專題實作",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "課程專題參與",
+        "C4": "實作學習態度"
+      },
+      "hashtags": [
+        "專題實作",
+        "課程參與"
+      ]
     },
     {
       "id": "3f34cadd-3d28-4320-ad83-c01f56e95cf4",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "將學到的理論知識應用到實際問題上。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "理論實務應用"
+      },
       "hashtags": []
     },
     {
@@ -469,153 +869,312 @@
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "積極與系上教授會談，了解各實驗室的研究方向與專案",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索",
+        "C1": "學術環境了解"
+      },
+      "hashtags": [
+        "教授會談",
+        "實驗室研究方向",
+        "專案了解"
+      ]
     },
     {
       "id": "28a705d1-c263-40e3-a46b-aa517377d54f",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "希望能找到與我興趣相符且能提供良好指導的教授。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "導師選擇規劃"
+      },
+      "hashtags": [
+        "興趣相符教授",
+        "良好指導"
+      ]
     },
     {
       "id": "8df5bb7c-fd8a-4846-8419-5829b3ed80b6",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "盡快熟悉實驗室的運作模式、研究工具和技術棧。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "實驗室適應規劃",
+        "C2": "研究工具學習"
+      },
+      "hashtags": [
+        "實驗室運作",
+        "研究工具",
+        "技術棧"
+      ]
     },
     {
       "id": "e8742097-64a2-4aa3-acac-bcb9c15b0f28",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "大量閱讀相關領域的頂尖期刊和會議論文",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "領域文獻研讀"
+      },
+      "hashtags": [
+        "頂尖期刊",
+        "會議論文",
+        "文獻閱讀"
+      ]
     },
     {
       "id": "361ed522-7add-4ed4-86b1-92ecbc2c952b",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "掌握最新的研究進展和趨勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "最新研究掌握"
+      },
+      "hashtags": [
+        "研究進展",
+        "研究趨勢"
+      ]
     },
     {
       "id": "a349fa18-8f28-4235-b11c-29d37ffe9b6a",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "熟練使用如 PyTorch 或 TensorFlow 等深度學習框架。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "深度學習框架應用"
+      },
+      "hashtags": [
+        "PyTorch",
+        "TensorFlow",
+        "深度學習框架"
+      ]
     },
     {
       "id": "23a314fc-4234-4ff1-9abd-8382d261154f",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "強化資料庫操作技能，例如 SQL 和 NoSQL 資料庫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料庫操作技能"
+      },
+      "hashtags": [
+        "SQL",
+        "NoSQL",
+        "資料庫操作"
+      ]
     },
     {
       "id": "66e9bcc9-eeb9-4ca5-ad9a-0e4b1d68d7fd",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "在指導教授的帶領下，選擇一個具體的論文研究主題，並進行深入探討。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "論文主題探討",
+        "C4": "教授指導學習"
+      },
+      "hashtags": [
+        "指導教授",
+        "論文研究主題",
+        "深入探討"
+      ]
     },
     {
       "id": "ec71c763-1eaa-4e3d-9752-5702d9bf6b07",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "進行資料收集、模型設計與實驗驗證，不斷迭代優化，力求創新。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型開發與驗證",
+        "C3": "實驗迭代優化"
+      },
+      "hashtags": [
+        "資料收集",
+        "模型設計",
+        "實驗驗證",
+        "迭代優化",
+        "創新"
+      ]
     },
     {
       "id": "d3e1eb0d-9d3b-4eb0-8b3c-1174e6b64cf1",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "系統性地整理研究成果，撰寫碩士論文，並爭取投稿到相關學術會議或期刊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表規劃",
+        "C1": "研究成果產出"
+      },
+      "hashtags": [
+        "碩士論文",
+        "學術會議投稿",
+        "期刊投稿",
+        "研究成果整理"
+      ]
     },
     {
       "id": "54178073-4173-45c5-818d-a0e1b5cc2fe5",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "積極參與實驗室內的例行討論和系上的學術演講。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術參與與學習",
+        "C1": "學術知識吸收"
+      },
+      "hashtags": [
+        "實驗室討論",
+        "學術演講"
+      ]
     },
     {
       "id": "ab8f4ad3-3518-452d-ab41-066661383f55",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "若有機會，希望能夠參與國內外的學術研討會，發表研究成果，並與其他研究者交流學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術交流與發表",
+        "C1": "國際學術視野"
+      },
+      "hashtags": [
+        "學術研討會",
+        "研究成果發表",
+        "研究者交流",
+        "國際交流"
+      ]
     },
     {
       "id": "8d7f4474-dfb5-44db-b97e-24b8036fabbc",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "參與 Kaggle 等數據科學競賽，將所學應用於實際挑戰，提升實戰經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據科學實戰",
+        "C3": "競賽問題解決"
+      },
+      "hashtags": [
+        "Kaggle競賽",
+        "數據科學",
+        "實戰經驗",
+        "技術應用"
+      ]
     },
     {
       "id": "14b67012-3f9e-4188-89f7-1cbc1072cf8e",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "我希望能在科技產業中擔任資料科學家、機器學習工程師或演算法工程師等職位。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展目標"
+      },
+      "hashtags": [
+        "資料科學家",
+        "機器學習工程師",
+        "演算法工程師",
+        "科技產業"
+      ]
     },
     {
       "id": "40880c34-e6cc-4ce7-8aee-e524de4e3aa0",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "運用在交大資工所學到的專業知識和研究方法，解決產業中的實際問題，為企業創造價值。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "產業問題解決",
+        "C2": "專業知識應用"
+      },
+      "hashtags": [
+        "產業問題",
+        "企業價值",
+        "專業知識應用",
+        "研究方法"
+      ]
     },
     {
       "id": "e9ac8d26-4935-42f2-ba54-2c26d8c40865",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "保持對新技術和新研究的熱情，持續學習和自我提升，跟上資訊科技快速發展的腳步。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習與成長"
+      },
+      "hashtags": [
+        "新技術學習",
+        "自我提升",
+        "資訊科技發展"
+      ]
     },
     {
       "id": "077d9d2d-7702-47ec-97a6-ee7ac57ef9f6",
       "candidate_id": "mock_2",
       "section": "讀書計畫",
       "content": "將學術研究的嚴謹性帶入工作，持續在專業領域中精進。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業領域精進",
+        "C1": "學術嚴謹應用"
+      },
+      "hashtags": [
+        "學術嚴謹性",
+        "專業精進"
+      ]
     }
   ]
 }

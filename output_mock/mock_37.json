@@ -10,26 +10,49 @@
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "我是劉湘婷，來自清華大學電機工程學系，懷抱著對網路安全與硬體加速技術的濃厚興趣，希望能申請貴系資工所，精進相關領域的知識與技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景介紹",
+        "C4": "申請動機與方向"
+      },
+      "hashtags": [
+        "清華大學電機系",
+        "網路安全",
+        "硬體加速技術",
+        "資工所申請"
+      ]
     },
     {
       "id": "0292002d-7f81-4ba8-b8fb-98a76b7e3564",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "從小，我就對複雜的系統如何運作感到好奇，特別是當數位世界面臨各種威脅時，如何透過精密的設計來保護它們，這份熱情驅使我投身電機工程的學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機與熱情"
+      },
+      "hashtags": [
+        "系統運作好奇",
+        "數位安全保護",
+        "電機工程學習"
+      ]
     },
     {
       "id": "0b25b6ac-96da-446d-aef4-fb4cf4a0ad60",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "在清華大學電機系這四年，我主要以技術能力的培養為主軸。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "大學學習主軸"
+      },
       "hashtags": []
     },
     {
@@ -37,8 +60,12 @@
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "學業成績維持在3.45左右，不算頂尖。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -46,189 +73,367 @@
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "但我將更多的時間投入在實際操作與解決問題上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "實作投入傾向",
+        "C3": "問題解決導向"
+      },
+      "hashtags": [
+        "實際操作",
+        "解決問題"
+      ]
     },
     {
       "id": "b3edb91a-fc32-409a-815f-06c0ef0f7944",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "大二時，修習「計算機組織」與「數位電路設計」等課程，我對處理器架構和數位邏輯設計有了初步認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程學習"
+      },
+      "hashtags": [
+        "計算機組織",
+        "數位電路設計",
+        "處理器架構",
+        "數位邏輯設計"
+      ]
     },
     {
       "id": "46da105d-c423-4385-98ae-eb70e6a8e387",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "特別是利用Verilog進行FPGA開發，讓我體會到硬體設計的精妙與挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體開發實作"
+      },
+      "hashtags": [
+        "Verilog",
+        "FPGA開發",
+        "硬體設計"
+      ]
     },
     {
       "id": "55e90808-d900-4915-bdfb-77988bffcb05",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "當時在一個課程專題中，我們嘗試用FPGA實現一個簡單的資料加密模組，雖然功能有限。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "課程專題實作"
+      },
+      "hashtags": [
+        "FPGA",
+        "資料加密模組",
+        "課程專題"
+      ]
     },
     {
       "id": "3d3824c7-b9ae-4bdc-bd4f-508febac6164",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "但從概念到實作的過程，讓我對硬體在安全領域的潛力感到興奮。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域潛力洞察"
+      },
+      "hashtags": [
+        "硬體安全潛力",
+        "概念實作過程"
+      ]
     },
     {
       "id": "8c2b7c30-1b8c-4dbf-8b39-9aea2b947834",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "大三上學期，我修讀了「電腦網路」課程，深入了解網路協定與封包傳輸機制。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程學習"
+      },
+      "hashtags": [
+        "電腦網路",
+        "網路協定",
+        "封包傳輸機制"
+      ]
     },
     {
       "id": "27f098a7-afc6-4e84-a057-dc2b4d7ec99c",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "在課堂專題中，我曾嘗試使用Python撰寫一個簡易的網路流量監測工具，配合Wireshark分析封包，識別出一些常見的異常模式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "網路流量監測實作"
+      },
+      "hashtags": [
+        "Python",
+        "網路流量監測",
+        "Wireshark",
+        "封包分析",
+        "異常模式識別"
+      ]
     },
     {
       "id": "82a11970-7b08-4630-b296-7eec274c8e28",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "這段經驗讓我開始思考，當網路攻擊日益複雜且高速時，純軟體的解決方案是否仍能有效應對？",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "軟體方案限制反思"
+      },
+      "hashtags": [
+        "網路攻擊複雜性",
+        "軟體解決方案"
+      ]
     },
     {
       "id": "e74645be-c9bd-4925-ab15-676155454eed",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "這份疑問，引導我將目光投向硬體加速技術，期望能將網路安全防護提升到更高的層次。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向規劃"
+      },
+      "hashtags": [
+        "硬體加速技術",
+        "網路安全防護"
+      ]
     },
     {
       "id": "79d26320-6e3f-457e-9a93-baedf5a23337",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "沒有正式的研究室經驗，讓我更傾向於從課程專題和自學中摸索。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自主學習模式"
+      },
+      "hashtags": [
+        "課程專題",
+        "自學摸索"
+      ]
     },
     {
       "id": "70675836-5498-4166-a9f7-687bb050dc39",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "我曾利用閒暇時間學習了一些開源的入侵偵測系統（IDS），如Snort的基本原理，並嘗試在Linux環境下進行一些簡單的規則配置與測試，雖然只是初步嘗試。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "入侵偵測系統實作",
+        "C4": "課外自主學習"
+      },
+      "hashtags": [
+        "入侵偵測系統",
+        "Snort",
+        "Linux環境",
+        "規則配置測試"
+      ]
     },
     {
       "id": "fa623ff2-ca8f-4fc2-860f-667b8d356d62",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "但讓我對網路攻擊的特徵與偵測方法有了更直觀的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "網路安全知識理解"
+      },
+      "hashtags": [
+        "網路攻擊特徵",
+        "偵測方法"
+      ]
     },
     {
       "id": "f6a0a04a-c817-49fe-bb85-898e3699a0a5",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "此外，我從小學習圍棋，至今已有業餘六段的實力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "個人特質展現"
+      },
+      "hashtags": [
+        "圍棋",
+        "業餘六段"
+      ]
     },
     {
       "id": "d140ff7f-0231-4713-a173-5f358720a405",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "圍棋的訓練不僅培養了我冷靜的邏輯思考能力，更讓我學會了如何從宏觀的角度制定策略，並在瞬息萬變的局勢中精準判斷、找到最佳解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "策略性問題解決"
+      },
+      "hashtags": [
+        "邏輯思考",
+        "宏觀策略",
+        "精準判斷",
+        "最佳解"
+      ]
     },
     {
       "id": "1b4fe5c8-3684-4fc7-8cb5-862daa11bc12",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "這項特質在面對複雜的網路攻擊情境時，我認為能幫助我更系統地分析問題、設計有效的防禦機制，並且在有限的硬體資源下，思考最佳的加速策略。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "複雜問題分析與策略制定",
+        "C2": "防禦機制與加速策略設計"
+      },
+      "hashtags": [
+        "網路攻擊情境",
+        "系統分析",
+        "防禦機制設計",
+        "硬體資源限制",
+        "加速策略"
+      ]
     },
     {
       "id": "b6aa3c0f-f3c7-4cdf-b8a5-f570b9a508bf",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "我深信，交大資工所卓越的學術聲譽與在網路安全及系統領域的深厚根基，將能為我的研究提供最堅實的土壤。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所選擇動機"
+      },
+      "hashtags": [
+        "交大資工所",
+        "網路安全",
+        "系統領域",
+        "學術聲譽"
+      ]
     },
     {
       "id": "55f1ecc2-13b7-4164-af5b-539539c63bfc",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "特別是貴所多位老師在網路安全、系統晶片設計與硬體加速方面的研究成果，都與我的興趣高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向契合度"
+      },
+      "hashtags": [
+        "網路安全",
+        "系統晶片設計",
+        "硬體加速"
+      ]
     },
     {
       "id": "126f0a12-a6eb-4629-be35-7714ead17d43",
       "candidate_id": "mock_37",
       "section": "自傳",
       "content": "我期待能在交大資工所，將我過去在電機系累積的硬體基礎，結合資工領域的專業知識，投身於更具前瞻性的研究，為未來的網路安全貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究展望",
+        "C1": "跨域知識整合"
+      },
+      "hashtags": [
+        "電機系硬體基礎",
+        "資工專業知識",
+        "網路安全研究"
+      ]
     },
     {
       "id": "792649c5-5397-4e17-b1c1-4ebc8829bc5a",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "對於進入交大資工所後的學習與研究，我已經有了一個初步但明確的規劃，期望能將我對網路安全與硬體加速的熱情，轉化為具體的學術成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習研究規劃"
+      },
+      "hashtags": [
+        "網路安全",
+        "硬體加速",
+        "學術成果"
+      ]
     },
     {
       "id": "3a5988fe-8b50-485f-955e-dbc5da8bb477",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "我會積極修習相關進階課程，例如「高等計算機結構」、「網路安全概論」與「數位積體電路設計」等，鞏固我對核心概念的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階課程規劃"
+      },
+      "hashtags": [
+        "高等計算機結構",
+        "網路安全概論",
+        "數位積體電路設計"
+      ]
     },
     {
       "id": "41861a98-e714-44a5-aec3-b65a1999a1c1",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "同時，我會投入時間學習更進階的硬體描述語言（如SystemVerilog）以及FPGA開發流程，希望能熟練運用相關設計工具如Xilinx Vivado或Intel Quartus。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體開發工具學習"
+      },
+      "hashtags": [
+        "SystemVerilog",
+        "FPGA開發",
+        "Xilinx Vivado",
+        "Intel Quartus"
+      ]
     },
     {
       "id": "48d81641-b95e-4157-8c1d-d98545d68b9a",
@@ -244,108 +449,223 @@
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "我將主動參與系所舉辦的研討會、專題演講，並仔細研讀貴所老師的論文，特別是聚焦在網路流量異常偵測、入侵防禦系統（IPS）的硬體加速實作，以及新型網路架構（如SDN/NFV）下的安全挑戰等議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術社群參與",
+        "C1": "領域知識探索"
+      },
+      "hashtags": [
+        "研討會",
+        "專題演講",
+        "網路流量異常偵測",
+        "IPS硬體加速",
+        "SDN/NFV安全"
+      ]
     },
     {
       "id": "17cce8e0-d62d-4a46-a30e-d04d600c515a",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "透過這些方式，我希望能更全面地了解當前領域的研究熱點，並找到最符合我興趣與能力的指導教授與實驗室。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索"
+      },
+      "hashtags": [
+        "研究熱點",
+        "指導教授",
+        "實驗室選擇"
+      ]
     },
     {
       "id": "3281dfea-1700-4704-9c89-8baac8471a99",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "一旦確定了指導教授，我會盡快融入實驗室團隊，學習實驗室的專案管理方式、常用工具鏈，並參與一些基礎的研究工作，培養獨立思考與解決問題的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "實驗室融入規劃",
+        "C3": "獨立研究能力培養"
+      },
+      "hashtags": [
+        "實驗室團隊",
+        "專案管理",
+        "工具鏈",
+        "獨立思考",
+        "解決問題"
+      ]
     },
     {
       "id": "a02e6c48-e177-48a8-a279-1e0b27d3fca3",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "在指導教授的引導下，我希望能將研究聚焦於「基於FPGA的網路攻擊即時偵測與防禦系統」或「利用硬體加速技術提升深度封包檢測（DPI）效能」等方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "具體研究方向"
+      },
+      "hashtags": [
+        "FPGA",
+        "網路攻擊偵測",
+        "防禦系統",
+        "硬體加速",
+        "深度封包檢測"
+      ]
     },
     {
       "id": "489c7bf0-1934-41a0-a963-43d4be5a91c3",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "我對利用機器學習演算法在硬體上實現高效率的異常流量分析特別感興趣，希望能將過去圍棋訓練中培養的模式識別能力應用於此。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣與跨域連結",
+        "C3": "跨領域能力應用"
+      },
+      "hashtags": [
+        "機器學習演算法",
+        "硬體實現",
+        "異常流量分析",
+        "圍棋訓練",
+        "模式識別"
+      ]
     },
     {
       "id": "6d07c54f-5bdf-4a69-b28c-6aef6016fb31",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "我會著手設計並實作一個原型系統，例如利用FPGA平台加速特定網路攻擊模式的匹配過程，或開發一個能夠即時識別惡意流量的硬體模組。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "原型系統設計實作"
+      },
+      "hashtags": [
+        "原型系統",
+        "FPGA平台",
+        "網路攻擊模式",
+        "惡意流量識別",
+        "硬體模組"
+      ]
     },
     {
       "id": "06912c33-1a8b-440c-9cc2-d25a30960ec8",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "這會涉及大量的程式編寫、硬體電路設計與效能驗證，並需要不斷測試與優化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "軟硬體開發技能",
+        "C3": "系統測試與優化"
+      },
+      "hashtags": [
+        "程式編寫",
+        "硬體電路設計",
+        "效能驗證",
+        "測試優化"
+      ]
     },
     {
       "id": "3ef3602f-da0f-4fe6-a2fd-1f661a90b0c2",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "我期望能在這段時間內，完成具備創新性的研究成果，並逐步完成我的碩士論文。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "碩士研究規劃"
+      },
+      "hashtags": [
+        "創新研究成果",
+        "碩士論文"
+      ]
     },
     {
       "id": "894eb453-7812-4092-ad46-7255f87d694e",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "如果研究成果達到一定水準，我希望能將其整理成論文，投稿至國內外的學術會議或期刊，與學術界交流我的研究心得，並從中獲得寶貴的回饋。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表與交流"
+      },
+      "hashtags": [
+        "論文投稿",
+        "學術會議",
+        "學術期刊",
+        "學術交流"
+      ]
     },
     {
       "id": "344a4a68-5656-40cc-b30c-3ccc90811bfe",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "畢業後，我期望能將所學應用於業界，進入相關科技公司，從事網路安全產品的研發工作，特別是高效率、低延遲的硬體安全解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界職涯規劃"
+      },
+      "hashtags": [
+        "網路安全產品",
+        "硬體安全解決方案",
+        "科技公司研發"
+      ]
     },
     {
       "id": "f5e02810-42c9-4354-a4f8-600192caeaf2",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "如果條件允許，我也不排除繼續攻讀博士學位，持續在學術領域深耕，為網路安全與硬體加速技術的發展貢獻更前瞻的知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "長期學術深耕規劃"
+      },
+      "hashtags": [
+        "博士學位",
+        "網路安全",
+        "硬體加速技術",
+        "前瞻知識貢獻"
+      ]
     },
     {
       "id": "de74e9aa-a39e-438e-a22a-35ab321ff235",
       "candidate_id": "mock_37",
       "section": "讀書計畫",
       "content": "我希望能成為一名能結合軟硬體專長，為國家與社會資訊安全貢獻的專業人才。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業人才願景"
+      },
+      "hashtags": [
+        "軟硬體專長",
+        "資訊安全貢獻"
+      ]
     }
   ]
 }

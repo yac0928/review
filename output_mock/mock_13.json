@@ -10,17 +10,28 @@
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "我是梁羿晨，來自國立臺灣大學資訊管理學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景介紹"
+      },
+      "hashtags": [
+        "國立臺灣大學",
+        "資訊管理學系"
+      ]
     },
     {
       "id": "7b99bbe2-7d72-47fd-975f-19e05b9a0f9d",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "從小，我就對複雜的系統運作與數據背後的意義充滿好奇。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "好奇心與探索"
+      },
       "hashtags": []
     },
     {
@@ -28,17 +39,31 @@
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "進入大學後，資管系的課程讓我得以接觸資訊科技的廣闊天地，更在學習過程中逐步聚焦於機器學習與智慧型計算的領域",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣發展",
+        "C4": "專業領域聚焦"
+      },
+      "hashtags": [
+        "資訊科技",
+        "機器學習",
+        "智慧型計算"
+      ]
     },
     {
       "id": "13d62f8d-1d4f-435e-92f3-2d0008d3464f",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "這也成為我希望在研究所階段深入鑽研的核心方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究方向"
+      },
       "hashtags": []
     },
     {
@@ -46,8 +71,12 @@
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "回顧大學四年，我的學業成績雖然是 3.51，或許不算頂尖",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績自評"
+      },
       "hashtags": []
     },
     {
@@ -55,8 +84,14 @@
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "但我深知知識的獲取不只在課堂，更在於實際應用與動手實作。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習理念闡述",
+        "C2": "實作導向學習"
+      },
       "hashtags": []
     },
     {
@@ -64,18 +99,37 @@
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "大三時，我積極爭取進入系上的「智能金融實驗室」，參與了「基於深度學習的股價趨勢預測模型」專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案參與經驗",
+        "C4": "主動學習展現"
+      },
+      "hashtags": [
+        "智能金融實驗室",
+        "深度學習",
+        "股價趨勢預測模型"
+      ]
     },
     {
       "id": "aaef036d-4b00-4062-a5a8-550c87ed5b90",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "在這個專案中，我負責數據前處理與模型建構，主要使用 Python 搭配 TensorFlow 框架。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術實作能力"
+      },
+      "hashtags": [
+        "數據前處理",
+        "模型建構",
+        "Python",
+        "TensorFlow"
+      ]
     },
     {
       "id": "adff674e-5d7b-44ca-8c94-b7ee6542f2fe",
@@ -91,26 +145,49 @@
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "這段經歷讓我深刻體會到金融數據的複雜性，例如資料的雜訊多、非線性強，以及市場情緒等非結構化資訊的難以量化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題洞察與反思",
+        "C2": "領域知識理解"
+      },
+      "hashtags": [
+        "金融數據複雜性",
+        "資料雜訊",
+        "非線性",
+        "市場情緒",
+        "非結構化資訊"
+      ]
     },
     {
       "id": "d0d01d52-92ee-4502-ba35-4a378d130524",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "我學會了如何進行特徵工程，將原始數據轉換為模型能有效學習的特徵",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "特徵工程實作"
+      },
+      "hashtags": [
+        "特徵工程",
+        "數據轉換"
+      ]
     },
     {
       "id": "8cf248ec-8ac2-4145-9257-4c7d16a0ac51",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "也明白了單一模型無法涵蓋所有變數",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "模型限制理解"
+      },
       "hashtags": []
     },
     {
@@ -118,143 +195,290 @@
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "因此我們也試著融合多模態數據來提升預測準確度",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "多模態數據融合",
+        "C3": "問題解決策略"
+      },
+      "hashtags": [
+        "多模態數據",
+        "預測準確度"
+      ]
     },
     {
       "id": "5fa7c9e0-1405-4414-9ab3-9123354856e7",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "但過程中對模型調校與效能評估有了更實際的理解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "模型調校與評估",
+        "C3": "實務理解深化"
+      },
+      "hashtags": [
+        "模型調校",
+        "效能評估"
+      ]
     },
     {
       "id": "8ee6777b-8912-460a-9e47-dddaa4ca9087",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "這次經驗讓我對於如何將前沿的機器學習技術應用於高度變動的財金領域充滿了興趣",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨領域應用興趣",
+        "C2": "機器學習應用"
+      },
+      "hashtags": [
+        "機器學習技術",
+        "財金領域應用"
+      ]
     },
     {
       "id": "f60dd784-f271-40ba-931d-a8fc8fdef526",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "也激發了我深入探索智慧型計算的決心。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術探索決心"
+      },
+      "hashtags": [
+        "智慧型計算"
+      ]
     },
     {
       "id": "c8127906-eb4a-4c5b-ba69-4a55abac1456",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "除了學術研究，我也曾於一家新創金融科技公司「智匯資本」實習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "金融科技實習",
+        "C2": "業界實務經驗"
+      },
+      "hashtags": [
+        "智匯資本",
+        "金融科技",
+        "實習經驗"
+      ]
     },
     {
       "id": "998af1fe-ea05-4718-9dee-f18ead486757",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "我在其中擔任資料分析助理，主要職責是協助開發內部資料視覺化工具，將客戶的交易行為與投資組合表現數據化。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料視覺化開發",
+        "C4": "資料分析助理"
+      },
+      "hashtags": [
+        "資料分析助理",
+        "資料視覺化",
+        "交易行為分析",
+        "投資組合"
+      ]
     },
     {
       "id": "5470bcde-94dd-4346-b6d4-c2efc0396cae",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "這個經驗讓我實際接觸到金融業界如何運用數據來驅動決策。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "金融數據應用理解",
+        "C3": "數據決策洞察"
+      },
+      "hashtags": [
+        "金融業界",
+        "數據驅動決策"
+      ]
     },
     {
       "id": "208dc8ea-dfab-4f8a-9c63-962f537ccd99",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "我使用 SQL 查詢資料庫，並透過 Tableau 製作互動式儀表板，為業務團隊提供即時的市場洞察。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "數據查詢與視覺化",
+        "C3": "市場洞察提供"
+      },
+      "hashtags": [
+        "SQL",
+        "Tableau",
+        "互動式儀表板",
+        "市場洞察"
+      ]
     },
     {
       "id": "e21792de-84c9-4209-897a-399be74ed475",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "這段實習讓我意識到，即便擁有技術，也需要配合實際的業務需求與應用場景，才能發揮最大的價值",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術應用情境理解",
+        "C2": "技術價值實踐思維"
+      },
+      "hashtags": [
+        "業務需求",
+        "應用場景",
+        "技術價值"
+      ]
     },
     {
       "id": "cce8820e-c8d4-4b25-a0dc-c87dfcd1db51",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "這讓我對軟體開發的「產品導向思維」有了初步的認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "產品導向思維建立",
+        "C2": "軟體開發思維"
+      },
+      "hashtags": [
+        "產品導向思維",
+        "軟體開發"
+      ]
     },
     {
       "id": "e1bbf5a8-70e0-4fb6-b8bf-8ae1225e240f",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "我認為自己在財金領域的專業背景，能為資工領域帶來不同的視角。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域背景整合潛力"
+      },
+      "hashtags": [
+        "財金領域",
+        "資工領域",
+        "跨域視角"
+      ]
     },
     {
       "id": "52939009-7885-47ca-a362-2faac79707c7",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "在處理金融相關的數據時，我對其背後的經濟意義與市場機制有一定程度的理解，這有助於我在機器學習模型建構時，能更合理地選擇特徵、解釋結果，並提出具有實務價值的應用方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "財金數據理解應用",
+        "C3": "跨域模型建構思維"
+      },
+      "hashtags": [
+        "金融數據",
+        "經濟意義",
+        "市場機制",
+        "機器學習模型",
+        "特徵選擇",
+        "結果解釋",
+        "實務應用"
+      ]
     },
     {
       "id": "6f13ef15-99d2-4cc6-88f1-892a33fa82b0",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "我之所以選擇貴所，是因為交通大學資訊工程學系在機器學習與智慧型計算領域的卓越聲譽與豐沛資源。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所選擇動機"
+      },
+      "hashtags": [
+        "交通大學資工系",
+        "機器學習",
+        "智慧型計算"
+      ]
     },
     {
       "id": "31efb4d2-0cec-409d-945e-585d7b03c65a",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "貴所不僅擁有許多在相關領域深耕的頂尖教授，更有許多與產業緊密合作的機會。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所資源認知"
+      },
+      "hashtags": [
+        "頂尖教授",
+        "產業合作機會"
+      ]
     },
     {
       "id": "697ef0b2-4219-470e-a30f-dfe2d2f5af6b",
       "candidate_id": "mock_13",
       "section": "自傳",
       "content": "我渴望能在貴所的引導下，系統性地學習更深奧的演算法理論、先進的深度學習模型，並將我過去在財金領域的知識與資工技術完美結合，期待未來能在智慧金融或智慧決策的應用中貢獻一己之力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來學習與職涯規劃",
+        "C1": "跨域知識整合目標"
+      },
+      "hashtags": [
+        "演算法理論",
+        "深度學習模型",
+        "財金領域",
+        "資工技術",
+        "智慧金融",
+        "智慧決策"
+      ]
     },
     {
       "id": "68191c35-90f9-4d4f-8fe0-49a69cf44d3c",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "進入交通大學資訊工程學系研究所後，我期望能循序漸進地充實自己的專業知識與實作能力，並將個人興趣與學術研究緊密結合，為未來的職涯發展奠定穩固基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所學習目標"
+      },
       "hashtags": []
     },
     {
@@ -262,8 +486,12 @@
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我的讀書計畫將分為短期、中期與長期目標。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "讀書計畫架構"
+      },
       "hashtags": []
     },
     {
@@ -271,72 +499,137 @@
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "在入學初期，我會積極適應研究所的學習節奏，並專注於補強基礎理論與強化實作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "基礎理論補強",
+        "C4": "研究所適應規劃"
+      },
+      "hashtags": [
+        "基礎理論",
+        "實作能力"
+      ]
     },
     {
       "id": "43dea068-bbfa-4dd2-8b06-0ab1ca730aef",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我會優先選修貴所開設的機器學習相關核心課程，例如「深度學習」、「機器學習導論」等。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程規劃與學術方向"
+      },
+      "hashtags": [
+        "機器學習",
+        "深度學習",
+        "機器學習導論"
+      ]
     },
     {
       "id": "f13ad213-075c-41ac-972b-4ce35f7b24b4",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "但我深知研究所課程的深度與廣度會更高，因此會更深入學習其背後的數學原理與演算法細節。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "深入學術原理探究"
+      },
+      "hashtags": [
+        "數學原理",
+        "演算法細節"
+      ]
     },
     {
       "id": "858f90e5-5bef-474a-9d6b-30f7dd1f741e",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "同時，我也會加強資料結構與演算法等資訊科學基本功的練習，確保自己在面對複雜問題時，能有更紮實的底層思維。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "資訊科學基本功",
+        "C3": "複雜問題底層思維"
+      },
+      "hashtags": [
+        "資料結構",
+        "演算法"
+      ]
     },
     {
       "id": "2929197a-2734-4299-991e-4c694fb84cb9",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "此外，我會主動閱讀最新的學術論文，尤其是與智慧金融、推薦系統或自然語言處理在特定領域應用的相關研究，初步了解各研究室的方向。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索規劃",
+        "C1": "學術論文閱讀"
+      },
+      "hashtags": [
+        "學術論文",
+        "智慧金融",
+        "推薦系統",
+        "自然語言處理"
+      ]
     },
     {
       "id": "c6dc420e-1c77-4a52-9511-cda67c1ef8c1",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我會積極參加系上舉辦的學術研討會或專題演講，拓寬視野",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術交流參與"
+      },
+      "hashtags": [
+        "學術研討會",
+        "專題演講"
+      ]
     },
     {
       "id": "9ffa3f99-fab5-46de-a5d2-3aa7b80d2cca",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "並試著主動與學長姐交流，請教研究經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究經驗交流"
+      },
+      "hashtags": [
+        "學長姐交流",
+        "研究經驗"
+      ]
     },
     {
       "id": "01bdb4ce-e2ca-43a1-a850-afac94cbdcbb",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "在確定指導教授方向之前，我會透過課堂表現與積極參與討論來展現學習熱忱。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習熱忱展現"
+      },
+      "hashtags": [
+        "課堂表現",
+        "積極討論"
+      ]
     },
     {
       "id": "abeb8eb5-35a1-4cb8-876e-14885388fecc",
@@ -352,90 +645,200 @@
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我目前對「強化學習在量化交易策略優化」或「大型語言模型於金融文本情感分析」等主題充滿興趣，希望能跟隨對應研究方向的教授進行學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "具體研究興趣",
+        "C4": "研究方向規劃"
+      },
+      "hashtags": [
+        "強化學習",
+        "量化交易",
+        "大型語言模型",
+        "金融文本情感分析"
+      ]
     },
     {
       "id": "16949e25-8d09-4fe4-8923-bd7b5e9cbffd",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我會努力參與實驗室的各項專案，從中學習如何確立研究問題、設計實驗、收集與分析數據，以及撰寫學術論文。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "研究問題解決流程",
+        "C4": "學術論文撰寫"
+      },
+      "hashtags": [
+        "研究問題確立",
+        "實驗設計",
+        "數據分析",
+        "學術論文撰寫"
+      ]
     },
     {
       "id": "bafaeefb-e705-4e2f-9c8d-97065ced4a6d",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我會將所學的機器學習、深度學習知識應用於實際問題，並嘗試探索新的模型架構或演算法改進方法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "機器學習應用與創新",
+        "C3": "演算法改進探索"
+      },
+      "hashtags": [
+        "機器學習應用",
+        "深度學習應用",
+        "模型架構探索",
+        "演算法改進"
+      ]
     },
     {
       "id": "150e5752-5a2b-4b66-b400-10e1916c77cc",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "例如，在處理金融數據時，我會考慮如何將財金領域的專業知識融入模型中，使模型更具解釋性與實用性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域知識整合應用",
+        "C3": "模型解釋性與實用性思考"
+      },
+      "hashtags": [
+        "金融數據",
+        "財金領域知識",
+        "模型解釋性",
+        "模型實用性"
+      ]
     },
     {
       "id": "849c8a58-3649-4e7b-9673-15281e325795",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我期望能在中期階段，能至少參與完成一份具備潛力可在學術會議發表的研究成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術研究成果規劃",
+        "C3": "研究問題解決能力"
+      },
+      "hashtags": [
+        "學術會議發表",
+        "研究成果"
+      ]
     },
     {
       "id": "f5e5e273-a6e6-4806-8be9-276c6ed54cc0",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "同時，我也會持續精進程式開發能力，學習更多高效能運算、雲端部署等相關技術，確保研究成果能有效實作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式開發與技術實作",
+        "C4": "技術能力持續精進"
+      },
+      "hashtags": [
+        "程式開發",
+        "高效能運算",
+        "雲端部署",
+        "研究成果實作"
+      ]
     },
     {
       "id": "9e2a1f51-209f-47a8-9b8d-4d25cea8724c",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "畢業後，我希望能夠將在研究所學到的機器學習與智慧型計算的專業知識，應用於充滿挑戰且快速發展的金融科技（FinTech）產業。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃",
+        "C1": "學術知識產業應用"
+      },
+      "hashtags": [
+        "金融科技產業",
+        "FinTech",
+        "機器學習應用",
+        "智慧型計算"
+      ]
     },
     {
       "id": "0a260f1a-ae60-4322-9ca0-6d6dfc210209",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "無論是投入數據科學家、機器學習工程師的角色，從事智慧投資、風險管理、詐欺偵測等領域的研發工作，或是未來有機會進入學術界繼續深造，我都希望能不斷學習與成長。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "多元職涯發展願景",
+        "C1": "專業領域應用規劃"
+      },
+      "hashtags": [
+        "數據科學家",
+        "機器學習工程師",
+        "智慧投資",
+        "風險管理",
+        "詐欺偵測",
+        "學術深造"
+      ]
     },
     {
       "id": "2a4818d5-78f0-48d9-8b12-0848e7deaddf",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我相信在交大資工所紮實的訓練，將使我具備解決複雜問題的能力，並能持續為科技與金融的跨域整合貢獻我的專業。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "複雜問題解決能力",
+        "C1": "科技金融跨域整合"
+      },
+      "hashtags": [
+        "複雜問題解決",
+        "科技金融整合",
+        "跨域貢獻"
+      ]
     },
     {
       "id": "3f6760a6-8ba5-4908-a9ec-30ead1cfe088",
       "candidate_id": "mock_13",
       "section": "讀書計畫",
       "content": "我對未來的發展充滿期待，也相信自己能夠在貴所的培養下，成為兼具理論深度與實作能力的專業人才。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "個人成長與發展願景",
+        "C1": "理論深度培養",
+        "C2": "實作能力養成"
+      },
+      "hashtags": [
+        "理論深度",
+        "實作能力",
+        "專業人才"
+      ]
     }
   ]
 }

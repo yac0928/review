@@ -10,17 +10,28 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我是高晨恩，來自淡江大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景說明"
+      },
+      "hashtags": [
+        "淡江大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "ab5e9ce1-b42e-4c71-9b6b-6bd7d544a64e",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "今天我帶著一顆誠摯的心，申請貴校資訊工程學系的碩士班。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "申請動機陳述"
+      },
       "hashtags": []
     },
     {
@@ -28,17 +39,30 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "這些年來，我對於資訊工程這個領域一直抱持著相當濃厚的興趣，尤其是圖學、動畫、遊戲與數位學習這些面向，更是深深吸引著我，讓我總想更深入地去探索它。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣領域"
+      },
+      "hashtags": [
+        "圖學",
+        "動畫",
+        "遊戲",
+        "數位學習"
+      ]
     },
     {
       "id": "4d29f156-67e7-490b-9e2a-c72627fbd05d",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "回顧我在大學的這段時光，我的學習路徑或許跟一般同學有點不太一樣。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習路徑反思"
+      },
       "hashtags": []
     },
     {
@@ -46,8 +70,12 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我承認，我的學業成績，也就是修課平均大概在 2.08 左右，並不算特別突出，甚至可以說有些抱歉。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績自述"
+      },
       "hashtags": []
     },
     {
@@ -55,17 +83,28 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "但我把大部分的熱情與精力都投入到了實際的技術鑽研和專案實作上",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術實作投入"
+      },
+      "hashtags": [
+        "技術鑽研",
+        "專案實作"
+      ]
     },
     {
       "id": "da28ebf1-d311-412b-8ccf-6056cc34f693",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "因為我覺得這才是真正培養我能力的地方。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "能力培養認知"
+      },
       "hashtags": []
     },
     {
@@ -73,9 +112,18 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我總覺得，動手做，去解決實際問題，才能學到課本上學不到的東西。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "實作問題解決觀",
+        "C4": "課外學習反思"
+      },
+      "hashtags": [
+        "動手實作",
+        "解決實際問題"
+      ]
     },
     {
       "id": "074fd6b5-054e-4375-a4f4-6c639775a88b",
@@ -91,288 +139,554 @@
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "那段時間真的學到很多，不只是演算法和資料結構這些技術細節，更重要的是如何在高壓下思考、如何跟隊友合作解決複雜的問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "演算法資料結構",
+        "C3": "高壓協作解題"
+      },
+      "hashtags": [
+        "演算法",
+        "資料結構",
+        "高壓思考",
+        "團隊合作"
+      ]
     },
     {
       "id": "e1d36133-27e6-4acf-92d1-534d5d8e7a36",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "但每一次的準備和實戰，都讓我對程式邏輯和解決問題的能力有更深的體會。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "程式邏輯與問題解決體會"
+      },
+      "hashtags": [
+        "程式邏輯",
+        "解決問題能力"
+      ]
     },
     {
       "id": "17204c1d-866f-4cdd-81ac-fc598a6ae228",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "這對我後來處理其他技術問題時，幫助真的非常大，讓我面對困難時比較不會退縮。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術問題應對與韌性"
+      },
+      "hashtags": [
+        "技術問題應對",
+        "面對困難韌性"
+      ]
     },
     {
       "id": "270009b5-76a4-4040-a0cf-3baae5544df0",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我也有幸在學校的「互動多媒體實驗室」裡待過一段時間。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗室參與經驗"
+      },
+      "hashtags": [
+        "互動多媒體實驗室"
+      ]
     },
     {
       "id": "c9000e89-45c9-4845-8a33-139dc12efb78",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "那時候我們主要在研究一些關於虛擬實境應用與遊戲開發相關的東西。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "虛擬實境與遊戲開發研究"
+      },
+      "hashtags": [
+        "虛擬實境應用",
+        "遊戲開發"
+      ]
     },
     {
       "id": "d6b12c21-fb7f-4ec4-a8e0-89ded0756563",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我主要負責一些底層的渲染優化和互動機制設計。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "底層技術實作與設計"
+      },
+      "hashtags": [
+        "渲染優化",
+        "互動機制設計"
+      ]
     },
     {
       "id": "ef1648bd-0e96-403f-a2b6-8f9299c3a829",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "還記得當時要讓虛擬場景跑得順暢，而且玩家互動起來不能有延遲，真的是個很大的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "虛擬場景效能挑戰",
+        "C3": "技術問題識別"
+      },
+      "hashtags": [
+        "虛擬場景流暢",
+        "玩家互動延遲"
+      ]
     },
     {
       "id": "b7314965-7f10-4bf8-9d63-4b5f7dfb2816",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我們嘗試了很多種演算法，也花了很多時間去調整程式碼。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "演算法實作與調校",
+        "C3": "問題解決策略應用"
+      },
+      "hashtags": [
+        "演算法嘗試",
+        "程式碼調整"
+      ]
     },
     {
       "id": "043bcdc7-f71e-4b55-8d9e-f93fea8438b3",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "過程中當然也遇到很多問題，比方說畫面卡頓啦，或是效果不如預期之類的。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題識別與分析"
+      },
+      "hashtags": [
+        "畫面卡頓",
+        "效果不如預期"
+      ]
     },
     {
       "id": "38ebbda1-daec-436f-a39e-ac5d4503eb5a",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我們就是一直試、一直改，雖然最後的成果感覺還有很大的進步空間",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "迭代嘗試與改進"
+      },
+      "hashtags": [
+        "迭代開發",
+        "持續改進"
+      ]
     },
     {
       "id": "9c596007-52e6-4fdb-a213-6bdb1ff57535",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "但這段經驗真的讓我學到了很多關於圖學渲染和使用者體驗設計的寶貴知識，也培養了我解決問題的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專業知識習得",
+        "C3": "問題解決能力培養"
+      },
+      "hashtags": [
+        "圖學渲染",
+        "使用者體驗設計",
+        "解決問題能力"
+      ]
     },
     {
       "id": "c726ce55-fa41-44c5-91dd-10fba0ccaeb8",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "除此之外，我大學畢業後也曾經在新創遊戲公司兼職過一陣子，擔任前端開發工程師。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "前端開發實務"
+      },
+      "hashtags": [
+        "新創遊戲公司",
+        "前端開發工程師",
+        "兼職經驗"
+      ]
     },
     {
       "id": "75ed884a-5caf-4309-9221-6f0e55f66707",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "這段實務經驗讓我接觸到了真實世界的開發流程，從需求分析到功能實作，再到後續的維護，都讓我獲益良多。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "軟體開發流程理解"
+      },
+      "hashtags": [
+        "開發流程",
+        "需求分析",
+        "功能實作",
+        "系統維護"
+      ]
     },
     {
       "id": "9a39afbd-40e1-4559-abcf-606270f502d8",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我學會了怎麼跟不同職位的同事協作，怎麼在時間壓力下完成任務，還有怎麼面對產品上線後可能出現的各種問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "實務問題解決",
+        "C4": "跨職能協作與壓力管理"
+      },
+      "hashtags": [
+        "跨職位協作",
+        "時間壓力",
+        "產品問題處理"
+      ]
     },
     {
       "id": "8d918bad-b700-453b-a465-8d6ed58dd7a5",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "實際開發遊戲跟自己一個人做專案很不一樣，要考慮的面向更多，也更考驗團隊合作的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "專案複雜度認知",
+        "C4": "團隊協作能力"
+      },
+      "hashtags": [
+        "遊戲開發",
+        "團隊合作",
+        "專案複雜度"
+      ]
     },
     {
       "id": "a6244b20-df2d-4b49-ba7c-cf2a84ca8ce6",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我覺得這段經驗讓我對軟體開發的整個生命週期有了更全面的了解，對我未來的發展也很有幫助。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "軟體生命週期理解",
+        "C4": "職涯發展助益"
+      },
+      "hashtags": [
+        "軟體開發生命週期",
+        "職涯發展"
+      ]
     },
     {
       "id": "e50ce3d5-cd39-413b-a1fd-f3f99f9b75e1",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我之所以會想申請交大資工所，主要還是覺得自己的技術能力還有很大的進步空間，而且對圖學、遊戲和數位學習這些領域真的很有熱情，希望能在更專業的環境下繼續深造。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "特定領域學術熱情",
+        "C4": "技術能力精進規劃"
+      },
+      "hashtags": [
+        "交大資工所",
+        "圖學",
+        "遊戲",
+        "數位學習",
+        "技術精進"
+      ]
     },
     {
       "id": "893491cb-b8b8-4ac6-bd47-9462398f8f8f",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "交大資工系一直都是國內資工領域的頂尖學府，有著非常豐富的資源和優秀的師資，我覺得這裡的學術氛圍一定能讓我學到更多、看得更遠。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術環境選擇動機"
+      },
+      "hashtags": [
+        "交大資工",
+        "頂尖學府",
+        "豐富資源",
+        "優秀師資"
+      ]
     },
     {
       "id": "cceab3cc-128d-4f2c-afa9-1c68257db50e",
       "candidate_id": "mock_27",
       "section": "自傳",
       "content": "我希望能夠在交大資工所裡，找到一個能讓我盡情探索、專心研究的環境，彌補我大學學業上的不足，並將我對技術的熱情轉化為更扎實的研究成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術基礎補強",
+        "C4": "研究成果轉化目標"
+      },
+      "hashtags": [
+        "探索研究",
+        "學業不足彌補",
+        "技術熱情",
+        "研究成果"
+      ]
     },
     {
       "id": "6cbfa7db-ad32-41ec-b5b7-b7beacc95872",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "來到交大資工，我對未來的學習和研究充滿了期待，也為自己規劃了一些方向，希望能一步步地實現我的目標。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來學習研究規劃"
+      },
+      "hashtags": [
+        "學習期待",
+        "研究期待",
+        "目標規劃"
+      ]
     },
     {
       "id": "479f52fa-f7f0-4923-858b-5b1e9e22c70c",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "在入學的第一年，我會把重心放在適應研究所的學習節奏，並努力補足我目前在學術基礎上可能不足的地方。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術基礎強化",
+        "C4": "研究所適應規劃"
+      },
+      "hashtags": [
+        "研究所適應",
+        "學術基礎補強",
+        "第一年規劃"
+      ]
     },
     {
       "id": "a0765354-0bf9-4de9-ae10-b636eba3bf86",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我會積極修習一些核心課程，例如高等演算法、計算機圖學等相關課程，鞏固我的理論基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程修習"
+      },
+      "hashtags": [
+        "高等演算法",
+        "計算機圖學"
+      ]
     },
     {
       "id": "27103470-5a4a-47e1-b8a5-8645a2737732",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我知道研究所的課程深度和廣度都會比大學時期有很大的提升，所以我也會花更多時間去閱讀相關的學術論文，了解目前研究領域的最新進展和趨勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術論文閱讀"
+      },
+      "hashtags": [
+        "學術論文",
+        "研究趨勢"
+      ]
     },
     {
       "id": "4d977fd0-38b5-4ef6-bf25-62e4252baf1b",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "同時，我會主動與系上的教授們交流，特別是那些研究方向與圖學、遊戲、虛擬實境或數位學習相關的老師。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "教授交流規劃"
+      },
+      "hashtags": [
+        "圖學",
+        "遊戲",
+        "虛擬實境",
+        "數位學習"
+      ]
     },
     {
       "id": "48fce00f-6824-4cd4-8dcf-3560cc5d2f34",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我會努力了解他們的專長和實驗室文化，希望能夠找到一位理念相符的指導教授，並且能夠盡早加入實驗室，開始接觸實際的研究工作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "指導教授尋找"
+      },
+      "hashtags": [
+        "指導教授",
+        "實驗室"
+      ]
     },
     {
       "id": "0dec594a-40df-40e2-be2a-65e68dfb58ad",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我相信，透過這些努力，我能夠逐步培養起獨立的研究能力，為之後更深入的專題研究打下堅實的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "獨立研究能力培養"
+      },
+      "hashtags": [
+        "獨立研究能力"
+      ]
     },
     {
       "id": "84e78be5-b16d-4016-ae09-c56bafcda67e",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "到了研究所的第二年，我會希望能夠更明確地鎖定我的研究主題，並開始深入地投入研究。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究主題鎖定"
+      },
+      "hashtags": [
+        "研究主題"
+      ]
     },
     {
       "id": "a969e6f8-6d81-45c7-b70a-b3b9a466addb",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "在教授的指導下，我會積極參與實驗室的專案，並且貢獻自己的技術能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "實驗室專案參與"
+      },
+      "hashtags": [
+        "實驗室專案",
+        "技術能力"
+      ]
     },
     {
       "id": "047821e8-3a81-4a08-9692-5f17ba22391b",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我會嘗試將我過去在程式設計競賽中培養的解決問題能力，以及在大學實驗室和業界兼職所累積的實作經驗應用到我的研究中。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "實作經驗應用",
+        "C3": "問題解決能力應用"
+      },
+      "hashtags": [
+        "程式設計競賽",
+        "解決問題能力",
+        "大學實驗室",
+        "業界兼職",
+        "實作經驗"
+      ]
     },
     {
       "id": "766037b5-0a7a-47b6-b028-e5a79c54579d",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我也會專注於我的碩士論文，希望能夠在選定的主題上做出一些有意義的成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "碩士論文規劃"
+      },
+      "hashtags": [
+        "碩士論文",
+        "研究成果"
+      ]
     },
     {
       "id": "52b12f9f-8a1a-4b74-aa66-22bc05803e0d",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "這段時間我會特別加強我的技術實作能力，因為我知道研究的很多想法都需要透過程式碼去實現和驗證。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術實作能力強化"
+      },
+      "hashtags": [
+        "技術實作能力",
+        "程式碼實現"
+      ]
     },
     {
       "id": "5852c0aa-77e7-457d-83d5-4610cb2e2f7f",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我也會考慮參加一些國內外的研討會，如果能有機會發表一些初步的成果，那會是一個很大的鼓勵，也能讓我從同行那裡獲得更多寶貴的意見。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術交流與成果發表"
+      },
+      "hashtags": [
+        "國內外研討會",
+        "發表初步成果",
+        "同行寶貴意見"
+      ]
     },
     {
       "id": "e0ceefe5-e922-4d9c-a9b3-21dcf953ac68",
@@ -388,27 +702,57 @@
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "無論是選擇進入業界，成為一名優秀的軟體工程師，專精於遊戲開發、動畫製作或是數位學習內容的設計；或者如果未來有機會，我也很樂意繼續攻讀博士學位，在學術的道路上持續探索。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "多元職涯規劃"
+      },
+      "hashtags": [
+        "軟體工程師",
+        "遊戲開發",
+        "動畫製作",
+        "數位學習內容設計",
+        "攻讀博士學位"
+      ]
     },
     {
       "id": "614cf0a0-d103-4cb1-8203-66ee3a871ffe",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我希望自己能夠在圖學、遊戲或數位學習這些方面，持續學習並精進，最終能夠為這個領域帶來一些自己的貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習與貢獻"
+      },
+      "hashtags": [
+        "圖學",
+        "遊戲",
+        "數位學習",
+        "持續學習",
+        "領域貢獻"
+      ]
     },
     {
       "id": "409560f3-eefc-473f-b326-73726c027213",
       "candidate_id": "mock_27",
       "section": "讀書計畫",
       "content": "我相信在交大資工所的訓練，將會是我實現這些目標的重要基石，讓我成為一個能夠持續成長、解決問題的專業人士。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "自我成長期許",
+        "C3": "問題解決能力培養"
+      },
+      "hashtags": [
+        "持續成長",
+        "解決問題",
+        "專業人士"
+      ]
     }
   ]
 }

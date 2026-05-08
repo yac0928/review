@@ -10,35 +10,59 @@
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我是盧昀霖，來自中興大學電機工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學校科系背景"
+      },
+      "hashtags": [
+        "中興大學",
+        "電機工程學系"
+      ]
     },
     {
       "id": "7566ce1a-4ed6-411b-ad0f-515705215779",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "大學四年，我學習了電機領域的紮實基礎，尤其在電子設計自動化（EDA）和數位邏輯設計方面投入較多心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業學科基礎"
+      },
+      "hashtags": [
+        "電子設計自動化",
+        "數位邏輯設計"
+      ]
     },
     {
       "id": "835a7260-27bf-4a55-8c4c-fbfcc0bea49c",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "然而，回顧我的大學生涯，除了課業學習，更多時間與熱情其實傾注在校園社團活動上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外活動投入"
+      },
+      "hashtags": [
+        "校園社團活動"
+      ]
     },
     {
       "id": "2f49fb0a-58fa-4c3a-b9ae-edbe1cecb8f5",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我深知，這或許導致我 2.77 的學業成績不盡理想，未能充分展現我在技術學習上的潛力，",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學業表現反思"
+      },
       "hashtags": []
     },
     {
@@ -46,360 +70,722 @@
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "但這也讓我磨練出獨特的領導力與溝通協調能力，成為未來職場不可或缺的軟實力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "軟實力培養"
+      },
+      "hashtags": [
+        "領導力",
+        "溝通協調能力",
+        "職場軟實力"
+      ]
     },
     {
       "id": "8f216f9c-4152-4575-819f-5660a74120e2",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "在大二至大三期間，我擔任了中興大學學生會的活動部部長。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學生會職務"
+      },
+      "hashtags": [
+        "中興大學學生會",
+        "活動部部長"
+      ]
     },
     {
       "id": "1378cc19-e4ad-47c1-b92c-c2c5af5f1b59",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "這是一個挑戰性極高的職位，我負責規劃並執行全校性的大型活動，例如「興夜祭」校慶晚會和「校園路跑」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "大型活動策劃"
+      },
+      "hashtags": [
+        "興夜祭",
+        "校園路跑",
+        "全校性活動"
+      ]
     },
     {
       "id": "21ea178f-a2e3-44cf-a73f-643702493e8a",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "在籌備「興夜祭」時，我帶領了 15 人的核心團隊，從贊助廠商洽談、舞台設計、藝人邀請到現場維安，每個環節都需精準掌控。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "團隊領導與執行"
+      },
+      "hashtags": [
+        "興夜祭",
+        "團隊領導",
+        "贊助洽談",
+        "舞台設計",
+        "現場維安"
+      ]
     },
     {
       "id": "3e9026a4-117c-41fa-9d25-bacee9ce7a44",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我成功說服了三家知名企業贊助總計 30 萬元的經費，",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "募款與協商"
+      },
+      "hashtags": [
+        "企業贊助",
+        "募款成功"
+      ]
     },
     {
       "id": "0a795d36-b883-4fa0-9541-b33fe7832fa8",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "並在活動當晚動員超過 50 位志工，確保 2000 多名師生能安全、盡興地參與。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "資源動員與執行"
+      },
+      "hashtags": [
+        "志工動員",
+        "活動安全",
+        "師生參與"
+      ]
     },
     {
       "id": "a5543c3d-8571-46f6-99c8-6890e63b999f",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "這次經驗讓我第一次體會到，一個宏大計畫的成功，不僅依賴清晰的藍圖，更需要團隊成員間無縫的溝通與問題解決能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決能力體悟",
+        "C4": "團隊溝通重要性"
+      },
+      "hashtags": [
+        "團隊溝通",
+        "問題解決能力",
+        "專案成功要素"
+      ]
     },
     {
       "id": "38e3801d-e031-4fd5-869d-c27793ca25b9",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我學會了在壓力下快速做出決策，並有效整合不同專業背景的夥伴，共同達成目標。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "壓力下決策能力",
+        "C4": "跨專業團隊整合"
+      },
+      "hashtags": [
+        "壓力決策",
+        "跨專業整合",
+        "團隊協作"
+      ]
     },
     {
       "id": "896c6652-bff2-4176-b8d5-fd47ce7e2a7c",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "大三升大四的暑假，我獲得了在一家新創科技公司「藍海智能」擔任產品經理（PM）實習生的機會。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業實習經驗"
+      },
+      "hashtags": [
+        "藍海智能",
+        "產品經理實習",
+        "新創科技公司"
+      ]
     },
     {
       "id": "32927f3d-377a-4c66-aa38-fce9731f07eb",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "雖然職位並非純技術導向，但這段經歷讓我對軟體產品的開發流程和市場需求有了第一手的認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "軟體產品開發認知"
+      },
+      "hashtags": [
+        "軟體產品開發",
+        "市場需求",
+        "開發流程"
+      ]
     },
     {
       "id": "79b1da0f-3b19-4c2e-931a-f76675eb93f4",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我參與了核心產品「智慧客服系統」的迭代開發，負責執行使用者訪談，總共訪談了 25 位企業客戶，分析他們的痛點與需求，並將其轉化為具體的產品功能規格書。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "產品功能規格制定",
+        "C3": "使用者需求分析"
+      },
+      "hashtags": [
+        "智慧客服系統",
+        "迭代開發",
+        "使用者訪談",
+        "企業客戶",
+        "產品功能規格書"
+      ]
     },
     {
       "id": "08b19139-5697-4076-886f-68051d97dc88",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我與工程師團隊緊密合作，協調開發進度，確保新功能在預定時程內上線。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨團隊開發協調"
+      },
+      "hashtags": [
+        "工程師團隊",
+        "開發進度協調",
+        "新功能上線"
+      ]
     },
     {
       "id": "6bee4a72-2a1f-4315-9dc6-db7a24fb86b9",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "其中，我提出並主導了一個針對「常見問題自動回覆」功能的優化專案，導入了基於關鍵字比對的初步模型，",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "關鍵字比對模型導入",
+        "C3": "功能優化專案主導"
+      },
+      "hashtags": [
+        "常見問題自動回覆",
+        "優化專案",
+        "關鍵字比對模型"
+      ]
     },
     {
       "id": "546fc6a9-3902-4559-8804-70ee71af7eb7",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "成功讓客服人員處理簡單重複問題的時間減少了約 15%，大幅提升了客服效率。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術應用成效展現",
+        "C3": "客服效率提升"
+      },
+      "hashtags": [
+        "客服效率提升",
+        "時間減少15%",
+        "重複問題處理"
+      ]
     },
     {
       "id": "50e07434-e671-4c8d-ba2c-ce6ded3aa2e6",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "這次實習讓我深刻體會到，一個卓越的軟體產品，不僅要有強大的技術基底，更要能精準回應使用者的真實需求。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "產品開發綜合洞察",
+        "C1": "技術基底重要性認知"
+      },
+      "hashtags": [
+        "軟體產品",
+        "技術基底",
+        "使用者需求"
+      ]
     },
     {
       "id": "e327a5ed-37ce-4b22-bbda-aca89d29d9fb",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "這也激發了我深入了解資訊工程核心技術的強烈動機，希望未來能以更全面的視角參與產品開發。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來學習與職涯規劃",
+        "C1": "資工核心技術學習動機"
+      },
+      "hashtags": [
+        "資訊工程核心技術",
+        "產品開發視角",
+        "學習動機"
+      ]
     },
     {
       "id": "a74ca9d6-93f6-4f47-a19a-60645d591075",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我在電機系所學的硬體與 EDA 知識，讓我對半導體和晶片設計的世界有了一定認識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景知識"
+      },
+      "hashtags": [
+        "電機系",
+        "硬體知識",
+        "EDA知識",
+        "半導體",
+        "晶片設計"
+      ]
     },
     {
       "id": "77d46c53-73be-49fe-bda4-41004be41a87",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "然而，隨著人工智慧、物聯網等技術的快速發展，我意識到軟體扮演著越來越關鍵的角色，",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "產業趨勢洞察"
+      },
+      "hashtags": [
+        "人工智慧",
+        "物聯網",
+        "軟體重要性"
+      ]
     },
     {
       "id": "6d2de89b-e1c4-44be-8196-e4deda3dea52",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "軟硬體的整合能力將是未來工程師的核心競爭力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來能力展望"
+      },
+      "hashtags": [
+        "軟硬體整合",
+        "核心競爭力"
+      ]
     },
     {
       "id": "ed63c5c4-7018-4910-9a3f-4d38e77817c4",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我渴望將我在社團與實習中培養的專案管理、人際溝通能力，與更深厚的資訊工程專業知識結合，成為一個能夠串聯技術與市場需求、推動產品創新的綜合型人才。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃"
+      },
+      "hashtags": [
+        "專案管理",
+        "人際溝通",
+        "產品創新",
+        "綜合型人才"
+      ]
     },
     {
       "id": "bb5c7462-0343-4751-a4aa-3229d0b84f50",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "交大資工所擁有頂尖的師資、豐富的研究資源與跨領域的合作機會，",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所資源認知"
+      },
+      "hashtags": [
+        "頂尖師資",
+        "研究資源",
+        "跨領域合作"
+      ]
     },
     {
       "id": "f295ef6f-9724-4c59-9729-6a6fae2cd52b",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "特別是在系統晶片設計與嵌入式系統方面，貴所的深度讓我嚮往。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術領域興趣"
+      },
+      "hashtags": [
+        "系統晶片設計",
+        "嵌入式系統"
+      ]
     },
     {
       "id": "47e7ad84-f662-410a-b2d4-f4960157f9c4",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我希望能在這裡，補足我在資訊工程基礎上的不足，",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "基礎知識補強"
+      },
+      "hashtags": [
+        "資訊工程基礎"
+      ]
     },
     {
       "id": "01a8aead-5a99-4291-9bb2-2ed6036c045e",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "並進一步探索我對軟硬體整合應用、或是人工智慧在實際系統中的部署應用等議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "研究方向探索"
+      },
+      "hashtags": [
+        "軟硬體整合應用",
+        "人工智慧部署",
+        "實際系統應用"
+      ]
     },
     {
       "id": "5ccff61b-8ec5-44d6-8abd-c83be481a29b",
       "candidate_id": "mock_43",
       "section": "自傳",
       "content": "我深信，憑藉我的學習熱情與過往累積的軟實力，我能快速融入貴所的學習環境，為自己、也為未來的產業發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "個人特質與抱負"
+      },
+      "hashtags": [
+        "學習熱情",
+        "軟實力",
+        "產業貢獻"
+      ]
     },
     {
       "id": "ac586f0a-bd66-4283-a335-b10675d189e0",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "進入國立陽明交通大學資訊工程學系碩士班，我的目標是透過系統性的學習與實務專題，深化資訊工程專業知識，並探索軟硬體整合的創新應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業知識深化",
+        "C2": "實務應用探索"
+      },
+      "hashtags": [
+        "資訊工程專業",
+        "實務專題",
+        "軟硬體整合",
+        "創新應用"
+      ]
     },
     {
       "id": "9d81be18-1e26-4989-bfa3-f6a20a418aaa",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "針對資料結構與演算法進行自學複習，預計完成 LeetCode 上約 50 道基礎與中等難度題目，並透過 Coursera 上的 Algorithms Specialization 課程補強。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "演算法基礎強化",
+        "C4": "自主學習規劃"
+      },
+      "hashtags": [
+        "資料結構",
+        "演算法",
+        "LeetCode",
+        "Coursera"
+      ]
     },
     {
       "id": "832cd3d1-30dd-4952-b25b-425a1b220b26",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "精進 Python 與 C++ 程式能力，熟悉物件導向程式設計，為碩班課程與實驗室專案打下基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "程式語言能力精進"
+      },
+      "hashtags": [
+        "Python",
+        "C++",
+        "物件導向程式設計"
+      ]
     },
     {
       "id": "9e3855ed-e2bc-4e37-b6bc-b92a2323b5c7",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "複習線性代數與機率統計，尤其是對機器學習與資料分析至關重要的概念。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "數理統計基礎複習"
+      },
+      "hashtags": [
+        "線性代數",
+        "機率統計",
+        "機器學習",
+        "資料分析"
+      ]
     },
     {
       "id": "78f5aad1-dd8d-4b9e-b0c3-27fe84af1274",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "修習高等演算法、作業系統、計算機網路等資工核心課程，目標是深入理解這些基礎理論與實作細節。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "資工核心理論學習"
+      },
+      "hashtags": [
+        "高等演算法",
+        "作業系統",
+        "計算機網路"
+      ]
     },
     {
       "id": "af76c449-62cf-423e-becf-01b44b598fc9",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "特別感興趣貴所開設的「嵌入式系統設計」或「系統晶片設計」相關課程，希望能將我電機系的硬體背景與資工知識結合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域課程興趣",
+        "C4": "跨域知識整合規劃"
+      },
+      "hashtags": [
+        "嵌入式系統設計",
+        "系統晶片設計",
+        "電機系硬體背景",
+        "資工知識結合"
+      ]
     },
     {
       "id": "325c1b30-4b26-402c-bce7-108abac5c53d",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "積極參與各實驗室的專題介紹或舉辦的研討會，了解不同研究領域的最新進展，並與教授、學長姐交流，以尋找最符合我興趣與未來發展方向的研究主題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索與規劃"
+      },
+      "hashtags": [
+        "實驗室專題",
+        "研討會",
+        "研究主題探索",
+        "教授交流"
+      ]
     },
     {
       "id": "6060242b-560d-4527-acaf-ba3aeaabb60e",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "我傾向於探索與我的 EDA 背景相關的軟硬體協同設計、嵌入式 AI 或物聯網系統應用。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究興趣與方向"
+      },
+      "hashtags": [
+        "EDA背景",
+        "軟硬體協同設計",
+        "嵌入式AI",
+        "物聯網系統應用"
+      ]
     },
     {
       "id": "47b09e1c-4652-4613-861a-9f9f3b592550",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "主動爭取參與小型研究專案或課程專題，將所學知識應用於實際問題，",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "知識應用實作意願"
+      },
+      "hashtags": [
+        "研究專案",
+        "課程專題",
+        "實際問題應用"
+      ]
     },
     {
       "id": "d67f9af5-b322-48b7-93d9-930345c3a00e",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "例如在專題中嘗試使用 Arduino 或 Raspberry Pi 平台，結合我過去電機系的基礎，開發一個具備 AI 功能的物聯網原型裝置。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "跨域專題開發實作",
+        "C1": "跨域知識整合應用"
+      },
+      "hashtags": [
+        "Arduino",
+        "Raspberry Pi",
+        "AI功能",
+        "物聯網原型裝置",
+        "電機系基礎"
+      ]
     },
     {
       "id": "025b1104-317b-48cc-8937-0abd45914dd3",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "確定研究主題後，專注於碩士論文的研究與撰寫。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "碩士論文規劃"
+      },
+      "hashtags": [
+        "碩士論文研究",
+        "論文撰寫"
+      ]
     },
     {
       "id": "79b55646-1740-4ed4-b8be-646bcffb44ff",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "我希望能在老師指導下，針對軟硬體整合或嵌入式系統中的效能優化、資源管理或安全性等議題進行探討。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "特定領域研究興趣"
+      },
+      "hashtags": [
+        "軟硬體整合",
+        "嵌入式系統",
+        "效能優化",
+        "資源管理",
+        "安全性議題"
+      ]
     },
     {
       "id": "98d4960f-2cc4-448f-89c9-90c20a2b1cc0",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "根據研究方向，選修相關的進階課程，如「高等人工智慧」、「深度學習」、「數位積體電路設計」或「物聯網技術與應用」，持續拓展專業廣度與深度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階課程規劃"
+      },
+      "hashtags": [
+        "高等人工智慧",
+        "深度學習",
+        "數位積體電路設計",
+        "物聯網技術與應用"
+      ]
     },
     {
       "id": "9c73d378-e9c6-4ef2-98cb-1d7960dd7843",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "積極參與校內外的學術研討會、產業論壇，並評估參與暑期實習的機會，將學術理論與業界實務結合，為未來的職涯發展奠定基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業發展規劃"
+      },
+      "hashtags": [
+        "學術研討會",
+        "產業論壇",
+        "暑期實習",
+        "職涯發展"
+      ]
     },
     {
       "id": "afdcdf27-a9cb-4799-b369-3fe636aa8b4f",
       "candidate_id": "mock_43",
       "section": "讀書計畫",
       "content": "畢業後，我希望能運用在交大資工所習得的紮實技術與解決問題的能力，結合我在社團及實習中培養的跨領域溝通與專案管理經驗，投入於科技產業中，成為一名能夠理解軟硬體全局，並有效推動產品創新與落地的工程師或技術型產品經理。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展願景",
+        "C2": "軟硬體技術應用",
+        "C3": "問題解決能力應用"
+      },
+      "hashtags": [
+        "科技產業",
+        "軟硬體全局",
+        "產品創新",
+        "工程師",
+        "技術型產品經理",
+        "跨領域溝通",
+        "專案管理"
+      ]
     }
   ]
 }

@@ -10,26 +10,43 @@
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "我是姚奕辰，來自淡江大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景陳述"
+      },
+      "hashtags": [
+        "淡江大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "e00758dd-5e31-42fe-8b74-cb012cac25de",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "大學這幾年，我主要都在培養自己的軟體開發能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "軟體開發能力培養"
+      },
+      "hashtags": [
+        "軟體開發"
+      ]
     },
     {
       "id": "17d70749-5ece-4c25-b5cb-d8b0b00b1239",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "雖然學業成績不算特別突出，大概是 2.78 左右。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績自述"
+      },
       "hashtags": []
     },
     {
@@ -37,18 +54,35 @@
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "但我相信透過參與各種實務專案，累積了不少寶貴的經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "實務專案經驗累積",
+        "C4": "經驗學習成長"
+      },
+      "hashtags": [
+        "實務專案"
+      ]
     },
     {
       "id": "ef28506d-7fa2-451e-836b-3b3c90e52413",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "在學期間，我在學校的互動媒體研究室待過一段時間，參與了一個關於數位學習內容開發的專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "研究室專案參與",
+        "C1": "數位學習研究"
+      },
+      "hashtags": [
+        "互動媒體研究室",
+        "數位學習內容開發"
+      ]
     },
     {
       "id": "b624885d-8c97-42f3-a97c-ba455f5d54d9",
@@ -64,26 +98,44 @@
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "我主要負責用程式實現一些圖形介面，也幫忙處理了一些後端邏輯的串接。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "前後端技術實作"
+      },
+      "hashtags": [
+        "圖形介面實作",
+        "後端邏輯串接"
+      ]
     },
     {
       "id": "d8a1b630-7469-40fd-914e-d8837f8c95d3",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "當時真的學到很多東西，尤其是在遇到一些很難解的 bug 時，培養了自己解決問題的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "程式除錯與問題解決"
+      },
+      "hashtags": [
+        "解決問題能力",
+        "程式除錯"
+      ]
     },
     {
       "id": "d28e2600-4f60-498a-9c49-80a374ca90cf",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "雖然過程很辛苦，但能看到自己做的東西實際跑起來，覺得很有成就感。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案成果成就感"
+      },
       "hashtags": []
     },
     {
@@ -91,80 +143,150 @@
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "除了研究室的經驗，我也曾經到一家遊戲新創公司實習過。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "遊戲公司實習經驗",
+        "C4": "業界實習經歷"
+      },
+      "hashtags": [
+        "遊戲新創公司",
+        "實習經驗"
+      ]
     },
     {
       "id": "7d64670b-cfbe-4fa4-8c9f-9a73022252a2",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "那段時間，我主要是協助團隊開發一些遊戲裡的小功能，還有幫忙跑一些測試。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "遊戲功能開發與測試"
+      },
+      "hashtags": [
+        "遊戲功能開發",
+        "軟體測試"
+      ]
     },
     {
       "id": "7ac465a1-1492-452e-8dc2-58807662d5b2",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "這讓我有機會看到業界的實際開發流程是怎麼運作的，也接觸到了很多新的技術和開發工具。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界實務流程理解",
+        "C2": "新技術工具接觸"
+      },
+      "hashtags": [
+        "業界開發流程",
+        "新技術學習",
+        "開發工具應用"
+      ]
     },
     {
       "id": "8849f7dc-db84-4cad-be5d-2f517bc83548",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "對我來說獲益良多，也更確定自己對軟體開發的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯興趣確認"
+      },
+      "hashtags": [
+        "軟體開發興趣"
+      ]
     },
     {
       "id": "52fefd7a-1fb7-4ec7-9a51-6b7361d2339c",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "另外，我大學時也有經營一個動漫評論的自媒體。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自媒體經營經驗"
+      },
+      "hashtags": [
+        "動漫評論",
+        "自媒體經營"
+      ]
     },
     {
       "id": "7105425b-c5a8-4dbd-baa0-714422de7858",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "這雖然不是直接的技術專案，但也讓我學到怎麼去分析內容、怎麼用文字表達想法，還有一些社群經營的東西。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "內容分析能力",
+        "C4": "文字表達與社群經營"
+      },
+      "hashtags": [
+        "內容分析",
+        "文字表達",
+        "社群經營"
+      ]
     },
     {
       "id": "d9f92b7f-89bd-46f2-8efe-8acfb0243ac4",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "我認為這對我在理解使用者需求和內容呈現上，其實也是一種很不一樣的訓練。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "使用者需求理解",
+        "C4": "內容呈現訓練"
+      },
+      "hashtags": [
+        "使用者需求",
+        "內容呈現"
+      ]
     },
     {
       "id": "7eeaf234-8678-4aef-8d40-681c3720f49a",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "我一直對圖學、遊戲跟數位學習很有熱情。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業領域熱情"
+      },
+      "hashtags": [
+        "圖學",
+        "遊戲",
+        "數位學習"
+      ]
     },
     {
       "id": "b216df42-30ff-4d72-84db-c6fc321477ff",
       "candidate_id": "mock_19",
       "section": "自傳",
       "content": "希望未來能將這些興趣與我的技術能力結合。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "興趣與技術整合規劃"
+      },
       "hashtags": []
     },
     {
@@ -172,99 +294,194 @@
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "談到未來的學習方向，我希望能到貴所繼續深造，在資訊工程領域有更深入的學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所深造規劃"
+      },
+      "hashtags": [
+        "資訊工程深造"
+      ]
     },
     {
       "id": "34dd7f69-8dcc-419a-befa-3c2fcf74c154",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "我對交大資工的課程和研究方向都很有興趣，覺得這邊的環境很適合我。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "申請動機與契合度"
+      },
+      "hashtags": [
+        "交大資工",
+        "課程興趣",
+        "研究方向契合"
+      ]
     },
     {
       "id": "972cc2e5-ead2-4b6d-a5c4-fc41b02a0fe7",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "在研究所期間，我會先努力把專業課程都修好，打好扎實的理論基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程學習規劃"
+      },
+      "hashtags": [
+        "專業課程",
+        "理論基礎"
+      ]
     },
     {
       "id": "bd7f6ac5-8d6a-4b30-85d8-a7b5716fcaea",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "畢竟之前大學學的雖然很多元，但有些地方可能還不夠深入。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術深度認知",
+        "C4": "學習反思"
+      },
+      "hashtags": [
+        "學術深度不足",
+        "多元學習"
+      ]
     },
     {
       "id": "fdcca18f-57a4-4900-9eec-135995cbed85",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "所以我想多花時間在課程學習上，把那些沒學好的地方補起來。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程學習補強",
+        "C4": "學習策略規劃"
+      },
+      "hashtags": [
+        "課程學習",
+        "知識補強"
+      ]
     },
     {
       "id": "679723cd-57d1-4b40-8332-e610edc99afc",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "希望能補足自己在學業成績上的一些不足。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績提升",
+        "C4": "自我提升目標"
+      },
+      "hashtags": [
+        "學業成績不足",
+        "自我補足"
+      ]
     },
     {
       "id": "d137864d-3c18-4dd1-80d1-d98cba97405c",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "中期目標的話，我希望能找到一位研究方向我很有興趣的教授。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "中期研究規劃",
+        "C1": "研究方向探索"
+      },
+      "hashtags": [
+        "研究方向",
+        "教授選擇"
+      ]
     },
     {
       "id": "67944b7e-4641-49df-b532-a5569b13f41a",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "然後跟著教授做研究，培養自己的研究能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究能力培養",
+        "C3": "研究問題探索"
+      },
+      "hashtags": [
+        "教授研究",
+        "研究能力"
+      ]
     },
     {
       "id": "c242ed85-532a-4e7a-90d8-a381c827dec2",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "我特別對圖學、遊戲以及數位學習這些領域感到好奇。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "領域興趣探索"
+      },
+      "hashtags": [
+        "圖學",
+        "遊戲",
+        "數位學習"
+      ]
     },
     {
       "id": "3163623d-da4e-420f-bc62-7ca4c366070b",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "希望能在這些方面找到一個具體的方向來投入。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "具體方向投入",
+        "C1": "學術興趣聚焦"
+      },
+      "hashtags": [
+        "具體方向",
+        "興趣投入"
+      ]
     },
     {
       "id": "7a7591f5-f439-4472-a76e-8811c7a52f56",
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "我相信透過實際參與教授的專案，可以讓我學到更多解決實際問題的方法，也能接觸到最新的研究議題，更深入地探索這些我喜歡的領域。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "實務問題解決",
+        "C2": "專案實作學習",
+        "C4": "最新研究探索"
+      },
+      "hashtags": [
+        "教授專案",
+        "實際問題解決",
+        "最新研究議題"
+      ]
     },
     {
       "id": "b050c440-5970-4765-8981-06c43c8a0e8e",
@@ -280,8 +497,12 @@
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "我認為在交大資工所的學習，可以讓我具備未來在產業或學術界發展所需要的專業知識和技能。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來職涯發展規劃"
+      },
       "hashtags": []
     },
     {
@@ -289,8 +510,12 @@
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "我會好好把握這個機會，努力學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習態度展現"
+      },
       "hashtags": []
     },
     {
@@ -298,8 +523,12 @@
       "candidate_id": "mock_19",
       "section": "讀書計畫",
       "content": "希望能為資工領域貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域貢獻意願"
+      },
       "hashtags": []
     }
   ]

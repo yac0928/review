@@ -10,315 +10,627 @@
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我是林雅琳，目前就讀於國立臺灣大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學籍背景說明"
+      },
+      "hashtags": [
+        "國立臺灣大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "e64d3141-46df-448f-b250-413e10e1ab2f",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "從小便對邏輯與解決問題抱持熱情，這股熱情引領我踏入資訊工程的領域。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決動機"
+      },
+      "hashtags": [
+        "邏輯思考",
+        "解決問題熱情"
+      ]
     },
     {
       "id": "1ae39e26-d9d0-43fa-9899-d5f94688b78e",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "大學四年，我投入大部分時間在學術知識的累積與實務專案的嘗試，儘管我的學業成績是 3.52，並非頂尖",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術與實務投入",
+        "C2": "學術與實務投入"
+      },
+      "hashtags": [
+        "學術知識累積",
+        "實務專案嘗試"
+      ]
     },
     {
       "id": "85aa468a-5b43-4c7c-9d26-f221a2f5c66f",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "但我深信自己在課外展現的創業精神與實戰經驗，為我帶來了獨特的視角與成長。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外成長與視角"
+      },
+      "hashtags": [
+        "創業精神",
+        "實戰經驗",
+        "獨特視角"
+      ]
     },
     {
       "id": "8be62134-e98f-4987-b2ea-db085f335d0d",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我渴望進入貴所深造，補足我在理論基礎上的不足，並將我的技術知識體系化，以期未來能創造出更具影響力的產品。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來發展規劃",
+        "C1": "理論基礎補強"
+      },
+      "hashtags": [
+        "理論基礎不足",
+        "技術知識體系化",
+        "影響力產品"
+      ]
     },
     {
       "id": "1d7edafa-f445-4961-8769-edad5397a2e8",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "在臺大資訊工程學系期間，我修習了多門核心課程，為我的軟體開發能力奠定了基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程修習"
+      },
+      "hashtags": [
+        "臺大資訊工程學系",
+        "核心課程",
+        "軟體開發基礎"
+      ]
     },
     {
       "id": "368ff9e3-2c30-45e5-aafb-d2fd5dc74ada",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我系統學習了資料結構、演算法設計與分析等課程，對複雜度分析與常見演算法有初步了解。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "演算法與資料結構"
+      },
+      "hashtags": [
+        "資料結構",
+        "演算法設計",
+        "複雜度分析"
+      ]
     },
     {
       "id": "60025d01-fe25-44d3-9a33-c340a77792de",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "程式設計實務與物件導向程式設計則強化了我的 C++ 與 Java 程式能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "程式設計課程",
+        "C2": "程式語言能力"
+      },
+      "hashtags": [
+        "程式設計實務",
+        "物件導向程式設計",
+        "C++",
+        "Java"
+      ]
     },
     {
       "id": "4d7e623a-2f42-44c6-9938-a22bb2cc25f9",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "對於網路原理與作業系統也有基礎認識，了解系統底層的運作方式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "系統底層知識"
+      },
+      "hashtags": [
+        "網路原理",
+        "作業系統",
+        "系統底層運作"
+      ]
     },
     {
       "id": "819cdb7c-5e0b-40c4-8146-d9abd88adc25",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "大三上學期，我與組員利用 Minimax 演算法和 Alpha-Beta Pruning 實作了一個五子棋 AI，成功地讓 AI 達到一定對弈水準。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "AI專案實作",
+        "C3": "演算法應用與評估"
+      },
+      "hashtags": [
+        "Minimax演算法",
+        "Alpha-Beta Pruning",
+        "五子棋AI",
+        "AI對弈水準"
+      ]
     },
     {
       "id": "c5763e15-e005-4da3-b837-9c7c70ea0186",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "這個專案讓我首次體驗到演算法如何實際應用於複雜問題，雖然當時的優化仍較為基礎",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "演算法應用體驗"
+      },
+      "hashtags": [
+        "演算法應用",
+        "複雜問題"
+      ]
     },
     {
       "id": "856f0f76-0345-44f5-a923-af60cd10b1dd",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "但也激發了我對演算法效率的思考。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "演算法效率思考"
+      },
+      "hashtags": [
+        "演算法效率",
+        "技術反思"
+      ]
     },
     {
       "id": "1f8d04eb-121a-4368-90e7-ed2dfa37c453",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "在資料庫課程中，我負責設計並實作了一個具備商品管理、使用者認證與訂單處理功能的簡易電商平台後端。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "電商後端實作"
+      },
+      "hashtags": [
+        "電商平台後端",
+        "商品管理",
+        "使用者認證",
+        "訂單處理"
+      ]
     },
     {
       "id": "8e4c6790-e26e-4d84-8f0e-8b63fd7160e1",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我們使用了 PostgreSQL 作為資料庫，並以 Python Flask 框架開發 API 介面。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "後端技術棧應用"
+      },
+      "hashtags": [
+        "PostgreSQL",
+        "Python Flask",
+        "API開發"
+      ]
     },
     {
       "id": "b570d14e-7c1e-4781-8bf8-d0e61ba95d54",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "這個專案讓我對資料庫正規化、索引優化有了一點概念，也意識到大型系統中資料處理的挑戰。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "資料庫理論理解"
+      },
+      "hashtags": [
+        "資料庫正規化",
+        "索引優化",
+        "大型系統資料處理"
+      ]
     },
     {
       "id": "708e6630-6659-4cdc-901c-d44db12fabe8",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我認為學習不應僅限於課堂，因此積極參與社團並嘗試將技術應用於實際情境，這段經歷塑造了我面對挑戰的態度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自主學習與成長"
+      },
+      "hashtags": [
+        "課外學習",
+        "技術實境應用",
+        "積極態度"
+      ]
     },
     {
       "id": "b3295631-e4ad-4e3b-9a5e-9986d30b6354",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "大一時，我與幾位志同道合的同學共同創辦了臺大電子競技社。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社團創辦經驗"
+      },
+      "hashtags": [
+        "臺大電子競技社",
+        "社團創辦"
+      ]
     },
     {
       "id": "85a2dcca-e6f5-42dd-82b7-1cd172aa0e4d",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我擔任第一屆社長，從零開始規劃社團章程、招募社員、舉辦校內電競賽事。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社團領導與管理"
+      },
+      "hashtags": [
+        "社團社長",
+        "社團章程規劃",
+        "校內電競賽事"
+      ]
     },
     {
       "id": "bb917a12-cc06-4e67-bfb0-bccf227e8dab",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "為了社團的日常運作與賽事管理，我自主學習並利用 Google Sheets API 和 Python 腳本開發了一套簡易的會員積分與賽事排程系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統開發與應用",
+        "C4": "自主學習技術"
+      },
+      "hashtags": [
+        "Google Sheets API",
+        "Python腳本",
+        "會員積分系統",
+        "賽事排程系統"
+      ]
     },
     {
       "id": "3ee6ff5c-6795-45d3-b48d-3c20b430fb15",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "這段經驗讓我學習到如何將零散的需求轉化為實際的工具，並在過程中不斷迭代。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "需求轉化與迭代",
+        "C2": "工具化解決方案"
+      },
+      "hashtags": [
+        "需求轉化",
+        "工具開發",
+        "迭代優化"
+      ]
     },
     {
       "id": "2402c85a-5b20-44fd-8bd4-45531e2a9289",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "在營運過程中，我曾遇到資源短缺、團隊溝通不暢等問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題情境描述"
+      },
+      "hashtags": [
+        "資源短缺",
+        "團隊溝通不暢"
+      ]
     },
     {
       "id": "0122d543-a5e8-47c7-b542-a5d9a7264d82",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我學會了如何撰寫企劃書爭取經費、如何在壓力下協調團隊，也讓我深刻體會到規劃與執行的重要性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨部門協調與資源爭取",
+        "C4": "經驗反思與成長"
+      },
+      "hashtags": [
+        "企劃書撰寫",
+        "經費爭取",
+        "團隊協調",
+        "規劃執行"
+      ]
     },
     {
       "id": "4a55bcfd-d408-491d-8380-ea1816806c60",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "大二期間，我曾與朋友嘗試開發一個針對學生社群的匿名社交應用程式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案啟動與構思"
+      },
+      "hashtags": [
+        "匿名社交應用",
+        "學生社群"
+      ]
     },
     {
       "id": "6a0744bb-f665-44b0-9405-5dd59aed61b0",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我主要負責後端開發，使用了 Node.js 搭配 MongoDB 處理用戶資料與訊息流。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "後端技術實作"
+      },
+      "hashtags": [
+        "後端開發",
+        "Node.js",
+        "MongoDB",
+        "用戶資料處理",
+        "訊息流"
+      ]
     },
     {
       "id": "89da1e86-f298-4eee-a89a-ab378c41198f",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "儘管最終因市場策略調整而未能正式上線",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "專案成果評估"
+      },
+      "hashtags": [
+        "市場策略調整",
+        "專案未上線"
+      ]
     },
     {
       "id": "b33cbb58-0401-41a4-8a1f-17f043d2215e",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "這次經驗讓我親身體會到產品從構思到實現的複雜性，以及技術選型對專案進度的影響。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專案經驗反思"
+      },
+      "hashtags": [
+        "產品開發複雜性",
+        "技術選型影響"
+      ]
     },
     {
       "id": "3c291735-b06b-4d1f-916f-c759234b2e60",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我曾數次接案為小型店家客製化網站，利用 WordPress 搭配自訂主題與外掛，滿足業主特定的功能需求，如線上預約系統、產品展示頁面。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "網站客製化開發"
+      },
+      "hashtags": [
+        "網站客製化",
+        "WordPress",
+        "自訂主題",
+        "外掛",
+        "線上預約系統",
+        "產品展示頁面"
+      ]
     },
     {
       "id": "e823f90d-900a-4b73-8e1a-d040e284250d",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "每次接案都是一次技術整合與客戶溝通的練習，雖然是套用現有框架",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術整合應用",
+        "C4": "客戶溝通與學習"
+      },
+      "hashtags": [
+        "技術整合",
+        "客戶溝通",
+        "現有框架應用"
+      ]
     },
     {
       "id": "ddb708cc-bb7e-4bfd-90be-96e76b3e5b96",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "但也讓我學習到許多部署與維護網站的實務知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "實務知識學習",
+        "C2": "網站部署維護"
+      },
+      "hashtags": [
+        "網站部署",
+        "網站維護",
+        "實務知識"
+      ]
     },
     {
       "id": "309eab21-8516-42a8-bae1-4985cd4f7925",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "回顧過去的經驗，我發現自己雖然擁有將想法付諸實現的能力，也累積了廣泛的技術應用經驗",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "經驗總結與能力認知",
+        "C2": "技術實踐與應用廣度"
+      },
+      "hashtags": [
+        "想法實現能力",
+        "技術應用經驗"
+      ]
     },
     {
       "id": "27e851fe-d387-4cd5-8f69-8e303374ba06",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "但這些多半停留在「能用」的層面，對於底層的原理、系統最佳化、或是如何設計出真正「高效能」且「可擴展」的產品，我的理論基礎仍顯不足。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "理論基礎不足認知"
+      },
+      "hashtags": [
+        "系統最佳化",
+        "高效能產品",
+        "可擴展產品",
+        "底層原理"
+      ]
     },
     {
       "id": "ef04a211-bf1d-4e9f-a5ea-34e0c29a3e5f",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "在創業嘗試中，我曾多次遭遇產品效能瓶頸、資料庫設計不當導致的擴展性問題，這些實戰的挫折讓我體悟到，若想在資訊科技領域走得更遠，甚至再次挑戰創業，我必須補足在演算法、系統設計與資料處理等方面的學術深度與系統化知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "實戰反思與學術規劃",
+        "C1": "演算法系統知識補強"
+      },
+      "hashtags": [
+        "創業嘗試",
+        "產品效能瓶頸",
+        "資料庫擴展性",
+        "演算法",
+        "系統設計",
+        "資料處理"
+      ]
     },
     {
       "id": "0b7d3c2e-9e11-45dc-9b92-2ebc488e0569",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我選擇國立陽明交通大學資訊工程學系研究所，正是看中貴所堅實的理論研究基礎與多元的學術風氣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "選擇動機與學術契合"
+      },
+      "hashtags": [
+        "陽明交通大學",
+        "資訊工程學系",
+        "理論研究基礎",
+        "多元學術風氣"
+      ]
     },
     {
       "id": "3f3cd9b7-8303-4f7f-af3d-f5f31002be6a",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "特別是貴所在演算法、高效能計算及系統軟體領域的研究能量，與我渴望補足理論基礎、讓技術更系統化的目標高度契合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向契合",
+        "C1": "演算法系統研究"
+      },
+      "hashtags": [
+        "演算法",
+        "高效能計算",
+        "系統軟體",
+        "理論基礎補強"
+      ]
     },
     {
       "id": "eea997be-0d3d-4fc2-a31c-c18edf90d617",
       "candidate_id": "mock_75",
       "section": "自傳",
       "content": "我希望能透過貴所提供的課程與研究資源，深入學習進階演算法設計、分散式系統、或是更複雜的資料分析與優化技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "具體學習目標",
+        "C1": "進階學科學習"
+      },
+      "hashtags": [
+        "進階演算法設計",
+        "分散式系統",
+        "資料分析",
+        "優化技術"
+      ]
     },
     {
       "id": "57850ae4-2f07-4813-97af-c5dc6f35b9ac",
@@ -334,72 +646,155 @@
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "我的首要任務是彌補學術知識的不足，並適應研究所的研究環境。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "初期學習目標",
+        "C1": "學術知識補強"
+      },
+      "hashtags": [
+        "學術知識不足",
+        "研究所環境適應"
+      ]
     },
     {
       "id": "31607bcb-7295-4c8c-a86d-c35797539428",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "主動修習貴所開設的《高等演算法》、《高等資料結構》等核心課程，深入理解演算法的設計原則、複雜度分析與各種優化技巧。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "課程修習規劃",
+        "C1": "核心學科深化"
+      },
+      "hashtags": [
+        "高等演算法",
+        "高等資料結構",
+        "複雜度分析",
+        "優化技巧"
+      ]
     },
     {
       "id": "d42eb499-6c21-4b4d-a989-4719fd16ed33",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "同時，也會考慮修習《機率與統計》、《離散數學》等課程，強化我的數學工具與邏輯思維能力，為後續更深入的研究打下基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "輔助課程規劃",
+        "C1": "數學邏輯基礎"
+      },
+      "hashtags": [
+        "機率與統計",
+        "離散數學",
+        "數學工具",
+        "邏輯思維"
+      ]
     },
     {
       "id": "96ce8623-708a-48ea-8d6e-f501e81edfa2",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "積極參與實驗室專題討論 (Seminar)，了解不同教授的研究方向與目前研究議題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究環境參與",
+        "C1": "研究議題探索"
+      },
+      "hashtags": [
+        "實驗室專題討論",
+        "研究方向",
+        "研究議題"
+      ]
     },
     {
       "id": "6acbd229-2d92-45fb-a3b5-734b6eadcac1",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "透過與教授、學長姐的交流，探索自己最感興趣、且能結合過去實務經驗的研究主題，例如如何將高效能演算法應用於資料處理、或設計可擴展的系統架構。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究方向探索與規劃",
+        "C2": "實務經驗結合應用"
+      },
+      "hashtags": [
+        "高效能演算法",
+        "資料處理",
+        "可擴展系統架構",
+        "實務經驗結合"
+      ]
     },
     {
       "id": "44f31081-b5c5-4371-9142-34a5c4875f9a",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "針對未來可能的研究方向，自學相關的程式語言或框架，例如可能涉及高效能運算 (HPC) 的 CUDA 或分散式系統框架如 Apache Spark，提升自己的實作能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術工具自學實作",
+        "C4": "研究能力自主提升"
+      },
+      "hashtags": [
+        "CUDA",
+        "Apache Spark",
+        "高效能運算",
+        "分散式系統框架",
+        "自學"
+      ]
     },
     {
       "id": "251a78a1-d799-4db1-b31b-52bc5866b398",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "在掌握基礎後，我將開始聚焦於特定研究領域，並著手進行論文研究。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文研究規劃"
+      },
+      "hashtags": [
+        "論文研究",
+        "特定研究領域"
+      ]
     },
     {
       "id": "d9cf3df6-d58c-412e-8e57-941d394f7971",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "選擇一位指導教授，並在他的指導下確定具體的研究主題，例如「大規模資料集上的高效能近似演算法設計」或「基於圖神經網路的系統效能優化」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究主題確立",
+        "C1": "專業領域聚焦"
+      },
+      "hashtags": [
+        "指導教授",
+        "大規模資料集",
+        "高效能近似演算法",
+        "圖神經網路",
+        "系統效能優化"
+      ]
     },
     {
       "id": "af087c7f-7ce3-4d5e-822f-6804ceb552b2",
@@ -415,108 +810,217 @@
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "與指導教授定期討論研究進度，逐步完成論文的實驗設計、實作與分析，並撰寫論文初稿。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "研究設計與分析",
+        "C2": "實驗實作能力",
+        "C4": "論文撰寫與傳遞"
+      },
+      "hashtags": [
+        "實驗設計",
+        "論文實作",
+        "研究分析",
+        "論文撰寫",
+        "研究進度討論"
+      ]
     },
     {
       "id": "171286a8-9789-4f2f-9964-6b67d04d538f",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "積極參與國內外學術研討會或工作坊，擴展我的學術視野，並學習如何有效地表達研究成果。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術交流與成長"
+      },
+      "hashtags": [
+        "學術研討會",
+        "工作坊",
+        "研究成果表達",
+        "學術視野"
+      ]
     },
     {
       "id": "148a1e04-774d-41e4-8de7-a204de919300",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "嘗試與其他研究團隊合作，從不同視角激盪出新的研究想法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "創新思維發展",
+        "C4": "跨域合作學習"
+      },
+      "hashtags": [
+        "研究團隊合作",
+        "創新研究想法"
+      ]
     },
     {
       "id": "b8ee3453-0f96-4ec8-b0bb-8eeaa6ace3e0",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "若有機會，希望能參與實驗室的專案開發，將所學理論應用於實際問題，並從中學習專案管理與團隊合作的經驗。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "理論實務應用",
+        "C4": "專案協作學習"
+      },
+      "hashtags": [
+        "實驗室專案開發",
+        "理論應用",
+        "專案管理",
+        "團隊合作"
+      ]
     },
     {
       "id": "69596ff9-ad5a-45f8-a59a-91c67c39e4d4",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "畢業後，我希望能夠將我在貴所習得的深度理論知識與系統化技術，應用於實際產業，持續解決複雜問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業知識產業應用"
+      },
+      "hashtags": [
+        "深度理論知識",
+        "系統化技術",
+        "產業應用",
+        "解決複雜問題"
+      ]
     },
     {
       "id": "a9ac49b4-0656-4599-8827-1bf6a15b8b75",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "我期望能進入大型科技公司的研發部門，從事軟體架構師、演算法工程師等職位，負責設計與開發高效能、高可靠性的軟體系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃"
+      },
+      "hashtags": [
+        "軟體架構師",
+        "演算法工程師",
+        "研發部門",
+        "高效能系統",
+        "高可靠性系統"
+      ]
     },
     {
       "id": "b0a6b5b1-4a27-4fbf-98cc-1edc1ed5f98a",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "或者，我也可能再次嘗試創業",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "創業意圖"
+      },
+      "hashtags": [
+        "創業"
+      ]
     },
     {
       "id": "d0075842-634e-47c2-a145-d9e7e01cfee6",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "但這次我將能帶著更扎實的理論基礎與系統化思維，設計出更具競爭力、更穩健的產品，解決真實世界的痛點。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "產品問題解決思維",
+        "C1": "理論基礎應用"
+      },
+      "hashtags": [
+        "理論基礎",
+        "系統化思維",
+        "產品設計",
+        "解決痛點"
+      ]
     },
     {
       "id": "1a06ed7a-d7d7-4024-893f-d95c7cfbe8c3",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "資訊科技日新月異，我會保持終身學習的態度，不斷精進自身技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習精進"
+      },
+      "hashtags": [
+        "終身學習",
+        "技術精進"
+      ]
     },
     {
       "id": "d7e57def-cdf6-4b10-ac3b-7cb640712ef9",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "我也希望能將自己的經驗與知識傳承給下一代，或許能以講師或導師的身分，回饋我所學的社群。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "知識經驗傳承"
+      },
+      "hashtags": [
+        "知識傳承",
+        "講師",
+        "導師",
+        "社群回饋"
+      ]
     },
     {
       "id": "2a63880e-b688-4fc9-8464-9cc23230ceb7",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "我相信，在陽明交通大學資訊工程學系的兩年碩士訓練，將成為我人生中關鍵的轉捩點，讓我的技術能力從「廣」走向「深」，從「能用」邁向「精良」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "碩士學習目標"
+      },
+      "hashtags": [
+        "碩士訓練",
+        "技術深化",
+        "能力精進"
+      ]
     },
     {
       "id": "fbcb2c1b-232c-4892-bac3-5b6971424d2c",
       "candidate_id": "mock_75",
       "section": "讀書計畫",
       "content": "我期待能有機會成為貴所的一份子，為資訊科學的發展貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "貢獻意願"
+      },
+      "hashtags": [
+        "資訊科學貢獻"
+      ]
     }
   ]
 }

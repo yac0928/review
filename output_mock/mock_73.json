@@ -10,53 +10,95 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我是呂宜蓁，目前就讀於淡江大學統計學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景說明"
+      },
+      "hashtags": [
+        "淡江大學",
+        "統計學系"
+      ]
     },
     {
       "id": "9c71b396-5ee7-4b1e-be45-94cf93b24ed0",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "回顧我的大學生涯，我逐漸發現自己對如何運用計算能力來解析複雜資料有著深刻的好奇",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術興趣探索"
+      },
+      "hashtags": [
+        "計算能力",
+        "資料解析"
+      ]
     },
     {
       "id": "575adea3-905e-4fe5-9d8d-37d212ab3a99",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "尤其在接觸到生物醫學領域的數據後，這種好奇心便日益增長",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域興趣發展",
+        "C1": "生物醫學領域接觸"
+      },
+      "hashtags": [
+        "生物醫學數據",
+        "跨域興趣"
+      ]
     },
     {
       "id": "bd378990-26c8-47b0-9d84-b790df0eca61",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "促使我對資訊工程的深奧領域產生了強烈的求知慾望",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術領域探索"
+      },
+      "hashtags": [
+        "資訊工程",
+        "求知慾望"
+      ]
     },
     {
       "id": "05033df5-fa51-487d-8c98-6df848860306",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "希望能將統計的基礎與資訊的技術更深度結合。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "跨域整合目標"
+      },
+      "hashtags": [
+        "統計基礎",
+        "資訊技術",
+        "跨域結合"
+      ]
     },
     {
       "id": "cbc8edb2-b13d-49d5-b71e-d1ab56b46658",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我的學業成績雖然為 3.49",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -64,188 +106,370 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "但我始終積極地在系內外尋求跨領域的學習機會。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "積極學習態度"
+      },
+      "hashtags": [
+        "跨領域學習",
+        "積極主動"
+      ]
     },
     {
       "id": "812d8036-13c0-4814-b465-3bbd1ab97685",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "在大二下學期，我修習了「程式設計（Python）」與「資料庫管理」等課程，首次系統性地接觸到程式語言與資料處理的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域課程修習"
+      },
+      "hashtags": [
+        "程式設計Python",
+        "資料庫管理",
+        "程式語言基礎",
+        "資料處理基礎"
+      ]
     },
     {
       "id": "d023b0af-47ba-44ad-b993-76fa9f9d619a",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "這些課程讓我意識到，即便在統計分析中，強大的程式能力和資料庫操作技巧也能極大地提升效率與分析深度。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "跨域技能應用洞察",
+        "C1": "學科知識整合"
+      },
+      "hashtags": [
+        "統計分析",
+        "程式能力",
+        "資料庫操作",
+        "效率提升",
+        "分析深度"
+      ]
     },
     {
       "id": "5ceca92b-e391-45bb-b87f-cdabb0f6d73e",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "在學術研究的路上，我很幸運地在大三上學期加入了系上王教授的「醫學資訊應用實驗室」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術研究參與"
+      },
+      "hashtags": [
+        "醫學資訊應用實驗室",
+        "王教授",
+        "學術研究"
+      ]
     },
     {
       "id": "c5af1d81-56d7-4fa1-87b7-88cd6f1e75ae",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我在那裡參與了一個為期一年的產學合作專案，旨在開發一套自動化的心律不整偵測系統。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "產學專案參與"
+      },
+      "hashtags": [
+        "產學合作",
+        "心律不整偵測",
+        "自動化系統開發"
+      ]
     },
     {
       "id": "53b7801e-e38b-4e68-b1ce-3bd1605d59ea",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我的主要職責是針對從穿戴式裝置收集到的心電圖（ECG）訊號進行預處理與特徵工程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "訊號預處理實作"
+      },
+      "hashtags": [
+        "ECG訊號",
+        "穿戴式裝置",
+        "資料預處理",
+        "特徵工程"
+      ]
     },
     {
       "id": "9a8b83f5-dd9f-4a1e-a45c-7c4b583e6364",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我使用 Python 的 `SciPy` 和 `NumPy` 函式庫來濾除雜訊、執行小波轉換提取頻域特徵",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "技術工具應用"
+      },
+      "hashtags": [
+        "Python",
+        "SciPy",
+        "NumPy",
+        "小波轉換",
+        "頻域特徵"
+      ]
     },
     {
       "id": "cc97614b-3028-4c9f-8014-b271d98ff6b4",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "並與團隊成員討論設計了數個統計特徵，如心率變異性（HRV）。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "統計特徵設計"
+      },
+      "hashtags": [
+        "統計特徵",
+        "心率變異性",
+        "HRV",
+        "團隊討論"
+      ]
     },
     {
       "id": "e4e647d5-2e41-4cfd-9003-ddb7c9191cb9",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "隨後，我利用 `scikit-learn` 函式庫，嘗試了 SVM、Random Forest 等多種機器學習模型進行分類。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "機器學習模型應用"
+      },
+      "hashtags": [
+        "scikit-learn",
+        "SVM",
+        "Random Forest",
+        "機器學習分類"
+      ]
     },
     {
       "id": "bce3859f-1471-4c61-8589-5cfda5d2c33d",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "過程中，我曾遇到模型在真實世界資料上泛化能力不足的問題",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題識別與分析"
+      },
+      "hashtags": [
+        "模型泛化能力",
+        "真實世界資料",
+        "問題發現"
+      ]
     },
     {
       "id": "5b87bf74-6948-4c28-a65b-7ab0c69d9441",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "經過反覆調整特徵選取與模型超參數，並透過交叉驗證評估，最終將模型的準確度從 0.80 提升到 0.89。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決策略",
+        "C2": "模型調校實作"
+      },
+      "hashtags": [
+        "特徵選取",
+        "模型超參數",
+        "交叉驗證",
+        "模型準確度提升"
+      ]
     },
     {
       "id": "92ba60bd-0364-4d98-8b98-a6a553444fad",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "這次經驗讓我深刻體會到資料清理的重要性以及模型調校的複雜性",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "經驗反思與體悟"
+      },
+      "hashtags": [
+        "資料清理",
+        "模型調校",
+        "經驗學習"
+      ]
     },
     {
       "id": "7b9b44ae-8167-4f16-b727-2dd06d55ac17",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "也燃起了我對更進階演算法與系統整合的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來學習方向"
+      },
+      "hashtags": [
+        "進階演算法",
+        "系統整合",
+        "學習興趣"
+      ]
     },
     {
       "id": "f3863683-68e6-4a7e-8bbc-8d536c37948a",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "除了實驗室經驗，大三暑假我還在一家新創公司「智醫科技」擔任資料分析工讀生。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "業界實習經驗"
+      },
+      "hashtags": [
+        "智醫科技",
+        "資料分析工讀生",
+        "新創公司實習"
+      ]
     },
     {
       "id": "afd92a5c-457f-489f-9528-3286d72ab21b",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "這段為期兩個月的實習中，我負責協助分析匿名化的醫療影像報告，以找出特定疾病的描述模式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "醫療影像報告分析"
+      },
+      "hashtags": [
+        "醫療影像報告",
+        "疾病描述模式",
+        "實習經驗"
+      ]
     },
     {
       "id": "c26a59cf-1b50-4064-bed2-c2d42bbef3d9",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我運用 SQL 從公司資料庫中提取非結構化文本資料",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "資料庫資料提取"
+      },
+      "hashtags": [
+        "SQL",
+        "非結構化文本",
+        "資料提取"
+      ]
     },
     {
       "id": "1941a86b-6133-46c1-894d-6378fbcc2895",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "並利用 Python 的 `spaCy` 函式庫進行自然語言處理，識別醫學實體並進行關鍵詞提取。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "自然語言處理應用"
+      },
+      "hashtags": [
+        "Python",
+        "spaCy",
+        "自然語言處理",
+        "醫學實體識別",
+        "關鍵詞提取"
+      ]
     },
     {
       "id": "6dd2b3c2-f0c2-48a1-8ffd-5d2eed5f75ef",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我還開發了一個基於詞頻統計的簡易儀表板，幫助公司的研發團隊快速掌握報告中的常見術語分佈。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "儀表板開發實作",
+        "C3": "數據洞察與輔助決策"
+      },
+      "hashtags": [
+        "詞頻統計",
+        "儀表板開發",
+        "研發團隊",
+        "術語分佈"
+      ]
     },
     {
       "id": "21862412-1268-4491-b967-a209c12edd22",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "這段實務經驗不僅讓我熟悉了業界的開發流程",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "業界流程學習"
+      },
+      "hashtags": [
+        "業界開發流程",
+        "實務經驗"
+      ]
     },
     {
       "id": "102ef56c-b077-4501-9157-f6a660cff059",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "也讓我理解到資料分析在實際應用中的價值，以及如何將學術知識轉化為解決方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C4": "學用轉化理解",
+        "C3": "學術知識應用"
+      },
+      "hashtags": [
+        "資料分析價值",
+        "學術知識轉化",
+        "解決方案"
+      ]
     },
     {
       "id": "d6b545be-d6cd-4539-ae25-96f7c23a6bef",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "同時，我的大學生活也並非只有學術與技術。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "多元發展引言"
+      },
       "hashtags": []
     },
     {
@@ -253,35 +477,62 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我自大一便投身於「社團法人中華育幼機構兒童關懷協會」的社區服務志工行列",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社區服務參與"
+      },
+      "hashtags": [
+        "社團法人中華育幼機構兒童關懷協會",
+        "社區服務",
+        "志工"
+      ]
     },
     {
       "id": "eccff818-4959-45fa-aae7-09cad50a8a3a",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "每週固定利用半天的時間前往「陽光之家」為弱勢兒童提供課業輔導。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "弱勢兒童輔導"
+      },
+      "hashtags": [
+        "陽光之家",
+        "弱勢兒童",
+        "課業輔導"
+      ]
     },
     {
       "id": "7ccdec4f-6f3b-4177-a578-0f409cdfd4fc",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "在近三年的志工服務中，我總計服務了超過 50 位國小學童",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "長期志工投入"
+      },
+      "hashtags": [
+        "三年志工服務",
+        "50位學童"
+      ]
     },
     {
       "id": "80734e3c-54b3-4969-b848-283b7c04c689",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "不僅協助他們鞏固學業基礎",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學業輔導能力"
+      },
       "hashtags": []
     },
     {
@@ -289,8 +540,12 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "更重要的是學會了如何耐心溝通、同理他人。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "人際溝通能力"
+      },
       "hashtags": []
     },
     {
@@ -298,8 +553,12 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "這份經歷讓我體會到回饋社會的意義",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社會責任體認"
+      },
       "hashtags": []
     },
     {
@@ -307,8 +566,14 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "也培養了我解決問題和團隊合作的能力",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題解決能力",
+        "C4": "團隊協作能力"
+      },
       "hashtags": []
     },
     {
@@ -316,8 +581,12 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我相信這些軟實力對於未來在學術研究或業界團隊中都同樣重要。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "軟實力認知與規劃"
+      },
       "hashtags": []
     },
     {
@@ -325,8 +594,12 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "總體而言，我的大學生活是一個不斷探索與學習的過程。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習態度"
+      },
       "hashtags": []
     },
     {
@@ -334,44 +607,83 @@
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "從統計的宏觀角度切入數據世界，到親手操作程式碼與演算法解決實際問題，這些經歷都驅使我想要在資訊工程領域繼續深造。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域統計學術",
+        "C2": "程式演算法實作"
+      },
+      "hashtags": [
+        "統計學",
+        "程式碼",
+        "演算法",
+        "資訊工程"
+      ]
     },
     {
       "id": "f3d0ab13-ec21-4f6a-8214-f8ea42a07122",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "我希望能透過更系統化的訓練，彌補我跨領域學習中可能存在的知識廣度不足",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習規劃與補足"
+      },
+      "hashtags": [
+        "跨領域學習",
+        "知識廣度不足"
+      ]
     },
     {
       "id": "185dac6b-9476-4e23-a1a0-15064aaabc11",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "並將我在生物醫學資料分析上的熱情，提升到更深層次的研究與創新。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域研究熱情",
+        "C4": "深度研究規劃"
+      },
+      "hashtags": [
+        "生物醫學資料分析",
+        "深度研究",
+        "創新"
+      ]
     },
     {
       "id": "bd44ea66-a17e-4d8c-ad8d-e90ecf8d2c33",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "這也是我選擇申請貴校資訊工程學系研究所的初衷",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "申請動機闡述"
+      },
+      "hashtags": [
+        "資訊工程學系",
+        "研究所申請"
+      ]
     },
     {
       "id": "3ea997b7-338e-456e-b7b2-488be2be674f",
       "candidate_id": "mock_73",
       "section": "自傳",
       "content": "希望能藉由交大資工所卓越的學術資源與研究氛圍，實現我的學術目標與職涯抱負。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術職涯抱負"
+      },
       "hashtags": []
     },
     {
@@ -379,8 +691,12 @@
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "展望未來，我對研究所的學習有著清晰的規劃與期待。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所學習規劃"
+      },
       "hashtags": []
     },
     {
@@ -388,62 +704,116 @@
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我希望能將我在淡江大學統計學系所學的統計基礎，與交大資工所提供的頂尖資訊工程訓練緊密結合，專注於智慧醫療與生物醫學資料分析領域的深耕。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "跨域學科整合"
+      },
+      "hashtags": [
+        "淡江統計學系",
+        "統計基礎",
+        "資訊工程訓練",
+        "智慧醫療",
+        "生物醫學資料分析"
+      ]
     },
     {
       "id": "b7f7691c-67f5-4c89-b1ee-c25538202f78",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "在短期目標方面，我預計在入學後的第一年，先鞏固資訊工程的基礎知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "短期學習目標"
+      },
+      "hashtags": [
+        "資訊工程基礎"
+      ]
     },
     {
       "id": "e6f49328-2628-4fe6-a1a2-d2368ecee111",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我會積極選修貴系開設的「高等演算法」、「深度學習」、「數位影像處理」等核心課程",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心課程選修規劃"
+      },
+      "hashtags": [
+        "高等演算法",
+        "深度學習",
+        "數位影像處理"
+      ]
     },
     {
       "id": "3ac791fe-ac04-48fb-9b93-4541a5b51e0b",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "尤其會著重於補強我在演算法設計與數據結構上的知識。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "基礎知識補強"
+      },
+      "hashtags": [
+        "演算法設計",
+        "數據結構"
+      ]
     },
     {
       "id": "a57f8a6c-b0f9-439d-a451-417b4eea6951",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "同時，我會花時間熟悉貴校研究室的相關研究，積極與學長姐和教授交流，尋求加入與生物醫學資料分析、機器學習應用於醫療影像或生物訊號處理相關的實驗室。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究室探索與參與"
+      },
+      "hashtags": [
+        "生物醫學資料分析",
+        "機器學習",
+        "醫療影像",
+        "生物訊號處理",
+        "實驗室參與"
+      ]
     },
     {
       "id": "b7ab63d5-6dd9-40b3-9036-debf1883fe43",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我會利用時間精進我的 Python 程式能力，並學習使用 PyTorch 或 TensorFlow 等深度學習框架",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式與框架學習"
+      },
+      "hashtags": [
+        "Python程式",
+        "PyTorch",
+        "TensorFlow",
+        "深度學習框架"
+      ]
     },
     {
       "id": "fa0893a6-3067-4d2d-a712-a815f16052d7",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "為後續的研究打下堅實的基礎。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究基礎準備"
+      },
       "hashtags": []
     },
     {
@@ -451,62 +821,117 @@
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "談到中期目標，我計畫在入學第二年確立我的研究方向，並開始深入研究。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "中期研究規劃"
+      },
+      "hashtags": [
+        "研究方向確立",
+        "深入研究"
+      ]
     },
     {
       "id": "f1218e16-e679-479e-b301-ee35f45f805c",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我對如何運用深度學習模型來分析醫學影像（如 CT、MRI 或病理切片）以輔助疾病診斷，有著特別濃厚的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "醫學影像深度學習應用"
+      },
+      "hashtags": [
+        "深度學習模型",
+        "醫學影像",
+        "CT",
+        "MRI",
+        "病理切片"
+      ]
     },
     {
       "id": "8b7cc381-16fd-4a18-a3e9-5b3896aa7b8d",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "以及如何利用自然語言處理技術從電子病歷中提取有價值的臨床資訊，有著特別濃厚的興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "電子病歷NLP應用"
+      },
+      "hashtags": [
+        "自然語言處理",
+        "電子病歷",
+        "臨床資訊"
+      ]
     },
     {
       "id": "59d16923-ee9e-4bbb-bcf8-e387f499915f",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我希望能聚焦於特定的問題，例如開發一套能早期預測癌症病灶的 AI 輔助系統",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "癌症早期預測問題定義",
+        "C2": "AI輔助系統開發構想"
+      },
+      "hashtags": [
+        "癌症病灶預測",
+        "AI輔助系統"
+      ]
     },
     {
       "id": "c8cadd51-8885-41e9-8aea-76c3f1fcecb3",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "或是利用大規模基因組數據進行疾病風險預測。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "疾病風險預測問題",
+        "C2": "基因組數據應用構想"
+      },
+      "hashtags": [
+        "基因組數據",
+        "疾病風險預測"
+      ]
     },
     {
       "id": "deb07d2f-32ad-40fe-b4e4-2d0d4e9c41e4",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我會積極參與實驗室的專案，嘗試發表我的研究成果於國際會議或期刊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究成果發表規劃"
+      },
+      "hashtags": [
+        "實驗室專案",
+        "國際會議",
+        "期刊發表"
+      ]
     },
     {
       "id": "84bc9fa2-990c-4084-a869-eacfca34678a",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我尤其希望能向貴系在相關領域有深厚研究的教授學習",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "教授學習意願"
+      },
       "hashtags": []
     },
     {
@@ -514,54 +939,104 @@
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "如若能有幸進入例如「生醫資訊與智慧醫療實驗室」或「電腦視覺與機器學習實驗室」等研究團隊，將是我莫大的榮幸。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實驗室參與規劃"
+      },
+      "hashtags": [
+        "生醫資訊與智慧醫療實驗室",
+        "電腦視覺與機器學習實驗室"
+      ]
     },
     {
       "id": "2c0c0435-0a82-4aef-bcd4-19be1dd7f973",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我期望在這段時間內，透過論文閱讀、實驗設計與資料分析，培養獨立思考與解決前沿問題的能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "獨立思考能力培養"
+      },
+      "hashtags": [
+        "論文閱讀",
+        "實驗設計",
+        "資料分析",
+        "獨立思考"
+      ]
     },
     {
       "id": "b716ab3a-0aca-40d2-bdcf-738ba3b49324",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "至於長期目標，我期望在取得碩士學位後，能成為一名具備跨領域視野的資工專業人才。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "長期職涯規劃"
+      },
+      "hashtags": [
+        "跨領域視野",
+        "資工專業人才"
+      ]
     },
     {
       "id": "79f6ac29-230e-4894-807d-d2f0908a4464",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我希望能將我的研究成果轉化為實際應用，投入於醫療科技產業，參與開發更智慧、更精準的醫療診斷或治療輔助系統，為改善人類健康福祉貢獻一份心力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "醫療科技應用開發",
+        "C4": "醫療產業貢獻願景"
+      },
+      "hashtags": [
+        "醫療科技產業",
+        "醫療診斷系統",
+        "治療輔助系統",
+        "研究成果應用"
+      ]
     },
     {
       "id": "97499c98-c12d-40af-839a-27d82c4b8eaa",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我也考慮未來繼續攻讀博士學位，在生物醫學資訊領域進行更深入的學術探索，為這個充滿挑戰與機會的領域帶來新的突破。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來學術規劃"
+      },
+      "hashtags": [
+        "博士學位",
+        "生物醫學資訊"
+      ]
     },
     {
       "id": "e57a9cfa-8888-4a39-8f42-d00d6844a734",
       "candidate_id": "mock_73",
       "section": "讀書計畫",
       "content": "我相信交大資工所不僅能提供我所需的知識與技能，更能塑造我成為一個有能力、有視野、有社會責任感的工程師與研究者。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "自我成長期許"
+      },
+      "hashtags": [
+        "交大資工所",
+        "工程師",
+        "研究者",
+        "社會責任感"
+      ]
     }
   ]
 }

@@ -10,35 +10,61 @@
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "許俊安是我，來自中山大學資訊工程學系。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景說明"
+      },
+      "hashtags": [
+        "中山大學",
+        "資訊工程學系"
+      ]
     },
     {
       "id": "b5c42a60-ea8d-4d94-b1d1-592c82836245",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "從小我就對電腦、網路這些東西充滿好奇，覺得它們很神奇，好像什麼事都可以透過程式來完成。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機啟蒙"
+      },
+      "hashtags": [
+        "電腦",
+        "網路",
+        "程式"
+      ]
     },
     {
       "id": "5327ff76-6bf6-4489-85cb-31813541bcff",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "所以大學選填志願的時候，資訊工程就是我的第一選擇",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學涯選擇動機"
+      },
+      "hashtags": [
+        "資訊工程",
+        "志願選擇"
+      ]
     },
     {
       "id": "84f42d6e-0e1b-41ec-b1d5-0c062ff5a602",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "很高興最後能進入這個領域學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域學習熱忱"
+      },
       "hashtags": []
     },
     {
@@ -46,17 +72,29 @@
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "在大學這幾年，我學到蠻多的，尤其是在軟體開發方面。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術知識學習",
+        "C2": "軟體開發能力"
+      },
+      "hashtags": [
+        "軟體開發"
+      ]
     },
     {
       "id": "c48a6d2d-5c29-4ae8-9eef-9673815f8e5a",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "我的學業成績大概是3.03左右，我知道不算特別高",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
       "hashtags": []
     },
     {
@@ -64,161 +102,301 @@
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "但我其實花很多時間在課外自己研究和寫程式。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "課外自主學習",
+        "C2": "程式實作投入"
+      },
+      "hashtags": [
+        "課外研究",
+        "程式實作",
+        "自主學習"
+      ]
     },
     {
       "id": "143bfddc-d0b3-46f9-9a6a-d1095f6c1d1a",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "我覺得光靠課堂上的知識不太夠，實際動手做才能真正學到東西。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "實作學習理念"
+      },
+      "hashtags": [
+        "動手實作",
+        "實踐學習"
+      ]
     },
     {
       "id": "a4e9d89c-78b7-41bb-bf5d-97ced715259c",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "我對區塊鏈技術和資訊與網路安全這兩個領域特別感興趣。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業領域興趣",
+        "C4": "未來發展方向"
+      },
+      "hashtags": [
+        "區塊鏈技術",
+        "資訊安全",
+        "網路安全"
+      ]
     },
     {
       "id": "0a396570-cb1f-4bfa-9db1-5eadef38f378",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "因為覺得現代網路世界裡面，資料安全實在太重要了，區塊鏈這種去中心化的方式感覺很有潛力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "技術趨勢洞察",
+        "C4": "研究方向動機"
+      },
+      "hashtags": [
+        "資料安全",
+        "去中心化",
+        "區塊鏈潛力"
+      ]
     },
     {
       "id": "fcd7ffaf-1370-4e13-b2ae-ab2ed110c28e",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "之前有一段時間，我有幸在我們系的「資訊安全與分散式系統實驗室」跟著老師和學長姐一起學習。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "實驗室參與經驗"
+      },
+      "hashtags": [
+        "資訊安全與分散式系統實驗室",
+        "實驗室學習"
+      ]
     },
     {
       "id": "1ad73805-ad20-493e-9cbe-f2f0f2d53f0e",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "那時候我們主要在研究怎麼利用區塊鏈的特性，去提升某些系統的資料安全性。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "區塊鏈技術應用"
+      },
+      "hashtags": [
+        "區塊鏈",
+        "資料安全性",
+        "系統安全"
+      ]
     },
     {
       "id": "36ba57b6-d227-4c29-a5a5-a1969087d6d2",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "雖然我只是幫忙做一些程式的開發和測試",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "程式開發測試"
+      },
+      "hashtags": [
+        "程式開發",
+        "程式測試"
+      ]
     },
     {
       "id": "771fd2f7-3dd4-42fb-9cd7-a360fe97061b",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "但學到很多關於加密技術、分散式帳本的概念，也了解了網路攻擊的種類和防禦方法。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "資安技術知識學習"
+      },
+      "hashtags": [
+        "加密技術",
+        "分散式帳本",
+        "網路攻擊防禦"
+      ]
     },
     {
       "id": "95b247ba-df82-46e7-bb32-1116c4eef149",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "過程中有遇到不少問題，像是有些程式一直跑不起來，或是我們想實作的功能因為效能問題一直達不到預期，那時候真的蠻挫折的。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "專案問題察覺"
+      },
+      "hashtags": [
+        "程式問題",
+        "效能瓶頸",
+        "實作挫折"
+      ]
     },
     {
       "id": "9a1d84d6-c4d2-4689-9246-0312f0a9388e",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "但這也讓我學到要怎麼去分析問題、嘗試不同的解決方案，也培養了我的除錯能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "問題分析與除錯"
+      },
+      "hashtags": [
+        "問題分析",
+        "解決方案嘗試",
+        "除錯能力"
+      ]
     },
     {
       "id": "bcd294d7-0190-4caf-b0cb-8b6a73dfbb4d",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "做完才發現原來這些技術比我想像中複雜很多，沒想到會遇到那麼多技術上的瓶頸。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術複雜性體悟"
+      },
+      "hashtags": [
+        "技術瓶頸",
+        "複雜技術理解"
+      ]
     },
     {
       "id": "396dce51-4a0e-47ff-8657-3e19011fc2bc",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "大學期間我也參加過一個「智慧城市提案競賽」。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "競賽參與經驗"
+      },
+      "hashtags": [
+        "智慧城市提案競賽"
+      ]
     },
     {
       "id": "201bef4f-5dcf-4ba6-bb35-dfde99839e93",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "當時我們團隊提出了一個結合資訊安全和物聯網的智慧交通管理方案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "跨域技術方案設計",
+        "C1": "跨域知識整合"
+      },
+      "hashtags": [
+        "資訊安全",
+        "物聯網",
+        "智慧交通管理",
+        "跨域整合"
+      ]
     },
     {
       "id": "7eac1729-e375-4883-bb7b-adeb6ce2217a",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "但那次經驗讓我對把資工技術應用到實際生活很有感觸。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術應用體悟"
+      },
+      "hashtags": [
+        "資工技術應用",
+        "實際生活應用"
+      ]
     },
     {
       "id": "56d18a94-a2e0-43bc-aa76-e77225d5093d",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "從發想到實際模擬，整個過程都讓我獲益良多，也學會了團隊合作。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習反思與團隊合作"
+      },
+      "hashtags": [
+        "團隊合作",
+        "發想模擬"
+      ]
     },
     {
       "id": "90fe63c7-fd97-4d5e-8e43-9cac5d0491f7",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "我們用了之前學到的一些資安概念去構思，覺得很不錯。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "概念應用與構思",
+        "C1": "應用資安學術知識"
+      },
+      "hashtags": [
+        "資安概念"
+      ]
     },
     {
       "id": "0ea85e6f-7018-4232-99cf-4b3442189e6b",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "我很清楚自己的技術能力還有很多進步空間，尤其在面對複雜系統設計和更高階的演算法時，常常覺得力不從心。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "技術能力自我評估"
+      },
+      "hashtags": [
+        "複雜系統設計",
+        "高階演算法"
+      ]
     },
     {
       "id": "440a2e65-ddd6-4a6c-a5ab-a7c5bc469a7f",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "所以，我希望可以到貴所繼續深造",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所深造意願"
+      },
       "hashtags": []
     },
     {
@@ -226,17 +404,29 @@
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "特別是交大資工所在區塊鏈和資訊安全領域的研究一直都很有名，有很多優秀的教授和先進的設備，讓我很嚮往。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究所領域嚮往"
+      },
+      "hashtags": [
+        "交大資工所",
+        "區塊鏈",
+        "資訊安全"
+      ]
     },
     {
       "id": "a15da6ff-14ee-441e-bb38-e65b480f02a5",
       "candidate_id": "mock_57",
       "section": "自傳",
       "content": "我相信在交大我可以更深入地學習這些技術，並提升自己的研究能力。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "研究能力提升規劃"
+      },
       "hashtags": []
     },
     {
@@ -244,134 +434,250 @@
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "我對交大資工所一直很有興趣，希望未來能在這裡把我的專業能力再提升，特別是在區塊鏈技術和資訊安全這塊。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "專業能力提升目標"
+      },
+      "hashtags": [
+        "交大資工所",
+        "區塊鏈技術",
+        "資訊安全"
+      ]
     },
     {
       "id": "68ec279c-37fe-45cb-b47e-413c6148b87f",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "加強基礎，把大學時學過但有點生疏的資料結構、演算法再複習一遍。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "基礎學科複習規劃",
+        "C1": "核心學科知識鞏固"
+      },
+      "hashtags": [
+        "資料結構",
+        "演算法"
+      ]
     },
     {
       "id": "42c83cfa-47c0-4491-bc9a-2793be060e1a",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "多看一些相關領域的書或論文，了解目前區塊鏈和資安的發展趨勢。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "領域趨勢學習規劃",
+        "C1": "區塊鏈資安趨勢"
+      },
+      "hashtags": [
+        "區塊鏈",
+        "資安",
+        "發展趨勢"
+      ]
     },
     {
       "id": "a3973ef0-31f5-4bd4-adf4-dc58f6a52698",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "磨練程式實作能力，多寫一些小型專案。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C4": "程式實作能力提升",
+        "C2": "小型專案實作"
+      },
+      "hashtags": [
+        "程式實作",
+        "小型專案"
+      ]
     },
     {
       "id": "bc225b37-2cbe-40ad-8626-e02654cdd3ca",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "努力學習，把必修和一些重要的選修課修好，特別是跟資訊安全、密碼學、分散式系統相關的課程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業課程規劃與學習"
+      },
+      "hashtags": [
+        "資訊安全",
+        "密碼學",
+        "分散式系統"
+      ]
     },
     {
       "id": "605142d0-5a7d-458d-8aa8-561bae019ab4",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "主動找教授，希望能盡快進入實驗室，跟著老師做研究",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "積極投入研究規劃"
+      },
+      "hashtags": [
+        "實驗室研究",
+        "教授合作"
+      ]
     },
     {
       "id": "5fa35e3d-0326-4a4c-9866-4bc6658271a4",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "學習實驗室的研究方法和流程。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "研究方法學習"
+      },
+      "hashtags": [
+        "研究方法",
+        "實驗室流程"
+      ]
     },
     {
       "id": "2ba28f50-4b33-425e-82ac-dc1187c72219",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "多參加研討會或學術演講，擴展自己的視野。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術視野拓展"
+      },
+      "hashtags": [
+        "學術研討會",
+        "學術演講"
+      ]
     },
     {
       "id": "19365770-eff6-4cee-8676-35f81f773f83",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "專注在自己的研究主題上，可能是區塊鏈的安全性、或是網路攻擊的防禦機制之類的。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業研究主題確立"
+      },
+      "hashtags": [
+        "區塊鏈安全性",
+        "網路攻擊防禦"
+      ]
     },
     {
       "id": "781885a1-000a-494f-a18a-02205bc0ff8c",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "多看最新的學術論文，學習如何分析和解決研究問題。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "研究問題分析學習"
+      },
+      "hashtags": [
+        "學術論文閱讀",
+        "研究問題解決"
+      ]
     },
     {
       "id": "50ac4ffe-8734-423f-8cdf-c071203e3dc4",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "積極和實驗室的老師、學長姐討論",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "團隊協作與溝通"
+      },
+      "hashtags": [
+        "實驗室討論",
+        "師生互動"
+      ]
     },
     {
       "id": "bdce228b-ccf4-4d72-bb18-2459c3330cfd",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "培養獨立思考和解決問題的能力，為論文做準備。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "獨立思考與解題"
+      },
+      "hashtags": [
+        "獨立思考",
+        "問題解決能力",
+        "論文準備"
+      ]
     },
     {
       "id": "8ddee8bd-60d0-4602-b9c5-eb4afdfc4dbb",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "希望未來可以進入資安或區塊鏈相關的公司工作，把自己在碩士班學到的知識和技能應用到實務上。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯規劃與學用合一"
+      },
+      "hashtags": [
+        "資安產業",
+        "區塊鏈產業",
+        "知識應用"
+      ]
     },
     {
       "id": "c0a71fef-ce82-4f78-8b21-834fa1420390",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "成為一個能解決實際問題的工程師，持續學習新的技術，不斷充實自己。",
-      "criteria": [],
-      "sub_criteria_map": {},
-      "hashtags": []
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "實務問題解決",
+        "C4": "持續學習與自我精進"
+      },
+      "hashtags": [
+        "實務問題解決",
+        "持續學習",
+        "工程師職涯"
+      ]
     },
     {
       "id": "8e27f4b6-2364-4ba2-9748-2df00d13f36e",
       "candidate_id": "mock_57",
       "section": "讀書計畫",
       "content": "希望有機會能參與一些大型的專案，為產業做出貢獻。",
-      "criteria": [],
-      "sub_criteria_map": {},
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "職涯發展規劃"
+      },
       "hashtags": []
     }
   ]
