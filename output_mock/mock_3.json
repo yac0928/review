@@ -1937,5 +1937,7 @@
     "C2": 26,
     "C3": 18,
     "C4": 46
-  }
+  },
+  "cluster_id": 2,
+  "is_medoid": false
 }

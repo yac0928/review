@@ -1,0 +1,1668 @@
+{
+  "candidate_id": "mock_115",
+  "source_files": [
+    "D:\\研究\\審查系統\\app\\mock_data\\mock_15.txt"
+  ],
+  "cleaned_text": "## 自傳\r\n\r\n**關於我**\r\n我是[學生姓名]，就讀國立中正大學資訊工程學系，主修計算機工程。在學期間，我對計算機底層架構與硬體加速技術抱持著濃厚的興趣，並積極投入相關專題研究。我的學業成績表現優異，GPA維持在3.8/4.3，顯示我在專業領域的紮實基礎。除了課業之外，我也熱衷於參與辯論社，在其中擔任積極成員，這段經歷不僅鍛鍊了我的邏輯思辨與批判性分析能力，更培養了我清晰表達複雜概念與高效溝通的技巧。\r\n\r\n**求學經歷**\r\n\r\n**[專題：基於FPGA之可重構深度學習推論加速器設計與實現]**\r\n在大三期間，我投入了為期一年的專題研究，旨在設計並實現一個針對卷積神經網絡 (CNN) 推論的可重構硬體加速器。該專案主要採用Xilinx Vivado HLS (High-Level Synthesis) 工具，將C/C++演算法轉換為RTL (Register-Transfer Level) 程式碼，並部署於Xilinx Zynq UltraScale+ FPGA開發板。我負責從底層架構設計、數據流優化到硬體資源映射的整個流程。具體來說，我們針對MobileNetV2這類輕量級CNN模型進行優化，設計了專屬的MAC (Multiply-Accumulate) 陣列，並引入數據量化（8-bit定點運算）與循環展開 (Loop Unrolling) 等技術，以最大化平行度並降低功耗。\r\n\r\n在實作過程中，我透過RTL級模擬 (使用QuestaSim) 和FPGA板級驗證，確保邏輯的正確性與效能。最終，該加速器在特定圖像分類任務上，相較於純軟體ARM處理器執行，取得了約8.5倍的推論速度提升，同時功耗降低了約60%。這段經歷讓我深入理解了計算機結構、平行處理、異構計算以及電子設計自動化 (EDA) 工具的應用，也學會了如何在硬體限制下平衡效能、面積與功耗的權衡。\r\n\r\n**[研究參與：異構記憶體系統下的巨量資料處理效能分析]**\r\n大四上學期，我參與了系上教授關於異構記憶體系統研究的專案，主要聚焦於探索NAND Flash SSD與傳統DRAM在巨量資料處理（如Graph Processing）中的效能表現。我負責使用gem5模擬器，建構一個包含多級快取與不同記憶體層級的模擬環境，並運行如PageRank、BFS (Breadth-First Search) 等圖演算法工作負載。\r\n\r\n我的任務是分析不同記憶體配置（例如，將部分圖資料置於SSD或NVRAM上）對快取命中率、記憶體存取延遲以及整體執行時間的影響。透過數據分析，我們發現合理地將冷資料遷移至較慢但容量大的記憶體層級，能在一定程度上緩解記憶體牆問題，並在部分場景下提升系統吞吐量約15%。此研究經驗強化了我對記憶體階層、快取一致性與巨量資料架構的理解，並熟練了使用業界標準模擬工具進行複雜系統分析的能力。\r\n\r\n**跨領域學習**\r\n在國立中正大學辯論社的三年經歷，對我的學習與研究方法產生了深遠影響。辯論不僅是語言的藝術，更是邏輯推演與問題解決的實踐。每次準備辯題，都需要我深入分析複雜議題，建構嚴謹的論證，並預判對手的可能反駁。這訓練了我從多個角度審視技術問題的能力，例如在設計硬體加速器時，除了考慮效能，也需考量成本、可擴展性與維護性等不同維度。\r\n\r\n此外，辯論也極大地提升了我的表達能力，讓我學會如何將複雜的技術概念，以簡潔有力、條理分明的方式呈現給非專業聽眾，這對於未來在學術研討會上報告研究成果，或是與跨領域團隊合作都至關重要。這種批判性思考與溝通能力，讓我能夠更好地理解並解決計算機架構設計中遇到的挑戰，而非僅停留在技術層面。\r\n\r\n## 動機\r\n\r\n隨著人工智慧、物聯網與巨量資料技術的蓬勃發展，現代計算的需求不斷攀升，單純依賴通用處理器的效能提升已不足以滿足這些爆炸性的計算負荷。我大學期間的專題研究，讓我深切體會到軟體優化在面對極致效能要求時的局限性，以及硬體加速在突破這些瓶頸上的巨大潛力。從設計FPGA加速器到分析異構記憶體系統，我觀察到硬體與軟體協同設計的重要性，並對如何設計更高效、更節能的計算系統產生了強烈的求知慾。\r\n\r\n國立陽明交通大學資工所，特別是在計算機結構、嵌入式系統與超大型積體電路 (VLSI) 設計等領域，擁有多位國際知名的教授和豐沛的研究資源。其課程內容不僅涵蓋了扎實的理論基礎，更強調實作與前瞻性的研究課題，這正是我所渴望的學術環境。我期許能在貴所進一步深化我在硬體加速技術、特定領域架構 (Domain-Specific Architectures, DSAs) 以及新興計算範式方面的知識，並學習如何將這些尖端技術應用於解決實際的計算挑戰。我相信，貴所能提供我一個理想的平台，將我對計算機硬體的熱情轉化為實質的創新貢獻。\r\n\r\n## 研究方向與動機\r\n\r\n我對於計算機結構與硬體加速技術的研究方向抱有高度熱情，具體而言，我對以下子領域特別感興趣：\r\n\r\n1. **特定領域架構 (Domain-Specific Architectures, DSAs) 與異構計算：**\r\n 隨著摩爾定律趨緩，通用處理器效能提升已面臨瓶頸，DSA成為突破計算極限的重要方向。我特別關注如何設計針對特定應用（如深度學習、圖計算、密碼學運算）的專用加速器。例如，如何有效整合可重構邏輯 (FPGA) 或自定義ASIC與通用處理器，形成高效的異構計算平台。這不僅涉及底層電路設計與微架構優化，更需從演算法層面進行軟硬體協同設計，以最大化整體系統效能與能源效率。我希望研究如何利用高階合成工具 (HLS) 結合硬體描述語言 (Verilog/SystemVerilog) 進行高效設計，探索數據流架構、片上網路 (NoC) 和記憶體子系統的創新。\r\n\r\n2. **硬體安全與可信計算：**\r\n 隨著物聯網設備和雲端服務的普及，硬體層面的安全性變得日益關鍵。對抗惡意程式、側通道攻擊、硬體特洛伊木馬等威脅，需要從計算機結構設計之初就考慮安全機制。我對於如何設計安全微處理器、實現高效的硬體加密加速器、以及開發針對安全漏洞的硬體層面檢測與防禦技術深感興趣。這包括研究量子密碼與計算中所需的高性能、低功耗加解密硬體架構，以及安全晶片軟硬體系統設計。\r\n\r\n選擇這些研究方向的動機，源於我過去的專題經驗。在設計FPGA深度學習加速器時，我深刻體會到透過定制化硬體，能夠在效能和功耗上取得通用處理器難以比擬的優勢。而在分析異構記憶體系統時，則讓我看到了在資源有限的邊緣設備上，如何通過精巧的硬體設計來提升整體系統效率。我希望能夠在交大資工所，在先進的實驗室環境中，結合我在計算機結構與硬體加速的基礎，深入探索如何設計出更智能、更高效、更安全的下一代計算硬體，為未來的AI與安全計算貢獻力量。\r\n\r\n## 讀書計畫\r\n\r\n**短期 (入學至第一學年結束)**\r\n* **鞏固基礎理論：** 修習如「高等計算機結構」、「超大型積體電路設計 (VLSI Design)」與「數位積體電路設計」等核心課程，全面強化硬體設計與分析的理論基礎。同時，選修「編譯器設計」課程，理解軟體與硬體介面，為軟硬體協同設計打下基礎。\r\n* **熟悉實驗環境：** 積極參與系上實驗室的專案活動，熟悉如Cadence、Synopsys等主流EDA工具的使用，並掌握Xilinx/Intel FPGA開發流程，包括Vivado HLS、Quartus Prime等。\r\n* **文獻研讀與導師探討：** 大量閱讀計算機結構、硬體加速及安全領域的頂尖期刊與會議論文 (如ISCA, MICRO, HPCA, DAC)，了解當前研究熱點與未解決的挑戰。與潛在指導教授深入交流，探討研究方向，逐步確認論文主題。\r\n* **精進程式技能：** 強化SystemVerilog、C++ for HLS編程能力，並學習Python進行數據分析與自動化腳本撰寫。\r\n\r\n**中期 (第二學年)**\r\n* **深入研究與論文撰寫：** 專注於選定的研究方向（如特定領域加速器設計或硬體安全架構），進行深入的理論分析、系統設計與實作。目標是提出創新的解決方案，並透過模擬驗證與原型實現。\r\n* **參與學術交流：** 積極撰寫研究成果，投稿至國內外重要學術會議 (如ICASSP, DATE) 或期刊，並爭取機會參與會議，進行口頭報告與交流，拓展學術視野。\r\n* **實習經驗：** 尋求國內外半導體公司或相關研發單位的實習機會，將所學理論與實作經驗應用於業界專案，了解產業前沿技術與需求。\r\n* **選修進階課程：** 根據研究需求，選修如「AI晶片設計」、「高階合成技術」、「異構計算」或「密碼學硬體實現」等進階課程，提升專業深度。\r\n\r\n**長期 (畢業後)**\r\n* **投入產業研發：** 成為半導體設計公司、IC設計公司或頂尖科技企業的硬體研發工程師，專注於新一代處理器、加速器或安全晶片的設計與開發。\r\n* **持續創新與學習：** 保持對計算機架構與硬體技術最新發展的關注，持續學習新知識、新工具與新方法，保持個人技術競爭力，並貢獻於推動產業技術進步。\r\n* **學術深造 (可能性)：** 若研究成果卓著，且對學術研究抱有更深熱情，不排除攻讀博士學位，投身學術界，繼續深耕計算機結構與硬體創新研究。\r\n\r\n## 其他加分文件摘要\r\n\r\n1. **國立中正大學資訊工程學系書卷獎 (202X-202Y學年度)**：獲得學業成績優異獎項，證明我在專業學習上的卓越表現。\r\n2. **全國大學生辯論比賽優勝 (202Y)**：作為隊伍核心辯手，在全國性辯論賽中榮獲冠軍，展現了我優秀的邏輯思維、口語表達和團隊協作能力。\r\n3. **Xilinx FPGA設計初級認證 (202Z)**：取得FPGA廠商提供的入門級設計認證，顯示我具備使用FPGA工具進行數位電路設計與實現的基礎能力。\r\n4. **開源專案貢獻 (202X-202Y)**：參與某開源RISC-V處理器核心專案，負責部分模組的功能驗證與Bug修復，熟悉Git版本控制與協同開發流程。\r\n5. **「數位邏輯設計與實習」課程專題報告佳作 (202X)**：在課程中設計了一個基於有限狀態機 (FSM) 的簡易序列檢測器，並在FPGA上成功實現，獲得老師高度評價。",
+  "idea_units": [
+    {
+      "id": "bde927ce-cbe2-4c0b-89da-45264cca91b3",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "我是[學生姓名]，就讀國立中正大學資訊工程學系，主修計算機工程。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術背景說明"
+      },
+      "hashtags": [
+        "國立中正大學",
+        "資訊工程學系",
+        "計算機工程"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述"
+      }
+    },
+    {
+      "id": "546a96d3-586a-4991-8608-3e501d023d90",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "在學期間，我對計算機底層架構與硬體加速技術抱持著濃厚的興趣。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣展現"
+      },
+      "hashtags": [
+        "計算機底層架構",
+        "硬體加速技術"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
+    },
+    {
+      "id": "2d1ebb57-2151-49c3-86f2-da18ad654d7a",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "並積極投入相關專題研究。",
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題研究投入",
+        "C4": "學習主動性"
+      },
+      "hashtags": [
+        "專題研究"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C4": "學習動機與態度"
+      }
+    },
+    {
+      "id": "df0ea552-162b-4d37-9726-5f29db29312e",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "我的學業成績表現優異，GPA維持在3.8/4.3。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績表現"
+      },
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
+    },
+    {
+      "id": "5d86f59f-7cb1-49c9-affb-27aea573854a",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "顯示我在專業領域的紮實基礎。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "專業基礎穩固"
+      },
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
+    },
+    {
+      "id": "af624bfa-227d-4993-9e89-3bc3169fb57c",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "除了課業之外，我也熱衷於參與辯論社，在其中擔任積極成員。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "社團參與投入"
+      },
+      "hashtags": [
+        "辯論社"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導"
+      }
+    },
+    {
+      "id": "335087af-3162-41f6-b70e-630c1819c317",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "這段經歷不僅鍛鍊了我的邏輯思辨與批判性分析能力，更培養了我清晰表達複雜概念與高效溝通的技巧。",
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "邏輯思辨能力",
+        "C4": "溝通表達技巧"
+      },
+      "hashtags": [
+        "邏輯思辨",
+        "批判性分析",
+        "溝通技巧",
+        "複雜概念表達"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C4": "專業知識傳遞"
+      }
+    },
+    {
+      "id": "fe17275e-0546-40e6-aff1-48dd77bda98f",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "在大三期間，我投入了為期一年的專題研究，旨在設計並實現一個針對卷積神經網絡 (CNN) 推論的可重構硬體加速器。",
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體加速器設計",
+        "C1": "應用學術知識"
+      },
+      "hashtags": [
+        "卷積神經網絡",
+        "CNN推論",
+        "可重構硬體加速器",
+        "專題研究"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C1": "研究方法與文獻"
+      }
+    },
+    {
+      "id": "fb1b9e69-b592-4c34-8f76-9b2ed2101533",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "該專案主要採用Xilinx Vivado HLS (High-Level Synthesis) 工具，將C/C++演算法轉換為RTL (Register-Transfer Level) 程式碼，並部署於Xilinx Zynq UltraScale+ FPGA開發板。",
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案技術應用"
+      },
+      "hashtags": [
+        "Xilinx Vivado HLS",
+        "High-Level Synthesis",
+        "C/C++演算法",
+        "RTL程式碼",
+        "Xilinx Zynq UltraScale+ FPGA"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行"
+      }
+    },
+    {
+      "id": "c36d7ec8-d715-410c-91a2-793d51bcb264",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "我負責從底層架構設計、數據流優化到硬體資源映射的整個流程。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案職責與貢獻",
+        "C3": "系統優化能力"
+      },
+      "hashtags": [
+        "底層架構設計",
+        "數據流優化",
+        "硬體資源映射"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "e73f7194-96ce-4e82-b89d-a93931e4150f",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "具體來說，我們針對MobileNetV2這類輕量級CNN模型進行優化，設計了專屬的MAC (Multiply-Accumulate) 陣列。",
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "輕量級模型硬體優化",
+        "C1": "深度學習模型理解"
+      },
+      "hashtags": [
+        "MobileNetV2",
+        "CNN模型",
+        "MAC陣列",
+        "硬體優化"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C1": "核心課程修習"
+      }
+    },
+    {
+      "id": "7576e5f6-5c64-478d-9b7e-a6e35f4dd919",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "並引入數據量化（8-bit定點運算）與循環展開 (Loop Unrolling) 等技術，以最大化平行度並降低功耗。",
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體加速技術應用",
+        "C1": "平行處理原理應用"
+      },
+      "hashtags": [
+        "數據量化",
+        "8-bit定點運算",
+        "循環展開",
+        "平行度優化",
+        "功耗降低"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C1": "跨域學習整合"
+      }
+    },
+    {
+      "id": "a48ff1e5-a86a-4c20-a050-c563deb80390",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "在實作過程中，我透過RTL級模擬 (使用QuestaSim) 和FPGA板級驗證，確保邏輯的正確性與效能。",
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體驗證與模擬"
+      },
+      "hashtags": [
+        "RTL級模擬",
+        "QuestaSim",
+        "FPGA板級驗證",
+        "邏輯正確性"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
+    },
+    {
+      "id": "0486ff71-2ab2-4c83-bb73-bcbd5aea32ce",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "最終，該加速器在特定圖像分類任務上，相較於純軟體ARM處理器執行，取得了約8.5倍的推論速度提升，同時功耗降低了約60%。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專案成果評估",
+        "C3": "效能優化成效"
+      },
+      "hashtags": [
+        "圖像分類加速器",
+        "推論速度提升",
+        "功耗降低",
+        "ARM處理器"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "2bf72fad-61dc-4595-8d25-05a98cb587b1",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "這段經歷讓我深入理解了計算機結構、平行處理、異構計算以及電子設計自動化 (EDA) 工具的應用。",
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "核心學術概念理解",
+        "C4": "專業知識深化"
+      },
+      "hashtags": [
+        "計算機結構",
+        "平行處理",
+        "異構計算",
+        "EDA工具"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述",
+        "C4": "專業知識傳遞"
+      }
+    },
+    {
+      "id": "e9caf499-9629-4908-bc7e-9f0ff61a49b1",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "也學會了如何在硬體限制下平衡效能、面積與功耗的權衡。",
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "硬體設計權衡思考",
+        "C1": "工程設計原理理解"
+      },
+      "hashtags": [
+        "效能權衡",
+        "面積權衡",
+        "功耗權衡",
+        "硬體限制"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C1": "學術興趣與規劃"
+      }
+    },
+    {
+      "id": "1ba53cd9-d1c6-48a3-9cd7-217a2974d1b9",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "大四上學期，我參與了系上教授關於異構記憶體系統研究的專案，主要聚焦於探索NAND Flash SSD與傳統DRAM在巨量資料處理（如Graph Processing）中的效能表現。",
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "異構記憶體研究",
+        "C2": "巨量資料處理專案"
+      },
+      "hashtags": [
+        "異構記憶體系統",
+        "NAND Flash SSD",
+        "DRAM",
+        "巨量資料處理",
+        "Graph Processing"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C2": "資料分析與模型建構"
+      }
+    },
+    {
+      "id": "a39e0115-4473-4892-bac3-f9ccad85b13f",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "我負責使用gem5模擬器，建構一個包含多級快取與不同記憶體層級的模擬環境，並運行如PageRank、BFS (Breadth-First Search) 等圖演算法工作負載。",
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "記憶體系統模擬建構"
+      },
+      "hashtags": [
+        "gem5模擬器",
+        "多級快取",
+        "記憶體層級",
+        "PageRank",
+        "BFS"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
+    },
+    {
+      "id": "f0dbec9f-bb30-45ef-aea5-6bdafa9564e2",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "我的任務是分析不同記憶體配置（例如，將部分圖資料置於SSD或NVRAM上）對快取命中率、記憶體存取延遲以及整體執行時間的影響。",
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "記憶體配置分析",
+        "C2": "效能指標分析"
+      },
+      "hashtags": [
+        "記憶體配置",
+        "SSD",
+        "NVRAM",
+        "快取命中率",
+        "記憶體存取延遲"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C2": "程式與技術精進"
+      }
+    },
+    {
+      "id": "de6189d0-dff2-4334-b3b1-b85f70c5735a",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "透過數據分析，我們發現合理地將冷資料遷移至較慢但容量大的記憶體層級，能在一定程度上緩解記憶體牆問題，並在部分場景下提升系統吞吐量約15%。",
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "數據分析與問題解決",
+        "C2": "系統效能優化成果"
+      },
+      "hashtags": [
+        "數據分析",
+        "冷資料遷移",
+        "記憶體牆問題",
+        "系統吞吐量提升"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C2": "程式與技術精進"
+      }
+    },
+    {
+      "id": "7c363505-a865-4bf5-a024-1c11c7d43bd9",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "此研究經驗強化了我對記憶體階層、快取一致性與巨量資料架構的理解。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術知識深化"
+      },
+      "hashtags": [
+        "記憶體階層",
+        "快取一致性",
+        "巨量資料架構"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃"
+      }
+    },
+    {
+      "id": "0797cd8d-ea67-4cb6-b6ea-29c30ecbd220",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "並熟練了使用業界標準模擬工具進行複雜系統分析的能力。",
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "業界工具應用"
+      },
+      "hashtags": [
+        "業界模擬工具",
+        "複雜系統分析"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用"
+      }
+    },
+    {
+      "id": "e5e8178e-ceb8-4488-9f8f-19e3b113f003",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "在國立中正大學辯論社的三年經歷，對我的學習與研究方法產生了深遠影響。",
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "社團經驗影響",
+        "C1": "學習方法形塑"
+      },
+      "hashtags": [
+        "中正大學辯論社"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "團隊協作與領導",
+        "C1": "核心課程修習"
+      }
+    },
+    {
+      "id": "4fc741ea-41ad-406f-acd2-636b59abf3d0",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "辯論不僅是語言的藝術，更是邏輯推演與問題解決的實踐。",
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "邏輯推演實踐"
+      },
+      "hashtags": [
+        "邏輯推演",
+        "問題解決"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "01503dca-76ff-441a-a741-91088d05b0dd",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "每次準備辯題，都需要我深入分析複雜議題，建構嚴謹的論證，並預判對手的可能反駁。",
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "議題分析與論證"
+      },
+      "hashtags": [
+        "複雜議題分析",
+        "嚴謹論證",
+        "預判反駁"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "問題定義與分析"
+      }
+    },
+    {
+      "id": "b357d843-78f6-45d3-97d0-9339a5c3ab97",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "這訓練了我從多個角度審視技術問題的能力。",
+      "criteria": [
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C3": "多角度問題審視"
+      },
+      "hashtags": [
+        "多角度審視",
+        "技術問題"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維"
+      }
+    },
+    {
+      "id": "30327f43-7990-4d38-939b-e08b1975b431",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "例如在設計硬體加速器時，除了考慮效能，也需考量成本、可擴展性與維護性等不同維度。",
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "系統性考量",
+        "C2": "硬體設計考量"
+      },
+      "hashtags": [
+        "硬體加速器",
+        "效能考量",
+        "成本考量",
+        "可擴展性",
+        "維護性"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "批判性反思",
+        "C2": "軟硬體整合實作"
+      }
+    },
+    {
+      "id": "2bffb447-2a36-4fd9-91c6-34b8b10653f0",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "此外，辯論也極大地提升了我的表達能力，讓我學會如何將複雜的技術概念，以簡潔有力、條理分明的方式呈現給非專業聽眾。",
+      "criteria": [],
+      "sub_criteria_map": {},
+      "hashtags": [],
+      "standard_sub_criteria_map": {}
+    },
+    {
+      "id": "7f3bb55f-fd52-4c6f-b90c-d499dfad84c2",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "這對於未來在學術研討會上報告研究成果，或是與跨領域團隊合作都至關重要。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來應用展望"
+      },
+      "hashtags": [
+        "學術研討會",
+        "跨領域合作"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
+    },
+    {
+      "id": "c6f44a5f-a3e0-482e-a321-c9dd4129bd0f",
+      "candidate_id": "mock_115",
+      "section": "自傳",
+      "content": "這種批判性思考與溝通能力，讓我能夠更好地理解並解決計算機架構設計中遇到的挑戰，而非僅停留在技術層面。",
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "批判性解決挑戰",
+        "C4": "跨層次溝通應用"
+      },
+      "hashtags": [
+        "批判性思考",
+        "溝通能力",
+        "計算機架構",
+        "挑戰解決"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C4": "跨域整合能力"
+      }
+    },
+    {
+      "id": "4852a94c-50bf-4228-afcc-c18b0b33f6e2",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "隨著人工智慧、物聯網與巨量資料技術的蓬勃發展，現代計算的需求不斷攀升，單純依賴通用處理器的效能提升已不足以滿足這些爆炸性的計算負荷。",
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "產業趨勢洞察",
+        "C3": "計算瓶頸分析"
+      },
+      "hashtags": [
+        "人工智慧",
+        "物聯網",
+        "巨量資料",
+        "計算負荷",
+        "通用處理器"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "7402d32c-a78f-4a4b-8557-8f7eae174193",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "我大學期間的專題研究，讓我深切體會到軟體優化在面對極致效能要求時的局限性，以及硬體加速在突破這些瓶頸上的巨大潛力。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題研究體悟",
+        "C3": "軟硬體效能分析"
+      },
+      "hashtags": [
+        "大學專題研究",
+        "軟體優化",
+        "硬體加速",
+        "效能瓶頸"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "4d4cbeda-c67e-4186-9e10-4a12c1af5a85",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "從設計FPGA加速器到分析異構記憶體系統，我觀察到硬體與軟體協同設計的重要性。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體設計實作",
+        "C3": "系統協同設計理解"
+      },
+      "hashtags": [
+        "FPGA加速器",
+        "異構記憶體系統",
+        "硬體軟體協同設計"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "97ced254-8225-4683-9138-a76ac2ccae2a",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "並對如何設計更高效、更節能的計算系統產生了強烈的求知慾。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習動機展現"
+      },
+      "hashtags": [
+        "高效計算系統",
+        "節能計算系統"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
+    },
+    {
+      "id": "072c90f9-5cce-4417-ab2b-2839edac948b",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "國立陽明交通大學資工所，特別是在計算機結構、嵌入式系統與超大型積體電路 (VLSI) 設計等領域，擁有多位國際知名的教授和豐沛的研究資源。",
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學校資源認知",
+        "C4": "研究所選擇依據"
+      },
+      "hashtags": [
+        "陽明交通大學資工所",
+        "計算機結構",
+        "嵌入式系統",
+        "VLSI設計"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術背景概述",
+        "C4": "學術職涯規劃"
+      }
+    },
+    {
+      "id": "f52fd3ca-e032-48f9-94d8-d70fedf3f2e8",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "其課程內容不僅涵蓋了扎實的理論基礎，更強調實作與前瞻性的研究課題。",
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "課程內容理解",
+        "C2": "實作研究導向"
+      },
+      "hashtags": [
+        "理論基礎",
+        "實作",
+        "前瞻研究課題"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習",
+        "C2": "理論實務整合"
+      }
+    },
+    {
+      "id": "8d2c0d24-28ed-4c35-b65a-eff4c71f9872",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "這正是我所渴望的學術環境。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術環境契合"
+      },
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
+    },
+    {
+      "id": "40042794-079e-4aa6-80ae-56c69d2384a4",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "我期許能在貴所進一步深化我在硬體加速技術、特定領域架構 (Domain-Specific Architectures, DSAs) 以及新興計算範式方面的知識。",
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "學習目標明確",
+        "C1": "專業知識深化"
+      },
+      "hashtags": [
+        "硬體加速技術",
+        "特定領域架構",
+        "DSA",
+        "新興計算範式"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度",
+        "C1": "專業知識掌握"
+      }
+    },
+    {
+      "id": "6c3f9f4d-4207-4f44-9926-20ebb41c7fdc",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "並學習如何將這些尖端技術應用於解決實際的計算挑戰。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "尖端技術應用",
+        "C3": "實際挑戰解決"
+      },
+      "hashtags": [
+        "尖端技術應用",
+        "計算挑戰解決"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專業技術應用",
+        "C3": "解決方案構思"
+      }
+    },
+    {
+      "id": "7778d94b-b593-4906-8a3e-f629f4e12b4b",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "我相信，貴所能提供我一個理想的平台，將我對計算機硬體的熱情轉化為實質的創新貢獻。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "創新貢獻願景"
+      },
+      "hashtags": [
+        "計算機硬體熱情",
+        "創新貢獻"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業發展願景"
+      }
+    },
+    {
+      "id": "95693560-043e-4839-8bb9-252f466106ef",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "我對於計算機結構與硬體加速技術的研究方向抱有高度熱情，具體而言，我對以下子領域特別感興趣：",
+      "criteria": [
+        "C1",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C1": "學術興趣展現",
+        "C4": "研究方向規劃"
+      },
+      "hashtags": [
+        "計算機結構",
+        "硬體加速技術"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C4": "學術職涯規劃"
+      }
+    },
+    {
+      "id": "4b704677-4a4a-427f-9287-569da76d6d33",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "隨著摩爾定律趨緩，通用處理器效能提升已面臨瓶頸，DSA成為突破計算極限的重要方向。",
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "領域問題洞察",
+        "C1": "學術趨勢理解"
+      },
+      "hashtags": [
+        "摩爾定律",
+        "通用處理器瓶頸",
+        "DSA"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C1": "學術興趣與規劃"
+      }
+    },
+    {
+      "id": "93e83d36-99ca-4589-ad13-1338776402f9",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "我特別關注如何設計針對特定應用（如深度學習、圖計算、密碼學運算）的專用加速器。",
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "專精領域興趣",
+        "C2": "應用導向設計"
+      },
+      "hashtags": [
+        "專用加速器",
+        "深度學習",
+        "圖計算",
+        "密碼學運算"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C2": "專案實作執行"
+      }
+    },
+    {
+      "id": "0ddb9a8e-cbf5-4829-b838-5ee03268219a",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "例如，如何有效整合可重構邏輯 (FPGA) 或自定義ASIC與通用處理器，形成高效的異構計算平台。",
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "異構平台整合",
+        "C1": "硬體技術知識"
+      },
+      "hashtags": [
+        "FPGA",
+        "ASIC",
+        "異構計算平台"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C1": "專業知識掌握"
+      }
+    },
+    {
+      "id": "c3459993-2422-4c90-b7e6-2ca16bec83a3",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "這不僅涉及底層電路設計與微架構優化，更需從演算法層面進行軟硬體協同設計，以最大化整體系統效能與能源效率。",
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "軟硬體協同思維",
+        "C2": "系統效能優化"
+      },
+      "hashtags": [
+        "底層電路設計",
+        "微架構優化",
+        "軟硬體協同設計",
+        "能源效率"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "跨域整合思維",
+        "C2": "系統開發與架構"
+      }
+    },
+    {
+      "id": "44e74212-1174-490e-9c29-29576bda52c5",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "我希望研究如何利用高階合成工具 (HLS) 結合硬體描述語言 (Verilog/SystemVerilog) 進行高效設計，探索數據流架構、片上網路 (NoC) 和記憶體子系統的創新。",
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體設計創新",
+        "C1": "專業工具應用"
+      },
+      "hashtags": [
+        "高階合成工具HLS",
+        "Verilog",
+        "SystemVerilog",
+        "數據流架構",
+        "片上網路NoC"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C1": "專業知識掌握"
+      }
+    },
+    {
+      "id": "f19fbb05-4c5b-4ed5-864e-1de8b28cfa0f",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "隨著物聯網設備和雲端服務的普及，硬體層面的安全性變得日益關鍵。",
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "領域安全挑戰",
+        "C1": "產業趨勢洞察"
+      },
+      "hashtags": [
+        "物聯網設備",
+        "雲端服務",
+        "硬體安全性"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "應變與韌性",
+        "C1": "學術興趣與規劃"
+      }
+    },
+    {
+      "id": "460ef855-ee4e-4144-81ae-f34254231053",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "對抗惡意程式、側通道攻擊、硬體特洛伊木馬等威脅，需要從計算機結構設計之初就考慮安全機制。",
+      "criteria": [
+        "C3",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C3": "安全威脅分析",
+        "C1": "安全設計理念"
+      },
+      "hashtags": [
+        "惡意程式",
+        "側通道攻擊",
+        "硬體特洛伊木馬",
+        "安全機制"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "應變與韌性",
+        "C1": "專業知識掌握"
+      }
+    },
+    {
+      "id": "6abb84b7-d36d-4ddf-b59d-a0b609a35ab0",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "我對於如何設計安全微處理器、實現高效的硬體加密加速器、以及開發針對安全漏洞的硬體層面檢測與防禦技術深感興趣。",
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "硬體安全研究興趣",
+        "C2": "安全硬體開發"
+      },
+      "hashtags": [
+        "安全微處理器",
+        "硬體加密加速器",
+        "安全漏洞檢測",
+        "硬體防禦技術"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C2": "軟硬體整合實作"
+      }
+    },
+    {
+      "id": "2c54797e-00ae-42e3-9b7b-a573d812b960",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "這包括研究量子密碼與計算中所需的高性能、低功耗加解密硬體架構，以及安全晶片軟硬體系統設計。",
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "前瞻學術探索",
+        "C2": "安全晶片系統設計"
+      },
+      "hashtags": [
+        "量子密碼",
+        "量子計算",
+        "加解密硬體架構",
+        "安全晶片軟硬體系統"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學術興趣與規劃",
+        "C2": "軟硬體整合實作"
+      }
+    },
+    {
+      "id": "a76b8482-995b-4803-a779-9333f2c5047f",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "選擇這些研究方向的動機，源於我過去的專題經驗。",
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "專題經驗連結",
+        "C4": "研究方向動機"
+      },
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C2": "理論實務整合",
+        "C4": "學習動機與態度"
+      }
+    },
+    {
+      "id": "d2776885-6ed9-4c89-b415-a81579351e83",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "在設計FPGA深度學習加速器時，我深刻體會到透過定制化硬體，能夠在效能和功耗上取得通用處理器難以比擬的優勢。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "FPGA加速器設計",
+        "C3": "硬體效能優化洞察"
+      },
+      "hashtags": [
+        "FPGA深度學習加速器",
+        "定制化硬體",
+        "效能功耗優勢"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "8534d52c-233f-4c9e-bcdb-b5616c63d951",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "而在分析異構記憶體系統時，則讓我看到了在資源有限的邊緣設備上，如何通過精巧的硬體設計來提升整體系統效率。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "異構記憶體分析",
+        "C3": "邊緣設備效率提升"
+      },
+      "hashtags": [
+        "異構記憶體系統",
+        "邊緣設備",
+        "硬體設計優化"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "ef924423-617f-45c2-8a80-df99b09a83f5",
+      "candidate_id": "mock_115",
+      "section": "其他",
+      "content": "我希望能夠在交大資工所，在先進的實驗室環境中，結合我在計算機結構與硬體加速的基礎，深入探索如何設計出更智能、更高效、更安全的下一代計算硬體，為未來的AI與安全計算貢獻力量。",
+      "criteria": [
+        "C4",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C4": "未來研究規劃",
+        "C1": "基礎學術應用"
+      },
+      "hashtags": [
+        "計算機結構",
+        "硬體加速",
+        "AI計算",
+        "安全計算"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃",
+        "C1": "學術背景概述"
+      }
+    },
+    {
+      "id": "a665becd-b839-4fca-8964-2b20387beba2",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "修習如「高等計算機結構」、「超大型積體電路設計 (VLSI Design)」與「數位積體電路設計」等核心課程，全面強化硬體設計與分析的理論基礎。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "硬體設計理論基礎"
+      },
+      "hashtags": [
+        "高等計算機結構",
+        "VLSI Design",
+        "數位積體電路設計"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
+    },
+    {
+      "id": "e9d67d26-aa46-4613-8a69-5f57b94c06bb",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "同時，選修「編譯器設計」課程，理解軟體與硬體介面，為軟硬體協同設計打下基礎。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "軟硬體介面理解"
+      },
+      "hashtags": [
+        "編譯器設計",
+        "軟硬體協同設計"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握"
+      }
+    },
+    {
+      "id": "affe8f73-5503-49ed-872c-d9c9c369b708",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "積極參與系上實驗室的專案活動，熟悉如Cadence、Synopsys等主流EDA工具的使用，並掌握Xilinx/Intel FPGA開發流程，包括Vivado HLS、Quartus Prime等。",
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "EDA工具與FPGA開發"
+      },
+      "hashtags": [
+        "Cadence",
+        "Synopsys",
+        "Xilinx FPGA",
+        "Vivado HLS",
+        "Quartus Prime"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
+    },
+    {
+      "id": "8615000d-5c9f-4a18-8bdc-fe8a261c88e0",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "大量閱讀計算機結構、硬體加速及安全領域的頂尖期刊與會議論文 (如ISCA, MICRO, HPCA, DAC)，了解當前研究熱點與未解決的挑戰。",
+      "criteria": [
+        "C1",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C1": "頂尖論文閱讀",
+        "C3": "研究熱點洞察"
+      },
+      "hashtags": [
+        "ISCA",
+        "MICRO",
+        "HPCA",
+        "DAC",
+        "研究熱點"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "研究方法與文獻",
+        "C3": "批判性反思"
+      }
+    },
+    {
+      "id": "2d8243e1-6abd-4296-b63a-fe1e23f724fa",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "與潛在指導教授深入交流，探討研究方向，逐步確認論文主題。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "論文主題確認"
+      },
+      "hashtags": [],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
+    },
+    {
+      "id": "6876fc69-6425-4af3-9c5e-6dfe947a729c",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "強化SystemVerilog、C++ for HLS編程能力，並學習Python進行數據分析與自動化腳本撰寫。",
+      "criteria": [
+        "C2",
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C2": "編程能力強化",
+        "C1": "數據分析工具學習"
+      },
+      "hashtags": [
+        "SystemVerilog",
+        "C++ for HLS",
+        "Python",
+        "數據分析",
+        "自動化腳本"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "程式與技術精進",
+        "C1": "專業知識掌握"
+      }
+    },
+    {
+      "id": "d6a470ab-a93e-4e6d-b401-c17f391c5150",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "專注於選定的研究方向（如特定領域加速器設計或硬體安全架構），進行深入的理論分析、系統設計與實作。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "系統設計與實作",
+        "C3": "深入理論分析"
+      },
+      "hashtags": [
+        "加速器設計",
+        "硬體安全架構",
+        "理論分析",
+        "系統設計",
+        "實作"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "系統開發與架構",
+        "C3": "跨域整合思維"
+      }
+    },
+    {
+      "id": "d534054d-be5f-4a60-93b8-c739b9a338ba",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "目標是提出創新的解決方案，並透過模擬驗證與原型實現。",
+      "criteria": [
+        "C3",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C3": "創新解決方案提出",
+        "C2": "模擬驗證與原型"
+      },
+      "hashtags": [
+        "創新解決方案",
+        "模擬驗證",
+        "原型實現"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "解決方案構思",
+        "C2": "理論實務整合"
+      }
+    },
+    {
+      "id": "5102cdd8-200b-47e8-94cb-a991f9c64efb",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "積極撰寫研究成果，投稿至國內外重要學術會議 (如ICASSP, DATE) 或期刊。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術成果發表"
+      },
+      "hashtags": [
+        "ICASSP",
+        "DATE",
+        "學術會議投稿",
+        "期刊投稿"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
+    },
+    {
+      "id": "34876711-bc8c-4f77-8c7c-6c7ed39b30c8",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "並爭取機會參與會議，進行口頭報告與交流，拓展學術視野。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術交流與報告"
+      },
+      "hashtags": [
+        "口頭報告",
+        "學術交流",
+        "學術視野拓展"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "專業知識傳遞"
+      }
+    },
+    {
+      "id": "90e57896-8342-43d8-b3f6-611e73117da5",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "尋求國內外半導體公司或相關研發單位的實習機會，將所學理論與實作經驗應用於業界專案，了解產業前沿技術與需求。",
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "業界專案應用",
+        "C4": "產業趨勢學習"
+      },
+      "hashtags": [
+        "半導體公司實習",
+        "業界專案",
+        "產業前沿技術"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C4": "專業發展願景"
+      }
+    },
+    {
+      "id": "7c5cf5b6-cc36-4eee-846e-920eb2c0ed3b",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "根據研究需求，選修如「AI晶片設計」、「高階合成技術」、「異構計算」或「密碼學硬體實現」等進階課程，提升專業深度。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "進階專業修課"
+      },
+      "hashtags": [
+        "AI晶片設計",
+        "高階合成技術",
+        "異構計算",
+        "密碼學硬體實現"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "核心課程修習"
+      }
+    },
+    {
+      "id": "9ea00f8a-8879-401d-b101-8b57fbfa1acb",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "成為半導體設計公司、IC設計公司或頂尖科技企業的硬體研發工程師，專注於新一代處理器、加速器或安全晶片的設計與開發。",
+      "criteria": [
+        "C2",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C2": "硬體研發設計",
+        "C4": "職涯發展規劃"
+      },
+      "hashtags": [
+        "半導體設計公司",
+        "IC設計公司",
+        "硬體研發工程師",
+        "處理器設計",
+        "加速器設計",
+        "安全晶片"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作",
+        "C4": "學術職涯規劃"
+      }
+    },
+    {
+      "id": "675ca63a-6393-41ab-9360-5d4e9de40a20",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "保持對計算機架構與硬體技術最新發展的關注，持續學習新知識、新工具與新方法，保持個人技術競爭力，並貢獻於推動產業技術進步。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "持續學習與精進"
+      },
+      "hashtags": [
+        "計算機架構",
+        "硬體技術發展",
+        "技術競爭力"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學習動機與態度"
+      }
+    },
+    {
+      "id": "716c5460-336d-4cb1-8649-5efcda281493",
+      "candidate_id": "mock_115",
+      "section": "讀書計畫",
+      "content": "若研究成果卓著，且對學術研究抱有更深熱情，不排除攻讀博士學位，投身學術界，繼續深耕計算機結構與硬體創新研究。",
+      "criteria": [
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      },
+      "hashtags": [
+        "博士學位",
+        "學術界",
+        "計算機結構研究",
+        "硬體創新研究"
+      ],
+      "standard_sub_criteria_map": {
+        "C4": "學術職涯規劃"
+      }
+    },
+    {
+      "id": "44b61d02-6010-4f6a-b556-76ecbb6675ff",
+      "candidate_id": "mock_115",
+      "section": "加分文件",
+      "content": "國立中正大學資訊工程學系書卷獎 (202X-202Y學年度)：獲得學業成績優異獎項，證明我在專業學習上的卓越表現。",
+      "criteria": [
+        "C1"
+      ],
+      "sub_criteria_map": {
+        "C1": "學業成績優異"
+      },
+      "hashtags": [
+        "國立中正大學",
+        "資訊工程學系",
+        "書卷獎"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "學業成績表現"
+      }
+    },
+    {
+      "id": "81241b8c-8b88-40da-8be3-cdee61fc1c0d",
+      "candidate_id": "mock_115",
+      "section": "加分文件",
+      "content": "全國大學生辯論比賽優勝 (202Y)：作為隊伍核心辯手，在全國性辯論賽中榮獲冠軍，展現了我優秀的邏輯思維、口語表達和團隊協作能力。",
+      "criteria": [
+        "C3",
+        "C4"
+      ],
+      "sub_criteria_map": {
+        "C3": "邏輯思辨能力",
+        "C4": "口語溝通表達"
+      },
+      "hashtags": [
+        "全國大學生辯論比賽",
+        "核心辯手",
+        "辯論冠軍"
+      ],
+      "standard_sub_criteria_map": {
+        "C3": "實作與驗證",
+        "C4": "專業知識傳遞"
+      }
+    },
+    {
+      "id": "9c708e5d-53e1-4de3-9b5a-7a4142641f33",
+      "candidate_id": "mock_115",
+      "section": "加分文件",
+      "content": "Xilinx FPGA設計初級認證 (202Z)：取得FPGA廠商提供的入門級設計認證，顯示我具備使用FPGA工具進行數位電路設計與實現的基礎能力。",
+      "criteria": [
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C2": "FPGA設計基礎"
+      },
+      "hashtags": [
+        "Xilinx FPGA",
+        "FPGA設計認證",
+        "數位電路設計"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "軟硬體整合實作"
+      }
+    },
+    {
+      "id": "06d4d8a5-bc9a-4ecb-9df5-6279ebb2cd4c",
+      "candidate_id": "mock_115",
+      "section": "加分文件",
+      "content": "開源專案貢獻 (202X-202Y)：參與某開源RISC-V處理器核心專案，負責部分模組的功能驗證與Bug修復，熟悉Git版本控制與協同開發流程。",
+      "criteria": [
+        "C2",
+        "C3"
+      ],
+      "sub_criteria_map": {
+        "C2": "開源專案實作",
+        "C3": "程式錯誤偵錯"
+      },
+      "hashtags": [
+        "開源專案",
+        "RISC-V處理器",
+        "功能驗證",
+        "Bug修復",
+        "Git版本控制"
+      ],
+      "standard_sub_criteria_map": {
+        "C2": "專案實作執行",
+        "C3": "實作與驗證"
+      }
+    },
+    {
+      "id": "6b998bc4-8ade-49ad-88b3-de7f4493ecc1",
+      "candidate_id": "mock_115",
+      "section": "加分文件",
+      "content": "「數位邏輯設計與實習」課程專題報告佳作 (202X)：在課程中設計了一個基於有限狀態機 (FSM) 的簡易序列檢測器，並在FPGA上成功實現，獲得老師高度評價。",
+      "criteria": [
+        "C1",
+        "C2"
+      ],
+      "sub_criteria_map": {
+        "C1": "數位邏輯學術表現",
+        "C2": "FPGA硬體實現"
+      },
+      "hashtags": [
+        "數位邏輯設計",
+        "有限狀態機FSM",
+        "序列檢測器",
+        "FPGA實現",
+        "課程專題佳作"
+      ],
+      "standard_sub_criteria_map": {
+        "C1": "專業知識掌握",
+        "C2": "軟硬體整合實作"
+      }
+    }
+  ],
+  "feature_vector": [
+    0.06461706697512384,
+    0.1292341339502477,
+    0.1292341339502477,
+    0.32308533487561925,
+    0.03230853348756192,
+    0.32308533487561925,
+    0.06461706697512384,
+    0.19385120092537156,
+    0.06461706697512384,
+    0.06461706697512384,
+    0.03230853348756192,
+    0.5492450692885528,
+    0,
+    0.16154266743780962,
+    0.09692560046268578,
+    0.03230853348756192,
+    0.09692560046268578,
+    0.45231946882586693,
+    0.06461706697512384,
+    0.06461706697512384,
+    0.1292341339502477,
+    0.22615973441293347,
+    0.06461706697512384,
+    0.16154266743780962,
+    0,
+    0.03230853348756192,
+    0.19385120092537156,
+    0.06461706697512384
+  ],
+  "radar_chart_data": {
+    "C1": 33,
+    "C2": 36,
+    "C3": 26,
+    "C4": 23
+  },
+  "cluster_id": 0,
+  "is_medoid": false
+}

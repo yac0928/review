@@ -676,5 +676,7 @@
     "C2": 8,
     "C3": 5,
     "C4": 22
-  }
+  },
+  "cluster_id": 2,
+  "is_medoid": false
 }

@@ -12,6 +12,8 @@
     "pipeline:mock": "cross-env DATA_DIR=../mock_data OUTPUT_DIR=output_mock CANDIDATE_ID= CANDIDATE_FILE= ts-node scripts/runStep01.ts",
     "step2": "ts-node scripts/runStep02.ts",
     "step2:mock": "cross-env OUTPUT_DIR=output_mock CANDIDATE_ID= ts-node scripts/runStep02.ts",
+    "copy:old-mocks": "ts-node scripts/copyOldMocks.ts",
+    "relabel:embed": "cross-env OUTPUT_DIR=output_mock tsx scripts/runRelabelEmbed.ts",
     "step3": "tsx scripts/runStep03.ts",
     "step3:mock": "cross-env OUTPUT_DIR=output_mock tsx scripts/runStep03.ts",
     "step4": "ts-node scripts/runStep04.ts",

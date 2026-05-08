@@ -1963,5 +1963,7 @@
     "C2": 18,
     "C3": 17,
     "C4": 45
-  }
+  },
+  "cluster_id": 2,
+  "is_medoid": false
 }

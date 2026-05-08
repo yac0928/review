@@ -1809,5 +1809,7 @@
     "C2": 30,
     "C3": 20,
     "C4": 36
-  }
+  },
+  "cluster_id": 0,
+  "is_medoid": false
 }
