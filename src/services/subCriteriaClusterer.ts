@@ -138,7 +138,12 @@ export async function buildStandardDictionary(outputDir: string): Promise<Standa
 
     console.log(`\n[Step 3] ${criterionId}: ${entries.length} raw labels`);
 
-    if (dictionary[criterionId] !== undefined) {
+    // Phase 1 已完成但 Phase 2 未完成：raw_labels 全為空陣列
+    const phase1Done =
+      dictionary[criterionId] !== undefined &&
+      dictionary[criterionId]!.every(sc => sc.raw_labels.length === 0);
+
+    if (dictionary[criterionId] !== undefined && !phase1Done) {
       console.log(`[Step 3] ${criterionId}: already in dictionary, skipping`);
       continue;
     }
@@ -149,12 +154,28 @@ export async function buildStandardDictionary(outputDir: string): Promise<Standa
       continue;
     }
 
-    // Phase 1: LLM看全部 raw labels，定義 ≤10 個標準 sub-criteria
-    console.log(`[Step 3] ${criterionId}: defining standard sub-criteria via LLM (${entries.length} labels)...`);
-    const definitions = await defineSubCriteria(criterionId, entries);
-    console.log(`[Step 3] ${criterionId}: ${definitions.length} sub-criteria defined`);
-    for (const d of definitions) {
-      console.log(`  · "${d.name}": ${d.description}`);
+    let definitions: RawSubCriteriaDefinition[];
+
+    if (phase1Done) {
+      // 從 dictionary 還原 Phase 1 結果，直接跳到 Phase 2
+      console.log(`[Step 3] ${criterionId}: Phase 1 already done, resuming Phase 2...`);
+      definitions = dictionary[criterionId]!.map(sc => ({ name: sc.name, description: sc.description }));
+    } else {
+      // Phase 1: LLM看全部 raw labels，定義 ≤10 個標準 sub-criteria
+      console.log(`[Step 3] ${criterionId}: defining standard sub-criteria via LLM (${entries.length} labels)...`);
+      definitions = await defineSubCriteria(criterionId, entries);
+      console.log(`[Step 3] ${criterionId}: ${definitions.length} sub-criteria defined`);
+      for (const d of definitions) {
+        console.log(`  · "${d.name}": ${d.description}`);
+      }
+      // Phase 1 完成，立刻存檔（raw_labels 暫為空，標記 Phase 2 待做）
+      dictionary[criterionId] = definitions.map((def, i) => ({
+        id: `${criterionId}_S${i + 1}`,
+        name: def.name,
+        description: def.description,
+        raw_labels: [],
+      }));
+      saveStandardDictionary(outputDir, dictionary);
     }
 
     // Phase 2: embedding similarity 將每個 raw label 指派到最近的 sub-criteria

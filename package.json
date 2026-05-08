@@ -12,8 +12,8 @@
     "pipeline:mock": "cross-env DATA_DIR=../mock_data OUTPUT_DIR=output_mock CANDIDATE_ID= CANDIDATE_FILE= ts-node scripts/runStep01.ts",
     "step2": "ts-node scripts/runStep02.ts",
     "step2:mock": "cross-env OUTPUT_DIR=output_mock CANDIDATE_ID= ts-node scripts/runStep02.ts",
-    "step3": "ts-node scripts/runStep03.ts",
-    "step3:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep03.ts",
+    "step3": "tsx scripts/runStep03.ts",
+    "step3:mock": "cross-env OUTPUT_DIR=output_mock tsx scripts/runStep03.ts",
     "step4": "ts-node scripts/runStep04.ts",
     "step4:mock": "cross-env OUTPUT_DIR=output_mock ts-node scripts/runStep04.ts",
     "step6": "ts-node scripts/runStep06.ts",
@@ -28,6 +28,7 @@
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
+    "@xenova/transformers": "^2.17.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "umap-js": "^1.4.0",
@@ -40,6 +41,7 @@
     "cross-env": "^10.1.0",
     "nodemon": "^3.1.4",
     "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5.5.0"
   }
 }
