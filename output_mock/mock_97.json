@@ -2347,6 +2347,12 @@
     "C3": 14,
     "C4": 94
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "物聯網系統設計",
+    "邊緣運算",
+    "智慧環境專案",
+    "跨文化溝通工作坊"
+  ]
 }

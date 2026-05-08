@@ -1713,6 +1713,12 @@
     "C3": 7,
     "C4": 66
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "電子設計自動化",
+    "VLSI設計專題",
+    "機器學習在EDA中的應用",
+    "FPGA加速"
+  ]
 }

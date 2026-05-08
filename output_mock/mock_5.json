@@ -1183,6 +1183,12 @@
     "C3": 9,
     "C4": 28
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "手勢互動介面",
+    "VR/AR底層技術",
+    "新視界科技半年實習",
+    "沉浸式互動實驗室專題"
+  ]
 }

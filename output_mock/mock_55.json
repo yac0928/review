@@ -934,6 +934,12 @@
     "C3": 10,
     "C4": 17
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "加解密硬體設計",
+    "側通道攻擊防護",
+    "安芯科技硬體資安設計實習生",
+    "智慧生活創業競賽"
+  ]
 }

@@ -677,6 +677,12 @@
     "C3": 8,
     "C4": 15
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "SDN",
+    "5G/6G行動通訊",
+    "NS-3",
+    "期刊論文"
+  ]
 }

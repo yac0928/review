@@ -891,6 +891,12 @@
     "C3": 5,
     "C4": 26
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "電腦圖學",
+    "遊戲引擎設計",
+    "虛擬實境",
+    "星動科技"
+  ]
 }

@@ -969,6 +969,12 @@
     "C3": 6,
     "C4": 27
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "電子設計自動化",
+    "嵌入式AI",
+    "藍海智能產品經理實習",
+    "智慧客服系統開發"
+  ]
 }

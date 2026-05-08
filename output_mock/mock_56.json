@@ -1418,6 +1418,12 @@
     "C3": 22,
     "C4": 23
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "中文政治文本情緒探測",
+    "Hugging Face Transformers",
+    "AI倫理讀書會發起",
+    "倫理風險量化"
+  ]
 }

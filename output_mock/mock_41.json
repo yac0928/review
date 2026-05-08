@@ -1126,6 +1126,12 @@
     "C3": 11,
     "C4": 26
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "企業級AR應用",
+    "手勢辨識",
+    "最佳創新獎",
+    "創視科技兼職開發"
+  ]
 }

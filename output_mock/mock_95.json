@@ -1605,6 +1605,12 @@
     "C3": 14,
     "C4": 39
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "生物數據分析平台打造",
+    "生睿科技兼職軟體開發",
+    "疾病生物標記預測",
+    "容器化部署"
+  ]
 }

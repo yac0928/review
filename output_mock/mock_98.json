@@ -935,6 +935,12 @@
     "C3": 5,
     "C4": 31
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "進階嵌入式系統",
+    "韌體硬體整合",
+    "硬體特洛伊",
+    "區塊鏈技術"
+  ]
 }

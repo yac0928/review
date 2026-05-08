@@ -645,6 +645,12 @@
     "C3": 6,
     "C4": 12
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "異常行為偵測",
+    "機器學習模型部署",
+    "新創公司實習",
+    "產學合作"
+  ]
 }

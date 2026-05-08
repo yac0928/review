@@ -966,6 +966,12 @@
     "C3": 5,
     "C4": 36
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "硬體加速技術",
+    "運算流程優化",
+    "進階計算機結構",
+    "開源專案"
+  ]
 }

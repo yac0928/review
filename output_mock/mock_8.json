@@ -1042,6 +1042,12 @@
     "C3": 5,
     "C4": 28
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "靜態時序分析",
+    "EDA工具原理",
+    "圖論演算法",
+    "學術會議發表"
+  ]
 }

@@ -1557,6 +1557,14 @@
     "C3": 15,
     "C4": 41
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "生醫訊號處理",
+    "醫學影像分析",
+    "心理學雙主修",
+    "U-Net"
+  ],
+  "cluster_name": "學術志向規劃",
+  "cluster_description": "這群申請者對學術生涯有清晰的規劃與強烈的學習動機，展現出高度的自我反思能力。他們不僅能有效掌握專業知識，更具備將其傳遞與應用的潛力，是具備學術發展潛力的候選人。"
 }

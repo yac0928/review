@@ -1779,6 +1779,12 @@
     "C3": 12,
     "C4": 57
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "基因體資料分析",
+    "生物演算法",
+    "藥物篩選模型前期開發",
+    "軟體開發助理暑期實習"
+  ]
 }

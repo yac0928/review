@@ -908,6 +908,12 @@
     "C3": 4,
     "C4": 25
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "圖像生成",
+    "風格轉換技術",
+    "論文發表",
+    "數位內容創作平台"
+  ]
 }

@@ -1499,6 +1499,12 @@
     "C3": 11,
     "C4": 51
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "韌體開發實習生",
+    "安全晶片設計",
+    "韌體安全",
+    "嵌入式系統"
+  ]
 }

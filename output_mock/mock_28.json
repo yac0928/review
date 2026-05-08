@@ -1711,6 +1711,11 @@
     "C3": 13,
     "C4": 56
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "VLSI設計",
+    "欣純的電路異想世界",
+    "軟硬體整合"
+  ]
 }

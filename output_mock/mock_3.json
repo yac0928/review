@@ -1938,6 +1938,12 @@
     "C3": 18,
     "C4": 46
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "PQC硬體實現",
+    "輕量級密碼硬體",
+    "RISC-V處理器設計",
+    "NIST測試向量驗證"
+  ]
 }

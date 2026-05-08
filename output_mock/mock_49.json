@@ -1142,6 +1142,12 @@
     "C3": 5,
     "C4": 35
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "硬體加速技術",
+    "計算機結構",
+    "晶片設計自動化",
+    "嵌入式系統"
+  ]
 }

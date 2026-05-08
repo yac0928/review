@@ -1596,5 +1596,11 @@
     "C4": 34
   },
   "cluster_id": 0,
-  "is_medoid": false
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "大型語言模型",
+    "客服聊天機器人",
+    "新創公司商業產品開發",
+    "天文科技應用"
+  ]
 }

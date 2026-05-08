@@ -2382,6 +2382,12 @@
     "C3": 21,
     "C4": 78
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "硬體加速技術",
+    "處理器指令模擬",
+    "無人機空拍社團社長",
+    "Side Project：空拍影像處理"
+  ]
 }

@@ -1667,6 +1667,14 @@
     "C3": 33,
     "C4": 25
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "ICPC亞洲區決賽",
+    "NeRF",
+    "VR學習平台開發",
+    "產學合作"
+  ],
+  "cluster_name": "實務技術開發",
+  "cluster_description": "這群申請者擅長將專業知識應用於實際問題，並具備卓越的實作與驗證能力。他們不僅能有效構思解決方案，更致力於程式與技術的精進，是具備強大工程實務能力的候選人。"
 }

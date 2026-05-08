@@ -1730,6 +1730,12 @@
     "C3": 19,
     "C4": 34
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "Kubernetes微服務平台",
+    "雲邊協同系統",
+    "SOSP論文發表",
+    "Paxos/Raft共識演算法"
+  ]
 }

@@ -1429,6 +1429,12 @@
     "C3": 9,
     "C4": 46
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "晶片安全設計",
+    "韌體防護機制",
+    "新創公司",
+    "物聯網安全"
+  ]
 }

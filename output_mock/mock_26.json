@@ -1734,6 +1734,12 @@
     "C3": 16,
     "C4": 34
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "對抗性機器學習",
+    "區塊鏈安全",
+    "SecureFlow Technologies實習",
+    "惡意程式碼檢測"
+  ]
 }

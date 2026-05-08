@@ -1256,6 +1256,12 @@
     "C3": 3,
     "C4": 32
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "心電圖異常辨識",
+    "電商推薦系統",
+    "智連創新軟體實習",
+    "非洲志工"
+  ]
 }

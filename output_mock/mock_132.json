@@ -1793,6 +1793,14 @@
     "C3": 33,
     "C4": 27
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "分散式鍵值儲存系統",
+    "邊緣運算排程器優化",
+    "OSDI",
+    "獨立電影製作"
+  ],
+  "cluster_name": "實務技術開發",
+  "cluster_description": "這群申請者擅長將專業知識應用於實際問題，並具備卓越的實作與驗證能力。他們不僅能有效構思解決方案，更致力於程式與技術的精進，是具備強大工程實務能力的候選人。"
 }

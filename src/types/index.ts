@@ -41,6 +41,7 @@ export interface Candidate {
   // Filled in Step 7+:
   cluster_id?: number;
   cluster_name?: string;
+  cluster_description?: string;
   is_medoid?: boolean;
   distinctive_hashtags?: string[];
 }

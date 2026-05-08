@@ -926,6 +926,12 @@
     "C3": 7,
     "C4": 29
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "智慧環境應用",
+    "物聯網通訊",
+    "嵌入式系統",
+    "邊緣運算"
+  ]
 }

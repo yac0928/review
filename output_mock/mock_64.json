@@ -1843,6 +1843,12 @@
     "C3": 24,
     "C4": 28
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "一致性演算法Paxos",
+    "Kafka與Flink日誌管線",
+    "OSDI頂會論文發表",
+    "攝影展覽策劃"
+  ]
 }

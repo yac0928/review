@@ -610,6 +610,12 @@
     "C3": 9,
     "C4": 17
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "分散式系統",
+    "雲端計算",
+    "大量請求處理",
+    "研究成果發表"
+  ]
 }

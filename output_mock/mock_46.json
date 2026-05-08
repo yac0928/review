@@ -2063,6 +2063,12 @@
     "C3": 22,
     "C4": 35
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "韌體開發",
+    "軟硬體協同設計",
+    "創業經歷",
+    "智慧寵物餵食器"
+  ]
 }

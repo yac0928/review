@@ -880,6 +880,12 @@
     "C3": 7,
     "C4": 20
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "大型語言模型",
+    "圖神經網路",
+    "巨星科技後端開發實習",
+    "哲學語義"
+  ]
 }

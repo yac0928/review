@@ -16,7 +16,10 @@ interface CandidateEntry {
 }
 
 function loadEntries(outputDir: string): CandidateEntry[] {
-  const files = fs.readdirSync(outputDir).filter(f => f.endsWith('.json') && !EXCLUDED.has(f));
+  const files = fs
+    .readdirSync(outputDir)
+    .filter((f) => /^mock_\d+\.json$/.test(f));
+
   const entries: CandidateEntry[] = [];
 
   for (const file of files) {
@@ -153,8 +156,8 @@ export interface ClusterSummary {
     medoid: string;
     members: string[];
     cluster_name?: string;
+    cluster_description?: string;
     top_sub_criteria?: Array<{ name: string; count: number }>;
-    top_hashtags?: Array<{ tag: string; count: number }>;
   }>;
 }
 

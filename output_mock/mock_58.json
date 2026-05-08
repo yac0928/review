@@ -651,6 +651,12 @@
     "C3": 4,
     "C4": 7
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "安全晶片系統設計",
+    "RISC-V",
+    "即時作業系統",
+    "ISCAS"
+  ]
 }

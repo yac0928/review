@@ -677,6 +677,14 @@
     "C3": 5,
     "C4": 22
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "遊戲新創公司實習",
+    "遊戲功能開發",
+    "互動媒體研究室",
+    "數位學習內容開發"
+  ],
+  "cluster_name": "學術志向規劃",
+  "cluster_description": "這群申請者對學術生涯有清晰的規劃與強烈的學習動機，展現出高度的自我反思能力。他們不僅能有效掌握專業知識，更具備將其傳遞與應用的潛力，是具備學術發展潛力的候選人。"
 }

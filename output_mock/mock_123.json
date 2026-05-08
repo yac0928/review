@@ -1836,6 +1836,14 @@
     "C3": 33,
     "C4": 25
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "PQC硬體加速器",
+    "側信道攻擊防禦",
+    "街頭塗鴉藝術家",
+    "資工系專題競賽特優"
+  ],
+  "cluster_name": "實務技術開發",
+  "cluster_description": "這群申請者擅長將專業知識應用於實際問題，並具備卓越的實作與驗證能力。他們不僅能有效構思解決方案，更致力於程式與技術的精進，是具備強大工程實務能力的候選人。"
 }

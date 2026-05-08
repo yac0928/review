@@ -975,5 +975,11 @@
     "C4": 17
   },
   "cluster_id": 0,
-  "is_medoid": false
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "高維度資料降維",
+    "詐欺偵測",
+    "創數科技資料工程實習",
+    "Apache Spark巨量資料處理"
+  ]
 }

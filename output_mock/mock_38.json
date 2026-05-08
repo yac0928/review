@@ -1625,6 +1625,12 @@
     "C3": 11,
     "C4": 48
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "電腦視覺",
+    "訊號處理",
+    "多媒體與互動科技實驗室",
+    "新創公司"
+  ]
 }

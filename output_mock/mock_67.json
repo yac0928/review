@@ -1011,6 +1011,12 @@
     "C3": 8,
     "C4": 21
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "量子密碼",
+    "安全通訊協定",
+    "安訊科技",
+    "智慧通訊安全實驗室"
+  ]
 }

@@ -1480,6 +1480,12 @@
     "C3": 12,
     "C4": 43
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "分散式系統",
+    "輕量級分散式日誌收集系統",
+    "智聯科技軟體開發實習生",
+    "分散式共識演算法"
+  ]
 }

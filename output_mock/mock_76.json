@@ -1549,6 +1549,12 @@
     "C3": 18,
     "C4": 26
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "輕量化區塊密碼硬體架構設計",
+    "SystemVerilog UVM",
+    "晨星半導體硬體驗證實習生",
+    "CHES國際會議論文"
+  ]
 }

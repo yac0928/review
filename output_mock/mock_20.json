@@ -1785,6 +1785,12 @@
     "C3": 18,
     "C4": 38
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "硬體安全",
+    "韌體安全",
+    "功耗側通道分析",
+    "RISC-V"
+  ]
 }

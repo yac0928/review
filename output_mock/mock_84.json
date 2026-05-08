@@ -1017,6 +1017,12 @@
     "C3": 10,
     "C4": 22
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "智慧農業",
+    "作物病蟲害識別",
+    "輕量級深度學習",
+    "國際期刊論文"
+  ]
 }

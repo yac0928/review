@@ -1632,6 +1632,12 @@
     "C3": 7,
     "C4": 58
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "加解密硬體架構",
+    "量子密碼",
+    "期刊發表",
+    "加密演算法分析"
+  ]
 }

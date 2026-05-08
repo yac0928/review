@@ -1905,6 +1905,14 @@
     "C3": 37,
     "C4": 34
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "智慧製造異常偵測",
+    "高維度數據降維分析",
+    "分散式巨量資料處理",
+    "製造業產學合作專案"
+  ],
+  "cluster_name": "實務技術開發",
+  "cluster_description": "這群申請者擅長將專業知識應用於實際問題，並具備卓越的實作與驗證能力。他們不僅能有效構思解決方案，更致力於程式與技術的精進，是具備強大工程實務能力的候選人。"
 }

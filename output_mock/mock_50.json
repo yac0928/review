@@ -1307,6 +1307,12 @@
     "C3": 22,
     "C4": 18
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "創業經歷",
+    "推薦系統",
+    "Spark框架",
+    "圖神經網路"
+  ]
 }

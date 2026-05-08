@@ -1599,6 +1599,12 @@
     "C3": 13,
     "C4": 32
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "編譯器設計",
+    "程式靜態分析",
+    "LLVM二次開發",
+    "魔術社團活動組長"
+  ]
 }

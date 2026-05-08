@@ -938,6 +938,12 @@
     "C3": 10,
     "C4": 21
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "電腦視覺研究",
+    "物件辨識",
+    "影像資料分析",
+    "論文投稿"
+  ]
 }

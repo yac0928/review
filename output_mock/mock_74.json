@@ -959,6 +959,12 @@
     "C3": 7,
     "C4": 21
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "AR輔助廢棄物分類教學系統",
+    "產學合作專案",
+    "物聯網原型開發",
+    "使用者體驗設計"
+  ]
 }

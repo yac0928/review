@@ -2223,6 +2223,12 @@
     "C3": 15,
     "C4": 62
   },
-  "cluster_id": 2,
-  "is_medoid": true
+  "cluster_id": 0,
+  "is_medoid": true,
+  "distinctive_hashtags": [
+    "電子設計自動化 (EDA)",
+    "FPGA影像處理加速",
+    "創星科技暑期實習",
+    "低功耗硬體設計"
+  ]
 }

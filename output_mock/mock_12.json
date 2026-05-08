@@ -2064,6 +2064,14 @@
     "C3": 26,
     "C4": 47
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "YOLOv3物件偵測",
+    "暗通道先驗去霧",
+    "圖靈之眼業界實習",
+    "攝影比賽獲獎"
+  ],
+  "cluster_name": "學術志向規劃",
+  "cluster_description": "這群申請者對學術生涯有清晰的規劃與強烈的學習動機，展現出高度的自我反思能力。他們不僅能有效掌握專業知識，更具備將其傳遞與應用的潛力，是具備學術發展潛力的候選人。"
 }

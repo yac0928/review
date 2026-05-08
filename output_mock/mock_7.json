@@ -1810,6 +1810,11 @@
     "C3": 20,
     "C4": 36
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "惡意程式偵測系統",
+    "智慧合約安全分析",
+    "新創資安聯防科技實習"
+  ]
 }

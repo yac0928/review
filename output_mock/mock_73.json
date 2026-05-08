@@ -1272,6 +1272,12 @@
     "C3": 9,
     "C4": 35
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "生物醫學資料分析",
+    "智慧醫療解決方案",
+    "國際會議發表",
+    "跨域結合"
+  ]
 }

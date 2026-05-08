@@ -1374,6 +1374,14 @@
     "C3": 21,
     "C4": 34
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "CTF",
+    "OWASP Top 10",
+    "逆向工程",
+    "加密通訊系統"
+  ],
+  "cluster_name": "學術志向規劃",
+  "cluster_description": "這群申請者對學術生涯有清晰的規劃與強烈的學習動機，展現出高度的自我反思能力。他們不僅能有效掌握專業知識，更具備將其傳遞與應用的潛力，是具備學術發展潛力的候選人。"
 }

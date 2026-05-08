@@ -1237,6 +1237,14 @@
     "C3": 24,
     "C4": 21
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "DDoS防禦策略研究",
+    "智慧合約漏洞檢測",
+    "全國資安技能競賽前八名",
+    "趨勢科技暑期研究實習"
+  ],
+  "cluster_name": "實務技術開發",
+  "cluster_description": "這群申請者擅長將專業知識應用於實際問題，並具備卓越的實作與驗證能力。他們不僅能有效構思解決方案，更致力於程式與技術的精進，是具備強大工程實務能力的候選人。"
 }

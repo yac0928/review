@@ -1158,6 +1158,12 @@
     "C3": 12,
     "C4": 29
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "SDN多媒體串流",
+    "Ryu控制器",
+    "智聯軟體科技實習",
+    "API高併發"
+  ]
 }

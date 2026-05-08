@@ -1539,6 +1539,12 @@
     "C3": 13,
     "C4": 52
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "旭日科技軟體開發實習生",
+    "無線網路",
+    "物聯網通訊",
+    "雲端數據收集平台"
+  ]
 }

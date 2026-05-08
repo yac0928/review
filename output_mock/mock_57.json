@@ -850,6 +850,12 @@
     "C3": 6,
     "C4": 24
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "區塊鏈技術",
+    "資訊安全",
+    "分散式系統",
+    "智慧城市提案競賽"
+  ]
 }

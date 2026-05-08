@@ -1615,6 +1615,12 @@
     "C3": 16,
     "C4": 29
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "FPGA硬體加速",
+    "網路攻擊偵測",
+    "ELK Stack日誌分析",
+    "捷安網路科技實習"
+  ]
 }

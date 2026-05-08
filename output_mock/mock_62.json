@@ -1336,5 +1336,11 @@
     "C4": 25
   },
   "cluster_id": 0,
-  "is_medoid": false
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "生醫訊號處理",
+    "醫學影像分析",
+    "肺部X光影像異常偵測",
+    "智聯生醫科技實習"
+  ]
 }

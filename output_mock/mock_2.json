@@ -1444,6 +1444,12 @@
     "C3": 13,
     "C4": 34
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "圖神經網路",
+    "Apache Spark",
+    "Kaggle競賽",
+    "學術會議投稿"
+  ]
 }

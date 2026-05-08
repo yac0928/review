@@ -825,6 +825,12 @@
     "C3": 7,
     "C4": 21
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "IPS硬體加速",
+    "FPGA開發",
+    "深度封包檢測",
+    "論文投稿"
+  ]
 }

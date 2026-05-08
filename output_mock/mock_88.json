@@ -804,6 +804,12 @@
     "C3": 6,
     "C4": 23
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "推薦系統",
+    "產學合作專案",
+    "成果發表",
+    "獨立遊戲設計"
+  ]
 }

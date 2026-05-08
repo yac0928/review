@@ -2629,6 +2629,14 @@
     "C3": 48,
     "C4": 42
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "法律學系輔修",
+    "AI自動攻防",
+    "智慧合約安全",
+    "Web應用程式弱點掃描器開發"
+  ],
+  "cluster_name": "實務技術開發",
+  "cluster_description": "這群申請者擅長將專業知識應用於實際問題，並具備卓越的實作與驗證能力。他們不僅能有效構思解決方案，更致力於程式與技術的精進，是具備強大工程實務能力的候選人。"
 }

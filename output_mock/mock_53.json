@@ -1171,6 +1171,12 @@
     "C3": 11,
     "C4": 35
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "編譯器設計",
+    "分散式系統容錯性",
+    "形式化方法",
+    "國際期刊論文"
+  ]
 }

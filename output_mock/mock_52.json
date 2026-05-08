@@ -758,6 +758,12 @@
     "C3": 4,
     "C4": 23
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "嵌入式系統安全",
+    "韌體開發",
+    "科技公司實習",
+    "研究專題"
+  ]
 }

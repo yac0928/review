@@ -1290,6 +1290,12 @@
     "C3": 9,
     "C4": 26
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "RISC-V核心設計",
+    "硬體加速器設計",
+    "勁速科技實習",
+    "校報社記者"
+  ]
 }

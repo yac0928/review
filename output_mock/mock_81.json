@@ -1184,6 +1184,12 @@
     "C3": 6,
     "C4": 35
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "電腦視覺",
+    "金融數據分析",
+    "金融交易模擬競賽",
+    "學術發表"
+  ]
 }

@@ -1056,6 +1056,12 @@
     "C3": 8,
     "C4": 35
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "嵌入式系統進階",
+    "機器學習物聯網",
+    "智慧系統設計",
+    "歷史學程輔修"
+  ]
 }

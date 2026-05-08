@@ -1160,6 +1160,12 @@
     "C3": 12,
     "C4": 29
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "軟體工程方法",
+    "Flask網頁應用程式",
+    "Kotlin行動應用開發",
+    "開源專案貢獻"
+  ]
 }

@@ -1780,6 +1780,12 @@
     "C3": 9,
     "C4": 68
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "數據分析工作坊講師",
+    "股價趨勢預測",
+    "自然語言處理",
+    "開源專案"
+  ]
 }

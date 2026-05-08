@@ -1012,6 +1012,11 @@
     "C3": 10,
     "C4": 25
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "區塊鏈多媒體防偽系統",
+    "智能合約撰寫",
+    "未來視野科技工作室"
+  ]
 }

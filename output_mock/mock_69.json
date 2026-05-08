@@ -2512,6 +2512,12 @@
     "C3": 30,
     "C4": 60
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "AI自動攻防",
+    "惡意程式辨識",
+    "網路安全公司實習",
+    "天文攝影"
+  ]
 }

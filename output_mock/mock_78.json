@@ -996,6 +996,12 @@
     "C3": 11,
     "C4": 30
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "硬體安全",
+    "硬體特洛伊",
+    "Verilog HDL",
+    "碩士論文"
+  ]
 }

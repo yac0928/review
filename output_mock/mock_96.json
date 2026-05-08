@@ -1437,6 +1437,12 @@
     "C3": 14,
     "C4": 40
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "AI晶片技術",
+    "編譯器設計",
+    "實驗室研究專案",
+    "跨域背景"
+  ]
 }

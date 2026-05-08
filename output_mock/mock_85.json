@@ -1753,6 +1753,12 @@
     "C3": 20,
     "C4": 38
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "智能合約漏洞偵測",
+    "零知識證明",
+    "IEEE S&P論文發表",
+    "國際資安研討會口譯"
+  ]
 }

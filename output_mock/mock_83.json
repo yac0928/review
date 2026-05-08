@@ -1445,6 +1445,12 @@
     "C3": 9,
     "C4": 36
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "安全晶片韌體開發",
+    "嵌入式系統安全",
+    "Verilog數位設計",
+    "產學合作專案"
+  ]
 }

@@ -1074,6 +1074,12 @@
     "C3": 8,
     "C4": 35
   },
-  "cluster_id": 2,
-  "is_medoid": false
+  "cluster_id": 0,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "入侵偵測",
+    "網路漏洞",
+    "軟體開發工讀",
+    "攻擊模擬"
+  ]
 }

@@ -757,6 +757,12 @@
     "C3": 6,
     "C4": 15
   },
-  "cluster_id": 0,
-  "is_medoid": false
+  "cluster_id": 1,
+  "is_medoid": false,
+  "distinctive_hashtags": [
+    "網路攻擊偵測",
+    "硬體架構設計",
+    "期刊發表",
+    "資安產品"
+  ]
 }
