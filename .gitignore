@@ -3,3 +3,6 @@ dist/
 .env
 output/
 data/
+models/
+output_mock/embeddings_cache.json
+output_mock_old/embeddings_cache.json
